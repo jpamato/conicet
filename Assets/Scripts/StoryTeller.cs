@@ -9,20 +9,21 @@ public class StoryTeller : ScreenMain
     public Text field;
     StoriesData.Content content;
 
-    private void OnEnable()
+    public override void OnEnable()
     {
+        base.OnEnable();
         Events.OnNewKeyframeReached += OnNewKeyframeReached;
-        Events.OnBack += OnBack;
+        
     }
-    private void OnDisable()
+    public override void OnDisable()
     {
+        base.OnDisable();
         Events.OnNewKeyframeReached -= OnNewKeyframeReached;
-        Events.OnBack -= OnBack;
     }
-    void OnBack()
+    public override void OnBack()
     {
         Events.StopAudioPlayer();
-        Open(types.STORIES_SELECTOR);
+        Open(types.DAY);
     }
     public override void Show()
     {
@@ -43,6 +44,6 @@ public class StoryTeller : ScreenMain
     }
     void OnReady()
     {
-        Open(types.STORIES_SELECTOR);
+        Open(types.DAYS_SELECTOR);
     }
 }

@@ -14,7 +14,11 @@ public class ScreensManager : MonoBehaviour
     }
     void LoopLoad()
     {
-        if (Data.Instance.storiesData.content.Count > 0)
+        if (
+            Data.Instance.storiesData.content.Count > 0
+            &&
+            Data.Instance.daysData.content.Count > 0
+            )
             Init();
         else
             Invoke("LoopLoad", 0.1f);
@@ -23,7 +27,7 @@ public class ScreensManager : MonoBehaviour
     {
         foreach (ScreenMain sMain in all)
             sMain.Init(this);
-        Open(ScreenMain.types.STORIES_SELECTOR);
+        Open(ScreenMain.types.DAYS_SELECTOR);
     }
     public void Open(ScreenMain.types type)
     {

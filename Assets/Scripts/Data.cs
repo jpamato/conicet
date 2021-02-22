@@ -13,6 +13,7 @@ public class Data : MonoBehaviour
     [HideInInspector] public string newScene;
     [HideInInspector] public SpreadsheetLoader spreadsheetLoader;
     [HideInInspector] public StoriesData storiesData;
+    [HideInInspector] public DaysData daysData;
 
     public static Data Instance
     {
@@ -55,6 +56,6 @@ public class Data : MonoBehaviour
         DontDestroyOnLoad(this);
         spreadsheetLoader = GetComponent<SpreadsheetLoader>();
         storiesData = GetComponent<StoriesData>();
-
+        daysData = GetComponent<DaysData>();
     }
 }

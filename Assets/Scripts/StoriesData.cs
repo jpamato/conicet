@@ -25,6 +25,13 @@ public class StoriesData : MonoBehaviour
     {
         OnDataLoaded(content, d);
     }
+    public Content GetContent(string story_id)
+    {
+        foreach (Content c in content)
+            if (c.id == story_id)
+                return c;
+        return null;
+    }
     public void SetContent(Content content)
     {
         activeContent = content;
@@ -39,7 +46,7 @@ public class StoriesData : MonoBehaviour
         {
             foreach (string value in line.data)
             {
-                print("row: " + rowID + "  colID: " + colID + "  value: " + value);
+               // print("row: " + rowID + "  colID: " + colID + "  value: " + value);
                 if (rowID >= 1)
                 {
                     if (colID == 0)
@@ -78,7 +85,7 @@ public class StoriesData : MonoBehaviour
                             if(value != "")
                                 textData.seconds = Utils.GetTotalSecondsFromString(value);
                             contentLine.textsData.Add(textData);
-                            print("contentLine: " + contentLine.textsData.Count);
+                            //print("contentLine: " + contentLine.textsData.Count);
                         }
                     }
                 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 114000013950545636}
   - component: {fileID: 3454526606163090994}
   - component: {fileID: 8966467205408793110}
+  - component: {fileID: 5587126282958235658}
   m_Layer: 0
   m_Name: DATA
   m_TagString: Untagged
@@ -48,6 +49,8 @@ MonoBehaviour:
   DEBUG: 0
   lastScene: 
   newScene: 
+  spreadsheetLoader: {fileID: 0}
+  storiesData: {fileID: 0}
 --- !u!114 &3454526606163090994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,3 +75,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f99a0df0e4e12a74cbc685b5b1731cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  content: []
+  activeContent:
+    id: 
+    name: 
+    folder: 
+    audioClip: {fileID: 0}
+    textsData: []
+--- !u!114 &5587126282958235658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c7140e0ea1c34b84790843d50ec27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: []
+  activeContent:
+    day: 0
+    story_id: 
+    games: []

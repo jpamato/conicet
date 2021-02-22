@@ -8,9 +8,19 @@ public class ScreenMain : MonoBehaviour
     public types type;
     public enum types
     {
-        STORIES_SELECTOR,
+        DAYS_SELECTOR,
+        DAY,
         STORY_TELLER
     }
+    public virtual void OnEnable()
+    {
+        Events.OnBack += OnBack;
+    }
+    public virtual void OnDisable()
+    {
+        Events.OnBack -= OnBack;
+    }
+    public virtual void OnBack()  {  }
     public virtual void Init(ScreensManager manager)
     {
         this.manager = manager;
