@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3454526606163090994}
   - component: {fileID: 8966467205408793110}
   - component: {fileID: 5587126282958235658}
+  - component: {fileID: 1480788710}
   m_Layer: 0
   m_Name: DATA
   m_TagString: Untagged
@@ -51,6 +52,7 @@ MonoBehaviour:
   newScene: 
   spreadsheetLoader: {fileID: 0}
   storiesData: {fileID: 0}
+  daysData: {fileID: 0}
 --- !u!114 &3454526606163090994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,5 +99,24 @@ MonoBehaviour:
   content: []
   activeContent:
     day: 0
+    type: 0
     story_id: 
     games: []
+--- !u!114 &1480788710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4c58abc38d67744ac05acce3b5c01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
+  content: []
+  activeContent:
+    name: 
+    sprite: {fileID: 0}
+    audioClip: {fileID: 0}
