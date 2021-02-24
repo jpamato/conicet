@@ -31,6 +31,9 @@ public class Memotest : ScreenMain
     }
     private void Init()
     {
+        title.text = Data.Instance.textsData.GetText("memotest_consigna");
+       // Events.PlaySound("voices", "animals/" + corrects[id], false);
+
         Utils.RemoveAllChildsIn(container);
         MemotestData.Content mContent = Data.Instance.memotestData.GetContent(storyData.id);
         Utils.Shuffle(mContent.animals);
@@ -45,14 +48,18 @@ public class Memotest : ScreenMain
         }
         Utils.Shuffle(corrects);
         StartCoroutine(SetCardsOff(2));
-        SetNew();
     }
     void SetNew()
     {
         if (id >= corrects.Count)
             state = states.INIT;
         else
-            title.text = corrects[id];        
+            SetWord();
+    }
+    void SetWord()
+    {
+        title.text = corrects[id];
+        Events.PlaySound("voices", "animals/" + corrects[id], false);
     }
     public override void OnBack()
     {
@@ -79,7 +86,7 @@ public class Memotest : ScreenMain
         else
         {
             card.SetWrong();
-            StartCoroutine(SetCardsOff(2));
+            StartCoroutine(SetCardsOff(0.8f));
         }            
     }
     IEnumerator SetCardsOff(float delay)
@@ -91,6 +98,7 @@ public class Memotest : ScreenMain
                 card.SetOff();
         }           
         yield return new WaitForSeconds(1);
+        SetWord();
         state = states.IDLE;
         // OnDone();
     }

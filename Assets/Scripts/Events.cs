@@ -10,5 +10,8 @@ public static class Events
     public static System.Action<bool> SetBackButton = delegate { };
     public static System.Action OnBack = delegate { };
 
+    public static System.Action<string, string, bool> PlaySound = delegate { };
+    public static System.Action<string, float> ChangeVolume = delegate { };
+
 }
    

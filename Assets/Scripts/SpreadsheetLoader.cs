@@ -45,8 +45,8 @@ public class SpreadsheetLoader : MonoBehaviour
         }            
         return line;
     }
-    public string ParseString(string value)
+    string ParseString(string text)
     {
-        return Regex.Escape(value).Replace("\\r", "");
+        return text.Replace("\r", "").Replace("\n", "");
     }
 }

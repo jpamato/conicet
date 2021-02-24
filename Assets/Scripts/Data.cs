@@ -16,6 +16,7 @@ public class Data : MonoBehaviour
     [HideInInspector] public DaysData daysData;
     [HideInInspector] public AssetsData assetsData;
     [HideInInspector] public MemotestData memotestData;
+    [HideInInspector] public TextsData textsData;
 
     public static Data Instance
     {
@@ -61,5 +62,6 @@ public class Data : MonoBehaviour
         daysData = GetComponent<DaysData>();
         assetsData = GetComponent<AssetsData>();
         memotestData = GetComponent<MemotestData>();
+        textsData = GetComponent<TextsData>();
     }
 }
