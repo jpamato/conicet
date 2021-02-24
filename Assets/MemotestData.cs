@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AssetsData : MonoBehaviour
+public class MemotestData : MonoBehaviour
 {
-    public string url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv";
+    public string url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1404297154&single=true&output=tsv";
     public List<Content> content;
     [HideInInspector] public Content activeContent;
 
     [System.Serializable]
     public class Content
     {
-        public string name;
-        public Sprite sprite;
-        public AudioClip audioClip;
+        public string id;
+        public List<string> animals;
     }
     void Start()
     {
@@ -27,6 +26,10 @@ public class AssetsData : MonoBehaviour
     {
         activeContent = content;
     }
+    public Content GetContent(string storyID)
+    {
+        return content.Find((x) => x.id == storyID);
+    }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {
         int colID = 0;
@@ -39,16 +42,22 @@ public class AssetsData : MonoBehaviour
                 //print("row: " + rowID + "  colID: " + colID + "  value: " + value);
                 if (rowID >= 1)
                 {
-                    if (colID == 1)
+                    if (colID == 0)
                     {
-                        if (value != "")
+                        if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
-                            contentLine.name =  value;
-                            contentLine.sprite = Resources.Load<Sprite>("animals/" + value) as Sprite;
-                            contentLine.audioClip = Resources.Load<AudioClip>("animals/" + value) as AudioClip;
+                            contentLine.id = value;
+
+                            contentLine.animals = new List<string>();
+
                             content.Add(contentLine);
                         }
+                    }
+                    else
+                    {
+                        if (colID == 1 && value != "")
+                            contentLine.animals.Add(value);
                     }
                 }
                 colID++;

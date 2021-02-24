@@ -14,6 +14,8 @@ public class Data : MonoBehaviour
     [HideInInspector] public SpreadsheetLoader spreadsheetLoader;
     [HideInInspector] public StoriesData storiesData;
     [HideInInspector] public DaysData daysData;
+    [HideInInspector] public AssetsData assetsData;
+    [HideInInspector] public MemotestData memotestData;
 
     public static Data Instance
     {
@@ -57,5 +59,7 @@ public class Data : MonoBehaviour
         spreadsheetLoader = GetComponent<SpreadsheetLoader>();
         storiesData = GetComponent<StoriesData>();
         daysData = GetComponent<DaysData>();
+        assetsData = GetComponent<AssetsData>();
+        memotestData = GetComponent<MemotestData>();
     }
 }

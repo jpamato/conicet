@@ -10,7 +10,8 @@ public class ScreenMain : MonoBehaviour
     {
         DAYS_SELECTOR,
         DAY,
-        STORY_TELLER
+        STORY_TELLER,
+        MEMOTEST
     }
     public virtual void OnEnable()
     {
@@ -36,5 +37,18 @@ public class ScreenMain : MonoBehaviour
     public void Open(types type)
     {
         manager.Open(type);
+    }
+    public void Open(StoriesData.Content storyData, GameData.types type)
+    {
+        Data.Instance.storiesData.SetContent(storyData);
+        switch(type)
+        {
+            case GameData.types.read_automatic:
+                manager.Open(types.STORY_TELLER);
+                break;
+            case GameData.types.memotest:
+                manager.Open(types.MEMOTEST);
+                break;
+        }        
     }
 }

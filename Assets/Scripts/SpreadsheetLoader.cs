@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Text.RegularExpressions;
 
 public class SpreadsheetLoader : MonoBehaviour
 {
@@ -36,6 +37,16 @@ public class SpreadsheetLoader : MonoBehaviour
     {
         Line line = new Line();
         line.data = lineData.Split("\t"[0]);
+        int id = 0;
+        foreach (string s in line.data)
+        {
+            line.data[id] = ParseString(s);
+            id++;
+        }            
         return line;
+    }
+    public string ParseString(string value)
+    {
+        return Regex.Escape(value).Replace("\\r", "");
     }
 }

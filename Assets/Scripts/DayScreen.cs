@@ -28,8 +28,7 @@ public class DayScreen : ScreenMain
     }
     public void OnContentClicked(DaysData.Content content, GameData gameData)
     {
-        StoriesData.Content storiesData = Data.Instance.storiesData.GetContent(content.story_id);
-        Data.Instance.storiesData.SetContent(storiesData);
-        Open(types.STORY_TELLER);
+        StoriesData.Content storyData = Data.Instance.storiesData.GetContent(content.story_id);
+        Open(storyData, gameData.type);
     }
 }
