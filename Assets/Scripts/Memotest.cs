@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Memotest : ScreenMain
 {
+    [SerializeField] GameObject initialButtonPanel;
     [SerializeField] MemotestCard card_to_add;
     [SerializeField] Transform container;
     public List<MemotestCard> cards;
@@ -24,15 +25,22 @@ public class Memotest : ScreenMain
 
     public override void Show()
     {
+        
         base.Show();
         storyData = Data.Instance.storiesData.activeContent;
         if (storyData == null) return;
         Init();
     }
+    public void InitialButtonClicked()
+    {
+        StartCoroutine(SetCardsOff(0));
+        initialButtonPanel.SetActive(false);
+    }
     private void Init()
     {
         title.text = Data.Instance.textsData.GetText("memotest_consigna");
-       // Events.PlaySound("voices", "animals/" + corrects[id], false);
+        // Events.PlaySound("voices", "animals/" + corrects[id], false);
+        initialButtonPanel.SetActive(true);
 
         Utils.RemoveAllChildsIn(container);
         MemotestData.Content mContent = Data.Instance.memotestData.GetContent(storyData.id);
@@ -47,7 +55,7 @@ public class Memotest : ScreenMain
             corrects.Add(assetContent.name);
         }
         Utils.Shuffle(corrects);
-        StartCoroutine(SetCardsOff(2));
+        
     }
     void SetNew()
     {

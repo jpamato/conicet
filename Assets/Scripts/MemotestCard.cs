@@ -12,10 +12,12 @@ public class MemotestCard : MonoBehaviour
         OFF,
         DONE
     }
-    public Image image;
+    [SerializeField] Image image;
     Animation anim;
     Memotest memotest;
-    public AssetsData.Content content;
+    [HideInInspector] public AssetsData.Content content;
+    [SerializeField] Text field;
+
     public void Init(Memotest memotest, AssetsData.Content content)
     {
         this.memotest = memotest;
@@ -23,6 +25,7 @@ public class MemotestCard : MonoBehaviour
         anim = GetComponent<Animation>();
         image.sprite = content.sprite;
         SetOn();
+        field.text = content.name;
     }
     public void SetDone()
     {

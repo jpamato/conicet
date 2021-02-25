@@ -28,7 +28,9 @@ public class TextsData : MonoBehaviour
     }
     public string GetText(string id)
     {
-        return content.Find((x) => x.id == id).text;
+        Content c =  content.Find((x) => x.id == id);
+        if (c == null) Debug.Log("Error: No existe TextData para " + id);
+        return c.text;
     }
     public Content GetContent(string id)
     {
