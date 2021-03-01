@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     }
     void Start()
     {
+        Events.PlaySoundTillReady += PlaySoundTillReady;
         Events.PlaySound += PlaySound;
         Events.ChangeVolume += ChangeVolume;
         foreach (AudioSourceManager m in all)
@@ -25,6 +26,7 @@ public class AudioManager : MonoBehaviour
     }
     private void OnDestroy()
     {
+        Events.PlaySoundTillReady -= PlaySoundTillReady;
         Events.ChangeVolume -= ChangeVolume;
         Events.PlaySound -= PlaySound;
     }
@@ -38,6 +40,10 @@ public class AudioManager : MonoBehaviour
     }
     void PlaySound(string sourceName, string audioName, bool loop)
     {
+        PlaySoundAndReturn(sourceName, audioName, loop);
+    }
+    AudioSource PlaySoundAndReturn(string sourceName, string audioName, bool loop)
+    {
         foreach(AudioSourceManager m in all)
         {
             if(m.sourceName == sourceName)
@@ -45,7 +51,32 @@ public class AudioManager : MonoBehaviour
                 m.audioSource.clip = Resources.Load<AudioClip>(audioName) as AudioClip;
                 m.audioSource.Play();
                 m.audioSource.loop = loop;
+                return m.audioSource;
             }
         }
+        return null;
+    }
+    bool playing;
+    System.Action OnDone;
+    AudioSource playingSource;
+    void PlaySoundTillReady(string sourceName, string audioName, System.Action OnDone)
+    {
+        playingSource = PlaySoundAndReturn(sourceName, audioName, false);
+        this.OnDone = OnDone;
+        playing = true;
+    }
+    void Update()
+    {
+        if (!playing)
+            return;
+
+        float timer = playingSource.time;
+        if (!playingSource.isPlaying && OnDone != null && timer >0.1f)
+        {
+            OnDone();
+            playing = false;
+            playingSource = null;
+        }
+
     }
 }

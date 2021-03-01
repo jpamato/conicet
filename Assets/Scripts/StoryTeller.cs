@@ -30,6 +30,11 @@ public class StoryTeller : ScreenMain
         base.Show();
         Events.SetBackButton(true);
         content = Data.Instance.storiesData.activeContent;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_maestra");
+        Events.OnCharacterSay(tipContent, OnTipDone);
+    }
+    void OnTipDone()
+    {
         Events.SetAudioPlayer(content.audioClip, content.textsData, OnReady);
     }
     private void Reset()

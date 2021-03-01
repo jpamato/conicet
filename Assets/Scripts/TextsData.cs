@@ -13,6 +13,7 @@ public class TextsData : MonoBehaviour
     {
         public string id;
         public string text;
+        public CharactersManager.types character_type;
     }
     void Start()
     {
@@ -60,6 +61,8 @@ public class TextsData : MonoBehaviour
                     else
                     {
                         if (colID == 1 && value != "")
+                            contentLine.character_type = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), value);
+                        if (colID == 2 && value != "")
                             contentLine.text = value;
                     }
                 }
