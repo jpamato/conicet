@@ -20,14 +20,14 @@ public class StoryTeller : ScreenMain
         base.OnDisable();
         Events.OnNewKeyframeReached -= OnNewKeyframeReached;
     }
-    public override void OnBack()
+    public override void OnOff()
     {
+        print("on off");
         Events.StopAudioPlayer();
-        Open(types.DAY);
+        Events.OnCharacterSay(null,null);
     }
-    public override void Show()
+    public override void OnReady()
     {
-        base.Show();
         Events.SetBackButton(true);
         content = Data.Instance.storiesData.activeContent;
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_maestra");
@@ -35,7 +35,8 @@ public class StoryTeller : ScreenMain
     }
     void OnTipDone()
     {
-        Events.SetAudioPlayer(content.audioClip, content.textsData, OnReady);
+        Events.SetNextButton(true);
+        Events.SetAudioPlayer(content.audioClip, content.textsData, null);
     }
     private void Reset()
     {
@@ -46,9 +47,5 @@ public class StoryTeller : ScreenMain
     {
         field.text = content.textsData[id].text;
         image.sprite = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
-    }
-    void OnReady()
-    {
-        Open(types.DAYS_SELECTOR);
     }
 }

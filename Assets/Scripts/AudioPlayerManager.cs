@@ -44,6 +44,7 @@ public class AudioPlayerManager : MonoBehaviour
         Reset();
         panel.SetActive(true);
         this.OnDone = OnDone;
+        print(clip);
         audioSource.clip = clip;
         duration = clip.length;
         this.timelineTextData = timelineTextData;

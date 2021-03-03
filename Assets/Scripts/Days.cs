@@ -7,10 +7,10 @@ public class Days : ScreenMain
     public Transform container;
     public DayButton button;
 
-    public override void Show()
+    public override void OnReady()
     {
         Events.SetBackButton(false);
-        base.Show();
+        Events.SetNextButton(false);
         Utils.RemoveAllChildsIn(container);
         foreach(DaysData.Content content in Data.Instance.daysData.content)
         {
@@ -22,7 +22,6 @@ public class Days : ScreenMain
     }
     public void OnSelected(DaysData.Content content)
     {
-        Data.Instance.daysData.SetContent(content);
-        Open(types.DAY);
+        Data.Instance.userData.InitDay(content);
     }
 }

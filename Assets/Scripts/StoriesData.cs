@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StoriesData : MonoBehaviour
+public class StoriesData : DataLoader
 {
-    string url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=0&single=true&output=tsv";
     public List<Content> content;
-    [HideInInspector] public Content activeContent;
+    // [HideInInspector] 
+    public Content activeContent;
 
     [System.Serializable]
     public class Content
@@ -16,14 +16,11 @@ public class StoriesData : MonoBehaviour
         public string folder;
         public AudioClip audioClip;
         public List<TimelineTextData> textsData;
-    }   
-    void Start()
-    {
-        Data.Instance.spreadsheetLoader.LoadFromTo(url, OnLoaded);
     }
-    void OnLoaded(List<SpreadsheetLoader.Line> d)
+    public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
         OnDataLoaded(content, d);
+        base.OnLoaded(d);
     }
     public Content GetContent(string story_id)
     {
@@ -32,9 +29,9 @@ public class StoriesData : MonoBehaviour
                 return c;
         return null;
     }
-    public void SetContent(Content content)
+    public void SetActiveContent(string story_id)
     {
-        activeContent = content;
+        activeContent = GetContent(story_id);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {

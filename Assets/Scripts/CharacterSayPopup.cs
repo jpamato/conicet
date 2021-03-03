@@ -25,10 +25,19 @@ public class CharacterSayPopup : MonoBehaviour
     }
     void OnCharacterSay(TextsData.Content content, System.Action OnDone)
     {
-        panel.SetActive(true);
-        this.OnDone = OnDone;
-        field.text = content.text;
-        Events.PlaySoundTillReady("voices", "genericTexts/" + content.id, OnReady);
+        if (content == null)
+        {
+            OnReady();
+            this.OnDone = null;
+            Events.PlaySound("voices", "", false);
+        }
+        else
+        {
+            panel.SetActive(true);
+            this.OnDone = OnDone;
+            field.text = content.text;
+            Events.PlaySoundTillReady("voices", "genericTexts/" + content.id, OnReady);
+        }
     }
     public void OnReady()
     {
@@ -39,5 +48,6 @@ public class CharacterSayPopup : MonoBehaviour
     {
         if (OnDone != null)
             OnDone();
+        SetOff();
     }
 }

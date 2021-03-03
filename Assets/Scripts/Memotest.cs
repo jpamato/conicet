@@ -23,10 +23,9 @@ public class Memotest : ScreenMain
         CARD_SELECTED
     }
 
-    public override void Show()
-    {
-        
-        base.Show();
+    public override void OnReady()
+    {        
+        base.OnReady();
         storyData = Data.Instance.storiesData.activeContent;
         if (storyData == null) return;
         Init();
@@ -68,10 +67,6 @@ public class Memotest : ScreenMain
     {
         title.text = corrects[id];
         Events.PlaySound("voices", "animals/" + corrects[id], false);
-    }
-    public override void OnBack()
-    {
-        Open(types.DAY);
     }
     public void SetSelected(MemotestCard card)
     {

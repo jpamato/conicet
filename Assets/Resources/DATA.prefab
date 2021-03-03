@@ -10,13 +10,15 @@ GameObject:
   m_Component:
   - component: {fileID: 4000012892830758}
   - component: {fileID: 114000013950545636}
+  - component: {fileID: 925020076577925948}
+  - component: {fileID: 7205025233354283845}
   - component: {fileID: 3454526606163090994}
   - component: {fileID: 8966467205408793110}
   - component: {fileID: 5587126282958235658}
   - component: {fileID: 1480788710}
   - component: {fileID: 2180274282003563122}
   - component: {fileID: 7078598613645000413}
-  - component: {fileID: 7205025233354283845}
+  - component: {fileID: 467325274}
   m_Layer: 0
   m_Name: DATA
   m_TagString: Untagged
@@ -55,9 +57,44 @@ MonoBehaviour:
   newScene: 
   spreadsheetLoader: {fileID: 0}
   storiesData: {fileID: 0}
+  questionsManager: {fileID: 0}
   daysData: {fileID: 0}
   assetsData: {fileID: 0}
   memotestData: {fileID: 0}
+  textsData: {fileID: 0}
+  userData: {fileID: 0}
+--- !u!114 &925020076577925948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a96dee0c2181c46a980ac6bffc5667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityID: 0
+--- !u!114 &7205025233354283845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37401c8a8623dde478d9f0c63c64486a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  all:
+  - sourceName: ui
+    audioSource: {fileID: 0}
+    volume: 1
+  - sourceName: voices
+    audioSource: {fileID: 0}
+    volume: 1
 --- !u!114 &3454526606163090994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f99a0df0e4e12a74cbc685b5b1731cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=0&single=true&output=tsv
   content: []
   activeContent:
     id: 
@@ -101,6 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 376c7140e0ea1c34b84790843d50ec27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1092624288&single=true&output=tsv
   content: []
   activeContent:
     day: 0
@@ -159,7 +198,8 @@ MonoBehaviour:
   activeContent:
     id: 
     text: 
---- !u!114 &7205025233354283845
+    character_type: 0
+--- !u!114 &467325274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,13 +208,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013221123710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37401c8a8623dde478d9f0c63c64486a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f3e0a47baa13cb42b9cc4d08c3aa499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  all:
-  - sourceName: ui
-    audioSource: {fileID: 0}
-    volume: 1
-  - sourceName: voices
-    audioSource: {fileID: 0}
-    volume: 1
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2065646570&single=true&output=tsv
+  content: []
+  activeContent:
+    story_id: 
+    texts: []

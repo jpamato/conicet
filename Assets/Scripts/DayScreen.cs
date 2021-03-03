@@ -7,10 +7,10 @@ public class DayScreen : ScreenMain
     public Transform container;
     public DayContentButton button;
 
-    public override void Show()
+    public override void OnReady()
     {
         Events.SetBackButton(true);
-        base.Show();
+        base.OnReady();
         Utils.RemoveAllChildsIn(container);
         DaysData.Content dayDataContent = Data.Instance.daysData.activeContent;
         foreach (GameData gd in dayDataContent.games)
@@ -21,14 +21,14 @@ public class DayScreen : ScreenMain
             newButton.Init(this, dayDataContent, gd);
         }
     }
-    public override void OnBack()
+    public override void OnDisable()
     {
+        base.OnDisable();
         Events.StopAudioPlayer();
-        Open(types.DAYS_SELECTOR);
     }
-    public void OnContentClicked(DaysData.Content content, GameData gameData)
-    {
-        StoriesData.Content storyData = Data.Instance.storiesData.GetContent(content.story_id);
-        Open(storyData, gameData.type);
-    }
+    //public void OnContentClicked(DaysData.Content content, GameData gameData)
+    //{
+    //    StoriesData.Content storyData = Data.Instance.storiesData.GetContent(content.story_id);
+    //    Open(storyData, gameData.type);
+    //}
 }

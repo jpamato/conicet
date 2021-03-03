@@ -4,51 +4,93 @@ using UnityEngine;
 
 public class ScreenMain : MonoBehaviour
 {
+    float speed = 5;
     ScreensManager manager;
-    public types type;
-    public enum types
-    {
-        DAYS_SELECTOR,
-        DAY,
-        STORY_TELLER,
-        MEMOTEST
-    }
-    public virtual void OnEnable()
-    {
-        Events.OnBack += OnBack;
-    }
-    public virtual void OnDisable()
-    {
-        Events.OnBack -= OnBack;
-    }
-    public virtual void OnBack()  {  }
+    public GameData.types type;
+
+    public virtual void OnEnable()  {   }
+    public virtual void OnDisable()  {   }
+
     public virtual void Init(ScreensManager manager)
     {
         this.manager = manager;
     }
-    public virtual void Show()
+    public virtual void OnReady(){ }
+    public virtual void OnOff() { }
+
+    public void Show(bool fromRight)
     {
-        gameObject.SetActive(true);    
+        StopAllCoroutines();
+        gameObject.SetActive(true);
+        StartCoroutine(AnimateIn(fromRight));
     }
-    public virtual void Hide()
+    public virtual void Hide(bool toLeft)
     {
-        gameObject.SetActive(false);
+        OnOff();
+        StopAllCoroutines();
+        StartCoroutine(AnimateOut(toLeft));
     }
-    public void Open(types type)
+    IEnumerator AnimateIn(bool fromRight)
     {
-        manager.Open(type);
-    }
-    public void Open(StoriesData.Content storyData, GameData.types type)
-    {
-        Data.Instance.storiesData.SetContent(storyData);
-        switch(type)
+        float init_x = Screen.width + Screen.width/2;
+        float _y = Screen.height/2;
+        float to = Screen.width / 2;
+        if (!fromRight)
         {
-            case GameData.types.read_automatic:
-                manager.Open(types.STORY_TELLER);
-                break;
-            case GameData.types.memotest:
-                manager.Open(types.MEMOTEST);
-                break;
-        }        
+            init_x *= -1;
+        }
+        transform.position = new Vector2(init_x, _y);
+
+        float _x = transform.position.x;
+
+        if (fromRight)
+        {
+            while (transform.position.x - 1 > to)
+            {
+                yield return new WaitForEndOfFrame();
+                transform.position = Vector3.Lerp(transform.position, new Vector2(to, _y), Time.deltaTime*speed);
+            }
+        }
+        else
+        {
+            while (transform.position.x + 1 < to)
+            {
+                yield return new WaitForEndOfFrame();
+                transform.position = Vector3.Lerp(transform.position, new Vector2(to, _y), Time.deltaTime * speed);
+            }
+        }
+        transform.localPosition = Vector2.zero;
+        OnReady();
+    }
+    IEnumerator AnimateOut(bool toLeft)
+    {
+        float init_x = Screen.width / 2;
+        float _y = Screen.height / 2;
+        float to = -Screen.width/2;
+        if (!toLeft)
+        {
+            init_x *= -1;
+        }
+        transform.position = new Vector2(init_x, _y);
+
+        float _x = transform.position.x;
+
+        if (toLeft)
+        {
+            while (transform.position.x - 1 > to)
+            {
+                yield return new WaitForEndOfFrame();
+                transform.position = Vector3.Lerp(transform.position, new Vector2(to, _y), Time.deltaTime * speed);
+            }
+        }
+        else
+        {
+            while (transform.position.x + 1 < to)
+            {
+                yield return new WaitForEndOfFrame();
+                transform.position = Vector3.Lerp(transform.position, new Vector2(to, _y), Time.deltaTime * speed);
+            }
+        }
+        gameObject.SetActive(false);
     }
 }

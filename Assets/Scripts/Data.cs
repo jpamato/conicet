@@ -13,10 +13,14 @@ public class Data : MonoBehaviour
     [HideInInspector] public string newScene;
     [HideInInspector] public SpreadsheetLoader spreadsheetLoader;
     [HideInInspector] public StoriesData storiesData;
+    [HideInInspector] public QuestionsManager questionsManager;
     [HideInInspector] public DaysData daysData;
     [HideInInspector] public AssetsData assetsData;
     [HideInInspector] public MemotestData memotestData;
     [HideInInspector] public TextsData textsData;
+    [HideInInspector] public UserData userData;
+
+    DataLoader[] allDataFiles;
 
     public static Data Instance
     {
@@ -63,5 +67,22 @@ public class Data : MonoBehaviour
         assetsData = GetComponent<AssetsData>();
         memotestData = GetComponent<MemotestData>();
         textsData = GetComponent<TextsData>();
+        questionsManager = GetComponent<QuestionsManager>();
+        userData = GetComponent<UserData>();
+
+        LoadAll();
+    }
+    void LoadAll()
+    {
+        allDataFiles = GetComponents<DataLoader>();
+        foreach (DataLoader dl in allDataFiles)
+            dl.LoadData(OnDone);
+    }
+    int dataLoaded;
+    void OnDone()
+    {
+        dataLoaded++;
+        if (dataLoaded >= allDataFiles.Length)
+            Events.AllDataLoaded();
     }
 }

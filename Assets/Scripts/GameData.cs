@@ -5,9 +5,15 @@
     public types type;
     public enum types
     {
+        all_days,
         read_automatic,
         memotest,
-        unir
+        unir,
+        questions,
+        simon,
+        falling_objects,
+        rimas,
+        longWords
     }
     public int played;
     public int stars;

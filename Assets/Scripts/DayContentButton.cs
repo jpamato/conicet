@@ -22,6 +22,6 @@ public class DayContentButton : MonoBehaviour
     }
     public void Clicked()
     {
-        dayScreen.OnContentClicked(content, gameData);
+      //  dayScreen.OnContentClicked(content, gameData);
     }
 }

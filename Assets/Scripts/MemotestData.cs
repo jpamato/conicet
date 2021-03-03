@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MemotestData : MonoBehaviour
+public class MemotestData : DataLoader
 {
-    public string url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1404297154&single=true&output=tsv";
     public List<Content> content;
     [HideInInspector] public Content activeContent;
 
@@ -14,13 +13,10 @@ public class MemotestData : MonoBehaviour
         public string id;
         public List<string> animals;
     }
-    void Start()
-    {
-        Data.Instance.spreadsheetLoader.LoadFromTo(url, OnLoaded);
-    }
-    void OnLoaded(List<SpreadsheetLoader.Line> d)
+    public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
         OnDataLoaded(content, d);
+        base.OnLoaded(d);
     }
     public void SetContent(Content content)
     {

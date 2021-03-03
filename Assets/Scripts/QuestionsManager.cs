@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextsData : DataLoader
+public class QuestionsManager : DataLoader
 {
     public List<Content> content;
     [HideInInspector] public Content activeContent;
@@ -10,9 +10,8 @@ public class TextsData : DataLoader
     [System.Serializable]
     public class Content
     {
-        public string id;
-        public string text;
-        public CharactersManager.types character_type;
+        public string story_id;
+        public List<string> texts;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -23,15 +22,9 @@ public class TextsData : DataLoader
     {
         activeContent = content;
     }
-    public string GetText(string id)
+    public Content GetContent(string story_id)
     {
-        Content c =  content.Find((x) => x.id == id);
-        if (c == null) Debug.Log("Error: No existe TextData para " + id);
-        return c.text;
-    }
-    public Content GetContent(string id)
-    {
-        return content.Find((x) => x.id == id);
+        return content.Find((x) => x.story_id == story_id);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {
@@ -50,16 +43,15 @@ public class TextsData : DataLoader
                         if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
-                            contentLine.id = value;
+                            contentLine.story_id = value;
+                            contentLine.texts = new List<string>();
                             content.Add(contentLine);
                         }
                     }
                     else
                     {
                         if (colID == 1 && value != "")
-                            contentLine.character_type = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), value);
-                        if (colID == 2 && value != "")
-                            contentLine.text = value;
+                            contentLine.texts.Add(value);
                     }
                 }
                 colID++;

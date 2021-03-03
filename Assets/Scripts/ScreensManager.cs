@@ -6,37 +6,41 @@ public class ScreensManager : MonoBehaviour
 {
     public ScreenMain[] all;
     ScreenMain activeScreen;
+    static ScreensManager mInstance = null;
 
-    void Start()
-    {
+    public static ScreensManager Instance { get { return mInstance; } }
+    int id = 0;
+
+    void Awake()
+    {        
+        if (!mInstance)
+            mInstance = this;
+
         Reset();
-        LoopLoad();
+
+        Events.AllDataLoaded += AllDataLoaded;
     }
-    void LoopLoad()
+    void AllDataLoaded()
     {
-        if (
-            Data.Instance.storiesData.content.Count > 0
-            &&
-            Data.Instance.daysData.content.Count > 0
-            )
-            Init();
-        else
-            Invoke("LoopLoad", 0.1f);
+        print("AllDataLoaded");
+        Reset();
+        Init();
     }
     void Init()
     {
         foreach (ScreenMain sMain in all)
             sMain.Init(this);
-        Open(ScreenMain.types.DAYS_SELECTOR);
+        Open(0, true);
     }
-    public void Open(ScreenMain.types type)
+    public void Open(GameData.types type, bool fromRight)
     {
+        print("Open: " + type);
         if (activeScreen)
-            activeScreen.Hide();
+            activeScreen.Hide(fromRight);
         activeScreen = GetScreen(type);
-        activeScreen.Show();
+        activeScreen.Show(fromRight);
     }
-    ScreenMain GetScreen(ScreenMain.types type)
+    ScreenMain GetScreen(GameData.types type)
     {
         foreach (ScreenMain sm in all)
             if (sm.type == type)
@@ -46,6 +50,6 @@ public class ScreensManager : MonoBehaviour
     void Reset()
     {
         foreach (ScreenMain sMain in all)
-            sMain.Hide();
+            sMain.gameObject.SetActive(false);
     }
 }
