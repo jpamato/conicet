@@ -32,7 +32,6 @@ public class UIManager : MonoBehaviour
     public void Back()
     {
         Events.OnGoto(false);
-        
     }
     public void Next()
     {

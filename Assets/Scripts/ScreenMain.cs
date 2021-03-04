@@ -15,9 +15,28 @@ public class ScreenMain : MonoBehaviour
     {
         this.manager = manager;
     }
-    public virtual void OnReady(){ }
+    public virtual void OnReady()
+    {       
+
+        GameData gd = Data.Instance.userData.GetActualActivity();
+        print(gd.type + " played: " + gd.played);
+
+        if(gd.type != GameData.types.all_days)
+            Events.SetBackButton(true);
+
+        if (gd.played)
+            Events.SetNextButton(true);
+        else
+            Events.SetNextButton(false);
+    }
     public virtual void OnOff() { }
 
+    public void ForceOpen()
+    {
+        gameObject.SetActive(true);
+        gameObject.transform.localPosition = Vector3.zero;
+        OnReady();
+    }
     public void Show(bool fromRight)
     {
         StopAllCoroutines();
@@ -29,6 +48,10 @@ public class ScreenMain : MonoBehaviour
         OnOff();
         StopAllCoroutines();
         StartCoroutine(AnimateOut(toLeft));
+    }
+    public virtual void OnComplete()
+    {
+        Data.Instance.userData.OnCompleteActivity();
     }
     IEnumerator AnimateIn(bool fromRight)
     {

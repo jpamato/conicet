@@ -24,13 +24,14 @@ public class ScreensManager : MonoBehaviour
     {
         print("AllDataLoaded");
         Reset();
-        Init();
+        Init();      
     }
     void Init()
     {
         foreach (ScreenMain sMain in all)
             sMain.Init(this);
-        Open(0, true);
+        activeScreen = GetScreen(GameData.types.all_days);
+        activeScreen.ForceOpen();
     }
     public void Open(GameData.types type, bool fromRight)
     {

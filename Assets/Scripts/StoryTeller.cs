@@ -40,7 +40,7 @@ public class StoryTeller : ScreenMain
     }
     public override void OnReady()
     {
-        Events.SetBackButton(true);
+        base.OnReady();
         content = Data.Instance.storiesData.activeContent;
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_maestra");
         Events.OnCharacterSay(tipContent, OnTipDone);
@@ -49,9 +49,17 @@ public class StoryTeller : ScreenMain
     {
         introBar.AnimateOff(10);
         GetComponent<Animation>().Play("closeIntro");
-        Events.SetNextButton(true);
-        Events.SetAudioPlayer(content.audioClip, content.textsData, null);
+        Events.SetAudioPlayer(content.audioClip, content.textsData, OnComplete);
         Invoke("CloseTitle", 4);
+    }
+    public override void OnComplete()
+    {
+        base.OnComplete();
+        Events.SetReadyButton(OnNext);
+    }
+    void OnNext()
+    {
+        Events.OnGoto(true);
     }
     void CloseTitle()
     {

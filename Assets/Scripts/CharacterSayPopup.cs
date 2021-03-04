@@ -9,7 +9,7 @@ public class CharacterSayPopup : MonoBehaviour
     public Text field;
     public GameObject panel;
     public Animation anim;
-    public GameObject goBtn;
+
     bool isOn;
     void Start()
     {
@@ -26,7 +26,6 @@ public class CharacterSayPopup : MonoBehaviour
     {
         if(isOn)
             StartCoroutine(AnimDone());
-        goBtn.SetActive(false);
     }
     void SetOff()
     {
@@ -44,7 +43,6 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
-            goBtn.SetActive(false);
             panel.SetActive(true);
             this.OnDone = OnDone;
             field.text = content.text;
@@ -53,9 +51,9 @@ public class CharacterSayPopup : MonoBehaviour
     }
     public void OnReady()
     {
-        goBtn.SetActive(true);
+        Events.SetReadyButton(ReadyButtonClicked);
     }
-    public void OnClicked()
+    public void ReadyButtonClicked()
     {       
         StartCoroutine(AnimDone());
     }

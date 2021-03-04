@@ -12,21 +12,38 @@ public class QuestionsScreen : ScreenMain
 
     public override void OnReady()
     {
+        base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.questionsManager.GetContent(story_id);
         if (content == null) return;
-        Init();
+        field.text = "";
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("questions_tip");
+        Events.OnCharacterSay(tipContent, OnTipDone);
     }
-    private void Init()
+    void OnTipDone()
     {
-
+        id = 0;
+        SetCard();
     }
     void SetCard()
     {
-        field.text = content.texts[id];
+        string text_id = content.texts[id];
+        Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
+        field.text = (id+1) + ". " + Data.Instance.textsData.GetContent(text_id).text;
     }
-    void Next()
+    void OnTextDone()
+    {
+        Events.SetReadyButton(ButtonClicked);
+    }
+    void ButtonClicked()
     {
         id++;
+        if (id >= content.texts.Count)
+        {
+            OnComplete();
+        } else
+        {            
+            SetCard();
+        }
     }
 }

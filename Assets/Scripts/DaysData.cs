@@ -27,6 +27,10 @@ public class DaysData : DataLoader
         OnDataLoaded(content, d);
         base.OnLoaded(d);
     }
+    public void SetActivityComplete(int gameId)
+    {
+        activeContent.games[gameId].played = true;
+    }
     public void SetContent(Content content)
     {
         activeContent = content;
@@ -62,6 +66,7 @@ public class DaysData : DataLoader
                         {
                             GameData gameData = new GameData();
                             gameData.type = (GameData.types)System.Enum.Parse(typeof(GameData.types), value);
+                            if (Data.Instance.DEBUG) gameData.played = true;
                             contentLine.games.Add(gameData);
                         }
                     }

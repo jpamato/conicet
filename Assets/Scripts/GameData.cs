@@ -15,6 +15,5 @@
         rimas,
         longWords
     }
-    public int played;
-    public int stars;
+    public bool played;
 }

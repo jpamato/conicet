@@ -14,12 +14,23 @@ public class UserData : MonoBehaviour
     {
         Events.OnGoto -= OnGoto;
     }
+    public GameData GetActualActivity()
+    {
+        return Data.Instance.daysData.activeContent.games[activityID];
+    }
+    public void OnCompleteActivity()
+    {
+        Data.Instance.daysData.SetActivityComplete(activityID);
+    }
     void OnGoto(bool next)
     {
         if (next)
             NextActivity();
         else
             PrevActivity();
+
+        Events.SetNextButton(false);
+        Events.SetBackButton(false);
     }
     public void InitDay(DaysData.Content content)
     {
@@ -50,6 +61,7 @@ public class UserData : MonoBehaviour
     int lastActivityID;
     void SetActivity()
     {
+        Events.SetNextButton(false);
         GameData gd = Data.Instance.daysData.activeContent.games[activityID];
         bool fromRight = true;
         if (lastActivityID > activityID)
