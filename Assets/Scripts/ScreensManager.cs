@@ -34,7 +34,6 @@ public class ScreensManager : MonoBehaviour
     }
     public void Open(GameData.types type, bool fromRight)
     {
-        print("Open: " + type);
         if (activeScreen)
             activeScreen.Hide(fromRight);
         activeScreen = GetScreen(type);

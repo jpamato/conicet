@@ -9,22 +9,33 @@ public class CharacterSayPopup : MonoBehaviour
     public Text field;
     public GameObject panel;
     public Animation anim;
-
+    public GameObject goBtn;
+    bool isOn;
     void Start()
     {
         SetOff();
         Events.OnCharacterSay += OnCharacterSay;
+        Events.OnGoto += OnGoto;
     }
     void OnDestroy()
     {
         Events.OnCharacterSay -= OnCharacterSay;
+        Events.OnGoto -= OnGoto;
+    }
+    void OnGoto(bool next)
+    {
+        if(isOn)
+            StartCoroutine(AnimDone());
+        goBtn.SetActive(false);
     }
     void SetOff()
     {
         panel.SetActive(false);
+        isOn = false;
     }
     void OnCharacterSay(TextsData.Content content, System.Action OnDone)
     {
+        isOn = true;
         if (content == null)
         {
             OnReady();
@@ -33,6 +44,7 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
+            goBtn.SetActive(false);
             panel.SetActive(true);
             this.OnDone = OnDone;
             field.text = content.text;
@@ -41,11 +53,17 @@ public class CharacterSayPopup : MonoBehaviour
     }
     public void OnReady()
     {
-        anim.Play("off");
-        Invoke("AnimDone", 1);
+        goBtn.SetActive(true);
     }
-    void AnimDone()
+    public void OnClicked()
+    {       
+        StartCoroutine(AnimDone());
+    }
+    IEnumerator AnimDone()
     {
+        yield return new WaitForSeconds(0.2f);
+        anim.Play("off");
+        yield return new WaitForSeconds(1);
         if (OnDone != null)
             OnDone();
         SetOff();

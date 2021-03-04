@@ -6,6 +6,21 @@ public class UserData : MonoBehaviour
 {
     public int activityID = 0;
 
+    private void Start()
+    {
+        Events.OnGoto += OnGoto;
+    }
+    private void OnDestroy()
+    {
+        Events.OnGoto -= OnGoto;
+    }
+    void OnGoto(bool next)
+    {
+        if (next)
+            NextActivity();
+        else
+            PrevActivity();
+    }
     public void InitDay(DaysData.Content content)
     {
         Data.Instance.daysData.SetContent(content);
@@ -23,8 +38,11 @@ public class UserData : MonoBehaviour
             SetActivity();
     }
     public void NextActivity()
-    {
+    {      
         activityID++;
+
+        print("NextActivity " + activityID);
+
         if (activityID >= Data.Instance.daysData.activeContent.games.Count-1)
             activityID = Data.Instance.daysData.activeContent.games.Count-1;
         SetActivity();

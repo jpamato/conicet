@@ -31,11 +31,11 @@ public class UIManager : MonoBehaviour
     }
     public void Back()
     {
-        print("back");
-        Data.Instance.userData.PrevActivity();
+        Events.OnGoto(false);
+        
     }
     public void Next()
     {
-        Data.Instance.userData.NextActivity();
+        Events.OnGoto(true);
     }
 }

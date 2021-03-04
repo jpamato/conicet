@@ -7,13 +7,25 @@ public class StoryTeller : ScreenMain
 {
     public Image image;
     public Text field;
+    public Text[] titleField;
     StoriesData.Content content;
+    public GameObject intro;
+    public GameObject title;
+    public FillAmountAnim introBar;
 
     public override void OnEnable()
     {
         base.OnEnable();
         Events.OnNewKeyframeReached += OnNewKeyframeReached;
-        
+        intro.SetActive(true);
+        title.SetActive(true);
+        introBar.Init();
+        SetTitle();
+    }
+    void SetTitle()
+    {
+        foreach(Text t in titleField)
+            t.text = Data.Instance.storiesData.activeContent.name;
     }
     public override void OnDisable()
     {
@@ -35,8 +47,15 @@ public class StoryTeller : ScreenMain
     }
     void OnTipDone()
     {
+        introBar.AnimateOff(10);
+        GetComponent<Animation>().Play("closeIntro");
         Events.SetNextButton(true);
         Events.SetAudioPlayer(content.audioClip, content.textsData, null);
+        Invoke("CloseTitle", 4);
+    }
+    void CloseTitle()
+    {
+        title.SetActive(false);
     }
     private void Reset()
     {
