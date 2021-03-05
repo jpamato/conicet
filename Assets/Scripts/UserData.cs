@@ -52,8 +52,6 @@ public class UserData : MonoBehaviour
     {      
         activityID++;
 
-        print("NextActivity " + activityID);
-
         if (activityID >= Data.Instance.daysData.activeContent.games.Count-1)
             activityID = Data.Instance.daysData.activeContent.games.Count-1;
         SetActivity();

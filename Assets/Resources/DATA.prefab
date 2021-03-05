@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 2180274282003563122}
   - component: {fileID: 7078598613645000413}
   - component: {fileID: 467325274}
+  - component: {fileID: 8322215279887556639}
   m_Layer: 0
   m_Name: DATA
   m_TagString: Untagged
@@ -52,7 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG: 0
+  DEBUG: 1
   lastScene: 
   newScene: 
   spreadsheetLoader: {fileID: 0}
@@ -212,6 +213,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2065646570&single=true&output=tsv
+  content: []
+  activeContent:
+    story_id: 
+    texts: []
+--- !u!114 &8322215279887556639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0379f4605a0a7434caf4278ac94cd6d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=15743083&single=true&output=tsv
   content: []
   activeContent:
     story_id: 

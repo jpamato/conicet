@@ -66,7 +66,7 @@ public class Memotest : ScreenMain
     void SetWord()
     {
         title.text = corrects[id];
-        Events.PlaySound("voices", "animals/" + corrects[id], false);
+        Events.PlaySound("voices", "assets/" + corrects[id], false);
     }
     public void SetSelected(MemotestCard card)
     {

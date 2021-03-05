@@ -19,6 +19,7 @@ public class Data : MonoBehaviour
     [HideInInspector] public MemotestData memotestData;
     [HideInInspector] public TextsData textsData;
     [HideInInspector] public UserData userData;
+    [HideInInspector] public SimonsData simonsData;
 
     DataLoader[] allDataFiles;
 
@@ -69,6 +70,7 @@ public class Data : MonoBehaviour
         textsData = GetComponent<TextsData>();
         questionsManager = GetComponent<QuestionsManager>();
         userData = GetComponent<UserData>();
+        simonsData = GetComponent<SimonsData>();
 
         LoadAll();
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AssetsData : DataLoader
+public class SimonsData : DataLoader
 {
     public List<Content> content;
     [HideInInspector] public Content activeContent;
@@ -10,9 +10,8 @@ public class AssetsData : DataLoader
     [System.Serializable]
     public class Content
     {
-        public string name;
-        public Sprite sprite;
-        public AudioClip audioClip;
+        public string story_id;
+        public List<string> texts;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -23,16 +22,9 @@ public class AssetsData : DataLoader
     {
         activeContent = content;
     }
-    public Content GetContent(string _name)
+    public Content GetContent(string story_id)
     {
-        foreach(Content content in content)
-        {
-            if(string.Equals(content.name, _name))
-                return content;
-        }
-            
-        Debug.Log("No hay asset content para: " + _name);
-        return null;
+        return content.Find((x) => x.story_id == story_id);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {
@@ -46,16 +38,20 @@ public class AssetsData : DataLoader
                 //print("row: " + rowID + "  colID: " + colID + "  value: " + value);
                 if (rowID >= 1)
                 {
-                    if (colID == 1)
+                    if (colID == 0)
                     {
-                        if (value != "")
+                        if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
-                            contentLine.name =  value;
-                            contentLine.sprite = Resources.Load<Sprite>("assets/" + value) as Sprite;
-                            contentLine.audioClip = Resources.Load<AudioClip>("assets/" + value) as AudioClip;
+                            contentLine.story_id = value;
+                            contentLine.texts = new List<string>();
                             content.Add(contentLine);
                         }
+                    }
+                    else
+                    {
+                        if (colID == 1 && value != "")
+                            contentLine.texts.Add(value);
                     }
                 }
                 colID++;
@@ -66,3 +62,4 @@ public class AssetsData : DataLoader
 
     }
 }
+

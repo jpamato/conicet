@@ -60,7 +60,7 @@ public class ScreenMain : MonoBehaviour
         float to = Screen.width / 2;
         if (!fromRight)
         {
-            init_x *= -1;
+            init_x = -Screen.width/2;
         }
         transform.position = new Vector2(init_x, _y);
 
@@ -87,16 +87,14 @@ public class ScreenMain : MonoBehaviour
     }
     IEnumerator AnimateOut(bool toLeft)
     {
-        float init_x = Screen.width / 2;
         float _y = Screen.height / 2;
         float to = -Screen.width/2;
         if (!toLeft)
         {
-            init_x *= -1;
+            to = Screen.width + Screen.width / 2;
         }
-        transform.position = new Vector2(init_x, _y);
-
         float _x = transform.position.x;
+        yield return new WaitForEndOfFrame();
 
         if (toLeft)
         {
