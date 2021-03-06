@@ -20,7 +20,7 @@ public class FillAmountAnim : MonoBehaviour
         StopAllCoroutines();
         image.fillAmount = 0;
     }
-    public void AnimateOff(float speed)
+    public void AnimateOff(float speed = 10)
     {
         StopAllCoroutines();
         StartCoroutine(Anim(speed));
