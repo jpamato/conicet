@@ -15,6 +15,7 @@ public class GamesData : DataLoader
         public List<string> questions;
         public List<string> simons;
         public List<string> fallingObjects;
+        public List<string> rimas;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -52,6 +53,7 @@ public class GamesData : DataLoader
                             contentLine.questions = new List<string>();
                             contentLine.simons = new List<string>();
                             contentLine.fallingObjects = new List<string>();
+                            contentLine.rimas = new List<string>();
 
                             content.Add(contentLine);
                         }
@@ -66,6 +68,8 @@ public class GamesData : DataLoader
                             contentLine.simons.Add(value);
                         if (colID == 4 && value != "")
                             contentLine.fallingObjects.Add(value);
+                        if (colID == 5 && value != "")
+                            contentLine.rimas.Add(value);
                     }
                 }
                 colID++;

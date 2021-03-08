@@ -47,6 +47,8 @@ public class ScreensManager : MonoBehaviour
         foreach (ScreenMain sm in all)
             if (sm.type == type)
                 return sm;
+
+        Debug.Log("No hay screen para: " + type);
         return null;
     }
     void Reset()
