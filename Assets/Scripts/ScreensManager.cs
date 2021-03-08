@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScreensManager : MonoBehaviour
 {
+    
     public ScreenMain[] all;
     ScreenMain activeScreen;
     static ScreensManager mInstance = null;
@@ -37,6 +38,7 @@ public class ScreensManager : MonoBehaviour
     {
         if (activeScreen)
             activeScreen.Hide(fromRight);
+
         activeScreen = GetScreen(type);
         activeScreen.Show(fromRight);
     }

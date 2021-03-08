@@ -29,7 +29,7 @@ public class SimpleFeedback : MonoBehaviour
         }
         Invoke("SetOff", duration);
     }
-    void SetOff()
+    public void SetOff()
     {
         ok.gameObject.SetActive(false);
         wrong.gameObject.SetActive(false);

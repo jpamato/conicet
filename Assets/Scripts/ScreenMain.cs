@@ -16,7 +16,7 @@ public class ScreenMain : MonoBehaviour
         this.manager = manager;
     }
     public virtual void OnReady()
-    {       
+    {
 
         GameData gd = Data.Instance.userData.GetActualActivity();
         print(gd.type + " played: " + gd.played);

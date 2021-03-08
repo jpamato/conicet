@@ -8,7 +8,10 @@ public class Data : MonoBehaviour
 {
     const string PREFAB_PATH = "Data";
     static Data mInstance = null;
+
     public bool DEBUG;
+    public GameData.types initialActivity;
+
     [HideInInspector] public string lastScene;
     [HideInInspector] public string newScene;
     [HideInInspector] public SpreadsheetLoader spreadsheetLoader;

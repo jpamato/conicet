@@ -14,6 +14,7 @@ public class Simon : ScreenMain
     public GameObject signal;
     public int cardID;
     bool canSelect;
+    int ok;
 
     private void OnEnable()
     {
@@ -23,6 +24,7 @@ public class Simon : ScreenMain
     }
     public override void OnReady()
     {
+        ok = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
@@ -66,15 +68,21 @@ public class Simon : ScreenMain
     }
     void SetResults(bool isOk)
     {
-        id++;
-        if (id > 10)
+        if(isOk)
         {
-            OnComplete();
-            Events.SetNextButton(true);
+            ok++;
+            if (ok > 5)
+                Events.SetReadyButton(OnReadyClicked);
         }
+        id++;
 
         StartCoroutine(CheckResults());
         signal.SetActive(false);
+    }
+    void OnReadyClicked()
+    {
+        OnComplete();
+        Events.OnGoto(true);
     }
     IEnumerator CheckResults()
     {

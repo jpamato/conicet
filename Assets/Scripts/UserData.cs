@@ -65,6 +65,10 @@ public class UserData : MonoBehaviour
         if (lastActivityID > activityID)
             fromRight = false;
         lastActivityID = activityID;
-        ScreensManager.Instance.Open(gd.type, fromRight);
+
+        if (Data.Instance.DEBUG && Data.Instance.initialActivity != GameData.types.all_days)
+            ScreensManager.Instance.Open(Data.Instance.initialActivity, fromRight);
+        else
+            ScreensManager.Instance.Open(gd.type, fromRight);
     }
 }
