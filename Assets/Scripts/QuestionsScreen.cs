@@ -41,6 +41,7 @@ public class QuestionsScreen : ScreenMain
         if (id >= content.texts.Count)
         {
             OnComplete();
+            Events.OnGoto(true);
         } else
         {            
             SetCard();
