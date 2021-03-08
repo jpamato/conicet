@@ -13,13 +13,11 @@ public class Data : MonoBehaviour
     [HideInInspector] public string newScene;
     [HideInInspector] public SpreadsheetLoader spreadsheetLoader;
     [HideInInspector] public StoriesData storiesData;
-    [HideInInspector] public QuestionsManager questionsManager;
     [HideInInspector] public DaysData daysData;
     [HideInInspector] public AssetsData assetsData;
-    [HideInInspector] public MemotestData memotestData;
+    [HideInInspector] public GamesData gamesData;
     [HideInInspector] public TextsData textsData;
     [HideInInspector] public UserData userData;
-    [HideInInspector] public SimonsData simonsData;
 
     DataLoader[] allDataFiles;
 
@@ -66,11 +64,9 @@ public class Data : MonoBehaviour
         storiesData = GetComponent<StoriesData>();
         daysData = GetComponent<DaysData>();
         assetsData = GetComponent<AssetsData>();
-        memotestData = GetComponent<MemotestData>();
+        gamesData = GetComponent<GamesData>();
         textsData = GetComponent<TextsData>();
-        questionsManager = GetComponent<QuestionsManager>();
         userData = GetComponent<UserData>();
-        simonsData = GetComponent<SimonsData>();
 
         LoadAll();
     }

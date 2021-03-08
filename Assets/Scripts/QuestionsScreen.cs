@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class QuestionsScreen : ScreenMain
 {
-    QuestionsManager.Content content;
+    GamesData.Content content;
     int id = 0;
     public Text field;
     public Image image;
@@ -14,7 +14,7 @@ public class QuestionsScreen : ScreenMain
     {
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
-        content = Data.Instance.questionsManager.GetContent(story_id);
+        content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("questions_tip");
@@ -27,7 +27,7 @@ public class QuestionsScreen : ScreenMain
     }
     void SetCard()
     {
-        string text_id = content.texts[id];
+        string text_id = content.questions[id];
         Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
         field.text = (id+1) + ". " + Data.Instance.textsData.GetContent(text_id).text;
     }
@@ -38,7 +38,7 @@ public class QuestionsScreen : ScreenMain
     void ButtonClicked()
     {
         id++;
-        if (id >= content.texts.Count)
+        if (id >= content.questions.Count)
         {
             OnComplete();
             Events.OnGoto(true);

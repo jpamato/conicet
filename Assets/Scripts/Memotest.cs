@@ -42,7 +42,7 @@ public class Memotest : ScreenMain
         initialButtonPanel.SetActive(true);
 
         Utils.RemoveAllChildsIn(container);
-        MemotestData.Content mContent = Data.Instance.memotestData.GetContent(storyData.id);
+        GamesData.Content mContent = Data.Instance.gamesData.GetContent(storyData.id);
         Utils.Shuffle(mContent.animals);
         foreach (string animal in mContent.animals)
         {

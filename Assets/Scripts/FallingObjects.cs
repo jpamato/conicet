@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Simon : ScreenMain
+public class FallingObjects : ScreenMain
 {
     GamesData.Content content;
     int id = 0;
     public Text field;
-    public SimpleButton simonCard;
+    public SimpleButton card;
     public List<SimpleButton> cards;
     public Transform container;
     public GameObject signal;
@@ -31,14 +31,14 @@ public class Simon : ScreenMain
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_juguete");
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
-        foreach(string text in content.simons)
+        foreach (string text in content.fallingObjects)
         {
-            SimpleButton sb = Instantiate(simonCard, container);
+            SimpleButton sb = Instantiate(card, container);
             sb.transform.localScale = Vector2.one;
             Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-            sb.Init(id, sprite, "",  OnClicked);
+            sb.Init(id, sprite, "", OnClicked);
             id++;
-            cards.Add(sb);            
+            cards.Add(sb);
         }
     }
     void Animate(string clipName)
@@ -55,7 +55,7 @@ public class Simon : ScreenMain
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             Events.PlaySound("ui", "ui/feedback_ok", false);
             SetResults(true);
-        }           
+        }
         else
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
@@ -90,19 +90,19 @@ public class Simon : ScreenMain
     {
         signal.SetActive(true);
         id++;
-        cardID = Random.Range(0, content.simons.Count);
+        cardID = Random.Range(0, content.fallingObjects.Count);
         SayWord();
     }
     public void SayWord()
-    {        
-        string text_id = content.simons[cardID];
+    {
+        string text_id = content.fallingObjects[cardID];
         Events.PlaySoundTillReady("voices", "assets/" + text_id, CanSelect);
         field.text = text_id;
     }
     void CanSelect()
     {
-        if(gameObject.activeSelf)
+        if (gameObject.activeSelf)
             Animate("rotateRightLeft");
-        canSelect = true;        
+        canSelect = true;
     }
 }

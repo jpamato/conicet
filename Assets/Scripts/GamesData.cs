@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimonsData : DataLoader
+public class GamesData : DataLoader
 {
     public List<Content> content;
     [HideInInspector] public Content activeContent;
@@ -10,8 +10,11 @@ public class SimonsData : DataLoader
     [System.Serializable]
     public class Content
     {
-        public string story_id;
-        public List<string> texts;
+        public string id;
+        public List<string> animals;
+        public List<string> questions;
+        public List<string> simons;
+        public List<string> fallingObjects;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -22,9 +25,9 @@ public class SimonsData : DataLoader
     {
         activeContent = content;
     }
-    public Content GetContent(string story_id)
+    public Content GetContent(string storyID)
     {
-        return content.Find((x) => x.story_id == story_id);
+        return content.Find((x) => x.id == storyID);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {
@@ -43,15 +46,26 @@ public class SimonsData : DataLoader
                         if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
-                            contentLine.story_id = value;
-                            contentLine.texts = new List<string>();
+                            contentLine.id = value;
+
+                            contentLine.animals = new List<string>();
+                            contentLine.questions = new List<string>();
+                            contentLine.simons = new List<string>();
+                            contentLine.fallingObjects = new List<string>();
+
                             content.Add(contentLine);
                         }
                     }
                     else
                     {
                         if (colID == 1 && value != "")
-                            contentLine.texts.Add(value);
+                            contentLine.animals.Add(value);
+                        if (colID == 2 && value != "")
+                            contentLine.questions.Add(value);
+                        if (colID == 3 && value != "")
+                            contentLine.simons.Add(value);
+                        if (colID == 4 && value != "")
+                            contentLine.fallingObjects.Add(value);
                     }
                 }
                 colID++;
@@ -62,4 +76,3 @@ public class SimonsData : DataLoader
 
     }
 }
-
