@@ -13,7 +13,7 @@
         simon,
         falling_objects,
         rimas,
-        longWords
+        loro_time
     }
     public bool played;
 }

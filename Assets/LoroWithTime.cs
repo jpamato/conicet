@@ -3,28 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Simon : ScreenMain
+public class LoroWithTime : ScreenMain
 {
     GamesData.Content content;
+    int id = 0;
     public Text field;
     public SimpleButton simonCard;
     public List<SimpleButton> cards;
-    public List<int> cardsArray;
     public Transform container;
     public GameObject signal;
+    public int cardID;
     bool canSelect;
     int ok;
-    int lastcardID;
 
     private void OnEnable()
     {
+        cards.Clear();
+        Utils.RemoveAllChildsIn(container);
         signal.SetActive(false);
     }
     public override void OnReady()
     {
-        cards.Clear();
-        Utils.RemoveAllChildsIn(container);
-
         ok = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
@@ -34,14 +33,14 @@ public class Simon : ScreenMain
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_juguete");
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
-        foreach(string text in content.simons)
+        foreach (string text in content.simons)
         {
             SimpleButton sb = Instantiate(simonCard, container);
             sb.transform.localScale = Vector2.one;
             Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-            sb.Init(id, sprite, "",  OnClicked);
+            sb.Init(id, sprite, "", OnClicked);
             id++;
-            cards.Add(sb);            
+            cards.Add(sb);
         }
     }
     void Animate(string clipName)
@@ -52,39 +51,33 @@ public class Simon : ScreenMain
     void OnClicked(SimpleButton button)
     {
         if (!canSelect) return;
-        
-        if (button.id == cardsArray[cardActive])
+        canSelect = false;
+        if (button.id == cardID)
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             Events.PlaySound("ui", "ui/feedback_ok", false);
             SetResults(true);
-        }           
+        }
         else
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             Events.PlaySound("ui", "ui/feedback_bad", false);
             SetResults(false);
         }
-        canSelect = false;
         Animate("allOn");
     }
     void SetResults(bool isOk)
     {
-        if(isOk)
+        if (isOk)
         {
-            cardActive++;
             ok++;
             if (ok > 5)
                 Events.SetReadyButton(OnReadyClicked);
         }
-        else
-        {
-            cardsArray.Clear();
-            cardActive = 0;
-        }
+        id++;
 
         StartCoroutine(CheckResults());
-       
+        signal.SetActive(false);
     }
     void OnReadyClicked()
     {
@@ -94,58 +87,30 @@ public class Simon : ScreenMain
     IEnumerator CheckResults()
     {
         yield return new WaitForSeconds(1);
-        if (cardsArray.Count == cardActive)
-            NewCard();
-        else
-            CanSelect();
+        SetCard();
     }
     void OnTipDone()
-    {        
-        NewCard();
-    }
-    void NewCard()
     {
-        cardActive = 0;
+        id = 0;
+        SetCard();
+    }
+    void SetCard()
+    {
         signal.SetActive(true);
-        int cardID = GetCardRandom();
-        cardsArray.Add(cardID);
-        SayWords();       
+        id++;
+        cardID = Random.Range(0, content.simons.Count);
+        SayWord();
     }
-    int GetCardRandom()
+    public void SayWord()
     {
-        int cardID = Random.Range(0, content.simons.Count);
-        if (cardID == lastcardID)
-            return GetCardRandom();
-        lastcardID = cardID;
-        return cardID;         
-    }
-    public int cardActive = 0;
-    public void SayWords()
-    {
-        int cID = cardsArray[cardActive];
-        string text_id = content.simons[cID];
-
-        cardActive++;
-
-        Events.PlaySoundTillReady("voices", "assets/" + text_id, WordSaid);
-       
-        field.text = cardActive + " -" + text_id;        
-    }
-    void WordSaid()
-    {
-        if (cardActive >= cardsArray.Count)
-        {
-            cardActive = 0;
-            CanSelect();
-        }            
-        else
-            Invoke("SayWords", 0.1f);
+        string text_id = content.simons[cardID];
+        Events.PlaySoundTillReady("voices", "assets/" + text_id, CanSelect);
+        field.text = text_id;
     }
     void CanSelect()
     {
-        if(gameObject.activeSelf)
+        if (gameObject.activeSelf)
             Animate("rotateRightLeft");
         canSelect = true;
-        
     }
 }

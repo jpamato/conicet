@@ -149,6 +149,6 @@ public class FallingObjects : ScreenMain
     {
         card.speed = UnityEngine.Random.Range(8,12);
         card.direction = UnityEngine.Random.Range(-10, 10);
-        card.asset.transform.localPosition = new Vector2(UnityEngine.Random.Range(-500, 500), UnityEngine.Random.Range(400, 500));
+        card.asset.transform.localPosition = new Vector2(UnityEngine.Random.Range(-450, 450), UnityEngine.Random.Range(400, 550));
     }
 }

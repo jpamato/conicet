@@ -54,6 +54,7 @@ public class AudioManager : MonoBehaviour
         {
             if(m.sourceName == sourceName)
             {
+                m.audioSource.Stop();
                 m.audioSource.clip = Resources.Load<AudioClip>(audioName) as AudioClip;
                 m.audioSource.Play();
                 m.audioSource.loop = loop;
@@ -67,6 +68,7 @@ public class AudioManager : MonoBehaviour
     AudioSource playingSource;
     void PlaySoundTillReady(string sourceName, string audioName, System.Action OnDone)
     {
+        Debug.Log("Play soung: " + sourceName + " audioName: " + audioName);
         playingSource = PlaySoundAndReturn(sourceName, audioName, false);
         this.OnDone = OnDone;
         playing = true;
