@@ -9,6 +9,7 @@ public class RimaPair : MonoBehaviour
     public Image image2;
     public GameObject button2;
     public int id;
+    public DragueableItemDestination dragueableItemDestination;
 
     public void Init(int id, Sprite sprite)
     {
@@ -16,6 +17,7 @@ public class RimaPair : MonoBehaviour
         image.sprite = sprite;
         button2.SetActive(false);
         image2.enabled = false;
+        dragueableItemDestination = GetComponent<DragueableItemDestination>();
     }
     public void SetDone(Sprite sprite)
     {
@@ -23,4 +25,7 @@ public class RimaPair : MonoBehaviour
         image2.enabled = true;
         image2.sprite = sprite;
     }
+    void OnDone()
+    { 
+}
 }

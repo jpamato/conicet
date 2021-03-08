@@ -7,6 +7,7 @@ public class RandomRotation : MonoBehaviour
     public float speed;
     public bool initRandom;
     public float direction;
+    public float limits;
 
     void Start()
     {
@@ -16,8 +17,15 @@ public class RandomRotation : MonoBehaviour
     }
     void Update()
     {
-        Vector3 rot = transform.localEulerAngles;
+        Vector3 rot = transform.eulerAngles;      
+
+        if (limits > 0)
+        {
+            float rot_z = rot.z + 360;
+            if (rot_z > limits + 360 || rot_z < -limits + 360)
+                direction *= -1;
+        }
         rot.z += speed * Time.deltaTime * direction;
-        transform.localEulerAngles = rot;
+        transform.eulerAngles = rot;
     }
 }

@@ -13,7 +13,8 @@ public class Rimas : ScreenMain
     public DragueableItem dragueableItem;
     public Transform pairContainer;
     public Transform itemsContainer;
-
+    public List<RimaPair> pairs;
+    public List<DragueableItem> items;
 
     public override void OnEnable()
     {
@@ -32,6 +33,9 @@ public class Rimas : ScreenMain
     }
     public override void OnReady()
     {
+        pairs.Clear();
+        items.Clear();
+
         Utils.RemoveAllChildsIn(pairContainer);
         Utils.RemoveAllChildsIn(itemsContainer);
 
@@ -54,6 +58,7 @@ public class Rimas : ScreenMain
     }
     void OnTextDone()
     {
+        intro.SetActive(false);
         int id = 0;
         foreach(string s in content.rimas)
         {
@@ -63,16 +68,24 @@ public class Rimas : ScreenMain
             {
                 RimaPair rp = Instantiate(pair, pairContainer);                
                 rp.transform.localScale = Vector2.one;
-                rp.Init(id, sprite) ;              
+                rp.transform.localPosition = new Vector2(0, 300 * id);
+                rp.Init(id, sprite);
+                pairs.Add(rp);
             }
             else
             {
                 DragueableItem item = Instantiate(dragueableItem, itemsContainer);
                 item.transform.localScale = Vector2.one;
+                item.transform.localPosition = new Vector2(0, 300*(id-1));
                 item.Init(id, sprite);
+                items.Add(item);
             }
             id++;
         }
+        foreach(DragueableItem i in items)
+            foreach (RimaPair rp in pairs)
+                i.SetDestiny(rp.dragueableItemDestination);
+           
     }
     void OnReadyClicked()
     {
