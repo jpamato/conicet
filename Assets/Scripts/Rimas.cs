@@ -44,7 +44,7 @@ public class Rimas : ScreenMain
 
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("rimas_tip");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_rimas");
         Events.OnCharacterSay(tipContent, OnTipDone);
 
         UpdateLoop();
@@ -85,7 +85,6 @@ public class Rimas : ScreenMain
         if (isOk)
         {
             OnComplete();
-            Events.SetReadyButton(OnReady);
         }
         else
         {

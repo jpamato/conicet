@@ -24,13 +24,15 @@ public class CharacterSayPopup : MonoBehaviour
     }
     void OnGoto(bool next)
     {
-        if(isOn)
+        OnDone = null;
+        if (isOn)
             StartCoroutine(AnimDone());
     }
     void SetOff()
     {
         panel.SetActive(false);
         isOn = false;
+        OnDone = null;
     }
     void OnCharacterSay(TextsData.Content content, System.Action OnDone)
     {
@@ -64,6 +66,7 @@ public class CharacterSayPopup : MonoBehaviour
         yield return new WaitForSeconds(1);
         if (OnDone != null)
             OnDone();
+       
         SetOff();
     }
 }

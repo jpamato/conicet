@@ -18,6 +18,7 @@ public class Simon : ScreenMain
 
     private void OnEnable()
     {
+        field.text = "";
         signal.SetActive(false);
     }
     public override void OnReady()
@@ -31,7 +32,7 @@ public class Simon : ScreenMain
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_juguete");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_simon");
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
         foreach(string text in content.simons)

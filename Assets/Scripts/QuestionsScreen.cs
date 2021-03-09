@@ -9,7 +9,15 @@ public class QuestionsScreen : ScreenMain
     int id = 0;
     public Text field;
     public Image image;
+    public GameObject intro;
+    public FillAmountAnim introImage;
 
+    public override void OnEnable()
+    {
+        intro.SetActive(true);
+        introImage.Init();
+        base.OnEnable();
+    }
     public override void OnReady()
     {
         base.OnReady();
@@ -17,11 +25,14 @@ public class QuestionsScreen : ScreenMain
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("questions_tip");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_questions");
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void OnTipDone()
     {
+        print("_______________OnTipDone");
+        introImage.Init();
+        introImage.AnimateOff();
         id = 0;
         SetCard();
     }

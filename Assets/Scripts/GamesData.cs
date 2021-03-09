@@ -16,6 +16,8 @@ public class GamesData : DataLoader
         public List<string> simons;
         public List<string> fallingObjects;
         public List<string> rimas;
+        public List<string> loro_repeat;
+        public List<string> loro_time;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -54,6 +56,9 @@ public class GamesData : DataLoader
                             contentLine.simons = new List<string>();
                             contentLine.fallingObjects = new List<string>();
                             contentLine.rimas = new List<string>();
+                            contentLine.loro_repeat = new List<string>();
+                            contentLine.loro_time = new List<string>();
+
 
                             content.Add(contentLine);
                         }
@@ -70,6 +75,10 @@ public class GamesData : DataLoader
                             contentLine.fallingObjects.Add(value);
                         if (colID == 5 && value != "")
                             contentLine.rimas.Add(value);
+                        if (colID == 6 && value != "")
+                            contentLine.loro_time.Add(value);
+                        if (colID == 7 && value != "")
+                            contentLine.loro_repeat.Add(value);
                     }
                 }
                 colID++;

@@ -18,19 +18,21 @@ public class LoroWithTime : ScreenMain
 
     private void OnEnable()
     {
+        field.text = "";
         cards.Clear();
         Utils.RemoveAllChildsIn(container);
         signal.SetActive(false);
     }
     public override void OnReady()
     {
+        Utils.RemoveAllChildsIn(container);
         ok = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_juguete");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_loro_time");
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
         foreach (string text in content.simons)

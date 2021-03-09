@@ -15,6 +15,7 @@ public class SimpleButton : MonoBehaviour
         this.id = id;
         if (sprite != null)  image.sprite = sprite; else  image.enabled = false;
         if (text != "")   field.text = text;   else text = "";
-        GetComponent<Button>().onClick.AddListener(() => OnClicked(this));
+        if(OnClicked != null)
+            GetComponent<Button>().onClick.AddListener(() => OnClicked(this));
     }
 }

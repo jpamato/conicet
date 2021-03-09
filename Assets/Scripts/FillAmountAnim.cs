@@ -10,6 +10,7 @@ public class FillAmountAnim : MonoBehaviour
     private void Awake()
     {
         image = GetComponent<Image>();
+        Init();
     }
     public void Init()
     {
@@ -22,6 +23,7 @@ public class FillAmountAnim : MonoBehaviour
     }
     public void AnimateOff(float speed = 10)
     {
+        Init();
         StopAllCoroutines();
         StartCoroutine(Anim(speed));
     }
