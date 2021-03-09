@@ -17,14 +17,17 @@ public class SimpleFeedback : MonoBehaviour
     }
     public void SetState(states STATE, int duration)
     {
+        CancelInvoke();
         SetOff();
         switch (STATE)
         {
             case states.OK:
                 ok.gameObject.SetActive(true);
+                Events.PlaySound("ui", "ui/feedback_ok", false);
                 break;
             case states.WRONG:
                 wrong.gameObject.SetActive(true);
+                Events.PlaySound("ui", "ui/feedback_bad", false);
                 break;
         }
         Invoke("SetOff", duration);

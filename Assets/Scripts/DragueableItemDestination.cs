@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DragueableItemDestination : MonoBehaviour
 {
+    public int dragueableItemID = -1;
     public states state;
     public enum states
     {
@@ -13,6 +14,7 @@ public class DragueableItemDestination : MonoBehaviour
 
     public void Reset()
     {
+        dragueableItemID = -1;
         state = states.IDLE;
     }
     public void SetDone()

@@ -15,6 +15,8 @@ public class Rimas : ScreenMain
     public Transform itemsContainer;
     public List<RimaPair> pairs;
     public List<DragueableItem> items;
+    public SimpleFeedback simpleFeedback;
+    bool gameReady;
 
     public override void OnEnable()
     {
@@ -33,6 +35,7 @@ public class Rimas : ScreenMain
     }
     public override void OnReady()
     {
+        intro.SetActive(true);
         pairs.Clear();
         items.Clear();
 
@@ -41,13 +44,61 @@ public class Rimas : ScreenMain
 
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("escucha_maestra");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("rimas_tip");
         Events.OnCharacterSay(tipContent, OnTipDone);
+
+        UpdateLoop();
+    }
+    private void UpdateLoop()
+    {
+        if (!gameReady)
+        {
+            int id = 0;
+            int corrects = 0;
+            int done = 0;
+            foreach (RimaPair rimaPair in pairs)
+            {
+                if (rimaPair.dragueableItemDestination.state == DragueableItemDestination.states.DONE)
+                {
+                    if (rimaPair.id == rimaPair.dragueableItemDestination.dragueableItemID)
+                        corrects++;
+                    done++;
+                }
+                id++;
+            }
+            if (done >= 2 && done >= pairs.Count)
+            {
+                print("RIMAS corrects: " + corrects + " done: " + done + " pairs.Count: " + pairs.Count);
+                gameReady = true;
+                if (corrects == done)
+                    simpleFeedback.SetState(SimpleFeedback.states.OK, 1);
+                else
+                    simpleFeedback.SetState(SimpleFeedback.states.WRONG, 1);
+                StartCoroutine(CheckResults(corrects == done));
+            }
+        }
+        Invoke("UpdateLoop", 0.5f);
+    }
+    IEnumerator CheckResults(bool isOk)
+    {
+        yield return new WaitForSeconds(1);
+        if (isOk)
+        {
+            OnComplete();
+            Events.SetReadyButton(OnReady);
+        }
+        else
+        {
+            foreach (DragueableItem di in items)
+                di.Reset();
+            gameReady = false;
+        }
     }
     void OnTipDone()
     {
         introBar.AnimateOff(10);
         string storyID = Data.Instance.storiesData.activeContent.id;
+        field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
         content = Data.Instance.gamesData.GetContent(storyID);
         Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
@@ -77,7 +128,7 @@ public class Rimas : ScreenMain
                 DragueableItem item = Instantiate(dragueableItem, itemsContainer);
                 item.transform.localScale = Vector2.one;
                 item.transform.localPosition = new Vector2(0, 300*(id-1));
-                item.Init(id, sprite);
+                item.Init(id-1, sprite);
                 items.Add(item);
             }
             id++;

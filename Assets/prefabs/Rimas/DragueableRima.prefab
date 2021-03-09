@@ -59,6 +59,7 @@ MonoBehaviour:
   image: {fileID: 389898037817644496}
   state: 0
   destinations: []
+  itemDest: {fileID: 0}
 --- !u!114 &548495467492023016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,9 +206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  initRandom: 1
+  initRandom: 0
   direction: 0
-  limits: 10
+  timeToChangeDirection: 1
 --- !u!1 &5059233024700475432
 GameObject:
   m_ObjectHideFlags: 0

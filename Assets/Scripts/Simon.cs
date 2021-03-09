@@ -56,13 +56,11 @@ public class Simon : ScreenMain
         if (button.id == cardsArray[cardActive])
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
-            Events.PlaySound("ui", "ui/feedback_ok", false);
             SetResults(true);
         }           
         else
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
-            Events.PlaySound("ui", "ui/feedback_bad", false);
             SetResults(false);
         }
         canSelect = false;

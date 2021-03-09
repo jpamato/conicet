@@ -38,6 +38,7 @@ public class DragueableItem : MonoBehaviour
         if (itemDest != null)
         {
             itemDest.Reset();
+            
             itemDest = null;
         }
         offset = Input.mousePosition - transform.position;
@@ -48,12 +49,13 @@ public class DragueableItem : MonoBehaviour
     public void EndDrag()
     {
         float distance = Mathf.Abs(Vector3.Distance(transform.position, originalPos));
-        foreach (DragueableItemDestination id in destinations)
+        foreach (DragueableItemDestination idest in destinations)
         {
-            float d = Mathf.Abs(Vector3.Distance(transform.position, id.transform.position));
-            if (d < distance && id.state == DragueableItemDestination.states.IDLE)
+            float d = Mathf.Abs(Vector3.Distance(transform.position, idest.transform.position));
+            if (d < distance && idest.state == DragueableItemDestination.states.IDLE)
             {   
-                itemDest = id;
+                itemDest = idest;
+                itemDest.dragueableItemID = id;
                 distance = d;
             }
         }
@@ -92,6 +94,15 @@ public class DragueableItem : MonoBehaviour
                 transform.position = originalPos;
                 randomRotation.enabled = true;
             }
-        }
+        }       
+    }
+    public void Reset()
+    {
+        state = states.NONE;
+
+        foreach (DragueableItemDestination idest in destinations)
+            idest.state = DragueableItemDestination.states.IDLE;
+
+        itemDest = null;
     }
 }
