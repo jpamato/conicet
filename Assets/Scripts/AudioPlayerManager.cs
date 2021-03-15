@@ -51,6 +51,7 @@ public class AudioPlayerManager : MonoBehaviour
         audioSource.Play();
         Init();
         Events.OnNewKeyframeReached(id);
+        Data.Instance.audioSpectrum.SetAudioSource(audioSource);
     }
     private void Init()
     {

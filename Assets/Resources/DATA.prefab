@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1480788710}
   - component: {fileID: 2180274282003563122}
   - component: {fileID: 7078598613645000413}
+  - component: {fileID: 1987091315}
   m_Layer: 0
   m_Name: DATA
   m_TagString: Untagged
@@ -51,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG: 0
+  DEBUG: 1
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -62,6 +63,7 @@ MonoBehaviour:
   gamesData: {fileID: 0}
   textsData: {fileID: 0}
   userData: {fileID: 0}
+  audioSpectrum: {fileID: 0}
 --- !u!114 &925020076577925948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +185,9 @@ MonoBehaviour:
     questions: []
     simons: []
     fallingObjects: []
+    rimas: []
+    loro_repeat: []
+    loro_time: []
 --- !u!114 &7078598613645000413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,3 +206,17 @@ MonoBehaviour:
     id: 
     text: 
     character_type: 0
+--- !u!114 &1987091315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013221123710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe2347c2ae37844a7060d00d5e8d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 0
+  result: 0

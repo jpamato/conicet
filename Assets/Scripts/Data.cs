@@ -21,7 +21,7 @@ public class Data : MonoBehaviour
     [HideInInspector] public GamesData gamesData;
     [HideInInspector] public TextsData textsData;
     [HideInInspector] public UserData userData;
-
+    public AudioSpectrum audioSpectrum;
     DataLoader[] allDataFiles;
 
     public static Data Instance
@@ -70,6 +70,7 @@ public class Data : MonoBehaviour
         gamesData = GetComponent<GamesData>();
         textsData = GetComponent<TextsData>();
         userData = GetComponent<UserData>();
+        audioSpectrum = GetComponent<AudioSpectrum>();
 
         LoadAll();
     }

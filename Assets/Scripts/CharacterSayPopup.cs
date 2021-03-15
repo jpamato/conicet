@@ -45,6 +45,8 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
+            AudioSource audioSource = Data.Instance.GetComponent<AudioManager>().GetAudioSource("voices");
+            Data.Instance.audioSpectrum.SetAudioSource(audioSource);
             panel.SetActive(true);
             this.OnDone = OnDone;
             field.text = content.text;

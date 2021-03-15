@@ -38,11 +38,17 @@ public class AudioManager : MonoBehaviour
     }
     void ChangeVolume(string sourceName, float volume)
     {
+        AudioSource aSource = GetAudioSource(sourceName);
+        aSource.volume = volume;
+    }
+    public AudioSource GetAudioSource(string sourceName)
+    {
         foreach (AudioSourceManager m in all)
         {
             if (m.sourceName == sourceName)
-                m.audioSource.volume = volume;
+                return m.audioSource;
         }
+        return null;
     }
     void PlaySound(string sourceName, string audioName, bool loop)
     {
