@@ -53,7 +53,10 @@ public class AssetsData : DataLoader
                             contentLine = new Content();
                             contentLine.name =  value;
                             contentLine.sprite = Resources.Load<Sprite>("assets/" + value) as Sprite;
-                            contentLine.audioClip = Resources.Load<AudioClip>("assets/" + value) as AudioClip;
+                            string audioName = value;
+                            if (Data.Instance.lang == Data.langs.QOM)
+                                audioName = "qom_" + value;
+                            contentLine.audioClip = Resources.Load<AudioClip>("assets/" + audioName) as AudioClip;
                             content.Add(contentLine);
                         }
                     }
