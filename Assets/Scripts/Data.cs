@@ -9,6 +9,13 @@ public class Data : MonoBehaviour
     const string PREFAB_PATH = "Data";
     static Data mInstance = null;
 
+    public langs lang;
+    public enum langs
+    {
+        ESP,
+        QOM
+    }
+
     public bool DEBUG;
     public GameData.types initialActivity;
 
