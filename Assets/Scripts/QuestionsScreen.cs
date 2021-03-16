@@ -50,7 +50,7 @@ public class QuestionsScreen : ScreenMain
     {
         string text_id = content.questions[id];
         Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
-        field.text = (id+1) + ". " + Data.Instance.textsData.GetContent(text_id).text;
+        field.text = (id+1) + ". " + Data.Instance.textsData.GetContent(text_id, true).text;
     }
     void OnTextDone()
     {

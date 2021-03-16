@@ -29,9 +29,18 @@ public class TextsData : DataLoader
         if (c == null) Debug.Log("Error: No existe TextData para " + id);
         return c.text;
     }
-    public Content GetContent(string id)
+    public Content GetContent(string id, bool ignoreLang = false)
     {
-        return content.Find((x) => x.id == id);
+        string textID = id;
+        if(!ignoreLang && Data.Instance.lang == Data.langs.QOM)  textID = "qom_" + textID;
+
+        print("Get ID: " + id + "    -> textID: " + textID + " ignoreLang: " + ignoreLang);
+
+        Content tipContent = content.Find((x) => x.id == textID + "-" + Data.Instance.storiesData.activeContent.id);
+        if (tipContent != null)
+            return tipContent;
+
+        return content.Find((x) => x.id == textID);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {
@@ -50,7 +59,11 @@ public class TextsData : DataLoader
                         if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
-                            contentLine.id = value;
+
+                            string idText = value;
+                            if (Data.Instance.lang == Data.langs.QOM)
+                                idText = "qom_" + idText;
+                            contentLine.id = idText;
                             content.Add(contentLine);
                         }
                     }

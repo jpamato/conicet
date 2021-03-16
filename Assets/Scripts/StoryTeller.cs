@@ -42,7 +42,7 @@ public class StoryTeller : ScreenMain
     {
         base.OnReady();
         content = Data.Instance.storiesData.activeContent;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
+        TextsData.Content    tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void OnTipDone()

@@ -34,8 +34,6 @@ public class AudioSpectrumView : MonoBehaviour {
 
 	void SetImage(float value)
 	{
-        print(value + " lastv = " + lastValue);
-
         if (lastValue == value)
         {
             ShutMouth();
