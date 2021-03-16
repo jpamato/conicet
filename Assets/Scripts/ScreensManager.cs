@@ -18,8 +18,14 @@ public class ScreensManager : MonoBehaviour
             mInstance = this;
 
         Reset();
-
-        Events.AllDataLoaded += AllDataLoaded;
+        if (Data.Instance.allLoaded)
+            AllDataLoaded();
+        else
+            Events.AllDataLoaded += AllDataLoaded;
+    }
+    private void OnDestroy()
+    {
+        Events.AllDataLoaded -= AllDataLoaded;
     }
     void AllDataLoaded()
     {

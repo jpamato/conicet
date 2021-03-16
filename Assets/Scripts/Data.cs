@@ -30,6 +30,8 @@ public class Data : MonoBehaviour
     [HideInInspector] public UserData userData;
     public AudioSpectrum audioSpectrum;
     DataLoader[] allDataFiles;
+    int dataLoaded;
+    public bool allLoaded;
 
     public static Data Instance
     {
@@ -49,13 +51,13 @@ public class Data : MonoBehaviour
             return mInstance;
         }
     }
-    public void LoadLevel(string aLevelName, bool showMap)
+    public void LoadScene(string aLevelName)
     {
         this.newScene = aLevelName;
-        Invoke("LoadDelayed", 0.75f);       
-    }
-    void LoadDelayed()
-    {
+    //    Invoke("LoadDelayed", 0.75f);       
+    //}
+    //void LoadDelayed()
+    //{
          SceneManager.LoadScene(newScene);
     }
     void Awake()
@@ -79,19 +81,20 @@ public class Data : MonoBehaviour
         userData = GetComponent<UserData>();
         audioSpectrum = GetComponent<AudioSpectrum>();
 
-        LoadAll();
+        if(SceneManager.GetActiveScene().name != "Splash")
+            LoadAll();
     }
-    void LoadAll()
+    public void LoadAll()
     {
         allDataFiles = GetComponents<DataLoader>();
         foreach (DataLoader dl in allDataFiles)
             dl.LoadData(OnDone);
     }
-    int dataLoaded;
     void OnDone()
     {
         dataLoaded++;
         if (dataLoaded >= allDataFiles.Length)
             Events.AllDataLoaded();
+        allLoaded = true;
     }
 }

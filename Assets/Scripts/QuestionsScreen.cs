@@ -26,15 +26,25 @@ public class QuestionsScreen : ScreenMain
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_questions");
-        Events.OnCharacterSay(tipContent, OnTipDone);
-    }
+        Events.OnCharacterSay(tipContent, OnTipDone);        
+    } 
     void OnTipDone()
     {
-        print("_______________OnTipDone");
         introImage.Init();
         introImage.AnimateOff();
         id = 0;
         SetCard();
+        Loop();
+    }
+    int imageID = 0;
+    void Loop()
+    {
+        StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
+        if (imageID >= sContent.textsData.Count) imageID = 0;
+        Sprite sprite = Resources.Load<Sprite>("stories/" + sContent.folder + "/images/" + (imageID + 1));
+        image.sprite = sprite;
+        Invoke("Loop", 4);
+        imageID++;
     }
     void SetCard()
     {
