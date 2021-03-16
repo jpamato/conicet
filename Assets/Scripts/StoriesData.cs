@@ -14,6 +14,7 @@ public class StoriesData : DataLoader
         public string id;
         public string name;
         public string folder;
+        public int varType; // 0 full, 1:solo texto, 2: solo audio
         public AudioClip audioClip;
         public List<TimelineTextData> textsData;
     }
@@ -82,7 +83,11 @@ public class StoriesData : DataLoader
                             if(value != "")
                                 textData.seconds = Utils.GetTotalSecondsFromString(value);
                             contentLine.textsData.Add(textData);
-                            //print("contentLine: " + contentLine.textsData.Count);
+                        }
+                        else if (colID == 6)
+                        {
+                            if (value != "")
+                                contentLine.varType = int.Parse(value);
                         }
                     }
                 }

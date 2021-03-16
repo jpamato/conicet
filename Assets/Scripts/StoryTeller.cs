@@ -12,6 +12,10 @@ public class StoryTeller : ScreenMain
     public GameObject intro;
     public GameObject title;
     public FillAmountAnim introBar;
+    public GameObject dialogueSignal;
+    public Character character;
+    public float characterBig = 0.7f;
+    public float characterMedium = 0.55f;
 
     public override void OnEnable()
     {
@@ -42,6 +46,17 @@ public class StoryTeller : ScreenMain
     {
         base.OnReady();
         content = Data.Instance.storiesData.activeContent;
+        if (content.varType == 1)
+        {
+            dialogueSignal.SetActive(false);
+            character.transform.localScale = new Vector2(characterBig, characterBig);
+        }            
+        else
+        {
+            dialogueSignal.SetActive(true);
+            character.transform.localScale = new Vector2(characterMedium, characterMedium);
+        }
+
         TextsData.Content    tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
