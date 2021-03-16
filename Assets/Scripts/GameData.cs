@@ -14,7 +14,8 @@
         falling_objects,
         rimas,
         loro_time,
-        loro_repeat
+        loro_repeat,
+        endDay
     }
     public bool played;
 }

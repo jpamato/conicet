@@ -17,17 +17,23 @@ public class ScreenMain : MonoBehaviour
     }
     public virtual void OnReady()
     {
-
-        GameData gd = Data.Instance.userData.GetActualActivity();
-        print(gd.type + " played: " + gd.played);
-
-        if(gd.type != GameData.types.all_days)
+        if (type == GameData.types.endDay)
+        {
             Events.SetBackButton(true);
-
-        if (gd.played)
-            Events.SetNextButton(true);
+        }
         else
-            Events.SetNextButton(false);
+        {
+            GameData gd = Data.Instance.userData.GetActualActivity();
+            print("OnReady played: " + gd.type + " played: " + gd.played);
+
+            if (gd.type != GameData.types.all_days)
+                Events.SetBackButton(true);
+
+            if (gd.played)
+                Events.SetNextButton(true);
+            else
+                Events.SetNextButton(false);
+        }
     }
     public virtual void OnOff() { }
 
