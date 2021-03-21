@@ -57,7 +57,7 @@ public class StoryTeller : ScreenMain
             character.transform.localScale = new Vector2(characterMedium, characterMedium);
         }
 
-        TextsData.Content    tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void OnTipDone()
@@ -88,6 +88,18 @@ public class StoryTeller : ScreenMain
     void OnNewKeyframeReached(int id)
     {
         field.text = content.textsData[id].text;
-        image.sprite = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
+        Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
+        
+        float _w =  s.texture.width;
+        float _h = s.texture.height;
+
+        float factor = _h / Screen.height;
+
+        _w = _w / factor;
+        print(s.texture.width + ": " + _w);
+        RectTransform rTransform = image.GetComponent<RectTransform>();
+        rTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _w);
+        rTransform.anchoredPosition = new Vector3(-_w / 2, 0, 0);
+        image.sprite = s;
     }
 }

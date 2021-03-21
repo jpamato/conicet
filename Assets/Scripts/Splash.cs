@@ -20,10 +20,15 @@ public class Splash : MonoBehaviour
     }
     public void SetLang(int lang)
     {
+       
         if (lang == 1)
             Data.Instance.lang = Data.langs.ESP;
-        else
+        else if (lang == 2)
             Data.Instance.lang = Data.langs.QOM;
+          else
+            Data.Instance.lang = Data.langs.L1;
+
+        Debug.Log("Set lang " + lang + " Data.Instance.lang: " + Data.Instance.lang);
 
         Data.Instance.LoadAll();
         panel.SetActive(false);

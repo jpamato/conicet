@@ -44,8 +44,14 @@ public class AudioPlayerManager : MonoBehaviour
         Reset();
         panel.SetActive(true);
         this.OnDone = OnDone;
-        print(clip);
+        
         audioSource.clip = clip;
+        if (clip == null)
+        {
+            Debug.Log("No hay audio, para " + timelineTextData.Count + " lines");
+            return;
+        }
+        else print(clip);
         duration = clip.length;
         this.timelineTextData = timelineTextData;
         audioSource.Play();

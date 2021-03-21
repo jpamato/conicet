@@ -65,6 +65,7 @@ MonoBehaviour:
   textsData: {fileID: 0}
   userData: {fileID: 0}
   audioSpectrum: {fileID: 1987091315}
+  allLoaded: 0
 --- !u!114 &925020076577925948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,11 +124,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=0&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1107134212&single=true&output=tsv
+  url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=963416946&single=true&output=tsv
   content: []
   activeContent:
     id: 
     name: 
     folder: 
+    varType: 0
     audioClip: {fileID: 0}
     textsData: []
 --- !u!114 &5587126282958235658
@@ -144,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1092624288&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1507941204&single=true&output=tsv
+  url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1737474327&single=true&output=tsv
   content: []
   activeContent:
     day: 0
@@ -164,6 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
+  url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
   content: []
   activeContent:
     name: 
@@ -183,6 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1404297154&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=808105653&single=true&output=tsv
+  url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1759414284&single=true&output=tsv
   content: []
   activeContent:
     id: 
@@ -207,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=793140258&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=853500090&single=true&output=tsv
+  url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1466274066&single=true&output=tsv
   content: []
   activeContent:
     id: 

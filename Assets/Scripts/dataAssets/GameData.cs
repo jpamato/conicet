@@ -15,7 +15,9 @@
         rimas,
         loro_time,
         loro_repeat,
-        endDay
+        endDay,
+        rimas_unir, // no existe
+        rimas_escuchar // no existe
     }
     public bool played;
 }

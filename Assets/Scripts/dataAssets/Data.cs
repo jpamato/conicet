@@ -13,7 +13,8 @@ public class Data : MonoBehaviour
     public enum langs
     {
         ESP,
-        QOM
+        QOM,
+        L1
     }
 
     public bool DEBUG;
