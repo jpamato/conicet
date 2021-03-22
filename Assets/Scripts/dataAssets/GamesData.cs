@@ -11,13 +11,14 @@ public class GamesData : DataLoader
     public class Content
     {
         public string id;
-        public List<string> animals;
+        public List<string> memotest;
         public List<string> questions;
         public List<string> simons;
         public List<string> fallingObjects;
         public List<string> rimas;
         public List<string> loro_repeat;
         public List<string> loro_time;
+        public List<string> memotestAudio;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -51,13 +52,14 @@ public class GamesData : DataLoader
                             contentLine = new Content();
                             contentLine.id = value;
 
-                            contentLine.animals = new List<string>();
+                            contentLine.memotest = new List<string>();
                             contentLine.questions = new List<string>();
                             contentLine.simons = new List<string>();
                             contentLine.fallingObjects = new List<string>();
                             contentLine.rimas = new List<string>();
                             contentLine.loro_repeat = new List<string>();
                             contentLine.loro_time = new List<string>();
+                            contentLine.memotestAudio = new List<string>();
 
 
                             content.Add(contentLine);
@@ -66,7 +68,7 @@ public class GamesData : DataLoader
                     else
                     {
                         if (colID == 1 && value != "")
-                            contentLine.animals.Add(value);
+                            contentLine.memotest.Add(value);
                         if (colID == 2 && value != "")
                             contentLine.questions.Add(value);
                         if (colID == 3 && value != "")
@@ -79,6 +81,8 @@ public class GamesData : DataLoader
                             contentLine.loro_time.Add(value);
                         if (colID == 7 && value != "")
                             contentLine.loro_repeat.Add(value);
+                        if (colID == 8 && value != "")
+                            contentLine.memotestAudio.Add(value);
                     }
                 }
                 colID++;

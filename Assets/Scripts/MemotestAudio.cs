@@ -3,115 +3,92 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Memotest : ScreenMain
+public class MemotestAudio : ScreenMain
 {
+    [SerializeField] GameObject initialButtonPanel;
     [SerializeField] MemotestCard card_to_add;
     [SerializeField] Transform container;
     public List<MemotestCard> cards;
+    public List<string> corrects;
     StoriesData.Content storyData;
     [SerializeField] Text title;
     MemotestCard card;
-    public states state;
-    public float scale = 0.8f;
-    int corrects = 0;
+    states state;
+    int id;
+
     public enum states
     {
         INIT,
         IDLE,
         CARD_SELECTED
     }
-    private void OnEnable()
-    {
-        cards.Clear();
-        Utils.RemoveAllChildsIn(container);
-    }
+
     public override void OnReady()
     {        
         base.OnReady();
         storyData = Data.Instance.storiesData.activeContent;
+        if (storyData == null) return;
+        Init();
+    }
+    public void InitialButtonClicked()
+    {
+        StartCoroutine(SetCardsOff(0));
+        initialButtonPanel.SetActive(false);
+    }
+    private void Init()
+    {
+        title.text = Data.Instance.textsData.GetText("tip_memotest", Data.Instance.lang);
+        // Events.PlaySound("voices", "animals/" + corrects[id], false);
+        initialButtonPanel.SetActive(true);
 
         Utils.RemoveAllChildsIn(container);
         GamesData.Content mContent = Data.Instance.gamesData.GetContent(storyData.id);
-        Utils.Shuffle(mContent.memotest);
-       
-        AddCards(mContent);
-
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest");
-        Events.OnCharacterSay(tipContent, OnTipDone);
-    }
-    void AddCards(GamesData.Content mContent)
-    {
-        List<string> all = new List<string>();
-        foreach (string s in mContent.memotest)
-            all.Add(s);
-        foreach (string s in mContent.memotest)
-            all.Add(s);
-        Utils.Shuffle(all);
-        foreach (string animal in all)
+        Utils.Shuffle(mContent.memotestAudio);
+        foreach (string animal in mContent.memotestAudio)
         {
             MemotestCard card = Instantiate(card_to_add, container);
-            card.transform.localScale = new Vector3(scale, scale, scale);
+            card.transform.localScale = Vector2.one;
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(animal);
             card.Init(SetSelected, assetContent);
             cards.Add(card);
+            corrects.Add(assetContent.name);
         }
-    }
-    void OnTipDone()
-    {
-        StartCoroutine(SetCardsOff(2));
+        Utils.Shuffle(corrects);
+        
     }
     void SetNew()
     {
-        if (corrects >= cards.Count)
-        {
+        if (id >= corrects.Count)
             state = states.INIT;
-            OnComplete();
-            Events.SetReadyButton(OnNext);
-        }
+        else
+            SetWord();
     }
-    void SayWord()
+    void SetWord()
     {
-        Events.PlaySound("voices", "assets/" + card.content.name, false);
+        title.text = corrects[id];
+        Events.PlaySound("voices", "assets/" + corrects[id], false);
     }
-    public MemotestCard lastSelected;
-
     public void SetSelected(MemotestCard card)
     {
         if (state != states.IDLE) return;
-
-        if (lastSelected == null)
-            lastSelected = card;
-
         state = states.CARD_SELECTED;
         this.card = card;
-        SayWord();
         card.SetOn();
         StartCoroutine(CheckResults(1) );
     }
-    
     IEnumerator CheckResults(float delay)
     {
         yield return new WaitForSeconds(delay);
-        if(lastSelected == card)
-        {
-            state = states.IDLE;
-        } else if (card.content.name == lastSelected.content.name)
+        if (card.content.name == corrects[id])
         {
             card.SetDone();
-            lastSelected.SetDone();
-            corrects += 2;
             state = states.IDLE;
+            id++;
             SetNew();
-
-            lastSelected = null;
         }
         else
-        {            
+        {
             card.SetWrong();
-            lastSelected.SetWrong();
-
-            lastSelected = null;
-
             StartCoroutine(SetCardsOff(0.8f));
         }            
     }
@@ -124,11 +101,8 @@ public class Memotest : ScreenMain
                 card.SetOff();
         }           
         yield return new WaitForSeconds(1);
+        SetWord();
         state = states.IDLE;
         // OnDone();
-    }
-    void OnNext()
-    {
-        Events.OnGoto(true);
     }
 }

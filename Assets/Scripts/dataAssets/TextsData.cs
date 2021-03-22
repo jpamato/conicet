@@ -23,10 +23,14 @@ public class TextsData : DataLoader
     {
         activeContent = content;
     }
-    public string GetText(string id)
+    public string GetText(string id, Data.langs lang)
     {
         Content c =  content.Find((x) => x.id == id);
-        if (c == null) Debug.Log("Error: No existe TextData para " + id);
+        if (c == null)
+        {
+            return GetText(id, Data.Instance.lang);
+            Debug.Log("Error: No existe TextData para " + id);
+        }
         return c.text;
     }
     public Content GetContent(string id, bool ignoreLang = false)

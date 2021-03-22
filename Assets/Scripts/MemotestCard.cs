@@ -17,10 +17,11 @@ public class MemotestCard : MonoBehaviour
     Memotest memotest;
     [HideInInspector] public AssetsData.Content content;
     [SerializeField] Text field;
+    System.Action<MemotestCard> SetSelected;
 
-    public void Init(Memotest memotest, AssetsData.Content content)
+    public void Init(System.Action<MemotestCard> SetSelected, AssetsData.Content content)
     {
-        this.memotest = memotest;
+        this.SetSelected = SetSelected;
         this.content = content;
         anim = GetComponent<Animation>();
         image.sprite = content.sprite;
@@ -50,6 +51,6 @@ public class MemotestCard : MonoBehaviour
     {
         if (state != states.OFF) return;
 
-        memotest.SetSelected(this);
+        SetSelected(this);
     }
 }

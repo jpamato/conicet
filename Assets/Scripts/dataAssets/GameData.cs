@@ -16,6 +16,7 @@
         loro_time,
         loro_repeat,
         endDay,
+        memotest_audio,
         rimas_unir, // no existe
         rimas_escuchar // no existe
     }

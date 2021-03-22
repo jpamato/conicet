@@ -37,6 +37,7 @@ public class CharacterSayPopup : MonoBehaviour
     void OnCharacterSay(TextsData.Content content, System.Action OnDone)
     {
         isOn = true;
+        print(content);
         if (content == null)
         {
             OnReady();

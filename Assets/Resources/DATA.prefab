@@ -52,8 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lang: 0
-  DEBUG: 1
+  lang: 2
+  DEBUG: 0
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -192,13 +192,14 @@ MonoBehaviour:
   content: []
   activeContent:
     id: 
-    animals: []
+    memotest: []
     questions: []
     simons: []
     fallingObjects: []
     rimas: []
     loro_repeat: []
     loro_time: []
+    memotestAudio: []
 --- !u!114 &7078598613645000413
 MonoBehaviour:
   m_ObjectHideFlags: 0
