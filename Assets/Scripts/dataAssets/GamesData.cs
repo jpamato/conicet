@@ -19,6 +19,8 @@ public class GamesData : DataLoader
         public List<string> loro_repeat;
         public List<string> loro_time;
         public List<string> memotestAudio;
+        public List<string> escuchar;
+
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
             switch(gameType)
@@ -92,6 +94,7 @@ public class GamesData : DataLoader
                             contentLine.loro_repeat = new List<string>();
                             contentLine.loro_time = new List<string>();
                             contentLine.memotestAudio = new List<string>();
+                            contentLine.escuchar = new List<string>();
 
 
                             content.Add(contentLine);
@@ -115,6 +118,8 @@ public class GamesData : DataLoader
                             contentLine.loro_repeat.Add(value);
                         if (colID == 8 && value != "")
                             contentLine.memotestAudio.Add(value);
+                        if (colID == 9 && value != "")
+                            contentLine.escuchar.Add(value);
                     }
                 }
                 colID++;
