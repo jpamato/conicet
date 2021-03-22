@@ -20,7 +20,6 @@ public class Days : ScreenMain
             newButton.transform.localScale = Vector2.one;
             newButton.Init(this, content);
             id++;
-            if (id > 0) return;
         }
     }
     public void OnSelected(DaysData.Content content)
