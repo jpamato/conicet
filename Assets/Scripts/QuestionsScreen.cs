@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class QuestionsScreen : ScreenMain
 {
-    GamesData.Content content;
-    int id = 0;
+    public List<string> content;
+    int num = 0;
     public Text field;
     public Image image;
     public GameObject intro;
@@ -22,7 +22,8 @@ public class QuestionsScreen : ScreenMain
     {
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
-        content = Data.Instance.gamesData.GetContent(story_id);
+        GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
+        content = c.GetContentFor(type, gameID);
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_questions");
@@ -32,7 +33,7 @@ public class QuestionsScreen : ScreenMain
     {
         introImage.Init();
         introImage.AnimateOff();
-        id = 0;
+        num = 0;
         SetCard();
         Loop();
     }
@@ -48,9 +49,9 @@ public class QuestionsScreen : ScreenMain
     }
     void SetCard()
     {
-        string text_id = content.questions[id];
+        string text_id = content[num];
         Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
-        field.text = (id+1) + ". " + Data.Instance.textsData.GetContent(text_id, true).text;
+        field.text = (num + 1) + ". " + Data.Instance.textsData.GetContent(text_id, false).text;
     }
     void OnTextDone()
     {
@@ -58,8 +59,8 @@ public class QuestionsScreen : ScreenMain
     }
     void ButtonClicked()
     {
-        id++;
-        if (id >= content.questions.Count)
+        num++;
+        if (num >= content.Count)
         {
             OnComplete();
             Events.OnGoto(true);

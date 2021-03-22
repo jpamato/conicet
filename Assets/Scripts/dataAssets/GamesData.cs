@@ -19,6 +19,38 @@ public class GamesData : DataLoader
         public List<string> loro_repeat;
         public List<string> loro_time;
         public List<string> memotestAudio;
+        public List<string> GetContentFor(GameData.types gameType, int id)
+        {
+            switch(gameType)
+            {
+                case GameData.types.memotest: return GetTextsById(memotest, id);
+                case GameData.types.questions: return GetTextsById(questions, id);
+
+                case GameData.types.simon: return GetTextsById(simons, id);
+                case GameData.types.falling_objects: return GetTextsById(fallingObjects, id);
+
+                case GameData.types.rimas: return GetTextsById(rimas, id);
+                case GameData.types.loro_repeat: return GetTextsById(loro_repeat, id);
+
+                case GameData.types.memotest_audio: return GetTextsById(memotestAudio, id);
+                default: return GetTextsById(memotestAudio, id);
+            }
+        }
+
+        // agarra la lista por id de game (por si hay varios el mismo día:
+        List<string> GetTextsById(List<string> arr, int id)
+        {
+            List<string> returnedArr = new List<string>();
+            foreach (string s in arr)
+            {
+                string[] stringArr = s.Split(":"[0]);
+                if (stringArr.Length==1 && id == 0)
+                    returnedArr.Add(s);
+                else if (stringArr.Length >1 && int.Parse(stringArr[1]) == id)
+                    returnedArr.Add(stringArr[0]);
+            }
+            return returnedArr;
+        }
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {

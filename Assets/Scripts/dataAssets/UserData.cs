@@ -66,20 +66,20 @@ public class UserData : MonoBehaviour
         lastActivityID = activityID;
 
         if (Data.Instance.DEBUG && Data.Instance.initialActivity != GameData.types.all_days)
-            ScreensManager.Instance.Open(Data.Instance.initialActivity, fromRight);
+            ScreensManager.Instance.ForceOpen(Data.Instance.initialActivity, fromRight);
         else
-            ScreensManager.Instance.Open(gd.type, fromRight);
+            ScreensManager.Instance.Open(gd, fromRight);
     }
     void EndDay()
     {
         print("EndDay");
         Events.SetNextButton(false);
-        ScreensManager.Instance.Open(GameData.types.endDay, true);
+        ScreensManager.Instance.ForceOpen(GameData.types.endDay, true);
     }
     public void BackToMainMenu(bool backFromEnd = false)
     {
         activityID = 0;
         lastActivityID = 0;
-        ScreensManager.Instance.Open(GameData.types.all_days, backFromEnd);
+        ScreensManager.Instance.ForceOpen(GameData.types.all_days, backFromEnd);
     }
 }

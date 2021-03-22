@@ -66,6 +66,7 @@ public class DaysData : DataLoader
                         {
                             GameData gameData = new GameData();
                             gameData.type = (GameData.types)System.Enum.Parse(typeof(GameData.types), value);
+                            gameData.gameID = GetGameID(contentLine.games, gameData.type);
                             if (Data.Instance.DEBUG) gameData.played = true;
                             contentLine.games.Add(gameData);
                         }
@@ -77,5 +78,16 @@ public class DaysData : DataLoader
             rowID++;
         }
 
+    }
+    int GetGameID(List<GameData> arr, GameData.types gameType)
+    {
+        int qty = 1;
+        foreach (GameData c in arr)
+            if (c.type == gameType)
+                qty++;
+        if (qty == 1)
+            return 0;
+        else
+            return qty;
     }
 }

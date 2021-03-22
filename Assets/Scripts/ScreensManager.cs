@@ -40,12 +40,21 @@ public class ScreensManager : MonoBehaviour
         activeScreen = GetScreen(GameData.types.all_days);
         activeScreen.ForceOpen();
     }
-    public void Open(GameData.types type, bool fromRight)
+    public void ForceOpen(GameData.types type, bool fromRight)
     {
         if (activeScreen)
             activeScreen.Hide(fromRight);
 
         activeScreen = GetScreen(type);
+        activeScreen.Show(fromRight);
+    }
+    public void Open(GameData gameData, bool fromRight)
+    {
+        if (activeScreen)
+            activeScreen.Hide(fromRight);
+
+        activeScreen = GetScreen(gameData.type);
+        activeScreen.gameID = gameData.gameID;
         activeScreen.Show(fromRight);
     }
     ScreenMain GetScreen(GameData.types type)

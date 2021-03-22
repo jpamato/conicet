@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScreenMain : MonoBehaviour
 {
+    public int gameID;
     float speed = 5;
     ScreensManager manager;
     public GameData.types type;

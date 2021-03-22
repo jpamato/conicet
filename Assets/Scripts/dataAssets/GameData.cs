@@ -2,6 +2,7 @@
 
 [Serializable] public class GameData
 {
+    public int gameID; // por si hay varios un mismo día
     public types type;
     public enum types
     {
