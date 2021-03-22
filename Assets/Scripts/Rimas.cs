@@ -44,7 +44,7 @@ public class Rimas : ScreenMain
 
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_rimas");
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_unir");
         Events.OnCharacterSay(tipContent, OnTipDone);
 
         UpdateLoop();
@@ -110,7 +110,7 @@ public class Rimas : ScreenMain
     {
         intro.SetActive(false);
         int id = 0;
-        foreach(string s in content.rimas)
+        foreach(string s in content.unir)
         {
             Sprite sprite = Data.Instance.assetsData.GetContent(s).sprite;
             print(s + " Sprite: " + sprite);

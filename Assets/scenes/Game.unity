@@ -458,6 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4f9d657ffd3e1348bc78c79fc404762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 8
   field: {fileID: 686991836}
   simonCard: {fileID: 8525909234484776251, guid: 1795f769c391b8b458784201351f2d5d,
@@ -630,7 +631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b243212a285604148ad97a6de976d95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 4
+  content: []
   field: {fileID: 759319639}
   image: {fileID: 804040282}
   intro: {fileID: 1523222461}
@@ -1003,6 +1006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d1872dbf7a9e14882f073114770994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 2
   card_to_add: {fileID: 2574101665191143415, guid: 302b96f8e73ff1c4084db84460e1b282,
     type: 3}
@@ -1227,7 +1231,7 @@ GameObject:
   - component: {fileID: 111294648}
   - component: {fileID: 111294649}
   m_Layer: 5
-  m_Name: Rimas
+  m_Name: Unir_Rimas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1271,7 +1275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c88cc8bdc812147b91cc5ed8b0ef3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 7
+  gameID: 0
+  type: 3
   field: {fileID: 856653925}
   intro: {fileID: 1875930182}
   introBar: {fileID: 871721857}
@@ -2762,6 +2767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a68de61961aa214997950d55f568b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 1
   image: {fileID: 102341506}
   field: {fileID: 27141160}
@@ -4025,6 +4031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c21e14a3dc7aed74eac88de8b8f2f4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 5
   field: {fileID: 533857897}
   simonCard: {fileID: 8525909234484776251, guid: 1795f769c391b8b458784201351f2d5d,
@@ -5642,6 +5649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d1872dbf7a9e14882f073114770994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 11
   card_to_add: {fileID: 2574101665191143415, guid: 302b96f8e73ff1c4084db84460e1b282,
     type: 3}
@@ -5780,6 +5788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed17729c3c49a8d41bea500039b884ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 0
   container: {fileID: 1397412902}
   button: {fileID: 5322413304362022154, guid: 24d9317cb87fc284f813f229e28b8e36, type: 3}
@@ -6904,6 +6913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1de8c9d84a5a76e4ab49cdd4586ec8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 1
   container: {fileID: 671569748}
   button: {fileID: 1175765118426922952, guid: 3cd16d3b56861864d8539e1e299d7f9b, type: 3}
@@ -8180,6 +8190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ca54b823de2b847bfab716301bf507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 9
   simonCard: {fileID: 8525909234484776251, guid: 1795f769c391b8b458784201351f2d5d,
     type: 3}
@@ -9960,6 +9971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d838a4e20f189824ca22460a9224e72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 10
 --- !u!1 &1694495505
 GameObject:
@@ -11406,6 +11418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5158eec4b81577b478e3e45f7e0394e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 0
   type: 6
   field: {fileID: 862806566}
   numField: {fileID: 926299386}
@@ -11787,6 +11800,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012892830758, guid: 77f85cf8e38d2bf4bb7b2240570f3369, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
+        type: 3}
+      propertyPath: lang
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

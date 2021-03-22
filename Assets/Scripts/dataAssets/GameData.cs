@@ -13,7 +13,6 @@
         questions,
         simon,
         falling_objects,
-        rimas,
         loro_time,
         loro_repeat,
         endDay,

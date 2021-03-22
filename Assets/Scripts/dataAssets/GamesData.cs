@@ -15,7 +15,7 @@ public class GamesData : DataLoader
         public List<string> questions;
         public List<string> simons;
         public List<string> fallingObjects;
-        public List<string> rimas;
+        public List<string> unir;
         public List<string> loro_repeat;
         public List<string> loro_time;
         public List<string> memotestAudio;
@@ -29,7 +29,7 @@ public class GamesData : DataLoader
                 case GameData.types.simon: return GetTextsById(simons, id);
                 case GameData.types.falling_objects: return GetTextsById(fallingObjects, id);
 
-                case GameData.types.rimas: return GetTextsById(rimas, id);
+                case GameData.types.unir: return GetTextsById(unir, id);
                 case GameData.types.loro_repeat: return GetTextsById(loro_repeat, id);
 
                 case GameData.types.memotest_audio: return GetTextsById(memotestAudio, id);
@@ -88,7 +88,7 @@ public class GamesData : DataLoader
                             contentLine.questions = new List<string>();
                             contentLine.simons = new List<string>();
                             contentLine.fallingObjects = new List<string>();
-                            contentLine.rimas = new List<string>();
+                            contentLine.unir = new List<string>();
                             contentLine.loro_repeat = new List<string>();
                             contentLine.loro_time = new List<string>();
                             contentLine.memotestAudio = new List<string>();
@@ -108,7 +108,7 @@ public class GamesData : DataLoader
                         if (colID == 4 && value != "")
                             contentLine.fallingObjects.Add(value);
                         if (colID == 5 && value != "")
-                            contentLine.rimas.Add(value);
+                            contentLine.unir.Add(value);
                         if (colID == 6 && value != "")
                             contentLine.loro_time.Add(value);
                         if (colID == 7 && value != "")
