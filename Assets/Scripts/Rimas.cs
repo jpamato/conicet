@@ -44,7 +44,11 @@ public class Rimas : ScreenMain
 
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_unir");
+
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_unir", lang);
+
         Events.OnCharacterSay(tipContent, OnTipDone);
 
         UpdateLoop();

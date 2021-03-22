@@ -57,7 +57,11 @@ public class StoryTeller : ScreenMain
             character.transform.localScale = new Vector2(characterMedium, characterMedium);
         }
 
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic");
+
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic", lang);
+
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void OnTipDone()

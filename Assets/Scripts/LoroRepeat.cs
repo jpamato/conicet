@@ -19,7 +19,11 @@ public class LoroRepeat : ScreenMain
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_loro_repeat");
+
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_loro_repeat", lang);
+
         Events.OnCharacterSay(tipContent, OnTipDone);        
     }
     void OnTipDone()

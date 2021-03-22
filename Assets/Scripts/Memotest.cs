@@ -36,7 +36,9 @@ public class Memotest : ScreenMain
        
         AddCards(mContent);
 
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest");
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest", lang);
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void AddCards(GamesData.Content mContent)

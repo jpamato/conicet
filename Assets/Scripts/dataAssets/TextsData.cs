@@ -37,7 +37,7 @@ public class TextsData : DataLoader
     {
         string textID = id;
         if(!ignoreLang && Data.Instance.lang == Data.langs.QOM)  textID = "qom_" + textID;
-        else if (!ignoreLang && Data.Instance.lang == Data.langs.L1) textID = "l1_" + textID;
+       //else if (!ignoreLang && Data.Instance.lang == Data.langs.L1) textID = "l1_" + textID;
 
         if (ignoreLang)
             print("Get ID: " + id + "    -> textID: " + textID + " ignoreLang: " + ignoreLang);
@@ -71,8 +71,8 @@ public class TextsData : DataLoader
                             string idText = value;
                             if (Data.Instance.lang == Data.langs.QOM)
                                 idText = "qom_" + idText;
-                            else if (Data.Instance.lang == Data.langs.L1)
-                                idText = "l1_" + idText;
+                         // else if (Data.Instance.lang == Data.langs.L1)
+                           //   idText = "l1_" + idText;
                             contentLine.id = idText;
                             content.Add(contentLine);
                         }

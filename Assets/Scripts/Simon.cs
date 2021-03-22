@@ -32,7 +32,12 @@ public class Simon : ScreenMain
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_simon");
+
+
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_simon", lang);
+
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
         foreach(string text in content.simons)

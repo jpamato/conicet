@@ -30,8 +30,10 @@ public class Escuchar : ScreenMain
     public override void OnReady()
     {   
         base.OnReady();
-       
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_escucha");
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM)  lang = true;
+        TextsData.Content  tipContent = Data.Instance.textsData.GetContent("tip_escucha", lang);
+
         Events.OnCharacterSay(tipContent, OnTipDone);       
     }
     

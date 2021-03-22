@@ -37,7 +37,10 @@ public class MemotestAudio : ScreenMain
     }
     private void Init()
     {
-        title.text = Data.Instance.textsData.GetText("tip_memotest", Data.Instance.lang);
+        bool lang = false;
+        if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest", lang);
+
         // Events.PlaySound("voices", "animals/" + corrects[id], false);
         initialButtonPanel.SetActive(true);
 
