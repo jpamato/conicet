@@ -99,6 +99,7 @@ public class Memotest : ScreenMain
             state = states.IDLE;
         } else if (card.content.name == lastSelected.content.name)
         {
+            Events.PlaySound("ui", "ui/feedback_ok", false);
             card.SetDone();
             lastSelected.SetDone();
             corrects += 2;
@@ -108,7 +109,8 @@ public class Memotest : ScreenMain
             lastSelected = null;
         }
         else
-        {            
+        {
+            Events.PlaySound("ui", "ui/feedback_bad", false);
             card.SetWrong();
             lastSelected.SetWrong();
 
