@@ -27,10 +27,7 @@ public class QuestionsScreen : ScreenMain
         content = c.GetContentFor(type, gameID);
         if (content == null) return;
         field.text = "";
-
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_questions", lang);
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_questions");
         character.Init(tipContent.character_type);
         Events.OnCharacterSay(tipContent, OnTipDone);        
     } 

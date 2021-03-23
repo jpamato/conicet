@@ -20,4 +20,5 @@
         escuchar
     }
     public bool played;
+    public string tip_id;
 }

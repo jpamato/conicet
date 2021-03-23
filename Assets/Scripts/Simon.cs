@@ -33,10 +33,7 @@ public class Simon : ScreenMain
         if (content == null) return;
         field.text = "";
 
-
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_simon", lang);
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_simon");
 
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;

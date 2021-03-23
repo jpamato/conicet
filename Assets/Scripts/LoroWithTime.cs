@@ -32,10 +32,7 @@ public class LoroWithTime : ScreenMain
         content = Data.Instance.gamesData.GetContent(story_id);
         if (content == null) return;
         field.text = "";
-
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_loro_time", lang);
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_loro_time");
         Events.OnCharacterSay(tipContent, OnTipDone);
         int id = 0;
         foreach (string text in content.simons)

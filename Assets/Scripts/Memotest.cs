@@ -35,10 +35,7 @@ public class Memotest : ScreenMain
         Utils.Shuffle(mContent.memotest);
        
         AddCards(mContent);
-
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest", lang);
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_memotest");
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void AddCards(GamesData.Content mContent)

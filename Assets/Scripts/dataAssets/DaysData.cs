@@ -41,6 +41,7 @@ public class DaysData : DataLoader
         int rowID = 0;
         Content contentLine = null;
         TimelineTextData textData = null;
+        GameData gameData = new GameData();
         foreach (SpreadsheetLoader.Line line in d)
         {
             foreach (string value in line.data)
@@ -50,12 +51,13 @@ public class DaysData : DataLoader
                 {
                     if (colID == 0)
                     {
+                        gameData = new GameData();
                         if (value != "") // si está vacia la accion usa la anterior:
                         {
                             contentLine = new Content();
                             contentLine.day = int.Parse(value);
                             contentLine.games = new List<GameData>();
-                            content.Add(contentLine);
+                            content.Add(contentLine);                            
                         }
                     }
                     else
@@ -64,11 +66,14 @@ public class DaysData : DataLoader
                             contentLine.story_id = value;
                         else if (colID == 2 && value != "")
                         {
-                            GameData gameData = new GameData();
                             gameData.type = (GameData.types)System.Enum.Parse(typeof(GameData.types), value);
                             gameData.gameID = GetGameID(contentLine.games, gameData.type);
                             if (Data.Instance.DEBUG) gameData.played = true;
                             contentLine.games.Add(gameData);
+                        }
+                        else if (colID == 3 && value != "")
+                        {
+                                gameData.tip_id = value;
                         }
                     }
                 }
@@ -89,5 +94,17 @@ public class DaysData : DataLoader
             return 0;
         else
             return qty;
+    }
+    public TextsData.Content GetTip(string tip)
+    {
+        bool ignoreLang = true;
+
+        if (Data.Instance.lang == Data.langs.QOM) ignoreLang = false;
+
+        string specialTip = Data.Instance.daysData.activeContent.games[Data.Instance.userData.activityID].tip_id;
+        if (specialTip != null && specialTip.Length > 2) tip = specialTip;
+
+         return Data.Instance.textsData.GetContent(tip, ignoreLang);
+
     }
 }
