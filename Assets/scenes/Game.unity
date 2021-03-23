@@ -522,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &63849121
 RectTransform:
   m_ObjectHideFlags: 0
@@ -565,6 +565,7 @@ MonoBehaviour:
   intro: {fileID: 1523222461}
   introImage: {fileID: 279277419}
   character: {fileID: 1538099283}
+  sliderLoop: {fileID: 804040284}
 --- !u!1 &69040488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,7 +1813,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &233348704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4424,8 +4425,9 @@ GameObject:
   - component: {fileID: 804040281}
   - component: {fileID: 804040283}
   - component: {fileID: 804040282}
+  - component: {fileID: 804040284}
   m_Layer: 5
-  m_Name: Image
+  m_Name: SliderLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4487,6 +4489,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804040280}
   m_CullTransparentMesh: 0
+--- !u!114 &804040284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804040280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81c855221e054a4ab1bc24fea08e236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804695932
 GameObject:
   m_ObjectHideFlags: 0
@@ -10875,7 +10889,7 @@ PrefabInstance:
     - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
         type: 3}
       propertyPath: lang
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77f85cf8e38d2bf4bb7b2240570f3369, type: 3}

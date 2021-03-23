@@ -12,6 +12,7 @@ public class QuestionsScreen : ScreenMain
     public GameObject intro;
     public FillAmountAnim introImage;
     public Character character;
+    public SliderLoop sliderLoop;
 
     public override void OnEnable()
     {
@@ -37,18 +38,10 @@ public class QuestionsScreen : ScreenMain
         introImage.AnimateOff();
         num = 0;
         SetCard();
-        Loop();
+        sliderLoop.Init(content[num]);
     }
     int imageID = 0;
-    void Loop()
-    {
-        StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
-        if (imageID >= sContent.textsData.Count) imageID = 0;
-        Sprite sprite = Resources.Load<Sprite>("stories/" + sContent.folder + "/images/" + (imageID + 1));
-        image.sprite = sprite;
-        Invoke("Loop", 4);
-        imageID++;
-    }
+   
     void SetCard()
     {
         string text_id = content[num];
