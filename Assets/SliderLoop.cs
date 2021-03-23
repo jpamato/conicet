@@ -35,13 +35,12 @@ public class SliderLoop : MonoBehaviour
         if (all != null && all.Length > 1)
             LoopFromSpecialFolder();
         else
-            Loop();
-       
+            Loop();       
     }
     void LoopFromSpecialFolder()
     {
         if (id >= all.Length) id = 0;
-        image.sprite = all[id];
+        SetSprite( all[id] );
         Invoke("LoopFromSpecialFolder", 4);
         id++;
     }
@@ -50,10 +49,26 @@ public class SliderLoop : MonoBehaviour
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
         if (id >= sContent.textsData.Count) id = 0;
         string s = "stories/" + sContent.folder + "/images/" + (id + 1);
-        print(s);
+
         Sprite sprite = Resources.Load<Sprite>(s);
-        image.sprite = sprite;
+        SetSprite( sprite );
         Invoke("Loop", 4);
         id++;
+    }
+    void SetSprite(Sprite s)
+    {
+        image.sprite = s;
+
+        float _w = s.texture.width;
+        float _h = s.texture.height;
+
+        float factor = _h / image.GetComponent<RectTransform>().sizeDelta.y;
+
+        _w = _w / factor;
+
+        RectTransform rTransform = image.GetComponent<RectTransform>();
+        rTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _w);
+       // rTransform.anchoredPosition = new Vector3(-_w / 2, 0, 0);
+        image.sprite = s;
     }
 }
