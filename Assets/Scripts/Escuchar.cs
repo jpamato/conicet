@@ -10,6 +10,7 @@ public class Escuchar : ScreenMain
     bool gameReady;
     public GameObject dialoguesPanel;
     int id = 0;
+    public Character character;
 
     public override void OnEnable()
     {
@@ -30,8 +31,6 @@ public class Escuchar : ScreenMain
     public override void OnReady()
     {   
         base.OnReady();
-
-
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_escucha");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);       
     }
@@ -40,7 +39,11 @@ public class Escuchar : ScreenMain
     {
         fillAmountAnim.AnimateOff(10);
         StoriesData.Content content = Data.Instance.storiesData.activeContent;
+        
         string text = Data.Instance.gamesData.GetContent(content.id).escuchar[id];
+
+        TextsData.Content c = Data.Instance.textsData.GetContent(text);
+        if(c != null)  character.Init(c.character_type);
         field.text = text;
         Events.PlaySoundTillReady("voices", "genericTexts/" + text, OnTextDone);
         dialoguesPanel.SetActive(false);
