@@ -46,6 +46,7 @@ public class StoryTeller : ScreenMain
     {
         base.OnReady();
         content = Data.Instance.storiesData.activeContent;
+       
         if (content.varType == 1)
         {
             dialogueSignal.SetActive(false);
@@ -61,7 +62,7 @@ public class StoryTeller : ScreenMain
         bool ignoreLang = false;
         if (Data.Instance.lang == Data.langs.QOM) ignoreLang = false;
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic", ignoreLang);
-
+        character.Init(content.characterType);
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
     void OnTipDone()

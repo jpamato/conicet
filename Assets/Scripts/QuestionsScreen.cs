@@ -11,6 +11,7 @@ public class QuestionsScreen : ScreenMain
     public Image image;
     public GameObject intro;
     public FillAmountAnim introImage;
+    public Character character;
 
     public override void OnEnable()
     {
@@ -30,7 +31,7 @@ public class QuestionsScreen : ScreenMain
         bool lang = false;
         if (Data.Instance.lang == Data.langs.QOM) lang = true;
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_questions", lang);
-
+        character.Init(tipContent.character_type);
         Events.OnCharacterSay(tipContent, OnTipDone);        
     } 
     void OnTipDone()

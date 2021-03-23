@@ -99,11 +99,14 @@ public class Rimas : ScreenMain
     }
     void OnTipDone()
     {
-        introBar.AnimateOff(10);
         string storyID = Data.Instance.storiesData.activeContent.id;
-        field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
+    //    field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
         content = Data.Instance.gamesData.GetContent(storyID);
-        Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
+
+        OnTextDone();
+        introBar.AnimateOff(10);
+
+        //Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
     public override void OnComplete()
     {
@@ -112,7 +115,7 @@ public class Rimas : ScreenMain
     }
     void OnTextDone()
     {
-        intro.SetActive(false);
+       // intro.SetActive(false);
         int id = 0;
         foreach(string s in content.unir)
         {

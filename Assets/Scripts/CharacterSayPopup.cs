@@ -9,6 +9,7 @@ public class CharacterSayPopup : MonoBehaviour
     public Text field;
     public GameObject panel;
     public Animation anim;
+    public Character character;
 
     bool isOn;
     void Start()
@@ -35,7 +36,7 @@ public class CharacterSayPopup : MonoBehaviour
         OnDone = null;
     }
     void OnCharacterSay(TextsData.Content content, System.Action OnDone)
-    {
+    {        
         isOn = true;
         print(content);
         if (content == null)
@@ -46,6 +47,7 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
+            character.Init(content.character_type);
             AudioSource audioSource = Data.Instance.GetComponent<AudioManager>().GetAudioSource("voices");
             Data.Instance.audioSpectrum.SetAudioSource(audioSource);
             panel.SetActive(true);

@@ -17,6 +17,7 @@ public class StoriesData : DataLoader
         public int varType; // 0 full, 1:solo texto, 2: solo audio
         public AudioClip audioClip;
         public List<TimelineTextData> textsData;
+        public CharactersManager.types characterType;
     }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
@@ -88,6 +89,11 @@ public class StoriesData : DataLoader
                         {
                             if (value != "")
                                 contentLine.varType = int.Parse(value);
+                        }
+                        else if (colID == 7)
+                        {
+                            if (value != "")
+                                contentLine.characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), value);
                         }
                     }
                 }

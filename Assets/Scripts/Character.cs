@@ -4,15 +4,34 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject[] all;
 
-    // Update is called once per frame
-    void Update()
+    private void Reset()
     {
-        
+        foreach (GameObject go in all)
+            go.SetActive(false);
+    }
+    public void Init(CharactersManager.types type)
+    {
+        Reset();
+        print("character init " + type);
+        switch (type)
+        {
+            case CharactersManager.types.Brisa:
+                all[0].SetActive(true);
+                break;
+            case CharactersManager.types.Dany:
+                all[1].SetActive(true);
+                break;
+            case CharactersManager.types.Oscarcito:
+                all[2].SetActive(true);
+                break;
+            case CharactersManager.types.Mujer:
+                all[3].SetActive(true);
+                break;
+            case CharactersManager.types.Hombre:
+                all[4].SetActive(true);
+                break;
+        }
     }
 }
