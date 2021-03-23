@@ -8,6 +8,7 @@ public class CharactersManager
         Brisa,
         Oscarcito,
         Mujer,
-        Hombre
+        Hombre,
+        Dany
     }
 }

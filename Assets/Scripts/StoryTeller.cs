@@ -58,9 +58,9 @@ public class StoryTeller : ScreenMain
         }
 
 
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic", lang);
+        bool ignoreLang = false;
+        if (Data.Instance.lang == Data.langs.QOM) ignoreLang = false;
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic", ignoreLang);
 
         Events.OnCharacterSay(tipContent, OnTipDone);
     }
