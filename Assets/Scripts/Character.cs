@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     public GameObject[] all;
+    CharactersManager.types lastType;
 
     private void Reset()
     {
@@ -13,6 +14,9 @@ public class Character : MonoBehaviour
     }
     public void Init(CharactersManager.types type)
     {
+        if (lastType == type)
+            return;
+        lastType = type;
         Reset();
         print("character init " + type);
         switch (type)

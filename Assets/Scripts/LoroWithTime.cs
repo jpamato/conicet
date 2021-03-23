@@ -33,7 +33,7 @@ public class LoroWithTime : ScreenMain
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_loro_time");
-        Events.OnCharacterSay(tipContent, OnTipDone);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
         foreach (string text in content.simons)
         {

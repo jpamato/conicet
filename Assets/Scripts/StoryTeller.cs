@@ -40,7 +40,7 @@ public class StoryTeller : ScreenMain
     {
         print("on off");
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null,null);
+        Events.OnCharacterSay(null,null, CharactersManager.types.Brisa);
     }
     public override void OnReady()
     {
@@ -57,13 +57,12 @@ public class StoryTeller : ScreenMain
             dialogueSignal.SetActive(true);
             character.transform.localScale = new Vector2(characterMedium, characterMedium);
         }
-
+        character.Init(content.characterType);
 
         bool ignoreLang = false;
         if (Data.Instance.lang == Data.langs.QOM) ignoreLang = false;
         TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_read_automatic", ignoreLang);
-        character.Init(content.characterType);
-        Events.OnCharacterSay(tipContent, OnTipDone);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
     void OnTipDone()
     {
@@ -93,6 +92,7 @@ public class StoryTeller : ScreenMain
     void OnNewKeyframeReached(int id)
     {
         field.text = content.textsData[id].text;
+
         Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
         
         float _w =  s.texture.width;

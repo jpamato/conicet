@@ -36,7 +36,7 @@ public class Memotest : ScreenMain
        
         AddCards(mContent);
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_memotest");
-        Events.OnCharacterSay(tipContent, OnTipDone);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
     void AddCards(GamesData.Content mContent)
     {

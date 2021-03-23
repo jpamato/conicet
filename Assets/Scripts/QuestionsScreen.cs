@@ -29,8 +29,9 @@ public class QuestionsScreen : ScreenMain
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_questions");
-        character.Init(tipContent.character_type);
-        Events.OnCharacterSay(tipContent, OnTipDone);        
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+        
+
     } 
     void OnTipDone()
     {
@@ -47,6 +48,7 @@ public class QuestionsScreen : ScreenMain
         string text_id = content[num];
         Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
         field.text = Data.Instance.textsData.GetContent(text_id, false).text;
+        character.Init(Data.Instance.textsData.GetContent(text_id, false).character_type);
     }
     void OnTextDone()
     {

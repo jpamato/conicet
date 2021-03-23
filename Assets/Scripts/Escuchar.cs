@@ -25,7 +25,7 @@ public class Escuchar : ScreenMain
     public override void OnOff()
     {
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null, null);
+        Events.OnCharacterSay(null, null, CharactersManager.types.Brisa);
     }
     public override void OnReady()
     {   
@@ -33,7 +33,7 @@ public class Escuchar : ScreenMain
 
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_escucha");
-        Events.OnCharacterSay(tipContent, OnTipDone);       
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);       
     }
     
     void OnTipDone()

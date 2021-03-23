@@ -35,8 +35,9 @@ public class CharacterSayPopup : MonoBehaviour
         isOn = false;
         OnDone = null;
     }
-    void OnCharacterSay(TextsData.Content content, System.Action OnDone)
-    {        
+    void OnCharacterSay(TextsData.Content content, System.Action OnDone, CharactersManager.types type)
+    {
+        
         isOn = true;
         print(content);
         if (content == null)
@@ -47,7 +48,7 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
-            character.Init(content.character_type);
+            character.Init(type);
             AudioSource audioSource = Data.Instance.GetComponent<AudioManager>().GetAudioSource("voices");
             Data.Instance.audioSpectrum.SetAudioSource(audioSource);
             panel.SetActive(true);

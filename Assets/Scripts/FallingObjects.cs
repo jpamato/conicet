@@ -51,7 +51,7 @@ public class FallingObjects : ScreenMain
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_falling_objects");
 
-        Events.OnCharacterSay(tipContent, OnTipDone);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
         foreach (string text in content.fallingObjects)
         {

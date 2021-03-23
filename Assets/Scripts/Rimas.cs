@@ -31,7 +31,7 @@ public class Rimas : ScreenMain
     public override void OnOff()
     {
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null, null);
+        Events.OnCharacterSay(null, null, CharactersManager.types.Brisa);
     }
     public override void OnReady()
     {
@@ -46,8 +46,7 @@ public class Rimas : ScreenMain
         content = Data.Instance.gamesData.activeContent;
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_unir");
-
-        Events.OnCharacterSay(tipContent, OnTipDone);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         UpdateLoop();
     }

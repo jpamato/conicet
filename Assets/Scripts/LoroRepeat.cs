@@ -22,7 +22,7 @@ public class LoroRepeat : ScreenMain
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_loro_repeat");
 
-        Events.OnCharacterSay(tipContent, OnTipDone);        
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);        
     }
     void OnTipDone()
     {
