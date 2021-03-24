@@ -20,6 +20,7 @@ public class GamesData : DataLoader
         public List<string> loro_time;
         public List<string> memotestAudio;
         public List<string> escuchar;
+        public List<string> repeat_with_card;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -35,6 +36,9 @@ public class GamesData : DataLoader
                 case GameData.types.loro_repeat: return GetTextsById(loro_repeat, id);
 
                 case GameData.types.memotest_audio: return GetTextsById(memotestAudio, id);
+                case GameData.types.escuchar: return GetTextsById(escuchar, id);
+                case GameData.types.repeat_with_card: return GetTextsById(repeat_with_card, id);
+
                 default: return GetTextsById(memotestAudio, id);
             }
         }
@@ -95,7 +99,7 @@ public class GamesData : DataLoader
                             contentLine.loro_time = new List<string>();
                             contentLine.memotestAudio = new List<string>();
                             contentLine.escuchar = new List<string>();
-
+                            contentLine.repeat_with_card = new List<string>();
 
                             content.Add(contentLine);
                         }
@@ -120,6 +124,8 @@ public class GamesData : DataLoader
                             contentLine.memotestAudio.Add(value);
                         if (colID == 9 && value != "")
                             contentLine.escuchar.Add(value);
+                        if (colID == 10 && value != "")
+                            contentLine.repeat_with_card.Add(value);
                     }
                 }
                 colID++;

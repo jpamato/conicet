@@ -17,7 +17,8 @@
         loro_repeat,
         endDay,
         memotest_audio,
-        escuchar
+        escuchar,
+        repeat_with_card
     }
     public bool played;
     public string tip_id;
