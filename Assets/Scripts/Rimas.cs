@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Rimas : ScreenMain
 {
+    public float separation;
     public Text field;
     GamesData.Content content;
     public GameObject intro;
@@ -13,6 +14,7 @@ public class Rimas : ScreenMain
     public DragueableItem dragueableItem;
     public Transform pairContainer;
     public Transform itemsContainer;
+    public Transform allContainers;
     public List<RimaPair> pairs;
     public List<DragueableItem> items;
     public SimpleFeedback simpleFeedback;
@@ -94,9 +96,10 @@ public class Rimas : ScreenMain
             gameReady = false;
         }
     }
+    string storyID;
     void OnTipDone()
     {
-        string storyID = Data.Instance.storiesData.activeContent.id;
+        storyID = Data.Instance.storiesData.activeContent.id;
     //    field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
         content = Data.Instance.gamesData.GetContent(storyID);
 
@@ -114,15 +117,19 @@ public class Rimas : ScreenMain
     {
        // intro.SetActive(false);
         int id = 0;
-        foreach(string s in content.unir)
+        GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
+        List<string> arr = c.GetContentFor(type, gameID);
+
+        foreach (string s in arr)
         {
+            print(s);
             Sprite sprite = Data.Instance.assetsData.GetContent(s).sprite;
-            print(s + " Sprite: " + sprite);
+            
             if (id %2==0)
             {
                 RimaPair rp = Instantiate(pair, pairContainer);                
                 rp.transform.localScale = Vector2.one;
-                rp.transform.localPosition = new Vector2(0, 300 * id);
+                rp.transform.localPosition = new Vector2(0, separation * id);
                 rp.Init(id, sprite);
                 pairs.Add(rp);
             }
@@ -130,16 +137,24 @@ public class Rimas : ScreenMain
             {
                 DragueableItem item = Instantiate(dragueableItem, itemsContainer);
                 item.transform.localScale = Vector2.one;
-                item.transform.localPosition = new Vector2(0, 300*(id-1));
+                item.transform.localPosition = new Vector2(0, separation * (id-1));
                 item.Init(id-1, sprite);
                 items.Add(item);
             }
             id++;
         }
-        foreach(DragueableItem i in items)
+
+        float _y = (((separation * id) / 2) * itemsContainer.transform.localScale.y) - (separation / 4);
+        allContainers.transform.localPosition = new Vector3(0, -_y, 0);
+
+        foreach (DragueableItem i in items)
             foreach (RimaPair rp in pairs)
                 i.SetDestiny(rp.dragueableItemDestination);
-           
+
+
+
+       
+
     }
     void OnReadyClicked()
     {
