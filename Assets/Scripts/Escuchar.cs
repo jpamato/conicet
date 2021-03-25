@@ -34,18 +34,23 @@ public class Escuchar : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_escucha");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);       
     }
-    
+    public void Repeat()
+    {
+        if (audio_text != "")
+            Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text, OnTextDone);
+    }
+    string audio_text = "";
     void OnTipDone()
     {
         fillAmountAnim.AnimateOff(10);
         StoriesData.Content content = Data.Instance.storiesData.activeContent;
         
         string text = Data.Instance.gamesData.GetContent(content.id).escuchar[id];
-
+        audio_text = text;
         TextsData.Content c = Data.Instance.textsData.GetContent(text);
         if(c != null)  character.Init(c.character_type);
         field.text = text;
-        Events.PlaySoundTillReady("voices", "genericTexts/" + text, OnTextDone);
+        Repeat();
         dialoguesPanel.SetActive(false);
     }
     public override void OnComplete()

@@ -30,9 +30,12 @@ public class QuestionsScreen : ScreenMain
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_questions");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
-        
-
     } 
+    public void Repeat()
+    {
+        if(audio_text != "")
+            Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text, OnTextDone);
+    }
     void OnTipDone()
     {
         introImage.Init();
@@ -42,13 +45,13 @@ public class QuestionsScreen : ScreenMain
         sliderLoop.Init(content[num]);
     }
     int imageID = 0;
-   
+    string audio_text = "";
     void SetCard()
     {
         string text_id = content[num];
-        string audio_text_id = content[num];
-        if (Data.Instance.lang == Data.langs.QOM) audio_text_id = "qom_" + text_id;
-        Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text_id, OnTextDone);
+        audio_text = content[num];
+        if (Data.Instance.lang == Data.langs.QOM) audio_text = "qom_" + text_id;
+        Repeat();
         field.text = Data.Instance.textsData.GetContent(text_id, false).text;
         character.Init(Data.Instance.textsData.GetContent(text_id, false).character_type);
     }
