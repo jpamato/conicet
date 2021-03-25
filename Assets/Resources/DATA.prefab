@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lang: 2
-  DEBUG: 1
+  DEBUG: 0
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -133,6 +133,7 @@ MonoBehaviour:
     varType: 0
     audioClip: {fileID: 0}
     textsData: []
+    characterType: 0
 --- !u!114 &5587126282958235658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,10 +197,12 @@ MonoBehaviour:
     questions: []
     simons: []
     fallingObjects: []
-    rimas: []
+    unir: []
     loro_repeat: []
     loro_time: []
     memotestAudio: []
+    escuchar: []
+    repeat_with_card: []
 --- !u!114 &7078598613645000413
 MonoBehaviour:
   m_ObjectHideFlags: 0
