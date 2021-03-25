@@ -36,6 +36,12 @@ public class RepeatWithCard : ScreenMain
         fillAmountAnim.AnimateOff(10);
         AddCard();
     }
+    public void Repeat()
+    {
+        if (audio_text != "")
+            Events.PlaySoundTillReady("voices", "assets/" + audio_text, WordSaid);
+    }
+    string audio_text = "";
     void AddCard()
     {
         Utils.RemoveAllChildsIn(container);
@@ -44,7 +50,8 @@ public class RepeatWithCard : ScreenMain
         sb.transform.localScale = Vector2.one;
         Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
         sb.Init(id, sprite, "", null);
-        Events.PlaySoundTillReady("voices", "assets/" + textID, WordSaid);
+        audio_text = textID;
+        Repeat();
 
         done++;
         id++;
