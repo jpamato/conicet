@@ -39,7 +39,12 @@ public class RepeatWithCard : ScreenMain
     public void Repeat()
     {
         if (audio_text != "")
-            Events.PlaySoundTillReady("voices", "assets/" + audio_text, WordSaid);
+        {
+            string s = "assets/" + audio_text;
+            if (Data.Instance.lang == Data.langs.QOM) s = "assets/qom_" + audio_text;
+
+            Events.PlaySoundTillReady("voices", s, WordSaid);
+        }
     }
     string audio_text = "";
     void AddCard()
