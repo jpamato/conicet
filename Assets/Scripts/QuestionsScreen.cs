@@ -46,7 +46,9 @@ public class QuestionsScreen : ScreenMain
     void SetCard()
     {
         string text_id = content[num];
-        Events.PlaySoundTillReady("voices", "genericTexts/" + text_id, OnTextDone);
+        string audio_text_id = content[num];
+        if (Data.Instance.lang == Data.langs.QOM) audio_text_id = "qom_" + text_id;
+        Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text_id, OnTextDone);
         field.text = Data.Instance.textsData.GetContent(text_id, false).text;
         character.Init(Data.Instance.textsData.GetContent(text_id, false).character_type);
     }
