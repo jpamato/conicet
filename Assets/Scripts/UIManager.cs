@@ -31,10 +31,12 @@ public class UIManager : MonoBehaviour
     }
     public void Back()
     {
+        Events.PlaySound("ui", "ui/click", false);
         Events.OnGoto(false);
     }
     public void Next()
     {
+        Events.PlaySound("ui", "ui/click", false);
         Events.OnGoto(true);
     }
 }

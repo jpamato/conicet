@@ -94,14 +94,20 @@ public class StoryTeller : ScreenMain
         field.text = content.textsData[id].text;
 
         Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
-        
-        float _w =  s.texture.width;
+
+        SetSprite(s);
+    }
+    void SetSprite(Sprite s)
+    {
+        image.sprite = s;
+
+        float _w = s.texture.width;
         float _h = s.texture.height;
 
-        float factor = _h / Screen.height;
+        float factor = _h / image.GetComponent<RectTransform>().sizeDelta.y;
 
         _w = _w / factor;
-        print(s.texture.width + ": " + _w);
+
         RectTransform rTransform = image.GetComponent<RectTransform>();
         rTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _w);
         rTransform.anchoredPosition = new Vector3(-_w / 2, 0, 0);

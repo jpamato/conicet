@@ -24,6 +24,7 @@ public class ReadyScreen : MonoBehaviour
         clicked = false;
         this.OnDone = OnDone;
         panel.SetActive(true);
+        Events.PlaySound("ui", "ui/done", false);
     }
     void Goto(bool n)
     {
@@ -36,6 +37,8 @@ public class ReadyScreen : MonoBehaviour
     public void OnClicked()
     {
         if (clicked) return;
+
+        Events.PlaySound("ui", "ui/click2", false);
         clicked = true;
         OnDone();
         Invoke("SetOff", 0.2f);
