@@ -70,7 +70,9 @@ public class Memotest : ScreenMain
     }
     void SayWord()
     {
-        Events.PlaySound("voices", "assets/" + card.content.name, false);
+        string s = "assets/" + card.content.name;
+        if (Data.Instance.lang == Data.langs.QOM) s = "assets/qom_" + card.content.name;
+        Events.PlaySound("voices", s, false);
     }
     public MemotestCard lastSelected;
 
