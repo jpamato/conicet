@@ -14,6 +14,7 @@ public class StoriesData : DataLoader
     public class BookContent
     {
         public string name;
+        public string id;
         public Color color;
     }
 
@@ -82,7 +83,10 @@ public class StoriesData : DataLoader
                     else
                     {
                         if (colID == 1 && value != "")
-                            contentLine.name = value;                       
+                        {
+                            contentLine.name = value;
+                            activeBookContent.name = value;
+                        }
                         else if (colID == 2 && value != "")
                         {
                             contentLine.folder = value;
@@ -100,7 +104,7 @@ public class StoriesData : DataLoader
                         }
                         else if (colID == 5)
                         {
-                            if(value != "")
+                            if (value != "")
                                 textData.seconds = Utils.GetTotalSecondsFromString(value);
                             contentLine.textsData.Add(textData);
                         }
@@ -123,13 +127,13 @@ public class StoriesData : DataLoader
         }
         
     }
-    void AddBookIfIsNew(string bookName)
+    void AddBookIfIsNew(string bookID)
     {
         foreach (BookContent bn in books)
-            if (bn.name == bookName)
+            if (bn.id == bookID)
                 return;
-        BookContent bc = new BookContent();
-        bc.name = bookName;
-        books.Add(bc);
+        activeBookContent = new BookContent();
+        activeBookContent.id = bookID;
+        books.Add(activeBookContent);
     }
 }
