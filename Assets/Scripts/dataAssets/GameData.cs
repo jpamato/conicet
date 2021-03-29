@@ -18,7 +18,8 @@
         endDay,
         memotest_audio,
         escuchar,
-        repeat_with_card
+        repeat_with_card,
+        books
     }
     public bool played;
     public string tip_id;

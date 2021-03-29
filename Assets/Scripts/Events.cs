@@ -8,6 +8,7 @@ public static class Events
     public static System.Action AllDataLoaded = delegate { };
     public static System.Action StopAudioPlayer = delegate { };
     public static System.Action<int> OnNewKeyframeReached = delegate { };
+    public static System.Action<bool> ShowHamburguer = delegate { };
     public static System.Action<bool> SetBackButton = delegate { };
     public static System.Action<bool> SetNextButton = delegate { };
     public static System.Action<System.Action> SetReadyButton= delegate { };

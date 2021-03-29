@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class StoriesData : DataLoader
 {
+    public StoriesData.BookContent activeBookContent;
     public List<Content> content;
     // [HideInInspector] 
     public Content activeContent;
+    public List<BookContent> books;
+
+    [System.Serializable]
+    public class BookContent
+    {
+        public string name;
+        public Color color;
+    }
 
     [System.Serializable]
     public class Content
     {
+        public string bookName;
         public string id;
         public string name;
         public string folder;
@@ -30,6 +40,10 @@ public class StoriesData : DataLoader
             if (c.id == story_id)
                 return c;
         return null;
+    }
+    public void SetActiveBook(StoriesData.BookContent bookContent)
+    {
+        activeBookContent = bookContent;
     }
     public void SetActiveContent(string story_id)
     {
@@ -54,7 +68,12 @@ public class StoriesData : DataLoader
                         {
                             contentLine = new Content();
                             contentLine.id = value;
-                           
+                            string[] arr = value.Split(":"[0]);
+                            if(arr.Length>1)
+                                contentLine.bookName = arr[0];
+                            else
+                                contentLine.bookName = value;
+                            AddBookIfIsNew(contentLine.bookName);
                             contentLine.textsData = new List<TimelineTextData>();
 
                             content.Add(contentLine);
@@ -103,5 +122,14 @@ public class StoriesData : DataLoader
             rowID++;
         }
         
+    }
+    void AddBookIfIsNew(string bookName)
+    {
+        foreach (BookContent bn in books)
+            if (bn.name == bookName)
+                return;
+        BookContent bc = new BookContent();
+        bc.name = bookName;
+        books.Add(bc);
     }
 }

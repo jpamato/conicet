@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lang: 2
-  DEBUG: 0
+  DEBUG: 1
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -127,6 +127,7 @@ MonoBehaviour:
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=963416946&single=true&output=tsv
   content: []
   activeContent:
+    bookName: 
     id: 
     name: 
     folder: 

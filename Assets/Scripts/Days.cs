@@ -9,8 +9,10 @@ public class Days : ScreenMain
 
     public override void OnReady()
     {
-        Events.SetBackButton(false);
+        Events.ShowHamburguer(true);
+        Events.SetBackButton(true);
         Events.SetNextButton(false);
+
         Utils.RemoveAllChildsIn(container);
         int id = 0;
         foreach(DaysData.Content content in Data.Instance.daysData.content)
@@ -24,6 +26,7 @@ public class Days : ScreenMain
     }
     public void OnSelected(DaysData.Content content)
     {
+        Events.ShowHamburguer(false);
         Data.Instance.userData.InitDay(content);
     }
 }

@@ -32,6 +32,11 @@ public class UserData : MonoBehaviour
         Events.SetNextButton(false);
         Events.SetBackButton(false);
     }
+    public void InitBook(StoriesData.BookContent bookContent)
+    {
+        Data.Instance.storiesData.SetActiveBook(bookContent);
+        ScreensManager.Instance.ForceOpen(GameData.types.all_days, true);
+    }
     public void InitDay(DaysData.Content content)
     {
         Data.Instance.daysData.SetContent(content);
@@ -42,7 +47,12 @@ public class UserData : MonoBehaviour
     {
         activityID--;
         if (activityID < 0)
-            BackToMainMenu();
+        {
+            if (ScreensManager.Instance.activeScreen.type == GameData.types.all_days)
+                BackToBooks();
+            else
+                BackToMainMenu();
+        }
         else
             SetActivity();
     }
@@ -81,5 +91,12 @@ public class UserData : MonoBehaviour
         activityID = 0;
         lastActivityID = 0;
         ScreensManager.Instance.ForceOpen(GameData.types.all_days, backFromEnd);
+    }
+    public void BackToBooks(bool backFromEnd = false)
+    {
+        InitBook(Data.Instance.storiesData.activeBookContent);
+        activityID = 0;
+        lastActivityID = 0;
+        ScreensManager.Instance.ForceOpen(GameData.types.books, backFromEnd);
     }
 }

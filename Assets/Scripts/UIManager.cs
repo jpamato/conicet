@@ -7,19 +7,27 @@ public class UIManager : MonoBehaviour
 {
     public Button back;
     public Button next;
+    public GameObject hamburguer;
 
     private void Start()
     {
         back.gameObject.SetActive(false);
         next.gameObject.SetActive(false);
+        hamburguer.SetActive(false);
 
         Events.SetBackButton += SetBackButton;
         Events.SetNextButton += SetNextButton;
+        Events.ShowHamburguer += ShowHamburguer;
     }
     private void OnDestroy()
     {
         Events.SetBackButton -= SetBackButton;
         Events.SetNextButton -= SetNextButton;
+        Events.ShowHamburguer -= ShowHamburguer;
+    }
+    void ShowHamburguer(bool isOn)
+    {
+        hamburguer.SetActive(isOn);
     }
     void SetBackButton(bool isOn)
     {

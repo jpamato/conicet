@@ -6,7 +6,7 @@ public class ScreensManager : MonoBehaviour
 {
     
     public ScreenMain[] all;
-    ScreenMain activeScreen;
+    public ScreenMain activeScreen;
     static ScreensManager mInstance = null;
 
     public static ScreensManager Instance { get { return mInstance; } }
@@ -37,7 +37,7 @@ public class ScreensManager : MonoBehaviour
     {
         foreach (ScreenMain sMain in all)
             sMain.Init(this);
-        activeScreen = GetScreen(GameData.types.all_days);
+        activeScreen = GetScreen(GameData.types.books);
         activeScreen.ForceOpen();
     }
     public void ForceOpen(GameData.types type, bool fromRight)
