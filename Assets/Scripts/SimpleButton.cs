@@ -13,7 +13,10 @@ public class SimpleButton : MonoBehaviour
     public void Init(int id, Sprite sprite, string text, System.Action<SimpleButton> OnClicked)
     {
         this.id = id;
-        if (sprite != null)  image.sprite = sprite; else  image.enabled = false;
+        if (image != null)
+        {
+            if (sprite != null) image.sprite = sprite; else image.enabled = false;
+        }
         if (text != "")   field.text = text;   else text = "";
         if(OnClicked != null)
             GetComponent<Button>().onClick.AddListener(() => OnClicked(this));

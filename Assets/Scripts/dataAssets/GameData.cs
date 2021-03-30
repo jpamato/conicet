@@ -19,7 +19,8 @@
         memotest_audio,
         escuchar,
         repeat_with_card,
-        books
+        books,
+        painting
     }
     public bool played;
     public string tip_id;
