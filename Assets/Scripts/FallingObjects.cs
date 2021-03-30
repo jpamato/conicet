@@ -6,7 +6,7 @@ using System;
 
 public class FallingObjects : ScreenMain
 {
-    GamesData.Content content;
+    public List<string> content;
     int ok = 0;
     public Text field;
     public Text numField;
@@ -14,8 +14,14 @@ public class FallingObjects : ScreenMain
     public List<FallingCard> cards;
     public Transform container;
     public GameObject signal;
-    public int cardID;
+    public List<int> correctCards;
     public float fallingSpeed = 10;
+    public types typeOfGame;
+    public enum types
+    {
+        SINGLE,
+        MULTIPLE
+    }
 
     [Serializable]
     public class FallingCard
@@ -40,30 +46,46 @@ public class FallingObjects : ScreenMain
         Utils.RemoveAllChildsIn(container);
         signal.SetActive(false);
     }
+    TextsData.Content tipContent;
     public override void OnReady()
     {
         numField.text = "";
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
-        content = Data.Instance.gamesData.GetContent(story_id);
+
+        GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
+        content = c.GetContentFor(type, gameID);
+
+
         if (content == null) return;
         field.text = "";
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_falling_objects");
+        tipContent = Data.Instance.daysData.GetTip("tip_falling_objects");
 
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
-        foreach (string text in content.fallingObjects)
+        bool isCorrect = true;
+        foreach (string text in content)
         {
-            SimpleButton sb = Instantiate(card, container);
-            sb.transform.localScale = Vector2.one;
-            Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-            sb.Init(id, sprite, "", OnClicked);
-            id++;
-            FallingCard fc = new FallingCard();
-            fc.asset = sb;
-            cards.Add(fc);
-            InitCard(fc);
+            if (text == "-")
+            {
+                typeOfGame = types.MULTIPLE;
+                isCorrect = false;
+            }
+            else {
+                if (isCorrect)
+                    correctCards.Add(id);
+                print(text);
+                SimpleButton sb = Instantiate(card, container);
+                sb.transform.localScale = Vector2.one;
+                Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
+                sb.Init(id, sprite, "", OnClicked);
+                id++;
+                FallingCard fc = new FallingCard();
+                fc.asset = sb;
+                cards.Add(fc);
+                InitCard(fc);
+            }
         }
     }
    
@@ -79,12 +101,25 @@ public class FallingObjects : ScreenMain
                 return fc;
         return null;
     }
+    bool IsOk(int id)
+    {
+        if (typeOfGame == types.SINGLE)
+        {
+            if (id == 0)
+                return true;
+            else
+                return false;
+        }
+        foreach (int thisID in correctCards)
+            if (id == thisID)
+                return true;
+        return false;
+    }
     void OnClicked(SimpleButton button)
     {
-        if (button.id == cardID)
+        if (IsOk(button.id))
         {
-            button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
-            
+            button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);            
             SetResults(true);
         }
         else
@@ -122,14 +157,14 @@ public class FallingObjects : ScreenMain
     void SetCard()
     {
         signal.SetActive(true);
-        cardID = 0;// UnityEngine.Random.Range(0, content.fallingObjects.Count);
-        SayWord();
     }
     public void SayWord()
     {
-        string text_id = content.fallingObjects[cardID];
-        Events.PlaySoundTillReady("voices", "assets/" + text_id, null);
-        field.text = text_id;
+        if(typeOfGame == types.MULTIPLE)
+            Events.PlaySoundTillReady("voices", "genericTexts/" + tipContent.id, null);
+        else
+            Events.PlaySoundTillReady("voices", "assets/" + content[0], null);
+        field.text = tipContent.text; // text_id;
     }
     private void Update()
     {
