@@ -49,6 +49,8 @@ public class FallingObjects : ScreenMain
     TextsData.Content tipContent;
     public override void OnReady()
     {
+        Utils.RemoveAllChildsIn(container);
+        correctCards.Clear();
         numField.text = "";
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
@@ -157,6 +159,7 @@ public class FallingObjects : ScreenMain
     void SetCard()
     {
         signal.SetActive(true);
+        SetText();
     }
     public void SayWord()
     {
@@ -164,7 +167,15 @@ public class FallingObjects : ScreenMain
             Events.PlaySoundTillReady("voices", "genericTexts/" + tipContent.id, null);
         else
             Events.PlaySoundTillReady("voices", "assets/" + content[0], null);
-        field.text = tipContent.text; // text_id;
+        SetText();
+    }
+    void SetText()
+    {
+        signal.SetActive(true);
+        if (typeOfGame == types.MULTIPLE)
+            field.text = tipContent.text;
+        else
+            field.text = content[0];
     }
     private void Update()
     {
