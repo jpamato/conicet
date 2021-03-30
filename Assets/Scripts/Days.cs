@@ -15,13 +15,22 @@ public class Days : ScreenMain
 
         Utils.RemoveAllChildsIn(container);
         int id = 0;
-        foreach(DaysData.Content content in Data.Instance.daysData.content)
+        string bookID = Data.Instance.storiesData.activeBookContent.id;
+        foreach (DaysData.Content content in Data.Instance.daysData.content)
         {
-            DayButton newButton = Instantiate(button);
-            newButton.transform.SetParent(container);
-            newButton.transform.localScale = Vector2.one;
-            newButton.Init(this, content);
-            id++;
+            string storyID = content.story_id;
+            string[] arr = storyID.Split(":"[0]);
+            if (arr.Length > 1)
+                storyID = arr[0];
+
+            if (storyID == bookID)
+            {
+                DayButton newButton = Instantiate(button);
+                newButton.transform.SetParent(container);
+                newButton.transform.localScale = Vector2.one;
+                newButton.Init(this, content);
+                id++;
+            }
         }
     }
     public void OnSelected(DaysData.Content content)
