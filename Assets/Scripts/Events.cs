@@ -16,6 +16,7 @@ public static class Events
     public static System.Action<bool> OnGoto = delegate { };
     public static System.Action<TextsData.Content, System.Action, CharactersManager.types> OnCharacterSay = delegate { };
 
+    public static System.Action ResetApp = delegate { };
     public static System.Action<string, string, System.Action> PlaySoundTillReady = delegate { };
     public static System.Action<string, string, bool> PlaySound = delegate { };
     public static System.Action<string, float> ChangeVolume = delegate { };

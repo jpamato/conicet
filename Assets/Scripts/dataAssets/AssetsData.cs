@@ -14,6 +14,10 @@ public class AssetsData : DataLoader
         public Sprite sprite;
         public AudioClip audioClip;
     }
+    public override void Reset()
+    {
+        content.Clear();
+    }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
         OnDataLoaded(content, d);

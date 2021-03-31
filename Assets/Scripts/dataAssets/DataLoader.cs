@@ -26,5 +26,6 @@ public class DataLoader : MonoBehaviour
     public virtual void OnLoaded(List<SpreadsheetLoader.Line> d) {
         OnReady();
     }
+    public virtual void Reset() { }
 
 }

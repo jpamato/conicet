@@ -47,4 +47,9 @@ public class UIManager : MonoBehaviour
         Events.PlaySound("ui", "ui/click", false);
         Events.OnGoto(true);
     }
+    public void ChengeLang()
+    {
+        Events.ResetApp();
+        Data.Instance.LoadScene("Splash");
+    }
 }

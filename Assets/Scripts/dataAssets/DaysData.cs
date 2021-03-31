@@ -22,6 +22,10 @@ public class DaysData : DataLoader
         public string story_id;
         public List<GameData> games;
     }
+
+    public override void Reset() {
+        content.Clear();
+    }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
         OnDataLoaded(content, d);

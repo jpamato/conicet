@@ -30,6 +30,11 @@ public class StoriesData : DataLoader
         public List<TimelineTextData> textsData;
         public CharactersManager.types characterType;
     }
+    public override void Reset()
+    {
+        books.Clear();
+        content.Clear();
+    }
     public override void OnLoaded(List<SpreadsheetLoader.Line> d)
     {
         OnDataLoaded(content, d);
