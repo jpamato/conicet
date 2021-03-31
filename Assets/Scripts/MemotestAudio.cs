@@ -22,7 +22,11 @@ public class MemotestAudio : ScreenMain
         IDLE,
         CARD_SELECTED
     }
-
+    public override void OnEnable()
+    {
+        base.OnEnable();
+        title.text = "";
+    }
     public override void OnReady()
     {        
         base.OnReady();
@@ -39,9 +43,11 @@ public class MemotestAudio : ScreenMain
     {
         bool lang = false;
         if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_memotest", lang);
-
-        // Events.PlaySound("voices", "animals/" + corrects[id], false);
+        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_toca_la_imagen", lang);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);        
+    }
+    void OnTipDone()
+    {
         initialButtonPanel.SetActive(true);
 
         Utils.RemoveAllChildsIn(container);
@@ -55,16 +61,21 @@ public class MemotestAudio : ScreenMain
             card.Init(SetSelected, assetContent);
             cards.Add(card);
             corrects.Add(assetContent.name);
+            card.GetComponent<SimpleFeedback>().SetOff();
         }
         Utils.Shuffle(corrects);
-        
     }
     void SetNew()
     {
         if (id >= corrects.Count)
-            state = states.INIT;
+            Events.SetReadyButton(ButtonClicked);
         else
             SetWord();
+    }
+    void ButtonClicked()
+    {
+        OnComplete();
+        Events.OnGoto(true);
     }
     void SetWord()
     {
@@ -88,11 +99,13 @@ public class MemotestAudio : ScreenMain
             state = states.IDLE;
             id++;
             SetNew();
+            card.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
         }
         else
         {
             card.SetWrong();
             StartCoroutine(SetCardsOff(0.8f));
+            card.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
         }            
     }
     IEnumerator SetCardsOff(float delay)
@@ -101,7 +114,10 @@ public class MemotestAudio : ScreenMain
         foreach (MemotestCard card in cards)
         {
             if(card.state == MemotestCard.states.ON)
+            {
                 card.SetOff();
+                card.GetComponent<SimpleFeedback>().SetOff();
+            }
         }           
         yield return new WaitForSeconds(1);
         SetWord();

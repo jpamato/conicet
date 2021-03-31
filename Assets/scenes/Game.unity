@@ -6862,7 +6862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &910481563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6895,19 +6895,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 910481562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43d1872dbf7a9e14882f073114770994, type: 3}
+  m_Script: {fileID: 11500000, guid: e8a420214af652b46a36c8c2a6772b1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameID: 0
   type: 10
+  initialButtonPanel: {fileID: 361077477}
   card_to_add: {fileID: 2574101665191143415, guid: 302b96f8e73ff1c4084db84460e1b282,
     type: 3}
   container: {fileID: 1299618913}
   cards: []
+  corrects: []
   title: {fileID: 1921901497}
-  state: 0
-  scale: 0.8
-  lastSelected: {fileID: 0}
 --- !u!1 &926299384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9254,7 +9253,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -32}
-  m_SizeDelta: {x: -825.5814, y: -600}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299618914
 MonoBehaviour:
@@ -14361,7 +14360,7 @@ PrefabInstance:
     - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
         type: 3}
       propertyPath: DEBUG
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77f85cf8e38d2bf4bb7b2240570f3369, type: 3}
