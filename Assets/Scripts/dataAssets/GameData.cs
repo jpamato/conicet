@@ -24,4 +24,9 @@
     }
     public bool played;
     public string tip_id;
+
+    public void SetPlayed(bool isPlayed)
+    {
+        this.played = isPlayed;
+    }
 }

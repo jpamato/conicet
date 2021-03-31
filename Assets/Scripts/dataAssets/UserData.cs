@@ -1,11 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class UserData : MonoBehaviour
 {
     public int activityID = 0;
+    public List<SavedData> savedData;
 
+    [Serializable]
+    public class SavedData
+    {
+        public string key;
+        public int value;
+    }
+    public void SetSavedData(string key, int value)
+    {
+        PlayerPrefs.SetInt(key, value);
+        if (GetSavedKey(key) == null)
+            AddSavedData(key, value);
+    }
+    void AddSavedData(string key, int value)
+    {
+        SavedData sd = new SavedData();
+        sd.key = key;
+        sd.value = value;
+        savedData.Add(sd);
+    }
+    SavedData GetSavedKey(string key)
+    {
+        foreach (SavedData sd in savedData)
+            if (sd.key == key)
+                return sd;
+        return null;
+    }
+    public int GetValue(string key)
+    {
+        SavedData sd = GetSavedKey(key);
+        if (sd != null)  return sd.value;
+        int savedValue = PlayerPrefs.GetInt(key, 0);
+        if (savedValue > 0)
+            SetSavedData(key, savedValue);
+        return savedValue;
+    }
     private void Start()
     {
         Events.OnGoto += OnGoto;

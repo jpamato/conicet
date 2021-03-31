@@ -16,6 +16,8 @@ public class Days : ScreenMain
         Utils.RemoveAllChildsIn(container);
         int id = 0;
         string bookID = Data.Instance.storiesData.activeBookContent.id;
+        DayButton.states dayState = DayButton.states.ACTIVE;
+        bool lastOneReady = false;
         foreach (DaysData.Content content in Data.Instance.daysData.content)
         {
             string storyID = content.story_id;
@@ -23,12 +25,19 @@ public class Days : ScreenMain
             if (arr.Length > 1)
                 storyID = arr[0];
 
+           
             if (storyID == bookID)
             {
+                if(!lastOneReady && id != 0)
+                    dayState = DayButton.states.BLOCKED;
                 DayButton newButton = Instantiate(button);
                 newButton.transform.SetParent(container);
                 newButton.transform.localScale = Vector2.one;
-                newButton.Init(this, content);
+                newButton.Init(this, content, dayState);
+                if (newButton.allPlayed)
+                    lastOneReady = true;
+                else
+                    lastOneReady = false;
                 id++;
             }
         }

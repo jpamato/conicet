@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4127676162441664478}
   - component: {fileID: 2033868278307054610}
   - component: {fileID: 5322413304362022154}
+  - component: {fileID: 7475782610634084716}
   m_Layer: 5
   m_Name: DayButton
   m_TagString: Untagged
@@ -114,6 +115,7 @@ RectTransform:
   - {fileID: 823288563395887753}
   - {fileID: 6913628083379955278}
   - {fileID: 6233811282789735392}
+  - {fileID: 3006338104509009654}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -196,11 +198,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 847dccbe186d1a443bac42c531bf4503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgImage: {fileID: 19355488689231379}
+  color_playedBG: {r: 0.47843137, g: 0.827451, b: 0.43137255, a: 1}
+  color_activeBG: {r: 1, g: 1, b: 1, a: 1}
+  color_blockedBG: {r: 0.6792453, g: 0.6247775, b: 0.6247775, a: 1}
+  color_playedField: {r: 1, g: 1, b: 1, a: 1}
+  color_activeField: {r: 0.5686275, g: 0.25490198, b: 0.25490198, a: 1}
+  color_blockedField: {r: 0.5686275, g: 0.25490198, b: 0.25490198, a: 1}
+  done: {fileID: 7702931534198779603}
+  blocked: {fileID: 8134403179211882334}
   dayField: {fileID: 569949179}
   slotsContainer: {fileID: 6913628083379955278}
   dayButtonSlot: {fileID: 975039658186390125, guid: 482fc01c52980a044840f1687d4036a6,
     type: 3}
-  done: {fileID: 7702931534198779603}
+  allPlayed: 1
+  state: 0
+--- !u!111 &7475782610634084716
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2198119909737385504}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 65c5f57b831381240b1faa403ed357e1, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 65c5f57b831381240b1faa403ed357e1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2498877503430453612
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +516,80 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: f02de9d267689c14e9a6c455fa92d5db, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8134403179211882334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3006338104509009654}
+  - component: {fileID: 24163770267538953}
+  - component: {fileID: 4876236545278272880}
+  m_Layer: 5
+  m_Name: blocked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3006338104509009654
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134403179211882334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387632904585262675}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 221.7, y: 0}
+  m_SizeDelta: {x: 132, y: 134}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &24163770267538953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134403179211882334}
+  m_CullTransparentMesh: 0
+--- !u!114 &4876236545278272880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134403179211882334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d8896728e40028f40a74d69729b055f6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -29,7 +29,8 @@ public class DaysData : DataLoader
     }
     public void SetActivityComplete(int gameId)
     {
-        activeContent.games[gameId].played = true;
+        activeContent.games[gameId].SetPlayed(true);
+        Data.Instance.userData.SetSavedData(Data.Instance.lang.ToString()+"_"+Data.Instance.daysData.activeContent.day+"_"+gameId, 1);
     }
     public void SetContent(Content content)
     {
@@ -68,7 +69,12 @@ public class DaysData : DataLoader
                         {
                             gameData.type = (GameData.types)System.Enum.Parse(typeof(GameData.types), value);
                             gameData.gameID = GetGameID(contentLine.games, gameData.type);
-                            if (Data.Instance.DEBUG) gameData.played = true;
+
+                            string savedValue = Data.Instance.lang.ToString() + "_" + contentLine.day + "_" + contentLine.games.Count;
+                            int playedID = Data.Instance.userData.GetValue(savedValue);
+                            if (playedID > 0) gameData.SetPlayed(true);
+
+                            if (Data.Instance.DEBUG) gameData.SetPlayed(true);
                             contentLine.games.Add(gameData);
                         }
                         else if (colID == 3 && value != "")
