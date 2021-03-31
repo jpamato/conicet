@@ -53,6 +53,8 @@ public class Memotest : ScreenMain
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(animal);
             card.Init(SetSelected, assetContent);
             cards.Add(card);
+
+            card.GetComponent<SimpleFeedback>().SetOff();
         }
     }
     void OnTipDone()
@@ -98,6 +100,8 @@ public class Memotest : ScreenMain
             state = states.IDLE;
         } else if (card.content.name == lastSelected.content.name)
         {
+
+            card.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             Events.PlaySound("ui", "ui/feedback_ok", false);
             card.SetDone();
             lastSelected.SetDone();
@@ -109,6 +113,8 @@ public class Memotest : ScreenMain
         }
         else
         {
+
+            card.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             Events.PlaySound("ui", "ui/feedback_bad", false);
             card.SetWrong();
             lastSelected.SetWrong();
@@ -124,7 +130,10 @@ public class Memotest : ScreenMain
         foreach (MemotestCard card in cards)
         {
             if(card.state == MemotestCard.states.ON)
+            {
                 card.SetOff();
+                card.GetComponent<SimpleFeedback>().SetOff();
+            }
         }           
         yield return new WaitForSeconds(1);
         state = states.IDLE;
