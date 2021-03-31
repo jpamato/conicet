@@ -13,6 +13,7 @@ public class DragueableItem : MonoBehaviour
     Vector3  offset;
     public DragueableItemDestination itemDest;
     RandomRotation randomRotation;
+    System.Action<int> OnRelease;
 
     public enum states
     {
@@ -25,8 +26,9 @@ public class DragueableItem : MonoBehaviour
     {
         destinations.Add(itemDest);
     }
-    public void Init(int id, Sprite sprite)
+    public void Init(int id, Sprite sprite, System.Action<int> OnRelease)
     {
+        this.OnRelease = OnRelease;
         randomRotation = GetComponent<RandomRotation>();
         this.id = id;
         this.image.sprite = sprite;
@@ -104,5 +106,9 @@ public class DragueableItem : MonoBehaviour
             idest.state = DragueableItemDestination.states.IDLE;
 
         itemDest = null;
+    }
+    public void OnReleaseDone()
+    {
+        OnRelease(id);
     }
 }

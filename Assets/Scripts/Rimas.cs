@@ -113,12 +113,13 @@ public class Rimas : ScreenMain
         base.OnComplete();
         Events.SetReadyButton(OnReadyClicked);
     }
+    List<string> arr;
     void OnTextDone()
     {
        // intro.SetActive(false);
         int id = 0;
         GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
-        List<string> arr = c.GetContentFor(type, gameID);
+        arr = c.GetContentFor(type, gameID);
 
         foreach (string s in arr)
         {
@@ -130,7 +131,7 @@ public class Rimas : ScreenMain
                 RimaPair rp = Instantiate(pair, pairContainer);                
                 rp.transform.localScale = Vector2.one;
                 rp.transform.localPosition = new Vector2(0, separation * id);
-                rp.Init(id, sprite);
+                rp.Init(id, sprite, OnRelease);
                 pairs.Add(rp);
             }
             else
@@ -138,7 +139,7 @@ public class Rimas : ScreenMain
                 DragueableItem item = Instantiate(dragueableItem, itemsContainer);
                 item.transform.localScale = Vector2.one;
                 item.transform.localPosition = new Vector2(0, separation * (id-1));
-                item.Init(id-1, sprite);
+                item.Init(id-1, sprite, OnReleaseAdd1);
                 items.Add(item);
             }
             id++;
@@ -155,6 +156,19 @@ public class Rimas : ScreenMain
 
        
 
+    }
+    void OnRelease(int id)
+    {
+        Say(arr[id]);
+    }
+    void OnReleaseAdd1(int id)
+    {
+        Say(arr[id + 1]);
+    }
+    void Say(string word)
+    {
+        print(word);
+        Events.PlaySound("voices", "assets/" + word, false);
     }
     void OnReadyClicked()
     {

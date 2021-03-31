@@ -10,9 +10,11 @@ public class RimaPair : MonoBehaviour
     public GameObject button2;
     public int id;
     public DragueableItemDestination dragueableItemDestination;
+    System.Action<int> OnRelease;
 
-    public void Init(int id, Sprite sprite)
+    public void Init(int id, Sprite sprite, System.Action<int> OnRelease)
     {
+        this.OnRelease = OnRelease;
         this.id= id;
         image.sprite = sprite;
         button2.SetActive(false);
@@ -27,5 +29,9 @@ public class RimaPair : MonoBehaviour
     }
     void OnDone()
     { 
-}
+    }
+    public void OnReleaseDone()
+    {
+        OnRelease(id);
+    }
 }
