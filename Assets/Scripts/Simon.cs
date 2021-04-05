@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Simon : ScreenMain
 {
-    GamesData.Content content;
+    public List<string> content;
     public Text field;
     public SimpleButton simonCard;
     public List<SimpleButton> cards;
@@ -28,8 +28,11 @@ public class Simon : ScreenMain
 
         ok = 0;
         base.OnReady();
+
         string story_id = Data.Instance.storiesData.activeContent.id;
-        content = Data.Instance.gamesData.GetContent(story_id);
+        GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
+        content = c.GetContentFor(type, gameID);
+
         if (content == null) return;
         field.text = "";
 
@@ -37,7 +40,7 @@ public class Simon : ScreenMain
 
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
-        foreach(string text in content.simons)
+        foreach(string text in content)
         {
             SimpleButton sb = Instantiate(simonCard, container);
             sb.transform.localScale = Vector2.one;
@@ -114,7 +117,7 @@ public class Simon : ScreenMain
     }
     int GetCardRandom()
     {
-        int cardID = Random.Range(0, content.simons.Count);
+        int cardID = Random.Range(0, content.Count);
         if (cardID == lastcardID)
             return GetCardRandom();
         lastcardID = cardID;
@@ -124,13 +127,13 @@ public class Simon : ScreenMain
     public void SayWords()
     {
         int cID = cardsArray[cardActive];
-        string text_id = content.simons[cID];
+        string text_id = content[cID];
 
         cardActive++;
 
         Events.PlaySoundTillReady("voices", "assets/" + text_id, WordSaid);
        
-        field.text = cardActive + " -" + text_id;        
+        field.text = text_id;        
     }
     void WordSaid()
     {

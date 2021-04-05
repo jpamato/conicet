@@ -46,9 +46,9 @@ public class DayButton : MonoBehaviour
         foreach(GameData gd in content.games)
         {
             string savedValue = Data.Instance.lang.ToString() + "_" + content.day + "_" + id;
+            print("savedValue " + savedValue);
             int playedID = Data.Instance.userData.GetValue(savedValue);
             if (playedID > 0) gd.SetPlayed(true);
-            print(savedValue + " playedID: " + playedID + " : " + gd.played);
             id++;
             DayButtonSlot slot = Instantiate(dayButtonSlot, slotsContainer);
             slot.Init(gd.played);

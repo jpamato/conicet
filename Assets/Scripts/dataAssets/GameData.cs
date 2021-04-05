@@ -20,7 +20,8 @@
         escuchar,
         repeat_with_card,
         books,
-        painting
+        painting,
+        elegir_frase
     }
     public bool played;
     public string tip_id;

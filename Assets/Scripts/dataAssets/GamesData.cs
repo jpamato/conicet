@@ -22,10 +22,13 @@ public class GamesData : DataLoader
         public List<string> escuchar;
         public List<string> repeat_with_card;
         public List<string> paintings;
+        public List<string> elegir_frase;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
-            switch(gameType)
+            print("GetContentFor gameType: " + gameType + " id: " + id);
+
+            switch (gameType)
             {
                 case GameData.types.memotest: return GetTextsById(memotest, id);
                 case GameData.types.questions: return GetTextsById(questions, id);
@@ -40,6 +43,7 @@ public class GamesData : DataLoader
                 case GameData.types.escuchar: return GetTextsById(escuchar, id);
                 case GameData.types.repeat_with_card: return GetTextsById(repeat_with_card, id);
                 case GameData.types.painting: return GetTextsById(paintings, id);
+                case GameData.types.elegir_frase: print(gameType + " " + elegir_frase.Count + "  ______");  return GetTextsById(elegir_frase, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -48,12 +52,17 @@ public class GamesData : DataLoader
         // agarra la lista por id de game (por si hay varios el mismo día:
         List<string> GetTextsById(List<string> arr, int id)
         {
+            print("ASDASDASDDSADSA" + arr.Count);
             List<string> returnedArr = new List<string>();
             foreach (string s in arr)
             {
+                print(s);
                 string[] stringArr = s.Split(":"[0]);
                 if (stringArr.Length==1 && id == 0)
+                {
+                    print(s);
                     returnedArr.Add(s);
+                }
                 else if (stringArr.Length >1 && int.Parse(stringArr[1]) == id)
                     returnedArr.Add(stringArr[0]);
             }
@@ -75,6 +84,7 @@ public class GamesData : DataLoader
     }
     public Content GetContent(string storyID)
     {
+        print("GetContent " + storyID);
         return content.Find((x) => x.id == storyID);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
@@ -107,7 +117,7 @@ public class GamesData : DataLoader
                             contentLine.escuchar = new List<string>();
                             contentLine.repeat_with_card = new List<string>();
                             contentLine.paintings = new List<string>();
-
+                            contentLine.elegir_frase= new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -135,6 +145,9 @@ public class GamesData : DataLoader
                             contentLine.repeat_with_card.Add(value);
                         if (colID == 11 && value != "")
                             contentLine.paintings.Add(value);
+                        if (colID == 12 && value != "")
+                            contentLine.elegir_frase.Add(value);
+                        
                     }
                 }
                 colID++;

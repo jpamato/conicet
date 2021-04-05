@@ -44,6 +44,7 @@ public class Days : ScreenMain
     }
     public void OnSelected(DaysData.Content content)
     {
+        print("On Select " + content.story_id);
         Events.ShowHamburguer(false);
         Data.Instance.userData.InitDay(content);
     }
