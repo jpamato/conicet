@@ -12,6 +12,7 @@ public class QuestionsScreen : ScreenMain
     public GameObject intro;
     public FillAmountAnim introImage;
     public Character character;
+    public GameObject repeatButton;
     public SliderLoop sliderLoop;
 
     public override void OnEnable()
@@ -26,6 +27,9 @@ public class QuestionsScreen : ScreenMain
         string story_id = Data.Instance.storiesData.activeContent.id;
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
         content = c.GetContentFor(type, gameID);
+        print(gameID);
+        print("story_id: " + story_id);
+        print(content.Count);
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_questions");
@@ -48,6 +52,13 @@ public class QuestionsScreen : ScreenMain
     string audio_text = "";
     void SetCard()
     {
+        if(content[0] == "empty")
+        {
+            repeatButton.gameObject.SetActive(false);
+            character.gameObject.SetActive(false);
+            Invoke("OnTextDone", 10);
+            return;
+        }
         string text_id = content[num];
         audio_text = content[num];
         if (Data.Instance.lang == Data.langs.QOM) audio_text = "qom_" + text_id;

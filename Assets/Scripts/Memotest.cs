@@ -59,7 +59,7 @@ public class Memotest : ScreenMain
     }
     void OnTipDone()
     {
-        StartCoroutine(SetCardsOff(2));
+        StartCoroutine(SetCardsOff(1.25f));
     }
     void SetNew()
     {
@@ -135,7 +135,7 @@ public class Memotest : ScreenMain
                 card.GetComponent<SimpleFeedback>().SetOff();
             }
         }           
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.65f);
         state = states.IDLE;
         // OnDone();
     }
