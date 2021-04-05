@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ElegirFrase : ScreenMain
 {
     public List<string> content;
-    //public Text field;
+    public Text field;
     public SimpleButton simonCard;
     public List<SimpleButton> cards;
     public Transform container;
@@ -16,6 +16,7 @@ public class ElegirFrase : ScreenMain
 
     private void OnEnable()
     {
+        field.text = "";
         signal.SetActive(false);
     }
     public override void OnReady()
@@ -102,7 +103,7 @@ public class ElegirFrase : ScreenMain
         int cID = cardActive;
         string text_id = content[cID];
         Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
-      //  field.text = text_id;
+        field.text = Data.Instance.textsData.GetContent("frase_" + text_id).text;
     }
     void WordSaid()
     {
