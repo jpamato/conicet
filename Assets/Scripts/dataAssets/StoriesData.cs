@@ -53,7 +53,19 @@ public class StoriesData : DataLoader
     }
     public void SetActiveContent(string story_id)
     {
-        activeContent = GetContent(story_id);
+        Content content = GetContent(story_id);
+        if(content == null)
+        {
+            content = new Content();
+            string[] arr = story_id.Split(":"[0]);
+            if(arr.Length>1)
+                content = GetContent(arr[0]);
+            else
+                content = GetContent(story_id);
+
+            content.id = story_id;
+        }
+        activeContent = content;
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {

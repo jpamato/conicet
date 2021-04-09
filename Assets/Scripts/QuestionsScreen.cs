@@ -23,6 +23,7 @@ public class QuestionsScreen : ScreenMain
     }
     public override void OnReady()
     {
+        introImage.Init();
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
@@ -70,11 +71,18 @@ public class QuestionsScreen : ScreenMain
     {
         Events.SetReadyButton(ButtonClicked);
     }
+    public override void Hide(bool toLeft)
+    {
+        base.Hide(toLeft);
+        intro.SetActive(true);
+        introImage.Init();
+    }
     void ButtonClicked()
     {
         num++;
         if (num >= content.Count)
         {
+            
             OnComplete();
             Events.OnGoto(true);
         } else

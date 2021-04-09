@@ -113,8 +113,10 @@ public class DaysData : DataLoader
 
         string specialTip = Data.Instance.daysData.activeContent.games[Data.Instance.userData.activityID].tip_id;
         if (specialTip != null && specialTip.Length > 2) tip = specialTip;
-
-         return Data.Instance.textsData.GetContent(tip, ignoreLang);
+        TextsData.Content content = Data.Instance.textsData.GetContent(tip, ignoreLang);
+        if (content == null)
+            Debug.LogError("Falta Tip para < " + tip + " >");
+        return content;
 
     }
 }

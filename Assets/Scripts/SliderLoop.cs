@@ -32,7 +32,7 @@ public class SliderLoop : MonoBehaviour
             all = Resources.LoadAll<Sprite>("specialLoops/" + folderName + "/");
         }
        
-        if (all != null && all.Length > 1)
+        if (all != null && all.Length > 0)
             LoopFromSpecialFolder();
         else
             Loop();       
