@@ -21,7 +21,8 @@
         repeat_with_card,
         books,
         painting,
-        elegir_frase
+        elegir_frase,
+        labyrinth
     }
     public bool played;
     public string tip_id;
