@@ -23,7 +23,7 @@ public class SimpleButton : MonoBehaviour
         if(OnClicked != null)
             GetComponent<Button>().onClick.AddListener(() => OnClicked(this));
     }
-    public void InactivateFor(int timeToRestart)
+    public void InactivateFor(float timeToRestart)
     {
         Invoke("Reset", timeToRestart);
         button.interactable = false;
