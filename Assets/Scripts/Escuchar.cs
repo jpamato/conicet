@@ -35,6 +35,11 @@ public class Escuchar : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_escucha");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);       
     }
+    public override void Hide(bool toLeft)
+    {
+        base.Hide(toLeft);
+        fillAmountAnim.Init();
+    }
     public void Repeat()
     {
         if (audio_text != "")
