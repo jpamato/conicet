@@ -54,11 +54,9 @@ public class GamesData : DataLoader
         // agarra la lista por id de game (por si hay varios el mismo día:
         List<string> GetTextsById(List<string> arr, int id)
         {
-            print("ASDASDASDDSADSA" + arr.Count);
             List<string> returnedArr = new List<string>();
             foreach (string s in arr)
             {
-                print(s);
                 string[] stringArr = s.Split(":"[0]);
                 if (stringArr.Length==1 && id == 0)
                 {
@@ -86,7 +84,7 @@ public class GamesData : DataLoader
     }
     public Content GetContent(string storyID)
     {
-        print("GetContent " + storyID);
+        //print("GetContent " + storyID);
         return content.Find((x) => x.id == storyID);
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)

@@ -45,8 +45,13 @@ public class Escuchar : ScreenMain
     {
         fillAmountAnim.AnimateOff(10);
         StoriesData.Content content = Data.Instance.storiesData.activeContent;
-        
-        string text = Data.Instance.gamesData.GetContent(content.id).escuchar[id];
+
+        GamesData.Content gameDataContent = Data.Instance.gamesData.GetContent(content.id);
+        string text = gameDataContent.GetContentFor(type, gameID)[0];
+
+        //string text = Data.Instance.gamesData.GetContent(content.id).escuchar[id];
+
+
         string[] arr = text.Split("_"[0]);
 
         character.GetComponentInChildren<AudioSpectrumView>().enabled = true;

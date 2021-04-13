@@ -22,7 +22,6 @@ public class FallingObjects : ScreenMain
         SINGLE,
         MULTIPLE
     }
-
     [Serializable]
     public class FallingCard
     {
@@ -39,7 +38,13 @@ public class FallingObjects : ScreenMain
             OnDone(this);
         }
     }
-
+    public override void Hide(bool toLeft)
+    {
+        base.Hide(toLeft);
+        cards.Clear();
+        correctCards.Clear();
+        Utils.RemoveAllChildsIn(container);
+    }
     private void OnEnable()
     {
         cards.Clear();
@@ -77,7 +82,7 @@ public class FallingObjects : ScreenMain
             else {
                 if (isCorrect)
                     correctCards.Add(id);
-                print(text);
+                print(text + " isCorrect: " + isCorrect);
                 SimpleButton sb = Instantiate(card, container);
                 sb.transform.localScale = Vector2.one;
                 Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;

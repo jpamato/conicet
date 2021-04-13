@@ -21,7 +21,11 @@ public class SimpleButton : MonoBehaviour
         }
         if (text != "")   field.text = text;   else text = "";
         if(OnClicked != null)
-            GetComponent<Button>().onClick.AddListener(() => OnClicked(this));
+            button.onClick.AddListener(() => OnClicked(this));
+    }
+    private void OnDestroy()
+    {
+        button.onClick.RemoveAllListeners();
     }
     public void InactivateFor(float timeToRestart)
     {
