@@ -9,9 +9,11 @@ public class SimpleButton : MonoBehaviour
     public Image image;
     public Text field;
     public System.Action OnClicked;
+    Button button;
 
     public void Init(int id, Sprite sprite, string text, System.Action<SimpleButton> OnClicked)
     {
+        button = GetComponent<Button>();
         this.id = id;
         if (image != null)
         {
@@ -20,5 +22,14 @@ public class SimpleButton : MonoBehaviour
         if (text != "")   field.text = text;   else text = "";
         if(OnClicked != null)
             GetComponent<Button>().onClick.AddListener(() => OnClicked(this));
+    }
+    public void InactivateFor(int timeToRestart)
+    {
+        Invoke("Reset", timeToRestart);
+        button.interactable = false;
+    }
+    private void Reset()
+    {
+        button.interactable = true;
     }
 }

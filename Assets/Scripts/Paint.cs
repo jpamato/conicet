@@ -40,28 +40,28 @@ public class Paint : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_paint");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);        
     }
-    
+    public override void Hide(bool toLeft)
+    {
+        CancelInvoke();
+        base.Hide(toLeft);        
+    }
     void OnTipDone()
     {
         string story_id = Data.Instance.storiesData.activeContent.id;
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
 
         string content = c.GetContentFor(type, gameID)[0];
-        print("painting content: " + content);
         Sprite sprite = Resources.Load<Sprite>("paintings/" + content);
         drawing.Init(sprite);
         introImage.Init();
         introImage.AnimateOff();
+
+        Invoke("Done", 5);
     }
-    public override void OnComplete()
-    {
-        base.OnComplete();
-        Events.SetReadyButton(OnReadyClicked);
-    }
-    void OnTextDone()
+    public void Done()
     {
         OnComplete();
-        Events.SetNextButton(true);
+        Events.SetReadyButton(OnReadyClicked);
     }
     void OnReadyClicked()
     {

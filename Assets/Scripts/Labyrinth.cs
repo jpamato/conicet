@@ -119,6 +119,7 @@ public class Labyrinth : ScreenMain
     }
     public override void Hide(bool toLeft)
     {
+        StopAllCoroutines();
         base.Hide(toLeft);
     }
     private void Reset()

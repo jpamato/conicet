@@ -119,6 +119,8 @@ public class FallingObjects : ScreenMain
     }
     void OnClicked(SimpleButton button)
     {
+        button.transform.localEulerAngles = new Vector3(0, 0, 0);
+        button.InactivateFor(3.5f);
         if (IsOk(button.id))
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);            
