@@ -23,6 +23,7 @@ public class GamesData : DataLoader
         public List<string> repeat_with_card;
         public List<string> paintings;
         public List<string> elegir_frase;
+        public List<string> labyrinth;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -43,7 +44,8 @@ public class GamesData : DataLoader
                 case GameData.types.escuchar: return GetTextsById(escuchar, id);
                 case GameData.types.repeat_with_card: return GetTextsById(repeat_with_card, id);
                 case GameData.types.painting: return GetTextsById(paintings, id);
-                case GameData.types.elegir_frase: print(gameType + " " + elegir_frase.Count + "  ______");  return GetTextsById(elegir_frase, id);
+                case GameData.types.elegir_frase: return GetTextsById(elegir_frase, id);
+                case GameData.types.labyrinth: return GetTextsById(labyrinth, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -118,6 +120,7 @@ public class GamesData : DataLoader
                             contentLine.repeat_with_card = new List<string>();
                             contentLine.paintings = new List<string>();
                             contentLine.elegir_frase= new List<string>();
+                            contentLine.labyrinth = new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -147,7 +150,9 @@ public class GamesData : DataLoader
                             contentLine.paintings.Add(value);
                         if (colID == 12 && value != "")
                             contentLine.elegir_frase.Add(value);
-                        
+                        if (colID == 13 && value != "")
+                            contentLine.labyrinth.Add(value);
+
                     }
                 }
                 colID++;
