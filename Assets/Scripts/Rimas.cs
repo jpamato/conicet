@@ -40,6 +40,7 @@ public class Rimas : ScreenMain
         intro.SetActive(true);
         pairs.Clear();
         items.Clear();
+        gameReady = false;
 
         Utils.RemoveAllChildsIn(pairContainer);
         Utils.RemoveAllChildsIn(itemsContainer);
@@ -51,6 +52,12 @@ public class Rimas : ScreenMain
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         UpdateLoop();
+    }
+    public override void Hide(bool toLeft)
+    {
+        print("Hide");
+        base.Hide(toLeft);
+        introBar.Init();
     }
     private void UpdateLoop()
     {

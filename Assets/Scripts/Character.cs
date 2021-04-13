@@ -38,4 +38,12 @@ public class Character : MonoBehaviour
                 break;
         }
     }
+    public void Idle()
+    {
+        GetComponent<Animation>().Play("idle");
+    }
+    public void Dance()
+    {
+        GetComponent<Animation>().Play("dance");
+    }
 }

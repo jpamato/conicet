@@ -1728,6 +1728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5097738306531544500}
   - component: {fileID: 5673529845788035114}
+  - component: {fileID: 7732508035020266160}
   m_Layer: 5
   m_Name: Character
   m_TagString: Untagged
@@ -1744,7 +1745,7 @@ RectTransform:
   m_GameObject: {fileID: 5097738306531544503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 5490924768939581782}
   - {fileID: 7012378910541139932}
@@ -1777,6 +1778,23 @@ MonoBehaviour:
   - {fileID: 3145877537783105981}
   - {fileID: 7583934118706424674}
   - {fileID: 7508207257073073498}
+--- !u!111 &7732508035020266160
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097738306531544503}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f3d8fe947cd594345aa6ecf7005e0fa7, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f3d8fe947cd594345aa6ecf7005e0fa7, type: 2}
+  - {fileID: 7400000, guid: a1faca5c4083ccc45b173feeffa4e869, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &5340640591943625856
 GameObject:
   m_ObjectHideFlags: 0

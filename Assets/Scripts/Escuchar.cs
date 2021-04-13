@@ -11,6 +11,7 @@ public class Escuchar : ScreenMain
     public GameObject dialoguesPanel;
     int id = 0;
     public Character character;
+    public GameObject musicAsset;
 
     public override void OnEnable()
     {
@@ -46,6 +47,18 @@ public class Escuchar : ScreenMain
         StoriesData.Content content = Data.Instance.storiesData.activeContent;
         
         string text = Data.Instance.gamesData.GetContent(content.id).escuchar[id];
+        string[] arr = text.Split("_"[0]);
+
+        character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
+        musicAsset.SetActive(false);
+        character.Idle();
+        if (arr != null && arr.Length>1 && arr[0] == "cancion")
+        {
+            musicAsset.SetActive(true);
+            character.GetComponentInChildren<AudioSpectrumView>().enabled = false;
+            character.Dance();
+        }
+
         audio_text = text;
         TextsData.Content c = Data.Instance.textsData.GetContent(text);
         if(c != null)  character.Init(c.character_type);
