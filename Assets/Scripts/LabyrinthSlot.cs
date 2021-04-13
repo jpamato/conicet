@@ -16,6 +16,7 @@ public class LabyrinthSlot : MonoBehaviour
         END_BAD
     }
     [SerializeField] private Image image;
+    public Image wall;
 
     public void Init(Labyrinth labyrinth, int value)
     {
@@ -26,8 +27,13 @@ public class LabyrinthSlot : MonoBehaviour
         if (value == 3) type = types.END_OK;
         if (value == 4) type = types.END_BAD;
 
+        wall.enabled = false;
+
         if (type == types.WALL)
+        {
+            wall.enabled = true;
             SetColor(labyrinth.slotWallColor);
+        }
         else
             SetColor(labyrinth.slotInactiveColor);
     }
