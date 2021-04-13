@@ -33,15 +33,33 @@ public class Labyrinth : ScreenMain
         base.OnEnable();
         slots = GetComponentsInChildren<LabyrinthSlot>();
 
-        int[] arr = new int[] {
-                                1,1,1,1,1,1,1,
-                                1,2,0,0,1,0,3,
-                                1,0,1,1,1,0,1,
-                                1,0,1,0,0,0,1,
-                                1,0,1,0,1,0,1,
-                                1,0,0,0,1,0,4,
-                                1,1,1,1,1,1,1
-                                };
+        int[] arr1 = new int[] {
+        1,1,1,1,1,1,1,
+        1,2,0,0,1,0,3,
+        1,0,1,1,1,0,1,
+        1,0,1,0,0,0,1,
+        1,0,1,0,1,0,1,
+        1,0,0,0,1,0,4,
+        1,1,1,1,1,1,1
+        };
+
+        int[] arr2 = new int[] {
+        1,1,1,1,1,1,1,
+        1,0,0,0,1,0,4,
+        1,0,1,0,1,0,1,
+        1,0,1,0,0,0,1,
+        1,0,1,1,1,0,1,
+        1,0,0,2,1,0,3,
+        1,1,1,1,1,1,1
+        };
+
+        int[] arr;
+        
+        if(Random.Range(0,10)<5)
+            arr = arr1;
+        else
+            arr = arr2;
+
         int id = 0;
         foreach (LabyrinthSlot slot in slots)
         {
@@ -144,8 +162,7 @@ public class Labyrinth : ScreenMain
             if(isOk)
             {
                 slotsSelected[slotsSelected.Count - 1].GetComponentInChildren<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
-                OnComplete();
-                Events.SetReadyButton(OnReadyClicked);
+                Invoke("Win", 1);
             } else
             {
                 slotsSelected[slotsSelected.Count - 1].GetComponentInChildren<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
@@ -154,9 +171,16 @@ public class Labyrinth : ScreenMain
             return;
         }
         SetSlotToCharacter();
+        if (id > 0)
+            Events.PlaySound("ui", "ui/step", false);
         asset_character.GetComponent<Animation>().Play();
         Invoke("Loop", 0.5f);
         id++;
+    }
+    void Win()
+    {
+        OnComplete();
+        Events.SetReadyButton(OnReadyClicked);
     }
     void Retry()
     {
@@ -173,6 +197,8 @@ public class Labyrinth : ScreenMain
     }
     public void OnWallOver()
     {
+        if(slotsSelected.Count>0)
+            Events.PlaySound("ui", "ui/feedback_bad", false);
         Reset();
     }
     void OnReadyClicked()
