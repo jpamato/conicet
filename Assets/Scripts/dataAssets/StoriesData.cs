@@ -111,7 +111,6 @@ public class StoriesData : DataLoader
                         else if (colID == 3 && value != "")
                         {
                             string url = "stories/" + contentLine.folder + "/audios/" + value;
-                            print(url);
                             contentLine.audioClip = Resources.Load<AudioClip>(url);
                         }
                         else if (colID == 4 && value != "")
