@@ -86,7 +86,7 @@ public class FallingObjects : ScreenMain
                 SimpleButton sb = Instantiate(card, container);
                 sb.transform.localScale = Vector2.one;
                 Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-                sb.Init(id, sprite, "", OnClicked);
+                sb.Init(id, sprite, text, OnClicked);
                 id++;
                 FallingCard fc = new FallingCard();
                 fc.asset = sb;
@@ -124,6 +124,7 @@ public class FallingObjects : ScreenMain
     }
     void OnClicked(SimpleButton button)
     {
+        Events.PlaySoundTillReady("voices", "assets/" + button.text, null);
         button.transform.localEulerAngles = new Vector3(0, 0, 0);
         button.InactivateFor(3.5f);
         if (IsOk(button.id))
