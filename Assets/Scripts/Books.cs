@@ -41,6 +41,8 @@ public class Books : ScreenMain
             if (id >= Data.Instance.storiesData.books.Count)
                 isLast = true;
             bool blocked = Data.Instance.userData.IsBookBlocked(id);
+            if (Data.Instance.DEBUG)
+                blocked = false;
             newButton.Init(this, bookContent, sprite, isLast, blocked);
           
         }
