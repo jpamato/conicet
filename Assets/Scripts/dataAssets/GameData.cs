@@ -22,7 +22,8 @@
         books,
         painting,
         elegir_frase,
-        labyrinth
+        labyrinth,
+        rompecabezas
     }
     public bool played;
     public string tip_id;

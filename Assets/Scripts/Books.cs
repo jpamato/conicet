@@ -16,9 +16,12 @@ public class Books : ScreenMain
         Events.ShowHamburguer(true);
         Events.SetBackButton(false);
         Events.SetNextButton(false);
-        if (loaded) return;
-        loaded = true;
+
         AddBooks();
+    }
+    public override void OnEnable()
+    {
+        Utils.RemoveAllChildsIn(container);
     }
     void AddBooks()
     {
@@ -37,8 +40,8 @@ public class Books : ScreenMain
             id++;
             if (id >= Data.Instance.storiesData.books.Count)
                 isLast = true;
-
-            newButton.Init(this, bookContent, sprite, isLast);
+            bool blocked = Data.Instance.userData.IsBookBlocked(id);
+            newButton.Init(this, bookContent, sprite, isLast, blocked);
           
         }
     }

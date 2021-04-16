@@ -14,7 +14,7 @@ public class DragueableItem : MonoBehaviour
     public DragueableItemDestination itemDest;
     RandomRotation randomRotation;
     System.Action<int> OnRelease;
-
+    bool isInactive;
     public enum states
     {
         IDLE,
@@ -28,15 +28,22 @@ public class DragueableItem : MonoBehaviour
     }
     public void Init(int id, Sprite sprite, System.Action<int> OnRelease)
     {
+        itemDest = null;
+        destinations.Clear();
+        isInactive = false;
         this.OnRelease = OnRelease;
         randomRotation = GetComponent<RandomRotation>();
         this.id = id;
         this.image.sprite = sprite;
         originalPos = transform.position;
-        transform.localEulerAngles = new Vector3(0, 0, Random.Range(-15, 15));
+    }
+    public void SetInactive()
+    {
+        isInactive = true;
     }
     public void StartDrag()
     {
+        if (isInactive) return;
         if (itemDest != null)
         {
             itemDest.Reset();
@@ -45,7 +52,8 @@ public class DragueableItem : MonoBehaviour
         }
         offset = Input.mousePosition - transform.position;
         state = states.DRAGGING;
-        randomRotation.enabled = false;
+        if(randomRotation)
+            randomRotation.enabled = false;
         transform.localEulerAngles = Vector3.zero;
     }
     public void EndDrag()
@@ -94,7 +102,8 @@ public class DragueableItem : MonoBehaviour
             {
                 state = states.IDLE;
                 transform.position = originalPos;
-                randomRotation.enabled = true;
+                if (randomRotation)
+                    randomRotation.enabled = true;
             }
         }       
     }

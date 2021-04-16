@@ -12,8 +12,9 @@ public class BookButton : MonoBehaviour
     public Image image;
     public Image[] background;
     public GameObject asset;
+    public GameObject blocked;
 
-    public void Init(Books manager, StoriesData.BookContent bookContent, Sprite sprite, bool isLast)
+    public void Init(Books manager, StoriesData.BookContent bookContent, Sprite sprite, bool isLast, bool isBlocked)
     {
         image.sprite = sprite;
         this.manager = manager;
@@ -26,6 +27,11 @@ public class BookButton : MonoBehaviour
             foreach (Image i in background)
                 i.gameObject.SetActive(true);
         asset.transform.localPosition = new Vector3(Random.Range(-80,80), 0, 0);
+        blocked.SetActive(isBlocked);
+        if (isBlocked)
+        {
+            GetComponent<Button>().interactable = false;
+        }
     }
     public void Clicked()
     {

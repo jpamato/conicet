@@ -155,6 +155,11 @@ public class Rimas : ScreenMain
         float _y = (((separation * id) / 2) * itemsContainer.transform.localScale.y) - (separation / 4);
         allContainers.transform.localPosition = new Vector3(0, -_y, 0);
 
+        if(arr.Count<5)
+            allContainers.transform.localScale = new Vector2(1.3f, 1.3f);
+        else
+            allContainers.transform.localScale = new Vector2(1f, 1f);
+
         foreach (DragueableItem i in items)
             foreach (RimaPair rp in pairs)
                 i.SetDestiny(rp.dragueableItemDestination);

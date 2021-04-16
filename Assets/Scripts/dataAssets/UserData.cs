@@ -118,9 +118,33 @@ public class UserData : MonoBehaviour
     }
     void EndDay()
     {
-        print("EndDay");
+        int dayID = Data.Instance.daysData.activeContent.day;
+        string key = Data.Instance.lang + "_unlockedBookID";
+
+        string bookID = Data.Instance.storiesData.activeBookContent.id;
+        int totalDaysInBook = GetAllDaysInBook(bookID);
+
+        print("End Day: totalDaysInBook = (" + totalDaysInBook + ")" + " dayID: " + dayID);
+
+        if (dayID == totalDaysInBook && GetValue(key) < dayID)
+            SetSavedData(key, dayID);
+
         Events.SetNextButton(false);
         ScreensManager.Instance.ForceOpen(GameData.types.endDay, true);
+    }
+    int GetAllDaysInBook(string bookID)
+    {
+        int total = 0;
+        foreach (DaysData.Content content in Data.Instance.daysData.content)
+        {
+            string storyID = content.story_id;
+            string[] arr = storyID.Split(":"[0]);
+            if (arr.Length > 1)
+                storyID = arr[0];
+            if (storyID == bookID)
+                total++;
+        }
+        return total;
     }
     public void BackToMainMenu(bool backFromEnd = false)
     {
@@ -134,5 +158,17 @@ public class UserData : MonoBehaviour
         activityID = 0;
         lastActivityID = 0;
         ScreensManager.Instance.ForceOpen(GameData.types.books, backFromEnd);
+    }
+    public bool IsBookBlocked(int id)
+    {
+        if (id == 1)
+            return false;
+
+        string key = Data.Instance.lang + "_unlockedBookID";
+        int lastBookUnlocked = GetValue(key);
+        if (lastBookUnlocked + 1 >= id)
+            return false;
+      
+        return true;
     }
 }
