@@ -17,6 +17,8 @@ public class Rompecabezas : ScreenMain
 
     private void Start()
     {
+        slots = GetComponentsInChildren<DragueableItemDestination>();
+        items = GetComponentsInChildren<DragueableItem>();
         foreach (DragueableItem di in GetComponentsInChildren<DragueableItem>())
             itemsPositions.Add(di.transform.localPosition);
     }
@@ -38,11 +40,12 @@ public class Rompecabezas : ScreenMain
     }
     public override void OnReady()
     {
-        slots = GetComponentsInChildren<DragueableItemDestination>();
-        items = GetComponentsInChildren<DragueableItem>();
+        
 
         foreach (DragueableItemDestination di in slots)
             di.Reset();
+
+        Utils.Shuffle(itemsPositions);
 
         int id = 0;
         foreach (DragueableItem di in items)
@@ -65,7 +68,6 @@ public class Rompecabezas : ScreenMain
     }
     public override void Hide(bool toLeft)
     {
-        print("Hide");
         base.Hide(toLeft);
         introBar.Init();
     }
