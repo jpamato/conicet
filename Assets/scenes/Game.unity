@@ -22213,6 +22213,8 @@ MonoBehaviour:
   slots: []
   items: []
   simpleFeedback: {fileID: 2061833348}
+  anim: {fileID: 1341746285}
+  itemsPositions: []
 --- !u!1 &1668242301
 GameObject:
   m_ObjectHideFlags: 0
