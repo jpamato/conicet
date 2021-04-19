@@ -23,7 +23,8 @@
         painting,
         elegir_frase,
         labyrinth,
-        rompecabezas
+        rompecabezas,
+        completar
     }
     public bool played;
     public string tip_id;

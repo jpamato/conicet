@@ -46,4 +46,8 @@ public class Character : MonoBehaviour
     {
         GetComponent<Animation>().Play("dance");
     }
+    public void Appear()
+    {
+        GetComponent<Animation>().Play("appear");
+    }
 }

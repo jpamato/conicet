@@ -74,7 +74,7 @@ public class AudioManager : MonoBehaviour
     AudioSource playingSource;
     void PlaySoundTillReady(string sourceName, string audioName, System.Action OnDone)
     {
-        Debug.Log("Play soung: " + sourceName + " audioName: " + audioName);
+        //Debug.Log("Play soung: " + sourceName + " audioName: " + audioName);
         playingSource = PlaySoundAndReturn(sourceName, audioName, false);
         this.OnDone = OnDone;
         playing = true;

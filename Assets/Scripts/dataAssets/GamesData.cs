@@ -25,6 +25,7 @@ public class GamesData : DataLoader
         public List<string> elegir_frase;
         public List<string> labyrinth;
         public List<string> rompecabezas;
+        public List<string> completar;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -48,6 +49,7 @@ public class GamesData : DataLoader
                 case GameData.types.elegir_frase: return GetTextsById(elegir_frase, id);
                 case GameData.types.labyrinth: return GetTextsById(labyrinth, id);
                 case GameData.types.rompecabezas: return GetTextsById(rompecabezas, id);
+                case GameData.types.completar: return GetTextsById(completar, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -121,6 +123,7 @@ public class GamesData : DataLoader
                             contentLine.elegir_frase= new List<string>();
                             contentLine.labyrinth = new List<string>();
                             contentLine.rompecabezas = new List<string>();
+                            contentLine.completar = new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -154,6 +157,8 @@ public class GamesData : DataLoader
                             contentLine.labyrinth.Add(value);
                         if (colID == 14 && value != "")
                             contentLine.rompecabezas.Add(value);
+                        if (colID == 15 && value != "")
+                            contentLine.completar.Add(value);
 
                     }
                 }
