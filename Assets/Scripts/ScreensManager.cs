@@ -38,7 +38,7 @@ public class ScreensManager : MonoBehaviour
         foreach (ScreenMain sMain in all)
             sMain.Init(this);
         activeScreen = GetScreen(GameData.types.books);
-        activeScreen.ForceOpen();
+        activeScreen.Show(true);
     }
     public void ForceOpen(GameData.types type, bool fromRight)
     {
