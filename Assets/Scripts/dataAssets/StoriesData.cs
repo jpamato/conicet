@@ -63,6 +63,9 @@ public class StoriesData : DataLoader
             else
                 content = GetContent(story_id);
 
+            if (content == null)
+                Events.Log("No hay story para : " + story_id);
+
             content.id = story_id;
         }
         activeContent = content;

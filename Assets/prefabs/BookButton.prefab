@@ -340,6 +340,11 @@ MonoBehaviour:
   - {fileID: 4391038906737256375}
   asset: {fileID: 719953528685011163}
   blocked: {fileID: 5704707109707495592}
+  book: {fileID: 2686002046664015731}
+  books:
+  - {fileID: 21300000, guid: 4a2dc0c5ad6edab4e94dc7b17badd988, type: 3}
+  - {fileID: 21300000, guid: f47fe130b405b0b44abf667e4880e0ce, type: 3}
+  - {fileID: 21300000, guid: 71ba48b302e063c4da886068c60b6235, type: 3}
 --- !u!1 &3927209748972667346
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +431,7 @@ GameObject:
   - component: {fileID: 8636401339397697772}
   - component: {fileID: 2686002046664015731}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
