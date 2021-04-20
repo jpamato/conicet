@@ -33,7 +33,8 @@ public class DaysData : DataLoader
     }
     public void SetActivityComplete(int gameId)
     {
-        activeContent.games[gameId].SetPlayed(true);
+        if(gameId<= activeContent.games.Count-1)
+            activeContent.games[gameId].SetPlayed(true);
         Data.Instance.userData.SetSavedData(Data.Instance.lang.ToString()+"_"+Data.Instance.daysData.activeContent.day+"_"+gameId, 1);
     }
     public void SetContent(Content content)

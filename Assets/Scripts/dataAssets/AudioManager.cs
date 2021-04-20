@@ -6,6 +6,11 @@ using System;
 public class AudioManager : MonoBehaviour
 {
     public AudioSourceManager[] all;
+
+    public bool playing;
+    public System.Action OnDone;
+    public AudioSource playingSource;
+
     [Serializable]
     public class AudioSourceManager
     {
@@ -73,9 +78,6 @@ public class AudioManager : MonoBehaviour
         }
         return null;
     }
-    bool playing;
-    System.Action OnDone;
-    AudioSource playingSource;
     void PlaySoundTillReady(string sourceName, string audioName, System.Action OnDone)
     {
         //Debug.Log("Play soung: " + sourceName + " audioName: " + audioName);
@@ -89,7 +91,7 @@ public class AudioManager : MonoBehaviour
             return;
 
         float timer = playingSource.time;
-        if (!playingSource.isPlaying && OnDone != null && timer >0.1f)
+        if (!playingSource.isPlaying && OnDone != null && timer >0.2f)
         {
             OnDone();
             playing = false;

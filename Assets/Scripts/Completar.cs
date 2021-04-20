@@ -61,9 +61,14 @@ public class Completar : ScreenMain
         folderName = arr[1];
         characterName = arr[2];
 
+        character.gameObject.SetActive(true);
         CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
 
         character.Init(characterType);
+
+        if (typeID == 1)
+            character.Disapear();
+
         Next();
     }
     void Next()
@@ -76,13 +81,7 @@ public class Completar : ScreenMain
         if (prefix == "a")
         {
             Events.ChangeVolume("voices", 1);
-            if (typeID == 1)
-            {
-                character.gameObject.SetActive(false);
-            }
-            else
-            {
-                character.gameObject.SetActive(true);
+            if (typeID == 2) { 
                 character.Appear();
                 character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
             }
@@ -93,7 +92,6 @@ public class Completar : ScreenMain
                 character.Dance();
             } else
             {
-                character.Idle();
                 musicAsset.SetActive(false);
             }
         }
@@ -101,15 +99,12 @@ public class Completar : ScreenMain
         {
             if (typeID == 1)
             {
-
-                character.gameObject.SetActive(true);
                 character.Appear();
                 character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
             }
             else
             {
                 Events.ChangeVolume("voices", 0);
-                character.gameObject.SetActive(false);
             }
 
             musicAsset.SetActive(false);
@@ -135,8 +130,18 @@ public class Completar : ScreenMain
     void SayNext()
     {
         if (prefix == "b")
+        {
             id++;
+            if (typeID == 1)
+                character.Disapear();
+        }
+        else
+        {
+            if (typeID == 2)
+                character.Disapear();
+        }
         CancelInvoke();
+
         Invoke("Next", 1);
     }
     public override void OnComplete()

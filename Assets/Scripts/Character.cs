@@ -50,4 +50,8 @@ public class Character : MonoBehaviour
     {
         GetComponent<Animation>().Play("appear");
     }
+    public void Disapear()
+    {
+        GetComponent<Animation>().Play("disapear");
+    }
 }
