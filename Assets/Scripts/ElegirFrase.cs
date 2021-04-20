@@ -110,9 +110,7 @@ public class ElegirFrase : ScreenMain
         string text_id = content[cID];
         Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);
-        if (c == null)
-            Events.Log("Falta frase: frases/" + text_id);
-        else
+        if (c != null)
             field.text = c.text;
     }
     void WordSaid()
