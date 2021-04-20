@@ -63,7 +63,7 @@ public class ScreensManager : MonoBehaviour
             if (sm.type == type)
                 return sm;
 
-        Debug.Log("No hay screen para: " + type);
+        Events.Log("No hay screen para: " + type);
         return null;
     }
     void Reset()

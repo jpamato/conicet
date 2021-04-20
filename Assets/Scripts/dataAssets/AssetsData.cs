@@ -34,8 +34,8 @@ public class AssetsData : DataLoader
             if(string.Equals(content.name, _name))
                 return content;
         }
-            
-        Debug.Log("No hay asset content para: " + _name);
+
+        Events.Log("No hay asset content para: " + _name);
         return null;
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)

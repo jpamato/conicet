@@ -7,12 +7,9 @@ public class Days : ScreenMain
     public Transform container;
     public DayButton button;
 
-    public override void OnReady()
+    public override void Show(bool fromRight)
     {
-        Events.ShowHamburguer(true);
-        Events.SetBackButton(true);
-        Events.SetNextButton(false);
-
+        base.Show(fromRight);
         Utils.RemoveAllChildsIn(container);
         int id = 0;
         string bookID = Data.Instance.storiesData.activeBookContent.id;
@@ -25,10 +22,10 @@ public class Days : ScreenMain
             if (arr.Length > 1)
                 storyID = arr[0];
 
-           
+
             if (storyID == bookID)
             {
-                if(!lastOneReady && id != 0)
+                if (!lastOneReady && id != 0)
                     dayState = DayButton.states.BLOCKED;
                 DayButton newButton = Instantiate(button);
                 newButton.transform.SetParent(container);
@@ -41,6 +38,13 @@ public class Days : ScreenMain
                 id++;
             }
         }
+    }
+    public override void OnReady()
+    {
+        Events.ShowHamburguer(true);
+        Events.SetBackButton(true);
+        Events.SetNextButton(false);
+        
     }
     public void OnSelected(DaysData.Content content)
     {

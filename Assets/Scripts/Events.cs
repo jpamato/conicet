@@ -11,6 +11,7 @@ public static class Events
     public static System.Action<bool> ShowHamburguer = delegate { };
     public static System.Action<bool> SetBackButton = delegate { };
     public static System.Action<bool> SetNextButton = delegate { };
+    public static System.Action<string> Log = delegate { };
     public static System.Action<System.Action> SetReadyButton= delegate { };
 
     public static System.Action<bool> OnGoto = delegate { };

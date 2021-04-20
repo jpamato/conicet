@@ -44,7 +44,7 @@ public class ScreenMain : MonoBehaviour
         gameObject.transform.localPosition = Vector3.zero;
         OnReady();
     }
-    public void Show(bool fromRight)
+    public virtual void Show(bool fromRight)
     {
         StopAllCoroutines();
         gameObject.SetActive(true);

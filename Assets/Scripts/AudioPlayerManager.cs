@@ -48,7 +48,7 @@ public class AudioPlayerManager : MonoBehaviour
         audioSource.clip = clip;
         if (clip == null)
         {
-            Debug.Log("No hay audio, para " + timelineTextData.Count + " lines");
+            Events.Log("No hay audio, para " + timelineTextData.Count + " lines");
             return;
         }
         else print(clip);

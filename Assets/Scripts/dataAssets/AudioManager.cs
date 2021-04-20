@@ -19,6 +19,7 @@ public class AudioManager : MonoBehaviour
         Events.PlaySound += PlaySound;
         Events.ChangeVolume += ChangeVolume;
         Events.OnGoto += OnGoto;
+
         foreach (AudioSourceManager m in all)
         {
             m.audioSource = gameObject.AddComponent<AudioSource>();
@@ -35,6 +36,9 @@ public class AudioManager : MonoBehaviour
     void OnGoto(bool b)
     {
         OnDone = null;
+        playing = false;
+        if (playingSource != null)
+            playingSource.Stop();
     }
     void ChangeVolume(string sourceName, float volume)
     {
