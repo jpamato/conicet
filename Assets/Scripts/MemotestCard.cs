@@ -24,7 +24,14 @@ public class MemotestCard : MonoBehaviour
         this.SetSelected = SetSelected;
         this.content = content;
         anim = GetComponent<Animation>();
-        image.sprite = content.sprite;
+        if (content.sprite == null)
+        {
+            Events.Log("Falta asset: " + content.name);
+        }
+        else
+        {
+            image.sprite = content.sprite;
+        }
         SetOn();
         field.text = content.name;
     }

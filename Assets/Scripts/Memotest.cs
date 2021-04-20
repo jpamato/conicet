@@ -51,7 +51,10 @@ public class Memotest : ScreenMain
             MemotestCard card = Instantiate(card_to_add, container);
             card.transform.localScale = new Vector3(scale, scale, scale);
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(animal);
-            card.Init(SetSelected, assetContent);
+            if(assetContent == null)
+                Events.Log("Falta asset: " + animal);
+            else
+                card.Init(SetSelected, assetContent);
             cards.Add(card);
 
             card.GetComponent<SimpleFeedback>().SetOff();
