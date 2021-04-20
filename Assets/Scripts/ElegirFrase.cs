@@ -37,9 +37,15 @@ public class ElegirFrase : ScreenMain
         int id = 0;
         foreach (string text in content)
         {
-            SimpleButton sb = Instantiate(simonCard);           
-            Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-            sb.Init(id, sprite, "", OnClicked);
+            SimpleButton sb = Instantiate(simonCard);
+            AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(text);
+            if (assetContent == null || assetContent.sprite == null)
+                Events.Log("No hay imagen para: " + text);
+            else
+            {
+                Sprite sprite = assetContent.sprite;
+                sb.Init(id, sprite, "", OnClicked);
+            }
             id++;
             cards.Add(sb);
         }
@@ -104,7 +110,9 @@ public class ElegirFrase : ScreenMain
         string text_id = content[cID];
         Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);
-        if(c != null)
+        if (c == null)
+            Events.Log("Falta frase: frases/" + text_id);
+        else
             field.text = c.text;
     }
     void WordSaid()

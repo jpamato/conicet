@@ -34,7 +34,10 @@ public class QuestionsScreen : ScreenMain
         if (content == null) return;
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_questions");
-        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+        if (tipContent == null)
+            OnTipDone();
+        else
+            Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     } 
     public void Repeat()
     {

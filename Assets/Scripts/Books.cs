@@ -11,20 +11,22 @@ public class Books : ScreenMain
     public Sprite lastImage;
     bool loaded;
 
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        AddBooks();
+        print("Show");
+    }
     public override void OnReady()
     {
+        print("OnReady");
         Events.ShowHamburguer(true);
         Events.SetBackButton(false);
         Events.SetNextButton(false);
-
-        AddBooks();
-    }
-    public override void OnEnable()
-    {
-        Utils.RemoveAllChildsIn(container);
     }
     void AddBooks()
     {
+        print("AddBooks");
         Utils.RemoveAllChildsIn(container);
         int id = 0;
         foreach (StoriesData.BookContent bookContent in Data.Instance.storiesData.books)

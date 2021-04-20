@@ -40,6 +40,7 @@ public class FallingObjects : ScreenMain
     }
     public override void Hide(bool toLeft)
     {
+        signal.SetActive(false);
         base.Hide(toLeft);
         cards.Clear();
         correctCards.Clear();
