@@ -84,8 +84,17 @@ public class TextsData : DataLoader
                     else
                     {
                         if (colID == 1 && value != "")
-                            contentLine.character_type = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), value);
-                        if (colID == 2 && value != "")
+                        {
+                            try
+                            {
+                                contentLine.character_type = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), value);
+                            }
+                            catch (System.Exception)
+                            {
+                                Events.Log("No hay un Character de tipo: " + value);
+                                throw;
+                            }
+                        } if (colID == 2 && value != "")
                             contentLine.text = value;
                     }
                 }
