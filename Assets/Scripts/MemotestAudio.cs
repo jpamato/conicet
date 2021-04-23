@@ -56,7 +56,7 @@ public class MemotestAudio : ScreenMain
         foreach (string animal in mContent.memotestAudio)
         {
             MemotestCard card = Instantiate(card_to_add, container);
-            card.transform.localScale = Vector2.one;
+            card.transform.localScale = new Vector2(1.2f, 1.2f);
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(animal);
             card.Init(SetSelected, assetContent);
             cards.Add(card);
