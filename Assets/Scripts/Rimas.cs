@@ -127,6 +127,8 @@ public class Rimas : ScreenMain
         int id = 0;
         GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
         arr = c.GetContentFor(type, gameID);
+        
+      
 
         foreach (string s in arr)
         {
@@ -151,6 +153,16 @@ public class Rimas : ScreenMain
             }
             id++;
         }
+        for (int a = 0; a < 5; a++)
+        {
+            int rand = Random.Range(1, items.Count);
+            Vector3 pos1 = items[0].transform.localPosition;
+            Vector3 pos2 = items[rand].transform.localPosition;
+            items[0].transform.localPosition = pos2;
+            items[rand].transform.localPosition = pos1;
+        }
+
+
 
         float _y = (((separation * id) / 2) * itemsContainer.transform.localScale.y) - (separation / 4);
         allContainers.transform.localPosition = new Vector3(0, -_y, 0);
