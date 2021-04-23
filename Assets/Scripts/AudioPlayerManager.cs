@@ -85,7 +85,7 @@ public class AudioPlayerManager : MonoBehaviour
     void CheckKeyFrame(float timer)
     {
         if (nextKeyframe == 0) return; //el ultimo seconds es zero, no se carga:
-        if (timer > nextKeyframe)
+        if (timer > nextKeyframe-0.1f)
         {
             id++;
             nextKeyframe = timelineTextData[id].seconds;
