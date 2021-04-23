@@ -8,6 +8,7 @@ public class MemotestAudio : ScreenMain
     [SerializeField] GameObject initialButtonPanel;
     [SerializeField] MemotestCard card_to_add;
     [SerializeField] Transform container;
+    [SerializeField] FillAmountAnim fillAmountAnim;
     public List<MemotestCard> cards;
     public List<string> corrects;
     StoriesData.Content storyData;
@@ -26,6 +27,14 @@ public class MemotestAudio : ScreenMain
     {
         base.OnEnable();
         title.text = "";
+    }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        fillAmountAnim.Init();
+        id = 0;
+        corrects.Clear();
+        cards.Clear();
     }
     public override void OnReady()
     {        
@@ -48,15 +57,16 @@ public class MemotestAudio : ScreenMain
     }
     void OnTipDone()
     {
+        fillAmountAnim.AnimateOff(10);
         initialButtonPanel.SetActive(true);
-
         Utils.RemoveAllChildsIn(container);
         GamesData.Content mContent = Data.Instance.gamesData.GetContent(storyData.id);
         Utils.Shuffle(mContent.memotestAudio);
+
         foreach (string animal in mContent.memotestAudio)
         {
             MemotestCard card = Instantiate(card_to_add, container);
-            card.transform.localScale = Vector2.one;
+            card.transform.localScale = new Vector2(1.2f, 1.2f);
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(animal);
             card.Init(SetSelected, assetContent);
             cards.Add(card);
@@ -67,7 +77,7 @@ public class MemotestAudio : ScreenMain
     }
     void SetNew()
     {
-        if (id >= corrects.Count)
+        if (id >= corrects.Count && id>0)
             Events.SetReadyButton(ButtonClicked);
         else
             SetWord();
