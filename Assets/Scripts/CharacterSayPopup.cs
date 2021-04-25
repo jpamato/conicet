@@ -25,9 +25,13 @@ public class CharacterSayPopup : MonoBehaviour
     }
     void OnGoto(bool next)
     {
+       
         OnDone = null;
+        StopAllCoroutines();
         if (isOn)
+        {
             StartCoroutine(AnimDone());
+        }
     }
     void SetOff()
     {
@@ -47,6 +51,7 @@ public class CharacterSayPopup : MonoBehaviour
         }
         else
         {
+            StopAllCoroutines();
             character.Init(type);
             AudioSource audioSource = Data.Instance.GetComponent<AudioManager>().GetAudioSource("voices");
             Data.Instance.audioSpectrum.SetAudioSource(audioSource);
@@ -61,7 +66,8 @@ public class CharacterSayPopup : MonoBehaviour
         Events.SetReadyButton(ReadyButtonClicked);
     }
     public void ReadyButtonClicked()
-    {       
+    {
+        StopAllCoroutines();
         StartCoroutine(AnimDone());
     }
     IEnumerator AnimDone()

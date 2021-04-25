@@ -80,8 +80,11 @@ public class AudioManager : MonoBehaviour
         }
         return null;
     }
+    float timeSinceStart;
     void PlaySoundTillReady(string sourceName, string audioName, System.Action OnDone)
     {
+        timeSinceStart = 0;
+        CancelInvoke();
         //Debug.Log("Play soung: " + sourceName + " audioName: " + audioName);
         playingSource = PlaySoundAndReturn(sourceName, audioName, false);
         this.OnDone = OnDone;
@@ -92,10 +95,16 @@ public class AudioManager : MonoBehaviour
         if (!playing)
             return;
 
+        timeSinceStart += Time.deltaTime;
+        if (timeSinceStart < 0.2f)
+            return;
+
         float timer = playingSource.time;
-        if (!playingSource.isPlaying && OnDone != null && timer >0.2f)
+        if (!playingSource.isPlaying && OnDone != null)
         {
+            timeSinceStart = 0;
             OnDone();
+            OnDone = null;
             playing = false;
             playingSource = null;
         }

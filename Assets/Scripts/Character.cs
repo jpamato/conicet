@@ -33,7 +33,7 @@ public class Character : MonoBehaviour
             case CharactersManager.types.Mujer:
                 all[3].SetActive(true);
                 break;
-            case CharactersManager.types.Hombre:
+            default:
                 all[4].SetActive(true);
                 break;
         }

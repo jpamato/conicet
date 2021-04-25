@@ -58,7 +58,9 @@ public class Simon : ScreenMain
     void OnClicked(SimpleButton button)
     {
         if (!canSelect) return;
-        
+
+        if (cardActive >= cardsArray.Count) return;
+
         if (button.id == cardsArray[cardActive])
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
@@ -126,6 +128,7 @@ public class Simon : ScreenMain
     public int cardActive = 0;
     public void SayWords()
     {
+        if (cardActive >= cardsArray.Count) return;
         int cID = cardsArray[cardActive];
         string text_id = content[cID];
 

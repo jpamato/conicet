@@ -37,6 +37,7 @@ public class Completar : ScreenMain
     }
     public override void OnReady()
     {
+        print("Completar Ready");
         base.OnReady();
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_completar");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
@@ -49,6 +50,7 @@ public class Completar : ScreenMain
 
     void OnTipDone()
     {
+        print("Completar OnTipDone");
         prefix = "";
         id = 1;
         fillAmountAnim.AnimateOff(10);

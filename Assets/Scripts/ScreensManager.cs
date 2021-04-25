@@ -15,8 +15,10 @@ public class ScreensManager : MonoBehaviour
     void Awake()
     {        
         if (!mInstance)
-            mInstance = this;
-
+            mInstance = this;        
+    }
+    private void Start()
+    {
         Reset();
         if (Data.Instance.allLoaded)
             AllDataLoaded();

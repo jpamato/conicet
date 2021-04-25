@@ -40,6 +40,7 @@ public class Data : MonoBehaviour
         {
             if (mInstance == null)
             {
+                print("ADS");
                 mInstance = FindObjectOfType<Data>();
 
                 if (mInstance == null)
@@ -68,6 +69,7 @@ public class Data : MonoBehaviour
 
         else
         {
+            print("Borra");
             Destroy(this.gameObject);
             return;
         }
