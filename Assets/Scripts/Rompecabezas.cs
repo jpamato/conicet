@@ -169,7 +169,7 @@ public class Rompecabezas : ScreenMain
     void OnRelease(int id)
     {
         nums++;
-        if (nums > 4)
+        if (nums > 9)
             OnComplete();
     }
     void OnReleaseAdd1(int id)
