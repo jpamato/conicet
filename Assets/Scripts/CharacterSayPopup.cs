@@ -59,6 +59,7 @@ public class CharacterSayPopup : MonoBehaviour
             this.OnDone = OnDone;
             field.text = content.text;
             Events.PlaySoundTillReady("voices", "genericTexts/" + content.id, OnReady);
+            anim.Play("on");
         }
     }
     public void OnReady()

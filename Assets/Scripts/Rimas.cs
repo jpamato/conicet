@@ -127,19 +127,19 @@ public class Rimas : ScreenMain
         int id = 0;
         GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
         arr = c.GetContentFor(type, gameID);
-        
-      
+
+        float _x = (((separation * arr.Count) / 2) * itemsContainer.transform.localScale.y) - (separation / 4);
+        allContainers.transform.localPosition = new Vector3(-_x, allContainers.transform.localPosition.y, 0);
 
         foreach (string s in arr)
         {
-            print(s);
             Sprite sprite = Data.Instance.assetsData.GetContent(s).sprite;
             
             if (id %2==0)
             {
                 RimaPair rp = Instantiate(pair, pairContainer);                
                 rp.transform.localScale = Vector2.one;
-                rp.transform.localPosition = new Vector2(0, separation * id);
+                rp.transform.localPosition = new Vector2(separation * id, 0);
                 rp.Init(id, sprite, OnRelease);
                 pairs.Add(rp);
             }
@@ -147,7 +147,7 @@ public class Rimas : ScreenMain
             {
                 DragueableItem item = Instantiate(dragueableItem, itemsContainer);
                 item.transform.localScale = Vector2.one;
-                item.transform.localPosition = new Vector2(0, separation * (id-1));
+                item.transform.localPosition = new Vector2(separation * (id-1), 0);
                 item.Init(id-1, sprite, OnReleaseAdd1);
                 items.Add(item);
             }
@@ -164,13 +164,16 @@ public class Rimas : ScreenMain
 
 
 
-        float _y = (((separation * id) / 2) * itemsContainer.transform.localScale.y) - (separation / 4);
-        allContainers.transform.localPosition = new Vector3(0, -_y, 0);
 
-        if(arr.Count<5)
-            allContainers.transform.localScale = new Vector2(1.3f, 1.3f);
-        else
-            allContainers.transform.localScale = new Vector2(1f, 1f);
+        //if (arr.Count < 5)
+        //{
+        //    _y = -65;
+        //    allContainers.transform.localScale = new Vector2(1.3f, 1.3f);
+        //}
+        //else
+        //    allContainers.transform.localScale = new Vector2(1f, 1f);
+
+
 
         foreach (DragueableItem i in items)
             foreach (RimaPair rp in pairs)
