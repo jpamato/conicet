@@ -14,6 +14,7 @@ public class Rompecabezas : ScreenMain
     bool gameReady;
     public Animation anim;
     public List<Vector2> itemsPositions;
+    int nums;
 
     private void Start()
     {
@@ -40,7 +41,7 @@ public class Rompecabezas : ScreenMain
     }
     public override void OnReady()
     {
-        
+        nums = 0;
 
         foreach (DragueableItemDestination di in slots)
             di.Reset();
@@ -104,6 +105,8 @@ public class Rompecabezas : ScreenMain
     string storyID;
     void OnTipDone()
     {
+        isDone = false;
+        nums = 0;
         storyID = Data.Instance.storiesData.activeContent.id;
         //    field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
         content = Data.Instance.gamesData.GetContent(storyID);
@@ -113,8 +116,11 @@ public class Rompecabezas : ScreenMain
 
         //Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
+    bool isDone;
     public override void OnComplete()
     {
+        if (isDone) return;
+        isDone = true;
         base.OnComplete();
         Events.SetReadyButton(OnReadyClicked);
     }
@@ -162,6 +168,9 @@ public class Rompecabezas : ScreenMain
     }
     void OnRelease(int id)
     {
+        nums++;
+        if (nums > 4)
+            OnComplete();
     }
     void OnReleaseAdd1(int id)
     {
