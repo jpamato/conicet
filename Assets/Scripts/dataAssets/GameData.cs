@@ -24,7 +24,8 @@
         elegir_frase,
         labyrinth,
         rompecabezas,
-        completar
+        completar,
+        letra
     }
     public bool played;
     public string tip_id;

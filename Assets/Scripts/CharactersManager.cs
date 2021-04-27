@@ -9,6 +9,8 @@ public class CharactersManager
         Oscarcito,
         Mujer,
         Hombre,
-        Dany
+        Dany,
+        Loro,
+        Uriel
     }
 }

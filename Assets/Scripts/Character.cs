@@ -33,6 +33,12 @@ public class Character : MonoBehaviour
             case CharactersManager.types.Mujer:
                 all[3].SetActive(true);
                 break;
+            case CharactersManager.types.Loro:
+                all[5].SetActive(true);
+                break;
+            case CharactersManager.types.Uriel:
+                all[6].SetActive(true);
+                break;
             default:
                 all[4].SetActive(true);
                 break;
