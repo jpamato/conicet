@@ -13,6 +13,7 @@ public class Letra : ScreenMain
     public SimpleButton card;
     public List<SimpleButton> allButtons;
     public Transform container;
+    public Image image;
     bool clicked;
 
     public override void Hide(bool toLeft)
@@ -22,12 +23,14 @@ public class Letra : ScreenMain
     }
     private void OnEnable()
     {
+        image.gameObject.SetActive(false);
         field.text = "";
         Utils.RemoveAllChildsIn(container);
     }
     TextsData.Content tipContent;
     public override void OnReady()
     {
+        image.gameObject.SetActive(false);
         Utils.RemoveAllChildsIn(container);
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
@@ -53,14 +56,23 @@ public class Letra : ScreenMain
                 originalText = text;
                 SetOriginalText();
             }
-            else
+            else if (id == 1)
             {
                 string[] arr = text.Split(","[0]);
+                int id2 = 1;
                 foreach (string s in arr)
                 {
-                    SetLetter(id, s);
-                    id++;
+                    SetLetter(id2, s);
+                    id2++;
                 }
+            } else if(id==2)
+            {
+                image.gameObject.SetActive(true);
+                Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
+                if (sprite == null)
+                    Events.Log("No hay asset para " + text);
+                else
+                    image.sprite = sprite;
             }
             id++;
         }
