@@ -25,7 +25,9 @@
         labyrinth,
         rompecabezas,
         completar,
-        letra
+        letra,
+        contar,
+        ordenar
     }
     public bool played;
     public string tip_id;

@@ -27,6 +27,8 @@ public class GamesData : DataLoader
         public List<string> rompecabezas;
         public List<string> completar;
         public List<string> letra;
+        public List<string> contar;
+        public List<string> ordenar;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -52,6 +54,8 @@ public class GamesData : DataLoader
                 case GameData.types.rompecabezas: return GetTextsById(rompecabezas, id);
                 case GameData.types.completar: return GetTextsById(completar, id);
                 case GameData.types.letra: return GetTextsById(letra, id);
+                case GameData.types.contar: return GetTextsById(contar, id);
+                case GameData.types.ordenar: return GetTextsById(ordenar, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -127,6 +131,8 @@ public class GamesData : DataLoader
                             contentLine.rompecabezas = new List<string>();
                             contentLine.completar = new List<string>();
                             contentLine.letra = new List<string>();
+                            contentLine.contar = new List<string>();
+                            contentLine.ordenar = new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -164,6 +170,10 @@ public class GamesData : DataLoader
                             contentLine.completar.Add(value);
                         if (colID == 16 && value != "")
                             contentLine.letra.Add(value);
+                        if (colID == 17 && value != "")
+                            contentLine.contar.Add(value);
+                        if (colID == 18 && value != "")
+                            contentLine.ordenar.Add(value);
 
                     }
                 }
