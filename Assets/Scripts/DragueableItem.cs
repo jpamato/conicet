@@ -37,6 +37,10 @@ public class DragueableItem : MonoBehaviour
         this.image.sprite = sprite;
         originalPos = transform.position;
     }
+    public void ResetOriginalPosition()
+    {
+        originalPos = transform.position;
+    }
     public void SetInactive()
     {
         isInactive = true;
