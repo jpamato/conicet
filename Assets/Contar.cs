@@ -24,6 +24,7 @@ public class Contar : ScreenMain
     }
     private void OnEnable()
     {
+        Utils.RemoveAllChildsIn(imagesContainer);
         Utils.RemoveAllChildsIn(container);
     }
     TextsData.Content tipContent;
@@ -89,9 +90,8 @@ public class Contar : ScreenMain
         {
             SimpleButton sb = Instantiate(imageCard, imagesContainer);
             sb.Init(a, sprite, "", null);
-            sb.GetComponent<Animation>().Play();
             sb.transform.localScale = Vector2.one;
-            sb.image.transform.localPosition = new Vector2(0, UnityEngine.Random.Range(-10, 10));
+            sb.image.transform.localPosition = new Vector2(0, UnityEngine.Random.Range(-90, 90));
         }
     }
     void AddButtons()
