@@ -9,6 +9,7 @@ public class Books : ScreenMain
     public Sprite firstImage;
     public Sprite[] loopImages;
     public Sprite lastImage;
+    public List<BookButton> books;
     bool loaded;
 
     public override void Show(bool fromRight)
@@ -19,16 +20,16 @@ public class Books : ScreenMain
     }
     public override void OnReady()
     {
-        print("OnReady");
         Events.ShowHamburguer(true);
         Events.SetBackButton(false);
         Events.SetNextButton(false);
     }
     void AddBooks()
     {
-        print("AddBooks");
+        books.Clear();
         Utils.RemoveAllChildsIn(container);
         int id = 0;
+        bool blocked = false;
         foreach (StoriesData.BookContent bookContent in Data.Instance.storiesData.books)
         {
             BookButton newButton = Instantiate(button);
@@ -42,11 +43,16 @@ public class Books : ScreenMain
             id++;
             if (id >= Data.Instance.storiesData.books.Count)
                 isLast = true;
-            bool blocked = Data.Instance.userData.IsBookBlocked(id);
+            if (id>1 && !blocked && !Data.Instance.DEBUG)
+            {                
+                blocked = Data.Instance.userData.IsBookBlocked(id);
+                if(blocked)
+                    books[id - 2].SetOn();
+            }
             if (Data.Instance.DEBUG)
                 blocked = false;
             newButton.Init(this, bookContent, sprite, isLast, blocked);
-          
+            books.Add(newButton);
         }
     }
     public void OnSelected(StoriesData.BookContent bookContent)

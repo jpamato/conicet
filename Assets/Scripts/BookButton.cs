@@ -36,6 +36,14 @@ public class BookButton : MonoBehaviour
             GetComponent<Button>().interactable = false;
         }
     }
+    public void SetOn()
+    {
+        asset.GetComponent<Animation>().Play("on");
+    }
+    public void Reset()
+    {
+        asset.GetComponent<Animation>().Play("off");
+    }
     public void Clicked()
     {
         manager.OnSelected(bookContent);
