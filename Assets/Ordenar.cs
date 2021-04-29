@@ -22,12 +22,14 @@ public class Ordenar : ScreenMain
 
     public override void OnEnable()
     {
+        Events.OnDragDone += OnDragDone;
         base.OnEnable();
         intro.SetActive(true);
         introBar.Init();
     }
     public override void OnDisable()
     {
+        Events.OnDragDone -= OnDragDone;
         base.OnDisable();
     }
     public override void OnOff()
@@ -149,7 +151,6 @@ public class Ordenar : ScreenMain
                 i.SetDestiny(rp);
         }
 
-        Invoke("CheckResults", 2);
     }
     void AddSlot(int id)
     {
@@ -161,8 +162,9 @@ public class Ordenar : ScreenMain
         rp.GetComponentInChildren<Text>().text = (id + 1).ToString();
     }
 
-   
-    private void CheckResults()
+    public List<int> allSlotsIDS;
+
+    private void OnDragDone()
     {
        
         if (!gameReady)
@@ -171,8 +173,11 @@ public class Ordenar : ScreenMain
             bool mistake = false;
             if (slots.Count > 0)
             {
+                allSlotsIDS.Clear();
                 foreach (DragueableItemDestination di in slots)
                 {
+                    if(di.dragueableItemID != -1)
+                        allSlotsIDS.Add(di.dragueableItemID);
                     if (di.dragueableItemID != id)
                     {
                         mistake = true;
@@ -190,9 +195,11 @@ public class Ordenar : ScreenMain
                     foreach (DragueableItem di in items)
                         di.SetInactive();
                     return;
+                } else if(allSlotsIDS.Count == slots.Count)
+                {
+                    simpleFeedback.SetState(SimpleFeedback.states.WRONG, 2);
                 }
             }
-            Invoke("CheckResults", 0.5f);
         }
     }
    

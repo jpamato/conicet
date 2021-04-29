@@ -69,13 +69,13 @@ public class DragueableItem : MonoBehaviour
             if (d < distance && idest.state == DragueableItemDestination.states.IDLE)
             {   
                 itemDest = idest;
-                itemDest.dragueableItemID = id;
                 distance = d;
             }
         }
         if (itemDest != null)
         {
             itemDest.SetDone();
+            itemDest.dragueableItemID = id;
             state = states.DONE;
         }
         else
@@ -94,6 +94,7 @@ public class DragueableItem : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, itemDest.transform.position, Time.deltaTime*10);
             if(Vector3.Distance(transform.position, itemDest.transform.position) <1)
             {
+                Events.OnDragDone();
                 state = states.IDLE;
                 transform.position = itemDest.transform.position;
                 transform.localEulerAngles = Vector3.zero;
