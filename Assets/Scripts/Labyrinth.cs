@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Labyrinth : ScreenMain
 {
-    int offset = 100;
+    int offset = 0;//100;
     public List<string> content;
     int id = 0;
     public Image image;
