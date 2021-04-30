@@ -33,7 +33,7 @@ public class MemotestCard : MonoBehaviour
             image.sprite = content.sprite;
         }
         SetOn();
-        field.text = content.name;
+        field.text = Utils.ParseText( content.name );
     }
     public void SetDone()
     {

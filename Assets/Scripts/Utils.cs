@@ -52,4 +52,11 @@
         int sec = int.Parse(arr[1]);
         return sec + (60*min);
     }
+    public static string ParseText(string text)
+    {
+        if (text.Length < 2)
+            return text;
+        return text.Replace("_", " ");
+
+    }
 }
