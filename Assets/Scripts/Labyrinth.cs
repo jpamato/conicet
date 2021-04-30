@@ -104,11 +104,18 @@ public class Labyrinth : ScreenMain
         };
 
         int[] arr;
-        
-        if(Random.Range(0,10)<5)
-            arr = arr1;
-        else
-            arr = arr2;
+
+        int rand = Random.Range(1, 7+1);
+        switch(rand)
+        {
+            case 1:  arr = arr1; break;
+            case 2: arr = arr2; break;
+            case 3: arr = arr3; break;
+            case 4: arr = arr4; break;
+            case 5: arr = arr5; break;
+            case 6: arr = arr6; break;
+            default: arr = arr7; break;
+        }
 
         int id = 0;
         foreach (LabyrinthSlot slot in slots)
