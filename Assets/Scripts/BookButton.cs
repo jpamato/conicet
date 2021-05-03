@@ -16,9 +16,13 @@ public class BookButton : MonoBehaviour
     public Image book;
     public Sprite[] books;
 
-    public void Init(Books manager, StoriesData.BookContent bookContent, Sprite sprite, bool isLast, bool isBlocked)
+    public void Init(int id, Books manager, StoriesData.BookContent bookContent, Sprite sprite, bool isLast, bool isBlocked)
     {
-        book.sprite = books[UnityEngine.Random.Range(0, books.Length)];
+        print(id);
+        if (id >= books.Length)
+            id = id - books.Length * (int)Mathf.Floor(id / books.Length);
+        print("______ " + id);
+        book.sprite = books[id];
         image.sprite = sprite;
         this.manager = manager;
         this.bookContent = bookContent;

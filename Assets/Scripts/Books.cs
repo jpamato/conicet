@@ -51,7 +51,7 @@ public class Books : ScreenMain
             }
             if (Data.Instance.DEBUG)
                 blocked = false;
-            newButton.Init(this, bookContent, sprite, isLast, blocked);
+            newButton.Init(id, this, bookContent, sprite, isLast, blocked);
             books.Add(newButton);
         }
     }
