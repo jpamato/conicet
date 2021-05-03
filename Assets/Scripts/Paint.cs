@@ -31,7 +31,7 @@ public class Paint : ScreenMain
     public override void OnOff()
     {
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null, null, CharactersManager.types.Brisa);
+        Events.OnCharacterSay(null, null, CharactersManager.types.Nasheli);
         drawing.SetOff();
     }
     public override void OnReady()

@@ -33,7 +33,7 @@ public class Rimas : ScreenMain
     public override void OnOff()
     {
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null, null, CharactersManager.types.Brisa);
+        Events.OnCharacterSay(null, null, CharactersManager.types.Nasheli);
     }
     public override void OnReady()
     {

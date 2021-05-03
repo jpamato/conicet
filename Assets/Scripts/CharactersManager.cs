@@ -5,7 +5,7 @@ public class CharactersManager
 {
     public enum types
     {
-        Brisa,
+        Nasheli,
         Oscarcito,
         Mujer,
         Hombre,

@@ -2021,7 +2021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2050384445334121053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2892,12 +2892,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5490924768939581782}
   m_Layer: 5
-  m_Name: Brisa
+  m_Name: Nasheli
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5490924768939581782
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4401,7 +4401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7508207257073073497
 RectTransform:
   m_ObjectHideFlags: 0

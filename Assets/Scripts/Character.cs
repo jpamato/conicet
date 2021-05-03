@@ -21,7 +21,7 @@ public class Character : MonoBehaviour
         //print("character init " + type);
         switch (type)
         {
-            case CharactersManager.types.Brisa:
+            case CharactersManager.types.Nasheli:
                 all[0].SetActive(true);
                 break;
             case CharactersManager.types.Dany:

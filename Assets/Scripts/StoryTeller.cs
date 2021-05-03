@@ -40,7 +40,7 @@ public class StoryTeller : ScreenMain
     {
         print("on off");
         Events.StopAudioPlayer();
-        Events.OnCharacterSay(null,null, CharactersManager.types.Brisa);
+        Events.OnCharacterSay(null,null, CharactersManager.types.Nasheli);
     }
     public override void OnReady()
     {
