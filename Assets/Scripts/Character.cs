@@ -18,7 +18,6 @@ public class Character : MonoBehaviour
             return;
         lastType = type;
         Reset();
-        //print("character init " + type);
         switch (type)
         {
             case CharactersManager.types.Nasheli:

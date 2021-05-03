@@ -25,7 +25,8 @@ public class CharacterSayPopup : MonoBehaviour
     }
     void OnGoto(bool next)
     {
-       
+        if (!next)  lastContent = null; // resetea la explicación:
+
         OnDone = null;
         StopAllCoroutines();
         if (isOn)
@@ -39,8 +40,23 @@ public class CharacterSayPopup : MonoBehaviour
         isOn = false;
         OnDone = null;
     }
+    TextsData.Content lastContent;
     void OnCharacterSay(TextsData.Content content, System.Action OnDone, CharactersManager.types type)
-    {        
+    {
+        // saltea el tip:
+        if (lastContent != null && content != null)
+        {
+            print("last: " + lastContent.text + " " + content.text);
+            if (content.text == lastContent.text)
+            {
+                OnDone();
+                lastContent = content;
+                return;
+            }
+        }
+        if(content != null)
+            lastContent = content;
+
         isOn = true;
 
         if (content == null)

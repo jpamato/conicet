@@ -55,7 +55,6 @@ public class Rimas : ScreenMain
     }
     public override void Hide(bool toLeft)
     {
-        print("Hide");
         base.Hide(toLeft);
         introBar.Init();
     }

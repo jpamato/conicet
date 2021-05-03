@@ -25,7 +25,7 @@ public class ScreenMain : MonoBehaviour
         else
         {
             GameData gd = Data.Instance.userData.GetActualActivity();
-            print("OnReady played: " + gd.type + " played: " + gd.played);
+           // print("OnReady played: " + gd.type + " played: " + gd.played);
 
             if (gd.type != GameData.types.all_days)
                 Events.SetBackButton(true);

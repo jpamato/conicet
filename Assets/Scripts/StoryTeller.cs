@@ -38,7 +38,6 @@ public class StoryTeller : ScreenMain
     }
     public override void OnOff()
     {
-        print("on off");
         Events.StopAudioPlayer();
         Events.OnCharacterSay(null,null, CharactersManager.types.Nasheli);
     }
