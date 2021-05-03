@@ -16,6 +16,7 @@ public class StoriesData : DataLoader
         public string name;
         public string id;
         public Color color;
+        public int colorID;
     }
 
     [System.Serializable]

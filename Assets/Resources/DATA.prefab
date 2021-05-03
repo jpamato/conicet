@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lang: 2
-  DEBUG: 1
+  DEBUG: 0
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activityID: 0
+  savedData: []
 --- !u!114 &7205025233354283845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,6 +99,8 @@ MonoBehaviour:
   - sourceName: voices
     audioSource: {fileID: 0}
     volume: 1
+  playing: 0
+  playingSource: {fileID: 0}
 --- !u!114 &3454526606163090994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +128,11 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=0&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1107134212&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=963416946&single=true&output=tsv
+  activeBookContent:
+    name: 
+    id: 
+    color: {r: 0, g: 0, b: 0, a: 0}
+    colorID: 0
   content: []
   activeContent:
     bookName: 
@@ -135,6 +143,7 @@ MonoBehaviour:
     audioClip: {fileID: 0}
     textsData: []
     characterType: 0
+  books: []
 --- !u!114 &5587126282958235658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +213,14 @@ MonoBehaviour:
     memotestAudio: []
     escuchar: []
     repeat_with_card: []
+    paintings: []
+    elegir_frase: []
+    labyrinth: []
+    rompecabezas: []
+    completar: []
+    letra: []
+    contar: []
+    ordenar: []
 --- !u!114 &7078598613645000413
 MonoBehaviour:
   m_ObjectHideFlags: 0
