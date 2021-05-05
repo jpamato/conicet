@@ -8,6 +8,7 @@ public class Days : ScreenMain
     public Transform container;
     public DayButton button;
     public Image image;
+    public Text bookTextField;
     [SerializeField] Sprite[] allBooks;
     public Image book;
 
@@ -17,6 +18,7 @@ public class Days : ScreenMain
         Utils.RemoveAllChildsIn(container);
         int id = 0;
         string bookID = Data.Instance.storiesData.activeBookContent.id;
+        bookTextField.text = Data.Instance.storiesData.activeBookContent.name;
         DayButton.states dayState = DayButton.states.ACTIVE;
         bool lastOneReady = false;
         book.sprite = allBooks[Data.Instance.storiesData.activeBookContent.colorID];
@@ -30,7 +32,7 @@ public class Days : ScreenMain
             string imageName = "stories/" + Data.Instance.storiesData.activeBookContent.id+ "/images/1";
             print("image  " + imageName);
             Sprite s = Resources.Load<Sprite>(imageName);
-            float scaleFactor = 0.75f;
+            float scaleFactor = 0.57f;
             SetSprite( s);
 
             if (storyID == bookID)
