@@ -118,6 +118,33 @@ public class DaysData : DataLoader
         if (content == null)
             Events.Log("Falta Tip para: " + tip);
         return content;
+    }
+    public bool IsLastDay()
+    {
+        int dayID = activeContent.day;
+        string storyID = activeContent.story_id;
 
+        string[] arr = activeContent.story_id.Split(":"[0]);
+        if (arr.Length > 1)
+            storyID = arr[0];
+
+        bool isLastDay = false; 
+        foreach(Content c in content)
+        {
+            arr = c.story_id.Split(":"[0]);
+            string _storyId = c.story_id;
+            if(arr.Length>1)
+                _storyId = arr[0];
+            print("_storyId: " + _storyId + "storyID: " + storyID + " c.day: " + c.day + " dayID: " + dayID);
+
+            if (storyID == _storyId)
+            {
+                if (dayID == c.day )
+                    isLastDay = true;
+                else
+                    isLastDay = false;
+            }
+        }
+        return isLastDay;
     }
 }

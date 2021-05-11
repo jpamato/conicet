@@ -82,6 +82,12 @@ public class CharacterSayPopup : MonoBehaviour
     {
         Events.SetReadyButton(ReadyButtonClicked);
     }
+    public void OnSkip()
+    {
+        Events.PlaySound("ui", "ui/click2", false);
+        ReadyButtonClicked();
+        Events.PlaySoundTillReady("voices", "", null);
+    }
     public void ReadyButtonClicked()
     {
         StopAllCoroutines();

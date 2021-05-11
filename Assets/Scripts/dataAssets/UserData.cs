@@ -150,7 +150,10 @@ public class UserData : MonoBehaviour
     {
         activityID = 0;
         lastActivityID = 0;
-        ScreensManager.Instance.ForceOpen(GameData.types.all_days, backFromEnd);
+        if(Data.Instance.daysData.IsLastDay())
+            ScreensManager.Instance.ForceOpen(GameData.types.books, backFromEnd);
+        else
+            ScreensManager.Instance.ForceOpen(GameData.types.all_days, backFromEnd);
     }
     public void BackToBooks(bool backFromEnd = false)
     {

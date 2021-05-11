@@ -60,7 +60,7 @@ public class Days : ScreenMain
     }
     public void OnSelected(DaysData.Content content)
     {
-        print("On Select " + content.story_id);
+        Events.PlaySound("ui", "ui/click", false);
         Events.ShowHamburguer(false);
         Data.Instance.userData.InitDay(content);
     }

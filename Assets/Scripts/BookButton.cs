@@ -21,7 +21,7 @@ public class BookButton : MonoBehaviour
         print(id);
         if (id >= books.Length)
             id = id - books.Length * (int)Mathf.Floor(id / books.Length);
-        print("______ " + id);
+
         bookContent.colorID = id;
         book.sprite = books[id];
         image.sprite = sprite;

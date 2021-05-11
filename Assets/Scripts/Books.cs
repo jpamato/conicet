@@ -57,6 +57,7 @@ public class Books : ScreenMain
     }
     public void OnSelected(StoriesData.BookContent bookContent)
     {
+        Events.PlaySound("ui", "ui/click", false);
         Data.Instance.userData.InitBook(bookContent);
     }
 }
