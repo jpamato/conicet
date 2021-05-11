@@ -135,7 +135,9 @@ public class Simon : ScreenMain
 
         cardActive++;
 
-        Events.PlaySoundTillReady("voices", "assets/" + text_id, WordSaid);
+
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        Events.PlaySoundTillReady("voices", "assets/" + assetRealName, WordSaid);
        
         field.text += cardActive + ")" + text_id + " ";        
     }

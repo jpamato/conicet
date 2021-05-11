@@ -86,6 +86,12 @@ public class ElegirFrase : ScreenMain
             cardActive = 0;
             Events.SetReadyButton(OnReadyClicked);
         }
+
+        Events.PlaySoundTillReady("voices", "assets/" + Data.Instance.assetsData.GetAssetRealName(content[button.id]), NextWord);
+       
+    }
+    void NextWord()
+    {
         Invoke("SayWords", 2);
     }
     void OnTipDone()
@@ -99,6 +105,7 @@ public class ElegirFrase : ScreenMain
     }
     void OnReadyClicked()
     {
+        CancelInvoke();
         OnComplete();
         Events.OnGoto(true);
     }

@@ -35,8 +35,10 @@ public class LoroRepeat : ScreenMain
         SimpleButton sb = Instantiate(simonCard, container);
         sb.transform.localScale = Vector2.one;
         Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
-        sb.Init(id, sprite, "", null);  
-        Events.PlaySoundTillReady("voices", "assets/" + textID, WordSaid);
+        sb.Init(id, sprite, "", null);
+        
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(textID);
+        Events.PlaySoundTillReady("voices", "assets/" + assetRealName, WordSaid);
 
         done++;
         id++;

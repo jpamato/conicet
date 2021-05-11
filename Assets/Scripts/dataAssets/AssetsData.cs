@@ -27,9 +27,17 @@ public class AssetsData : DataLoader
     {
         activeContent = content;
     }
+    public string GetAssetRealName(string _name)
+    {
+        string[] arr = _name.Split("-"[0]);
+        if (arr.Length > 1)
+            _name = arr[0];
+        return _name;
+    }
     public Content GetContent(string _name)
     {
-        foreach(Content content in content)
+        _name = GetAssetRealName(_name);
+        foreach (Content content in content)
         {
             if(string.Equals(content.name, _name))
                 return content;

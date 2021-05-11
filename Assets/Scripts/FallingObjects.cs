@@ -125,7 +125,8 @@ public class FallingObjects : ScreenMain
     }
     void OnClicked(SimpleButton button)
     {
-        Events.PlaySoundTillReady("voices", "assets/" + button.text, null);
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(button.text);
+        Events.PlaySoundTillReady("voices", "assets/" + assetRealName, null);
         button.transform.localEulerAngles = new Vector3(0, 0, 0);
         button.InactivateFor(3.5f);
         if (IsOk(button.id))
@@ -175,7 +176,10 @@ public class FallingObjects : ScreenMain
         if(typeOfGame == types.MULTIPLE)
             Events.PlaySoundTillReady("voices", "genericTexts/" + tipContent.id, null);
         else
-            Events.PlaySoundTillReady("voices", "assets/" + content[0], null);
+        {
+            string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
+            Events.PlaySoundTillReady("voices", "assets/" + assetRealName, null);
+        }
         SetText();
     }
     void SetText()

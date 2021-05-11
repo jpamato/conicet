@@ -104,7 +104,9 @@ public class LoroWithTime : ScreenMain
     public void SayWord()
     {
         string text_id = content.simons[cardID];
-        Events.PlaySoundTillReady("voices", "assets/" + text_id, CanSelect);
+
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        Events.PlaySoundTillReady("voices", "assets/" + assetRealName, CanSelect);
         field.text = text_id;
     }
     void CanSelect()
