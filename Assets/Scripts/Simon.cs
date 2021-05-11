@@ -99,7 +99,7 @@ public class Simon : ScreenMain
     }
     IEnumerator CheckResults()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         if (cardsArray.Count == cardActive)
             NewCard();
         else
@@ -131,12 +131,13 @@ public class Simon : ScreenMain
         if (cardActive >= cardsArray.Count) return;
         int cID = cardsArray[cardActive];
         string text_id = content[cID];
+        if (cardActive == 0) field.text = "";
 
         cardActive++;
 
         Events.PlaySoundTillReady("voices", "assets/" + text_id, WordSaid);
        
-        field.text = text_id;        
+        field.text += cardActive + ")" + text_id + " ";        
     }
     void WordSaid()
     {
