@@ -11,6 +11,13 @@ public class Days : ScreenMain
     public Text bookTextField;
     [SerializeField] Sprite[] allBooks;
     public Image book;
+    public string lastStory_id = "a";
+    Scrollbar scrollbar;
+
+    private void Start()
+    {
+        scrollbar = GetComponentInChildren<Scrollbar>();
+    }
 
     public override void Show(bool fromRight)
     {
@@ -50,6 +57,9 @@ public class Days : ScreenMain
                 id++;
             }
         }
+        if (lastStory_id != Data.Instance.storiesData.activeBookContent.id)
+            scrollbar.value = 1;
+        lastStory_id = Data.Instance.storiesData.activeBookContent.id;
     }
     public override void OnReady()
     {
