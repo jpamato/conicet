@@ -62,7 +62,7 @@ public class Rompecabezas : ScreenMain
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_unir");
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_rompecabezas");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         UpdateLoop();
