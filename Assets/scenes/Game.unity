@@ -28307,9 +28307,9 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 118
-    m_Bottom: 189
+    m_Bottom: 152
   m_ChildAlignment: 0
-  m_Spacing: 169.1
+  m_Spacing: 145.63
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -30948,7 +30948,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1835678622
 MonoBehaviour:
@@ -33568,7 +33568,7 @@ PrefabInstance:
     - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
         type: 3}
       propertyPath: lang
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
         type: 3}
