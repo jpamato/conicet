@@ -9,7 +9,7 @@ public class SliderLoop : MonoBehaviour
     int id;
     Image image;
     string folderName;
-    Sprite[] all;
+    public Sprite[] all;
 
     private void OnDisable()
     {
@@ -47,10 +47,15 @@ public class SliderLoop : MonoBehaviour
     void Loop()
     {
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
-        if (id >= sContent.textsData.Count) id = 0;
         string s = "stories/" + sContent.folder + "/images/" + (id + 1);
-
+        print("slider loop: " + s);
         Sprite sprite = Resources.Load<Sprite>(s);
+        if (sprite == null)
+        {
+            id = 0;
+            Invoke("Loop", 0.1f);
+            return;
+        }
         SetSprite( sprite );
         Invoke("Loop", 4);
         id++;
