@@ -12,9 +12,9 @@ public class Days : ScreenMain
     [SerializeField] Sprite[] allBooks;
     public Image book;
     public string lastStory_id = "a";
-    Scrollbar scrollbar;
+    public Scrollbar scrollbar;
 
-    private void Start()
+    private void Awake()
     {
         scrollbar = GetComponentInChildren<Scrollbar>();
     }
@@ -37,7 +37,7 @@ public class Days : ScreenMain
                 storyID = arr[0];
 
             string imageName = "stories/" + Data.Instance.storiesData.activeBookContent.id+ "/images/1";
-            print("image  " + imageName);
+            //print("image  " + imageName);
             Sprite s = Resources.Load<Sprite>(imageName);
             float scaleFactor = 0.57f;
             SetSprite( s);
