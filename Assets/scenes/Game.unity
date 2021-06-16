@@ -12947,6 +12947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f81c855221e054a4ab1bc24fea08e236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  all: []
 --- !u!1 &804695932
 GameObject:
   m_ObjectHideFlags: 0
@@ -15324,6 +15325,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 71ba48b302e063c4da886068c60b6235, type: 3}
   book: {fileID: 167820759}
   lastStory_id: 1
+  scrollbar: {fileID: 0}
 --- !u!1001 &938927885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33918,6 +33920,11 @@ PrefabInstance:
     - target: {fileID: 4000012892830758, guid: 77f85cf8e38d2bf4bb7b2240570f3369, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013950545636, guid: 77f85cf8e38d2bf4bb7b2240570f3369,
+        type: 3}
+      propertyPath: DEBUG
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77f85cf8e38d2bf4bb7b2240570f3369, type: 3}

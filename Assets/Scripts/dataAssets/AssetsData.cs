@@ -68,7 +68,7 @@ public class AssetsData : DataLoader
                             string audioName = value;
                             if (Data.Instance.lang == Data.langs.QOM)
                                 audioName = "qom_" + value;
-                            contentLine.audioClip = Resources.Load<AudioClip>("assets/" + audioName) as AudioClip;
+                            contentLine.audioClip = Resources.Load<AudioClip>("assets/audio/" + audioName) as AudioClip;
                             content.Add(contentLine);
                         }
                     }

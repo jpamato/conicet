@@ -25,7 +25,7 @@ public class SliderLoop : MonoBehaviour
         
         print("folderName: " + fileName);
         string[] arr = fileName.Split("_"[0]);
-        print("arr: " + arr.Length);
+       // print("arr: " + arr.Length);
         if (arr.Length > 1)
         {
             folderName = arr[0].ToString();
@@ -48,7 +48,7 @@ public class SliderLoop : MonoBehaviour
     {
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
         string s = "stories/" + sContent.folder + "/images/" + (id + 1);
-        print("slider loop: " + s);
+        //print("slider loop: " + s);
         Sprite sprite = Resources.Load<Sprite>(s);
         if (sprite == null)
         {

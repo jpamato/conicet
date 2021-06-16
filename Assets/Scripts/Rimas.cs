@@ -194,7 +194,7 @@ public class Rimas : ScreenMain
     void Say(string word)
     {
         print(word);
-        Events.PlaySound("voices", "assets/" + word, false);
+        Events.PlaySound("voices", "assets/audio/" + word, false);
     }
     void OnReadyClicked()
     {
