@@ -126,7 +126,7 @@ public class FallingObjects : ScreenMain
     void OnClicked(SimpleButton button)
     {
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(button.text);
-        Events.PlaySoundTillReady("voices", "assets/" + assetRealName, null);
+        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
         button.transform.localEulerAngles = new Vector3(0, 0, 0);
         button.InactivateFor(3.5f);
         if (IsOk(button.id))

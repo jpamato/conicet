@@ -87,7 +87,7 @@ public class ElegirFrase : ScreenMain
             Events.SetReadyButton(OnReadyClicked);
         }
 
-        Events.PlaySoundTillReady("voices", "assets/" + Data.Instance.assetsData.GetAssetRealName(content[button.id]), NextWord);
+        Events.PlaySoundTillReady("voices", "assets/audio/" + Data.Instance.assetsData.GetAssetRealName(content[button.id]), NextWord);
        
     }
     void NextWord()
