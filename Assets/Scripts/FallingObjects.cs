@@ -178,7 +178,7 @@ public class FallingObjects : ScreenMain
         else
         {
             string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
-            Events.PlaySoundTillReady("voices", "assets/" + assetRealName, null);
+            Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
         }
         SetText();
     }
