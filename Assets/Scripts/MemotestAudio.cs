@@ -50,10 +50,13 @@ public class MemotestAudio : ScreenMain
     }
     private void Init()
     {
-        bool lang = false;
-        if (Data.Instance.lang == Data.langs.QOM) lang = true;
-        TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_toca_la_imagen", lang);
-        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);        
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_toca_la_imagen");
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+
+        //bool lang = false;
+        //if (Data.Instance.lang == Data.langs.QOM) lang = true;
+        //TextsData.Content tipContent = Data.Instance.textsData.GetContent("tip_toca_la_imagen", lang);
+        //Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);        
     }
     void OnTipDone()
     {

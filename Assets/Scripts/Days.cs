@@ -32,11 +32,17 @@ public class Days : ScreenMain
         foreach (DaysData.Content content in Data.Instance.daysData.content)
         {
             string storyID = content.story_id;
-            string[] arr = storyID.Split(":"[0]);
-            if (arr.Length > 1)
-                storyID = arr[0];
 
-            string imageName = "stories/" + Data.Instance.storiesData.activeBookContent.id+ "/images/1";
+            if (storyID != null && storyID.Length > 0)
+            {
+                print(":: " + storyID);
+
+                string[] arr = storyID.Split(":"[0]);
+                if (arr.Length > 1)
+                    storyID = arr[0];
+            }
+
+            string imageName = "stories/" + Data.Instance.storiesData.GetContent( Data.Instance.storiesData.activeBookContent.id).folder+ "/images/1";
             //print("image  " + imageName);
             Sprite s = Resources.Load<Sprite>(imageName);
             float scaleFactor = 0.57f;

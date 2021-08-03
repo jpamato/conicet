@@ -43,10 +43,10 @@ public class TextsData : DataLoader
         if(!ignoreLang && Data.Instance.lang == Data.langs.QOM)  textID = "qom_" + textID;
         //else if (!ignoreLang && Data.Instance.lang == Data.langs.L1) textID = "l1_" + textID;
 
-        //if (ignoreLang)
-        //    print("Get ID: " + id + "    -> textID: " + textID + " ignoreLang: " + ignoreLang);
-        //else
-        //    print("Get ID: " + id + "    -> textID: " + textID);// + "-" + Data.Instance.storiesData.activeContent.id);
+        if (ignoreLang)
+            print("Get ID: " + id + "    -> textID: " + textID + " ignoreLang: " + ignoreLang);
+        else
+            print("Get ID: " + id + "    -> textID: " + textID);// + "-" + Data.Instance.storiesData.activeContent.id);
 
         Content tipContent = content.Find((x) => x.id == textID);// + "-" + Data.Instance.storiesData.activeContent.id);
         if (tipContent != null)

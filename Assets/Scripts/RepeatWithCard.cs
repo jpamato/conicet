@@ -53,8 +53,15 @@ public class RepeatWithCard : ScreenMain
         string textID = content.repeat_with_card[id];
         SimpleButton sb = Instantiate(simonCard, container);
         sb.transform.localScale = Vector2.one;
-        Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
-        sb.Init(id, sprite, "", null);
+        AssetsData.Content c = Data.Instance.assetsData.GetContent(textID);
+
+        if (c == null)
+            Events.Log("Falta Sprite para " + textID);
+        else
+        {
+            Sprite sprite = c.sprite;
+            sb.Init(id, sprite, "", null);
+        }
         audio_text = textID;
         Repeat();
 

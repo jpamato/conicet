@@ -131,18 +131,21 @@ public class DaysData : DataLoader
         bool isLastDay = false; 
         foreach(Content c in content)
         {
-            arr = c.story_id.Split(":"[0]);
-            string _storyId = c.story_id;
-            if(arr.Length>1)
-                _storyId = arr[0];
-            print("_storyId: " + _storyId + "storyID: " + storyID + " c.day: " + c.day + " dayID: " + dayID);
-
-            if (storyID == _storyId)
+            if (c.story_id != null)
             {
-                if (dayID == c.day )
-                    isLastDay = true;
-                else
-                    isLastDay = false;
+                arr = c.story_id.Split(":"[0]);
+                string _storyId = c.story_id;
+                if (arr.Length > 1)
+                    _storyId = arr[0];
+                print("_storyId: " + _storyId + "storyID: " + storyID + " c.day: " + c.day + " dayID: " + dayID);
+
+                if (storyID == _storyId)
+                {
+                    if (dayID == c.day)
+                        isLastDay = true;
+                    else
+                        isLastDay = false;
+                }
             }
         }
         return isLastDay;
