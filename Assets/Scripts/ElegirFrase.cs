@@ -116,6 +116,10 @@ public class ElegirFrase : ScreenMain
         int cID = cardActive;
         string text_id = content[cID];
         Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
+
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
+        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
+
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);
         if (c != null)
             field.text = c.text;
