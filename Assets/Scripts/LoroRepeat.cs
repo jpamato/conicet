@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LoroRepeat : ScreenMain
 {
-    GamesData.Content content;
+    public GamesData.Content content;
     public SimpleButton simonCard;
     public Transform container;
 
@@ -38,7 +38,7 @@ public class LoroRepeat : ScreenMain
         sb.Init(id, sprite, "", null);
         
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(textID);
-        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
+        Events.PlaySoundTillReady("voices", "assets/audio/loro_" + assetRealName, WordSaid);
 
         done++;
         id++;
