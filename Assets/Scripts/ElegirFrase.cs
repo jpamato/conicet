@@ -11,7 +11,7 @@ public class ElegirFrase : ScreenMain
     public List<SimpleButton> cards;
     public Transform container;
     public GameObject signal;
-    bool canSelect;
+    public bool canSelect;
     public int cardActive = 0;
 
     private void OnEnable()
@@ -115,10 +115,10 @@ public class ElegirFrase : ScreenMain
         signal.SetActive(true);
         int cID = cardActive;
         string text_id = content[cID];
-        Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
+       // Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
 
-        string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
-        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
 
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);
         if (c != null)
