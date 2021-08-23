@@ -58,3 +58,4 @@ Assets/Plugins/iOS/Fabric/Crashlytics.framework/Crashlytics
 .vs/git/v15/Server/sqlite3/storage.ide-shm
 .vs/git/v15/Server/sqlite3/storage.ide-wal
 *.meta
+*.meta
