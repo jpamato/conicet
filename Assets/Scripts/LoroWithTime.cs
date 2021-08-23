@@ -35,7 +35,7 @@ public class LoroWithTime : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_loro_time");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
-        foreach (string text in content.simons)
+        foreach (string text in content.loro_time)
         {
             SimpleButton sb = Instantiate(simonCard, container);
             sb.transform.localScale = Vector2.one;
@@ -98,12 +98,12 @@ public class LoroWithTime : ScreenMain
     {
         signal.SetActive(true);
         id++;
-        cardID = Random.Range(0, content.simons.Count);
+        cardID = Random.Range(0, content.loro_time.Count);
         SayWord();
     }
     public void SayWord()
     {
-        string text_id = content.simons[cardID];
+        string text_id = content.loro_time[cardID];
 
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, CanSelect);

@@ -489,7 +489,6 @@ RectTransform:
   - {fileID: 1634000381}
   - {fileID: 163065713}
   - {fileID: 988796841}
-  - {fileID: 734265109}
   m_Father: {fileID: 1229374613}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5451,6 +5450,7 @@ MonoBehaviour:
   container: {fileID: 1649629875}
   character: {fileID: 779811743}
   fillAmountAnim: {fileID: 676391218}
+  done: 0
 --- !u!1 &307834921
 GameObject:
   m_ObjectHideFlags: 0
@@ -12199,84 +12199,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!1 &734265108
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 734265109}
-  - component: {fileID: 734265111}
-  - component: {fileID: 734265110}
-  m_Layer: 5
-  m_Name: numField
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &734265109
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734265108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 40567234}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -153, y: 411}
-  m_SizeDelta: {x: 228.03464, y: 150.37073}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &734265110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734265108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 8acc096140a6f044990f173fd1f72e77, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 137
-    m_Alignment: 2
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 0
---- !u!222 &734265111
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734265108}
-  m_CullTransparentMesh: 0
 --- !u!1001 &744391068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23280,9 +23202,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameID: 0
   type: 8
+  content:
+    id: 
+    memotest: []
+    questions: []
+    simons: []
+    fallingObjects: []
+    unir: []
+    loro_repeat: []
+    loro_time: []
+    memotestAudio: []
+    escuchar: []
+    repeat_with_card: []
+    paintings: []
+    elegir_frase: []
+    labyrinth: []
+    rompecabezas: []
+    completar: []
+    letra: []
+    contar: []
+    ordenar: []
   simonCard: {fileID: 8525909234484776251, guid: 1795f769c391b8b458784201351f2d5d,
     type: 3}
   container: {fileID: 1519130360}
+  done: 0
 --- !u!1 &1403000800
 GameObject:
   m_ObjectHideFlags: 0
@@ -26819,6 +26762,7 @@ MonoBehaviour:
   cards: []
   container: {fileID: 620754224}
   signal: {fileID: 471103495}
+  canSelect: 0
   cardActive: 0
 --- !u!1 &1621274673
 GameObject:
