@@ -9,12 +9,13 @@ public class LoroRepeat : ScreenMain
     public SimpleButton simonCard;
     public Transform container;
 
-    int done;
+    public int done;
     int id;
     int lastcardID;
 
     public override void OnReady()
     {
+        done = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
@@ -44,7 +45,7 @@ public class LoroRepeat : ScreenMain
         id++;
         if (id >= content.loro_repeat.Count)
             id = 0;
-        if (done == 5)
+        if (done > 5)
         {
             OnComplete();
             Events.SetReadyButton(OnReadyClicked);

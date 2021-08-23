@@ -11,7 +11,7 @@ public class RepeatWithCard : ScreenMain
     public Character character;
     [SerializeField] FillAmountAnim fillAmountAnim;
 
-    int done;
+    public int done;
     int id;
     int lastcardID;
     public override void OnEnable()
@@ -30,6 +30,7 @@ public class RepeatWithCard : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_repeat_with_card");
 
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+        done = 0;
     }
     void OnTipDone()
     {
@@ -69,7 +70,7 @@ public class RepeatWithCard : ScreenMain
         id++;
         if (id >= content.repeat_with_card.Count)
             id = 0;
-        if (done == 5)
+        if (done > 5)
         {
             OnComplete();
             Events.SetReadyButton(OnReadyClicked);

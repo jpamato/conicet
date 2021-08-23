@@ -75,11 +75,11 @@ public class Labyrinth : ScreenMain
 
         int[] arr5 = new int[] { //Este los 0 parecen una esvastica re turbio jajajajaj
         1,1,1,1,1,1,1,
-        1,0,2,0,1,0,3,
-        1,1,1,0,1,0,1,
-        1,0,0,0,0,0,1,
-        1,0,1,0,1,1,1,
-        1,0,1,0,0,0,4,
+        1,2,0,1,1,0,3,
+        1,1,0,1,1,0,1,
+        1,1,0,0,0,0,1,
+        1,1,1,0,1,1,1,
+        1,1,1,0,0,0,4,
         1,1,1,1,1,1,1
         };
 
@@ -142,6 +142,8 @@ public class Labyrinth : ScreenMain
         if (content == null) return;
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_labyrinth");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+
+        asset_character.SetActive(true);
     }
     void SetInit()
     {
@@ -217,7 +219,8 @@ public class Labyrinth : ScreenMain
     {
         if(id>=slotsSelected.Count)
         {
-            if(isOk)
+            asset_character.SetActive(false);
+            if (isOk)
             {
                 slotsSelected[slotsSelected.Count - 1].GetComponentInChildren<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
                 Invoke("Win", 1);
