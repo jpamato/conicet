@@ -35,7 +35,7 @@ public class Days : ScreenMain
 
             if (storyID != null && storyID.Length > 0)
             {
-                print(":: " + storyID);
+                //print(":: " + storyID);
 
                 string[] arr = storyID.Split(":"[0]);
                 if (arr.Length > 1)
