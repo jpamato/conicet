@@ -18,7 +18,6 @@ public class BookButton : MonoBehaviour
 
     public void Init(int id, Books manager, StoriesData.BookContent bookContent, Sprite sprite, bool isLast, bool isBlocked)
     {
-        print(id);
         if (id >= books.Length)
             id = id - books.Length * (int)Mathf.Floor(id / books.Length);
 

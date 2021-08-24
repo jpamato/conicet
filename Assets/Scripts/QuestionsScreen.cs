@@ -28,7 +28,6 @@ public class QuestionsScreen : ScreenMain
         string story_id = Data.Instance.storiesData.activeContent.id;
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
         content = c.GetContentFor(type, gameID);
-        print(gameID);
         print("story_id: " + story_id);
         print(content.Count);
         if (content == null) return;
