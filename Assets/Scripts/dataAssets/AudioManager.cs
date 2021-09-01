@@ -65,6 +65,8 @@ public class AudioManager : MonoBehaviour
     }
     AudioSource PlaySoundAndReturn(string sourceName, string audioName, bool loop)
     {
+        if (audioName.Contains("palabra_"))
+            audioName = audioName.Replace("palabra_", "");
         foreach(AudioSourceManager m in all)
         {
             if(m.sourceName == sourceName)
