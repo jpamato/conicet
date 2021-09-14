@@ -17,6 +17,7 @@ public class SliderLoop : MonoBehaviour
     }
     public void Init(string fileName)
     {
+        all = null;
         CancelInvoke();
         image = GetComponent<Image>();
 
@@ -31,8 +32,8 @@ public class SliderLoop : MonoBehaviour
             folderName = arr[0].ToString();
             all = Resources.LoadAll<Sprite>("specialLoops/" + folderName + "/");
         }
-       
-        if (all != null && all.Length > 0)
+
+            if (all != null && all.Length > 0)
             LoopFromSpecialFolder();
         else
             Loop();       
@@ -48,7 +49,7 @@ public class SliderLoop : MonoBehaviour
     {
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
         string s = "stories/" + sContent.folder + "/images/" + (id + 1);
-        //print("slider loop: " + s);
+        print("___slider loop: " + s);
         Sprite sprite = Resources.Load<Sprite>(s);
         if (sprite == null)
         {
