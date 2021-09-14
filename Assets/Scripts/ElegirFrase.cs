@@ -38,9 +38,14 @@ public class ElegirFrase : ScreenMain
         foreach (string text in content)
         {
             SimpleButton sb = Instantiate(simonCard);
-            AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(text);
+            string t = text;
+
+            if (text.Contains("frase_"))
+                t = text.Remove(0, 6);
+
+            AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(t);
             if (assetContent == null || assetContent.sprite == null)
-                Events.Log("No hay imagen para: " + text);
+                Events.Log("No hay imagen para: " + t);
             else
             {
                 Sprite sprite = assetContent.sprite;
@@ -87,7 +92,11 @@ public class ElegirFrase : ScreenMain
             Events.SetReadyButton(OnReadyClicked);
         }
 
-        Events.PlaySoundTillReady("voices", "assets/audio/" + Data.Instance.assetsData.GetAssetRealName(content[button.id]), NextWord);
+        string t = Data.Instance.assetsData.GetAssetRealName(content[button.id]);
+        if (t.Contains("frase_"))
+            t = t.Remove(0, 6);
+
+        Events.PlaySoundTillReady("voices", "assets/audio/" + t, NextWord);
        
     }
     void NextWord()
@@ -115,10 +124,18 @@ public class ElegirFrase : ScreenMain
         signal.SetActive(true);
         int cID = cardActive;
         string text_id = content[cID];
-       // Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
 
-        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
+        if (text_id.Contains("frase_"))
+        {
+            print("SayWords FRASE: " + text_id);
+            Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
+        }
+        else
+        {
+            print("SayWords SIMPLE: " + text_id);
+            string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+            Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
+        }
 
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);
         if (c != null)
