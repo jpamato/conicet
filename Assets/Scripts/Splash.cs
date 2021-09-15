@@ -5,8 +5,11 @@ using UnityEngine;
 public class Splash : MonoBehaviour
 {
     public GameObject panel;
+    public GameObject loading;
+
     private void Awake()
     {
+        loading.SetActive(false);
         Events.AllDataLoaded += AllDataLoaded;
     }
     private void OnDestroy()
@@ -15,12 +18,12 @@ public class Splash : MonoBehaviour
     }
     void AllDataLoaded()
     {
-        Data.Instance.LoadScene("Game");
-        
+        Data.Instance.LoadScene("Game");        
     }
     public void SetLang(int lang)
     {
-       
+        Events.PlaySound("ui", "ui/click", false);
+        loading.SetActive(true);
         if (lang == 1)
             Data.Instance.lang = Data.langs.ESP;
         else if (lang == 2)

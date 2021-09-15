@@ -64,6 +64,7 @@ public class Data : MonoBehaviour
     }
     void Awake()
     {
+
         if (!mInstance)
             mInstance = this;
 
@@ -74,6 +75,7 @@ public class Data : MonoBehaviour
             return;
         }
 
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         DontDestroyOnLoad(this);
         spreadsheetLoader = GetComponent<SpreadsheetLoader>();
         storiesData = GetComponent<StoriesData>();

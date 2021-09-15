@@ -116,7 +116,11 @@ public class DaysData : DataLoader
         if (specialTip != null && specialTip.Length > 2) tip = specialTip;
         TextsData.Content content = Data.Instance.textsData.GetContent(tip, ignoreLang);
         if (content == null)
+        {
+            content = new TextsData.Content();
+            content.id = "tip_escucha";
             Events.Log("Falta Tip para: " + tip);
+        }
         return content;
     }
     public bool IsLastDay()
