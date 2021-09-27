@@ -32,6 +32,12 @@ public class RepeatWithCard : ScreenMain
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         done = 0;
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        fillAmountAnim.Init();
+        done = 0;
+    }
     void OnTipDone()
     {
         fillAmountAnim.AnimateOff(10);
@@ -41,6 +47,9 @@ public class RepeatWithCard : ScreenMain
     {
         if (audio_text != "")
         {
+            string[] arr = audio_text.Split(":"[0]);
+            if (arr.Length > 1)
+                audio_text = arr[0];
             string s = "assets/audio" + Utils.GetLangFolder() + "/" + audio_text;
 
             Events.PlaySoundTillReady("voices", s, WordSaid);
@@ -51,6 +60,11 @@ public class RepeatWithCard : ScreenMain
     {
         Utils.RemoveAllChildsIn(container);
         string textID = content.repeat_with_card[id];
+
+        string[] arr = textID.Split(":"[0]);
+        if (arr.Length > 1)
+            textID = arr[0];
+
         SimpleButton sb = Instantiate(simonCard, container);
         sb.transform.localScale = Vector2.one;
         AssetsData.Content c = Data.Instance.assetsData.GetContent(textID);
@@ -77,6 +91,9 @@ public class RepeatWithCard : ScreenMain
     }
     void OnReadyClicked()
     {
+        Events.OnCharacterSay(null, null, CharactersManager.types.Dany);
+        Utils.RemoveAllChildsIn(container);
+        done = 0;
         OnComplete();
         Events.OnGoto(true);
     }
