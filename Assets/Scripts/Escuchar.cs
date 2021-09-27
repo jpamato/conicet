@@ -12,9 +12,11 @@ public class Escuchar : ScreenMain
     int id = 0;
     public Character character;
     public GameObject musicAsset;
+    public Image image;
 
     public override void OnEnable()
     {
+        image.gameObject.SetActive(false);
         base.OnEnable();
         dialoguesPanel.SetActive(false);
 
@@ -67,6 +69,13 @@ public class Escuchar : ScreenMain
             musicAsset.SetActive(true);
             character.GetComponentInChildren<AudioSpectrumView>().enabled = false;
             character.Dance();
+            image.gameObject.SetActive(false);
+        }
+        else
+        {
+            image.gameObject.SetActive(true);
+            Sprite sprite = Resources.Load<Sprite>("rimas/" + text);
+            image.sprite = sprite;
         }
 
         audio_text = text;

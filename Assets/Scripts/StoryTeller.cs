@@ -110,7 +110,7 @@ public class StoryTeller : ScreenMain
 
         RectTransform rTransform = image.GetComponent<RectTransform>();
         rTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _w);
-        rTransform.anchoredPosition = new Vector3(-_w / 2, 0, 0);
+        rTransform.anchoredPosition = new Vector3((-_w / 2) - 65, 0, 0);
         image.sprite = s;
     }
 }
