@@ -76,7 +76,7 @@ public class Memotest : ScreenMain
     void SayWord()
     {
         string s = "assets/audio/" + card.content.name;
-        if (Data.Instance.lang == Data.langs.QOM) s = "assets/audio/qom_" + card.content.name;
+        if (Data.Instance.lang == Data.langs.QOM) s = "assets/audio_qom/" + card.content.name;
         Events.PlaySound("voices", s, false);
     }
     public MemotestCard lastSelected;

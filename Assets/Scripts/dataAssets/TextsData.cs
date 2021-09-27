@@ -40,7 +40,7 @@ public class TextsData : DataLoader
     public Content GetContent(string id, bool ignoreLang = false)
     {
         string textID = id;
-        if(!ignoreLang && Data.Instance.lang == Data.langs.QOM)  textID = "qom_" + textID;
+      //  if(!ignoreLang && Data.Instance.lang == Data.langs.QOM)  textID = "qom_" + textID;
         //else if (!ignoreLang && Data.Instance.lang == Data.langs.L1) textID = "l1_" + textID;
 
         if (ignoreLang)

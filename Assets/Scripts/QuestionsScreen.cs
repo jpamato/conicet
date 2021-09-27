@@ -64,7 +64,7 @@ public class QuestionsScreen : ScreenMain
         }
         string text_id = content[num];
         audio_text = content[num];
-        if (Data.Instance.lang == Data.langs.QOM) audio_text = "qom_" + text_id;
+       // if (Data.Instance.lang == Data.langs.QOM) audio_text = "qom_" + text_id;
         Repeat();
         field.text = Data.Instance.textsData.GetContent(text_id, false).text;
         character.Init(Data.Instance.textsData.GetContent(text_id, false).character_type);
