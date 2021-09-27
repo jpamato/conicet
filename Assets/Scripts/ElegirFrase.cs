@@ -96,7 +96,7 @@ public class ElegirFrase : ScreenMain
         if (t.Contains("frase_"))
             t = t.Remove(0, 6);
 
-        Events.PlaySoundTillReady("voices", "assets/audio/" + t, NextWord);
+        Events.PlaySoundTillReady("voices", "assets/audio"  + Utils.GetLangFolder() + "/" + t, NextWord);
        
     }
     void NextWord()
@@ -128,13 +128,13 @@ public class ElegirFrase : ScreenMain
         if (text_id.Contains("frase_"))
         {
             print("SayWords FRASE: " + text_id);
-            Events.PlaySoundTillReady("voices", "frases/" + text_id, WordSaid);
+            Events.PlaySoundTillReady("voices", "frases/"  + Utils.GetLangFolder() + " / " + text_id, WordSaid);
         }
         else
         {
             print("SayWords SIMPLE: " + text_id);
             string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-            Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
+            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, WordSaid);
         }
 
         TextsData.Content c = Data.Instance.textsData.GetContent("frase_" + text_id);

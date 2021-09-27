@@ -106,7 +106,7 @@ public class LoroWithTime : ScreenMain
         string text_id = content.loro_time[cardID];
 
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        Events.PlaySoundTillReady("voices", "assets/audio/loro_" + assetRealName, null);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
         field.text = text_id;
         Invoke("CanSelect", 0.5f);
     }

@@ -165,6 +165,7 @@ MonoBehaviour:
   id: 0
   image: {fileID: 1246882760864277039}
   field: {fileID: 0}
+  text: 
 --- !u!114 &4058494747080656035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +230,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246882760550876838}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56bbc9e720f744c4c9daa3027c008029, type: 3}
   m_Name: 
@@ -237,6 +238,7 @@ MonoBehaviour:
   speed: 10
   initRandom: 1
   direction: 0
+  timeToChangeDirection: 0
 --- !u!1 &1246882760864277037
 GameObject:
   m_ObjectHideFlags: 0

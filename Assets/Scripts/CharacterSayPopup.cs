@@ -74,7 +74,7 @@ public class CharacterSayPopup : MonoBehaviour
             panel.SetActive(true);
             this.OnDone = OnDone;
             field.text = content.text;
-            Events.PlaySoundTillReady("voices", "genericTexts/" + content.id, ReadyButtonClicked);
+                Events.PlaySoundTillReady("voices", "genericTexts" + Utils.GetLangFolder() + "/" + content.id, ReadyButtonClicked);
             anim.Play("on");
         }
     }

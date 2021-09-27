@@ -41,8 +41,7 @@ public class RepeatWithCard : ScreenMain
     {
         if (audio_text != "")
         {
-            string s = "assets/audio/" + audio_text;
-            if (Data.Instance.lang == Data.langs.QOM) s = "assets/audio/qom_" + audio_text;
+            string s = "assets/audio" + Utils.GetLangFolder() + "/" + audio_text;
 
             Events.PlaySoundTillReady("voices", s, WordSaid);
         }

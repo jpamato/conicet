@@ -111,8 +111,6 @@ public class Rimas : ScreenMain
 
         OnTextDone();
         introBar.AnimateOff(10);
-
-        //Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
     public override void OnComplete()
     {
@@ -194,7 +192,7 @@ public class Rimas : ScreenMain
     void Say(string word)
     {
         print(word);
-        Events.PlaySound("voices", "assets/audio/" + word, false);
+        Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + word, false);
     }
     void OnReadyClicked()
     {

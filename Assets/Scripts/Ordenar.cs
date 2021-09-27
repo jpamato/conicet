@@ -72,13 +72,10 @@ public class Ordenar : ScreenMain
     void OnTipDone()
     {
         storyID = Data.Instance.storiesData.activeContent.id;
-        //    field.text = Data.Instance.textsData.GetContent("rima_" + storyID).text;
         content = Data.Instance.gamesData.GetContent(storyID);
 
         OnTextDone();
         introBar.AnimateOff(10);
-
-        //Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
     public override void OnComplete()
     {
@@ -211,7 +208,7 @@ public class Ordenar : ScreenMain
     }
     public void Say()
     {
-        Events.PlaySound("voices", "ordenar/" + audioName, false);
+        Events.PlaySound("voices", "ordenar/"  + Utils.GetLangFolder() + " / " + audioName, false);
     }
     void OnReadyClicked()
     {

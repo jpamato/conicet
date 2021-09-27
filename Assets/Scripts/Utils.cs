@@ -16,6 +16,13 @@
             ts[r] = tmp;
         }
     }
+    public static string GetLangFolder()
+    {
+        if (Data.Instance.lang == Data.langs.QOM)
+            return "_qom";
+        return "";
+    }
+
     public static void RemoveAllChildsIn(Transform container)
     {
         int num = container.transform.childCount;
