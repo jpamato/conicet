@@ -39,7 +39,7 @@ public class LoroRepeat : ScreenMain
         sb.Init(id, sprite, "", null);
         
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(textID);
-        Events.PlaySoundTillReady("voices", "assets/audio/loro_" + assetRealName, WordSaid);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, WordSaid);
 
         done++;
         id++;

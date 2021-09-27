@@ -113,8 +113,6 @@ public class Rompecabezas : ScreenMain
 
         OnTextDone();
         introBar.AnimateOff(10);
-
-        //Events.PlaySoundTillReady("voices", "genericTexts/rima_" + storyID, OnTextDone);
     }
     bool isDone;
     public override void OnComplete()
@@ -177,7 +175,7 @@ public class Rompecabezas : ScreenMain
     }
     void Say(string word)
     {
-        Events.PlaySound("voices", "assets/audio/" + word, false);
+        Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + word, false);
     }
     void OnReadyClicked()
     {

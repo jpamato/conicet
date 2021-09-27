@@ -137,7 +137,7 @@ public class Simon : ScreenMain
 
 
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, WordSaid);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, WordSaid);
        
         field.text += cardActive + ")" + text_id + " ";        
     }

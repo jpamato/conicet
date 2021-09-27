@@ -126,7 +126,7 @@ public class FallingObjects : ScreenMain
     void OnClicked(SimpleButton button)
     {
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(button.text);
-        Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);
         button.transform.localEulerAngles = new Vector3(0, 0, 0);
         button.InactivateFor(3.5f);
         if (IsOk(button.id))
@@ -174,11 +174,11 @@ public class FallingObjects : ScreenMain
     public void SayWord()
     {
         if(typeOfGame == types.MULTIPLE)
-            Events.PlaySoundTillReady("voices", "genericTexts/" + tipContent.id, null);
+            Events.PlaySoundTillReady("voices", "genericTexts" + Utils.GetLangFolder() + "/" + tipContent.id, null);
         else
         {
             string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
-            Events.PlaySoundTillReady("voices", "assets/audio/" + assetRealName, null);
+            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + " / " + assetRealName, null);
         }
         SetText();
     }

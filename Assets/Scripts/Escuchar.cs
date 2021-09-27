@@ -45,7 +45,9 @@ public class Escuchar : ScreenMain
     public void Repeat()
     {
         if (audio_text != "")
-            Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text, OnTextDone);
+        {
+            Events.PlaySoundTillReady("voices", "genericTexts" + Utils.GetLangFolder() + "/" + audio_text, OnTextDone);
+        }
     }
     string audio_text = "";
     void OnTipDone()

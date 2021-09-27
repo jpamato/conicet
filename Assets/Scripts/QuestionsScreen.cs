@@ -41,7 +41,7 @@ public class QuestionsScreen : ScreenMain
     public void Repeat()
     {
         if(audio_text != "")
-            Events.PlaySoundTillReady("voices", "genericTexts/" + audio_text, OnTextDone);
+            Events.PlaySoundTillReady("voices", "genericTexts" + Utils.GetLangFolder() + "/" + audio_text, OnTextDone);
     }
     void OnTipDone()
     {

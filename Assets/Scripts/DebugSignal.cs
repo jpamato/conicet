@@ -22,6 +22,7 @@ public class DebugSignal : MonoBehaviour
     {
         panel.SetActive(true);
         field.text = text;
+        Debug.Log(text);
     }
     public void Close()
     {
