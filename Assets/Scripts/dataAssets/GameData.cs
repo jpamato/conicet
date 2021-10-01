@@ -27,7 +27,8 @@
         completar,
         letra,
         contar,
-        ordenar
+        ordenar,
+        loro_multiple
     }
     public bool played;
     public string tip_id;

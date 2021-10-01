@@ -29,6 +29,7 @@ public class GamesData : DataLoader
         public List<string> letra;
         public List<string> contar;
         public List<string> ordenar;
+        public List<string> loro_multiple;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -56,6 +57,7 @@ public class GamesData : DataLoader
                 case GameData.types.letra: return GetTextsById(letra, id);
                 case GameData.types.contar: return GetTextsById(contar, id);
                 case GameData.types.ordenar: return GetTextsById(ordenar, id);
+                case GameData.types.loro_multiple: return GetTextsById(loro_multiple, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -133,6 +135,7 @@ public class GamesData : DataLoader
                             contentLine.letra = new List<string>();
                             contentLine.contar = new List<string>();
                             contentLine.ordenar = new List<string>();
+                            contentLine.loro_multiple = new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -174,7 +177,8 @@ public class GamesData : DataLoader
                             contentLine.contar.Add(value);
                         if (colID == 18 && value != "")
                             contentLine.ordenar.Add(value);
-
+                        if (colID == 19 && value != "")
+                            contentLine.loro_multiple.Add(value);
                     }
                 }
                 colID++;
