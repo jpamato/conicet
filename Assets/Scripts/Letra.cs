@@ -15,6 +15,7 @@ public class Letra : ScreenMain
     public Transform container;
     public Image image;
     bool clicked;
+    string realWord;
 
     public override void Hide(bool toLeft)
     {
@@ -67,16 +68,27 @@ public class Letra : ScreenMain
                 }
             } else if(id==2)
             {
+                realWord = text;
                 image.gameObject.SetActive(true);
-                Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
+                Sprite sprite = Data.Instance.assetsData.GetContent(realWord).sprite;
                 if (sprite == null)
-                    Events.Log("No hay asset para " + text);
+                    Events.Log("No hay asset para " + realWord);
                 else
                     image.sprite = sprite;
+                
             }
             id++;
         }
         AddButtons();
+        SayWord();
+    }
+    public void SayWord()
+    {
+        string text_id = realWord;
+        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);
+        
+        Invoke("CanSelect", 0.5f);
     }
     void SetOriginalText()
     {
@@ -123,6 +135,7 @@ public class Letra : ScreenMain
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             Invoke("ResetLetters", 2);
         }
+        Invoke("SayWord", 0.5f);
     }
     void OnCorrect()
     {
