@@ -128,7 +128,7 @@ public class ElegirFrase : ScreenMain
         if (text_id.Contains("frase_"))
         {
             print("SayWords FRASE: " + text_id);
-            Events.PlaySoundTillReady("voices", "frases/"  + Utils.GetLangFolder() + " / " + text_id, WordSaid);
+            Events.PlaySoundTillReady("voices", "frases"  + Utils.GetLangFolder() + "/" + text_id, WordSaid);
         }
         else
         {

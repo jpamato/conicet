@@ -9,6 +9,8 @@ public class Completar : ScreenMain
     bool gameReady;
     int id = 0;
     public Character character;
+    public Character[] characters; // para cuando hay 2
+
     public GameObject musicAsset;
 
     public int typeID;
@@ -19,12 +21,16 @@ public class Completar : ScreenMain
     public string folderName;
     public string characterName;
     public string prefix = "";
+    public GameObject arrow;
 
     public override void OnEnable()
     {
         base.OnEnable();
 
         fillAmountAnim.Init();
+        foreach (Character ch in characters)
+            ch.gameObject.SetActive(false);
+        arrow.SetActive(false);
     }
     public override void OnDisable()
     {
@@ -37,7 +43,9 @@ public class Completar : ScreenMain
     }
     public override void OnReady()
     {
-        print("Completar Ready");
+        foreach (Character ch in characters)
+            ch.gameObject.SetActive(false);
+
         base.OnReady();
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_completar");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
@@ -63,22 +71,62 @@ public class Completar : ScreenMain
         folderName = arr[1];
         characterName = arr[2];
 
-        character.gameObject.SetActive(true);
-        CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
-
-        character.Init(characterType);
-
-        if (typeID == 1)
-            character.Disapear();
+        SetCharacter();
 
         Next();
     }
+
+    int doubleCharacterID = 0;
+    void SetCharacter()
+    {
+        if (typeID == 1)
+        {
+            foreach (Character ch in characters)
+            {
+                ch.gameObject.SetActive(true);                
+            }
+            CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
+            characters[1].Init(characterType);
+
+            character.gameObject.SetActive(false);
+        }
+        else
+        {
+            foreach (Character ch in characters)
+                ch.gameObject.SetActive(false);
+            arrow.SetActive(false);
+
+            CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
+            character.Init(characterType);
+            character.gameObject.SetActive(true);
+        }
+
+
+
+        //if (typeID == 1)
+        //    character.Disapear();
+    }
     void Next()
     {
-        if (prefix == "a") 
-            prefix = "b"; 
+        if (prefix == "a")
+        {
+            prefix = "b";
+            doubleCharacterID = 1;
+            characters[0].SetTalk(false);
+            characters[1].SetTalk(true);
+        }
         else 
+        {
             prefix = "a";
+            doubleCharacterID = 0;
+            characters[1].SetTalk(false);
+            characters[0].SetTalk(true);
+        }
+        if (typeID == 1)
+        {
+            arrow.SetActive(true);
+            arrow.transform.position = characters[doubleCharacterID].transform.position;
+        }
 
         if (prefix == "a")
         {
@@ -101,8 +149,8 @@ public class Completar : ScreenMain
         {
             if (typeID == 1)
             {
-                character.Appear();
-                character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
+                //character.Appear();
+               // characters[doubleCharacterID].GetComponentInChildren<AudioSpectrumView>().enabled = true;
             }
             else
             {
@@ -110,7 +158,6 @@ public class Completar : ScreenMain
             }
 
             musicAsset.SetActive(false);
-                     
         }
         Invoke("Say", 0.5f);       
     }
@@ -122,6 +169,7 @@ public class Completar : ScreenMain
         AudioClip ac = Resources.Load<AudioClip>(url);
         if (ac == null)
         {
+            arrow.SetActive(false);
             OnComplete();
         }
         else
@@ -134,13 +182,13 @@ public class Completar : ScreenMain
         if (prefix == "b")
         {
             id++;
-            if (typeID == 1)
-                character.Disapear();
+            //if (typeID == 1)
+            //    character.Disapear();
         }
         else
         {
-            if (typeID == 2)
-                character.Disapear();
+           // if (typeID == 2)
+                //character.Disapear();
         }
         CancelInvoke();
 
@@ -149,6 +197,8 @@ public class Completar : ScreenMain
     public override void OnComplete()
     {
         base.OnComplete();
+
+
         Events.SetReadyButton(OnReadyClicked);
     }
     void OnTextDone()
@@ -158,6 +208,8 @@ public class Completar : ScreenMain
     }
     void OnReadyClicked()
     {
+        foreach (Character ch in characters)
+            ch.gameObject.SetActive(false);
         Events.OnGoto(true);
     }
 }

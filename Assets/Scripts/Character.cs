@@ -59,4 +59,8 @@ public class Character : MonoBehaviour
     {
         GetComponent<Animation>().Play("disapear");
     }
+    public void SetTalk(bool isOn)
+    {
+        GetComponentInChildren<AudioSpectrumView>().enabled = isOn;
+    }
 }
