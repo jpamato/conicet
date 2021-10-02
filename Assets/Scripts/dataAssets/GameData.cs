@@ -32,6 +32,7 @@
     }
     public bool played;
     public string tip_id;
+    public bool dificult;
 
     public void SetPlayed(bool isPlayed)
     {

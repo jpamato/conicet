@@ -86,6 +86,10 @@ public class DaysData : DataLoader
                         {
                                 gameData.tip_id = value;
                         }
+                        else if (colID == 4 && value != "")
+                        {
+                            gameData.dificult = true;
+                        }
                     }
                 }
                 colID++;
