@@ -18,7 +18,7 @@ public class Loro_Multiple : ScreenMain
     public GameObject signal;
     bool canSelect;
     public int ok;
-    string firstWord;
+    public string firstWord;
 
     private void OnEnable()
     {
@@ -46,11 +46,11 @@ public class Loro_Multiple : ScreenMain
 
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
-        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
         bool isOk = true;
         foreach (string text in arr)
         {
+            print("_________" + text);
             if (id == 0)
             {
                 firstWord = text;
@@ -71,6 +71,7 @@ public class Loro_Multiple : ScreenMain
                 cards.Add(sb);
             }
             id++;
+
         }
         Utils.Shuffle(cards);
         foreach(SimpleButton sb in cards)
@@ -78,6 +79,8 @@ public class Loro_Multiple : ScreenMain
             sb.transform.SetParent(container);
             sb.transform.localScale = Vector2.one;
         }
+
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
     void Animate(string clipName)
     {
@@ -121,6 +124,7 @@ public class Loro_Multiple : ScreenMain
             {
                 Invoke("AllDone", 0.5f);
                 ok = 0;
+                Utils.RemoveAllChildsIn(container);
             }
         }
         id++;
@@ -145,8 +149,8 @@ public class Loro_Multiple : ScreenMain
     void OnTipDone()
     {
         id = 0;
-        SetCard();
         SayWord();
+        SetCard();
     }
     void SetCard()
     {
@@ -157,8 +161,10 @@ public class Loro_Multiple : ScreenMain
     }
     public void SayWord()
     {
+        print("Say word " + firstWord);
         string text_id = firstWord;
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        print("Say assetRealName " + assetRealName);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
         field.text = text_id;
         Invoke("CanSelect", 0.5f);
