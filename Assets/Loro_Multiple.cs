@@ -55,7 +55,7 @@ public class Loro_Multiple : ScreenMain
             {
                 firstWord = text;
             }
-            else if (text == "-")
+            else if (text == "-" || text.Contains("-"))
                 isOk = false;
             else
             {
