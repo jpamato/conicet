@@ -16,9 +16,8 @@ public class Loro_Multiple : ScreenMain
 
     public Transform container;
     public GameObject signal;
-    public int cardID;
     bool canSelect;
-    int ok;
+    public int ok;
     string firstWord;
 
     private void OnEnable()
@@ -30,6 +29,8 @@ public class Loro_Multiple : ScreenMain
     }
     public override void OnReady()
     {
+        ok_words.Clear();
+        wrong_words.Clear();
         signal.SetActive(false);
         field.text = "";
         cards.Clear();
@@ -119,6 +120,7 @@ public class Loro_Multiple : ScreenMain
             if (ok >= ok_words.Count)
             {
                 Invoke("AllDone", 0.5f);
+                ok = 0;
             }
         }
         id++;
@@ -156,7 +158,6 @@ public class Loro_Multiple : ScreenMain
     public void SayWord()
     {
         string text_id = firstWord;
-        print("__________ cardID: " + text_id);
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
         field.text = text_id;
