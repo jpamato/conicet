@@ -16,6 +16,12 @@ public class Data : MonoBehaviour
         QOM,
         L1
     }
+    public difficults dificult;
+    public enum difficults
+    {
+        EASY,
+        NORMAL
+    }
 
     public bool DEBUG;
     public GameData.types initialActivity;

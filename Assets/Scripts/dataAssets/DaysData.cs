@@ -89,6 +89,8 @@ public class DaysData : DataLoader
                         else if (colID == 4 && value != "")
                         {
                             gameData.dificult = true;
+                            if (Data.Instance.dificult == Data.difficults.EASY)
+                                contentLine.games.Remove(gameData);
                         }
                     }
                 }
