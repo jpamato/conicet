@@ -35,13 +35,17 @@ public class Loro_Multiple : ScreenMain
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
-        if (content == null) return;
+
+        StoriesData.Content story_content = Data.Instance.storiesData.activeContent;
+        GamesData.Content gameDataContent = Data.Instance.gamesData.GetContent(story_content.id);
+        List<string> arr = gameDataContent.GetContentFor(type, gameID);
+
         field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         int id = 0;
         bool isOk = true;
-        foreach (string text in content.loro_multiple)
+        foreach (string text in arr)
         {
             if (id == 0)
             {
