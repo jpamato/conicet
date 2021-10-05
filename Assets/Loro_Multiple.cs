@@ -30,6 +30,9 @@ public class Loro_Multiple : ScreenMain
     }
     public override void OnReady()
     {
+        signal.SetActive(false);
+        field.text = "";
+        cards.Clear();
         Utils.RemoveAllChildsIn(container);
         ok = 0;
         base.OnReady();
