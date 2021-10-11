@@ -25,25 +25,42 @@ public class Memotest : ScreenMain
         cards.Clear();
         Utils.RemoveAllChildsIn(container);
     }
+    List<string> arr;
     public override void OnReady()
     {        
         base.OnReady();
         storyData = Data.Instance.storiesData.activeContent;
 
         Utils.RemoveAllChildsIn(container);
-        GamesData.Content mContent = Data.Instance.gamesData.GetContent(storyData.id);
-        Utils.Shuffle(mContent.memotest);
+
+
+        //GamesData.Content mContent = Data.Instance.gamesData.GetContent(storyData.id);
+
+
+
+
+        string story_id = Data.Instance.storiesData.activeContent.id;
+        GamesData.Content mContent = Data.Instance.gamesData.GetContent(story_id);
+
+        StoriesData.Content story_content = Data.Instance.storiesData.activeContent;
+        GamesData.Content gameDataContent = Data.Instance.gamesData.GetContent(story_content.id);
+        arr = gameDataContent.GetContentFor(type, gameID);
+
+
+
+
+        Utils.Shuffle(arr);
        
-        AddCards(mContent);
+        AddCards(arr);
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_memotest");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
-    void AddCards(GamesData.Content mContent)
+    void AddCards(List<string> content)
     {
         List<string> all = new List<string>();
-        foreach (string s in mContent.memotest)
+        foreach (string s in content)
             all.Add(s);
-        foreach (string s in mContent.memotest)
+        foreach (string s in content)
             all.Add(s);
         Utils.Shuffle(all);
         foreach (string animal in all)

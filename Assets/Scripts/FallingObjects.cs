@@ -153,9 +153,17 @@ public class FallingObjects : ScreenMain
             ok++;
         numField.text = ok.ToString();
         if (ok == 5)
+        {
             Events.SetReadyButton(OnReadyClicked);
+            Invoke("ResetAll", 0.1f);
+        }
     }
-
+    void ResetAll()
+    {
+        StopAllCoroutines();
+        Utils.RemoveAllChildsIn(container);
+        cards.Clear();
+    }
     void OnReadyClicked()
     {
         OnComplete();
@@ -178,7 +186,7 @@ public class FallingObjects : ScreenMain
         else
         {
             string assetRealName = Data.Instance.assetsData.GetAssetRealName(content[0]);
-            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + " / " + assetRealName, null);
+            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);
         }
         SetText();
     }

@@ -17,14 +17,15 @@ public class SimpleButton : MonoBehaviour
         button = GetComponent<Button>();
         this.id = id;
 
-        text = Data.Instance.assetsData.GetRealText(text);
-
         this.text = text;
+
         if (image != null)
         {
             if (sprite != null) image.sprite = sprite; else image.enabled = false;
         }
-        if (text != "" && field != null)   field.text = text;   else text = "";
+        if (text != "" && field != null)
+            field.text = Data.Instance.assetsData.GetRealText(text);
+        else text = "";
         if(OnClicked != null)
             button.onClick.AddListener(() => OnClicked(this));
     }
