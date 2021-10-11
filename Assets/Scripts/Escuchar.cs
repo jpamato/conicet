@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Escuchar : ScreenMain
 {
     public Text field;
+    public Text titleField;
     [SerializeField] FillAmountAnim fillAmountAnim;
     bool gameReady;
     public GameObject dialoguesPanel;
@@ -25,6 +26,7 @@ public class Escuchar : ScreenMain
     public override void OnDisable()
     {
         base.OnDisable();
+        titleField.text = "";
     }
     public override void OnOff()
     {
@@ -32,7 +34,8 @@ public class Escuchar : ScreenMain
         Events.OnCharacterSay(null, null, CharactersManager.types.Nasheli);
     }
     public override void OnReady()
-    {   
+    {
+        titleField.text = "";
         base.OnReady();
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_escucha");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);       
@@ -65,9 +68,20 @@ public class Escuchar : ScreenMain
 
         character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
         musicAsset.SetActive(false);
-        character.Idle();
+        character.Idle();       
+
         if (arr != null && arr.Length>1 && arr[0] == "cancion")
         {
+            string[] songTitleArr = text.Split("@"[0]);
+            if (songTitleArr.Length > 1)
+            {
+                text = songTitleArr[0];
+                string songTtile = songTitleArr[1];
+                titleField.text = "'" + songTtile + "'";
+                if (songTitleArr.Length > 2)
+                    titleField.text += "\n" + songTitleArr[2];
+            }
+
             musicAsset.SetActive(true);
             character.GetComponentInChildren<AudioSpectrumView>().enabled = false;
             character.Dance();

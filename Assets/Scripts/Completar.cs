@@ -93,7 +93,10 @@ public class Completar : ScreenMain
         if (imageName != "")
         {
             Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
-            image.sprite = sprite;
+            if(sprite == null)
+                image.enabled = false;
+            else
+                image.sprite = sprite;
         }
         else
         {

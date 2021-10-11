@@ -136,6 +136,7 @@ public class Loro_Multiple : ScreenMain
     {
         Events.SetReadyButton(OnReadyClicked);
         Utils.RemoveAllChildsIn(container);
+        cards.Clear();
     }
     void OnReadyClicked()
     {
