@@ -166,7 +166,8 @@ public class Loro_Multiple : ScreenMain
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         print("Say assetRealName " + assetRealName);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
-        field.text = text_id;
+
+        field.text = Data.Instance.assetsData.GetRealText(text_id);
         Invoke("CanSelect", 0.5f);
     }
     void CanSelect()

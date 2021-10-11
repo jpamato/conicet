@@ -16,6 +16,9 @@ public class SimpleButton : MonoBehaviour
     {
         button = GetComponent<Button>();
         this.id = id;
+
+        text = Data.Instance.assetsData.GetRealText(text);
+
         this.text = text;
         if (image != null)
         {

@@ -92,7 +92,7 @@ public class MemotestAudio : ScreenMain
     }
     void SetWord()
     {
-        title.text = corrects[id];
+        title.text = Data.Instance.assetsData.GetRealText( corrects[id] );
         Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + corrects[id], false);
     }
     public void SetSelected(MemotestCard card)

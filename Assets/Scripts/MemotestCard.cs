@@ -33,7 +33,9 @@ public class MemotestCard : MonoBehaviour
             image.sprite = content.sprite;
         }
         SetOn();
-        field.text = Utils.ParseText( content.name );
+        //field.text = Utils.ParseText( content.name );
+
+        field.text = Data.Instance.assetsData.GetRealText(content.name);
     }
     public void SetDone()
     {

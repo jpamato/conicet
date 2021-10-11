@@ -11,6 +11,7 @@ public class AssetsData : DataLoader
     public class Content
     {
         public string name;
+        public string text;
         public Sprite sprite;
         public AudioClip audioClip;
     }
@@ -63,7 +64,7 @@ public class AssetsData : DataLoader
                         if (value != "")
                         {
                             contentLine = new Content();
-                            contentLine.name =  value;
+                            contentLine.name = value;
                             contentLine.sprite = Resources.Load<Sprite>("assets/" + value) as Sprite;
                             string folderName = "audio";
                             if (Data.Instance.lang == Data.langs.QOM)
@@ -72,6 +73,13 @@ public class AssetsData : DataLoader
                             content.Add(contentLine);
                         }
                     }
+                    if (colID == 3)
+                    {
+                        if (value != null && value.Length < 2)
+                            contentLine.text = contentLine.name;
+                        else
+                            contentLine.text = value;
+                    }
                 }
                 colID++;
             }
@@ -79,5 +87,15 @@ public class AssetsData : DataLoader
             rowID++;
         }
 
+    }
+    public string GetRealText(string textName)
+    {
+        foreach(Content c in content)
+        {
+            if (c.name == textName)
+                return c.text;
+        }
+        Debug.LogError("No hay traducción para " + textName + " en assetsData");
+        return textName;
     }
 }

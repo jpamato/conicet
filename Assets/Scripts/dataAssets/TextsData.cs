@@ -96,6 +96,8 @@ public class TextsData : DataLoader
                             }
                         } if (colID == 2 && value != "")
                             contentLine.text = value;
+                        if (colID == 2 && value != "")
+                            contentLine.text = value;
                     }
                 }
                 colID++;

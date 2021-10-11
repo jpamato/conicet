@@ -7,13 +7,14 @@ public class EndDayScreen : ScreenMain
     public override void Show(bool fromRight)
     {
         base.Show(fromRight);
-        Events.PlaySound("voices", "ui/win", false);
     }
     public override void OnReady()
     {
         base.OnReady();
         Events.SetNextButton(false);
         Events.SetReadyButton(OnClicked);
+
+        Events.PlaySound("voices", "ui/win", false);
     }
     void OnClicked()
     {
