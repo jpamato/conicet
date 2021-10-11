@@ -32,11 +32,16 @@ public class SimpleButton : MonoBehaviour
     {
         if(button != null)
             button.onClick.RemoveAllListeners();
+        CancelInvoke();
     }
     public void InactivateFor(float timeToRestart)
     {
         Invoke("Reset", timeToRestart);
         button.interactable = false;
+    }
+    private void OnDisable()
+    {
+        CancelInvoke();
     }
     private void Reset()
     {

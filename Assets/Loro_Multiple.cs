@@ -89,6 +89,7 @@ public class Loro_Multiple : ScreenMain
     }
     void OnClicked(SimpleButton button)
     {
+        if (button == null) return;
     //    if (!canSelect) return;
     //    canSelect = false;
         if (IsOk(button.text))
@@ -124,7 +125,6 @@ public class Loro_Multiple : ScreenMain
             {
                 Invoke("AllDone", 0.5f);
                 ok = 0;
-                Utils.RemoveAllChildsIn(container);
             }
         }
         id++;
@@ -135,6 +135,7 @@ public class Loro_Multiple : ScreenMain
     void AllDone()
     {
         Events.SetReadyButton(OnReadyClicked);
+        Utils.RemoveAllChildsIn(container);
     }
     void OnReadyClicked()
     {

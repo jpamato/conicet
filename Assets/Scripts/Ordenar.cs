@@ -208,7 +208,7 @@ public class Ordenar : ScreenMain
     }
     public void Say()
     {
-        Events.PlaySound("voices", "ordenar/"  + Utils.GetLangFolder() + " / " + audioName, false);
+        Events.PlaySound("voices", "ordenar"  + Utils.GetLangFolder() + "/" + audioName, false);
     }
     void OnReadyClicked()
     {

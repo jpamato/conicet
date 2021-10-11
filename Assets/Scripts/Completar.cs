@@ -23,6 +23,9 @@ public class Completar : ScreenMain
     public string prefix = "";
     public GameObject arrow;
 
+    public GameObject doubleCharacters;
+    public Image image;
+
     public override void OnEnable()
     {
         base.OnEnable();
@@ -55,7 +58,8 @@ public class Completar : ScreenMain
         base.Hide(toLeft);
         fillAmountAnim.Init();
     }
-
+    string imageName;
+    string fileName;
     void OnTipDone()
     {
         print("Completar OnTipDone");
@@ -66,7 +70,14 @@ public class Completar : ScreenMain
 
         GamesData.Content gameDataContent = Data.Instance.gamesData.GetContent(story_content.id);
         string content = gameDataContent.GetContentFor(type, gameID)[0];
-        string[] arr = content.Split("_"[0]);
+        string[] rimaImageSplited = content.Split("@"[0]);
+        fileName = content;
+        if (rimaImageSplited.Length > 1)
+        {
+            fileName = rimaImageSplited[0];
+            imageName = rimaImageSplited[1];
+        }
+        string[] arr = fileName.Split("_"[0]);
         typeID = int.Parse(arr[0]);
         folderName = arr[1];
         characterName = arr[2];
@@ -79,19 +90,33 @@ public class Completar : ScreenMain
     int doubleCharacterID = 0;
     void SetCharacter()
     {
-        if (typeID == 1)
+        if (imageName != "")
         {
-            foreach (Character ch in characters)
-            {
-                ch.gameObject.SetActive(true);                
-            }
-            CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
-            characters[1].Init(characterType);
-
-            character.gameObject.SetActive(false);
+            Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
+            image.sprite = sprite;
         }
         else
         {
+            image.enabled = false;
+            Debug.Log("Falta imagen para rima: " + fileName);
+        }
+
+        if (typeID == 1)
+        {
+            doubleCharacters.SetActive(true);
+
+            //esto es viejo:
+            foreach (Character ch in characters)
+                ch.gameObject.SetActive(true);   
+
+            CharactersManager.types characterType = (CharactersManager.types)System.Enum.Parse(typeof(CharactersManager.types), characterName);
+            characters[1].Init(characterType);
+            character.gameObject.SetActive(false);
+            /////////////////////
+        }
+        else
+        {
+            doubleCharacters.SetActive(false);
             foreach (Character ch in characters)
                 ch.gameObject.SetActive(false);
             arrow.SetActive(false);
@@ -100,11 +125,6 @@ public class Completar : ScreenMain
             character.Init(characterType);
             character.gameObject.SetActive(true);
         }
-
-
-
-        //if (typeID == 1)
-        //    character.Disapear();
     }
     void Next()
     {
