@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class EndDayScreen : ScreenMain
 {
+    public GameObject endBookAsset;
+
+    private void OnEnable()
+    {
+        endBookAsset.SetActive(false);
+        Events.EndBook += EndBook;
+    }
+    private void OnDisable()
+    {
+        Events.EndBook -= EndBook;
+    }
+    void EndBook()
+    {
+        endBookAsset.SetActive(true);
+    }
     public override void Show(bool fromRight)
     {
         base.Show(fromRight);

@@ -127,10 +127,19 @@ public class UserData : MonoBehaviour
         print("End Day: totalDaysInBook = (" + totalDaysInBook + ")" + " dayID: " + dayID);
 
         if (dayID == totalDaysInBook && GetValue(key) < dayID)
-            SetSavedData(key, dayID);
+        {
+            SetSavedData(key, dayID);            
+        }
 
         Events.SetNextButton(false);
         ScreensManager.Instance.ForceOpen(GameData.types.endDay, true);
+
+        if (dayID == totalDaysInBook)
+            Invoke("DelayedEndBook", 0.05f);
+    }
+    void DelayedEndBook()
+    {
+        Events.EndBook();
     }
     int GetAllDaysInBook(string bookID)
     {

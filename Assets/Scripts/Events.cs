@@ -23,6 +23,7 @@ public static class Events
     public static System.Action<string, float> ChangeVolume = delegate { };
     public static System.Action<Color> ChangeColor = delegate { };
 
+    public static System.Action EndBook = delegate { };
     public static System.Action OnDragDone = delegate { };
 }
    

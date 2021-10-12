@@ -19,6 +19,12 @@ public class ElegirFrase : ScreenMain
         field.text = "";
         signal.SetActive(false);
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        cards.Clear();
+        Utils.RemoveAllChildsIn(container);
+    }
     public override void OnReady()
     {
         cardActive = 0;
