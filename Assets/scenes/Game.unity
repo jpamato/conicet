@@ -1892,9 +1892,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: '"La Nave"
-
-    Agustin Pontura'
+  m_Text: 
 --- !u!222 &98243278
 CanvasRenderer:
   m_ObjectHideFlags: 0
