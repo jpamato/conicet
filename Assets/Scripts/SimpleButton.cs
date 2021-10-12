@@ -17,14 +17,14 @@ public class SimpleButton : MonoBehaviour
         button = GetComponent<Button>();
         this.id = id;
 
-        this.text = text;
+        this.text = text.ToUpper();
 
         if (image != null)
         {
             if (sprite != null) image.sprite = sprite; else image.enabled = false;
         }
         if (text != "" && field != null)
-            field.text = Data.Instance.assetsData.GetRealText(text);
+            field.text = Data.Instance.assetsData.GetRealText(text).ToUpper();
         else text = "";
         if(OnClicked != null)
             button.onClick.AddListener(() => OnClicked(this));

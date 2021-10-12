@@ -92,13 +92,13 @@ public class Letra : ScreenMain
     }
     void SetOriginalText()
     {
-        field.text = originalText;
+        field.text = originalText.ToUpper();
     }
     void SetTitle(string letter)
     {
         string st = originalText;
         string newWord = st.Replace("_", letter);
-        field.text = newWord;
+        field.text = newWord.ToUpper();
         field.GetComponent<Animation>().Play();
     }
     void SetLetter(int id, string letter)
