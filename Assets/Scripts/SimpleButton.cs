@@ -17,7 +17,7 @@ public class SimpleButton : MonoBehaviour
         button = GetComponent<Button>();
         this.id = id;
 
-        this.text = text.ToUpper();
+        this.text = text;
 
         if (image != null)
         {

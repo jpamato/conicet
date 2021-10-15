@@ -22,6 +22,7 @@ public class RepeatWithCard : ScreenMain
 
     public override void OnReady()
     {
+        id = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
@@ -34,6 +35,7 @@ public class RepeatWithCard : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        id = 0;
         base.Show(fromRight);
         fillAmountAnim.Init();
         done = 0;
@@ -58,6 +60,8 @@ public class RepeatWithCard : ScreenMain
     string audio_text = "";
     void AddCard()
     {
+        print("ADD CARD: " + id);
+        print(content.repeat_with_card.Count);
         Utils.RemoveAllChildsIn(container);
         string textID = content.repeat_with_card[id];
 

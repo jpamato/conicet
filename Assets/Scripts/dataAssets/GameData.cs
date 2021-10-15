@@ -28,7 +28,8 @@
         letra,
         contar,
         ordenar,
-        loro_multiple
+        loro_multiple,
+        arrastrar_grupos
     }
     public bool played;
     public string tip_id;

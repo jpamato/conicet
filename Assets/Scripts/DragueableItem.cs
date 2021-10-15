@@ -22,6 +22,13 @@ public class DragueableItem : MonoBehaviour
         NONE,
         DONE
     }
+    // para el de los 2 grupos
+    public bool isLeft;
+    public bool isOk;
+    public bool isDone;
+    public string text = "";
+    /// ///////////////////
+
     public void SetDestiny(DragueableItemDestination itemDest)
     {
         destinations.Add(itemDest);
@@ -50,15 +57,22 @@ public class DragueableItem : MonoBehaviour
         if (isInactive) return;
         if (itemDest != null)
         {
-            itemDest.Reset();
-            
+            itemDest.Reset();            
             itemDest = null;
+        }
+        if (text != "")
+        {
+            Say(text);
         }
         offset = Input.mousePosition - transform.position;
         state = states.DRAGGING;
         if(randomRotation)
             randomRotation.enabled = false;
         transform.localEulerAngles = Vector3.zero;
+    }
+    public void Say(string audioName)
+    {
+        Events.PlaySound("voices", "assets" + Utils.GetLangFolder() + "/audio/" + audioName, false);
     }
     public void EndDrag()
     {
