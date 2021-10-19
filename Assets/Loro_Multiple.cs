@@ -27,6 +27,12 @@ public class Loro_Multiple : ScreenMain
         Utils.RemoveAllChildsIn(container);
         signal.SetActive(false);
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        canSelect = false;
+        Utils.RemoveAllChildsIn(container);
+    }
     public override void OnReady()
     {
         ok_words.Clear();
@@ -88,7 +94,7 @@ public class Loro_Multiple : ScreenMain
     void OnClicked(SimpleButton button)
     {
         if (button == null) return;
-    //    if (!canSelect) return;
+        if (!canSelect) return;
     //    canSelect = false;
         if (IsOk(button.text))
         {
@@ -168,8 +174,8 @@ public class Loro_Multiple : ScreenMain
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
 
         field.text = Data.Instance.assetsData.GetRealText(text_id);
-        SayLoop();
         sayID = 0;
+        SayLoop();
     }
     int sayID = 0;
     void SayLoop()
@@ -177,11 +183,14 @@ public class Loro_Multiple : ScreenMain
         if (sayID >= cards.Count)
             CanSelect();
         else
-        {
-            SayAsset(cards[sayID].text, SayLoop);
-            cards[sayID].GetComponent<Animation>().Play("allOn");
-            sayID++;
-        }
+            Invoke("Delayed", 0.1f);
+    }
+    void Delayed()
+    {
+        print("sayID " + sayID + " cards.Count: " + cards.Count);
+        SayAsset(cards[sayID].text, SayLoop);
+        cards[sayID].GetComponent<Animation>().Play("allOn");
+        sayID++;
     }
     void CanSelect()
     {
