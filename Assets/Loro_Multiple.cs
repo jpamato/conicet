@@ -50,7 +50,6 @@ public class Loro_Multiple : ScreenMain
         bool isOk = true;
         foreach (string text in arr)
         {
-            print("_________" + text);
             if (id == 0)
             {
                 firstWord = text;
@@ -63,7 +62,6 @@ public class Loro_Multiple : ScreenMain
                     ok_words.Add(text);
                 else
                     wrong_words.Add(text);
-                print(isOk + " : " + text);
                 SimpleButton sb = Instantiate(simonCard);
                 sb.transform.localScale = Vector2.one;
                 Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
@@ -103,11 +101,11 @@ public class Loro_Multiple : ScreenMain
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 60);
             SetResults(false);
         }
-        SayAsset(button.text);
+        SayAsset(button.text, null);
     }
-    void SayAsset(string assetRealName)
+    void SayAsset(string assetRealName, System.Action OnSaid)
     {
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, OnSaid);
     }
     bool IsOk(string text)
     {
@@ -170,7 +168,20 @@ public class Loro_Multiple : ScreenMain
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
 
         field.text = Data.Instance.assetsData.GetRealText(text_id);
-        Invoke("CanSelect", 0.5f);
+        SayLoop();
+        sayID = 0;
+    }
+    int sayID = 0;
+    void SayLoop()
+    {
+        if (sayID >= cards.Count)
+            CanSelect();
+        else
+        {
+            SayAsset(cards[sayID].text, SayLoop);
+            cards[sayID].GetComponent<Animation>().Play("allOn");
+            sayID++;
+        }
     }
     void CanSelect()
     {
