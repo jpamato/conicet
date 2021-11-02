@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class RepeatWithCard : ScreenMain
 {
-    GamesData.Content content;
+    public List<string> content;
     public SimpleButton simonCard;
     public Transform container;
     public Character character;
@@ -24,8 +24,11 @@ public class RepeatWithCard : ScreenMain
     {
         id = 0;
         base.OnReady();
+
         string story_id = Data.Instance.storiesData.activeContent.id;
-        content = Data.Instance.gamesData.GetContent(story_id);
+        GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
+        content = c.GetContentFor(type, gameID);
+
         if (content == null) return;
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_repeat_with_card");
@@ -60,14 +63,19 @@ public class RepeatWithCard : ScreenMain
     string audio_text = "";
     void AddCard()
     {
-        print("ADD CARD: " + id);
-        print(content.repeat_with_card.Count);
+        print(content.Count);
         Utils.RemoveAllChildsIn(container);
-        string textID = content.repeat_with_card[id];
+        string textID = content[id];
+
+
+
 
         string[] arr = textID.Split(":"[0]);
         if (arr.Length > 1)
             textID = arr[0];
+
+
+        print("ADD CARD: " + id + " textID: " + textID);
 
         SimpleButton sb = Instantiate(simonCard, container);
         sb.transform.localScale = Vector2.one;
@@ -85,7 +93,7 @@ public class RepeatWithCard : ScreenMain
 
         done++;
         id++;
-        if (id >= content.repeat_with_card.Count)
+        if (id >= content.Count)
             id = 0;
         if (done > 5)
         {
