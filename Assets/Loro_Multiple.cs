@@ -171,11 +171,11 @@ public class Loro_Multiple : ScreenMain
         string text_id = firstWord;
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         print("Say assetRealName " + assetRealName);
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, SayLoop);
 
         field.text = Data.Instance.assetsData.GetRealText(text_id);
         sayID = 0;
-        SayLoop();
+       // SayLoop();
     }
     int sayID = 0;
     void SayLoop()
