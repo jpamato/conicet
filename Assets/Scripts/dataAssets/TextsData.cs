@@ -74,7 +74,7 @@ public class TextsData : DataLoader
 
                             string idText = value;
                             if (Data.Instance.lang == Data.langs.QOM)
-                                idText = "qom_" + idText;
+                                idText = idText;
                          // else if (Data.Instance.lang == Data.langs.L1)
                            //   idText = "l1_" + idText;
                             contentLine.id = idText;
