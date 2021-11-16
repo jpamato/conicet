@@ -73,7 +73,14 @@ public class AssetsData : DataLoader
                             content.Add(contentLine);
                         }
                     }
-                    if (colID == 3)
+                    if (colID == 3 && Data.Instance.lang != Data.langs.QOM)
+                    {
+                        if (value != null && value.Length < 2)
+                            contentLine.text = contentLine.name;
+                        else
+                            contentLine.text = value;
+                    }
+                    if (colID == 4 && Data.Instance.lang == Data.langs.QOM)
                     {
                         if (value != null && value.Length < 2)
                             contentLine.text = contentLine.name;
