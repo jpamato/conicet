@@ -27,6 +27,7 @@ public class Memotest : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        corrects = 0;
         base.Show(fromRight);
         cards.Clear();
         Utils.RemoveAllChildsIn(container);
