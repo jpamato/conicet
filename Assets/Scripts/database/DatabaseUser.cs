@@ -3,11 +3,12 @@
 [Serializable]
 public class DatabaseUser
 {
+    public int saved;
     public string id;
     public string name;
     public int age;
     public string text;
-    public string sex; // nene, nena
+    public string gender; // nene, nena
 
     public void GenerateID()
     {

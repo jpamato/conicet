@@ -12,9 +12,11 @@ public class DatabaseUsersUI : MonoBehaviour
     public DatabaseUser active;
     DatabaseUserAdd databaseUserAdd;
     DatabaseData databaseData;
+    DatabaseManager databaseManager;
 
     void Start()
     {
+        databaseManager = GetComponent<DatabaseManager>();
         databaseData = GetComponent<DatabaseData>();
         databaseUserAdd = GetComponent<DatabaseUserAdd>();
         databaseUserAdd.Close();
@@ -43,6 +45,7 @@ public class DatabaseUsersUI : MonoBehaviour
         active = user;
         databaseData.AddUser(user);
         RefreshList();
+        databaseManager.SaveUser(user);
     }
     void RefreshList()
     {

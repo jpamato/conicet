@@ -9,6 +9,7 @@ public class DatabaseUserAdd : MonoBehaviour
     [SerializeField] InputField nameField;
     [SerializeField] InputField ageField;
     [SerializeField] InputField textField;
+    [SerializeField] Dropdown sexField;
     DatabaseUsersUI databaseUsersUI ;
 
     private void Awake()
@@ -26,6 +27,7 @@ public class DatabaseUserAdd : MonoBehaviour
         user.age = int.Parse(ageField.text);
         user.text = textField.text;
         user.id = textField.text;
+        user.gender = sexField.value.ToString();
         user.GenerateID();
         databaseUsersUI.AddNewUser(user);
         Close();

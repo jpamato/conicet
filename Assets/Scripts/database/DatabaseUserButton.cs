@@ -15,7 +15,17 @@ public class DatabaseUserButton : MonoBehaviour
         this.data = data;
         namefield.text = data.name;
         ageField.text = data.age.ToString();
-        sexField.text = data.sex.ToString();
+        if (data.gender == "0")
+        {
+            sexField.text = "NENE";
+            sexField.color = Color.blue;
+        }
+        else
+        {
+            sexField.text = "NENA";
+            sexField.color = Color.red;
+        }
+
         if (data.text != "")
         {
             namefield.text += "(" + data.text + ")";
