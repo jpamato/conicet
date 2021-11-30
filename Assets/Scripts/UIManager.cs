@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour
     public Button back;
     public Button next;
     public GameObject hamburguer;
+    public GameObject databaseUsersUIButton;
+    [SerializeField] DatabaseUsersUI databaseUsersUI;
 
     private void Start()
     {
@@ -51,5 +53,9 @@ public class UIManager : MonoBehaviour
     {
         Events.ResetApp();
         Data.Instance.LoadScene("Splash");
+    }
+    public void OpenDatabaseManager()
+    {
+        databaseUsersUI.Open();
     }
 }

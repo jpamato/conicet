@@ -8,13 +8,32 @@ public class DatabaseUserButton : MonoBehaviour
     [SerializeField] Text namefield;
     [SerializeField] Text ageField;
     [SerializeField] Text sexField;
+    [SerializeField] Text gamesQtyField;
+    [SerializeField] Text wordsQtyField;
+    [SerializeField] Image circle;
     DatabaseUser data;
 
+    private void Awake()
+    {
+        Events.OnUpdateDatabaseUserData += OnUpdateDatabaseUserData;
+    }
+    private void OnDestroy()
+    {
+        Events.OnUpdateDatabaseUserData -= OnUpdateDatabaseUserData;
+    }
+    void OnUpdateDatabaseUserData(DatabaseUser _data)
+    {
+        if(data.id == _data.id)
+            Init(data);
+    }
     public void Init(DatabaseUser data)
     {
         this.data = data;
         namefield.text = data.name;
         ageField.text = data.age.ToString();
+        gamesQtyField.text = data.GetTotalGames().ToString();
+        wordsQtyField.text = data.GetAllWordsInGames().ToString();
+
         if (data.gender == "0")
         {
             sexField.text = "NENE";
@@ -30,6 +49,10 @@ public class DatabaseUserButton : MonoBehaviour
         {
             namefield.text += "(" + data.text + ")";
         }
+        if (data.saved == 0)
+            circle.color = Color.red;
+        else
+            circle.color = Color.green;
     }
     public void OnSelected()
     {

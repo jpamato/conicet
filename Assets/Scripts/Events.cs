@@ -25,5 +25,10 @@ public static class Events
 
     public static System.Action EndBook = delegate { };
     public static System.Action OnDragDone = delegate { };
+    public static System.Action<DatabaseUser> OnUpdateDatabaseUserData = delegate { };
+
+    //                                   types, duration, correct, incorrect
+    public static System.Action<GameData.types, int, int, int> OnStatsGameDone = delegate { };
+    public static System.Action<GameData.types, string, bool> OnStatsAddWord = delegate { };
 }
    

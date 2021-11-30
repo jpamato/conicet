@@ -8,7 +8,7 @@ public class DatabaseManager : MonoBehaviour
     string hashPassword = "pontura";
     string url = "http://localhost/conicet/";
 
-    public void SaveUser(DatabaseUser userdata)
+    public void SaveUser(DatabaseUser userdata, System.Action OnSaved)
     {
         string hash = Md5Test.Md5Sum(userdata.id + hashPassword);
         string urlReal = url
@@ -19,21 +19,19 @@ public class DatabaseManager : MonoBehaviour
             + "&userID=" + userdata.id
             + "&hash=" + hash;
         print("save: " + urlReal);
-        StartCoroutine(RequestUser(urlReal, OnUserDataSaved));
+        StartCoroutine(RequestUser(urlReal, OnSaved));
     }
-    void OnUserDataSaved(string result)
-    {
-        print("result " + result);
-    }
-    IEnumerator RequestUser(string url, System.Action<string> OnDone)
+    IEnumerator RequestUser(string url, System.Action OnSaved)
     {
         print(url);
+
         WWW www = new WWW(url);
         yield return www;
-        if (www.error == null)
+        print("SAVE response: " + www.text);
+        if (www.text == "ok")
         {
-            if (OnDone != null)
-                OnDone(www.text);
+            Debug.Log("SAVED: " + www.text);
+            OnSaved();
         }
         else
         {

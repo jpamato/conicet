@@ -40,15 +40,7 @@ public class DatabaseData : MonoBehaviour
     public void AddUser(DatabaseUser user)
     {
         users.Insert(0,user);
-        string newUser = "0";
-        newUser += ":" + user.id;
-        newUser += ":" + user.name;
-        newUser += ":" + user.age;
-        newUser += ":" + user.text;
-        newUser += ":" + user.gender;
-        string key = "user" + users.Count;
-        print("AddUser key: " + key + " value: " + newUser);
-        PlayerPrefs.SetString(key, newUser);
+        user.Save(users.Count);
     }
     public void Delete(DatabaseUser user)
     {

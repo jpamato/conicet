@@ -46,6 +46,7 @@ public class ScreenMain : MonoBehaviour
     }
     public virtual void Show(bool fromRight)
     {
+        InitTimer();
         StopAllCoroutines();
         gameObject.SetActive(true);
         StartCoroutine(AnimateIn(fromRight));
@@ -120,5 +121,33 @@ public class ScreenMain : MonoBehaviour
             }
         }
         gameObject.SetActive(false);
+    }
+    public float timer_for_duration = 0;
+    public int correctsWordsNum;
+    public int incorrectsWordsNum;
+
+    void Update()
+    {
+        timer_for_duration += Time.deltaTime;
+    }
+    public void InitTimer()
+    {
+        timer_for_duration = 0;
+        incorrectsWordsNum = 0;
+        correctsWordsNum = 0;
+    }
+    public void Correct(string word)
+    {
+        correctsWordsNum++;
+        Events.OnStatsAddWord(type, word, true);
+    }
+    public void Incorrect(string word)
+    {
+        incorrectsWordsNum++;
+        Events.OnStatsAddWord(type, word, false);
+    }
+    public void OnSaveToDatabase()
+    {
+        Events.OnStatsGameDone(type, (int)(timer_for_duration * 1000), correctsWordsNum, incorrectsWordsNum);
     }
 }
