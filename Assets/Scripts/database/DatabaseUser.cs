@@ -12,7 +12,6 @@ public class DatabaseUser
     public string text;
     public string gender; // nene, nena
     public List<DatabaseUserGame> games;
-    public List<DatabaseUserWords> words;
     public int arrayID;
 
     public void GenerateID()
@@ -62,7 +61,7 @@ public class DatabaseUser
             return 0;
         int total = 0;
         foreach (DatabaseUserGame game in games)
-            total += words.Count;
+            total += game.words.Count;
         return total;
     }
     public void AddGame(DatabaseUserGame gameData)
@@ -71,10 +70,27 @@ public class DatabaseUser
             games = new List<DatabaseUserGame>();
         games.Add(gameData);
     }
-    public void AddWord(DatabaseUserWords wordData)
+    System.Action OnAllDone;
+    public void SaveGames(System.Action OnAllDone)
     {
-        if (words == null)
-            words = new List<DatabaseUserWords>();
-        words.Add(wordData);
+        this.OnAllDone = OnAllDone;
+        if (games.Count > 0)
+        {
+            DatabaseUserGame game = games[games.Count - 1];
+            DatabaseUsersUI.Instance.databaseManager.SaveGame(id, game, GameSaved);
+        }
+        else
+            OnAllDone();
+    }
+    void GameSaved()
+    {
+        DatabaseUserGame game = games[games.Count - 1];
+        DatabaseUsersUI.Instance.databaseData.ResetGameData(id, games.Count);
+        games.Remove(game);
+        game.SaveWords(OnSaved); // borra todas las palabras y sigue borrando por game:
+    }
+    void OnSaved()
+    {
+        SaveGames(OnAllDone);
     }
 }

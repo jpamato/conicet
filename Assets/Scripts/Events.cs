@@ -28,7 +28,6 @@ public static class Events
     public static System.Action<DatabaseUser> OnUpdateDatabaseUserData = delegate { };
 
     //                                   types, duration, correct, incorrect
-    public static System.Action<GameData.types, int, int, int> OnStatsGameDone = delegate { };
-    public static System.Action<GameData.types, string, bool> OnStatsAddWord = delegate { };
+    public static System.Action<GameData.types, int, List<string>, List<string>> OnStatsGameDone = delegate { };
 }
    

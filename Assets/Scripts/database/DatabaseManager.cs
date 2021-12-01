@@ -19,9 +19,37 @@ public class DatabaseManager : MonoBehaviour
             + "&userID=" + userdata.id
             + "&hash=" + hash;
         print("save: " + urlReal);
-        StartCoroutine(RequestUser(urlReal, OnSaved));
+        StartCoroutine(RequestDone(urlReal, OnSaved));
     }
-    IEnumerator RequestUser(string url, System.Action OnSaved)
+    public void SaveGame(string userID, DatabaseUserGame gameData, System.Action OnSaved)
+    {
+        string hash = Md5Test.Md5Sum(gameData.gameID + hashPassword);
+        string urlReal = url
+            + "setGame.php?gameID=" + gameData.gameID
+            + "&game=" + gameData.game
+            + "&userID=" + userID
+            + "&duration=" + gameData.duration
+            + "&correct=" + gameData.correct
+            + "&incorrect=" + gameData.incorrect             
+            + "&lang=" + gameData.lang
+            + "&cuento=" + gameData.cuento
+            + "&day=" + gameData.day
+            + "&hash=" + hash;
+        print("save: " + urlReal);
+        StartCoroutine(RequestDone(urlReal, OnSaved));
+    }
+    public void SaveWords(string gameID, DatabaseUserWords word, string game, System.Action OnSaved)
+    {
+        string hash = Md5Test.Md5Sum(word.gameID + hashPassword);
+        string urlReal = url
+            + "setWord.php?gameID=" + word.gameID
+            + "&word=" + word.word
+            + "&correct=" + word.correct
+            + "&hash=" + hash;
+        print("save: " + urlReal);
+        StartCoroutine(RequestDone(urlReal, OnSaved));
+    }
+    IEnumerator RequestDone(string url, System.Action OnSaved)
     {
         print(url);
 

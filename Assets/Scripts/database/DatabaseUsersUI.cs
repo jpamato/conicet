@@ -5,15 +5,24 @@ using UnityEngine.UI;
 
 public class DatabaseUsersUI : MonoBehaviour
 {
+    static DatabaseUsersUI mInstance = null;
+
+    public static DatabaseUsersUI Instance  {  get  { return mInstance;  }    }
+
     [SerializeField] DatabaseUserButton button;
     [SerializeField] GameObject panel;
 
     [SerializeField] Transform container;
     public DatabaseUser active;
     DatabaseUserAdd databaseUserAdd;
-    DatabaseData databaseData;
-    DatabaseManager databaseManager;
 
+    public DatabaseData databaseData;
+    public DatabaseManager databaseManager;
+
+    void Awake()
+    {
+        mInstance = this;
+    }
     void Start()
     {
         databaseManager = GetComponent<DatabaseManager>();
@@ -21,13 +30,12 @@ public class DatabaseUsersUI : MonoBehaviour
         databaseUserAdd = GetComponent<DatabaseUserAdd>();
         databaseUserAdd.Close();
         Open();
-        RefreshList();
         Events.OnStatsGameDone += OnStatsGameDone;
-        Events.OnStatsAddWord += OnStatsAddWord;
     }
     public void Open()
     {
         panel.SetActive(true);
+        RefreshList();
     }
     public void Close()
     {
@@ -65,7 +73,13 @@ public class DatabaseUsersUI : MonoBehaviour
             if(!user.IsSavedToDatabase())
                 databaseManager.SaveUser(user, user.SavedToDatabase);
             id++;
+            user.SaveGames(OnAllGamesSaved);
         }
+    }
+    void OnAllGamesSaved()
+    {
+        print("OnAllGamesSaved");
+        //RefreshList();
     }
     DatabaseUser UserActive()
     {
@@ -76,16 +90,20 @@ public class DatabaseUsersUI : MonoBehaviour
         }
         return null;
     }
-    // <GameData.types, int, int, int> OnStatsGameDone = delegate { };
-    void OnStatsGameDone(GameData.types type, int duration, int correct, int incorrect)
+    void OnStatsGameDone(GameData.types type, int duration, List<string> correctList, List<string> incorrectList)
     {
+        DatabaseUser userActive = UserActive();
         DatabaseUserGame dbUserGame = new DatabaseUserGame();
-        dbUserGame.gameID = type.ToString();
-        dbUserGame.correct = correct;
-        dbUserGame.incorrect = incorrect;
+        dbUserGame.gameID = userActive.id+"_"+ userActive.games.Count+Random.Range(0,10000);
+        dbUserGame.game = type.ToString();
+        dbUserGame.correct = correctList.Count;
+        dbUserGame.incorrect = incorrectList.Count;
         dbUserGame.duration = duration;
 
-        DatabaseUser userActive = UserActive();
+        dbUserGame.lang = Data.Instance.lang.ToString() + ":";
+        dbUserGame.cuento = Data.Instance.storiesData.activeBookContent.name + ":";
+        dbUserGame.day = Data.Instance.daysData.activeContent.day;
+
 
         switch (type)
         {
@@ -93,17 +111,34 @@ public class DatabaseUsersUI : MonoBehaviour
                 userActive.AddGame(dbUserGame);
                 break;
         }
+        databaseData.SetGamesData(userActive, userActive.games.Count, dbUserGame);
+
+        int id = 0;
+        foreach (string s in correctList)
+        {
+            OnStatsAddWord(dbUserGame, s, true);
+            id++;
+            databaseData.SetWordsData(id, dbUserGame.gameID, s, true, dbUserGame.game);
+        }
+
+        foreach (string s in incorrectList)
+        {
+            OnStatsAddWord(dbUserGame, s, false);
+            id++;
+            databaseData.SetWordsData(id, dbUserGame.gameID, s, false, dbUserGame.game);
+        }
+
     }
-    
-    void OnStatsAddWord(GameData.types type, string word, bool isCorrect)
+
+    void OnStatsAddWord(DatabaseUserGame game, string word, bool isCorrect)
     {
         DatabaseUserWords dbUserData = new DatabaseUserWords();
-        dbUserData.gameID = type.ToString();
+        dbUserData.gameID = game.gameID;
         if(isCorrect)
             dbUserData.correct = 1;
         dbUserData.word = word;
         DatabaseUser userActive = UserActive();
-        userActive.AddWord(dbUserData);
+        game.AddWord(dbUserData);
     }
 
 }

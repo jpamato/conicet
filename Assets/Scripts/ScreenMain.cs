@@ -123,8 +123,8 @@ public class ScreenMain : MonoBehaviour
         gameObject.SetActive(false);
     }
     public float timer_for_duration = 0;
-    public int correctsWordsNum;
-    public int incorrectsWordsNum;
+    public List<string> correctsWords;
+    public List<string> incorrectsWords;
 
     void Update()
     {
@@ -133,21 +133,19 @@ public class ScreenMain : MonoBehaviour
     public void InitTimer()
     {
         timer_for_duration = 0;
-        incorrectsWordsNum = 0;
-        correctsWordsNum = 0;
+        correctsWords.Clear();
+        incorrectsWords.Clear();
     }
     public void Correct(string word)
     {
-        correctsWordsNum++;
-        Events.OnStatsAddWord(type, word, true);
+        correctsWords.Add(word);
     }
     public void Incorrect(string word)
     {
-        incorrectsWordsNum++;
-        Events.OnStatsAddWord(type, word, false);
+        incorrectsWords.Add(word);
     }
     public void OnSaveToDatabase()
     {
-        Events.OnStatsGameDone(type, (int)(timer_for_duration * 1000), correctsWordsNum, incorrectsWordsNum);
+        Events.OnStatsGameDone(type, (int)(timer_for_duration * 1000), correctsWords, incorrectsWords);
     }
 }

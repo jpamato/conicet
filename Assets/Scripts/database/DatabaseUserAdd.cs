@@ -23,6 +23,7 @@ public class DatabaseUserAdd : MonoBehaviour
     public void Add()
     {
         DatabaseUser user = new DatabaseUser();
+        user.games = new List<DatabaseUserGame>();
         user.name = nameField.text;
         user.age = int.Parse(ageField.text);
         user.text = textField.text;

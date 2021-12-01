@@ -4,15 +4,40 @@ using System.Collections.Generic;
 [Serializable]
 public class DatabaseUserGame
 {
-    public int saved;
-    public string userID;
     public string gameID;
+    public string game;
     public int duration;
     public int correct;
     public int incorrect;
+    public string lang;
+    public string cuento;
+    public int day;
 
-    public void Saved()
+    public List<DatabaseUserWords> words;
+
+    public void AddWord(DatabaseUserWords wordData)
     {
-        saved = 1;
+        if (words == null)
+            words = new List<DatabaseUserWords>();
+        words.Add(wordData);
+    }
+    System.Action OnAllDone;
+    public void SaveWords(System.Action OnAllDone)
+    {
+        this.OnAllDone = OnAllDone;
+        if (words.Count > 0)
+        {
+            DatabaseUserWords word = words[words.Count - 1];
+            DatabaseUsersUI.Instance.databaseManager.SaveWords(gameID, word, game, OnSaved);
+        }
+        else
+            OnAllDone();
+    }
+    void OnSaved()
+    {
+        DatabaseUserWords word = words[words.Count - 1];
+        DatabaseUsersUI.Instance.databaseData.ResetWordData(word, words.Count);
+        words.Remove(word);
+        SaveWords(OnAllDone);
     }
 }
