@@ -23,7 +23,7 @@ public class DatabaseUserButton : MonoBehaviour
     }
     void OnUpdateDatabaseUserData(DatabaseUser _data)
     {
-        if(data.id == _data.id)
+        if(data != null && _data != null && data.id == _data.id)
             Init(data);
     }
     public void Init(DatabaseUser data)

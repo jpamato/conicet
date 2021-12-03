@@ -86,14 +86,14 @@ public class Memotest : ScreenMain
     }
     void OnTipDone()
     {
-        InitTimer();
+        DatabaseInitTimer();
         StartCoroutine(SetCardsOff(1.25f));
     }
     void SetNew()
     {
         if (corrects >= cards.Count)
         {
-            OnSaveToDatabase();
+            DatabaseOnSaveToDatabase();
             state = states.INIT;
             OnComplete();
             Events.SetReadyButton(OnNext);
@@ -136,7 +136,7 @@ public class Memotest : ScreenMain
             corrects += 2;
             state = states.IDLE;
             SetNew();
-            Correct(card.content.name);
+            DatabaseCorrect(card.content.name);
             lastSelected = null;
         }
         else
@@ -146,7 +146,7 @@ public class Memotest : ScreenMain
             Events.PlaySound("ui", "ui/feedback_bad", false);
             card.SetWrong();
             lastSelected.SetWrong();
-            Incorrect(card.content.name);
+            DatabaseIncorrect(card.content.name);
             lastSelected = null;
             StartCoroutine(SetCardsOff(0.8f));
         }            

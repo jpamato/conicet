@@ -60,14 +60,18 @@ public class Simon : ScreenMain
         if (!canSelect) return;
 
         if (cardActive >= cardsArray.Count) return;
-
+        int cID = cardsArray[cardActive];
+        string text_id = content[cID];
         if (button.id == cardsArray[cardActive])
         {
+          
+            DatabaseCorrect(text_id);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             SetResults(true);
         }           
         else
         {
+            DatabaseIncorrect(text_id);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             SetResults(false);
         }
@@ -80,8 +84,11 @@ public class Simon : ScreenMain
         {
             cardActive++;
             ok++;
-            if (ok > 5)
+            if (ok == 6)
+            {
                 Events.SetReadyButton(OnReadyClicked);
+                DatabaseOnSaveToDatabase();
+            }
         }
         else
         {
@@ -107,6 +114,7 @@ public class Simon : ScreenMain
     }
     void OnTipDone()
     {        
+        DatabaseInitTimer();
         NewCard();
     }
     void NewCard()

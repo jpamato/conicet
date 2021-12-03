@@ -131,11 +131,13 @@ public class FallingObjects : ScreenMain
         button.InactivateFor(3.5f);
         if (IsOk(button.id))
         {
+            DatabaseCorrect(button.text);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);            
             SetResults(true);
         }
         else
         {
+            DatabaseIncorrect(button.text);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             SetResults(false);
         }
@@ -154,6 +156,7 @@ public class FallingObjects : ScreenMain
         numField.text = ok.ToString();
         if (ok == 5)
         {
+            DatabaseOnSaveToDatabase();
             Events.SetReadyButton(OnReadyClicked);
             Invoke("ResetAll", 0.1f);
         }
@@ -171,6 +174,7 @@ public class FallingObjects : ScreenMain
     }
     void OnTipDone()
     {
+        DatabaseInitTimer();
         ok = 0;
         SetCard();
     }
@@ -198,8 +202,9 @@ public class FallingObjects : ScreenMain
         else
             field.text = content[0];
     }
-    private void Update()
+    public override void Update()
     {
+        base.Update();
         foreach (FallingCard fc in cards)
             UpdatePos(fc);
     }

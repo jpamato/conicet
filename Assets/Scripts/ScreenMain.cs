@@ -46,7 +46,7 @@ public class ScreenMain : MonoBehaviour
     }
     public virtual void Show(bool fromRight)
     {
-        InitTimer();
+        DatabaseInitTimer();
         StopAllCoroutines();
         gameObject.SetActive(true);
         StartCoroutine(AnimateIn(fromRight));
@@ -126,25 +126,25 @@ public class ScreenMain : MonoBehaviour
     public List<string> correctsWords;
     public List<string> incorrectsWords;
 
-    void Update()
+    public virtual void Update()
     {
         timer_for_duration += Time.deltaTime;
     }
-    public void InitTimer()
+    public void DatabaseInitTimer()
     {
         timer_for_duration = 0;
         correctsWords.Clear();
         incorrectsWords.Clear();
     }
-    public void Correct(string word)
+    public void DatabaseCorrect(string word)
     {
         correctsWords.Add(word);
     }
-    public void Incorrect(string word)
+    public void DatabaseIncorrect(string word)
     {
         incorrectsWords.Add(word);
     }
-    public void OnSaveToDatabase()
+    public void DatabaseOnSaveToDatabase()
     {
         Events.OnStatsGameDone(type, (int)(timer_for_duration * 1000), correctsWords, incorrectsWords);
     }

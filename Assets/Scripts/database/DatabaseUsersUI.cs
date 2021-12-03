@@ -70,16 +70,18 @@ public class DatabaseUsersUI : MonoBehaviour
         int id = 0;
         foreach (DatabaseUser user in databaseData.users)
         {
-            if(!user.IsSavedToDatabase())
-                databaseManager.SaveUser(user, user.SavedToDatabase);
             id++;
+            user.arrayID = id;
+            if (!user.IsSavedToDatabase())
+                databaseManager.SaveUser(user, user.SavedToDatabase);
+           
             user.SaveGames(OnAllGamesSaved);
         }
     }
     void OnAllGamesSaved()
     {
         print("OnAllGamesSaved");
-        //RefreshList();
+        RefreshList();
     }
     DatabaseUser UserActive()
     {
@@ -99,18 +101,12 @@ public class DatabaseUsersUI : MonoBehaviour
         dbUserGame.correct = correctList.Count;
         dbUserGame.incorrect = incorrectList.Count;
         dbUserGame.duration = duration;
-
-        dbUserGame.lang = Data.Instance.lang.ToString() + ":";
-        dbUserGame.cuento = Data.Instance.storiesData.activeBookContent.name + ":";
+        dbUserGame.lang = Data.Instance.lang.ToString();
+        dbUserGame.cuento = Data.Instance.storiesData.activeBookContent.name;
         dbUserGame.day = Data.Instance.daysData.activeContent.day;
 
+        userActive.AddGame(dbUserGame);
 
-        switch (type)
-        {
-            case GameData.types.memotest:
-                userActive.AddGame(dbUserGame);
-                break;
-        }
         databaseData.SetGamesData(userActive, userActive.games.Count, dbUserGame);
 
         int id = 0;

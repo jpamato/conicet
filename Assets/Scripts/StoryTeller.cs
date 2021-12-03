@@ -75,6 +75,7 @@ public class StoryTeller : ScreenMain
     {
         base.OnComplete();
         Events.SetReadyButton(OnNext);
+        DatabaseOnSaveToDatabase();
     }
     void OnNext()
     {

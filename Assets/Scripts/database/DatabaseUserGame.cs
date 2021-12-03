@@ -25,7 +25,7 @@ public class DatabaseUserGame
     public void SaveWords(System.Action OnAllDone)
     {
         this.OnAllDone = OnAllDone;
-        if (words.Count > 0)
+        if(words != null && words.Count > 0)
         {
             DatabaseUserWords word = words[words.Count - 1];
             DatabaseUsersUI.Instance.databaseManager.SaveWords(gameID, word, game, OnSaved);

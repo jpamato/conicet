@@ -21,6 +21,7 @@ public class DatabaseData : MonoBehaviour
             DatabaseUser user = new DatabaseUser();
             users.Add(user);
             user.games = new List<DatabaseUserGame>();
+            print("________________" + userDataParsed);
             string[] arr = userDataParsed.Split(":"[0]);
             if (arr.Length > 0)
             {
@@ -49,6 +50,7 @@ public class DatabaseData : MonoBehaviour
             DatabaseUserGame gameData = new DatabaseUserGame();
             gameData.words = new List<DatabaseUserWords>();
             user.games.Add(gameData);
+            print("___________" + dataParsed);
             string[] arr = dataParsed.Split(":"[0]);
             if (arr.Length > 0)
             {
@@ -59,6 +61,7 @@ public class DatabaseData : MonoBehaviour
                 gameData.lang = arr[4];
                 gameData.cuento = arr[5];
                 gameData.day = int.Parse(arr[6]);
+                gameData.game = arr[7];
             }
             LoadWordsFor(gameData);
         }
@@ -107,9 +110,13 @@ public class DatabaseData : MonoBehaviour
         value += dbUserGame.duration + ":";
         value += dbUserGame.lang + ":";
         value += dbUserGame.cuento + ":";
-        value += dbUserGame.day;
+        value += dbUserGame.day + ":";
+        value += dbUserGame.game;
 
         string key = "g_" + user.id + "_" + arrNum;
+
+        print("_" + dbUserGame.lang);
+        print("____" + key);
         PlayerPrefs.SetString(key, value);
     }
     string GetWordsData(DatabaseUserGame game, int arrNum)

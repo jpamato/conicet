@@ -42,6 +42,7 @@ public class DatabaseUser
         newUser += ":" + gender;
         string key = "user" + arrayID;
         PlayerPrefs.SetString(key, newUser);
+        Debug.Log("GRABA " + key + " value: " + newUser);
     }
     public bool IsSavedToDatabase()
     {
@@ -61,7 +62,10 @@ public class DatabaseUser
             return 0;
         int total = 0;
         foreach (DatabaseUserGame game in games)
-            total += game.words.Count;
+        {
+            if(game.words != null && game.words.Count>0)
+                total += game.words.Count;
+        }
         return total;
     }
     public void AddGame(DatabaseUserGame gameData)
