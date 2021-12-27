@@ -15,6 +15,13 @@ public class AssetsData : DataLoader
         public Sprite sprite;
         public AudioClip audioClip;
     }
+    public enum loroWordsType
+    {
+        DEFAULT,
+        MEDIO,
+        INITIAL,
+        FINAL
+    }
     public override void Reset()
     {
         content.Clear();
@@ -35,6 +42,17 @@ public class AssetsData : DataLoader
             _name = arr[0];
         return _name;
     }
+    public string GetSoundForLoro(string _name, loroWordsType loroType)
+    {
+        if (loroType == loroWordsType.MEDIO)
+            return _name + "_medio";
+        else if (loroType == loroWordsType.INITIAL)
+            return _name + "_inicio";
+        else if (loroType == loroWordsType.FINAL)
+            return _name + "_final";
+        else
+            return _name;
+    }
     public Content GetContent(string _name)
     {
         _name = GetAssetRealName(_name);
@@ -46,6 +64,15 @@ public class AssetsData : DataLoader
 
         Events.Log("No hay asset content para: " + _name);
         return null;
+    }
+    public loroWordsType SetTypeByText(string text)
+    {
+        switch (text)
+        {
+            case "final": return AssetsData.loroWordsType.FINAL;
+            case "inicio": return AssetsData.loroWordsType.INITIAL;
+            default: return AssetsData.loroWordsType.DEFAULT;
+        }
     }
     void OnDataLoaded(List<Content> content, List<SpreadsheetLoader.Line> d)
     {

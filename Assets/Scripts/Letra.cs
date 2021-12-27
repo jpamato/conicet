@@ -16,6 +16,7 @@ public class Letra : ScreenMain
     public Image image;
     bool clicked;
     string realWord;
+    public AssetsData.loroWordsType loroWordsType;
 
     public override void Hide(bool toLeft)
     {
@@ -68,7 +69,16 @@ public class Letra : ScreenMain
                 }
             } else if(id==2)
             {
-                realWord = text;
+                ////////////////// por si la palabra del loro es default, inicio o final:
+                string[] arr = text.Split("@"[0]);
+                if (arr.Length > 1)
+                {
+                    realWord = arr[0];
+                    loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+                } else
+                    realWord = text;
+                //////////////////////////////////////////
+
                 image.gameObject.SetActive(true);
                 Sprite sprite = Data.Instance.assetsData.GetContent(realWord).sprite;
                 if (sprite == null)
@@ -82,12 +92,13 @@ public class Letra : ScreenMain
         AddButtons();
         SayWord();
     }
+   
     public void SayWord()
     {
         string text_id = realWord;
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);
-        
+        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);        
         Invoke("CanSelect", 0.5f);
     }
     void SetOriginalText()

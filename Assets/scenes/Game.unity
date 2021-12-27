@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 27141159}
   - component: {fileID: 27141161}
   - component: {fileID: 27141160}
+  - component: {fileID: 27141162}
   m_Layer: 5
   m_Name: field
   m_TagString: Untagged
@@ -436,10 +437,10 @@ RectTransform:
   m_Father: {fileID: 261870551}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -87.9, y: 135.3}
-  m_SizeDelta: {x: 338.71094, y: 231.38165}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 271.92343, y: -109.11063}
+  m_SizeDelta: {x: 568.4918, y: 160.0836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27141160
 MonoBehaviour:
@@ -454,7 +455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.45882356, g: 0.19607845, b: 0.19607845, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -467,14 +468,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 14
-    m_MaxSize: 33
-    m_Alignment: 3
+    m_MaxSize: 29
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: lkajsn dljkasn djkan skjd njaksd kjans ldka lsdk nakjsdn jkas dkjsad
+  m_Text: 
 --- !u!222 &27141161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -483,6 +484,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27141158}
   m_CullTransparentMesh: 0
+--- !u!114 &27141162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27141158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &37984023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,7 +2297,7 @@ RectTransform:
   m_GameObject: {fileID: 102341504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 247587777}
   m_RootOrder: 0
@@ -5869,10 +5885,10 @@ RectTransform:
   m_Father: {fileID: 716509447}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 333, y: -37}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -296, y: -37}
+  m_SizeDelta: {x: -1158, y: -500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &264377289
 GameObject:
@@ -18864,7 +18880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &917492270
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19780,7 +19796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &993723089
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19827,6 +19843,7 @@ MonoBehaviour:
   allButtons: []
   container: {fileID: 1388474548}
   image: {fileID: 606980846}
+  loroWordsType: 0
 --- !u!1 &994289318
 GameObject:
   m_ObjectHideFlags: 0
@@ -23988,7 +24005,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -195, y: -10}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -833.2046, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1182874050
 MonoBehaviour:
@@ -38047,7 +38064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1787295375
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40253,7 +40270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1923054586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47224,7 +47241,7 @@ PrefabInstance:
     - target: {fileID: 5097738306531544500, guid: c416033b440841742b3e6cfb2352a9ee,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 182.92004
+      value: 144.64
       objectReference: {fileID: 0}
     - target: {fileID: 5097738306531544500, guid: c416033b440841742b3e6cfb2352a9ee,
         type: 3}

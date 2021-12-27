@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1415; Version 2009; 64bit' Language: 'es' Physical Memory: 8058 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/_projects/conicet/git
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53484
+Successfully changed project path to: F:/_projects/conicet/git
+F:/_projects/conicet/git
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 299.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/_projects/conicet/git/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003914 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 157.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.758 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 71.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 4.803800 ms (FindLiveObjects: 1.799700 ms CreateObjectMapping: 0.124400 ms MarkObjects: 2.803200 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/paintings/pollito_paint.png
+  artifactKey: Guid(d3e0898dbf8b62e4cad57e7b7c42645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/pollito_paint.png using Guid(d3e0898dbf8b62e4cad57e7b7c42645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef2b53a92729c37bd631e85c5343476') in 0.198079 seconds 
+  Import took 0.204586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001299 seconds.
+  path: Assets/Resources/rimas/rima_ciempies.png
+  artifactKey: Guid(eafb0eb3736ba6e468af17b23f73ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_ciempies.png using Guid(eafb0eb3736ba6e468af17b23f73ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cd0e1618f673242857c449ee6e13fb') in 0.043873 seconds 
+  Import took 0.051534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Resources/assets/quirquincho_mediano.png
+  artifactKey: Guid(0084005cbc189fd4f9b3b3f82b74d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/quirquincho_mediano.png using Guid(0084005cbc189fd4f9b3b3f82b74d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9a0e21a41fe8512b897ad68ea7349') in 0.037931 seconds 
+  Import took 0.045252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/assets/puma.png
+  artifactKey: Guid(32cee6ccc81bbe641979b4ccd6521a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/puma.png using Guid(32cee6ccc81bbe641979b4ccd6521a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1523692ef2d5ea917d94f91223f54d83') in 0.060253 seconds 
+  Import took 0.067588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/assets/rana_grande.png
+  artifactKey: Guid(831385226cd83254e82a3323713a1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_grande.png using Guid(831385226cd83254e82a3323713a1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89621033a0510f54f4938adbed6db06d') in 0.041236 seconds 
+  Import took 0.045295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Resources/rimas/rima_caperucita_roja_l2_3.png
+  artifactKey: Guid(ec634682a45dc3a4d953db1ff5c101e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_caperucita_roja_l2_3.png using Guid(ec634682a45dc3a4d953db1ff5c101e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dca8dff4d82739fc90e70ddac927f7') in 0.034842 seconds 
+  Import took 0.039208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Resources/specialLoops/categoriaAnimales4/quirquincho.png
+  artifactKey: Guid(c05939460d990d542810669586018297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/categoriaAnimales4/quirquincho.png using Guid(c05939460d990d542810669586018297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb2373c00cfbeb0d472684a399b4bef') in 0.060648 seconds 
+  Import took 0.065814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/images/repeat.png
+  artifactKey: Guid(9c0700f22c747f949be6655e5062addc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/repeat.png using Guid(9c0700f22c747f949be6655e5062addc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c658c9191478a7a396b1be146e0ab7ac') in 0.034635 seconds 
+  Import took 0.041809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/rimas/rima_agua.png
+  artifactKey: Guid(ec4d2c8d823cfda43807c6c39b0d3d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_agua.png using Guid(ec4d2c8d823cfda43807c6c39b0d3d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239c78484e01df36a127ed8814b5ac28') in 0.056417 seconds 
+  Import took 0.061290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/rimas/rima_bichos_bolita_2.png
+  artifactKey: Guid(e8076dec07d46ff41a9800cb392f7412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_bichos_bolita_2.png using Guid(e8076dec07d46ff41a9800cb392f7412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37907534e3110f1c4b4f0f4f975c8cd1') in 0.044038 seconds 
+  Import took 0.048820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Resources/rimas/rima_caperucita_roja_l2_1.png
+  artifactKey: Guid(52d3e7dd2c8b8cd4abc862667f3d3718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_caperucita_roja_l2_1.png using Guid(52d3e7dd2c8b8cd4abc862667f3d3718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f702965912e35a93baf88662f752d8e') in 0.059338 seconds 
+  Import took 0.064063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/assets/puma_chico.png
+  artifactKey: Guid(7856fa9a5525c534783259131eda2636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/puma_chico.png using Guid(7856fa9a5525c534783259131eda2636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316711be4a186ebd8159bc80eed6ecb8') in 0.037983 seconds 
+  Import took 0.044922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/assets/remera_negro.png
+  artifactKey: Guid(ee5777c526708d04bbe6244f449a0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/remera_negro.png using Guid(ee5777c526708d04bbe6244f449a0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6540be8fb5dcccbadbafb93ecd9ac39') in 0.031720 seconds 
+  Import took 0.035839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/assets/pollito_rojo.png
+  artifactKey: Guid(ab77ef0245381d046b4c037aa785f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/pollito_rojo.png using Guid(ab77ef0245381d046b4c037aa785f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61792eb2f5d5d48b66ea5fa369a881b') in 0.045340 seconds 
+  Import took 0.056155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Resources/specialLoops/categoriaAnimales3/puma.png
+  artifactKey: Guid(acf42fc1f0ff9b546839ae8b2e062ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/categoriaAnimales3/puma.png using Guid(acf42fc1f0ff9b546839ae8b2e062ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00588b691c4a79df68e8a027050a100a') in 0.030178 seconds 
+  Import took 0.035206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/assets/posiciones_bichos_4.jpg
+  artifactKey: Guid(14e8117c434f61840ad0b4e3f49fcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/posiciones_bichos_4.jpg using Guid(14e8117c434f61840ad0b4e3f49fcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f962ee0fe63bf7017ab95fd0a053909') in 0.043758 seconds 
+  Import took 0.048102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/paintings/rima_agua_paint.png
+  artifactKey: Guid(8ee32f387d241904aa029d565d60363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/rima_agua_paint.png using Guid(8ee32f387d241904aa029d565d60363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf6b67fba5116fb4f55961988d73347') in 0.093826 seconds 
+  Import took 0.103243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Resources/assets/rana_mediana.png
+  artifactKey: Guid(6fdf1604117bc6b4b9a9b4288fee6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_mediana.png using Guid(6fdf1604117bc6b4b9a9b4288fee6150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ce58c47da5f791111f474dba2c6f1e') in 0.032948 seconds 
+  Import took 0.038004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Resources/assets/rana2.jpg
+  artifactKey: Guid(2e58e6ea91c2ec645abe21e31e75842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana2.jpg using Guid(2e58e6ea91c2ec645abe21e31e75842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55adb9214901dda8c691baede964532') in 0.057829 seconds 
+  Import took 0.063889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/assets/rana_2.png
+  artifactKey: Guid(26a91eba3fd8a4645890f9a335c89bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_2.png using Guid(26a91eba3fd8a4645890f9a335c89bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7794d4cfc7466aa5b559519ff7aca5') in 0.040989 seconds 
+  Import took 0.046133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/assets/raiz.png
+  artifactKey: Guid(2fbed7f7ab3d2d34295fa10790465dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/raiz.png using Guid(2fbed7f7ab3d2d34295fa10790465dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca87a675886086fd84423d89177d78') in 0.058394 seconds 
+  Import took 0.066143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Resources/paintings/rima_ciempies_paint.png
+  artifactKey: Guid(6a328d0fe8f81bf49ba728aa2452b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/rima_ciempies_paint.png using Guid(6a328d0fe8f81bf49ba728aa2452b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6a801845d007031bc7e5d8cc4e6d9') in 0.067135 seconds 
+  Import took 0.073752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/assets/radio.png
+  artifactKey: Guid(d47c42015bf2b974a85ffd7871add9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/radio.png using Guid(d47c42015bf2b974a85ffd7871add9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a195777f9c84190a4d934344c46e7295') in 0.047865 seconds 
+  Import took 0.055625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Resources/assets/rayo.png
+  artifactKey: Guid(97f58604a01afd043ad69b20287c3408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rayo.png using Guid(97f58604a01afd043ad69b20287c3408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5d58488b423b6180c865ed2c546435') in 0.033005 seconds 
+  Import took 0.037960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/assets/raton.png
+  artifactKey: Guid(214801dc71224b44dae3025c67e86e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/raton.png using Guid(214801dc71224b44dae3025c67e86e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0cf386e4e4f98508a572fb57fb4cfa') in 0.037706 seconds 
+  Import took 0.042056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/assets/posiciones_bichos_3.jpg
+  artifactKey: Guid(02eeab250e46fea4d8a5964055628ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/posiciones_bichos_3.jpg using Guid(02eeab250e46fea4d8a5964055628ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a4c8a94a711a659c9604716667cd0') in 0.055816 seconds 
+  Import took 0.061682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Resources/assets/ramoncitoAsustado.jpg
+  artifactKey: Guid(442e39982201942489e211886335ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/ramoncitoAsustado.jpg using Guid(442e39982201942489e211886335ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1ace72777a81101d7c9cfa8b8ba098') in 0.043153 seconds 
+  Import took 0.049576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/rimas/rima_caracol.png
+  artifactKey: Guid(72f43ac127c18e141b81bdccc069fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_caracol.png using Guid(72f43ac127c18e141b81bdccc069fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967d29119f850e5477ff6fa8e7a543c7') in 0.054074 seconds 
+  Import took 0.057701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/rimas/rima_caperucita.png
+  artifactKey: Guid(1c336701951ef634582aed6065e01c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_caperucita.png using Guid(1c336701951ef634582aed6065e01c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def477f791b00a9ade3dbefea2072651') in 0.042591 seconds 
+  Import took 0.047653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/assets/remera.png
+  artifactKey: Guid(03e0729873b81944b8c3bed465a505f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/remera.png using Guid(03e0729873b81944b8c3bed465a505f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0043281f8d93903af144705336b4cb') in 0.037019 seconds 
+  Import took 0.040617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/specialLoops/categoriaAnimales3/quirquincho.png
+  artifactKey: Guid(05fd820c46fe8e448ad89668b3b2bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/categoriaAnimales3/quirquincho.png using Guid(05fd820c46fe8e448ad89668b3b2bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0f2978986152b1a84dbf5e2997e48') in 0.046818 seconds 
+  Import took 0.050674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/assets/remera_rojo.png
+  artifactKey: Guid(981318ebda0cb444aa0638cb58241d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/remera_rojo.png using Guid(981318ebda0cb444aa0638cb58241d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6112705b9e056ee97537f4b5e7e2cbf') in 0.034656 seconds 
+  Import took 0.039911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Resources/rimas/rima_animales_dany.png
+  artifactKey: Guid(175a223fc308e914bb363f041fbc17bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_animales_dany.png using Guid(175a223fc308e914bb363f041fbc17bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e662367468b027e6325f4f8b3b9d0f79') in 0.049962 seconds 
+  Import took 0.054714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Resources/paintings/que_susto_paint.png
+  artifactKey: Guid(0d16f4da6412e8e41a6539b743e4595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/que_susto_paint.png using Guid(0d16f4da6412e8e41a6539b743e4595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16901ac69422dc7395d9060e4fd147a') in 0.069524 seconds 
+  Import took 0.074805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/Resources/assets/quirquincho_chico.png
+  artifactKey: Guid(62dcb49b33011b24ba8404db3815e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/quirquincho_chico.png using Guid(62dcb49b33011b24ba8404db3815e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68340e639694cb4756e9fadab2912c5') in 0.029766 seconds 
+  Import took 0.034653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Resources/assets/que_susto_5.png
+  artifactKey: Guid(a21e080031c10fb45b295e666d7613d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/que_susto_5.png using Guid(a21e080031c10fb45b295e666d7613d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aee5cc45b2e0f6044fa7693d75ecbe') in 0.055320 seconds 
+  Import took 0.059600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/specialLoops/rana/rana_2.jpg
+  artifactKey: Guid(ff5b2c6e32c92f54a96799f3b53c0f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/rana/rana_2.jpg using Guid(ff5b2c6e32c92f54a96799f3b53c0f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f6ceb0fc06275c2bfceae0b7cec992') in 0.041611 seconds 
+  Import took 0.049241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/paintings/rima_caracol_paint.png
+  artifactKey: Guid(f036c4d115146a646bde0789ae70af60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/rima_caracol_paint.png using Guid(f036c4d115146a646bde0789ae70af60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49cb1ed767a4db0aa822799311abc42') in 0.078230 seconds 
+  Import took 0.082837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Resources/assets/rana_1.png
+  artifactKey: Guid(3a1fb135558431e4d8737d7867105cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_1.png using Guid(3a1fb135558431e4d8737d7867105cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a526f29982c814bf8ed7314d0fbbf1') in 0.040332 seconds 
+  Import took 0.045738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Resources/rimas/rima_conejo_1.png
+  artifactKey: Guid(9ce7c77f2dbba5d4a95719f150a0ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_conejo_1.png using Guid(9ce7c77f2dbba5d4a95719f150a0ada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114685701ae734bc262e555df8b56200') in 0.051444 seconds 
+  Import took 0.057634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/specialLoops/rana/rana_3.jpg
+  artifactKey: Guid(f9822f71e5c3bd04fbfaa423360a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/rana/rana_3.jpg using Guid(f9822f71e5c3bd04fbfaa423360a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d4c63c2f912ab68e0b73f452ee8860') in 0.059023 seconds 
+  Import took 0.066135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Resources/paintings/raton_paint.png
+  artifactKey: Guid(c4d723b8a46f5fe49aef25fbc7d61cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/paintings/raton_paint.png using Guid(c4d723b8a46f5fe49aef25fbc7d61cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa72e726ac6bb26128052025a5d57aa3') in 0.046630 seconds 
+  Import took 0.053011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/images/retro-sunburst-ray-vintage-style-spiral-effect-abstract-comic-book-background-vector-93035165.jpg
+  artifactKey: Guid(8a1c2b473e5651c4c9cb56b5ff80c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/retro-sunburst-ray-vintage-style-spiral-effect-abstract-comic-book-background-vector-93035165.jpg using Guid(8a1c2b473e5651c4c9cb56b5ff80c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd756b1eb9156812fa5d7a01dc0b4d708') in 0.057593 seconds 
+  Import took 0.064430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Resources/assets/rana_3.png
+  artifactKey: Guid(12858734cab1f734e80a055ea7fc12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_3.png using Guid(12858734cab1f734e80a055ea7fc12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da438cdbf89e055ddff55cc1a015d77f') in 0.038764 seconds 
+  Import took 0.043309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/specialLoops/rana/rana_1.jpg
+  artifactKey: Guid(4950b8f7d3e538e499b087b351232f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/rana/rana_1.jpg using Guid(4950b8f7d3e538e499b087b351232f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4d8c37ba0626714bd3057db9cf55fe') in 0.040837 seconds 
+  Import took 0.048449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Resources/assets/ramoncitoPreocupado.jpg
+  artifactKey: Guid(93a3f1711c765794f9e8688a7c0f56c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/ramoncitoPreocupado.jpg using Guid(93a3f1711c765794f9e8688a7c0f56c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf328aec07d1ba1925865a268795f0ec') in 0.059802 seconds 
+  Import took 0.066049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/assets/quirquincho_grande.png
+  artifactKey: Guid(e1331765e4d686b46943e3df3ba092eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/quirquincho_grande.png using Guid(e1331765e4d686b46943e3df3ba092eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad2f3b32e3778dcdaa575ddf20f9364') in 0.034679 seconds 
+  Import took 0.039533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/images/popup_button.png
+  artifactKey: Guid(ea426eff195dc9343b3b4cd5cd3578e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/popup_button.png using Guid(ea426eff195dc9343b3b4cd5cd3578e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6b2c66376fe8af0d2db2b06ffd5de4') in 0.057369 seconds 
+  Import took 0.061180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Resources/assets/queso.png
+  artifactKey: Guid(fe89d6ddc2647ff4d8a235360b8efe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/queso.png using Guid(fe89d6ddc2647ff4d8a235360b8efe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a0be0b39c68d4a9840464fe240a7c7') in 0.034964 seconds 
+  Import took 0.039336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/assets/raton2.png
+  artifactKey: Guid(547d0f8625e837f45a6f8b7a5e98bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/raton2.png using Guid(547d0f8625e837f45a6f8b7a5e98bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a019d665100025259f1609801c233f4b') in 0.052162 seconds 
+  Import took 0.061006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/assets/pollito_marron.png
+  artifactKey: Guid(fb98dafcd9aa5564fbf4494eed071d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/pollito_marron.png using Guid(fb98dafcd9aa5564fbf4494eed071d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a1232082b654ede3b95439bfa7d94e') in 0.044858 seconds 
+  Import took 0.049944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Resources/assets/puma_mediano.png
+  artifactKey: Guid(30ba24806fd92e04690cf8fa04b42ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/puma_mediano.png using Guid(30ba24806fd92e04690cf8fa04b42ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68c4e271e6427e31991853b7a4335c6') in 0.039899 seconds 
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/assets/rana.png
+  artifactKey: Guid(13d81f06f909c8a4db3cde1a56516169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana.png using Guid(13d81f06f909c8a4db3cde1a56516169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f52eb09bcc661adfba6e6184016f9a') in 0.029243 seconds 
+  Import took 0.034049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/assets/que_susto_2.png
+  artifactKey: Guid(87b306a2dc796ee469b65e68eb6c7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/que_susto_2.png using Guid(87b306a2dc796ee469b65e68eb6c7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bde4b14543cdd3f108e29985cc5a72') in 0.070649 seconds 
+  Import took 0.074446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Resources/rimas/rima_baile_oso_1.png
+  artifactKey: Guid(53c09abc6c0cbbe4089e21c15c305795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_baile_oso_1.png using Guid(53c09abc6c0cbbe4089e21c15c305795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c362cf6f3b360b9a3fafbf4cb06b762c') in 0.045050 seconds 
+  Import took 0.048816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Resources/rimas/rima_bichos_bolita_3.png
+  artifactKey: Guid(9cfc1b0f903033c409439f34cabb1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_bichos_bolita_3.png using Guid(9cfc1b0f903033c409439f34cabb1f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2495072ff03ce675a87c3ad3501b22a4') in 0.057620 seconds 
+  Import took 0.061220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Resources/rimas/rima_caperucita_roja_l2_2.png
+  artifactKey: Guid(25cb61e7a653f744cb05d241cc55e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_caperucita_roja_l2_2.png using Guid(25cb61e7a653f744cb05d241cc55e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72fecaa78b54cf9556633d015af3ab2') in 0.045314 seconds 
+  Import took 0.052866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/assets/ramoncitoContento.jpg
+  artifactKey: Guid(4b4643a180977ac4a8c67c876d448056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/ramoncitoContento.jpg using Guid(4b4643a180977ac4a8c67c876d448056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8589619f64a4ff214898f994324ef1d') in 0.040968 seconds 
+  Import took 0.044873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/assets/que_susto_3.png
+  artifactKey: Guid(c5f3acecf66ea6840acfacf50c01f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/que_susto_3.png using Guid(c5f3acecf66ea6840acfacf50c01f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5348f96165eb394b77c3efeaf13fc6a8') in 0.062590 seconds 
+  Import took 0.074589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/assets/rama.png
+  artifactKey: Guid(7cb01b2657e66374e850df0599b4346b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rama.png using Guid(7cb01b2657e66374e850df0599b4346b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1d146a83c155829ac4228a83d0490f') in 0.033331 seconds 
+  Import took 0.037467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/assets/quirquincho.png
+  artifactKey: Guid(a9b731a2597f86a41ba6ea88ebad28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/quirquincho.png using Guid(a9b731a2597f86a41ba6ea88ebad28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e4027e4ae50e58e5cc89fd3e0a76a9') in 0.058943 seconds 
+  Import took 0.066283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Resources/specialLoops/animalesGranja/pollito.png
+  artifactKey: Guid(e2c6e86d43ed6e54798690a48138ca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/animalesGranja/pollito.png using Guid(e2c6e86d43ed6e54798690a48138ca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e64231213c9a95aa93ad0ffa774029') in 0.044085 seconds 
+  Import took 0.050970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Resources/assets/puma_grande.png
+  artifactKey: Guid(3989799eccd638a4092144f5be6c1f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/puma_grande.png using Guid(3989799eccd638a4092144f5be6c1f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab860efade7a345ea567f742213fb30a') in 0.056574 seconds 
+  Import took 0.061207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/assets/que_susto_4.png
+  artifactKey: Guid(9bc5911c4a6e3fb4bb269a5dd1785265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/que_susto_4.png using Guid(9bc5911c4a6e3fb4bb269a5dd1785265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e031cdde6667074a009bbc7502ae749') in 0.047984 seconds 
+  Import took 0.051738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/assets/rana_chica.png
+  artifactKey: Guid(af0c2a92c60c3774f870699376bd86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/rana_chica.png using Guid(af0c2a92c60c3774f870699376bd86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdde6f4caa3dcd2c855bb9e8448d1b0') in 0.039712 seconds 
+  Import took 0.043565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Resources/rimas/rima_baile_oso_2.png
+  artifactKey: Guid(7cfe219875df46a498a813ed18b9ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_baile_oso_2.png using Guid(7cfe219875df46a498a813ed18b9ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae696066ee04549ab25c1976dc7cc28') in 0.056640 seconds 
+  Import took 0.060181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/assets/posiciones_bichos_2.jpg
+  artifactKey: Guid(d2e9f409ab1ce6f4ea1450f7bc356705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/posiciones_bichos_2.jpg using Guid(d2e9f409ab1ce6f4ea1450f7bc356705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0a508ed6f6e61279a8fd596820563d') in 0.036141 seconds 
+  Import took 0.039889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Resources/assets/primavera.png
+  artifactKey: Guid(014f19086a3f78849bce997b4869c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/primavera.png using Guid(014f19086a3f78849bce997b4869c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8942f33812177e2caa2638ad8db3ba2d') in 0.048854 seconds 
+  Import took 0.053862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Resources/assets/posiciones_bichos_5.jpg
+  artifactKey: Guid(a28b1569554d22d4fb33e35210e91489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/posiciones_bichos_5.jpg using Guid(a28b1569554d22d4fb33e35210e91489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9d49712dacf8054d7c59f9993c36fe') in 0.033875 seconds 
+  Import took 0.041532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/specialLoops/danyFamilia/Pág. 12 y 13.JPG
+  artifactKey: Guid(f5e6596e25dd8874695f8996b6c324e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/specialLoops/danyFamilia/Pág. 12 y 13.JPG using Guid(f5e6596e25dd8874695f8996b6c324e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eee1af1fd42199e89a1edeadabeb608') in 0.062508 seconds 
+  Import took 0.067263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/rimas/rima_bichos_bolita.png
+  artifactKey: Guid(da4bfda9a6e525d43aaada2ac9c23d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/rimas/rima_bichos_bolita.png using Guid(da4bfda9a6e525d43aaada2ac9c23d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e916ff6acd55dd29606c4a47f7c95fb4') in 0.066239 seconds 
+  Import took 0.070847 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.791 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.453000 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.136400 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2022.518825 seconds.
+  path: Assets/Resources/assets/audio/ajo.wav
+  artifactKey: Guid(f84eae8e060af5f49a5708e28249b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/audio/ajo.wav using Guid(f84eae8e060af5f49a5708e28249b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ba837b8d7daafcc414fd48d5a9ba99') in 0.128139 seconds 
+  Import took 0.135137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.920641 seconds.
+  path: Assets/Resources/assets/audio/gatoAbajoSilla.wav
+  artifactKey: Guid(a9fdf0890a201794b8afce37ed54f848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/assets/audio/gatoAbajoSilla.wav using Guid(a9fdf0890a201794b8afce37ed54f848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e75b3fbac6c7f60ce1cd7dee28b90') in 0.045831 seconds 
+  Import took 0.050523 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
