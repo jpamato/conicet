@@ -104,6 +104,8 @@ public class ElegirFrase : ScreenMain
         string t = Data.Instance.assetsData.GetAssetRealName(content[button.id]);
         if (t.Contains("frase_"))
             t = t.Remove(0, 6);
+        string[] arr = t.Split("_"[0]);
+        if (arr.Length > 1) t = arr[0];
 
         Events.PlaySoundTillReady("voices", "assets/audio"  + Utils.GetLangFolder() + "/" + t, NextWord);
        
