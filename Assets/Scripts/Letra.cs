@@ -98,7 +98,7 @@ public class Letra : ScreenMain
         string text_id = realWord;
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, null);        
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);        
         Invoke("CanSelect", 0.5f);
     }
     void SetOriginalText()

@@ -15,6 +15,7 @@ public class LoroWithTime : ScreenMain
     public int cardID;
     bool canSelect;
     int ok;
+    public AssetsData.loroWordsType loroWordsType;
 
     private void OnEnable()
     {
@@ -105,7 +106,17 @@ public class LoroWithTime : ScreenMain
     {
         string text_id = content.loro_time[cardID];
 
+        ////////////////// por si la palabra del loro es default, inicio o final:
+        string[] arr = text_id.Split("@"[0]);
+        if (arr.Length > 1)
+        {
+            text_id = arr[0];
+            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+        }
+        //////////////////////////////////////////
+
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);
 
         text_id = Data.Instance.assetsData.GetRealText(text_id);

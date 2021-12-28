@@ -12,6 +12,7 @@ public class LoroRepeat : ScreenMain
     public int done;
     int id;
     int lastcardID;
+    public AssetsData.loroWordsType loroWordsType;
 
     public override void OnReady()
     {
@@ -37,8 +38,18 @@ public class LoroRepeat : ScreenMain
         sb.transform.localScale = Vector2.one;
         Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
         sb.Init(id, sprite, "", null);
-        
+
+        ////////////////// por si la palabra del loro es default, inicio o final:
+        string[] arr = textID.Split("@"[0]);
+        if (arr.Length > 1)
+        {
+            textID = arr[0];
+            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+        }
+        //////////////////////////////////////////
+
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(textID);
+        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, WordSaid);
 
         done++;
