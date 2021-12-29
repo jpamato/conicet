@@ -72,6 +72,10 @@ public class Completar : ScreenMain
         string content = gameDataContent.GetContentFor(type, gameID)[0];
         string[] rimaImageSplited = content.Split("@"[0]);
         fileName = content;
+
+
+        print("image content: " + content );
+
         if (rimaImageSplited.Length > 1)
         {
             fileName = rimaImageSplited[0];
@@ -93,9 +97,9 @@ public class Completar : ScreenMain
         if (imageName != "")
         {
             Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
-            if(sprite == null)
-                image.enabled = false;
-            else
+            //if(sprite == null)
+            //    image.enabled = false;
+            //else
                 image.sprite = sprite;
         }
         else

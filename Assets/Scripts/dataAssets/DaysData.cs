@@ -147,7 +147,7 @@ public class DaysData : DataLoader
                 string _storyId = c.story_id;
                 if (arr.Length > 1)
                     _storyId = arr[0];
-                print("_storyId: " + _storyId + "storyID: " + storyID + " c.day: " + c.day + " dayID: " + dayID);
+             //   print("_storyId: " + _storyId + "storyID: " + storyID + " c.day: " + c.day + " dayID: " + dayID);
 
                 if (storyID == _storyId)
                 {
