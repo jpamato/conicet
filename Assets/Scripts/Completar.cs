@@ -22,7 +22,7 @@ public class Completar : ScreenMain
     public string characterName;
     public string prefix = "";
     public GameObject arrow;
-
+    bool isSong;
     public GameObject doubleCharacters;
     public Image image;
 
@@ -85,6 +85,9 @@ public class Completar : ScreenMain
         typeID = int.Parse(arr[0]);
         folderName = arr[1];
         characterName = arr[2];
+
+        if(arr.Length>2)
+            isSong = true;
 
         SetCharacter();
 
@@ -162,11 +165,15 @@ public class Completar : ScreenMain
                 character.Appear();
                 character.GetComponentInChildren<AudioSpectrumView>().enabled = true;
             }
-            if (characterName == "cancion")
+            if (characterName == "cancion" || isSong)
             {
                 musicAsset.SetActive(true);
                 character.GetComponentInChildren<AudioSpectrumView>().enabled = false;
                 character.Dance();
+
+                if(Data.Instance.lang == Data.langs.L1)
+                    image.enabled = false;
+
             } else
             {
                 musicAsset.SetActive(false);
