@@ -86,7 +86,7 @@ public class Completar : ScreenMain
         folderName = arr[1];
         characterName = arr[2];
 
-        if(arr.Length>2)
+        if(fileName.Contains("_cancion"))
             isSong = true;
 
         SetCharacter();
@@ -232,7 +232,6 @@ public class Completar : ScreenMain
     {
         base.OnComplete();
 
-
         Events.SetReadyButton(OnReadyClicked);
     }
     void OnTextDone()
@@ -242,6 +241,7 @@ public class Completar : ScreenMain
     }
     void OnReadyClicked()
     {
+        CancelInvoke();
         foreach (Character ch in characters)
             ch.gameObject.SetActive(false);
         Events.OnGoto(true);

@@ -39,7 +39,7 @@ public class DragueableItem : MonoBehaviour
         destinations.Clear();
         isInactive = false;
         this.OnRelease = OnRelease;
-        randomRotation = GetComponent<RandomRotation>();
+        //randomRotation = GetComponent<RandomRotation>();
         this.id = id;
         this.image.sprite = sprite;
         originalPos = transform.position;
@@ -66,8 +66,8 @@ public class DragueableItem : MonoBehaviour
         }
         offset = Input.mousePosition - transform.position;
         state = states.DRAGGING;
-        if(randomRotation)
-            randomRotation.enabled = false;
+     //   if(randomRotation)
+       //     randomRotation.enabled = false;
         transform.localEulerAngles = Vector3.zero;
     }
     public void Say(string audioName)
