@@ -29,7 +29,8 @@
         contar,
         ordenar,
         loro_multiple,
-        arrastrar_grupos
+        arrastrar_grupos,
+        objeto_diferente
     }
     public bool played;
     public string tip_id;
