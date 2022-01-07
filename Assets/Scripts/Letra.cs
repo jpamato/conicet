@@ -69,15 +69,7 @@ public class Letra : ScreenMain
                 }
             } else if(id==2)
             {
-                ////////////////// por si la palabra del loro es default, inicio o final:
-                string[] arr = text.Split("@"[0]);
-                if (arr.Length > 1)
-                {
-                    realWord = arr[0];
-                    loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
-                } else
-                    realWord = text;
-                //////////////////////////////////////////
+                realWord = GetParsedString(text);
 
                 image.gameObject.SetActive(true);
                 Sprite sprite = Data.Instance.assetsData.GetContent(realWord).sprite;
@@ -164,5 +156,15 @@ public class Letra : ScreenMain
         OnComplete();
         Events.OnGoto(true);
     }
-   
+   ////////////////// por si la palabra del loro es default, inicio o final:
+    string GetParsedString(string text_id)
+    {        
+        string[] arr = text_id.Split("@"[0]);
+        if (arr.Length > 1)
+        {
+            text_id = arr[0];
+            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+        }
+        return text_id;
+    }
 }
