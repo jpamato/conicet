@@ -54,8 +54,10 @@ public class Loro_Multiple : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
         int id = 0;
         bool isOk = true;
-        foreach (string text in arr)
+        foreach (string _text in arr)
         {
+            string text = GetParsedString(_text);
+
             if (id == 0)
             {
                 firstWord = text;
@@ -197,5 +199,16 @@ public class Loro_Multiple : ScreenMain
         if (gameObject.activeSelf)
             Animate("rotateRightLeft");
         canSelect = true;
+    }
+    ////////////////// por si la palabra del loro es default, inicio o final:
+    string GetParsedString(string text_id)
+    {
+        string[] arr = text_id.Split("@"[0]);
+        if (arr.Length > 1)
+        {
+            text_id = arr[0];
+           // loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+        }
+        return text_id;
     }
 }

@@ -40,7 +40,9 @@ public class LoroWithTime : ScreenMain
         {
             SimpleButton sb = Instantiate(simonCard, container);
             sb.transform.localScale = Vector2.one;
-            Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
+            string _text = GetParsedString(text);
+            Sprite sprite = Data.Instance.assetsData.GetContent(_text).sprite;
+
             sb.Init(id, sprite, "", OnClicked);
             id++;
             cards.Add(sb);
@@ -106,14 +108,7 @@ public class LoroWithTime : ScreenMain
     {
         string text_id = content.loro_time[cardID];
 
-        ////////////////// por si la palabra del loro es default, inicio o final:
-        string[] arr = text_id.Split("@"[0]);
-        if (arr.Length > 1)
-        {
-            text_id = arr[0];
-            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
-        }
-        //////////////////////////////////////////
+        text_id = GetParsedString(text_id);
 
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
@@ -128,5 +123,16 @@ public class LoroWithTime : ScreenMain
         if (gameObject.activeSelf)
             Animate("rotateRightLeft");
         canSelect = true;
+    }
+    ////////////////// por si la palabra del loro es default, inicio o final:
+    string GetParsedString(string text_id)
+    {        
+        string[] arr = text_id.Split("@"[0]);
+        if (arr.Length > 1)
+        {
+            text_id = arr[0];
+            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+        }
+        return text_id;
     }
 }
