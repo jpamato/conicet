@@ -36,8 +36,6 @@ public class LoroRepeat : ScreenMain
         string textID = content.loro_repeat[id];
         SimpleButton sb = Instantiate(simonCard, container);
         sb.transform.localScale = Vector2.one;
-        Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
-        sb.Init(id, sprite, "", null);
 
         ////////////////// por si la palabra del loro es default, inicio o final:
         string[] arr = textID.Split("@"[0]);
@@ -47,6 +45,9 @@ public class LoroRepeat : ScreenMain
             loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
         }
         //////////////////////////////////////////
+        ///
+        Sprite sprite = Data.Instance.assetsData.GetContent(textID).sprite;
+        sb.Init(id, sprite, "", null);
 
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(textID);
         assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
