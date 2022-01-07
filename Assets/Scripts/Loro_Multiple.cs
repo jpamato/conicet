@@ -20,6 +20,8 @@ public class Loro_Multiple : ScreenMain
     public int ok;
     public string firstWord;
 
+    public AssetsData.loroWordsType loroWordsType;
+
     private void OnEnable()
     {
         field.text = "";
@@ -54,26 +56,27 @@ public class Loro_Multiple : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
         int id = 0;
         bool isOk = true;
-        foreach (string _text in arr)
+        foreach (string text in arr)
         {
-            string text = GetParsedString(_text);
-
             if (id == 0)
             {
-                firstWord = text;
+                firstWord = GetParsedString(text);
             }
             else if (text == "-" || text.Contains("-"))
                 isOk = false;
             else
             {
+                string _text = GetParsedString(text);
                 if (isOk)
-                    ok_words.Add(text);
+                    ok_words.Add(_text);
                 else
-                    wrong_words.Add(text);
+                    wrong_words.Add(_text);
                 SimpleButton sb = Instantiate(simonCard);
                 sb.transform.localScale = Vector2.one;
-                Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
-                sb.Init(id, sprite, text, OnClicked);               
+
+               // string _text = GetParsedString(text);
+                Sprite sprite = Data.Instance.assetsData.GetContent(_text).sprite;
+                sb.Init(id, sprite, _text, OnClicked);               
                 cards.Add(sb);
             }
             id++;
@@ -113,7 +116,8 @@ public class Loro_Multiple : ScreenMain
     }
     void SayAsset(string assetRealName, System.Action OnSaid)
     {
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + assetRealName, OnSaid);
+        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, OnSaid);
     }
     bool IsOk(string text)
     {
@@ -172,7 +176,8 @@ public class Loro_Multiple : ScreenMain
         print("Say word " + firstWord);
         string text_id = firstWord;
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        print("Say assetRealName " + assetRealName);
+        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
+
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, SayLoop);
 
         field.text = Data.Instance.assetsData.GetRealText(text_id);
@@ -207,7 +212,7 @@ public class Loro_Multiple : ScreenMain
         if (arr.Length > 1)
         {
             text_id = arr[0];
-           // loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
+            loroWordsType = Data.Instance.assetsData.SetTypeByText(arr[1]);
         }
         return text_id;
     }
