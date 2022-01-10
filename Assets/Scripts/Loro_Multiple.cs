@@ -10,6 +10,7 @@ public class Loro_Multiple : ScreenMain
     public Text field;
     public SimpleButton simonCard;
     public List<SimpleButton> cards;
+    public Image thumb;
 
     public List<string> ok_words;
     public List<string> wrong_words;
@@ -31,6 +32,7 @@ public class Loro_Multiple : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        thumb.enabled = false;
         base.Show(fromRight);
         canSelect = false;
         Utils.RemoveAllChildsIn(container);
@@ -52,7 +54,6 @@ public class Loro_Multiple : ScreenMain
         GamesData.Content gameDataContent = Data.Instance.gamesData.GetContent(story_content.id);
         List<string> arr = gameDataContent.GetContentFor(type, gameID);
 
-        field.text = "";
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
         int id = 0;
         bool isOk = true;
@@ -61,6 +62,9 @@ public class Loro_Multiple : ScreenMain
             if (id == 0)
             {
                 firstWord = GetParsedString(text);
+                thumb.enabled = true;
+                Sprite sprite = Data.Instance.assetsData.GetContent(firstWord).sprite;
+                thumb.sprite = sprite;
             }
             else if (text == "-" || text.Contains("-"))
                 isOk = false;
