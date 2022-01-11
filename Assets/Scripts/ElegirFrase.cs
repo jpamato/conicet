@@ -47,10 +47,12 @@ public class ElegirFrase : ScreenMain
             string t = text;
 
             if (text.Contains("frase_"))
+            {
                 t = text.Remove(0, 6);
 
-            string[] arr = t.Split("_"[0]);
-            if (arr.Length > 1)  t = arr[0];
+                string[] arr = t.Split("_"[0]);
+                if (arr.Length > 1) t = arr[0];
+            }
 
             AssetsData.Content assetContent = Data.Instance.assetsData.GetContent(t);
             if (assetContent == null || assetContent.sprite == null)
