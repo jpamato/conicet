@@ -17,6 +17,8 @@ public class FallingObjects : ScreenMain
     public List<int> correctCards;
     public float fallingSpeed = 10;
     public types typeOfGame;
+    public List<string> ok_toched;
+
     public enum types
     {
         SINGLE,
@@ -38,6 +40,17 @@ public class FallingObjects : ScreenMain
             OnDone(this);
         }
     }
+    bool CheckFinishWithNewWord(string newWord)
+    {
+        foreach(string word in ok_toched)
+        {
+            if (word == newWord) return false;
+        }
+        ok_toched.Add(newWord);
+        if (ok_toched.Count >= correctCards.Count)
+            return true;
+        return false;
+    }
     public override void Hide(bool toLeft)
     {
         signal.SetActive(false);
@@ -55,6 +68,7 @@ public class FallingObjects : ScreenMain
     TextsData.Content tipContent;
     public override void OnReady()
     {
+        ok_toched.Clear();
         Utils.RemoveAllChildsIn(container);
         correctCards.Clear();
         numField.text = "";
@@ -83,7 +97,7 @@ public class FallingObjects : ScreenMain
             else {
                 if (isCorrect)
                     correctCards.Add(id);
-                print(text + " isCorrect: " + isCorrect);
+               // print(text + " isCorrect: " + isCorrect);
                 SimpleButton sb = Instantiate(card, container);
                 sb.transform.localScale = Vector2.one;
                 Sprite sprite = Data.Instance.assetsData.GetContent(text).sprite;
@@ -131,15 +145,13 @@ public class FallingObjects : ScreenMain
         button.InactivateFor(3.5f);
         if (IsOk(button.id))
         {
-            DatabaseCorrect(button.text);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);            
-            SetResults(true);
+            SetResults(assetRealName);
         }
         else
         {
             DatabaseIncorrect(button.text);
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
-            SetResults(false);
         }
         StartCoroutine( GetFallingObject(button).Clicked(OnDoneFallingObjectClicked) );
     }
@@ -149,12 +161,12 @@ public class FallingObjects : ScreenMain
         InitCard(fc);
         fc.asset.GetComponent<SimpleFeedback>().SetOff();
     }
-    void SetResults(bool isOk)
+    void SetResults(string word)
     {
-        if(isOk)
-            ok++;
+        DatabaseCorrect(word);
+        ok++;
         numField.text = ok.ToString();
-        if (ok == 5)
+        if (CheckFinishWithNewWord(word))
         {
             DatabaseOnSaveToDatabase();
             Events.SetReadyButton(OnReadyClicked);
