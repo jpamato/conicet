@@ -49,6 +49,7 @@ public class Contar : ScreenMain
     {
         allButtons.Clear();
         int id = 0;
+        container.gameObject.SetActive(false);
         foreach (string text in content)
         {
             if (id == 0)
@@ -71,11 +72,11 @@ public class Contar : ScreenMain
             }
             else if (id == 2)
             {
-              
+
             }
             id++;
         }
-        AddImages();
+        StartCoroutine( AddImagesC());
         AddButtons();
     }
     void SetLetter(int id, string letter)
@@ -84,7 +85,7 @@ public class Contar : ScreenMain
         sb.Init(id, null, letter, OnClicked);
         allButtons.Add(sb);
     }
-    void AddImages()
+    IEnumerator AddImagesC()
     {
         for (int a= 0; a<totalObjects; a++)
         {
@@ -92,7 +93,14 @@ public class Contar : ScreenMain
             sb.Init(a, sprite, "", null);
             sb.transform.localScale = Vector2.one;
             sb.image.transform.localPosition = new Vector2(0, UnityEngine.Random.Range(-90, 90));
+            SayNumber(a + 1);
+            yield return new WaitForSeconds(2);
         }
+        container.gameObject.SetActive(true);
+    }
+    void SayNumber(int num)
+    {
+        Events.PlaySound("voices", "genericTexts/0" + num, false);
     }
     void AddButtons()
     {
@@ -109,6 +117,11 @@ public class Contar : ScreenMain
     }
     void OnClicked(SimpleButton button)
     {
+        int num = 0;
+        int.TryParse(button.field.text, out num);
+        if(num != 0)
+            SayNumber(num);
+
         if (clicked) return;
         clicked = true;
         if (button.id == 1)

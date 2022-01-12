@@ -39,26 +39,25 @@ public class Splash : MonoBehaviour
         Events.PlaySound("ui", "ui/click", false);
 
         loading.SetActive(true);
-       
+
+
         if (lang == 1)
         {
             Data.Instance.lang = Data.langs.ESP;
-            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "ayuda_familia_maestra", false);
             loadingImage.sprite = sprites_lang[0];
         }
         else if (lang == 2)
         {
             Data.Instance.lang = Data.langs.QOM;
-            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "ayuda_familia_maestra", false);
             loadingImage.sprite = sprites_lang[1];
         }
         else
         {
             Data.Instance.lang = Data.langs.L1;
-            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "ayuda_familia_maestraL2", false);
-            loadingImage.sprite = sprites_lang[0];
+            loadingImage.sprite = sprites_lang[2];
         }
 
+        Events.PlaySound("voices", "intro/ayuda_familia_maestra_" + Data.Instance.lang, false);
         Invoke("Delayed", 2);
         Debug.Log("Set lang " + lang + " Data.Instance.lang: " + Data.Instance.lang);
 
