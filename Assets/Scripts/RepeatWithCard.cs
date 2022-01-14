@@ -103,9 +103,10 @@ public class RepeatWithCard : ScreenMain
         done++;
         id++;
         if (id >= content.Count)
+        { 
             id = 0;
-        if (done > 5)
-        {
+        //if (done > 5)
+        //{
             OnComplete();
             Events.SetReadyButton(OnReadyClicked);
         }
