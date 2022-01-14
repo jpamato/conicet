@@ -12,6 +12,19 @@ public class Character : MonoBehaviour
         foreach (GameObject go in all)
             go.SetActive(false);
     }
+    public void Init(string name)
+    {
+        switch (name)
+        {
+            case "Nasheli": Init(CharactersManager.types.Nasheli); break;
+            case "Oscarcito": Init(CharactersManager.types.Oscarcito); break;
+            case "Mujer": Init(CharactersManager.types.Mujer); break;
+            case "Hombre": Init(CharactersManager.types.Hombre); break;
+            case "Dany": Init(CharactersManager.types.Dany); break;
+            case "Uriel": Init(CharactersManager.types.Uriel); break;
+            case "Loro": Init(CharactersManager.types.Loro); break;
+        }
+    }
     public void Init(CharactersManager.types type)
     {
         if (lastType == type)

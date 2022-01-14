@@ -32,7 +32,7 @@ public class RepeatWithCard : ScreenMain
         if (content == null) return;
 
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_repeat_with_card");
-
+        print("________________" + tipContent.character_type);
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         done = 0;
     }
@@ -57,20 +57,29 @@ public class RepeatWithCard : ScreenMain
                 audio_text = arr[0];
             string s = "assets/audio" + Utils.GetLangFolder() + "/" + audio_text;
 
+            if(characterName != "")
+                character.Init(characterName);
+
             Events.PlaySoundTillReady("voices", s, WordSaid);
         }
     }
+    string characterName = "";
     string audio_text = "";
     void AddCard()
     {
         print(content.Count);
         Utils.RemoveAllChildsIn(container);
         string textID = content[id];
+        string[] arr = textID.Split("@"[0]);
+        if(arr.Length>1)
+        {
+            textID = arr[0];
+            characterName = arr[1];
+        }
 
 
 
-
-        string[] arr = textID.Split(":"[0]);
+        arr = textID.Split(":"[0]);
         if (arr.Length > 1)
             textID = arr[0];
 
