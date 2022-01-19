@@ -19,6 +19,8 @@ public class Rimas : ScreenMain
     public List<DragueableItem> items;
     public SimpleFeedback simpleFeedback;
     bool gameReady;
+    public GameObject endMask;
+    Animation anim;
 
     public override void OnEnable()
     {
@@ -37,6 +39,10 @@ public class Rimas : ScreenMain
     }
     public override void OnReady()
     {
+        anim = GetComponent<Animation>();
+        anim.Play("idle");
+        sayAlID = 0;
+        endMask.SetActive(false);
         intro.SetActive(true);
         pairs.Clear();
         items.Clear();
@@ -114,8 +120,39 @@ public class Rimas : ScreenMain
     }
     public override void OnComplete()
     {
+        sayAlID2 = 0;
+        anim.Play("ready");
+        endMask.SetActive(true);
+        LoopSayAll();
         base.OnComplete();
         Events.SetReadyButton(OnReadyClicked);
+    }
+    int sayAlID = 0;
+    int sayAlID2 = 0;
+    string s = "";
+    void LoopSayAll()
+    {
+        if (sayAlID >= arr.Count) return;
+        s = arr[sayAlID];
+        GameObject buttonDone;
+        if (sayAlID % 2 == 0)
+        {
+            buttonDone = pairs[sayAlID2].gameObject;
+        }
+        else
+        {
+            buttonDone = items[sayAlID2].gameObject;
+            sayAlID2++;
+        }
+        buttonDone.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+
+        print("_______LoopSayAll " + sayAlID + " todos " +  arr.Count + " word: " + s);
+        sayAlID++;
+        Invoke("SayNextLoop", 0.15f);
+    }
+    void SayNextLoop()
+    {
+        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + s, LoopSayAll);
     }
     List<string> arr;
     void OnTextDone()

@@ -23,12 +23,12 @@ public class QuestionsScreen : ScreenMain
     }
     public override void OnReady()
     {
+        isReady = false;
         introImage.Init();
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
         content = c.GetContentFor(type, gameID);
-        print("story_id: " + story_id);
         print(content.Count);
         if (content == null) return;
         field.text = "";
@@ -73,8 +73,15 @@ public class QuestionsScreen : ScreenMain
             character.Init(c.character_type);
         }
     }
+    bool isReady;
     void OnTextDone()
     {
+        Invoke("Done", 4);
+    }
+    void Done()
+    {
+        if (isReady) return;
+        isReady = true;
         Events.SetReadyButton(ButtonClicked);
     }
     public override void Hide(bool toLeft)
