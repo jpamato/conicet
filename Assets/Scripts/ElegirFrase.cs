@@ -13,6 +13,7 @@ public class ElegirFrase : ScreenMain
     public GameObject signal;
     public bool canSelect;
     public int cardActive = 0;
+    bool isFrase;
 
     private void OnEnable()
     {
@@ -27,6 +28,7 @@ public class ElegirFrase : ScreenMain
     }
     public override void OnReady()
     {
+        isFrase = false;
         cardActive = 0;
         cards.Clear();
         Utils.RemoveAllChildsIn(container);
@@ -48,6 +50,7 @@ public class ElegirFrase : ScreenMain
 
             if (text.Contains("frase_"))
             {
+                isFrase = true;
                 t = text.Remove(0, 6);
 
                 string[] arr = t.Split("_"[0]);
@@ -109,8 +112,12 @@ public class ElegirFrase : ScreenMain
         string[] arr = t.Split("_"[0]);
         if (arr.Length > 1) t = arr[0];
 
-        Events.PlaySoundTillReady("voices", "assets/audio"  + Utils.GetLangFolder() + "/" + t, NextWord);
-       
+        if (isFrase)
+            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/" + t, NextWord);
+        else
+            NextWord();
+
+
     }
     void NextWord()
     {
