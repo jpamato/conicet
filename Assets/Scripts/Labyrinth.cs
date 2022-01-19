@@ -18,6 +18,7 @@ public class Labyrinth : ScreenMain
     public GameObject asset_character;
     public GameObject asset_end_ok;
     public GameObject asset_end_bad;
+    int errors;
 
     public Image[] images;
 
@@ -128,6 +129,8 @@ public class Labyrinth : ScreenMain
     }
     public override void OnReady()
     {
+        isReady = false;
+        errors = 0;
         Reset();
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
@@ -238,8 +241,11 @@ public class Labyrinth : ScreenMain
         Invoke("Loop", 0.5f);
         id++;
     }
+    bool isReady;
     void Win()
     {
+        if (isReady) return;
+        isReady = true;
         OnComplete();
         Events.SetReadyButton(OnReadyClicked);
     }
@@ -258,9 +264,12 @@ public class Labyrinth : ScreenMain
     }
     public void OnWallOver()
     {
-        if(slotsSelected.Count>0)
+        errors++;
+        if (slotsSelected.Count>0)
             Events.PlaySound("ui", "ui/feedback_bad", false);
         Reset();
+        if (errors >2)
+            Win();
     }
     void OnReadyClicked()
     {
