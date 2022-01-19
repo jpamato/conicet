@@ -59,7 +59,7 @@ public class QuestionsScreen : ScreenMain
         {
             repeatButton.gameObject.SetActive(false);
             character.gameObject.SetActive(false);
-            Invoke("OnTextDone", 20);
+            Invoke("OnTextDone", 32);
             return;
         }
         string text_id = content[num];
