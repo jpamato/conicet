@@ -59,7 +59,7 @@ public class QuestionsScreen : ScreenMain
         {
             repeatButton.gameObject.SetActive(false);
             character.gameObject.SetActive(false);
-            Invoke("OnTextDone", 10);
+            Invoke("OnTextDone", 20);
             return;
         }
         string text_id = content[num];
@@ -79,6 +79,7 @@ public class QuestionsScreen : ScreenMain
     }
     public override void Hide(bool toLeft)
     {
+        CancelInvoke();
         base.Hide(toLeft);
         intro.SetActive(true);
         introImage.Init();
