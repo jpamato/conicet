@@ -92,11 +92,23 @@ public class StoryTeller : ScreenMain
     }
     void OnNewKeyframeReached(int id)
     {
-        field.text = content.textsData[id].text;
+        field.supportRichText = true;
+        field.text = content.textsData[id].text.Replace("-", "\n-");
 
         Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
 
         SetSprite(s);
+        RectTransform rectTransform = field.GetComponent<RectTransform>();
+        if (Data.Instance.lang == Data.langs.ESP)
+        {
+            rectTransform.offsetMin = new Vector2(rectTransform.offsetMin.x, -210);
+            character.gameObject.SetActive(false);
+        }
+        else
+        {
+            rectTransform.offsetMin = new Vector2(rectTransform.offsetMin.x, -80);
+            character.gameObject.SetActive(true);
+        }
     }
     void SetSprite(Sprite s)
     {
@@ -111,7 +123,7 @@ public class StoryTeller : ScreenMain
 
         RectTransform rTransform = image.GetComponent<RectTransform>();
         rTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _w);
-        rTransform.anchoredPosition = new Vector3((-_w / 2) - 65, 0, 0);
+        rTransform.anchoredPosition = new Vector3((-_w / 2), 0, 0);
         image.sprite = s;
     }
 }
