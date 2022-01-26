@@ -54,14 +54,7 @@ public class LoroRepeat : ScreenMain
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, WordSaid);
 
         //done++;
-        id++;
-        if (id >= content.loro_repeat.Count)
-        //    id = 0;
-        //if (done > 5)
-        {
-            OnComplete();
-            Events.SetReadyButton(OnReadyClicked);
-        }        
+       
     }
     void OnReadyClicked()
     {
@@ -75,6 +68,13 @@ public class LoroRepeat : ScreenMain
     }  
     void WordSaid()
     {
+        id++;
+        if (id >= content.loro_repeat.Count)
+        {
+            id = 0;
+            OnComplete();
+            Events.SetReadyButton(OnReadyClicked);
+        }
         StartCoroutine(SayNext());
     }
 }

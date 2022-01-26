@@ -71,6 +71,7 @@ public class AssetsData : DataLoader
         {
             case "final": return AssetsData.loroWordsType.FINAL;
             case "inicio": return AssetsData.loroWordsType.INITIAL;
+            case "medio": return AssetsData.loroWordsType.MEDIO;
             default: return AssetsData.loroWordsType.DEFAULT;
         }
     }
