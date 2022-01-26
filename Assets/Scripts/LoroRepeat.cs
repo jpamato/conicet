@@ -9,14 +9,14 @@ public class LoroRepeat : ScreenMain
     public SimpleButton simonCard;
     public Transform container;
 
-    public int done;
+   // public int done;
     int id;
     int lastcardID;
     public AssetsData.loroWordsType loroWordsType;
 
     public override void OnReady()
     {
-        done = 0;
+       // done = 0;
         base.OnReady();
         string story_id = Data.Instance.storiesData.activeContent.id;
         content = Data.Instance.gamesData.GetContent(story_id);
@@ -53,11 +53,11 @@ public class LoroRepeat : ScreenMain
         assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, WordSaid);
 
-        done++;
+        //done++;
         id++;
         if (id >= content.loro_repeat.Count)
-            id = 0;
-        if (done > 5)
+        //    id = 0;
+        //if (done > 5)
         {
             OnComplete();
             Events.SetReadyButton(OnReadyClicked);
