@@ -25,6 +25,7 @@ public class ArrastrarGrupos : ScreenMain
     List<string> rightWords;
     [SerializeField] Text leftField;
     [SerializeField] Text rightField;
+    [SerializeField] Image[] images;
 
     public override void OnEnable()
     {
@@ -45,6 +46,8 @@ public class ArrastrarGrupos : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        foreach (Image image in images)
+            image.enabled = false;
         base.Show(fromRight);
 
         slots.Clear();
@@ -91,6 +94,9 @@ public class ArrastrarGrupos : ScreenMain
     }
     void OnTextDone()
     {
+        foreach (Image image in images)
+            image.enabled = true;
+
         int __x = 240;
         mainContainer.transform.localPosition = new Vector2(0, mainContainer.transform.localPosition.y);
         leftContainer.transform.localPosition = new Vector2(__x, leftContainer.transform.localPosition.y);
@@ -107,10 +113,12 @@ public class ArrastrarGrupos : ScreenMain
                 if(left)
                 {
                     ok_left = s;
+                    images[0].sprite = Data.Instance.assetsData.GetContent(s).sprite;
                 }
                 else
                 {
                     ok_right = s;
+                    images[1].sprite = Data.Instance.assetsData.GetContent(s).sprite;
                 }                
             }
             else if(s == "-")
