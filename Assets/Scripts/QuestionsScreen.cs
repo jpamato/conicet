@@ -76,6 +76,7 @@ public class QuestionsScreen : ScreenMain
     bool isReady;
     void OnTextDone()
     {
+        isReady = false;
         Invoke("Done", 4);
     }
     void Done()

@@ -91,7 +91,10 @@ public class ArrastrarGrupos : ScreenMain
     }
     void OnTextDone()
     {
-        // intro.SetActive(false);
+        int __x = 240;
+        mainContainer.transform.localPosition = new Vector2(0, mainContainer.transform.localPosition.y);
+        leftContainer.transform.localPosition = new Vector2(__x, leftContainer.transform.localPosition.y);
+        rightContainer.transform.localPosition = new Vector2(-__x, rightContainer.transform.localPosition.y);
         int id = 0;
         bool left= true;
         GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
