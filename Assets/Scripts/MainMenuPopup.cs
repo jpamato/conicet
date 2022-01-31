@@ -5,6 +5,8 @@ using UnityEngine;
 public class MainMenuPopup : MonoBehaviour
 {
     public GameObject panel;
+    [SerializeField] ContentScreen instrucciones;
+    [SerializeField] ContentScreen creditos;
 
     void Start()
     {
@@ -21,6 +23,16 @@ public class MainMenuPopup : MonoBehaviour
     public void ExitApp()
     {
         Application.Quit();
+    }
+    public void Credits()
+    {
+        creditos.Init();
+        Close();
+    }
+    public void Instrucciones()
+    {
+        instrucciones.Init();
+        Close();
     }
 }
 

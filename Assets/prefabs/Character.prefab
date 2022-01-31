@@ -2927,7 +2927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5490924768939581782
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4916,7 +4916,6 @@ GameObject:
   - component: {fileID: 8605085807490999329}
   - component: {fileID: 8605085807490999359}
   - component: {fileID: 8605085807490999358}
-  - component: {fileID: 743178917613535147}
   m_Layer: 5
   m_Name: barba
   m_TagString: Untagged
@@ -4981,22 +4980,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &743178917613535147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8605085807490999328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e122b0f1a6e4eeb4ab3b28eb67e4764f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  all:
-  - {fileID: 21300000, guid: 907abc525ca4dcf4c87cff68982e0728, type: 3}
-  - {fileID: 21300000, guid: e6523ea6d6065c84e9dfde0ed85f1630, type: 3}
-  - {fileID: 21300000, guid: efa48c37f89c84e4a9d215d697e939c5, type: 3}
 --- !u!1 &8605085808216653737
 GameObject:
   m_ObjectHideFlags: 0
