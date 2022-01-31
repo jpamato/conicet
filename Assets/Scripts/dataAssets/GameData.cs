@@ -30,7 +30,8 @@
         ordenar,
         loro_multiple,
         arrastrar_grupos,
-        objeto_diferente
+        objeto_diferente,
+        imagen_palabras
     }
     public bool played;
     public string tip_id;
