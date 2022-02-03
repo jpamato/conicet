@@ -33,6 +33,7 @@ public class GamesData : DataLoader
         public List<string> arrastrar_grupos;
         public List<string> objeto_diferente;
         public List<string> imagen_palabras;
+        public List<string> chico_multiple;
 
         public List<string> GetContentFor(GameData.types gameType, int id)
         {
@@ -64,6 +65,7 @@ public class GamesData : DataLoader
                 case GameData.types.objeto_diferente: return GetTextsById(objeto_diferente, id);
                 case GameData.types.arrastrar_grupos: return GetTextsById(arrastrar_grupos, id);
                 case GameData.types.imagen_palabras: return GetTextsById(imagen_palabras, id);
+                case GameData.types.chico_multiple: return GetTextsById(chico_multiple, id);
 
                 default: return GetTextsById(memotestAudio, id);
             }
@@ -145,6 +147,7 @@ public class GamesData : DataLoader
                             contentLine.objeto_diferente = new List<string>();
                             contentLine.arrastrar_grupos = new List<string>();
                             contentLine.imagen_palabras = new List<string>();
+                            contentLine.chico_multiple = new List<string>();
                             content.Add(contentLine);
                         }
                     }
@@ -194,6 +197,8 @@ public class GamesData : DataLoader
                             contentLine.objeto_diferente.Add(value);
                         if (colID == 22 && value != "")
                             contentLine.imagen_palabras.Add(value);
+                        if (colID == 23 && value != "")
+                            contentLine.chico_multiple.Add(value);
                     }
                 }
                 colID++;

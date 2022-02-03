@@ -31,7 +31,8 @@
         loro_multiple,
         arrastrar_grupos,
         objeto_diferente,
-        imagen_palabras
+        imagen_palabras,
+        chico_multiple
     }
     public bool played;
     public string tip_id;
