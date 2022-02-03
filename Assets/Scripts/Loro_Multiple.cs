@@ -19,7 +19,7 @@ public class Loro_Multiple : ScreenMain
     public GameObject signal;
     bool canSelect;
     public int ok;
-    public string firstWord;
+    public string firstWord = "";
 
     public AssetsData.loroWordsType loroWordsType;
 
@@ -32,6 +32,7 @@ public class Loro_Multiple : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        firstWord = "";
         thumb.enabled = false;
         base.Show(fromRight);
         canSelect = false;
@@ -61,10 +62,17 @@ public class Loro_Multiple : ScreenMain
         {
             if (id == 0)
             {
-                firstWord = GetParsedString(text);
-                thumb.enabled = true;
-                Sprite sprite = Data.Instance.assetsData.GetContent(firstWord).sprite;
-                thumb.sprite = sprite;
+                if (text == "no")
+                {
+                    thumb.enabled = false;
+                }
+                else
+                {
+                    firstWord = GetParsedString(text);
+                    thumb.enabled = true;
+                    Sprite sprite = Data.Instance.assetsData.GetContent(firstWord).sprite;
+                    thumb.sprite = sprite;
+                }
             }
             else if (text == "-" || text.Contains("-"))
                 isOk = false;
@@ -178,13 +186,17 @@ public class Loro_Multiple : ScreenMain
     public void SayWord()
     {
         print("Say word " + firstWord);
-        string text_id = firstWord;
-        string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
-        assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
+        if (firstWord == "") SayLoop();
+        else
+        {
+            string text_id = firstWord;
+            string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
+            assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
 
-        Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, SayLoop);
+            Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, SayLoop);
 
-        field.text = Data.Instance.assetsData.GetRealText(text_id);
+            field.text = Data.Instance.assetsData.GetRealText(text_id);
+        }
         sayID = 0;
        // SayLoop();
     }
