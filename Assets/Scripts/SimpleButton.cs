@@ -12,7 +12,7 @@ public class SimpleButton : MonoBehaviour
     Button button;
     public string text;
 
-    public void Init(int id, Sprite sprite, string text, System.Action<SimpleButton> OnClicked)
+    public void Init(int id, Sprite sprite, string text, System.Action<SimpleButton> OnClicked, bool forceUpperCase = true)
     {
         button = GetComponent<Button>();
         this.id = id;
@@ -24,7 +24,12 @@ public class SimpleButton : MonoBehaviour
             if (sprite != null) image.sprite = sprite; else image.enabled = false;
         }
         if (text != "" && field != null)
-            field.text = Data.Instance.assetsData.GetRealText(text).ToUpper();
+        {
+            if(forceUpperCase)
+                field.text = Data.Instance.assetsData.GetRealText(text).ToUpper();
+            else
+                field.text = Data.Instance.assetsData.GetRealText(text);
+        }
         else text = "";
         if(OnClicked != null)
             button.onClick.AddListener(() => OnClicked(this));

@@ -29,6 +29,13 @@ public class Letra : ScreenMain
         field.text = "";
         Utils.RemoveAllChildsIn(container);
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        image.gameObject.SetActive(false);
+        Utils.RemoveAllChildsIn(container);
+        field.text = "";
+    }
     TextsData.Content tipContent;
     public override void OnReady()
     {
@@ -95,19 +102,19 @@ public class Letra : ScreenMain
     }
     void SetOriginalText()
     {
-        field.text = originalText.ToUpper();
+        field.text = originalText;
     }
     void SetTitle(string letter)
     {
         string st = originalText;
         string newWord = st.Replace("_", letter);
-        field.text = newWord.ToUpper();
+        field.text = newWord;
         field.GetComponent<Animation>().Play();
     }
     void SetLetter(int id, string letter)
     {
         SimpleButton sb = Instantiate(card);
-        sb.Init(id, null, letter, OnClicked);
+        sb.Init(id, null, letter, OnClicked, false);
         allButtons.Add(sb);
     }
     void AddButtons()
