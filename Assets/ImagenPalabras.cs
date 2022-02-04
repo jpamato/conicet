@@ -42,8 +42,7 @@ public class ImagenPalabras : ScreenMain
 
         if (content == null) return;
         clicked = false;
-        tipContent = Data.Instance.daysData.GetTip("tip_leer");
-
+        tipContent = Data.Instance.daysData.GetTip("toca_dice");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
     void OnTipDone()
