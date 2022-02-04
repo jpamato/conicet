@@ -50,7 +50,7 @@ public class ImagenPalabras : ScreenMain
     {
         ShowContent(true);
         ok_word = content[0];
-        Say(ok_word);
+        Say(ok_word.ToLower());
         Sprite sprite = Data.Instance.assetsData.GetContent(ok_word).sprite;
         imageCard.sprite = sprite;
         if (sprite == null)    Events.Log("No hay asset para " + content[0]);
@@ -66,7 +66,7 @@ public class ImagenPalabras : ScreenMain
         int id = 0;
         foreach (SimpleButton sb in allButtons)
         {
-            sb.Init(0, null, content[id], OnClicked);
+            sb.Init(0, null, content[id], OnClicked, false);
             id++;
         }
     }

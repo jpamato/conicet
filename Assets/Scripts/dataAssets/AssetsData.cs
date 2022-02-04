@@ -55,6 +55,7 @@ public class AssetsData : DataLoader
     }
     public Content GetContent(string _name)
     {
+        _name = _name.ToLower();
         _name = GetAssetRealName(_name);
         foreach (Content content in content)
         {
