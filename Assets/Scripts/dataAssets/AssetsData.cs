@@ -53,10 +53,11 @@ public class AssetsData : DataLoader
         else
             return _name;
     }
-    public Content GetContent(string _name)
+    public Content GetContent(string __name)
     {
-        _name = _name.ToLower();
-        _name = GetAssetRealName(_name);
+        string _name = GetAssetRealName(__name.ToLower());
+        if(__name == _name)  _name = GetAssetRealName(__name);
+
         foreach (Content content in content)
         {
             if(string.Equals(content.name, _name))
