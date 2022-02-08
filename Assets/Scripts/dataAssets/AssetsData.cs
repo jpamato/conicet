@@ -55,8 +55,13 @@ public class AssetsData : DataLoader
     }
     public Content GetContent(string __name)
     {
+        print("1: " + __name);
         string _name = GetAssetRealName(__name.ToLower());
-        if(__name == _name)  _name = GetAssetRealName(__name);
+        if (__name.ToLower() == _name)
+        {
+            _name = GetAssetRealName(__name);
+        }
+        print("2: " + _name);
 
         foreach (Content content in content)
         {
