@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 554671306
+CRC: 3344010679
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,10 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: assets/audio_qom.qom
+      Dependencies: {}
+    Info_2:
+      Name: completar/baile.esp
+      Dependencies: {}
+    Info_3:
+      Name: assets/images.generic
       Dependencies: {}
