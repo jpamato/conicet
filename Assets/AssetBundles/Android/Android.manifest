@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 554671306
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets/audio.esp
+      Dependencies: {}
+    Info_1:
+      Name: assets/audio_qom.qom
+      Dependencies: {}
