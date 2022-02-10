@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 108882975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2646d1e77a44e99c012bbff2dea8452b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/diaPesca3/2a.wav
+- Assets/Resuources_in_bundles/completar/diaPesca3/1b.wav
+- Assets/Resuources_in_bundles/completar/diaPesca3/1a.wav
+- Assets/Resuources_in_bundles/completar/diaPesca3/2b.wav
+Dependencies: []

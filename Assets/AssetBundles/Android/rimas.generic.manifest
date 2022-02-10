@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 1670454488
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89f3bc01a6d7e3a2af4ae169c7e0bcac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/rimas/rima_zapato.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro2.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro4.png
+- Assets/Resuources_in_bundles/rimas/rima_caracol.png
+- Assets/Resuources_in_bundles/rimas/rima_rulitos.png
+- Assets/Resuources_in_bundles/rimas/rima_liebre_tortuga_2.png
+- Assets/Resuources_in_bundles/rimas/rima_bichos_bolita_2.png
+- Assets/Resuources_in_bundles/rimas/rima_piratas_cantores.png
+- Assets/Resuources_in_bundles/rimas/rima_zapallo_gigante.png
+- Assets/Resuources_in_bundles/rimas/rima_caperucita.png
+- Assets/Resuources_in_bundles/rimas/rima_piedra.png
+- Assets/Resuources_in_bundles/rimas/rima_dia_pesca_3.png
+- Assets/Resuources_in_bundles/rimas/rima_malevo.png
+- Assets/Resuources_in_bundles/rimas/rima_baile_oso_2.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro.png
+- Assets/Resuources_in_bundles/rimas/rima_bichos_bolita.png
+- Assets/Resuources_in_bundles/rimas/rima_pequeno.png
+- Assets/Resuources_in_bundles/rimas/rima_integracion3.png
+- Assets/Resuources_in_bundles/rimas/rima_dia_pesca_2.png
+- Assets/Resuources_in_bundles/rimas/rima_malevo_3.png
+- Assets/Resuources_in_bundles/rimas/rima_ciempies.png
+- Assets/Resuources_in_bundles/rimas/rima_genio_botella.png
+- Assets/Resuources_in_bundles/rimas/rima_baile_oso_1.png
+- Assets/Resuources_in_bundles/rimas/rima_agua.png
+- Assets/Resuources_in_bundles/rimas/rima_dany_familia_1.png
+- Assets/Resuources_in_bundles/rimas/rima_caperucita_roja_l2_2.png
+- Assets/Resuources_in_bundles/rimas/juego_lobo.png
+- Assets/Resuources_in_bundles/rimas/rima_que_susto.png
+- Assets/Resuources_in_bundles/rimas/rima_rulitos_2.png
+- Assets/Resuources_in_bundles/rimas/rima_animales_dany.png
+- Assets/Resuources_in_bundles/rimas/rima_caperucita_roja_l2_1.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro5.png
+- Assets/Resuources_in_bundles/rimas/rima_dany_amigos_2.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro3.png
+- Assets/Resuources_in_bundles/rimas/rima_zorro_gallina.png
+- Assets/Resuources_in_bundles/rimas/rima_zorro_hornero.png
+- Assets/Resuources_in_bundles/rimas/rima_risa_pajaros.png
+- Assets/Resuources_in_bundles/rimas/rima_integracion_1.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro1.png
+- Assets/Resuources_in_bundles/rimas/rima_dany_familia_2.png
+- Assets/Resuources_in_bundles/rimas/rima_viaje_espacio_1.png
+- Assets/Resuources_in_bundles/rimas/rima_monte.png
+- Assets/Resuources_in_bundles/rimas/rima_malevo_2.png
+- Assets/Resuources_in_bundles/rimas/rima_conejo_1.png
+- Assets/Resuources_in_bundles/rimas/rima_nandu.png
+- Assets/Resuources_in_bundles/rimas/rima_caperucita_roja_l2_3.png
+- Assets/Resuources_in_bundles/rimas/rima_integracion_2.png
+- Assets/Resuources_in_bundles/rimas/rima_dia_pesca.png
+- Assets/Resuources_in_bundles/rimas/rima_dany_amigos_1.png
+- Assets/Resuources_in_bundles/rimas/rima_liebre_tortuga_1.png
+- Assets/Resuources_in_bundles/rimas/rima_dia_pesca_1.png
+- Assets/Resuources_in_bundles/rimas/rima_bichos_bolita_3.png
+Dependencies: []

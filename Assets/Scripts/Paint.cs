@@ -51,7 +51,9 @@ public class Paint : ScreenMain
         GamesData.Content c = Data.Instance.gamesData.GetContent(story_id);
 
         string content = c.GetContentFor(type, gameID)[0];
-        Sprite sprite = Resources.Load<Sprite>("paintings/" + content);
+
+     //   Sprite sprite = Resources.Load<Sprite>("paintings/" + content);
+        Sprite sprite = Data.Instance.GetSprite("paintings/" + content);
         drawing.Init(sprite);
         introImage.Init();
         introImage.AnimateOff();

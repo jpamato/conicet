@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 1296160278
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d82ae7ff4621a9c10582edf8356a745c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/paintings/peces_paint.png
+- Assets/Resuources_in_bundles/paintings/cancion_caperucita_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion8_paint.jpg
+- Assets/Resuources_in_bundles/paintings/arbol_paint.png
+- Assets/Resuources_in_bundles/paintings/que_susto_paint.png
+- Assets/Resuources_in_bundles/paintings/oso_paint.jpeg
+- Assets/Resuources_in_bundles/paintings/dany_animales_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion1_paint.jpg
+- Assets/Resuources_in_bundles/paintings/rima_danyamigos_paint.png
+- Assets/Resuources_in_bundles/paintings/animales_silvestres_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion7_paint.png
+- Assets/Resuources_in_bundles/paintings/sapo_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_caracol_paint.png
+- Assets/Resuources_in_bundles/paintings/pollito_paint.png
+- Assets/Resuources_in_bundles/paintings/alimentos_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_dany_familia_2.jpg
+- Assets/Resuources_in_bundles/paintings/raton_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion5_paint.png
+- Assets/Resuources_in_bundles/paintings/barrilete_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion2_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_rulitos_paint.png
+- Assets/Resuources_in_bundles/paintings/cancion_danyFamilia2_paint.png
+- Assets/Resuources_in_bundles/paintings/pequeno_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_danyamigos2_paint.jpg
+- Assets/Resuources_in_bundles/paintings/rima_nandu_paint.png
+- Assets/Resuources_in_bundles/paintings/cinco_ratoncitos_paint.png
+- Assets/Resuources_in_bundles/paintings/cancion_liebre_tortuga_2.png
+- Assets/Resuources_in_bundles/paintings/arbol_primavera_paint.png
+- Assets/Resuources_in_bundles/paintings/cancion_danyAmigos10.png
+- Assets/Resuources_in_bundles/paintings/rima_agua_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion6_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_ciempies_paint.png
+- Assets/Resuources_in_bundles/paintings/malevo_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_piedra_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_zapato_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_que_susto.png
+- Assets/Resuources_in_bundles/paintings/integracion3_paint.png
+- Assets/Resuources_in_bundles/paintings/trabajo_paint.png
+- Assets/Resuources_in_bundles/paintings/pato_paint.png
+- Assets/Resuources_in_bundles/paintings/lobo_paint.png
+- Assets/Resuources_in_bundles/paintings/cancion_integracion1.png
+- Assets/Resuources_in_bundles/paintings/monte_paint.png
+- Assets/Resuources_in_bundles/paintings/danyFamilia_paint.jpg
+- Assets/Resuources_in_bundles/paintings/ropa_paint.png
+- Assets/Resuources_in_bundles/paintings/integracion4_paint.png
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4246911849
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f8f15a419d734d81120621e6677a84ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/animales_de_dany/audios/qom_hard.wav
+- Assets/Resuources_in_bundles/stories/animales_de_dany/audios/hard.wav
+Dependencies: []

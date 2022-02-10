@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 438241730
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3b89243d64d2c0ccbf9cb549660a5de
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/que_susto/audios/easy.wav
+Dependencies: []

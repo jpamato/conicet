@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3120418918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2687de56d8debf4231007a8f317183ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/zorro_hornero/audios/easy.wav
+Dependencies: []

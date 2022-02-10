@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1377864765
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 933a8fd72900ab595f1aab9a1f5deef1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/ordenar/instruccionesPesca.wav
+- Assets/Resuources_in_bundles/ordenar/ordenaSecuencia.wav
+- Assets/Resuources_in_bundles/ordenar/ordenarMensaje.wav
+- Assets/Resuources_in_bundles/ordenar/instruccionesGlobo.wav
+- Assets/Resuources_in_bundles/ordenar/ordenar_la_risa_de_los_pajaros.wav
+Dependencies: []

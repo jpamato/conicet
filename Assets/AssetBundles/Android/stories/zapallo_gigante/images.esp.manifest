@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 41597344
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 60aade5d628492bac821df68bd10d189
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/10.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/5.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/21.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/6.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/12.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/9.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/3.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/18.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/2.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/4.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/7.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/16.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/15.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/13.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/17.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/14.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/8.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/19.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/11.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/1.png
+- Assets/Resuources_in_bundles/stories/zapallo_gigante/images/20.png
+Dependencies: []

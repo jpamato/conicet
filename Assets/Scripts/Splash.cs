@@ -12,14 +12,30 @@ public class Splash : MonoBehaviour
     public Image loadingImage;
     public Sprite[] sprites_lang;
 
+    [SerializeField] GameObject loadingAsset;
+    [SerializeField] Image bar;
+    [SerializeField] Text loadingfield;
+
     private void Awake()
     {
         loading.SetActive(false);
         Events.AllDataLoaded += AllDataLoaded;
+        Events.OnLoading += OnLoading;
+        Events.OnLoadingProgress += OnLoadingProgress;
     }
     private void OnDestroy()
     {
         Events.AllDataLoaded -= AllDataLoaded;
+        Events.OnLoading -= OnLoading;
+        Events.OnLoadingProgress -= OnLoadingProgress;
+    }
+    void OnLoadingProgress(float a)
+    {
+        bar.fillAmount = a;
+    }
+    void OnLoading(string a)
+    {
+        loadingfield.text = "DESCARGANDO: " + a;
     }
     void AllDataLoaded()
     {
@@ -27,6 +43,7 @@ public class Splash : MonoBehaviour
     }
     private void Start()
     {
+        loadingAsset.SetActive(false);
         if (PlayerPrefs.GetInt("dificult") == 0)
             Data.Instance.dificult = Data.difficults.NORMAL;
         else
@@ -62,7 +79,9 @@ public class Splash : MonoBehaviour
         Debug.Log("Set lang " + lang + " Data.Instance.lang: " + Data.Instance.lang);
 
         panel.SetActive(false);
+        loadingAsset.SetActive(true);
     }
+   
     public void Toggle()
     {
         Events.PlaySound("ui", "ui/click2", false);
@@ -92,6 +111,10 @@ public class Splash : MonoBehaviour
         }
     }
     void Delayed()
+    {
+        Events.LoadAssetBundles(OnAssetsLoaded);
+    }
+    void OnAssetsLoaded(string results)
     {
         Data.Instance.LoadAll();
     }

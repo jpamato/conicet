@@ -90,7 +90,8 @@ public class Escuchar : ScreenMain
         else
         {
             image.gameObject.SetActive(true);
-            Sprite sprite = Resources.Load<Sprite>("rimas/" + text);
+            Sprite sprite = Data.Instance.GetSprite("rimas/" + text);
+          //  Sprite sprite = Resources.Load<Sprite>("rimas/" + text);
             image.sprite = sprite;
         }
 

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1325433954
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c91ff2e6037a491d27774804b0cd4edb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/10.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/6.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/12.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/1.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/4.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/7.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/5.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/14.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/3.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/2.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/8.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/15.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/11.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/13.png
+- Assets/Resuources_in_bundles/stories/viaje_espacio/images/9.png
+Dependencies: []

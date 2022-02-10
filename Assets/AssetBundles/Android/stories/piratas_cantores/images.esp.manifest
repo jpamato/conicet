@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 429773046
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e939cd49818f88ef2e1de5b023c7da2d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/10.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/9.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/7.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/2.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/1.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/6.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/8.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/5.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/3.png
+- Assets/Resuources_in_bundles/stories/piratas_cantores/images/4.png
+Dependencies: []

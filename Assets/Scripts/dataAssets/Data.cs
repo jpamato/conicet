@@ -3,9 +3,11 @@ using UnityEngine.SceneManagement;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
+using Conicet.AssetsBundle;
 
 public class Data : MonoBehaviour
 {
+    public string url = "http://pontura.com/AssetBundles/";
     const string PREFAB_PATH = "Data";
     static Data mInstance = null;
 
@@ -76,7 +78,6 @@ public class Data : MonoBehaviour
 
         else
         {
-            print("Borra");
             Destroy(this.gameObject);
             return;
         }
@@ -116,5 +117,47 @@ public class Data : MonoBehaviour
         if (dataLoaded >= allDataFiles.Length)
             Events.AllDataLoaded();
         allLoaded = true;
+    }
+    public Sprite GetSprite(string url)
+    {
+        string folder = "";
+        string asset = url;
+
+        string[] arr = url.Split("/"[0]);
+        int id = 0;
+        foreach (string s in arr)
+        {
+            if (id < arr.Length - 2)
+                folder += s + "/";
+            else if (id < arr.Length - 1)
+                folder += s;
+            else
+                asset = s;
+            id++;
+        }
+        return AssetsBundleManager.Instance.GetSprite(folder.ToLower(), asset);
+    }
+    public AudioClip GetAudio(string url)
+    {
+        if(url.Contains("intro/") || url.Contains("ui/") || url.Contains("specialLoops/"))
+        {
+            return Resources.Load<AudioClip>(url) as AudioClip;
+        }
+        string folder = "";
+        string asset = url;
+
+        string[] arr = url.Split("/"[0]);
+        int id = 0;
+        foreach(string s in arr)
+        {
+            if (id < arr.Length - 2)
+                folder += s + "/";
+            else if (id < arr.Length - 1)
+                folder += s;
+            else
+                asset = s;
+            id++;
+        }
+        return AssetsBundleManager.Instance.GetAudioClip(folder.ToLower(), asset);
     }
 }

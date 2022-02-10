@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 889571132
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44b0267303162475ec9a0489c49444d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/zorroGallina4/1a.wav
+- Assets/Resuources_in_bundles/completar/zorroGallina4/1b.wav
+- Assets/Resuources_in_bundles/completar/zorroGallina4/2b.wav
+- Assets/Resuources_in_bundles/completar/zorroGallina4/2a.wav
+Dependencies: []

@@ -14,6 +14,7 @@ public static class Events
     public static System.Action<string> Log = delegate { };
     public static System.Action<System.Action> SetReadyButton= delegate { };
 
+
     public static System.Action<bool> OnGoto = delegate { };
     public static System.Action<TextsData.Content, System.Action, CharactersManager.types> OnCharacterSay = delegate { };
 
@@ -29,5 +30,10 @@ public static class Events
 
     //                                   types, duration, correct, incorrect
     public static System.Action<GameData.types, int, List<string>, List<string>> OnStatsGameDone = delegate { };
+
+    //Bundles
+    public static System.Action<System.Action<string>> LoadAssetBundles = delegate { };
+    public static System.Action<string> OnLoading = delegate { };
+    public static System.Action<float> OnLoadingProgress = delegate { };
 }
    

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1558626652
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e0305c7ce017c2f413b7bfe96f19b33
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/piratasCantores3/2a.wav
+- Assets/Resuources_in_bundles/completar/piratasCantores3/1b.wav
+- Assets/Resuources_in_bundles/completar/piratasCantores3/2b.wav
+- Assets/Resuources_in_bundles/completar/piratasCantores3/1a.wav
+Dependencies: []

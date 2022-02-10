@@ -99,7 +99,9 @@ public class Completar : ScreenMain
     {
         if (imageName != "")
         {
-            Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
+
+            Sprite sprite = Data.Instance.GetSprite("rimas/" + imageName);
+          //  Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
             //if(sprite == null)
             //    image.enabled = false;
             //else
@@ -200,7 +202,8 @@ public class Completar : ScreenMain
         string text = id + prefix;
         string url = "completar/" + folderName + "/" + text;
         print("Completar Next: " + url);
-        AudioClip ac = Resources.Load<AudioClip>(url);
+        AudioClip ac = Data.Instance.GetAudio(url);
+       // AudioClip ac = Resources.Load<AudioClip>(url);
         if (ac == null)
         {
             arrow.SetActive(false);

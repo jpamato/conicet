@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1117814079
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 500aab03d942b7bfd46a64cc63478b09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/piratas_cantores/audios/easy.wav
+Dependencies: []

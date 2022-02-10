@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3086918943
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a5413e58cd803a46c025ff4aef0d9b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/liebreTortuga3/1b.wav
+- Assets/Resuources_in_bundles/completar/liebreTortuga3/1a.wav
+Dependencies: []

@@ -50,7 +50,8 @@ public class SliderLoop : MonoBehaviour
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
         string s = "stories/" + sContent.folder + "/images/" + (id + 1);
         print("___slider loop: " + s);
-        Sprite sprite = Resources.Load<Sprite>(s);
+        Sprite sprite = Data.Instance.GetSprite(s);
+     //  Sprite sprite = Resources.Load<Sprite>(s);
         if (sprite == null)
         {
             id = 0;

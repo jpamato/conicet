@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2483298030
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb34fdf2a17601189025f24a7b1240f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/malevo/images/11.jpg
+- Assets/Resuources_in_bundles/stories/malevo/images/9.png
+- Assets/Resuources_in_bundles/stories/malevo/images/7.png
+- Assets/Resuources_in_bundles/stories/malevo/images/12.png
+- Assets/Resuources_in_bundles/stories/malevo/images/8.jpg
+- Assets/Resuources_in_bundles/stories/malevo/images/4.png
+- Assets/Resuources_in_bundles/stories/malevo/images/2.png
+- Assets/Resuources_in_bundles/stories/malevo/images/6.jpg
+- Assets/Resuources_in_bundles/stories/malevo/images/1.png
+- Assets/Resuources_in_bundles/stories/malevo/images/3.jpg
+- Assets/Resuources_in_bundles/stories/malevo/images/10.png
+- Assets/Resuources_in_bundles/stories/malevo/images/5.png
+Dependencies: []

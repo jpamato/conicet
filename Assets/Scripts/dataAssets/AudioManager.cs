@@ -72,7 +72,10 @@ public class AudioManager : MonoBehaviour
             if(m.sourceName == sourceName)
             {
                 m.audioSource.Stop();
-                m.audioSource.clip = Resources.Load<AudioClip>(audioName) as AudioClip;
+               // m.audioSource.clip = Resources.Load<AudioClip>(audioName) as AudioClip;
+
+                m.audioSource.clip = Data.Instance.GetAudio(audioName) as AudioClip;
+
                 if (audioName != "" && m.audioSource.clip == null)
                 {
                     Debug.LogError("No hay audio para " + audioName);

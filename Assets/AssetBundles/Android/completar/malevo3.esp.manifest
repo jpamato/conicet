@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4012500402
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4201c093ad9055366b3dbea0fd57c669
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/malevo3/1a.wav
+- Assets/Resuources_in_bundles/completar/malevo3/2b.wav
+- Assets/Resuources_in_bundles/completar/malevo3/2a.wav
+- Assets/Resuources_in_bundles/completar/malevo3/1b.wav
+Dependencies: []

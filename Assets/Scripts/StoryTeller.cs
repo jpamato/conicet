@@ -95,7 +95,8 @@ public class StoryTeller : ScreenMain
         field.supportRichText = true;
         field.text = content.textsData[id].text.Replace("-", "\n-");
 
-        Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
+      //  Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
+        Sprite s = Data.Instance.GetSprite("stories/" + content.folder + "/images/" + (id + 1));
 
         SetSprite(s);
         RectTransform rectTransform = field.GetComponent<RectTransform>();

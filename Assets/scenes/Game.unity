@@ -20586,6 +20586,7 @@ MonoBehaviour:
   signal: {fileID: 398142318}
   ok: 0
   firstWord: 
+  isOscarcito: 0
   loroWordsType: 0
 --- !u!1 &926299384
 GameObject:

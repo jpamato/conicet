@@ -139,7 +139,9 @@ public class Labyrinth : ScreenMain
         int num = 0;
         foreach (string imageName in content)
         {
-            images[num].sprite = Resources.Load<Sprite>("assets/" + imageName) as Sprite;
+            //images[num].sprite = Resources.Load<Sprite>("assets/" + imageName) as Sprite;
+
+            images[num].sprite = Data.Instance.GetSprite("assets/" + imageName);
             num++;
         }
         if (content == null) return;

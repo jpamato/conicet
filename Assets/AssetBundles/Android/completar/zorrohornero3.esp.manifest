@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 357673720
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a04273c6bdb767422781b0ef5f55324c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/zorroHornero3/1b.wav
+- Assets/Resuources_in_bundles/completar/zorroHornero3/2b.wav
+- Assets/Resuources_in_bundles/completar/zorroHornero3/2a.wav
+- Assets/Resuources_in_bundles/completar/zorroHornero3/1a.wav
+Dependencies: []

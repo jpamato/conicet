@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3866406572
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1c086d326205306e5f625e0f61da8ec7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/baile/audios/easy.wav
+Dependencies: []

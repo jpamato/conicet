@@ -55,13 +55,11 @@ public class AssetsData : DataLoader
     }
     public Content GetContent(string __name)
     {
-        print("1: " + __name);
         string _name = GetAssetRealName(__name.ToLower());
         if (__name.ToLower() == _name)
         {
             _name = GetAssetRealName(__name);
         }
-        print("2: " + _name);
 
         foreach (Content content in content)
         {
@@ -100,11 +98,13 @@ public class AssetsData : DataLoader
                         {
                             contentLine = new Content();
                             contentLine.name = value;
-                            contentLine.sprite = Resources.Load<Sprite>("assets/" + value) as Sprite;
+                            contentLine.sprite = Data.Instance.GetSprite("assets/images/" + value);
+                            //Resources.Load<Sprite>() as Sprite;
                             string folderName = "audio";
                             if (Data.Instance.lang == Data.langs.QOM)
                                 folderName = "audio_qom";
-                            contentLine.audioClip = Resources.Load<AudioClip>("assets/" + folderName + "/" + value) as AudioClip;
+                            contentLine.audioClip = Data.Instance.GetAudio("assets/" + folderName + "/" + value);
+                            //Resources.Load<AudioClip>("assets/" + folderName + "/" + value) as AudioClip;
                             content.Add(contentLine);
                         }
                     }
@@ -128,7 +128,6 @@ public class AssetsData : DataLoader
             colID = 0;
             rowID++;
         }
-
     }
     public string GetRealText(string textName)
     {

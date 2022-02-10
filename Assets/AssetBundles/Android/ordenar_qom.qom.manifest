@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 515991249
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 78310aed7d49ab5c8a61f974b3fce70c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/ordenar_qom/ordenarMensaje.wav
+Dependencies: []
