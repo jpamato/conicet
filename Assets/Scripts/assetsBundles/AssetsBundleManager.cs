@@ -65,7 +65,7 @@ namespace Conicet.AssetsBundle
         }
         void LoadFromServer(string _url)
         {
-            StartCoroutine(assetsBundleLoader.DownloadAll(_url + "AssetBundles/", AllLoaded));
+            StartCoroutine(assetsBundleLoader.DownloadAll(_url, AllLoaded));
         }
         void AllLoaded(string _url)
         {

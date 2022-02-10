@@ -141,7 +141,7 @@ public class Labyrinth : ScreenMain
         {
             //images[num].sprite = Resources.Load<Sprite>("assets/" + imageName) as Sprite;
 
-            images[num].sprite = Data.Instance.GetSprite("assets/" + imageName);
+            images[num].sprite = Data.Instance.GetSprite("assets/images/" + imageName);
             num++;
         }
         if (content == null) return;

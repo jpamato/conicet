@@ -100,7 +100,7 @@ namespace Conicet.AssetsBundle
             else
             {
                 dataPaths.Clear();
-                isFirstTime = false;
+                isFirstTime = true;
             }
 
             Debug.Log("Vuelve a Bajar: " + isFirstTime + "   mainBundle " + mainBundle + "   dataPaths: " + dataPaths);
@@ -133,7 +133,7 @@ namespace Conicet.AssetsBundle
 
                     foreach (string bundleName in manifest.GetAllAssetBundles())
                     {
-                        bool addIT;
+                        bool addIT = false;
                         if (Data.Instance.lang == Data.langs.QOM)
                         {
                             if (bundleName.Contains("qom"))
@@ -143,9 +143,10 @@ namespace Conicet.AssetsBundle
                         {
                             addIT = true;
                             if (bundleName.Contains("qom"))
-                                addIT = true;
+                                addIT = false;
                         }
-                        dataPaths.Add(bundleName);
+                        if(addIT)
+                            dataPaths.Add(bundleName);
                     }
 
                     totalFirstBundles = dataPaths.Count;
