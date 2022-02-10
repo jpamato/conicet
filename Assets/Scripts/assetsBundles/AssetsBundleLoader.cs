@@ -88,21 +88,20 @@ namespace Conicet.AssetsBundle
 
         public IEnumerator DownloadAll(string _url, Action<string> onSuccess)
         {
+            Events.OnLoading("Bundles");
+            this.url = _url + mainBundlePath + "/";
+
             if (dataPaths == null)
             {
+                dataPaths = new List<string>();
                 isFirstTime = true;
                 bundles = new Dictionary<string, AssetBundle>();
-                dataPaths = new List<string>();
             }
             else
             {
                 dataPaths.Clear();
                 isFirstTime = false;
             }
-
-            Events.OnLoading("Bundles");
-            this.url = _url + mainBundlePath + "/";
-            
 
             Debug.Log("Vuelve a Bajar: " + isFirstTime + "   mainBundle " + mainBundle + "   dataPaths: " + dataPaths);
             this.onSuccess = onSuccess;
@@ -144,7 +143,7 @@ namespace Conicet.AssetsBundle
                         {
                             addIT = true;
                             if (bundleName.Contains("qom"))
-                                addIT = false;
+                                addIT = true;
                         }
                         dataPaths.Add(bundleName);
                     }

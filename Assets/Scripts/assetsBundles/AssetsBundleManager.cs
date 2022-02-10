@@ -46,7 +46,6 @@ namespace Conicet.AssetsBundle
                 esp_loaded = true;
             }
             this.OnDone = OnDone;
-            print("LoadAssetBundles");
 #if UNITY_EDITOR
             if (forceServerDownload)
             {
