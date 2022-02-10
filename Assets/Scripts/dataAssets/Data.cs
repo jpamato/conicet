@@ -7,7 +7,7 @@ using Conicet.AssetsBundle;
 
 public class Data : MonoBehaviour
 {
-    public string url = "http://pontura.com/AssetBundles/";
+    public string url = "http://pontura.com/conicet/";
     const string PREFAB_PATH = "Data";
     static Data mInstance = null;
 
