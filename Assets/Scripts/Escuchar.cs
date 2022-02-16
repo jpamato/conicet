@@ -86,13 +86,26 @@ public class Escuchar : ScreenMain
             character.GetComponentInChildren<AudioSpectrumView>().enabled = false;
             character.Dance();
             image.gameObject.SetActive(false);
+            Sprite sprite = Data.Instance.GetSprite("canciones/" + text);
+            if (sprite != null)
+            {
+                image.gameObject.SetActive(true);
+                image.sprite = sprite;
+            }                
         }
         else
         {
-            image.gameObject.SetActive(true);
             Sprite sprite = Data.Instance.GetSprite("rimas/" + text);
-          //  Sprite sprite = Resources.Load<Sprite>("rimas/" + text);
-            image.sprite = sprite;
+            //  Sprite sprite = Resources.Load<Sprite>("rimas/" + text);
+            if (sprite != null)
+            {
+                image.sprite = sprite;
+                image.gameObject.SetActive(true);
+            }
+            else
+            {
+                image.gameObject.SetActive(false);
+            }
         }
 
         audio_text = text;
