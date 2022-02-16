@@ -91,6 +91,7 @@ public class Escuchar : ScreenMain
             {
                 image.gameObject.SetActive(true);
                 image.sprite = sprite;
+                musicAsset.SetActive(false);
             }                
         }
         else
