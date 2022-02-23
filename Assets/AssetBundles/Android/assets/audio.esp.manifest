@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 922889802
+CRC: 1046614335
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 06624b42f19a4d9ccc3307707d5e221e
+    Hash: 2f44bdac6ed90110533a0df7faa31b3f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -71,7 +71,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/mono3.wav
 - Assets/Resuources_in_bundles/assets/audio/nene_unir.wav
 - Assets/Resuources_in_bundles/assets/audio/lunaGrandeVerde.wav
-- Assets/Resuources_in_bundles/assets/audio/alimentosCanasta_1.wav
 - Assets/Resuources_in_bundles/assets/audio/iguana.wav
 - Assets/Resuources_in_bundles/assets/audio/pajarovuela.wav
 - Assets/Resuources_in_bundles/assets/audio/moneda.wav

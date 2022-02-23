@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1670454488
+CRC: 1477271022
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 89f3bc01a6d7e3a2af4ae169c7e0bcac
+    Hash: cf28b65a3872448700f82eb8fe904857
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -34,6 +34,7 @@ Assets:
 - Assets/Resuources_in_bundles/rimas/rima_pequeno.png
 - Assets/Resuources_in_bundles/rimas/rima_integracion3.png
 - Assets/Resuources_in_bundles/rimas/rima_dia_pesca_2.png
+- Assets/Resuources_in_bundles/rimas/rima_palabras_loro6.png
 - Assets/Resuources_in_bundles/rimas/rima_malevo_3.png
 - Assets/Resuources_in_bundles/rimas/rima_ciempies.png
 - Assets/Resuources_in_bundles/rimas/rima_genio_botella.png
@@ -46,7 +47,6 @@ Assets:
 - Assets/Resuources_in_bundles/rimas/rima_rulitos_2.png
 - Assets/Resuources_in_bundles/rimas/rima_animales_dany.png
 - Assets/Resuources_in_bundles/rimas/rima_caperucita_roja_l2_1.png
-- Assets/Resuources_in_bundles/rimas/rima_palabras_loro5.png
 - Assets/Resuources_in_bundles/rimas/rima_dany_amigos_2.png
 - Assets/Resuources_in_bundles/rimas/rima_palabras_loro3.png
 - Assets/Resuources_in_bundles/rimas/rima_zorro_gallina.png
@@ -64,7 +64,7 @@ Assets:
 - Assets/Resuources_in_bundles/rimas/rima_integracion_2.png
 - Assets/Resuources_in_bundles/rimas/rima_dia_pesca.png
 - Assets/Resuources_in_bundles/rimas/rima_dany_amigos_1.png
-- Assets/Resuources_in_bundles/rimas/rima_liebre_tortuga_1.png
 - Assets/Resuources_in_bundles/rimas/rima_dia_pesca_1.png
+- Assets/Resuources_in_bundles/rimas/rima_liebre_tortuga_1.png
 - Assets/Resuources_in_bundles/rimas/rima_bichos_bolita_3.png
 Dependencies: []

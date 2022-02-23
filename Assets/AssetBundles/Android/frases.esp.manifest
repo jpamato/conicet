@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 653527438
+CRC: 4230726519
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9664ffb56330dbe67cdc271fe9f9fcae
+    Hash: 7f107bfb969765ad2c449c0dbd908a5b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -22,11 +22,9 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_serpiente2_3.wav
 - Assets/Resuources_in_bundles/frases/llorando.wav
 - Assets/Resuources_in_bundles/frases/frase_barco_2.wav
-- Assets/Resuources_in_bundles/frases/frase_yacarebebe.wav
 - Assets/Resuources_in_bundles/frases/caperucita_recoge.wav
 - Assets/Resuources_in_bundles/frases/frase_pez.wav
 - Assets/Resuources_in_bundles/frases/frase_ciempies.wav
-- Assets/Resuources_in_bundles/frases/frase_serpientesindiente.wav
 - Assets/Resuources_in_bundles/frases/elefante_2.wav
 - "Assets/Resuources_in_bundles/frases/toca_mu\xF1eca.wav"
 - Assets/Resuources_in_bundles/frases/frase_pajaro.wav
@@ -62,7 +60,6 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_estrella.wav
 - Assets/Resuources_in_bundles/frases/lobo_corre.wav
 - Assets/Resuources_in_bundles/frases/asustada.wav
-- Assets/Resuources_in_bundles/frases/frase_osogoloso.wav
 - Assets/Resuources_in_bundles/frases/frase_zorro3.wav
 - Assets/Resuources_in_bundles/frases/frase_pajaros.wav
 - Assets/Resuources_in_bundles/frases/frase_bichobolita.wav
@@ -80,9 +77,11 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_camion2.wav
 - Assets/Resuources_in_bundles/frases/frase_perro2_3.wav
 - Assets/Resuources_in_bundles/frases/frase_rio.wav
+- Assets/Resuources_in_bundles/frases/frase_oso_3.wav
 - Assets/Resuources_in_bundles/frases/caperucita_salta.wav
 - Assets/Resuources_in_bundles/frases/enojado-oso.wav
 - Assets/Resuources_in_bundles/frases/frase_pajaro2_2.wav
+- Assets/Resuources_in_bundles/frases/frase_serpiente.wav
 - Assets/Resuources_in_bundles/frases/frase_camion.wav
 - "Assets/Resuources_in_bundles/frases/frase_\xF1andu2.wav"
 - Assets/Resuources_in_bundles/frases/frase_paraguas.wav
@@ -93,6 +92,7 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_elefante2_3.wav
 - Assets/Resuources_in_bundles/frases/frase_pan.wav
 - Assets/Resuources_in_bundles/frases/frase_dar.wav
+- Assets/Resuources_in_bundles/frases/frase_yacare.wav
 - Assets/Resuources_in_bundles/frases/frase_mariposa.wav
 - Assets/Resuources_in_bundles/frases/frase_senora.wav
 - Assets/Resuources_in_bundles/frases/frase_agua.wav
@@ -113,7 +113,7 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_sol.wav
 - Assets/Resuources_in_bundles/frases/frase_pelota.wav
 - Assets/Resuources_in_bundles/frases/frase_pajaro2_3.wav
-- Assets/Resuources_in_bundles/frases/frase_elefanteadelante.wav
+- Assets/Resuources_in_bundles/frases/frase_elefante.wav
 - Assets/Resuources_in_bundles/frases/frase_pez2.wav
 - Assets/Resuources_in_bundles/frases/frase_gallina2_2.wav
 - Assets/Resuources_in_bundles/frases/frase_boton.wav
