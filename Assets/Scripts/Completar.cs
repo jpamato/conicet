@@ -97,9 +97,9 @@ public class Completar : ScreenMain
     int doubleCharacterID = 0;
     void SetCharacter()
     {
-        if (imageName != "")
+        if (imageName != null && imageName.Length>2)
         {
-
+            print("imageName: " + imageName);
             Sprite sprite = Data.Instance.GetSprite("rimas/" + imageName);
           //  Sprite sprite = Resources.Load<Sprite>("rimas/" + imageName);
             //if(sprite == null)

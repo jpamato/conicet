@@ -240,7 +240,7 @@ public class Loro_Multiple : ScreenMain
     }
     void Delayed()
     {
-        print("sayID " + sayID + " cards.Count: " + cards.Count);
+        print("sayID " + sayID + " cards.Count: " + cards.Count + cards[sayID].text);
         SayAsset(cards[sayID].text, SayLoop);
         cards[sayID].GetComponent<Animation>().Play("allOn");
         sayID++;
@@ -254,6 +254,8 @@ public class Loro_Multiple : ScreenMain
     ////////////////// por si la palabra del loro es default, inicio o final:
     string GetParsedString(string text_id)
     {
+        text_id = text_id.Replace("(oscarcito)", "");
+        print("___________GetParsedString: " + text_id);
         string[] arr = text_id.Split("@"[0]);
         if (arr.Length > 1)
         {
