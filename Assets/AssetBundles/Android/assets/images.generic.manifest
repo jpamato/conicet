@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3002671542
+CRC: 1579918225
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 690fa487ff25549e8a80dc9207d95a14
+    Hash: 611474b74179b04bc65d4231da1fcf29
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -525,6 +525,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/piratasPreocupados.jpg
 - Assets/Resuources_in_bundles/assets/ordenarBaile_1.jpg
 - Assets/Resuources_in_bundles/assets/gallina_chica.png
+- Assets/Resuources_in_bundles/assets/hornero2.png
 - Assets/Resuources_in_bundles/assets/ramoncitoAsustado.jpg
 - Assets/Resuources_in_bundles/assets/caballero.png
 - Assets/Resuources_in_bundles/assets/contenta.png
@@ -600,7 +601,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarPesca_3.jpg
 - Assets/Resuources_in_bundles/assets/osoDefiende.jpg
 - Assets/Resuources_in_bundles/assets/trajecola.png
-- Assets/Resuources_in_bundles/assets/polleraVerdeChica.png
+- Assets/Resuources_in_bundles/assets/gatapeluda.png
 - Assets/Resuources_in_bundles/assets/ordenarGenioBotella_1.jpg
 - Assets/Resuources_in_bundles/assets/liebre.jpg
 - Assets/Resuources_in_bundles/assets/ojos.png
@@ -614,6 +615,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/elefante_sin_orejas.png
 - "Assets/Resuources_in_bundles/assets/ca\xF1a.png"
 - Assets/Resuources_in_bundles/assets/bolita_amarilla.png
+- Assets/Resuources_in_bundles/assets/polleraVerdeChica.png
 - Assets/Resuources_in_bundles/assets/zorro2.jpg
 - Assets/Resuources_in_bundles/assets/ordenarLiebreTortuga3.jpg
 - Assets/Resuources_in_bundles/assets/ordenarCaperucitaRojaL22.jpg
