@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4115673304
+CRC: 1622359816
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -355,4 +355,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_117:
       Name: completar/danyfamilia3.esp
+      Dependencies: {}
+    Info_118:
+      Name: assets/images.esp
       Dependencies: {}

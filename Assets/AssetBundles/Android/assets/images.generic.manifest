@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 796104587
+CRC: 3002671542
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ebae171b0a57864e93386311a58ceb7b
+    Hash: 690fa487ff25549e8a80dc9207d95a14
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -85,7 +85,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/gato_grande.png
 - Assets/Resuources_in_bundles/assets/ordenarCaperucitaL14.jpg
 - Assets/Resuources_in_bundles/assets/ordenarGenioBotella_2.jpg
-- Assets/Resuources_in_bundles/assets/ordenarMalevo3.jpg
 - Assets/Resuources_in_bundles/assets/peces_5.jpg
 - Assets/Resuources_in_bundles/assets/rana2.png
 - Assets/Resuources_in_bundles/assets/ordenarGallina1.jpg
@@ -524,9 +523,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/instruccionesGlobo_3.jpg
 - Assets/Resuources_in_bundles/assets/mama.png
 - Assets/Resuources_in_bundles/assets/piratasPreocupados.jpg
-- Assets/Resuources_in_bundles/assets/fraseBichoBolita_2.png
 - Assets/Resuources_in_bundles/assets/ordenarBaile_1.jpg
-- Assets/Resuources_in_bundles/assets/gata_peluda.png
 - Assets/Resuources_in_bundles/assets/gallina_chica.png
 - Assets/Resuources_in_bundles/assets/ramoncitoAsustado.jpg
 - Assets/Resuources_in_bundles/assets/caballero.png

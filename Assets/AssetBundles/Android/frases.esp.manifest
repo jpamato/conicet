@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4230726519
+CRC: 2324799068
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7f107bfb969765ad2c449c0dbd908a5b
+    Hash: b8e8075b95e964ce94a3d480523ca1b3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -70,8 +70,9 @@ Assets:
 - Assets/Resuources_in_bundles/frases/contento_3.wav
 - Assets/Resuources_in_bundles/frases/frase_distraido2.wav
 - Assets/Resuources_in_bundles/frases/frase_perro2_2.wav
-- Assets/Resuources_in_bundles/frases/frase_enojado.wav
+- Assets/Resuources_in_bundles/frases/frase_gatapeluda.wav
 - "Assets/Resuources_in_bundles/frases/frase_\xF1andu2_3.wav"
+- Assets/Resuources_in_bundles/frases/frase_enojado.wav
 - Assets/Resuources_in_bundles/frases/frase_tripulacion.wav
 - Assets/Resuources_in_bundles/frases/romero.wav
 - Assets/Resuources_in_bundles/frases/frase_camion2.wav
@@ -98,7 +99,6 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_agua.wav
 - Assets/Resuources_in_bundles/frases/frase_caramelo.wav
 - Assets/Resuources_in_bundles/frases/frase_mano.wav
-- Assets/Resuources_in_bundles/frases/frase_gata_peluda.wav
 - Assets/Resuources_in_bundles/frases/frase_hamaca.wav
 - Assets/Resuources_in_bundles/frases/frase_contento2.wav
 - Assets/Resuources_in_bundles/frases/frase_loro.wav

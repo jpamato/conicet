@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 586806847
+CRC: 62580290
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9e91407ed2a629a4c0c932d8cb4832b0
+    Hash: 7153ff71d943bfb1129c599d68a03331
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -70,10 +70,9 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/introDanyAmigos_hard.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento_3.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_disfraz_lobo.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_11.wav
+- Assets/Resuources_in_bundles/genericTexts/toca_cucharas.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores7_6.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_4.wav
-- Assets/Resuources_in_bundles/genericTexts/toca_cucharas.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero1_2.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_abeja.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_caperucita_10.wav
@@ -99,7 +98,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos6_11.wav
 - Assets/Resuources_in_bundles/genericTexts/deci_verdura_como_uriel.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_dia_pesca.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_4.wav
 - Assets/Resuources_in_bundles/genericTexts/camaSizes1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/baileOso1_10.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia4_5.wav
@@ -107,7 +105,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos_2.wav
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja33_5.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_12.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_pantalon_amarillo.wav
 - Assets/Resuources_in_bundles/genericTexts/serpiente.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_completar_soloL2.wav
@@ -115,6 +112,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha.wav
 - Assets/Resuources_in_bundles/genericTexts/rompecabezas_zorro_gallina.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAnimales4_12.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo2_11.wav
 - Assets/Resuources_in_bundles/genericTexts/camello2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_bicho_bolita.wav
 - Assets/Resuources_in_bundles/genericTexts/letraR_2.wav
@@ -150,7 +148,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/adivinanza_osoHormiguero.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_rulitos_Nasheli_1.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga1_2.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_5.wav
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros1_9.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_auto_amarillo.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAnimales_7.wav
@@ -237,7 +234,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1O_2.wav
 - Assets/Resuources_in_bundles/genericTexts/escribir_genio_botella.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreEstados_1.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_3.wav
 - Assets/Resuources_in_bundles/genericTexts/introDanyAmigos_easy.wav
 - Assets/Resuources_in_bundles/genericTexts/coros_4.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamiliapt2_1.wav
@@ -292,7 +288,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_animales_dany.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos6_20.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_rima.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_16.wav
 - Assets/Resuources_in_bundles/genericTexts/gorro_lana.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores1_14.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_silla.wav
@@ -335,6 +330,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_conejo_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero6_6.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo8_6.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_13.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante3_9.wav
 - Assets/Resuources_in_bundles/genericTexts/letraS2L2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_quien_hace.wav
@@ -355,6 +351,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_12.wav
 - Assets/Resuources_in_bundles/genericTexts/categoriaAnimales2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos8_10.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_liebre_tortuga_1.wav
 - Assets/Resuources_in_bundles/genericTexts/bosque3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_malevo_4.wav
@@ -382,12 +379,11 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_verduras_cancion.wav
 - Assets/Resuources_in_bundles/genericTexts/pintar_baile_oso.wav
 - Assets/Resuources_in_bundles/genericTexts/categoriaColores_1.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_13.wav
+- Assets/Resuources_in_bundles/genericTexts/memoria_escondida.wav
 - Assets/Resuources_in_bundles/genericTexts/bosque1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/barco-andar.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_animales_voladores.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_completar_solo.wav
-- Assets/Resuources_in_bundles/genericTexts/memoria_escondida.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_cosas_vuelan.wav
 - Assets/Resuources_in_bundles/genericTexts/cuentosHambre4_4.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_manzanas.wav
@@ -400,10 +396,10 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/elegi_estados_bicho_bolita.wav
 - Assets/Resuources_in_bundles/genericTexts/vasoSizes2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/animalesPreferidos_3.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo5_5.wav
 - Assets/Resuources_in_bundles/genericTexts/bosque2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/serpiente_intro.wav
 - Assets/Resuources_in_bundles/genericTexts/agua.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_14.wav
 - Assets/Resuources_in_bundles/genericTexts/hornero_5.wav
 - "Assets/Resuources_in_bundles/genericTexts/\xF1andu_1.wav"
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_3.wav
@@ -448,6 +444,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/hornero_2.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_integracion_1.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_parte_cuento.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo2_9.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos9_11.wav
 - Assets/Resuources_in_bundles/genericTexts/caballoSizes1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante2_4.wav
@@ -481,6 +478,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/contar_piratas_cantores.wav
 - Assets/Resuources_in_bundles/genericTexts/gallina_1.wav
 - Assets/Resuources_in_bundles/genericTexts/cuentosHambre2_2.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo6_6.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento_2.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_bichobolita.wav
 - Assets/Resuources_in_bundles/genericTexts/letraOL2_1.wav
@@ -533,24 +531,26 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo4_4.wav
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel_1.wav
 - Assets/Resuources_in_bundles/genericTexts/uni_insecto_alimento.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_12.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga2_7.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_s.wav
-- "Assets/Resuources_in_bundles/genericTexts/mu\xF1eca-rebeca.wav"
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_15.wav
 - Assets/Resuources_in_bundles/genericTexts/coros_3.wav
 - Assets/Resuources_in_bundles/genericTexts/patoSizes2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja3_10.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_5.wav
 - Assets/Resuources_in_bundles/genericTexts/letraE_1.wav
-- Assets/Resuources_in_bundles/genericTexts/laberinto_rulitos.wav
+- "Assets/Resuources_in_bundles/genericTexts/mu\xF1eca-rebeca.wav"
 - Assets/Resuources_in_bundles/genericTexts/queSusto2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja5_11.wav
+- Assets/Resuources_in_bundles/genericTexts/laberinto_rulitos.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_bichos_bolita.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante1_2.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_luna_roja.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_17.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga3_9.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_objetos_iguales.wav
 - Assets/Resuources_in_bundles/genericTexts/intro_animales_salvajes.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo4_4.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos_24.wav
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1U_2.wav
 - Assets/Resuources_in_bundles/genericTexts/intro_rios.wav
@@ -559,6 +559,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/cancion_zorro_hornero.wav
 - Assets/Resuources_in_bundles/genericTexts/05.wav
 - Assets/Resuources_in_bundles/genericTexts/estrella.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_17.wav
 - Assets/Resuources_in_bundles/genericTexts/osoHormiguero_12.wav
 - Assets/Resuources_in_bundles/genericTexts/animalesPreferidos_2.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca5_14.wav
@@ -571,13 +572,12 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento_1.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos_4.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores1_13.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_15.wav
+- Assets/Resuources_in_bundles/genericTexts/danyFamilia_1.wav
 - Assets/Resuources_in_bundles/genericTexts/objetosCasa2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos5_19.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos_3.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_osos.wav
 - Assets/Resuources_in_bundles/genericTexts/animalesMiedo_1.wav
-- Assets/Resuources_in_bundles/genericTexts/danyFamilia_1.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_3.wav
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros1_10.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_ordenar_cuento.wav
@@ -653,13 +653,12 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRojapt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_toca.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_10.wav
+- Assets/Resuources_in_bundles/genericTexts/coros_33.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento_4.wav
 - Assets/Resuources_in_bundles/genericTexts/instruccionesGlobo.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_2.wav
 - Assets/Resuources_in_bundles/genericTexts/patoSizes1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/genio_botella_7.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_33.wav
 - Assets/Resuources_in_bundles/genericTexts/zorro.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero1_18.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucita1_1.wav
@@ -707,6 +706,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_pelotas.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dany_amigos_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_palabras_loro3.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos7_12.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_6.wav
@@ -777,6 +777,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo1_6.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_acciones_oso.wav
 - Assets/Resuources_in_bundles/genericTexts/laberinto_pirata .wav
+- Assets/Resuources_in_bundles/genericTexts/escuchaCasaMonte.wav
 - Assets/Resuources_in_bundles/genericTexts/categoriaObjetosCasa2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_termina_o.wav
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1A_1.wav
@@ -849,6 +850,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/bichoBolita2_7.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina6_6.wav
 - Assets/Resuources_in_bundles/genericTexts/serpiente_3.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo2_10.wav
 - Assets/Resuources_in_bundles/genericTexts/conejo6_5.wav
 - Assets/Resuources_in_bundles/genericTexts/letraML2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_bicho_bolita.wav
@@ -867,6 +869,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/animalesSalvajes2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga_1.wav
 - Assets/Resuources_in_bundles/genericTexts/cincoRatoncitos_1.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_14.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_bichos_bolita_3.wav
 - Assets/Resuources_in_bundles/genericTexts/preguntasusto_3.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_integracion3.wav
@@ -879,6 +882,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/preguntasusto_1.wav
 - Assets/Resuources_in_bundles/genericTexts/conejo6_12.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_genio.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_16.wav
 - Assets/Resuources_in_bundles/genericTexts/unir_animales_sonido.wav
 - Assets/Resuources_in_bundles/genericTexts/simon_zapallo_gigante.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_malevo_2.wav
@@ -924,15 +928,15 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/gallina_2.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_objetos_bosque.wav
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel10_10.wav
-- Assets/Resuources_in_bundles/genericTexts/pedro_globo_9.wav
-- Assets/Resuources_in_bundles/genericTexts/dani_pelota_3.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo_4.wav
+- Assets/Resuources_in_bundles/genericTexts/dani_pelota_3.wav
 - Assets/Resuources_in_bundles/genericTexts/contar_zapallos.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo6_10.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_viaje_espacio_1.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_13.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante5_15.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio1_1.wav
+- Assets/Resuources_in_bundles/genericTexts/lobo1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dia_pesca.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio6_13.wav
 - Assets/Resuources_in_bundles/genericTexts/animalesMonte_1.wav
@@ -987,7 +991,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/tip_unirL2.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina6_8.wav
 - Assets/Resuources_in_bundles/genericTexts/amigos_2.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_1.wav
+- Assets/Resuources_in_bundles/genericTexts/danyAmigos2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_genio_botella.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_baile_oso_1.wav
 - Assets/Resuources_in_bundles/genericTexts/diferenciasCaperucita_1.wav
@@ -998,7 +1002,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/cancion_sonidoAnimales_1.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_amenazantes.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_6.wav
-- Assets/Resuources_in_bundles/genericTexts/danyAmigos2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/mira_imagenes.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_caperucitaL2.wav
 - Assets/Resuources_in_bundles/genericTexts/genio_botella_11.wav
@@ -1055,7 +1058,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_6.wav
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1U_1.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucita_4.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_6.wav
 - Assets/Resuources_in_bundles/genericTexts/pocion_1.wav
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros6_13.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRojapt2_7.wav
@@ -1100,9 +1102,8 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel_2.wav
 - Assets/Resuources_in_bundles/genericTexts/unir_comida_color.wav
 - Assets/Resuources_in_bundles/genericTexts/genio_botella_10.wav
-- Assets/Resuources_in_bundles/genericTexts/lobo_2.wav
-- Assets/Resuources_in_bundles/genericTexts/amigos_5.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_sonidoAnimalesMonte.wav
+- Assets/Resuources_in_bundles/genericTexts/amigos_5.wav
 - Assets/Resuources_in_bundles/genericTexts/uni_arboles_estaciones.wav
 - Assets/Resuources_in_bundles/genericTexts/deci_toca_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_falling_objects.wav
