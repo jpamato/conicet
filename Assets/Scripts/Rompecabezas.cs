@@ -39,6 +39,12 @@ public class Rompecabezas : ScreenMain
         Events.StopAudioPlayer();
         Events.OnCharacterSay(null, null, CharactersManager.types.Nasheli);
     }
+    public override void Show(bool fromRight)
+    {
+        intro.SetActive(true);
+        anim.Play("idle");
+        gameReady = false;
+    }
     public override void OnReady()
     {
         nums = 0;
