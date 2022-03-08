@@ -86,8 +86,10 @@ public class Completar : ScreenMain
         folderName = arr[1];
         characterName = arr[2];
 
-        if(fileName.Contains("_cancion"))
+        if (fileName.Contains("_cancion"))
             isSong = true;
+        else
+            isSong = false;
 
         SetCharacter();
 
