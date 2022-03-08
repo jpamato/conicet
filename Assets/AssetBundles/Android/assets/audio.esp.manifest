@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4216619137
+CRC: 694031623
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e21c64b85f2bcd02080724834fca5e6d
+    Hash: b14ec54a19629809ea4e3e16403ac1b3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -18,6 +18,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_sombrilla_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/descripcion_malevo_3.wav
 - Assets/Resuources_in_bundles/assets/audio/lucasAlanContentos.wav
+- Assets/Resuources_in_bundles/assets/audio/zorro3.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_lampara_inicio.wav
 - "Assets/Resuources_in_bundles/assets/audio/loro_ara\xF1a_inicio.wav"
 - Assets/Resuources_in_bundles/assets/audio/palmeras.wav
@@ -352,6 +353,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/planeta.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_luna_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/uno.wav
+- Assets/Resuources_in_bundles/assets/audio/hornero2.wav
 - Assets/Resuources_in_bundles/assets/audio/olerteMejor.wav
 - Assets/Resuources_in_bundles/assets/audio/zapatilla.wav
 - Assets/Resuources_in_bundles/assets/audio/celeste.wav
