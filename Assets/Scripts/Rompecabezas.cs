@@ -41,9 +41,8 @@ public class Rompecabezas : ScreenMain
     }
     public override void Show(bool fromRight)
     {
-        intro.SetActive(true);
+        base.Show(fromRight);
         anim.Play("idle");
-        gameReady = false;
     }
     public override void OnReady()
     {
