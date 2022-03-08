@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1579918225
+CRC: 2147896953
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 611474b74179b04bc65d4231da1fcf29
+    Hash: 7e0f6cd9ffff56eaa7f9f5ee86a0a1fd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -549,6 +549,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/oso_hormiguero1.jpg
 - Assets/Resuources_in_bundles/assets/ajo.png
 - Assets/Resuources_in_bundles/assets/bolita_violeta.png
+- Assets/Resuources_in_bundles/assets/ordenarMalevo3.jpg
 - Assets/Resuources_in_bundles/assets/fraseBichoBolita_4.png
 - Assets/Resuources_in_bundles/assets/dia_pesca_5.jpg
 - Assets/Resuources_in_bundles/assets/zapatillas_blanco.png
