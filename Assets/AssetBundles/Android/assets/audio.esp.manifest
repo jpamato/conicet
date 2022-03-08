@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4273559446
+CRC: 4216619137
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3222d72ca68fbd37a71a0165f915fcd7
+    Hash: e21c64b85f2bcd02080724834fca5e6d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -370,6 +370,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/pablitoAtento.wav
 - Assets/Resuources_in_bundles/assets/audio/oso2.wav
 - Assets/Resuources_in_bundles/assets/audio/nandu_1.wav
+- Assets/Resuources_in_bundles/assets/audio/oscarcito_rana_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/elefante.wav
 - Assets/Resuources_in_bundles/assets/audio/simon.wav
 - Assets/Resuources_in_bundles/assets/audio/perro.wav
