@@ -108,6 +108,7 @@ public class Completar : ScreenMain
             //    image.enabled = false;
             //else
                 image.sprite = sprite;
+            image.enabled = true;
         }
         else
         {

@@ -22,6 +22,12 @@ public class Contar : ScreenMain
         base.Hide(toLeft);
         Utils.RemoveAllChildsIn(container);
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+        Utils.RemoveAllChildsIn(imagesContainer);
+        Utils.RemoveAllChildsIn(container);
+    }
     private void OnEnable()
     {
         Utils.RemoveAllChildsIn(imagesContainer);
