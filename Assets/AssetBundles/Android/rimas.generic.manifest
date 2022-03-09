@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1884431631
+CRC: 4159458561
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d11b49e72a13de1c09c8a09fd7196137
+    Hash: 11ce2547303720084d1b25f9d8de9b34
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -28,7 +28,6 @@ Assets:
 - Assets/Resuources_in_bundles/rimas/rima_piedra.png
 - Assets/Resuources_in_bundles/rimas/rima_dia_pesca_3.png
 - Assets/Resuources_in_bundles/rimas/rima_malevo.png
-- Assets/Resuources_in_bundles/rimas/rima_baile_oso_2.png
 - Assets/Resuources_in_bundles/rimas/rima_palabras_loro.png
 - Assets/Resuources_in_bundles/rimas/rima_bichos_bolita.png
 - Assets/Resuources_in_bundles/rimas/rima_pequeno.png

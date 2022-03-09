@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1319883590
+CRC: 3705681711
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4556f41c6b1898055aa11d75771c9248
+    Hash: 63f5290c2a1603f9e90f89b03e0efeca
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -927,7 +927,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia2_4.wav
 - Assets/Resuources_in_bundles/genericTexts/gallina_2.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_objetos_bosque.wav
-- Assets/Resuources_in_bundles/genericTexts/barquitoPapel10_10.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo_4.wav
 - Assets/Resuources_in_bundles/genericTexts/dani_pelota_3.wav
 - Assets/Resuources_in_bundles/genericTexts/contar_zapallos.wav

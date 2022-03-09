@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 694031623
+CRC: 2473501210
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b14ec54a19629809ea4e3e16403ac1b3
+    Hash: aad40103016e2b69135f8d057a084d92
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -174,7 +174,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/leche_blanca.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_chico_rojo.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_pez_inicio.wav
-- Assets/Resuources_in_bundles/assets/audio/loro_globo_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_globorojo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/descripcion_malevo_5.wav
 - Assets/Resuources_in_bundles/assets/audio/instruccionesGlobo_5.wav
 - Assets/Resuources_in_bundles/assets/audio/verano.wav
