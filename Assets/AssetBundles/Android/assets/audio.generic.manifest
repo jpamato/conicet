@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3247879950
+CRC: 3573219851
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ee7294af4e2de9d3c5324ad71004fad4
+    Hash: 5e1243a47c88c789192f8b97331a873e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -13,5 +13,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resuources_in_bundles/assets/audio/gallina_marron.wav
+- Assets/Resuources_in_bundles/assets/audio/caldero_magico1.wav
 Dependencies: []

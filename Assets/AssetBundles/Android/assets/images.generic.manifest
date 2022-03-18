@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3449372429
+CRC: 2857896682
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a86edd9f14c13aebc8d2310842c4d118
+    Hash: a56a30c6c119620ddf8c6e2778d5b11b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -579,6 +579,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/chanco_chico.png
 - Assets/Resuources_in_bundles/assets/feria.png
 - Assets/Resuources_in_bundles/assets/chivosAdentro.jpg
+- Assets/Resuources_in_bundles/assets/ordenarZorroHornero5.jpg
 - Assets/Resuources_in_bundles/assets/pajaro_silbando.png
 - Assets/Resuources_in_bundles/assets/antenas_mariposa.png
 - Assets/Resuources_in_bundles/assets/hueso_hueso.png

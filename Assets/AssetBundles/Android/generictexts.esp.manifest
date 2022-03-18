@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3707340553
+CRC: 2777721261
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 54b00bdb17d2c268363e2ac7d0b8b585
+    Hash: 43a2bd2154c493d15ae9c06f6393cf61
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -384,6 +384,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_animales_voladores.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_completar_solo.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_cosas_vuelan.wav
+- Assets/Resuources_in_bundles/genericTexts/zorroGallina8_2.wav
 - Assets/Resuources_in_bundles/genericTexts/cuentosHambre4_4.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_manzanas.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucita_3.wav
@@ -653,6 +654,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_toca.wav
 - Assets/Resuources_in_bundles/genericTexts/coros_33.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento_4.wav
+- Assets/Resuources_in_bundles/genericTexts/zorroGallina5_5.wav
 - Assets/Resuources_in_bundles/genericTexts/instruccionesGlobo.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_2.wav
 - Assets/Resuources_in_bundles/genericTexts/patoSizes1_1.wav
