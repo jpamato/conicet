@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e6184a485979364f8b75c8c564b9add
+guid: e8e49ae98c6626146a4f229ac0c5f601
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
@@ -8,15 +8,15 @@ AudioImporter:
     sampleRateSetting: 0
     sampleRateOverride: 44100
     compressionFormat: 1
-    quality: 0.5
+    quality: 1
     conversionMode: 0
   platformSettingOverrides: {}
-  forceToMono: 1
+  forceToMono: 0
   normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
   ambisonic: 0
   3D: 1
   userData: 
-  assetBundleName: generictexts
-  assetBundleVariant: esp
+  assetBundleName: 
+  assetBundleVariant: 

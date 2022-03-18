@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2473501210
+CRC: 2800203828
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: aad40103016e2b69135f8d057a084d92
+    Hash: 4cccf7cb0e6e88abd9b4befd690fd2f7
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -414,7 +414,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_melisa_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/osoHormiguero_3.wav
 - Assets/Resuources_in_bundles/assets/audio/caballo_grande.wav
-- Assets/Resuources_in_bundles/assets/audio/caldero_magico.wav
 - Assets/Resuources_in_bundles/assets/audio/copa.wav
 - Assets/Resuources_in_bundles/assets/audio/raton2.wav
 - Assets/Resuources_in_bundles/assets/audio/tarde.wav

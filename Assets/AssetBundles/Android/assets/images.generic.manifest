@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3301665559
+CRC: 3449372429
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8a5920b7841cdff79937cb9438265217
+    Hash: a86edd9f14c13aebc8d2310842c4d118
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -136,7 +136,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/negro.png
 - Assets/Resuources_in_bundles/assets/notaMusical1.png
 - Assets/Resuources_in_bundles/assets/cama_chica.png
-- Assets/Resuources_in_bundles/assets/caldero_magico2.png
 - Assets/Resuources_in_bundles/assets/burro_escrito.png
 - Assets/Resuources_in_bundles/assets/rana_mediana.png
 - Assets/Resuources_in_bundles/assets/sonido_silbar.png

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3705681711
+CRC: 3707340553
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 63f5290c2a1603f9e90f89b03e0efeca
+    Hash: 54b00bdb17d2c268363e2ac7d0b8b585
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -323,14 +323,13 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos3_5.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos4_7.wav
 - Assets/Resuources_in_bundles/genericTexts/alimentosCanasta_1.wav
-- Assets/Resuources_in_bundles/genericTexts/zorroGallina2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/planetas_1.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_13.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio7_16.wav
 - Assets/Resuources_in_bundles/genericTexts/elefante_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_conejo_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero6_6.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo8_6.wav
-- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_13.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante3_9.wav
 - Assets/Resuources_in_bundles/genericTexts/letraS2L2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_quien_hace.wav
@@ -454,7 +453,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/adivinanza_camello.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_questions.wav
-- Assets/Resuources_in_bundles/genericTexts/zorroGallina6_5.wav
 - Assets/Resuources_in_bundles/genericTexts/contar_genio_botella.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca2_8.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia2_6.wav
