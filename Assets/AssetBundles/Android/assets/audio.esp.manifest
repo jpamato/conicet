@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2800203828
+CRC: 1382352635
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4cccf7cb0e6e88abd9b4befd690fd2f7
+    Hash: 795aeff89b67104763dd75f95ba0fe46
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -168,6 +168,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_pis_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/oso_hormiguero.wav
 - Assets/Resuources_in_bundles/assets/audio/danyAsustado.wav
+- Assets/Resuources_in_bundles/assets/audio/distanciados-antiguo1.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso_chico.wav
 - Assets/Resuources_in_bundles/assets/audio/auto_chico_rojo.wav
 - Assets/Resuources_in_bundles/assets/audio/venus.wav
@@ -433,6 +434,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/bolita_verde.wav
 - Assets/Resuources_in_bundles/assets/audio/antenas_mariposa.wav
 - Assets/Resuources_in_bundles/assets/audio/cuchara.wav
+- Assets/Resuources_in_bundles/assets/audio/despierto-antiguo1.wav
 - Assets/Resuources_in_bundles/assets/audio/marte.wav
 - Assets/Resuources_in_bundles/assets/audio/caballo_chico.wav
 - Assets/Resuources_in_bundles/assets/audio/nube.wav
@@ -455,6 +457,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/brazo.wav
 - Assets/Resuources_in_bundles/assets/audio/cubo.wav
 - Assets/Resuources_in_bundles/assets/audio/dia_pesca_4.wav
+- Assets/Resuources_in_bundles/assets/audio/caldero_magico1.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_uno_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/pollito.wav
 - Assets/Resuources_in_bundles/assets/audio/mosquito.wav
