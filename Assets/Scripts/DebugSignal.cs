@@ -10,7 +10,9 @@ public class DebugSignal : MonoBehaviour
 
     void Start()
     {
+#if UNITY_EDITOR
         Events.Log += Log;
+#endif
         Close();
     }
      void OnDestroy()
