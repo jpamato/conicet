@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1382352635
+CRC: 953689409
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 795aeff89b67104763dd75f95ba0fe46
+    Hash: 492147c19632879c47a3bd9d08077494
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -85,6 +85,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/tallo.wav
 - Assets/Resuources_in_bundles/assets/audio/verde.wav
 - Assets/Resuources_in_bundles/assets/audio/escucharteMejor.wav
+- Assets/Resuources_in_bundles/assets/audio/sombrero_pirata.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_rio_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_mesa_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/pan.wav
@@ -583,6 +584,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/rincon.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_gallo_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/trompeta.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_oreja_final.wav
 - Assets/Resuources_in_bundles/assets/audio/gorra.wav
 - Assets/Resuources_in_bundles/assets/audio/asombrado.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_ombu_final.wav
@@ -591,8 +593,9 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/silla_mediana.wav
 - Assets/Resuources_in_bundles/assets/audio/charquito_leche.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_llave_inicio.wav
-- Assets/Resuources_in_bundles/assets/audio/loro_pileta_final.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_mago_final.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_boca_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_pileta_final.wav
 - Assets/Resuources_in_bundles/assets/audio/conejo2.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_pie_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/lucasAlanAsustados.wav
@@ -660,7 +663,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_pajarovuela_final.wav
 - Assets/Resuources_in_bundles/assets/audio/contento.wav
 - Assets/Resuources_in_bundles/assets/audio/ramoncitoPreocupado.wav
-- Assets/Resuources_in_bundles/assets/audio/sombrero_calavera.wav
 - Assets/Resuources_in_bundles/assets/audio/rulitos.wav
 - Assets/Resuources_in_bundles/assets/audio/yacare2.wav
 - Assets/Resuources_in_bundles/assets/audio/danyContento.wav

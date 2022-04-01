@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 160285858
+CRC: 4053852748
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7ad2033849d825b7e7d386bb492f9bf3
+    Hash: 9f31510fc761dd4a62593695617e3cb6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -288,6 +288,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_animales_dany.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos6_20.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_rima.wav
+- Assets/Resuources_in_bundles/genericTexts/genioBotella3_10.wav
 - Assets/Resuources_in_bundles/genericTexts/gorro_lana.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores1_14.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_silla.wav
@@ -698,10 +699,9 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/intro_camello.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_dice.wav
 - Assets/Resuources_in_bundles/genericTexts/unir_pez_color.wav
-- Assets/Resuources_in_bundles/genericTexts/genio_botella_12.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio7_19.wav
-- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja7_18.wav
 - "Assets/Resuources_in_bundles/genericTexts/ma\xF1ana.wav"
+- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja7_18.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_vehiculos.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_pelotas.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dany_amigos_1.wav
@@ -841,6 +841,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlan_3.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_integracion_2.wav
 - Assets/Resuources_in_bundles/genericTexts/Toca_instrumentos_musicales.wav
+- Assets/Resuources_in_bundles/genericTexts/genioBotella3_11.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_pelota_azul.wav
 - Assets/Resuources_in_bundles/genericTexts/laberinto_bicho_bolita.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_risa_pajaros_2.wav
@@ -959,7 +960,6 @@ Assets:
 - "Assets/Resuources_in_bundles/genericTexts/toca_mu\xF1eca.wav"
 - Assets/Resuources_in_bundles/genericTexts/toca_a.wav
 - Assets/Resuources_in_bundles/genericTexts/cuentosHambre1_1.wav
-- Assets/Resuources_in_bundles/genericTexts/cancion_caperucita_2.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina4_3.wav
@@ -1003,7 +1003,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_6.wav
 - Assets/Resuources_in_bundles/genericTexts/mira_imagenes.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_caperucitaL2.wav
-- Assets/Resuources_in_bundles/genericTexts/genio_botella_11.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos4_9.wav
 - Assets/Resuources_in_bundles/genericTexts/pocion_4.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos5_25.wav
@@ -1031,6 +1030,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_termina_a.wav
 - Assets/Resuources_in_bundles/genericTexts/peces_1.wav
 - Assets/Resuources_in_bundles/genericTexts/conversemos_sobreL2.wav
+- Assets/Resuources_in_bundles/genericTexts/genioBotella3_12.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca3_10.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_piratas_cantores.wav
 - Assets/Resuources_in_bundles/genericTexts/genioBotella_2.wav
@@ -1100,9 +1100,8 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/intro_animales_granja.wav
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel_2.wav
 - Assets/Resuources_in_bundles/genericTexts/unir_comida_color.wav
-- Assets/Resuources_in_bundles/genericTexts/genio_botella_10.wav
-- Assets/Resuources_in_bundles/genericTexts/cancion_sonidoAnimalesMonte.wav
 - Assets/Resuources_in_bundles/genericTexts/amigos_5.wav
+- Assets/Resuources_in_bundles/genericTexts/cancion_sonidoAnimalesMonte.wav
 - Assets/Resuources_in_bundles/genericTexts/uni_arboles_estaciones.wav
 - Assets/Resuources_in_bundles/genericTexts/deci_toca_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_falling_objects.wav
