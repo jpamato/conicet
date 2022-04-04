@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2034212001
+CRC: 171398519
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d6430e051ed9ba53d21316217909ffd2
+    Hash: 78400cd5c349e645f73c3cd403ee8352
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -684,6 +684,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/chancho_mediano.png
 - Assets/Resuources_in_bundles/assets/pierna.png
 - Assets/Resuources_in_bundles/assets/vecinosCargaron.jpg
+- Assets/Resuources_in_bundles/assets/ordenarPiratasCantores_5.jpg
 - Assets/Resuources_in_bundles/assets/baile_oso_5.jpg
 - Assets/Resuources_in_bundles/assets/malevo_hambriento.png
 - Assets/Resuources_in_bundles/assets/abuela.png

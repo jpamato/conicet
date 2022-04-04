@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 953689409
+CRC: 2340810950
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 492147c19632879c47a3bd9d08077494
+    Hash: 7a824012b1983f692b6cc8c765640614
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -15,6 +15,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/assets/audio/cama_mediana.wav
 - Assets/Resuources_in_bundles/assets/audio/ordenarMalevo4.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_pileta_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sombrilla_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/descripcion_malevo_3.wav
 - Assets/Resuources_in_bundles/assets/audio/lucasAlanContentos.wav
@@ -452,6 +453,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/gato_grande.wav
 - Assets/Resuources_in_bundles/assets/audio/galletitas.wav
 - Assets/Resuources_in_bundles/assets/audio/hormiga.wav
+- Assets/Resuources_in_bundles/assets/audio/corno.wav
 - Assets/Resuources_in_bundles/assets/audio/saturno.wav
 - Assets/Resuources_in_bundles/assets/audio/remera.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_medias_inicio.wav
@@ -469,6 +471,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/nandu_corriendo.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_tenedor_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/dar.wav
+- Assets/Resuources_in_bundles/assets/audio/oscarcito_pie_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/instruccionesGlobo_4.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_ca_1.wav
 - Assets/Resuources_in_bundles/assets/audio/caperucitaSorprendidaL2.wav
@@ -613,8 +616,9 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/monoChicoAmarillo.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_mapa_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/pedro_globo_18.wav
-- Assets/Resuources_in_bundles/assets/audio/huevo.wav
+- Assets/Resuources_in_bundles/assets/audio/oscarcito_lobo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/baile_oso_1.wav
+- Assets/Resuources_in_bundles/assets/audio/huevo.wav
 - Assets/Resuources_in_bundles/assets/audio/malevo_contento.wav
 - Assets/Resuources_in_bundles/assets/audio/manana.wav
 - Assets/Resuources_in_bundles/assets/audio/gallina2.wav
@@ -677,6 +681,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_zapallo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/sonido_cacarear.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_saturno_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/oscarcito_caperucita_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/chico.wav
 - Assets/Resuources_in_bundles/assets/audio/turbante.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_loro_inicio.wav
