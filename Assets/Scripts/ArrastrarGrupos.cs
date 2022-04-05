@@ -206,14 +206,16 @@ public class ArrastrarGrupos : ScreenMain
             int totalOK = 0;
             foreach (DragueableItem di in items)
             {
-                if(di.transform.position.y<200)
+                Vector2 pos = Camera.main.ScreenToViewportPoint(di.transform.position);
+
+                if (pos.y<0.5f)
                 {
                     //ignore:
                     di.GetComponentInChildren<SimpleFeedback>().SetOff();
                     di.isOk = false;
                     di.isDone = false;
                 }
-                else if ((di.isLeft && di.transform.position.x < 500) || (!di.isLeft && di.transform.position.x >500))
+                else if ((di.isLeft && pos.x < 0.5f) || (!di.isLeft && pos.x > 0.5f))
                 {
                     di.isOk = true;
                     if (!di.isDone)

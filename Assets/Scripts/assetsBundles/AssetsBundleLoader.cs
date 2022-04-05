@@ -263,7 +263,9 @@ namespace Conicet.AssetsBundle
         //}
         public AudioClip GetAssetAsAudioClip(string bundleName, string asset)
         {
+#if UNITY_EDITOR
             Debug.Log("Get AudioClip: " + bundleName + " asset: " + asset);
+#endif
             if (!bundles.ContainsKey(bundleName)) return null;
             AssetBundle assetBundle = bundles[bundleName];
             AudioClip go = assetBundle.LoadAsset(asset) as AudioClip;
@@ -271,7 +273,9 @@ namespace Conicet.AssetsBundle
         }
         public Texture2D GetAssetAsTexture2D(string bundleName, string asset)
         {
+#if UNITY_EDITOR
             Debug.Log("Get Sprite: " + bundleName + " asset: " + asset);
+#endif
             if (!bundles.ContainsKey(bundleName)) return null;
             AssetBundle assetBundle = bundles[bundleName];
             Texture2D go = assetBundle.LoadAsset(asset) as Texture2D;
