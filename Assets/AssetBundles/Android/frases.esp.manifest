@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2324799068
+CRC: 656446264
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b8e8075b95e964ce94a3d480523ca1b3
+    Hash: 91fdd60c6a66765f63a51bfd14534477
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -13,11 +13,11 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Resuources_in_bundles/frases/frase_pajaro2_4.wav
 - Assets/Resuources_in_bundles/frases/frase_barco.wav
-- Assets/Resuources_in_bundles/frases/frase_yacare_2.wav
 - Assets/Resuources_in_bundles/frases/frase_caballero.wav
+- Assets/Resuources_in_bundles/frases/frase_yacare_2.wav
 - Assets/Resuources_in_bundles/frases/frase_pelota2.wav
-- Assets/Resuources_in_bundles/frases/frase_pajarovuela.wav
 - Assets/Resuources_in_bundles/frases/frase_lombriz.wav
 - Assets/Resuources_in_bundles/frases/frase_serpiente2_3.wav
 - Assets/Resuources_in_bundles/frases/llorando.wav
@@ -47,7 +47,6 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_elefante_2.wav
 - Assets/Resuources_in_bundles/frases/frase_gallina.wav
 - Assets/Resuources_in_bundles/frases/frase_pelota3.wav
-- "Assets/Resuources_in_bundles/frases/frase_\xF1anducorre.wav"
 - Assets/Resuources_in_bundles/frases/frase_rana.wav
 - Assets/Resuources_in_bundles/frases/frase_hornero2.wav
 - Assets/Resuources_in_bundles/frases/frase_zorro2_2.wav
@@ -59,6 +58,7 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_canario.wav
 - Assets/Resuources_in_bundles/frases/frase_estrella.wav
 - Assets/Resuources_in_bundles/frases/lobo_corre.wav
+- "Assets/Resuources_in_bundles/frases/frase_\xF1andu2_4.wav"
 - Assets/Resuources_in_bundles/frases/asustada.wav
 - Assets/Resuources_in_bundles/frases/frase_zorro3.wav
 - Assets/Resuources_in_bundles/frases/frase_pajaros.wav
