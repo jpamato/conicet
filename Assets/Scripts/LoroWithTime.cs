@@ -74,7 +74,7 @@ public class LoroWithTime : ScreenMain
         if (isOk)
         {
             ok++;
-            if (ok > 5)
+            if (ok > 2)
                 Events.SetReadyButton(OnReadyClicked);
         }
         id++;
