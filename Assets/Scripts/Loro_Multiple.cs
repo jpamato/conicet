@@ -47,6 +47,7 @@ public class Loro_Multiple : ScreenMain
     }
     public override void OnReady()
     {
+        firstWord = "";
         ok_words.Clear();
         wrong_words.Clear();
         signal.SetActive(false);
