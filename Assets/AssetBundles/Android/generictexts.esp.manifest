@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4211066425
+CRC: 1146298546
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0ec155e88235a33ef4bdf104be9d7f11
+    Hash: eda8641e74b7276443bb906c616dba1a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -1008,7 +1008,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rulitos4_9.wav
 - Assets/Resuources_in_bundles/genericTexts/pocion_4.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos5_25.wav
-- Assets/Resuources_in_bundles/genericTexts/bichoBolita3_14.wav
+- Assets/Resuources_in_bundles/genericTexts/bichoBolita4_14.wav
 - Assets/Resuources_in_bundles/genericTexts/bichoBolita3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/baileOso_3.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante3_10.wav
