@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2825804562
+CRC: 1749956783
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: aad34e69424529e04d78018ad636083b
+    Hash: 8c81147234927fd217e59cbb8b0e4fce
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -280,7 +280,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/02.wav
 - Assets/Resuources_in_bundles/genericTexts/recetaCaperucita4_5.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_cama.wav
-- Assets/Resuources_in_bundles/genericTexts/piratasCantores3_3.wav
+- Assets/Resuources_in_bundles/genericTexts/piratasCantores9_3.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_5.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_ropa.wav
 - Assets/Resuources_in_bundles/genericTexts/escucha_repeti_cosas_casa.wav
@@ -309,7 +309,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/laberinto_dany_amigos.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_conversarL2.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores3_16.wav
-- Assets/Resuources_in_bundles/genericTexts/hornero_1.wav
+- Assets/Resuources_in_bundles/genericTexts/hornero1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/letraOL2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_14.wav
@@ -402,7 +402,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/bosque2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/serpiente_intro.wav
 - Assets/Resuources_in_bundles/genericTexts/agua.wav
-- Assets/Resuources_in_bundles/genericTexts/hornero_5.wav
+- Assets/Resuources_in_bundles/genericTexts/hornero1_5.wav
 - "Assets/Resuources_in_bundles/genericTexts/\xF1andu_1.wav"
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo1_7.wav
@@ -443,7 +443,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_empieza_ajo.wav
 - Assets/Resuources_in_bundles/genericTexts/oso_7.wav
 - Assets/Resuources_in_bundles/genericTexts/tenedor.wav
-- Assets/Resuources_in_bundles/genericTexts/hornero_2.wav
+- Assets/Resuources_in_bundles/genericTexts/hornero2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_integracion_1.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_parte_cuento.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo2_9.wav
@@ -462,7 +462,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_avion_rojo.wav
 - Assets/Resuources_in_bundles/genericTexts/hornero.wav
 - Assets/Resuources_in_bundles/genericTexts/pata_palo.wav
-- Assets/Resuources_in_bundles/genericTexts/hornero_3.wav
+- Assets/Resuources_in_bundles/genericTexts/hornero3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros3_8.wav
 - Assets/Resuources_in_bundles/genericTexts/cuerpo.wav
 - Assets/Resuources_in_bundles/genericTexts/intro_oso_hormiguero.wav
@@ -774,7 +774,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_bicho_bolita_3.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio2_2.wav
-- Assets/Resuources_in_bundles/genericTexts/hornero_4.wav
+- Assets/Resuources_in_bundles/genericTexts/hornero2_4.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos4_6.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo1_6.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_acciones_oso.wav
