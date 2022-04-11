@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6097eff089cf7b642acb45567abde3ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceServerDownload: 1
+  forceServerDownload: 0
   assetsBundleLoader: {fileID: 333912679}
 --- !u!4 &333912681
 Transform:

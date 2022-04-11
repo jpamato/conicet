@@ -20,7 +20,8 @@ public class AssetsData : DataLoader
         DEFAULT,
         MEDIO,
         INITIAL,
-        FINAL
+        FINAL,
+        SILABA
     }
     public override void Reset()
     {
@@ -50,6 +51,8 @@ public class AssetsData : DataLoader
             return _name + "_inicio";
         else if (loroType == loroWordsType.FINAL)
             return _name + "_final";
+        else if (loroType == loroWordsType.SILABA)
+            return _name + "_silaba";
         else
             return _name;
     }

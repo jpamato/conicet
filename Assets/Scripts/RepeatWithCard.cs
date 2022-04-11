@@ -55,6 +55,12 @@ public class RepeatWithCard : ScreenMain
             string[] arr = audio_text.Split(":"[0]);
             if (arr.Length > 1)
                 audio_text = arr[0];
+
+            if (characterName == "silaba")
+            {               
+                audio_text = Data.Instance.assetsData.GetSoundForLoro(audio_text, AssetsData.loroWordsType.SILABA);
+            }
+
             string s = "assets/audio" + Utils.GetLangFolder() + "/" + audio_text;
 
             if(characterName != "")
@@ -63,8 +69,8 @@ public class RepeatWithCard : ScreenMain
             Events.PlaySoundTillReady("voices", s, WordSaid);
         }
     }
-    string characterName = "";
-    string audio_text = "";
+    public string characterName = "";
+    public string audio_text = "";
     void AddCard()
     {
         print(content.Count);

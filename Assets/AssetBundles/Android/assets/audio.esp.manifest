@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1183900162
+CRC: 254901005
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 474f8dcdadd5e5d434ef16b569437e26
+    Hash: 1acd9cf9a91f682d30d06af6628036bc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -767,6 +767,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/nandu.wav
 - Assets/Resuources_in_bundles/assets/audio/bosque.wav
 - Assets/Resuources_in_bundles/assets/audio/pantalon.wav
+- Assets/Resuources_in_bundles/assets/audio/cama_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/alegre.wav
 - Assets/Resuources_in_bundles/assets/audio/remeraNegra.wav
 - Assets/Resuources_in_bundles/assets/audio/carne.wav
