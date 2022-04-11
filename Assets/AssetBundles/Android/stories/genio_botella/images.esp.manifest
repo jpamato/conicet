@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2149471486
+CRC: 3884245899
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5e19700996c96fbb2de6670302816d09
+    Hash: 2c673f14deb6e20158ee5bb9e98a7fac
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -20,16 +20,7 @@ Assets:
 - Assets/Resuources_in_bundles/stories/genio_botella/images/7.png
 - Assets/Resuources_in_bundles/stories/genio_botella/images/9.png
 - Assets/Resuources_in_bundles/stories/genio_botella/images/16.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/13.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/4.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/6.png
 - Assets/Resuources_in_bundles/stories/genio_botella/images/11.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/2.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/10.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/12.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/17.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/15.png
-- Assets/Resuources_in_bundles/stories/genio_botella/images/8.png
 - Assets/Resuources_in_bundles/stories/genio_botella/images/14.png
 - Assets/Resuources_in_bundles/stories/genio_botella/images/1.png
 Dependencies: []

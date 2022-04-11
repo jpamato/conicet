@@ -98,8 +98,8 @@ public class StoryTeller : ScreenMain
 
         //  Sprite s = Resources.Load<Sprite>("stories/"+content.folder+"/images/"+(id+1));
         Sprite s = Data.Instance.GetSprite("stories/" + content.folder + "/images/" + (id + 1));
-
-        SetSprite(s);
+        if(s != null)
+            SetSprite(s);
         RectTransform rectTransform = field.GetComponent<RectTransform>();
         if (Data.Instance.lang == Data.langs.ESP)
         {
