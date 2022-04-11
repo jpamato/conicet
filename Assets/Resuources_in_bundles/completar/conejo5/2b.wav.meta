@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae2bcdb5cadbf824f8a8e8eb5b6f414f
+guid: 32bfd7d61197ac14cafabdc7a9de42a1
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
@@ -8,15 +8,15 @@ AudioImporter:
     sampleRateSetting: 0
     sampleRateOverride: 44100
     compressionFormat: 1
-    quality: 1
+    quality: 0.5
     conversionMode: 0
   platformSettingOverrides: {}
-  forceToMono: 0
+  forceToMono: 1
   normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
   ambisonic: 0
   3D: 1
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: completar/conejo5
+  assetBundleVariant: esp
