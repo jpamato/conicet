@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 171398519
+CRC: 726734863
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 78400cd5c349e645f73c3cd403ee8352
+    Hash: 84fa1de32ccdbbd84b95791f92e96ade
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -242,9 +242,10 @@ Assets:
 - Assets/Resuources_in_bundles/assets/piratasAlegres.png
 - Assets/Resuources_in_bundles/assets/nandu_3.jpg
 - Assets/Resuources_in_bundles/assets/ordenarConejo_2.jpg
-- Assets/Resuources_in_bundles/assets/tatu.png
+- Assets/Resuources_in_bundles/assets/ojo.png
 - Assets/Resuources_in_bundles/assets/catalejo.png
 - Assets/Resuources_in_bundles/assets/zapatillas_marron.png
+- Assets/Resuources_in_bundles/assets/tatu.png
 - Assets/Resuources_in_bundles/assets/ordenarDanyFamilia3.jpg
 - Assets/Resuources_in_bundles/assets/ombu.png
 - Assets/Resuources_in_bundles/assets/ordenarPesca_2.jpg

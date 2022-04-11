@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1146298546
+CRC: 2825804562
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eda8641e74b7276443bb906c616dba1a
+    Hash: aad34e69424529e04d78018ad636083b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -703,7 +703,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio7_19.wav
 - "Assets/Resuources_in_bundles/genericTexts/ma\xF1ana.wav"
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja7_18.wav
-- Assets/Resuources_in_bundles/genericTexts/tip_presentancion_estaciones.wav
+- Assets/Resuources_in_bundles/genericTexts/presentacion_estaciones.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_vehiculos.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_pelotas.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dany_amigos_1.wav

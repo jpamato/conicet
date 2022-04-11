@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2340810950
+CRC: 1183900162
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7a824012b1983f692b6cc8c765640614
+    Hash: 474f8dcdadd5e5d434ef16b569437e26
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -582,6 +582,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/cuchilloGrandeAmarillo.wav
 - Assets/Resuources_in_bundles/assets/audio/hornero.wav
 - Assets/Resuources_in_bundles/assets/audio/comerteMejor.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_ojo_final.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso.wav
 - Assets/Resuources_in_bundles/assets/audio/camion.wav
 - Assets/Resuources_in_bundles/assets/audio/rincon.wav
