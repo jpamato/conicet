@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2512410119
+CRC: 3663965585
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 13a4105ba31684ae76355155b8b27bcc
+    Hash: ba4aaeefdc7389acbdaa292008762338
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -26,10 +26,8 @@ Assets:
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/13.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/4.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/7.jpg
-- Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/16.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/11.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/10.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/12.jpg
-- Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/9.jpg
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/images/8.jpg
 Dependencies: []

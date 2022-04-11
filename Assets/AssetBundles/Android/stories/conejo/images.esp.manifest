@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3691754618
+CRC: 3050364738
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0a96a453e1bf49231cd34fc2a39a9b14
+    Hash: 6013fafe13a1c9deeac6e17cf8f32b30
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -15,16 +15,12 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resuources_in_bundles/stories/conejo/images/1.png
 - Assets/Resuources_in_bundles/stories/conejo/images/9.png
 - Assets/Resuources_in_bundles/stories/conejo/images/6.png
 - Assets/Resuources_in_bundles/stories/conejo/images/10.png
-- Assets/Resuources_in_bundles/stories/conejo/images/11.png
 - Assets/Resuources_in_bundles/stories/conejo/images/7.png
-- Assets/Resuources_in_bundles/stories/conejo/images/2.png
-- Assets/Resuources_in_bundles/stories/conejo/images/8.png
 - Assets/Resuources_in_bundles/stories/conejo/images/3.png
 - Assets/Resuources_in_bundles/stories/conejo/images/12.png
 - Assets/Resuources_in_bundles/stories/conejo/images/4.png
-- Assets/Resuources_in_bundles/stories/conejo/images/5.png
+- Assets/Resuources_in_bundles/stories/conejo/images/1.png
 Dependencies: []

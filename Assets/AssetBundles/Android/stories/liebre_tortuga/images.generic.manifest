@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2839880002
+CRC: 1516173572
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 33d60090a30400e4979eca484f73d819
+    Hash: f3a5550ea874c30aab796f82041fec6a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -17,9 +17,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/images/1.jpg
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/images/3.jpg
-- Assets/Resuources_in_bundles/stories/liebre_tortuga/images/2.jpg
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/images/5.jpg
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/images/4.jpg
-- Assets/Resuources_in_bundles/stories/liebre_tortuga/images/7.jpg
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/images/6.jpg
 Dependencies: []

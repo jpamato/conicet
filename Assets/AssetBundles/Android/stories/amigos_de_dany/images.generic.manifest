@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 749622695
+CRC: 3108232421
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 435d4b3a6961285ddcea0b9938bd8a39
+    Hash: bb4488eca78d7f0a6e5c29f209445b9b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -20,7 +20,6 @@ Assets:
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/8.jpg
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/1.jpg
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/2.jpg
-- Assets/Resuources_in_bundles/stories/amigos_de_dany/images/5.jpg
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/7.jpg
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/6.jpg
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/images/3.jpg
