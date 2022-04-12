@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 254901005
+CRC: 238252819
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1acd9cf9a91f682d30d06af6628036bc
+    Hash: 17f1a6ff0cab7524962da7bc8b865d87
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -43,6 +43,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/pecho.wav
 - Assets/Resuources_in_bundles/assets/audio/instruccionesGlobo_2.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_mono_medio.wav
+- Assets/Resuources_in_bundles/assets/audio/zapallo_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/espalda.wav
 - Assets/Resuources_in_bundles/assets/audio/adivinanza_camello.wav
 - Assets/Resuources_in_bundles/assets/audio/paraguas.wav
@@ -68,6 +69,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_globorojo_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/sonido_ladrar.wav
 - Assets/Resuources_in_bundles/assets/audio/llave.wav
+- Assets/Resuources_in_bundles/assets/audio/caperucita_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/avion.wav
 - Assets/Resuources_in_bundles/assets/audio/posiciones_bichos_5.wav
 - Assets/Resuources_in_bundles/assets/audio/mono3.wav
@@ -93,6 +95,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/oso_hormiguero3.wav
 - Assets/Resuources_in_bundles/assets/audio/gorro_verde.wav
 - Assets/Resuources_in_bundles/assets/audio/pantalon_amarillo.wav
+- Assets/Resuources_in_bundles/assets/audio/perro_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/pava.wav
 - Assets/Resuources_in_bundles/assets/audio/aterrorizado2.wav
 - Assets/Resuources_in_bundles/assets/audio/corre.wav
@@ -114,6 +117,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/pez-mojado.wav
 - Assets/Resuources_in_bundles/assets/audio/abuela.wav
 - Assets/Resuources_in_bundles/assets/audio/sombrilla.wav
+- Assets/Resuources_in_bundles/assets/audio/medias_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/oso.wav
 - Assets/Resuources_in_bundles/assets/audio/loro.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_pato_medio.wav
@@ -186,6 +190,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/naranja.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_silla_final.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_collar_final.wav
+- Assets/Resuources_in_bundles/assets/audio/mesa_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/asustada.wav
 - Assets/Resuources_in_bundles/assets/audio/fraseBichoBolita_5.wav
 - Assets/Resuources_in_bundles/assets/audio/burro.wav
@@ -422,6 +427,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/tarde.wav
 - Assets/Resuources_in_bundles/assets/audio/pescado_muerto.wav
 - Assets/Resuources_in_bundles/assets/audio/remera_negro.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/flecha.wav
 - Assets/Resuources_in_bundles/assets/audio/caballo_mediano.wav
 - Assets/Resuources_in_bundles/assets/audio/shampoo.wav
@@ -437,10 +443,12 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/antenas_mariposa.wav
 - Assets/Resuources_in_bundles/assets/audio/cuchara.wav
 - Assets/Resuources_in_bundles/assets/audio/despierto-antiguo1.wav
+- Assets/Resuources_in_bundles/assets/audio/lobo_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/marte.wav
 - Assets/Resuources_in_bundles/assets/audio/caballo_chico.wav
 - Assets/Resuources_in_bundles/assets/audio/nube.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_conejo_final.wav
+- Assets/Resuources_in_bundles/assets/audio/zapato_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/capitan.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_silla_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_abeja_inicio.wav
@@ -585,6 +593,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_ojo_final.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso.wav
 - Assets/Resuources_in_bundles/assets/audio/camion.wav
+- Assets/Resuources_in_bundles/assets/audio/pelota_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/rincon.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_gallo_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/trompeta.wav
@@ -725,6 +734,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/barba.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sol_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/malevo.wav
+- Assets/Resuources_in_bundles/assets/audio/casa_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_ocho_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/pablitoContento.wav
 - Assets/Resuources_in_bundles/assets/audio/zapatillasBlancas.wav
