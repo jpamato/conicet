@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1244334848
+CRC: 2850130232
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 919f874250535724efa754cbb62b5e15
+    Hash: 8302dc0d6de4be538d737673e9bbaac3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -13,6 +13,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resuources_in_bundles/stories/familia_dany/audios/qom_hard.wav
 - Assets/Resuources_in_bundles/stories/familia_dany/audios/hard.wav
 Dependencies: []

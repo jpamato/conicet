@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1799635976
+CRC: 2115574706
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7e4963bffea81fc9588e9339714c5692
+    Hash: 0a4187c5659ad8751d46bac21358e81d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -14,5 +14,4 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/stories/liebre_tortuga/audios/hard.wav
-- Assets/Resuources_in_bundles/stories/liebre_tortuga/audios/qom_hard.wav
 Dependencies: []

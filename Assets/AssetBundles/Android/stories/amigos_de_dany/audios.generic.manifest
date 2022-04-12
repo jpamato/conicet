@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3478572291
+CRC: 459843780
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f0a4d2a0a23ed2d16376b8d1b15957eb
+    Hash: 1204ec8176a7d4be6b66c7a41a6ccb53
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -15,5 +15,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/audios/hard_qom.wav
 - Assets/Resuources_in_bundles/stories/amigos_de_dany/audios/hard.wav
-- Assets/Resuources_in_bundles/stories/amigos_de_dany/audios/qom_hard.wav
 Dependencies: []
