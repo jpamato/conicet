@@ -29,6 +29,7 @@ public class Loro_Multiple : ScreenMain
 
     private void OnEnable()
     {
+        sayID = 0;
         field.text = "";
         cards.Clear();
         Utils.RemoveAllChildsIn(container);
@@ -36,6 +37,8 @@ public class Loro_Multiple : ScreenMain
     }
     public override void Show(bool fromRight)
     {
+        sayID = 0;
+        CancelInvoke();
         firstWord = "";
         thumb.enabled = false;
         base.Show(fromRight);
@@ -241,7 +244,6 @@ public class Loro_Multiple : ScreenMain
     }
     void Delayed()
     {
-        print("sayID " + sayID + " cards.Count: " + cards.Count + cards[sayID].text);
         SayAsset(cards[sayID].text, SayLoop);
         cards[sayID].GetComponent<Animation>().Play("allOn");
         sayID++;
