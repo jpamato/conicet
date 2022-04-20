@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 816102674
+CRC: 3810854830
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 626012e028d45c911aa59080bc6fec16
+    Hash: 44edb7f10bb320913ed9b41e9bcceccb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -547,6 +547,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_remera_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_pantalon_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/sonido_croar.wav
+- Assets/Resuources_in_bundles/assets/audio/muchacho.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sopa_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/plaza.wav
 - Assets/Resuources_in_bundles/assets/audio/charco_agua.wav

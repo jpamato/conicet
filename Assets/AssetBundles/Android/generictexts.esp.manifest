@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4068762081
+CRC: 463267787
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 040eaa906f5b0f37ff11c4435d4f4510
+    Hash: a5731445cff988d3a8a0229d000a6935
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -69,7 +69,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_10.wav
 - Assets/Resuources_in_bundles/genericTexts/dani_pelota_1.wav
 - Assets/Resuources_in_bundles/genericTexts/introDanyAmigos_hard.wav
-- Assets/Resuources_in_bundles/genericTexts/insectoAlimento_3.wav
+- Assets/Resuources_in_bundles/genericTexts/insectoAlimento2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_disfraz_lobo.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_cucharas.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores7_6.wav
@@ -230,7 +230,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_u.wav
 - Assets/Resuources_in_bundles/genericTexts/gallina-camina.wav
 - Assets/Resuources_in_bundles/genericTexts/ropas_2.wav
-- Assets/Resuources_in_bundles/genericTexts/rios1_2.wav
+- Assets/Resuources_in_bundles/genericTexts/rios3_2.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_6.wav
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1O_2.wav
 - Assets/Resuources_in_bundles/genericTexts/escribir_genio_botella.wav
@@ -245,7 +245,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_que_susto.wav
 - Assets/Resuources_in_bundles/genericTexts/genio_botella_4.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_r.wav
-- Assets/Resuources_in_bundles/genericTexts/rios1_3.wav
+- Assets/Resuources_in_bundles/genericTexts/rios4_3.wav
 - Assets/Resuources_in_bundles/genericTexts/arrastrar_oso_abeja.wav
 - Assets/Resuources_in_bundles/genericTexts/juguetes_1.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_malevo_3.wav
@@ -655,7 +655,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRojapt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_toca.wav
 - Assets/Resuources_in_bundles/genericTexts/coros_33.wav
-- Assets/Resuources_in_bundles/genericTexts/insectoAlimento_4.wav
+- Assets/Resuources_in_bundles/genericTexts/insectoAlimento3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina5_5.wav
 - Assets/Resuources_in_bundles/genericTexts/instruccionesGlobo.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_2.wav

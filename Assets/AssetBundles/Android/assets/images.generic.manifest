@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1993463707
+CRC: 3219743106
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 78acf70b719039d2aea5ed31bb77a47d
+    Hash: 665ccba668903ebc47e000137282c580
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -74,7 +74,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/nido_grande.png
 - "Assets/Resuources_in_bundles/assets/oto\xF1o.png"
 - Assets/Resuources_in_bundles/assets/ordenarZorroGallina_3.jpg
-- Assets/Resuources_in_bundles/assets/ordenarRisaPajaros5.jpg
 - Assets/Resuources_in_bundles/assets/muneca_chicaVerde.png
 - Assets/Resuources_in_bundles/assets/pablitoContento.jpg
 - Assets/Resuources_in_bundles/assets/notaMusical3.png
@@ -226,7 +225,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_1.jpg
 - Assets/Resuources_in_bundles/assets/ordenarCaperucitaL15.jpg
 - Assets/Resuources_in_bundles/assets/ordenarBichoBolita4.jpg
-- Assets/Resuources_in_bundles/assets/ordenarRisaPajaros7.jpg
+- Assets/Resuources_in_bundles/assets/ordenarDiaPesca_5.jpg
 - Assets/Resuources_in_bundles/assets/capitan.png
 - Assets/Resuources_in_bundles/assets/hormiga.png
 - Assets/Resuources_in_bundles/assets/sonido_cacarear.png
@@ -316,7 +315,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/mariposa3.jpg
 - "Assets/Resuources_in_bundles/assets/monta\xF1a.png"
 - Assets/Resuources_in_bundles/assets/mano.png
-- Assets/Resuources_in_bundles/assets/ordenarRisaPajaros6.jpg
 - Assets/Resuources_in_bundles/assets/rana_grande.png
 - Assets/Resuources_in_bundles/assets/hambrienta.png
 - Assets/Resuources_in_bundles/assets/oveja_mediana.png
@@ -573,7 +571,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/descripcion_malevo_6.jpg
 - Assets/Resuources_in_bundles/assets/biblioteca.png
 - Assets/Resuources_in_bundles/assets/primavera.png
-- Assets/Resuources_in_bundles/assets/ordenarRisaPajaros8.jpg
 - Assets/Resuources_in_bundles/assets/libro.png
 - Assets/Resuources_in_bundles/assets/gato_chico_verde.png
 - Assets/Resuources_in_bundles/assets/liebreContenta.jpg
