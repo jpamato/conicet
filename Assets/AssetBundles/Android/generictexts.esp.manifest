@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 463267787
+CRC: 3407009409
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a5731445cff988d3a8a0229d000a6935
+    Hash: 4887a6da739e98b555abf9b85a0c9308
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -118,7 +118,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rima_bicho_bolita.wav
 - Assets/Resuources_in_bundles/genericTexts/letraR_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucita_2.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_2.wav
+- Assets/Resuources_in_bundles/genericTexts/coros2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_pato.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca1_3.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_empieza_acelga.wav
@@ -236,7 +236,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/escribir_genio_botella.wav
 - Assets/Resuources_in_bundles/genericTexts/liebreEstados_1.wav
 - Assets/Resuources_in_bundles/genericTexts/introDanyAmigos_easy.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_4.wav
+- Assets/Resuources_in_bundles/genericTexts/coros1_4.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamiliapt2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_baile_oso_2.wav
 - Assets/Resuources_in_bundles/genericTexts/rompecabezas_pata.wav
@@ -404,6 +404,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/agua.wav
 - Assets/Resuources_in_bundles/genericTexts/hornero1_5.wav
 - "Assets/Resuources_in_bundles/genericTexts/\xF1andu_1.wav"
+- Assets/Resuources_in_bundles/assets/audio/malevo8_3.wav
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo1_7.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroHornero4_11.wav
@@ -417,7 +418,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/rulitos7_22.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja5_13.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia2_8.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_5.wav
+- Assets/Resuources_in_bundles/genericTexts/coros4_5.wav
 - Assets/Resuources_in_bundles/genericTexts/pocion_2.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia_8.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina6_7.wav
@@ -536,7 +537,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/liebreTortuga2_7.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_s.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_15.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_3.wav
+- Assets/Resuources_in_bundles/genericTexts/coros3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/patoSizes2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja3_10.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_5.wav
@@ -618,7 +619,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/toca_aviones.wav
 - Assets/Resuources_in_bundles/genericTexts/elegi_conejo.wav
 - Assets/Resuources_in_bundles/genericTexts/pedroGlobo1_1.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_1.wav
+- Assets/Resuources_in_bundles/genericTexts/coros1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/bichoBolita6_9.wav
 - Assets/Resuources_in_bundles/genericTexts/rompecabezas_baile.wav
 - Assets/Resuources_in_bundles/genericTexts/abejaSizes2_2.wav
@@ -654,7 +655,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRojapt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_toca.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_33.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina5_5.wav
 - Assets/Resuources_in_bundles/genericTexts/instruccionesGlobo.wav
@@ -666,7 +666,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/caperucita1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/escucha_repeti_familia.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos10_12.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_6.wav
+- Assets/Resuources_in_bundles/genericTexts/coros5_6.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAnimales3_5.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo7_12.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos1_1.wav
@@ -788,7 +788,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/planetas_4.wav
 - Assets/Resuources_in_bundles/genericTexts/muchachoAsustado.wav
 - Assets/Resuources_in_bundles/genericTexts/unir_partes_ropa.wav
-- Assets/Resuources_in_bundles/genericTexts/coros_22.wav
 - Assets/Resuources_in_bundles/genericTexts/descripcionPirata2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_letraL2.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dany_familia_1.wav
