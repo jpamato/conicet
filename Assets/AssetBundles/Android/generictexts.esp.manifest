@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3407009409
+CRC: 3511070463
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4887a6da739e98b555abf9b85a0c9308
+    Hash: 9d17cc243d8ef76e3abfe4382934290e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -1069,6 +1069,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos_8.wav
 - Assets/Resuources_in_bundles/genericTexts/oscarcitoDibujo3_1.wav
 - Assets/Resuources_in_bundles/genericTexts/descripcionPirata1_1.wav
+- Assets/Resuources_in_bundles/genericTexts/cuantas_pelotas_hay.wav
 - Assets/Resuources_in_bundles/genericTexts/animales_intro.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_empieza_ee.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja3_4.wav

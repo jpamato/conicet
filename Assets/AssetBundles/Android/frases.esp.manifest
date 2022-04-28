@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2000665609
+CRC: 2551821355
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 67da8c072116deaf784d6fecc7465599
+    Hash: d9a8c199c181d61b7c2ec82b41a37b90
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -46,7 +46,7 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_escuela.wav
 - Assets/Resuources_in_bundles/frases/frase_elefante_2.wav
 - Assets/Resuources_in_bundles/frases/frase_gallina.wav
-- Assets/Resuources_in_bundles/frases/frase_pelota3.wav
+- Assets/Resuources_in_bundles/frases/frase_pelota_3.wav
 - Assets/Resuources_in_bundles/frases/frase_rana.wav
 - Assets/Resuources_in_bundles/frases/frase_hornero2.wav
 - Assets/Resuources_in_bundles/frases/frase_zorro2_2.wav
