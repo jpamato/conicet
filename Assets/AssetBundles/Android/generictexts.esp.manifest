@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3511070463
+CRC: 2999648651
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9d17cc243d8ef76e3abfe4382934290e
+    Hash: 1990b6aa176ce168f370937e2e938444
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -287,7 +287,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros3_7.wav
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlan_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_animales_dany.wav
-- Assets/Resuources_in_bundles/genericTexts/rulitos6_20.wav
+- Assets/Resuources_in_bundles/genericTexts/rulitos5_20.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_rima.wav
 - Assets/Resuources_in_bundles/genericTexts/genioBotella3_10.wav
 - Assets/Resuources_in_bundles/genericTexts/gorro_lana.wav
@@ -667,7 +667,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/escucha_repeti_familia.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos10_12.wav
 - Assets/Resuources_in_bundles/genericTexts/coros5_6.wav
-- Assets/Resuources_in_bundles/genericTexts/danyAnimales3_5.wav
+- Assets/Resuources_in_bundles/genericTexts/danyAnimales4_5.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo7_12.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante1_3.wav
