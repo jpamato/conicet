@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2551821355
+CRC: 1644488317
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d9a8c199c181d61b7c2ec82b41a37b90
+    Hash: c20238378c691961675d0c23ffec70f4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -75,7 +75,7 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_enojado.wav
 - Assets/Resuources_in_bundles/frases/frase_tripulacion.wav
 - Assets/Resuources_in_bundles/frases/romero.wav
-- Assets/Resuources_in_bundles/frases/frase_camion2.wav
+- Assets/Resuources_in_bundles/frases/frase_camion_2.wav
 - Assets/Resuources_in_bundles/frases/frase_perro2_3.wav
 - Assets/Resuources_in_bundles/frases/frase_rio.wav
 - Assets/Resuources_in_bundles/frases/frase_oso_3.wav

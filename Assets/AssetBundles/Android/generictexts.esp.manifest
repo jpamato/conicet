@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2999648651
+CRC: 1186357544
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1990b6aa176ce168f370937e2e938444
+    Hash: ff7133c0e8c32ef0e9ea6c17016783b3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -172,6 +172,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/laberinto_lobo.wav
 - Assets/Resuources_in_bundles/genericTexts/categoriaAnimales2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_rulitos.wav
+- Assets/Resuources_in_bundles/genericTexts/miraEstaImagen.wav
 - Assets/Resuources_in_bundles/genericTexts/conversemos_sobre.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_dia_pesca_2.wav
 - Assets/Resuources_in_bundles/genericTexts/laberinto_feria.wav
