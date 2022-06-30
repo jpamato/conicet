@@ -63,8 +63,12 @@ public class RepeatWithCard : ScreenMain
 
             string s = "assets/audio" + Utils.GetLangFolder() + "/" + audio_text;
 
-            if(characterName != "")
+            print("_____________" + characterName);
+
+            if (characterName != "")
                 character.Init(characterName);
+            else
+                character.Init("Nasheli");
 
             Events.PlaySoundTillReady("voices", s, WordSaid);
         }
@@ -77,7 +81,8 @@ public class RepeatWithCard : ScreenMain
         Utils.RemoveAllChildsIn(container);
         string textID = content[id];
         string[] arr = textID.Split("@"[0]);
-        if(arr.Length>1)
+        characterName = "";
+        if (arr.Length>1)
         {
             textID = arr[0];
             characterName = arr[1];

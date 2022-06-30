@@ -23,6 +23,7 @@ public class Character : MonoBehaviour
             case "Dany": Init(CharactersManager.types.Dany); break;
             case "Uriel": Init(CharactersManager.types.Uriel); break;
             case "Loro": Init(CharactersManager.types.Loro); break;
+            default: Init(CharactersManager.types.Nasheli); break;
         }
     }
     public void Init(CharactersManager.types type)
