@@ -48,10 +48,8 @@ public class SliderLoop : MonoBehaviour
     void Loop()
     {
         StoriesData.Content sContent = Data.Instance.storiesData.activeContent;
-        string s = "stories/" + sContent.folder + "/images/" + (id + 1);
-        print("___slider loop: " + s);
-        Sprite sprite = Data.Instance.GetSprite(s);
-     //  Sprite sprite = Resources.Load<Sprite>(s);
+        Sprite sprite = GetNextImage(sContent.folder);
+        //  Sprite sprite = Resources.Load<Sprite>(s);
         if (sprite == null)
         {
             id = 0;
@@ -61,6 +59,21 @@ public class SliderLoop : MonoBehaviour
         SetSprite( sprite );
         Invoke("Loop", 4);
         id++;
+    }
+    Sprite GetNextImage(string url)
+    {
+        if (id >30)
+            id = 0;
+        string s = "stories/" + url + "/images/" + (id + 1);
+        print("___slider loop: " + s);
+        Sprite sprite = Data.Instance.GetSprite(s);
+        if (sprite != null)
+            return sprite;
+        else
+        {
+            id++;
+            return GetNextImage(url);
+        }
     }
     void SetSprite(Sprite s)
     {
