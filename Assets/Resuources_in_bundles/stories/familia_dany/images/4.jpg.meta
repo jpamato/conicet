@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ee6a6c3a9f91c341ac6eedcb5c9fdc6
+guid: 780b3c3e61186af40921d71b839000b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -92,5 +92,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: stories/familia_dany/images
+  assetBundleVariant: generic
