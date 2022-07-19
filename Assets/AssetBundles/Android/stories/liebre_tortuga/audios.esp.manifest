@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2608766600
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc24d19727267afcb7f3b017ca46c5f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/liebre_tortuga/audios/hard.wav
+Dependencies: []

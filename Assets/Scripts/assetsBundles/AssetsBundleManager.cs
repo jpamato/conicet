@@ -81,9 +81,11 @@ namespace Conicet.AssetsBundle
             Texture2D tex = assetsBundleLoader.GetAssetAsTexture2D(folder +"." + lang, asset);
             if (tex == null)
                 tex = assetsBundleLoader.GetAssetAsTexture2D(folder + ".generic", asset);
+            //if (tex == null)
+            //    tex = assetsBundleLoader.GetAssetAsTexture2D(folder + ".esp", asset);
             if (tex == null)
             {
-                Debug.Log("[ERROR] No hay imagen para " + folder + "." + lang + "(o.generic)/" + asset);
+                Debug.Log("[ERROR] No hay imagen para " + folder + "." + lang + " (o.generic)/ " + asset);
                 return null;
             }
             else

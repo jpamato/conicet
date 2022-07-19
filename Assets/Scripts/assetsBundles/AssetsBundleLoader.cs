@@ -136,7 +136,10 @@ namespace Conicet.AssetsBundle
                         bool addIT = false;
                         if (Data.Instance.lang == Data.langs.QOM)
                         {
+                            print("___________" + bundleName);
                             if (bundleName.Contains("qom"))
+                                addIT = true;
+                            else if (bundleName.Contains(".generic"))
                                 addIT = true;
                         }
                         else

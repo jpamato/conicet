@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1644488317
+CRC: 2486636246
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c20238378c691961675d0c23ffec70f4
+    Hash: c1ba5ec34e159112c55c2b4242b1f1d1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -26,7 +26,6 @@ Assets:
 - Assets/Resuources_in_bundles/frases/frase_pez.wav
 - Assets/Resuources_in_bundles/frases/frase_ciempies.wav
 - Assets/Resuources_in_bundles/frases/elefante_2.wav
-- "Assets/Resuources_in_bundles/frases/toca_mu\xF1eca.wav"
 - Assets/Resuources_in_bundles/frases/frase_pajaro.wav
 - Assets/Resuources_in_bundles/frases/frase_raton.wav
 - Assets/Resuources_in_bundles/frases/frase_luna.wav

@@ -43,7 +43,7 @@ public class Days : ScreenMain
             }
 
             string imageName = "stories/" + Data.Instance.storiesData.GetContent( Data.Instance.storiesData.activeBookContent.id).folder+ "/images/1";
-            //print("image  " + imageName);
+            print("image  " + imageName);
             // Sprite s = Resources.Load<Sprite>(imageName); 
             Sprite s = Data.Instance.GetSprite(imageName);
             float scaleFactor = 0.57f;
