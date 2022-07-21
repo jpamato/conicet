@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 322250643
+CRC: 3738427039
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5e1e4a5d5e0c5b670135edd78a1c4979
+    Hash: c99a99c7ef81d09cb7ed0c4d96a83afd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -16,8 +16,9 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/canciones_qom/cancion_integracion1.png
+- Assets/Resuources_in_bundles/canciones_qom/cancion_categoriaAnimales2.png
 - Assets/Resuources_in_bundles/canciones_qom/cancion_liebre_tortuga_2.png
 - Assets/Resuources_in_bundles/canciones_qom/cancion_danyamigos.png
-- Assets/Resuources_in_bundles/canciones_qom/cancion_danyAmigos10.png
 - Assets/Resuources_in_bundles/canciones_qom/cancion_animales_integracion.png
+- Assets/Resuources_in_bundles/canciones_qom/cancion_sonidoAnimales_1.png
 Dependencies: []
