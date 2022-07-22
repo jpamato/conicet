@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1712705690
+CRC: 1513243514
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ef52ee961bddda5e272f8dc65355e665
+    Hash: 37a2d93a8822938e9290043f7ef87a4d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -68,6 +68,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/padre.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/auto.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/puma_grande.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_camisa.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/auto_grandeRojo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallinaEnojada.wav
 - "Assets/Resuources_in_bundles/assets/audio_qom/\xF1andu.wav"
@@ -88,6 +89,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/chancho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/camisaMarronMediana.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/silla_chica.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_pantalon.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/puma_chico.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_rana.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/marron.wav
