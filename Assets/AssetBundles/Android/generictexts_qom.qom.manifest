@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 687581573
+CRC: 3076954436
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a3782f18bb4ab24b094eaac18d6d752a
+    Hash: 7b118a24981a5ac5aab81ffbb4a292bc
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -68,7 +68,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/escuchar_repetir_animales.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia2_8.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/ropas_1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_10.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rulitos8_10.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga4_11.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_completar.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/familia_1.wav
@@ -92,7 +92,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/presentacionLoroUriel.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/dany_animales_4.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/letraAQ2_1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/rulitos6_15.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rulitos7_15.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia1_3.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales_4.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoriaColores_1.wav
@@ -111,7 +111,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/cielos_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos4_17.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/letraAQ2_2.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_12.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rulitos10_12.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_escucha_rima.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos4_7.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/unirRopa_1.wav
@@ -139,12 +139,12 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/escucha_repeti_partes_cuerpo.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/corralAnimales_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/laminaDanyAmigos.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/rulitos6_20.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_20.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_conversar.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos_8.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/completar_rima_agua_2.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_11.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rulitos9_11.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia3_6.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia_110.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animalesSalvajes_2.wav
@@ -174,7 +174,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos4_9.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_repeat_with_card.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoriaJuguetes_1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/categoriaAnimalesTamano_1.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/categoriaAnimalesTamanos_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/letraMQ2_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/03.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rima_pequeno.wav
