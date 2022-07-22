@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1851030491
+CRC: 2782592264
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c56b47ba1f81ac64e0dd9dc23bd01cc1
+    Hash: 570995fff90a66553a132f60070264ed
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -45,9 +45,8 @@ Assets:
 - Assets/Resuources_in_bundles/paintings/arbol_primavera_paint.png
 - Assets/Resuources_in_bundles/paintings/cancion_danyAmigos10.png
 - Assets/Resuources_in_bundles/paintings/rima_agua_paint.png
-- Assets/Resuources_in_bundles/paintings/rima_pequeno.png
 - Assets/Resuources_in_bundles/paintings/integracion6_paint.png
-- Assets/Resuources_in_bundles/paintings/rima_ciempies_paint.png
+- Assets/Resuources_in_bundles/paintings/rima_ciempies.png
 - Assets/Resuources_in_bundles/paintings/malevo_paint.png
 - Assets/Resuources_in_bundles/paintings/rima_piedra.png
 - Assets/Resuources_in_bundles/paintings/rima_zapato_paint.png

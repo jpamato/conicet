@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3076954436
+CRC: 3932231716
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7b118a24981a5ac5aab81ffbb4a292bc
+    Hash: 5cea987ced8ca2cd481beb23bc27c8f4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -59,6 +59,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/categoriaRopa_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_animal_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/estados_liebre.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_4.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_repetir_loro.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales4_16.wav
@@ -71,6 +72,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos8_10.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga4_11.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_completar.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/familia_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/painting_animales_dany.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/cielos_1.wav
@@ -88,6 +90,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/nenesActividades_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animalesIntegrados.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos2_2.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_3.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos_6.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/presentacionLoroUriel.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/dany_animales_4.wav
@@ -124,6 +127,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/cancion_danyFamilia2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/intro_animales_granja.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos6_21.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/cancion_danyamigos.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_toca_la_imagen.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/completar_rima_caracol_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rima_caracol.wav
