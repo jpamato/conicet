@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2000697742
+CRC: 2537611420
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 438b4351a9dd9f2b80e4e9b9a61e58e2
+    Hash: 099816de94c183b45ef64a398ba57eaf
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -59,8 +59,9 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/categoriaRopa_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_animal_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/estados_liebre.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_1.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/familia_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_4.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_repetir_loro.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales4_16.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_simon.wav
@@ -75,12 +76,12 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga4_11.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_completar.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_2.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/familia_1.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/unir_partes_ropa.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/painting_animales_dany.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/cielos_1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/unir_partes_ropa.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_autos.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_memotest.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/tip_leer.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_objeto_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/ropa_1.wav
