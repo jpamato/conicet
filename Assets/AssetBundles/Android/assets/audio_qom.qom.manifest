@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1513243514
+CRC: 1569526584
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 37a2d93a8822938e9290043f7ef87a4d
+    Hash: 446fec1d5d61674d150b62a02c964bfd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -33,6 +33,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/chivitoAdentro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/parrilla.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/caballo.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_tarde.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/cama_mediana.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/soonaxaqui.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallinaGrandeAzul.wav
@@ -71,23 +72,24 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_camisa.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/auto_grandeRojo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallinaEnojada.wav
-- "Assets/Resuources_in_bundles/assets/audio_qom/\xF1andu.wav"
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_sol.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/puma_mediano.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/espalda.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/mesa.wav
+- "Assets/Resuources_in_bundles/assets/audio_qom/\xF1andu.wav"
 - Assets/Resuources_in_bundles/assets/audio_qom/zapatilla.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/danyAsustado.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/mama.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/mesa.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/azul.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/lucasAlanContentos.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_gato.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/laberinto_tortuga.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pelota.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/plato.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/mama.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/luna.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/plato.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/piernas.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/chancho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/camisaMarronMediana.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/chancho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/silla_chica.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_pantalon.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/puma_chico.wav
@@ -126,7 +128,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/pantalonGrandeAmarillo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/liebreCansada.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gato.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/vaso_chico.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_pollera.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/perro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/zorro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_nene.wav
@@ -145,6 +147,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/pantalon.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_chico.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/rojo.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/vaso_chico.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pollito.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_sombrero_paja.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_silla.wav
@@ -153,6 +156,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/liebreContenta.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/contento.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/vaso_agua.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_liebre.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/piedra.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/tren_grandeAmarillo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_burro.wav

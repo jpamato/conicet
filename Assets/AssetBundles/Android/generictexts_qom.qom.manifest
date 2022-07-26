@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1413173005
+CRC: 2000697742
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6f8582b25e57e41137cc2c381fe42774
+    Hash: 438b4351a9dd9f2b80e4e9b9a61e58e2
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -29,7 +29,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia3_5.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/dany_animales_6.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_6.wav
-- "Assets/Resuources_in_bundles/genericTexts_qom/rima_\xF1andu.wav"
+- Assets/Resuources_in_bundles/genericTexts_qom/rima_nandu.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/intro_animales_monte.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animalesChicosGrandes2_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoriaAnimales4_1.wav
@@ -143,6 +143,8 @@ Assets:
 - "Assets/Resuources_in_bundles/genericTexts_qom/mu\xF1ecaColores_1.wav"
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga1_7.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/escucha_repeti_partes_cuerpo.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/tip_letra.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia_25.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/corralAnimales_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/laminaDanyAmigos.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_20.wav
@@ -174,6 +176,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/cancion_integracion2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/objetosCasa2_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/ordenaSecuencia.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia_9.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_19.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animales_granja_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales3_2.wav
