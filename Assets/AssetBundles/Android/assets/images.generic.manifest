@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 373553298
+CRC: 2749210973
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ae799bbe0af6fd3f4954fa24b1342d89
+    Hash: f17d16e28097747db34185af1aa16489
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -218,6 +218,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/chico.png
 - Assets/Resuources_in_bundles/assets/venus.png
 - Assets/Resuources_in_bundles/assets/pelota_chicaAzul.png
+- Assets/Resuources_in_bundles/assets/pescado.jpg
 - Assets/Resuources_in_bundles/assets/notaMusical2.png
 - Assets/Resuources_in_bundles/assets/mono2.png
 - Assets/Resuources_in_bundles/assets/vaso_agua.png

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3367590237
+CRC: 1786820762
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d6871dc6bc4259ba3648b5fc8ddc174f
+    Hash: 8725de2c90aecaac5014198e93768863
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -13,5 +13,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Resuources_in_bundles/stories/caperucita_roja_l2/audios/qom_hard.wav
 - Assets/Resuources_in_bundles/stories/caperucita_roja_l2/audios/hard.wav
 Dependencies: []
