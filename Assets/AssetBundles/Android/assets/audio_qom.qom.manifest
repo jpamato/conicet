@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4289610628
+CRC: 1429641649
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ad1e5f7dcae01fddf7cb389173bbe0a5
+    Hash: a4097ca150b7f3be972112946159f527
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -76,6 +76,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/pollera.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loroUriel_6.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_chico.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/boca.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pollito.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/liebreContenta.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_liebre.wav
@@ -182,10 +183,11 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/abuelaOrejas.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/carne.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/tren_grandeAmarillo.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_caracol.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_burro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallina.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/negro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/cuchara.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/negro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/danyContento.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_auto.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_grande.wav
