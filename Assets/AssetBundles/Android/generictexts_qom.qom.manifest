@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2149874000
+CRC: 1149598795
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c211b8a3936ae2532ba2a8912d723b53
+    Hash: 8e1a10ffcf956ca7a8f1dbf865767e81
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -161,6 +161,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/rima_integracion_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/comerte_mejor.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/dany_animales_10.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/letraLQ2_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoria_alimentos_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/escucha_toca_ropa_1.wav
@@ -175,6 +176,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/cancion_sonidoAnimales_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga1_4.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/04.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/categoriaPartesCara_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_pantalones.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoria_colores.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga_1.wav
@@ -224,7 +226,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos8_10.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga4_11.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/painting_animales_dany.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/caperucita_roja_l2_17.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja8_18.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/cielos_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_autos.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_leer.wav
@@ -306,6 +308,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga2_5.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos3_5.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/05.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/rima_miel.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/09.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales_3.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/familia_2.wav
@@ -341,7 +344,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja6_14.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/letraO3_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos6_26.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/caperucita_roja_l2_16.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja8_17.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos4_8.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_objetos_casa.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/oso_2.wav
@@ -354,6 +357,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_animales_dany.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/olerte_mejor.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyLucasAlan_2.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/letraLQ2_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_conta_cuento.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_escucha_toca.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_paint.wav
@@ -365,5 +369,5 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/pregunta_ciempies.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rima_agua.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animalesSalvajes2_3.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/caperucita_roja_l2_15.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja7_16.wav
 Dependencies: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5119020c08b5f3b49b7e35ee8e91d03a
+guid: d2a951e797c36cb48aafa3ab47ed5783
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6
@@ -18,5 +18,5 @@ AudioImporter:
   ambisonic: 0
   3D: 1
   userData: 
-  assetBundleName: assets/audio_qom
+  assetBundleName: generictexts_qom
   assetBundleVariant: qom
