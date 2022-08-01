@@ -106,7 +106,9 @@ public class Contar : ScreenMain
     }
     void SayNumber(int num)
     {
-        Events.PlaySound("voices", "genericTexts/0" + num, false);
+        string add = "";
+        if (Data.Instance.lang == Data.langs.QOM) add = "_qom";
+        Events.PlaySound("voices", "genericTexts" + add + "/0" + num, false);
     }
     void AddButtons()
     {
