@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1227975727
+CRC: 2633669898
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fc3c0c477407a25e382ce2cf3c9adc74
+    Hash: e42985e6c3f643e695ccbc90ec411b3e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -317,6 +317,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/mama.wav
 - Assets/Resuources_in_bundles/assets/audio/manzana.wav
 - Assets/Resuources_in_bundles/assets/audio/munecaChicaVerde.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_oso_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/mercurio.wav
 - Assets/Resuources_in_bundles/assets/audio/baile_oso_4.wav
 - "Assets/Resuources_in_bundles/assets/audio/arbol_oto\xF1o.wav"
