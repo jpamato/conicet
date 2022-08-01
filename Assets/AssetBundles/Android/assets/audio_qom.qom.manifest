@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 12324774
+CRC: 1429641649
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8f0749fd1dc81af0597c90ab96acce26
+    Hash: a4097ca150b7f3be972112946159f527
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -14,7 +14,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/loroUriel_5.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/lasot-pecho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/cama_escrito.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/abuelo.wav
@@ -73,9 +72,11 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/mono.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/robot.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/enojado.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/oreja.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pollera.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loroUriel_6.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_chico.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/boca.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pollito.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/liebreContenta.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_liebre.wav
@@ -118,6 +119,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/sorprendido.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/mortero.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/camisa.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/frente.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/cuchillo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/ralemanta-enojado.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/chancho_chico.wav
@@ -133,7 +135,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/pelota.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/agua.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/luna.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/piernas.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/chancho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_pantalon.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/puma_chico.wav
@@ -144,6 +145,8 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/polleraVerdeChica.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/abuela.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/muneca_chicaVerde.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/ojos.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/nariz.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/miyo.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_quirquincho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/estrella.wav
@@ -168,6 +171,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/mano.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/chanchoAfuera.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/tarde.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/pierna.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/mosquito.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_carne.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pantalon.wav
@@ -179,10 +183,11 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/abuelaOrejas.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/carne.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/tren_grandeAmarillo.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_caracol.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_burro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallina.wav
-- Assets/Resuources_in_bundles/assets/audio_qom/negro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/cuchara.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/negro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/danyContento.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_auto.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_grande.wav
