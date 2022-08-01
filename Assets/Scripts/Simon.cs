@@ -21,6 +21,13 @@ public class Simon : ScreenMain
         field.text = "";
         signal.SetActive(false);
     }
+    public override void Show(bool fromRight)
+    {
+        base.Show(fromRight);
+
+        cardsArray.Clear();
+        cardActive = 0;
+    }
     public override void OnReady()
     {
         cards.Clear();
