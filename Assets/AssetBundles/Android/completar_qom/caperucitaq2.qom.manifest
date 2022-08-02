@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2693996959
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf337e9ebdcf6ead74e773ac53fa3f99
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar_qom/caperucitaQ2/1b.wav
+- Assets/Resuources_in_bundles/completar_qom/caperucitaQ2/1a.wav
+Dependencies: []
