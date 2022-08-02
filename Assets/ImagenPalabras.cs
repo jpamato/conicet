@@ -57,9 +57,7 @@ public class ImagenPalabras : ScreenMain
     }
     public void Say(string audioName)
     {
-        string add = "";
-        if (Data.Instance.lang == Data.langs.QOM) add = "_qom";
-        Events.PlaySound("voices", "assets" + Utils.GetLangFolder() + "/audio" + add + "/" + audioName, false);
+        Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + audioName, false);
     }
     void AddButtons()
     {
