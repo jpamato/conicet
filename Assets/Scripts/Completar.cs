@@ -203,7 +203,7 @@ public class Completar : ScreenMain
     public void Say()
     {
         string text = id + prefix;
-        string url = "completar/" + folderName + "/" + text;
+        string url = "completar" + Utils.GetLangFolder() + "/" + folderName + "/" + text;
         print("Completar Next: " + url);
         AudioClip ac = Data.Instance.GetAudio(url);
        // AudioClip ac = Resources.Load<AudioClip>(url);
