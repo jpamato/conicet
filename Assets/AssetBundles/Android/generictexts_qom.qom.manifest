@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4195857385
+CRC: 1019978016
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b1ab9ff616209cf5f5639a2ebaded6da
+    Hash: 7180c8389e24d809ba1c19609b6cde78
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -41,14 +41,14 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_animal_diferente.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/estados_liebre.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/familia_1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_1.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroEmi_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_repetir_loro.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAnimales4_16.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/laberinto_rulitos.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/nariz_grande.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_completar.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/unir_partes_ropa.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_2.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroEmi_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/tip_memotest.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/toca_objeto_diferente.wav
@@ -239,7 +239,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/dany_asustado.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos2_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/nenesActividades_2.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/loroUriel_3.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/loroEmi_3.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/animalesIntegrados.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRojapt2_8.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/presentacionLoroUriel.wav

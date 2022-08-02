@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3380444411
+CRC: 874210005
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0ac67b507aa1b0291828d89fc404008a
+    Hash: 0055c7aff59e23950307584d3278817d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -16,7 +16,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/canciones/cancion_danyfamilia.png
-- Assets/Resuources_in_bundles/canciones/cancion_sonidoAnimalesMonte.png
 - Assets/Resuources_in_bundles/canciones/cancion_caperucitaL2.png
 - Assets/Resuources_in_bundles/canciones/cancion_liebre_tortuga.png
 - Assets/Resuources_in_bundles/canciones/cancion_animalesDany.png
