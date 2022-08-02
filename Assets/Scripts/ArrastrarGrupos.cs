@@ -248,7 +248,7 @@ public class ArrastrarGrupos : ScreenMain
     }
     public void Say()
     {
-        Events.PlaySound("voices", "assets" + Utils.GetLangFolder() + "/audio/" + audioName, false);
+        Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + audioName, false);
     }
     void OnReadyClicked()
     {
