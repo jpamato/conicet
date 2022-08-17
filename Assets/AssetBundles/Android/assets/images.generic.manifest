@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 8970742
+CRC: 2274343103
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f17d16e28097747db34185af1aa16489
+    Hash: ddf087b3abdee9976c63f02180f668ad
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -537,7 +537,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/yacarebebe.png
 - Assets/Resuources_in_bundles/assets/globorojo.png
 - Assets/Resuources_in_bundles/assets/agua.png
-- Assets/Resuources_in_bundles/assets/olgaxa.png
 - Assets/Resuources_in_bundles/assets/auto.png
 - Assets/Resuources_in_bundles/assets/autoGrandeAmarillo.png
 - Assets/Resuources_in_bundles/assets/naranja.png

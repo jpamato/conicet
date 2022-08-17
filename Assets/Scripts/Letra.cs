@@ -93,8 +93,12 @@ public class Letra : ScreenMain
     }
    
     public void SayWord()
-    {
+    {       
         string text_id = realWord;
+
+        if (Data.Instance.lang == Data.langs.QOM)
+            text_id = Data.Instance.assetsData.GetContent(realWord).name;
+
         string assetRealName = Data.Instance.assetsData.GetAssetRealName(text_id);
         assetRealName = Data.Instance.assetsData.GetSoundForLoro(assetRealName, loroWordsType);
         Events.PlaySoundTillReady("voices", "assets/audio" + Utils.GetLangFolder() + "/loro_" + assetRealName, null);        

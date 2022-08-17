@@ -63,7 +63,14 @@ public class AssetsData : DataLoader
         {
             _name = GetAssetRealName(__name);
         }
-
+        if (Data.Instance.lang == Data.langs.QOM)
+        {
+            foreach (Content content in content)
+            {
+                if (string.Equals(content.text, _name))
+                    return content;
+            }
+        }
         foreach (Content content in content)
         {
             if(string.Equals(content.name, _name))
