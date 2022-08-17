@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 167576013
+CRC: 3012821118
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 48d9dd61d9125d2bc0807e5c085a2260
+    Hash: f27f40349649c1d2312162ed157c7717
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -48,6 +48,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/plato.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/camisaMarronMediana.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/silla_chica.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_chancho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/miel.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pecho.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/olla.wav
@@ -74,6 +75,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/enojado.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/oreja.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/pollera.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_sol_medio.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loroUriel_6.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/quirquincho_chico.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/boca.wav
@@ -88,6 +90,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/cama_chica.wav
 - "Assets/Resuources_in_bundles/assets/audio_qom/mu\xF1eca.wav"
 - Assets/Resuources_in_bundles/assets/audio_qom/rana_mediana.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_cuchara.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/caperucitaSorprendidaL2.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/biblioteca.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/rana.wav
@@ -111,6 +114,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_loro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/padre.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/gallina_chica.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_gato_final.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/lucasAlanAsustados.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/nube.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/burro_chico.wav
@@ -126,6 +130,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio_qom/loroUriel_7.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/auto.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_camisa.wav
+- Assets/Resuources_in_bundles/assets/audio_qom/loro_negro.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/caperucitaContentaL2_2.wav
 - Assets/Resuources_in_bundles/assets/audio_qom/loro_sol.wav
 - "Assets/Resuources_in_bundles/assets/audio_qom/\xF1andu.wav"
