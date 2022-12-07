@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2757273541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 376216d1d7865ba42ddd991df11887a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/canciones/cancion_danyfamilia.png
+- Assets/Resuources_in_bundles/canciones/cancion_sonidoAnimalesMonte.png
+- Assets/Resuources_in_bundles/canciones/cancion_caperucitaL2.png
+- Assets/Resuources_in_bundles/canciones/cancion_liebre_tortuga.png
+- Assets/Resuources_in_bundles/canciones/cancion_animalesDany.png
+- Assets/Resuources_in_bundles/canciones/cancion_animalesDany2.png
+- Assets/Resuources_in_bundles/canciones/cancion_integracion2.png
+- Assets/Resuources_in_bundles/canciones/cancion_categoriaAnimales2.png
+- Assets/Resuources_in_bundles/canciones/cancion_liebre_tortuga_2.png
+- Assets/Resuources_in_bundles/canciones/cancion_integracion3.png
+- Assets/Resuources_in_bundles/canciones/cancion_integracion1.png
+- Assets/Resuources_in_bundles/canciones/cancion_danyamigos2.png
+- Assets/Resuources_in_bundles/canciones/cancion_sonidoAnimales_1.png
+- Assets/Resuources_in_bundles/canciones/cancion_rulitos.png
+- Assets/Resuources_in_bundles/canciones/cancion_animales_integracion.png
+- Assets/Resuources_in_bundles/canciones/cancion_danyamigos.png
+- Assets/Resuources_in_bundles/canciones/cancion_danyAmigos10.png
+Dependencies: []

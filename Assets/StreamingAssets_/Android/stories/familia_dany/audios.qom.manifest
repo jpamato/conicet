@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 829231910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0b0fc4c377f66b0bec2476c18a10389a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/familia_dany/audios/qom_hard.wav
+Dependencies: []

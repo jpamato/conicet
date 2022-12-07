@@ -1,0 +1,861 @@
+story_id	name	folder	audioClip	texts	duration	display 0=Full 1=solo audio 2= solo texto		character
+que_susto	¡Qué Susto!	que_susto	easy	Había una vez un elefante que caminaba distraído	0:06	1		Mujer
+				... y asustó a un oso.	0:09			
+				El oso salió corriendo y se cayó en el agua arriba de un yacaré dormido.	0:15			
+				El yacaré se despertó y con un bostezo lleno de dientes asustó a una serpiente.	0:23			
+				La serpiente se deslizó entre los arbustos. Un perro la vio, pensó que lo iba a morder y se escapó veloz.	0:31			
+				El perro se cruzó en el camino de un gato, que de un salto se trepó al techo de una casa.	0:38			
+				Sobre el techo comían queso dos ratoncitos._- ¡Se arruinó el almuerzo! ¡Huyamos! Los ratoncitos cayeron sobre la trompa del elefante que tomaba agua del río.	0:50			
+				El elefante atemorizado escupió un chorro de agua que hizo bailar a los ratoncitos.				
+que_susto:2	¡Qué Susto!	que_susto	easy	Había una vez un elefante que caminaba distraído	0:06	0		Mujer
+				... y asustó a un oso.	0:09			
+				El oso salió corriendo y se cayó en el agua arriba de un yacaré dormido.	0:15			
+				El yacaré se despertó y con un bostezo lleno de dientes asustó a una serpiente.	0:23			
+				La serpiente se deslizó entre los arbustos. Un perro la vio, pensó que lo iba a morder y se escapó veloz.	0:31			
+				El perro se cruzó en el camino de un gato, que de un salto se trepó al techo de una casa.	0:38			
+				Sobre el techo comían queso dos ratoncitos._- ¡Se arruinó el almuerzo! ¡Huyamos! Los ratoncitos cayeron sobre la trompa del elefante que tomaba agua del río.	0:50			
+				El elefante atemorizado escupió un chorro de agua que hizo bailar a los ratoncitos.				
+que_susto:3	¡Qué Susto!	que_susto	easy	Había una vez un elefante que caminaba distraído	0:06	0		Mujer
+				... y asustó a un oso.	0:09			
+				El oso salió corriendo y se cayó en el agua arriba de un yacaré dormido.	0:15			
+				El yacaré se despertó y con un bostezo lleno de dientes asustó a una serpiente.	0:23			
+				La serpiente se deslizó entre los arbustos. Un perro la vio, pensó que lo iba a morder y se escapó veloz.	0:31			
+				El perro se cruzó en el camino de un gato, que de un salto se trepó al techo de una casa.	0:38			
+				Sobre el techo comían queso dos ratoncitos._- ¡Se arruinó el almuerzo! ¡Huyamos! Los ratoncitos cayeron sobre la trompa del elefante que tomaba agua del río.	0:50			
+				El elefante atemorizado escupió un chorro de agua que hizo bailar a los ratoncitos.				
+que_susto:4	¡Qué Susto!	que_susto	easy	Había una vez un elefante que caminaba distraído	0:06	0		Mujer
+				... y asustó a un oso.	0:09			
+				El oso salió corriendo y se cayó en el agua arriba de un yacaré dormido.	0:15			
+				El yacaré se despertó y con un bostezo lleno de dientes asustó a una serpiente.	0:23			
+				La serpiente se deslizó entre los arbustos. Un perro la vio, pensó que lo iba a morder y se escapó veloz.	0:31			
+				El perro se cruzó en el camino de un gato, que de un salto se trepó al techo de una casa.	0:38			
+				Sobre el techo comían queso dos ratoncitos._- ¡Se arruinó el almuerzo! ¡Huyamos! Los ratoncitos cayeron sobre la trompa del elefante que tomaba agua del río.	0:50			
+				El elefante atemorizado escupió un chorro de agua que hizo bailar a los ratoncitos.				
+que_susto:5	¡Qué Susto!	que_susto	easy	vacio	0:06	0		Mujer
+malevo	Malevo busca un hueso	malevo	easy	Malevo era un perro callejero negro con manchas blancas. Vivía en la plaza y jugaba con todos los chicos, pero ninguno era su dueño.	0:13	1		Mujer
+				Un día, el carnicero le regaló a Malevo un enorme hueso con carne. Después de comer toda la carne del hueso, Malevo decidió esconderlo en un lugar secreto. 	0:26			
+				Para eso esperó la hora de la siesta, cuando no hay chicos ni perros en la plaza. ¡Nadie nunca encontraría su rico hueso!	0:36			
+				Esa noche, mientras dormía, soñó que otros perros comían su hueso. Por la mañana se despertó con mucha hambre. ¡Era hora de buscar y comer el hueso!	0:48			
+				Pero Malevo no se acordaba dónde lo había escondido. Pensó que lo había enterrado cerca de su árbol preferido. 	0:56			
+				Cavó y cavó, sacó mucha tierra, casi llegó hasta las raíces del árbol... pero el hueso ahí no estaba.	1:04			
+				Pensó que seguramente lo había colocado cerca del estanque de los patos, entre las plantas. Malevo se acercó despacio al borde del agua y comenzó a buscar.	1:16			
+				Pero no se dió cuenta que muy cerca una pata empollaba sus huevos.	1:22			
+				Cuando la pata vio los ojos de Malevo, comenzó a chillar tan fuerte que otros patos se acercaron y lo atacaron con picotazos y golpes de ala. ¡Pobre Malevo!	1:34			
+				Malevo, cansado, hambriento y lastimado, volvió al arenero. En eso vio que uno de los chicos había construido un hermoso castillo y colocaba su hueso en la punta. 	1:47			
+				Malevo pensó: "Me quedé sin hueso".	1:51			
+				Pero cuando el chico vio a Malevo, se acercó y le ofreció el hueso mientras le acariciaba la cabeza.				
+malevo:2	Malevo busca un hueso	malevo	easy	Malevo era un perro callejero negro con manchas blancas. Vivía en la plaza y jugaba con todos los chicos, pero ninguno era su dueño.	0:13	0		Mujer
+				Un día, el carnicero le regaló a Malevo un enorme hueso con carne. Después de comer toda la carne del hueso, Malevo decidió esconderlo en un lugar secreto. 	0:26			
+				Para eso esperó la hora de la siesta, cuando no hay chicos ni perros en la plaza. ¡Nadie nunca encontraría su rico hueso!	0:36			
+				Esa noche, mientras dormía, soñó que otros perros comían su hueso. Por la mañana se despertó con mucha hambre. ¡Era hora de buscar y comer el hueso!	0:48			
+				Pero Malevo no se acordaba dónde lo había escondido. Pensó que lo había enterrado cerca de su árbol preferido. 	0:56			
+				Cavó y cavó, sacó mucha tierra, casi llegó hasta las raíces del árbol... pero el hueso ahí no estaba.	1:04			
+				Pensó que seguramente lo había colocado cerca del estanque de los patos, entre las plantas. Malevo se acercó despacio al borde del agua y comenzó a buscar.	1:16			
+				Pero no se dio cuenta que muy cerca una pata empollaba sus huevos.	1:22			
+				Cuando la pata vio los ojos de Malevo, comenzó a chillar tan fuerte que otros patos se acercaron y lo atacaron con picotazos y golpes de ala. ¡Pobre Malevo!	1:34			
+				Malevo, cansado, hambriento y lastimado, volvió al arenero. En eso vio que uno de los chicos había construido un hermoso castillo y colocaba su hueso en la punta. 	1:47			
+				Malevo pensó: "Me quedé sin hueso".	1:51			
+				Pero cuando el chico vio a Malevo, se acercó y le ofreció el hueso mientras le acariciaba la cabeza.				
+malevo:3	Malevo busca un hueso	malevo	easy	Malevo era un perro callejero negro con manchas blancas. Vivía en la plaza y jugaba con todos los chicos, pero ninguno era su dueño.	0:13	0		Mujer
+				Un día, el carnicero le regaló a Malevo un enorme hueso con carne. Después de comer toda la carne del hueso, Malevo decidió esconderlo en un lugar secreto. 	0:26			
+				Para eso esperó la hora de la siesta, cuando no hay chicos ni perros en la plaza. ¡Nadie nunca encontraría su rico hueso!	0:36			
+				Esa noche, mientras dormía, soñó que otros perros comían su hueso. Por la mañana se despertó con mucha hambre. ¡Era hora de buscar y comer el hueso!	0:48			
+				Pero Malevo no se acordaba dónde lo había escondido. Pensó que lo había enterrado cerca de su árbol preferido. 	0:56			
+				Cavó y cavó, sacó mucha tierra, casi llegó hasta las raíces del árbol... pero el hueso ahí no estaba.	1:04			
+				Pensó que seguramente lo había colocado cerca del estanque de los patos, entre las plantas. Malevo se acercó despacio al borde del agua y comenzó a buscar.	1:16			
+				Pero no se dio cuenta que muy cerca una pata empollaba sus huevos.	1:22			
+				Cuando la pata vio los ojos de Malevo, comenzó a chillar tan fuerte que otros patos se acercaron y lo atacaron con picotazos y golpes de ala. ¡Pobre Malevo!	1:34			
+				Malevo, cansado, hambriento y lastimado, volvió al arenero. En eso vio que uno de los chicos había construido un hermoso castillo y colocaba su hueso en la punta. 	1:47			
+				Malevo pensó: "Me quedé sin hueso".	1:51			
+				Pero cuando el chico vio a Malevo, se acercó y le ofreció el hueso mientras le acariciaba la cabeza.				
+malevo:4	Malevo busca un hueso	malevo	easy	Malevo era un perro callejero negro con manchas blancas. Vivía en la plaza y jugaba con todos los chicos, pero ninguno era su dueño.	0:13	0		Mujer
+				Un día, el carnicero le regaló a Malevo un enorme hueso con carne. Después de comer toda la carne del hueso, Malevo decidió esconderlo en un lugar secreto. 	0:26			
+				Para eso esperó la hora de la siesta, cuando no hay chicos ni perros en la plaza. ¡Nadie nunca encontraría su rico hueso!	0:36			
+				Esa noche, mientras dormía, soñó que otros perros comían su hueso. Por la mañana se despertó con mucha hambre. ¡Era hora de buscar y comer el hueso!	0:48			
+				Pero Malevo no se acordaba dónde lo había escondido. Pensó que lo había enterrado cerca de su árbol preferido. 	0:56			
+				Cavó y cavó, sacó mucha tierra, casi llegó hasta las raíces del árbol... pero el hueso ahí no estaba.	1:04			
+				Pensó que seguramente lo había colocado cerca del estanque de los patos, entre las plantas. Malevo se acercó despacio al borde del agua y comenzó a buscar.	1:16			
+				Pero no se dio cuenta que muy cerca una pata empollaba sus huevos.	1:22			
+				Cuando la pata vio los ojos de Malevo, comenzó a chillar tan fuerte que otros patos se acercaron y lo atacaron con picotazos y golpes de ala. ¡Pobre Malevo!	1:34			
+				Malevo, cansado, hambriento y lastimado, volvió al arenero. En eso vio que uno de los chicos había construido un hermoso castillo y colocaba su hueso en la punta. 	1:47			
+				Malevo pensó: "Me quedé sin hueso".	1:51			
+				Pero cuando el chico vio a Malevo, se acercó y le ofreció el hueso mientras le acariciaba la cabeza.				
+malevo:5	Malevo busca un hueso	malevo	easy	vacio	0:11	0		Mujer
+zorro_gallina	El Zorro y la Gallina	zorro_gallina	easy	Rosita era una gallina muy gorda que vivía en el gallinero de una granja. Un día la gallina Rosita salió de paseo.	0:11	1		Mujer
+				Un zorro hambriento la vio salir, quiso comérsela y la siguió.	0:17			
+				La gallina se fue caminando por el costado del charco. El zorro, que estaba detrás de ella, dio un salto para atraparla.	0:26			
+				Pero ¡pobre zorro! En vez de atrapar a la gallina, se cayó al agua y asustó a las ranas que se estaban dando un baño.  	0:35			
+				La gallina siguió su paseo y en el camino se encontró con un cerco de madera. 	0:41			
+				Como las gallinas no son animales grandes, pudo pasar por un pequeño agujero que había entre dos maderitas.	0:48			
+				En cambio, el zorro no podía pasar por ese agujerito tan pequeño. 	0:54			
+				Como el zorro quería atrapar a la gallinita, tuvo que saltar para pasar por encima del cerco y cayó arriba de un hormiguero lleno de hormigas.	1:04			
+				Las hormigas, muy enojadas, picaron muy fuerte al pobre zorro. El zorro se levantó y corriendo, corriendo, se alejó muy rápido. 	1:14			
+				La gallina, muy tranquila y contenta, volvió al gallinero a comer su cena. 				
+zorro_gallina:2	El Zorro y la Gallina	zorro_gallina	easy	Rosita era una gallina muy gorda que vivía en el gallinero de una granja. Un día la gallina Rosita salió de paseo.	0:11	0		Mujer
+				Un zorro hambriento la vio salir, quiso comérsela y la siguió.	0:17			
+				La gallina se fue caminando por el costado del charco. El zorro, que estaba detrás de ella, dio un salto para atraparla.	0:26			
+				Pero ¡pobre zorro! En vez de atrapar a la gallina, se cayó al agua y asustó a las ranas que se estaban dando un baño.  	0:35			
+				La gallina siguió su paseo y en el camino se encontró con un cerco de madera. 	0:41			
+				Como las gallinas no son animales grandes, pudo pasar por un pequeño agujero que había entre dos maderitas.	0:48			
+				En cambio, el zorro no podía pasar por ese agujerito tan pequeño. 	0:54			
+				Como el zorro quería atrapar a la gallinita, tuvo que saltar para pasar por encima del cerco y cayó arriba de un hormiguero lleno de hormigas.	1:04			
+				Las hormigas, muy enojadas, picaron muy fuerte al pobre zorro. El zorro se levantó y corriendo, corriendo, se alejó muy rápido. 	1:14			
+				La gallina, muy tranquila y contenta, volvió al gallinero a comer su cena. 				
+zorro_gallina:3	El Zorro y la Gallina	zorro_gallina	easy	Rosita era una gallina muy gorda que vivía en el gallinero de una granja. Un día la gallina Rosita salió de paseo.	0:11	0		Mujer
+				Un zorro hambriento la vio salir, quiso comérsela y la siguió.	0:17			
+				La gallina se fue caminando por el costado del charco. El zorro, que estaba detrás de ella, dio un salto para atraparla.	0:26			
+				Pero ¡pobre zorro! En vez de atrapar a la gallina, se cayó al agua y asustó a las ranas que se estaban dando un baño.  	0:35			
+				La gallina siguió su paseo y en el camino se encontró con un cerco de madera. 	0:41			
+				Como las gallinas no son animales grandes, pudo pasar por un pequeño agujero que había entre dos maderitas.	0:48			
+				En cambio, el zorro no podía pasar por ese agujerito tan pequeño. 	0:54			
+				Como el zorro quería atrapar a la gallinita, tuvo que saltar para pasar por encima del cerco y cayó arriba de un hormiguero lleno de hormigas.	1:04			
+				Las hormigas, muy enojadas, picaron muy fuerte al pobre zorro. El zorro se levantó y corriendo, corriendo, se alejó muy rápido. 	1:14			
+				La gallina, muy tranquila y contenta, volvió al gallinero a comer su cena. 				
+zorro_gallina:4	El Zorro y la Gallina	zorro_gallina	easy	Rosita era una gallina muy gorda que vivía en el gallinero de una granja. Un día la gallina Rosita salió de paseo.	0:11	0		Mujer
+				Un zorro hambriento la vio salir, quiso comérsela y la siguió.	0:17			
+				La gallina se fue caminando por el costado del charco. El zorro, que estaba detrás de ella, dio un salto para atraparla.	0:26			
+				Pero ¡pobre zorro! En vez de atrapar a la gallina, se cayó al agua y asustó a las ranas que se estaban dando un baño.  	0:35			
+				La gallina siguió su paseo y en el camino se encontró con un cerco de madera. 	0:41			
+				Como las gallinas no son animales grandes, pudo pasar por un pequeño agujero que había entre dos maderitas.	0:48			
+				En cambio, el zorro no podía pasar por ese agujerito tan pequeño. 	0:54			
+				Como el zorro quería atrapar a la gallinita, tuvo que saltar para pasar por encima del cerco y cayó arriba de un hormiguero lleno de hormigas.	1:04			
+				Las hormigas, muy enojadas, picaron muy fuerte al pobre zorro. El zorro se levantó y corriendo, corriendo, se alejó muy rápido. 	1:14			
+				La gallina, muy tranquila y contenta, volvió al gallinero a comer su cena. 				
+zorro_gallina:5	El Zorro y la Gallina	zorro_gallina	easy	vacio	0:11	0		Mujer
+caperucita_roja	Caperucita Roja	caperucita_roja	easy	Había una vez una niña que vivía con su mamá en una casa en el bosque. Su abuelita le había regalado una hermosa capa roja con capucha. Por eso todos la llamaban Caperucita Roja.	0:14	1		Mujer
+				Un día, la madre de Caperucita le pidió que llevara una canasta con una torta a su abuelita que estaba enferma.	0:22			
+				Caperucita Roja se marchó. Iba saltando alegremente por el bosque. De pronto, bajo la sombra de un gran árbol se encontró con el lobo y Caperucita le contó que iba a la casa de su abuelita. 	0:36			
+				El lobo, hambriento, pensó en comerse a Caperucita allí mismo, pero tuvo miedo porque cerca estaban unos leñadores cortando leña.	0:47			
+				Entonces el lobo pensó un plan para poder comerse a Caperucita. Le preguntó dónde quedaba la casa de su abuelita y decidió tomar el camino más corto para llegar antes que Caperucita. 	0:59			
+				Caperucita siguió por el camino más largo, entreteniéndose en recoger fruta y cortar flores.	1:05			
+				El astuto lobo fue directamente a la casa de la abuelita, entró y de un enorme bocado, se comió a la anciana. 	1:15			
+				Se puso su camisón y se metió en la cama. El lobo se escondió bien debajo de las mantas para engañar a Caperucita.	1:23			
+				Cuando llegó, Caperucita Roja llamó toda contenta a la puerta._- ¿Quién está ahí? - respondió una voz extraña y ronca. 	1:35			
+				- La abuelita debe tener un resfrío muy fuerte - pensó Caperucita Roja -. Su voz es muy ronca.	1:43			
+				Caperucita entró y, cuando se acercó a la cama, vio rara a su abuelita._- Abuelita, ¡qué brazos tan grandes tienes! - le dijo. 	1:50			
+				- Son para abrazarte mejor, querida - le respondió el lobo.	1:59			
+				- Abuelita, ¡qué ojos tan grandes tienes!_- Son para verte mejor, hijita. 	2:10			
+				- Abuelita, ¡qué orejas tan grandes tienes!_- Son para oírte mejor, cariño.	2:16			
+				- Abuelita, ¡qué dientes tan grandes tienes!_- ¡Son para comerte mejor! -. Y dicho esto, el lobo se abalanzó sobre Caperucita Roja con intención de comérsela.	2:34			
+				Por suerte pasaba por allí un cazador que, al oír el alboroto, entró y salvó a Caperucita. 	2:42			
+				El cazador mató al lobo, lo abrió por la mitad y de adentro del vientre salió la abuelita.	2:52			
+				Todos fueron muy felices. El cazador se llevó a casa la fina piel de lobo. La abuelita comió la torta.	3:01			
+				Caperucita Roja prometió que tendría más cuidado al caminar por el bosque y que nunca más volvería a hablar con un lobo.				
+caperucita_roja:2	Caperucita Roja	caperucita_roja	easy	Había una vez una niña que vivía con su mamá en una casa en el bosque. Su abuelita le había regalado una hermosa capa roja con capucha. Por eso todos la llamaban Caperucita Roja.	0:14	0		Mujer
+				Un día, la madre de Caperucita le pidió que llevara una canasta con una torta a su abuelita que estaba enferma.	0:22			
+				Caperucita Roja se marchó. Iba saltando alegremente por el bosque. De pronto, bajo la sombra de un gran árbol se encontró con el lobo y Caperucita le contó que iba a la casa de su abuelita. 	0:36			
+				El lobo, hambriento, pensó en comerse a Caperucita allí mismo, pero tuvo miedo porque cerca estaban unos leñadores cortando leña.	0:47			
+				Entonces el lobo pensó un plan para poder comerse a Caperucita. Le preguntó dónde quedaba la casa de su abuelita y decidió tomar el camino más corto para llegar antes que Caperucita. 	0:59			
+				Caperucita siguió por el camino más largo, entreteniéndose en recoger fruta y cortar flores.	1:05			
+				El astuto lobo fue directamente a la casa de la abuelita, entró y de un enorme bocado, se comió a la anciana. 	1:15			
+				Se puso su camisón y se metió en la cama. El lobo se escondió bien debajo de las mantas para engañar a Caperucita.	1:23			
+				Cuando llegó, Caperucita Roja llamó toda contenta a la puerta._- ¿Quién está ahí? - respondió una voz extraña y ronca. 	1:35			
+				- La abuelita debe tener un resfrío muy fuerte - pensó Caperucita Roja -. Su voz es muy ronca.	1:43			
+				Caperucita entró y, cuando se acercó a la cama, vio rara a su abuelita._- Abuelita, ¡qué brazos tan grandes tienes! - le dijo. 	1:50			
+				- Son para abrazarte mejor, querida - le respondió el lobo.	1:59			
+				- Abuelita, ¡qué ojos tan grandes tienes!_- Son para verte mejor, hijita. 	2:10			
+				- Abuelita, ¡qué orejas tan grandes tienes!_- Son para oírte mejor, cariño.	2:16			
+				- Abuelita, ¡qué dientes tan grandes tienes!_- ¡Son para comerte mejor! -. Y dicho esto, el lobo se abalanzó sobre Caperucita Roja con intención de comérsela.	2:34			
+				Por suerte pasaba por allí un cazador que, al oír el alboroto, entró y salvó a Caperucita. 	2:42			
+				El cazador mató al lobo, lo abrió por la mitad y de adentro del vientre salió la abuelita.	2:52			
+				Todos fueron muy felices. El cazador se llevó a casa la fina piel de lobo. La abuelita comió la torta.	3:01			
+				Caperucita Roja prometió que tendría más cuidado al caminar por el bosque y que nunca más volvería a hablar con un lobo.				
+caperucita_roja:3	Caperucita Roja	caperucita_roja	easy	Había una vez una niña que vivía con su mamá en una casa en el bosque. Su abuelita le había regalado una hermosa capa roja con capucha. Por eso todos la llamaban Caperucita Roja.	0:14	0		Mujer
+				Un día, la madre de Caperucita le pidió que llevara una canasta con una torta a su abuelita que estaba enferma.	0:22			
+				Caperucita Roja se marchó. Iba saltando alegremente por el bosque. De pronto, bajo la sombra de un gran árbol se encontró con el lobo y Caperucita le contó que iba a la casa de su abuelita. 	0:36			
+				El lobo, hambriento, pensó en comerse a Caperucita allí mismo, pero tuvo miedo porque cerca estaban unos leñadores cortando leña.	0:47			
+				Entonces el lobo pensó un plan para poder comerse a Caperucita. Le preguntó dónde quedaba la casa de su abuelita y decidió tomar el camino más corto para llegar antes que Caperucita. 	0:59			
+				Caperucita siguió por el camino más largo, entreteniéndose en recoger fruta y cortar flores.	1:05			
+				El astuto lobo fue directamente a la casa de la abuelita, entró y de un enorme bocado, se comió a la anciana. 	1:15			
+				Se puso su camisón y se metió en la cama. El lobo se escondió bien debajo de las mantas para engañar a Caperucita.	1:23			
+				Cuando llegó, Caperucita Roja llamó toda contenta a la puerta._- ¿Quién está ahí? - respondió una voz extraña y ronca. 	1:35			
+				- La abuelita debe tener un resfrío muy fuerte - pensó Caperucita Roja -. Su voz es muy ronca.	1:43			
+				Caperucita entró y, cuando se acercó a la cama, vio rara a su abuelita._- Abuelita, ¡qué brazos tan grandes tienes! - le dijo. 	1:50			
+				- Son para abrazarte mejor, querida - le respondió el lobo.	1:59			
+				- Abuelita, ¡qué ojos tan grandes tienes!_- Son para verte mejor, hijita. 	2:10			
+				- Abuelita, ¡qué orejas tan grandes tienes!_- Son para oírte mejor, cariño.	2:16			
+				- Abuelita, ¡qué dientes tan grandes tienes!_- ¡Son para comerte mejor! -. Y dicho esto, el lobo se abalanzó sobre Caperucita Roja con intención de comérsela.	2:34			
+				Por suerte pasaba por allí un cazador que, al oír el alboroto, entró y salvó a Caperucita. 	2:42			
+				El cazador mató al lobo, lo abrió por la mitad y de adentro del vientre salió la abuelita.	2:52			
+				Todos fueron muy felices. El cazador se llevó a casa la fina piel de lobo. La abuelita comió la torta.	3:01			
+				Caperucita Roja prometió que tendría más cuidado al caminar por el bosque y que nunca más volvería a hablar con un lobo.				
+caperucita_roja:4	Caperucita Roja	caperucita_roja	easy	Había una vez una niña que vivía con su mamá en una casa en el bosque. Su abuelita le había regalado una hermosa capa roja con capucha. Por eso todos la llamaban Caperucita Roja.	0:14	0		Mujer
+				Un día, la madre de Caperucita le pidió que llevara una canasta con una torta a su abuelita que estaba enferma.	0:22			
+				Caperucita Roja se marchó. Iba saltando alegremente por el bosque. De pronto, bajo la sombra de un gran árbol se encontró con el lobo y Caperucita le contó que iba a la casa de su abuelita. 	0:36			
+				El lobo, hambriento, pensó en comerse a Caperucita allí mismo, pero tuvo miedo porque cerca estaban unos leñadores cortando leña.	0:47			
+				Entonces el lobo pensó un plan para poder comerse a Caperucita. Le preguntó dónde quedaba la casa de su abuelita y decidió tomar el camino más corto para llegar antes que Caperucita. 	0:59			
+				Caperucita siguió por el camino más largo, entreteniéndose en recoger fruta y cortar flores.	1:05			
+				El astuto lobo fue directamente a la casa de la abuelita, entró y de un enorme bocado, se comió a la anciana. 	1:15			
+				Se puso su camisón y se metió en la cama. El lobo se escondió bien debajo de las mantas para engañar a Caperucita.	1:23			
+				Cuando llegó, Caperucita Roja llamó toda contenta a la puerta._- ¿Quién está ahí? - respondió una voz extraña y ronca. 	1:35			
+				- La abuelita debe tener un resfrío muy fuerte - pensó Caperucita Roja -. Su voz es muy ronca.	1:43			
+				Caperucita entró y, cuando se acercó a la cama, vio rara a su abuelita._- Abuelita, ¡qué brazos tan grandes tienes! - le dijo. 	1:50			
+				- Son para abrazarte mejor, querida - le respondió el lobo.	1:59			
+				- Abuelita, ¡qué ojos tan grandes tienes!_- Son para verte mejor, hijita. 	2:10			
+				- Abuelita, ¡qué orejas tan grandes tienes!_- Son para oírte mejor, cariño.	2:16			
+				- Abuelita, ¡qué dientes tan grandes tienes!_- ¡Son para comerte mejor! -. Y dicho esto, el lobo se abalanzó sobre Caperucita Roja con intención de comérsela.	2:34			
+				Por suerte pasaba por allí un cazador que, al oír el alboroto, entró y salvó a Caperucita. 	2:42			
+				El cazador mató al lobo, lo abrió por la mitad y de adentro del vientre salió la abuelita.	2:52			
+				Todos fueron muy felices. El cazador se llevó a casa la fina piel de lobo. La abuelita comió la torta.	3:01			
+				Caperucita Roja prometió que tendría más cuidado al caminar por el bosque y que nunca más volvería a hablar con un lobo.				
+caperucita_roja:5	Caperucita Roja	caperucita_roja	easy	Había una vez una niña que vivía con su mamá en una casa en el bosque. Su abuelita le había regalado una hermosa capa roja con capucha. Por eso todos la llamaban Caperucita Roja.	0:14	0		Mujer
+				Un día, la madre de Caperucita le pidió que llevara una canasta con una torta a su abuelita que estaba enferma.	0:22			
+				Caperucita Roja se marchó. Iba saltando alegremente por el bosque. De pronto, bajo la sombra de un gran árbol se encontró con el lobo y Caperucita le contó que iba a la casa de su abuelita. 	0:36			
+				El lobo, hambriento, pensó en comerse a Caperucita allí mismo, pero tuvo miedo porque cerca estaban unos leñadores cortando leña.	0:47			
+				Entonces el lobo pensó un plan para poder comerse a Caperucita. Le preguntó dónde quedaba la casa de su abuelita y decidió tomar el camino más corto para llegar antes que Caperucita. 	0:59			
+				Caperucita siguió por el camino más largo, entreteniéndose en recoger fruta y cortar flores.	1:05			
+				El astuto lobo fue directamente a la casa de la abuelita, entró y de un enorme bocado, se comió a la anciana. 	1:15			
+				Se puso su camisón y se metió en la cama. El lobo se escondió bien debajo de las mantas para engañar a Caperucita.	1:23			
+				Cuando llegó, Caperucita Roja llamó toda contenta a la puerta._- ¿Quién está ahí? - respondió una voz extraña y ronca. 	1:35			
+				- La abuelita debe tener un resfrío muy fuerte - pensó Caperucita Roja -. Su voz es muy ronca.	1:43			
+				Caperucita entró y, cuando se acercó a la cama, vio rara a su abuelita._- Abuelita, ¡qué brazos tan grandes tienes! - le dijo. 	1:50			
+				- Son para abrazarte mejor, querida - le respondió el lobo.	1:59			
+				- Abuelita, ¡qué ojos tan grandes tienes!_- Son para verte mejor, hijita. 	2:10			
+				- Abuelita, ¡qué orejas tan grandes tienes!_- Son para oírte mejor, cariño.	2:16			
+				- Abuelita, ¡qué dientes tan grandes tienes!_- ¡Son para comerte mejor! -. Y dicho esto, el lobo se abalanzó sobre Caperucita Roja con intención de comérsela.	2:34			
+				Por suerte pasaba por allí un cazador que, al oír el alboroto, entró y salvó a Caperucita. 	2:42			
+				El cazador mató al lobo, lo abrió por la mitad y de adentro del vientre salió la abuelita.	2:52			
+				Todos fueron muy felices. El cazador se llevó a casa la fina piel de lobo. La abuelita comió la torta.	3:01			
+				Caperucita Roja prometió que tendría más cuidado al caminar por el bosque y que nunca más volvería a hablar con un lobo.				
+zapallo_gigante	El Zapallo Gigante	zapallo_gigante	easy	Troncón Robusto era un pueblo chico y tranquilo. Los vecinos del pueblo trabajaban en el campo y por las tardes cuidaban los patios de sus casas donde crecían flores, plantas de verduras y árboles frutales. 	0:18	1		Mujer
+				Un día, en el patio de la familia Bustos, nació una plantita de hojas gruesas y tallo finito, que con los días se hacía cada vez más larga. Pasaron unas cuantas lluvias y, una linda mañana de sol, apareció un pequeño zapallo. 	0:34			
+				-¡Qué rico! - pensó Don Bustos - cuando crezca un poco más, voy a poder comer una rica sopa de zapallo. Pero Don Bustos no tuvo que esperar mucho. 	0:47			
+				A la mañana siguiente, el pequeño zapallo se había convertido en un zapallo gigante que ocupaba la mitad del patio y era casi tan alto como la casa.	0:59			
+				-¡Qué bueno! - dijo Pedrito Bustos - Me trepo hasta la punta y me deslizo por el tallo como si fuera un tobogán. 	1:06			
+				-¡Ni lo sueñe, mi hijo! Yo con este zapallo voy a preparar ochocientos cincuenta y tres kilos de dulce - respondió Mamá Bustos. 	1:15			
+				- ¡Ah, no! ¡Nadie toca mi zapallo! - ordenó Don Bustos - Primero lo llevo a la feria del pueblo para que todos vean qué verduras maravillosas crecen en el patio de Don Bustos. 	1:27			
+				Y dicho esto, salió a buscar su camioneta. Con la ayuda de cinco vecinos muy forzudos, Don Bustos cargó el zapallo y salió rumbo a la feria.	1:40			
+				Los chicos y los grandes miraban impresionados el zapallo._- ¡Qué zapallo robusto! ¿Cómo hizo para que sea tan grande, Don Bustos? 	1:50			
+				- Y... La verdad es que Don Bustos no sabía qué contestar porque el zapallo había crecido solo, se había vuelto gigante como por arte de magia.	2:02			
+				En eso se escuchó una voz y un recién llegado con cara de pícaro preguntó: "¿Y cómo están tan seguros de que esa cosa es un zapallo?". 	2:13			
+				Todos se sorprendieron ante la pregunta y empezaron a explicar._-¿No ve que es naranja? Si fuera verde podría ser una sandía.	2:22			
+				- Tan redondo como es, no puede ser una zanahoria._- Con esas hojas y ese tallo, solo puede ser un zapallo.	2:31			
+				- ¡Ah, no, no! A mí si no me demuestran que es un zapallo, no les creo._- ¿Cómo que no me cree? ¿Qué tengo que hacer para demostrárselo? - preguntó desafiante Don Bustos. 	2:45			
+				- Bueno, la única forma de saber si de verdad es un zapallo es probándolo. El zapallo tiene gusto a zapallo. 	2:55			
+				A Don Bustos no le gustó la idea de cocinar su zapallo para un extraño. Pero como no quería que pensaran que era un mentiroso, aceptó. Y se pusieron a cocinar.	3:07			
+				Cuando el zapallo estuvo listo, de la olla salía un aroma delicioso. Mamá Bustos hundió un tenedor en el zapallo y lo probó._- ¡Tiene gusto a zapallo! - gritó triunfante. 	3:20			
+				- ¡Ah, no no! Acá el que tiene que probar soy yo - dijo el pícaro - ¡Sírvame por favor un buen plato de zapallo! 	3:31			
+				Don Bustos estuvo a punto de negarse, pero se calló. Sentado en una mesa, el pícaro pidió sal y aceite y con un tenedor preparó el puré. 	3:41			
+				Rápidamente se comió todo el plato de zapallo._- ¿Y? ¿Era o no era un zapallo?_- La verdad es que no sé, pero estaba riquísimo. ¡Gracias por la comida! 	3:54			
+				El pícaro se levantó, se dio medio vuelta y se fue con una sonrisa en los labios. Así fue cómo un pícaro engañó a los Bustos y logró que le prepararan una rica comida con el zapallo más grande jamás visto en Troncón Robusto.				
+zapallo_gigante:2	El Zapallo Gigante	zapallo_gigante	easy	Troncón Robusto era un pueblo chico y tranquilo. Los vecinos del pueblo trabajaban en el campo y por las tardes cuidaban los patios de sus casas donde crecían flores, plantas de verduras y árboles frutales. 	0:18	0		Mujer
+				Un día, en el patio de la familia Bustos, nació una plantita de hojas gruesas y tallo finito, que con los días se hacía cada vez más larga. Pasaron unas cuantas lluvias y, una linda mañana de sol, apareció un pequeño zapallo. 	0:34			
+				-¡Qué rico! - pensó Don Bustos - cuando crezca un poco más, voy a poder comer una rica sopa de zapallo. Pero Don Bustos no tuvo que esperar mucho. 	0:47			
+				A la mañana siguiente, el pequeño zapallo se había convertido en un zapallo gigante que ocupaba la mitad del patio y era casi tan alto como la casa.	0:59			
+				-¡Qué bueno! - dijo Pedrito Bustos - Me trepo hasta la punta y me deslizo por el tallo como si fuera un tobogán. 	1:06			
+				-¡Ni lo sueñe, mi hijo! Yo con este zapallo voy a preparar ochocientos cincuenta y tres kilos de dulce - respondió Mamá Bustos. 	1:15			
+				- ¡Ah, no! ¡Nadie toca mi zapallo! - ordenó Don Bustos - Primero lo llevo a la feria del pueblo para que todos vean qué verduras maravillosas crecen en el patio de Don Bustos. 	1:27			
+				Y dicho esto, salió a buscar su camioneta. Con la ayuda de cinco vecinos muy forzudos, Don Bustos cargó el zapallo y salió rumbo a la feria.	1:40			
+				Los chicos y los grandes miraban impresionados el zapallo._- ¡Qué zapallo robusto! ¿Cómo hizo para que sea tan grande, Don Bustos? 	1:50			
+				- Y... La verdad es que Don Bustos no sabía qué contestar porque el zapallo había crecido solo, se había vuelto gigante como por arte de magia.	2:02			
+				En eso se escuchó una voz y un recién llegado con cara de pícaro preguntó: "¿Y cómo están tan seguros de que esa cosa es un zapallo?". 	2:13			
+				Todos se sorprendieron ante la pregunta y empezaron a explicar._-¿No ve que es naranja? Si fuera verde podría ser una sandía.	2:22			
+				- Tan redondo como es, no puede ser una zanahoria._- Con esas hojas y ese tallo, solo puede ser un zapallo.	2:31			
+				- ¡Ah, no, no! A mí si no me demuestran que es un zapallo, no les creo._- ¿Cómo que no me cree? ¿Qué tengo que hacer para demostrárselo? - preguntó desafiante Don Bustos. 	2:45			
+				- Bueno, la única forma de saber si de verdad es un zapallo es probándolo. El zapallo tiene gusto a zapallo. 	2:55			
+				A Don Bustos no le gustó la idea de cocinar su zapallo para un extraño. Pero como no quería que pensaran que era un mentiroso, aceptó. Y se pusieron a cocinar.	3:07			
+				Cuando el zapallo estuvo listo, de la olla salía un aroma delicioso. Mamá Bustos hundió un tenedor en el zapallo y lo probó._- ¡Tiene gusto a zapallo! - gritó triunfante. 	3:20			
+				- ¡Ah, no no! Acá el que tiene que probar soy yo - dijo el pícaro - ¡Sírvame por favor un buen plato de zapallo! 	3:31			
+				Don Bustos estuvo a punto de negarse, pero se calló. Sentado en una mesa, el pícaro pidió sal y aceite y con un tenedor preparó el puré. 	3:41			
+				Rápidamente se comió todo el plato de zapallo._- ¿Y? ¿Era o no era un zapallo?_- La verdad es que no sé, pero estaba riquísimo. ¡Gracias por la comida! 	3:54			
+				El pícaro se levantó, se dio medio vuelta y se fue con una sonrisa en los labios. Así fue cómo un pícaro engañó a los Bustos y logró que le prepararan una rica comida con el zapallo más grande jamás visto en Troncón Robusto.				
+zapallo_gigante:3	El Zapallo Gigante	zapallo_gigante	easy	Troncón Robusto era un pueblo chico y tranquilo. Los vecinos del pueblo trabajaban en el campo y por las tardes cuidaban los patios de sus casas donde crecían flores, plantas de verduras y árboles frutales. 	0:18	0		Mujer
+				Un día, en el patio de la familia Bustos, nació una plantita de hojas gruesas y tallo finito, que con los días se hacía cada vez más larga. Pasaron unas cuantas lluvias y, una linda mañana de sol, apareció un pequeño zapallo. 	0:34			
+				-¡Qué rico! - pensó Don Bustos - cuando crezca un poco más, voy a poder comer una rica sopa de zapallo. Pero Don Bustos no tuvo que esperar mucho. 	0:47			
+				A la mañana siguiente, el pequeño zapallo se había convertido en un zapallo gigante que ocupaba la mitad del patio y era casi tan alto como la casa.	0:59			
+				-¡Qué bueno! - dijo Pedrito Bustos - Me trepo hasta la punta y me deslizo por el tallo como si fuera un tobogán. 	1:06			
+				-¡Ni lo sueñe, mi hijo! Yo con este zapallo voy a preparar ochocientos cincuenta y tres kilos de dulce - respondió Mamá Bustos. 	1:15			
+				- ¡Ah, no! ¡Nadie toca mi zapallo! - ordenó Don Bustos - Primero lo llevo a la feria del pueblo para que todos vean qué verduras maravillosas crecen en el patio de Don Bustos. 	1:27			
+				Y dicho esto, salió a buscar su camioneta. Con la ayuda de cinco vecinos muy forzudos, Don Bustos cargó el zapallo y salió rumbo a la feria.	1:40			
+				Los chicos y los grandes miraban impresionados el zapallo._- ¡Qué zapallo robusto! ¿Cómo hizo para que sea tan grande, Don Bustos? 	1:50			
+				- Y... La verdad es que Don Bustos no sabía qué contestar porque el zapallo había crecido solo, se había vuelto gigante como por arte de magia.	2:02			
+				En eso se escuchó una voz y un recién llegado con cara de pícaro preguntó: "¿Y cómo están tan seguros de que esa cosa es un zapallo?". 	2:13			
+				Todos se sorprendieron ante la pregunta y empezaron a explicar._-¿No ve que es naranja? Si fuera verde podría ser una sandía.	2:22			
+				- Tan redondo como es, no puede ser una zanahoria._- Con esas hojas y ese tallo, solo puede ser un zapallo.	2:31			
+				- ¡Ah, no, no! A mí si no me demuestran que es un zapallo, no les creo._- ¿Cómo que no me cree? ¿Qué tengo que hacer para demostrárselo? - preguntó desafiante Don Bustos. 	2:45			
+				- Bueno, la única forma de saber si de verdad es un zapallo es probándolo. El zapallo tiene gusto a zapallo. 	2:55			
+				A Don Bustos no le gustó la idea de cocinar su zapallo para un extraño. Pero como no quería que pensaran que era un mentiroso, aceptó. Y se pusieron a cocinar.	3:07			
+				Cuando el zapallo estuvo listo, de la olla salía un aroma delicioso. Mamá Bustos hundió un tenedor en el zapallo y lo probó._- ¡Tiene gusto a zapallo! - gritó triunfante. 	3:20			
+				- ¡Ah, no no! Acá el que tiene que probar soy yo - dijo el pícaro - ¡Sírvame por favor un buen plato de zapallo! 	3:31			
+				Don Bustos estuvo a punto de negarse, pero se calló. Sentado en una mesa, el pícaro pidió sal y aceite y con un tenedor preparó el puré. 	3:41			
+				Rápidamente se comió todo el plato de zapallo._- ¿Y? ¿Era o no era un zapallo?_- La verdad es que no sé, pero estaba riquísimo. ¡Gracias por la comida! 	3:54			
+				El pícaro se levantó, se dio medio vuelta y se fue con una sonrisa en los labios. Así fue cómo un pícaro engañó a los Bustos y logró que le prepararan una rica comida con el zapallo más grande jamás visto en Troncón Robusto.				
+zapallo_gigante:4	El Zapallo Gigante	zapallo_gigante	easy	Troncón Robusto era un pueblo chico y tranquilo. Los vecinos del pueblo trabajaban en el campo y por las tardes cuidaban los patios de sus casas donde crecían flores, plantas de verduras y árboles frutales. 	0:18	0		Mujer
+				Un día, en el patio de la familia Bustos, nació una plantita de hojas gruesas y tallo finito, que con los días se hacía cada vez más larga. Pasaron unas cuantas lluvias y, una linda mañana de sol, apareció un pequeño zapallo. 	0:34			
+				-¡Qué rico! - pensó Don Bustos - cuando crezca un poco más, voy a poder comer una rica sopa de zapallo. Pero Don Bustos no tuvo que esperar mucho. 	0:47			
+				A la mañana siguiente, el pequeño zapallo se había convertido en un zapallo gigante que ocupaba la mitad del patio y era casi tan alto como la casa.	0:59			
+				-¡Qué bueno! - dijo Pedrito Bustos - Me trepo hasta la punta y me deslizo por el tallo como si fuera un tobogán. 	1:06			
+				-¡Ni lo sueñe, mi hijo! Yo con este zapallo voy a preparar ochocientos cincuenta y tres kilos de dulce - respondió Mamá Bustos. 	1:15			
+				- ¡Ah, no! ¡Nadie toca mi zapallo! - ordenó Don Bustos - Primero lo llevo a la feria del pueblo para que todos vean qué verduras maravillosas crecen en el patio de Don Bustos. 	1:27			
+				Y dicho esto, salió a buscar su camioneta. Con la ayuda de cinco vecinos muy forzudos, Don Bustos cargó el zapallo y salió rumbo a la feria.	1:40			
+				Los chicos y los grandes miraban impresionados el zapallo._- ¡Qué zapallo robusto! ¿Cómo hizo para que sea tan grande, Don Bustos? 	1:50			
+				- Y... La verdad es que Don Bustos no sabía qué contestar porque el zapallo había crecido solo, se había vuelto gigante como por arte de magia.	2:02			
+				En eso se escuchó una voz y un recién llegado con cara de pícaro preguntó: "¿Y cómo están tan seguros de que esa cosa es un zapallo?". 	2:13			
+				Todos se sorprendieron ante la pregunta y empezaron a explicar._-¿No ve que es naranja? Si fuera verde podría ser una sandía.	2:22			
+				- Tan redondo como es, no puede ser una zanahoria._- Con esas hojas y ese tallo, solo puede ser un zapallo.	2:31			
+				- ¡Ah, no, no! A mí si no me demuestran que es un zapallo, no les creo._- ¿Cómo que no me cree? ¿Qué tengo que hacer para demostrárselo? - preguntó desafiante Don Bustos. 	2:45			
+				- Bueno, la única forma de saber si de verdad es un zapallo es probándolo. El zapallo tiene gusto a zapallo. 	2:55			
+				A Don Bustos no le gustó la idea de cocinar su zapallo para un extraño. Pero como no quería que pensaran que era un mentiroso, aceptó. Y se pusieron a cocinar.	3:07			
+				Cuando el zapallo estuvo listo, de la olla salía un aroma delicioso. Mamá Bustos hundió un tenedor en el zapallo y lo probó._- ¡Tiene gusto a zapallo! - gritó triunfante. 	3:20			
+				- ¡Ah, no no! Acá el que tiene que probar soy yo - dijo el pícaro - ¡Sírvame por favor un buen plato de zapallo! 	3:31			
+				Don Bustos estuvo a punto de negarse, pero se calló. Sentado en una mesa, el pícaro pidió sal y aceite y con un tenedor preparó el puré. 	3:41			
+				Rápidamente se comió todo el plato de zapallo._- ¿Y? ¿Era o no era un zapallo?_- La verdad es que no sé, pero estaba riquísimo. ¡Gracias por la comida! 	3:54			
+				El pícaro se levantó, se dio medio vuelta y se fue con una sonrisa en los labios. Así fue cómo un pícaro engañó a los Bustos y logró que le prepararan una rica comida con el zapallo más grande jamás visto en Troncón Robusto.				
+zapallo_gigante:5	El Zapallo Gigante	zapallo_gigante	easy	vacio	0:06	0		Mujer
+bicho_bolita	El Juego de los Bichos Bolita	bicho_bolita	easy	Ramón era el bicho bolita más pequeño de su familia. Tenía muchos amigos porque era muy travieso y juguetón.	0:12	1		Mujer
+				Por eso, cada mañana, Ramoncito salía de su casa, que estaba debajo de las piedras, para saludar a los otros bichos y bichitos del jardín.	0:22			
+				Pero aquel día pasó algo extraño. Apenas asomó la cabeza vio algo horrible: ¡un pájaro hambriento buscaba alimento entre las plantas! Y como los pájaros comen bichitos, ¡sus amigos estaban en peligro!	0:40			
+				Las langostas saltaron lejos. Las mariposas, las vaquitas de San Antonio y las abejas volaron alto.	0:49			
+				El ciempiés escapó caminando rápido. Las lombrices se escondieron en sus cuevitas bajo tierra.	0:58			
+				Hasta las gatas peludas, que no saltan ni vuelan, pudieron escapar del pájaro asustándolo con sus pinches. ¡Todo había terminado bien!	1:08			
+				Pero a Ramoncito algo lo preocupaba. ¿Podría su familia escapar tan rápido? Estaba tan intranquilo que ni siquiera pudo comer las tiernas raíces del almuerzo. Tampoco quiso jugar a las escondidas en los laberintos de las lombrices con sus hermanos.	1:27			
+				Por la tarde, Doña Redondita, su mamá, le preguntó qué le pasaba. Ramoncito le contó lo que había visto en el jardín esa mañana. 	1:36			
+				Y después le dijo: ¡Mamá, todos escaparon del pájaro pero nosotros no podemos volar ni correr rápido ni saltar alto! ¿Cómo podemos escapar los bichos bolita de los pájaros hambrientos? 	1:50			
+				Doña Redondita abrazó muy fuerte a Ramón. Después le preguntó si había visto el juego que Don Redondón, su papá, les había enseñado a sus hermanos.	2:04			
+				Ramoncito giró la cabeza y no pudo creer lo que sus ojos veían. Don Redondón perseguía a los pequeños bichitos bolita, pero si se acercaban mucho, ellos dejaban de caminar y se convertían en una perfecta bolita gris que rodaba rapidísimo. 	2:22			
+				Desde ese día Ramoncito tuvo un nuevo juego preferido: la mancha bolita.				
+bicho_bolita:2	El Juego de los Bichos Bolita	bicho_bolita	easy	Ramón era el bicho bolita más pequeño de su familia. Tenía muchos amigos porque era muy travieso y juguetón.	0:12	0		Mujer
+				Por eso, cada mañana, Ramoncito salía de su casa, que estaba debajo de las piedras, para saludar a los otros bichos y bichitos del jardín.	0:22			
+				Pero aquel día pasó algo extraño. Apenas asomó la cabeza vio algo horrible: ¡un pájaro hambriento buscaba alimento entre las plantas! Y como los pájaros comen bichitos, ¡sus amigos estaban en peligro!	0:40			
+				Las langostas saltaron lejos. Las mariposas, las vaquitas de San Antonio y las abejas volaron alto.	0:49			
+				El ciempiés escapó caminando rápido. Las lombrices se escondieron en sus cuevitas bajo tierra.	0:58			
+				Hasta las gatas peludas, que no saltan ni vuelan, pudieron escapar del pájaro asustándolo con sus pinches. ¡Todo había terminado bien!	1:08			
+				Pero a Ramoncito algo lo preocupaba. ¿Podría su familia escapar tan rápido? Estaba tan intranquilo que ni siquiera pudo comer las tiernas raíces del almuerzo. Tampoco quiso jugar a las escondidas en los laberintos de las lombrices con sus hermanos.	1:27			
+				Por la tarde, Doña Redondita, su mamá, le preguntó qué le pasaba. Ramoncito le contó lo que había visto en el jardín esa mañana. 	1:36			
+				Y después le dijo: ¡Mamá, todos escaparon del pájaro pero nosotros no podemos volar ni correr rápido ni saltar alto! ¿Cómo podemos escapar los bichos bolita de los pájaros hambrientos? 	1:50			
+				Doña Redondita abrazó muy fuerte a Ramón. Después le preguntó si había visto el juego que Don Redondón, su papá, les había enseñado a sus hermanos.	2:04			
+				Ramoncito giró la cabeza y no pudo creer lo que sus ojos veían. Don Redondón perseguía a los pequeños bichitos bolita, pero si se acercaban mucho, ellos dejaban de caminar y se convertían en una perfecta bolita gris que rodaba rapidísimo. 	2:22			
+				Desde ese día Ramoncito tuvo un nuevo juego preferido: la mancha bolita.				
+bicho_bolita:3	El Juego de los Bichos Bolita	bicho_bolita	easy	Ramón era el bicho bolita más pequeño de su familia. Tenía muchos amigos porque era muy travieso y juguetón.	0:12	0		Mujer
+				Por eso, cada mañana, Ramoncito salía de su casa, que estaba debajo de las piedras, para saludar a los otros bichos y bichitos del jardín.	0:22			
+				Pero aquel día pasó algo extraño. Apenas asomó la cabeza vio algo horrible: ¡un pájaro hambriento buscaba alimento entre las plantas! Y como los pájaros comen bichitos, ¡sus amigos estaban en peligro!	0:40			
+				Las langostas saltaron lejos. Las mariposas, las vaquitas de San Antonio y las abejas volaron alto.	0:49			
+				El ciempiés escapó caminando rápido. Las lombrices se escondieron en sus cuevitas bajo tierra.	0:58			
+				Hasta las gatas peludas, que no saltan ni vuelan, pudieron escapar del pájaro asustándolo con sus pinches. ¡Todo había terminado bien!	1:08			
+				Pero a Ramoncito algo lo preocupaba. ¿Podría su familia escapar tan rápido? Estaba tan intranquilo que ni siquiera pudo comer las tiernas raíces del almuerzo. Tampoco quiso jugar a las escondidas en los laberintos de las lombrices con sus hermanos.	1:27			
+				Por la tarde, Doña Redondita, su mamá, le preguntó qué le pasaba. Ramoncito le contó lo que había visto en el jardín esa mañana. 	1:36			
+				Y después le dijo: ¡Mamá, todos escaparon del pájaro pero nosotros no podemos volar ni correr rápido ni saltar alto! ¿Cómo podemos escapar los bichos bolita de los pájaros hambrientos? 	1:50			
+				Doña Redondita abrazó muy fuerte a Ramón. Después le preguntó si había visto el juego que Don Redondón, su papá, les había enseñado a sus hermanos.	2:04			
+				Ramoncito giró la cabeza y no pudo creer lo que sus ojos veían. Don Redondón perseguía a los pequeños bichitos bolita, pero si se acercaban mucho, ellos dejaban de caminar y se convertían en una perfecta bolita gris que rodaba rapidísimo. 	2:22			
+				Desde ese día Ramoncito tuvo un nuevo juego preferido: la mancha bolita.				
+bicho_bolita:4	El Juego de los Bichos Bolita	bicho_bolita	easy	Ramón era el bicho bolita más pequeño de su familia. Tenía muchos amigos porque era muy travieso y juguetón.	0:12	0		Mujer
+				Por eso, cada mañana, Ramoncito salía de su casa, que estaba debajo de las piedras, para saludar a los otros bichos y bichitos del jardín.	0:22			
+				Pero aquel día pasó algo extraño. Apenas asomó la cabeza vio algo horrible: ¡un pájaro hambriento buscaba alimento entre las plantas! Y como los pájaros comen bichitos, ¡sus amigos estaban en peligro!	0:40			
+				Las langostas saltaron lejos. Las mariposas, las vaquitas de San Antonio y las abejas volaron alto.	0:49			
+				El ciempiés escapó caminando rápido. Las lombrices se escondieron en sus cuevitas bajo tierra.	0:58			
+				Hasta las gatas peludas, que no saltan ni vuelan, pudieron escapar del pájaro asustándolo con sus pinches. ¡Todo había terminado bien!	1:08			
+				Pero a Ramoncito algo lo preocupaba. ¿Podría su familia escapar tan rápido? Estaba tan intranquilo que ni siquiera pudo comer las tiernas raíces del almuerzo. Tampoco quiso jugar a las escondidas en los laberintos de las lombrices con sus hermanos.	1:27			
+				Por la tarde, Doña Redondita, su mamá, le preguntó qué le pasaba. Ramoncito le contó lo que había visto en el jardín esa mañana. 	1:36			
+				Y después le dijo: ¡Mamá, todos escaparon del pájaro pero nosotros no podemos volar ni correr rápido ni saltar alto! ¿Cómo podemos escapar los bichos bolita de los pájaros hambrientos? 	1:50			
+				Doña Redondita abrazó muy fuerte a Ramón. Después le preguntó si había visto el juego que Don Redondón, su papá, les había enseñado a sus hermanos.	2:04			
+				Ramoncito giró la cabeza y no pudo creer lo que sus ojos veían. Don Redondón perseguía a los pequeños bichitos bolita, pero si se acercaban mucho, ellos dejaban de caminar y se convertían en una perfecta bolita gris que rodaba rapidísimo. 	2:22			
+				Desde ese día Ramoncito tuvo un nuevo juego preferido: la mancha bolita.				
+bicho_bolita:5	El Juego de los Bichos Bolita	bicho_bolita	easy	vacio	0:12	0		Mujer
+zorro_hornero	El Zorro y el Hornero	zorro_hornero	easy	Una mañana fría de invierno, el zorro salió a buscar comida, tenía mucha hambre.	0:08	1		Mujer
+				Caminando por el monte se encontró con un hornero. El hornero estaba en un charco sacando barro para hacer su casita. 	0:14			
+				Los horneros construyen casas igual que los albañiles.	0:19			
+				El zorro se acercó y atrapó al hornero. Pero no lo comió ahí mismo. Se fue al trote a la cueva con el hornero en la boca.	0:27			
+				Cuando los pájaros del campo lo vieron se amontonaron para pedirle que suelte al hornero. Le gritaban "Largá al pobre hornerito".	0:35			
+				El zorro se enojó mucho con los gritos de los pájaros, no quería que todos supiesen que se llevaban al hornerito.	0:42			
+				Entonces el hornero, que es más vivo que el zorro, le dijo:_- Deciles que se dejen de joder, que qué les importa a ellos.	0:50			
+				El zorro, que estaba enojadísimo, se paró, abrió la boca para hablar y el hornero aprovechó, se escapó y voló a un árbol.	0:58			
+				Los pajaritos hicieron una fiesta, revoloteaban y cantaban y el zorro muy enojado volvió a su casa.				
+zorro_hornero:2	El Zorro y el Hornero	zorro_hornero	easy	Una mañana fría de invierno, el zorro salió a buscar comida, tenía mucha hambre.	0:08	0		Mujer
+				Caminando por el monte se encontró con un hornero. El hornero estaba en un charco sacando barro para hacer su casita. 	0:14			
+				Los horneros construyen casas igual que los albañiles.	0:19			
+				El zorro se acercó y atrapó al hornero. Pero no lo comió ahí mismo. Se fue al trote a la cueva con el hornero en la boca.	0:27			
+				Cuando los pájaros del campo lo vieron se amontonaron para pedirle que suelte al hornero. Le gritaban "Largá al pobre hornerito".	0:35			
+				El zorro se enojó mucho con los gritos de los pájaros, no quería que todos supiesen que se llevaban al hornerito.	0:42			
+				Entonces el hornero, que es más vivo que el zorro, le dijo:_- Deciles que se dejen de joder, que qué les importa a ellos.	0:50			
+				El zorro, que estaba enojadísimo, se paró, abrió la boca para hablar y el hornero aprovechó, se escapó y voló a un árbol.	0:58			
+				Los pajaritos hicieron una fiesta, revoloteaban y cantaban y el zorro muy enojado volvió a su casa.				
+zorro_hornero:3	El Zorro y el Hornero	zorro_hornero	easy	Una mañana fría de invierno, el zorro salió a buscar comida, tenía mucha hambre.	0:08	0		Mujer
+				Caminando por el monte se encontró con un hornero. El hornero estaba en un charco sacando barro para hacer su casita. 	0:14			
+				Los horneros construyen casas igual que los albañiles.	0:19			
+				El zorro se acercó y atrapó al hornero. Pero no lo comió ahí mismo. Se fue al trote a la cueva con el hornero en la boca.	0:27			
+				Cuando los pájaros del campo lo vieron se amontonaron para pedirle que suelte al hornero. Le gritaban "Largá al pobre hornerito".	0:35			
+				El zorro se enojó mucho con los gritos de los pájaros, no quería que todos supiesen que se llevaban al hornerito.	0:42			
+				Entonces el hornero, que es más vivo que el zorro, le dijo:_- Deciles que se dejen de joder, que qué les importa a ellos.	0:50			
+				El zorro, que estaba enojadísimo, se paró, abrió la boca para hablar y el hornero aprovechó, se escapó y voló a un árbol.	0:58			
+				Los pajaritos hicieron una fiesta, revoloteaban y cantaban y el zorro muy enojado volvió a su casa.				
+zorro_hornero:4	El Zorro y el Hornero	zorro_hornero	easy	Una mañana fría de invierno, el zorro salió a buscar comida, tenía mucha hambre.	0:08	0		Mujer
+				Caminando por el monte se encontró con un hornero. El hornero estaba en un charco sacando barro para hacer su casita. 	0:14			
+				Los horneros construyen casas igual que los albañiles.	0:19			
+				El zorro se acercó y atrapó al hornero. Pero no lo comió ahí mismo. Se fue al trote a la cueva con el hornero en la boca.	0:27			
+				Cuando los pájaros del campo lo vieron se amontonaron para pedirle que suelte al hornero. Le gritaban "Largá al pobre hornerito".	0:35			
+				El zorro se enojó mucho con los gritos de los pájaros, no quería que todos supiesen que se llevaban al hornerito.	0:42			
+				Entonces el hornero, que es más vivo que el zorro, le dijo:_- Deciles que se dejen de joder, que qué les importa a ellos.	0:50			
+				El zorro, que estaba enojadísimo, se paró, abrió la boca para hablar y el hornero aprovechó, se escapó y voló a un árbol.	0:58			
+				Los pajaritos hicieron una fiesta, revoloteaban y cantaban y el zorro muy enojado volvió a su casa.				
+zorro_hornero:5	El Zorro y el Hornero	zorro_hornero	easy	vacio	0:08	0		Mujer
+risa_pajaros	La Risa de los Pájaros	risa_pajaros	easy	Cierta vez, las aves reunidas en un claro del monte, organizaron una carrera de vuelo. Ganaría el ave que pudiera volar más rápido y más alto que todas. 	0:12	1		Mujer
+				Se anotaron para la competencia pajaritos de todas clases y colores. También había patos, gallinas, loros, caranchos, garzas, flamencos y muchos más...	0:24			
+				Cuando llegó el día de la carrera, se prepararon todos los competidores en la línea de largada.	0:30			
+				Sacudieron las alas y estiraron sus cogotes para aliviar los nervios. De pronto, se paró en el medio del grupo, un animal que se notaba que era un ave.	0:41			
+				Tenía pico, plumas y dos patas, pero su cuerpo era tan robusto y alto que todos quedaron asombrados, con el pico abierto.	0:51			
+				Un pajarito atrevido y curioso le preguntó:_- Y usted... ¿qué ave es?_El ave, en tono serio y en voz muy alta, le contestó:_- Soy el ñandú y vengo a participar de la carrera.	1:06			
+				Todas las aves que se habían preparado para la largada, retrocedieron y se dispersaron. Tan imponente animal les causó miedo y pensaron que nadie podría desafiar a semejante ejemplar de ave.	1:21			
+				Un rato después, aunque parecía que la carrera se suspendería, el ñandú permanecía amenazante esperando que alguien se animara a competir con él.	1:31			
+				De pronto, un pajarito común se arrimó y dijo:_- Yo correré contra el ñandú._Cuando dieron la orden de largada, el pájaro alzó el vuelo con facilidad y avanzó velozmente alcanzando gran altura. 	1:44			
+				En cambio, el ñandú corrió muy rápido, pero por más que agitó fuertemente sus enormes alas, no pudo elevar su pesado cuerpo ni un poquito.	1:53			
+				El pájaro, por supuesto, llegó antes a la meta y se paró a mirar los esfuerzos que hacía el ñandú queriendo volar.	2:01			
+				Le causó mucha gracia pero trató de contener la risa, al igual que las demás aves. Cuando el ñandú llegó a la meta, uno de los pajaritos, el más gracioso, no aguantó más y comenzó a reírse.	2:13			
+				Los otros pajaritos se contagiaron y, de tanto que se rieron, la risa se convirtió en silbido.				
+risa_pajaros:2	La Risa de los Pájaros	risa_pajaros	easy	Cierta vez, las aves reunidas en un claro del monte, organizaron una carrera de vuelo. Ganaría el ave que pudiera volar más rápido y más alto que todas. 	0:12	0		Mujer
+				Se anotaron para la competencia pajaritos de todas clases y colores. También había patos, gallinas, loros, caranchos, garzas, flamencos y muchos más...	0:24			
+				Cuando llegó el día de la carrera, se prepararon todos los competidores en la línea de largada.	0:30			
+				Sacudieron las alas y estiraron sus cogotes para aliviar los nervios. De pronto, se paró en el medio del grupo, un animal que se notaba que era un ave.	0:41			
+				Tenía pico, plumas y dos patas, pero su cuerpo era tan robusto y alto que todos quedaron asombrados, con el pico abierto.	0:51			
+				Un pajarito atrevido y curioso le preguntó:_- Y usted... ¿qué ave es?_El ave, en tono serio y en voz muy alta, le contestó:_- Soy el ñandú y vengo a participar de la carrera.	1:06			
+				Todas las aves que se habían preparado para la largada, retrocedieron y se dispersaron. Tan imponente animal les causó miedo y pensaron que nadie podría desafiar a semejante ejemplar de ave.	1:21			
+				Un rato después, aunque parecía que la carrera se suspendería, el ñandú permanecía amenazante esperando que alguien se animara a competir con él.	1:31			
+				De pronto, un pajarito común se arrimó y dijo:_- Yo correré contra el ñandú._Cuando dieron la orden de largada, el pájaro alzó el vuelo con facilidad y avanzó velozmente alcanzando gran altura. 	1:44			
+				En cambio, el ñandú corrió muy rápido, pero por más que agitó fuertemente sus enormes alas, no pudo elevar su pesado cuerpo ni un poquito.	1:53			
+				El pájaro, por supuesto, llegó antes a la meta y se paró a mirar los esfuerzos que hacía el ñandú queriendo volar.	2:01			
+				Le causó mucha gracia pero trató de contener la risa, al igual que las demás aves. Cuando el ñandú llegó a la meta, uno de los pajaritos, el más gracioso, no aguantó más y comenzó a reírse.	2:13			
+				Los otros pajaritos se contagiaron y, de tanto que se rieron, la risa se convirtió en silbido.				
+risa_pajaros:3	La Risa de los Pájaros	risa_pajaros	easy	Cierta vez, las aves reunidas en un claro del monte, organizaron una carrera de vuelo. Ganaría el ave que pudiera volar más rápido y más alto que todas. 	0:12	0		Mujer
+				Se anotaron para la competencia pajaritos de todas clases y colores. También había patos, gallinas, loros, caranchos, garzas, flamencos y muchos más...	0:24			
+				Cuando llegó el día de la carrera, se prepararon todos los competidores en la línea de largada.	0:30			
+				Sacudieron las alas y estiraron sus cogotes para aliviar los nervios. De pronto, se paró en el medio del grupo, un animal que se notaba que era un ave.	0:41			
+				Tenía pico, plumas y dos patas, pero su cuerpo era tan robusto y alto que todos quedaron asombrados, con el pico abierto.	0:51			
+				Un pajarito atrevido y curioso le preguntó:_- Y usted... ¿qué ave es?_El ave, en tono serio y en voz muy alta, le contestó:_- Soy el ñandú y vengo a participar de la carrera.	1:06			
+				Todas las aves que se habían preparado para la largada, retrocedieron y se dispersaron. Tan imponente animal les causó miedo y pensaron que nadie podría desafiar a semejante ejemplar de ave.	1:21			
+				Un rato después, aunque parecía que la carrera se suspendería, el ñandú permanecía amenazante esperando que alguien se animara a competir con él.	1:31			
+				De pronto, un pajarito común se arrimó y dijo:_- Yo correré contra el ñandú._Cuando dieron la orden de largada, el pájaro alzó el vuelo con facilidad y avanzó velozmente alcanzando gran altura. 	1:44			
+				En cambio, el ñandú corrió muy rápido, pero por más que agitó fuertemente sus enormes alas, no pudo elevar su pesado cuerpo ni un poquito.	1:53			
+				El pájaro, por supuesto, llegó antes a la meta y se paró a mirar los esfuerzos que hacía el ñandú queriendo volar.	2:01			
+				Le causó mucha gracia pero trató de contener la risa, al igual que las demás aves. Cuando el ñandú llegó a la meta, uno de los pajaritos, el más gracioso, no aguantó más y comenzó a reírse.	2:13			
+				Los otros pajaritos se contagiaron y, de tanto que se rieron, la risa se convirtió en silbido.				
+risa_pajaros:4	La Risa de los Pájaros	risa_pajaros	easy	Cierta vez, las aves reunidas en un claro del monte, organizaron una carrera de vuelo. Ganaría el ave que pudiera volar más rápido y más alto que todas. 	0:12	0		Mujer
+				Se anotaron para la competencia pajaritos de todas clases y colores. También había patos, gallinas, loros, caranchos, garzas, flamencos y muchos más...	0:24			
+				Cuando llegó el día de la carrera, se prepararon todos los competidores en la línea de largada.	0:30			
+				Sacudieron las alas y estiraron sus cogotes para aliviar los nervios. De pronto, se paró en el medio del grupo, un animal que se notaba que era un ave.	0:41			
+				Tenía pico, plumas y dos patas, pero su cuerpo era tan robusto y alto que todos quedaron asombrados, con el pico abierto.	0:51			
+				Un pajarito atrevido y curioso le preguntó:_- Y usted... ¿qué ave es?_El ave, en tono serio y en voz muy alta, le contestó:_- Soy el ñandú y vengo a participar de la carrera.	1:06			
+				Todas las aves que se habían preparado para la largada, retrocedieron y se dispersaron. Tan imponente animal les causó miedo y pensaron que nadie podría desafiar a semejante ejemplar de ave.	1:21			
+				Un rato después, aunque parecía que la carrera se suspendería, el ñandú permanecía amenazante esperando que alguien se animara a competir con él.	1:31			
+				De pronto, un pajarito común se arrimó y dijo:_- Yo correré contra el ñandú._Cuando dieron la orden de largada, el pájaro alzó el vuelo con facilidad y avanzó velozmente alcanzando gran altura. 	1:44			
+				En cambio, el ñandú corrió muy rápido, pero por más que agitó fuertemente sus enormes alas, no pudo elevar su pesado cuerpo ni un poquito.	1:53			
+				El pájaro, por supuesto, llegó antes a la meta y se paró a mirar los esfuerzos que hacía el ñandú queriendo volar.	2:01			
+				Le causó mucha gracia pero trató de contener la risa, al igual que las demás aves. Cuando el ñandú llegó a la meta, uno de los pajaritos, el más gracioso, no aguantó más y comenzó a reírse.	2:13			
+				Los otros pajaritos se contagiaron y, de tanto que se rieron, la risa se convirtió en silbido.				
+risa_pajaros:5	La Risa de los Pájaros	risa_pajaros	easy	vacio	0:07	0		Mujer
+pedro_globo	Pedro y el Globo	pedro_globo	easy	Pedro iba todos los días a jugar a la plaza de su barrio. Tenía hamacas, toboganes y subibajas.	0:10	1		Mujer
+				Una tarde de primavera, al llegar a la plaza, se encontró con un payaso que repartía globos a los chicos. Pedro se acercó al payaso y le pidió un inmenso globo rojo.	0:23			
+				-Este globo es muy grande y tiene mucha fuerza: es un globo especial - le contó el payaso - ¿Te animás a pasear con él?	0:34			
+				Pedro tomó rápidamente el globo y muy contento se dirigió a las hamacas. De pronto, sintió que sus pies no tocaban el piso. ¡Estaba caminando en el aire!	0:48			
+				El globo tiraba de él y lo levantaba. ¡Estaba volando! Pasó cerca de un gato y Pedro y quiso agarrarse de él. Pero el globo tenía mucha fuerza y los levantó a los dos.	1:03			
+				Cada vez estaban más alto. Tan alto, tan alto que casi habían llegado a las copas de los árboles.	1:12			
+				El gato asustado, intentó tomarse de la rama más alta con la cola. Pero el globo tenía tanta fuerza que la rama se rompió y el globo, Pedro, el gato y la rama siguieron subiendo.	1:28			
+				Cuando estaban a la altura de las nubes, Pedro vio un barrilete de colores brillantes que bailaba en el cielo.	1:36			
+				La cola del barrilete se enredó en la rama y todos siguieron volando. De pronto, pasó un pájaro blanco de alas muy grandes y pico naranja.	1:48			
+				El pájaro miró asombrado el globo, a Pedro, el gato, la rama y el barrilete y les preguntó: "¿Qué clase de pájaro son ustedes? ¿Qué hacen volando en el cielo?"	2:01			
+				- El globo nos llevó a pasear - le contó Pedro - Pero ya es tarde y quiero volver a casa._Entonces el pájaro tomó la cola del barrilete con su gran pico y empezó a descender.	2:15			
+				¡Tenía más fuerza que el globo! Pronto llegaron a la plaza.				
+pedro_globo:2	Pedro y el Globo	pedro_globo	easy	Pedro iba todos los días a jugar a la plaza de su barrio. Tenía hamacas, toboganes y subibajas.	0:10	0		Mujer
+				Una tarde de primavera, al llegar a la plaza, se encontró con un payaso que repartía globos a los chicos. Pedro se acercó al payaso y le pidió un inmenso globo rojo.	0:24			
+				-Este globo es muy grande y tiene mucha fuerza: es un globo especial - le contó el payaso - ¿Te animás a pasear con él?	0:36			
+				Pedro tomó rápidamente el globo y muy contento se dirigió a las hamacas. De pronto, sintió que sus pies no tocaban el piso. ¡Estaba caminando en el aire!	0:49			
+				El globo tiraba de él y lo levantaba. ¡Estaba volando! Pasó cerca de un gato y Pedro y quiso agarrarse de él. Pero el globo tenía mucha fuerza y los levantó a los dos.	1:03			
+				Cada vez estaban más alto. Tan alto, tan alto que casi habían llegado a las copas de los árboles.	1:12			
+				El gato asustado, intentó tomarse de la rama más alta con la cola. Pero el globo tenía tanta fuerza que la rama se rompió y el globo, Pedro, el gato y la rama siguieron subiendo.	1:28			
+				Cuando estaban a la altura de las nubes, Pedro vio un barrilete de colores brillantes que bailaba en el cielo.	1:36			
+				La cola del barrilete se enredó en la rama y todos siguieron volando. De pronto, pasó un pájaro blanco de alas muy grandes y pico naranja.	1:48			
+				El pájaro miró asombrado el globo, a Pedro, el gato, la rama y el barrilete y les preguntó: "¿Qué clase de pájaro son ustedes? ¿Qué hacen volando en el cielo?"	2:01			
+				- El globo nos llevó a pasear - le contó Pedro - Pero ya es tarde y quiero volver a casa._Entonces el pájaro tomó la cola del barrilete con su gran pico y empezó a descender.	2:15			
+				¡Tenía más fuerza que el globo! Pronto llegaron a la plaza.				
+pedro_globo:3	Pedro y el Globo	pedro_globo	easy	Pedro iba todos los días a jugar a la plaza de su barrio. Tenía hamacas, toboganes y subibajas.	0:10	0		Mujer
+				Una tarde de primavera, al llegar a la plaza, se encontró con un payaso que repartía globos a los chicos. Pedro se acercó al payaso y le pidió un inmenso globo rojo.	0:23			
+				-Este globo es muy grande y tiene mucha fuerza: es un globo especial - le contó el payaso - ¿Te animás a pasear con él?	0:34			
+				Pedro tomó rápidamente el globo y muy contento se dirigió a las hamacas. De pronto, sintió que sus pies no tocaban el piso. ¡Estaba caminando en el aire!	0:48			
+				El globo tiraba de él y lo levantaba. ¡Estaba volando! Pasó cerca de un gato y Pedro y quiso agarrarse de él. Pero el globo tenía mucha fuerza y los levantó a los dos.	1:03			
+				Cada vez estaban más alto. Tan alto, tan alto que casi habían llegado a las copas de los árboles.	1:12			
+				El gato asustado, intentó tomarse de la rama más alta con la cola. Pero el globo tenía tanta fuerza que la rama se rompió y el globo, Pedro, el gato y la rama siguieron subiendo.	1:28			
+				Cuando estaban a la altura de las nubes, Pedro vio un barrilete de colores brillantes que bailaba en el cielo.	1:36			
+				La cola del barrilete se enredó en la rama y todos siguieron volando. De pronto, pasó un pájaro blanco de alas muy grandes y pico naranja.	1:48			
+				El pájaro miró asombrado el globo, a Pedro, el gato, la rama y el barrilete y les preguntó: "¿Qué clase de pájaro son ustedes? ¿Qué hacen volando en el cielo?"	2:01			
+				- El globo nos llevó a pasear - le contó Pedro - Pero ya es tarde y quiero volver a casa._Entonces el pájaro tomó la cola del barrilete con su gran pico y empezó a descender.	2:15			
+				¡Tenía más fuerza que el globo! Pronto llegaron a la plaza.				
+pedro_globo:4	Pedro y el Globo	pedro_globo	easy	Pedro iba todos los días a jugar a la plaza de su barrio. Tenía hamacas, toboganes y subibajas.	0:10	0		Mujer
+				Una tarde de primavera, al llegar a la plaza, se encontró con un payaso que repartía globos a los chicos. Pedro se acercó al payaso y le pidió un inmenso globo rojo.	0:23			
+				-Este globo es muy grande y tiene mucha fuerza: es un globo especial - le contó el payaso - ¿Te animás a pasear con él?	0:34			
+				Pedro tomó rápidamente el globo y muy contento se dirigió a las hamacas. De pronto, sintió que sus pies no tocaban el piso. ¡Estaba caminando en el aire!	0:48			
+				El globo tiraba de él y lo levantaba. ¡Estaba volando! Pasó cerca de un gato y Pedro y quiso agarrarse de él. Pero el globo tenía mucha fuerza y los levantó a los dos.	1:03			
+				Cada vez estaban más alto. Tan alto, tan alto que casi habían llegado a las copas de los árboles.	1:12			
+				El gato asustado, intentó tomarse de la rama más alta con la cola. Pero el globo tenía tanta fuerza que la rama se rompió y el globo, Pedro, el gato y la rama siguieron subiendo.	1:28			
+				Cuando estaban a la altura de las nubes, Pedro vio un barrilete de colores brillantes que bailaba en el cielo.	1:36			
+				La cola del barrilete se enredó en la rama y todos siguieron volando. De pronto, pasó un pájaro blanco de alas muy grandes y pico naranja.	1:48			
+				El pájaro miró asombrado el globo, a Pedro, el gato, la rama y el barrilete y les preguntó: "¿Qué clase de pájaro son ustedes? ¿Qué hacen volando en el cielo?"	2:01			
+				- El globo nos llevó a pasear - le contó Pedro - Pero ya es tarde y quiero volver a casa._Entonces el pájaro tomó la cola del barrilete con su gran pico y empezó a descender.	2:15			
+				¡Tenía más fuerza que el globo! Pronto llegaron a la plaza.				
+pedro_globo:5	Pedro y el Globo	pedro_globo	easy	Pedro iba todos los días a jugar a la plaza de su barrio. Tenía hamacas, toboganes y subibajas.	0:10	0		Mujer
+				Una tarde de primavera, al llegar a la plaza, se encontró con un payaso que repartía globos a los chicos. Pedro se acercó al payaso y le pidió un inmenso globo rojo.	0:23			
+				-Este globo es muy grande y tiene mucha fuerza: es un globo especial - le contó el payaso - ¿Te animás a pasear con él?	0:34			
+				Pedro tomó rápidamente el globo y muy contento se dirigió a las hamacas. De pronto, sintió que sus pies no tocaban el piso. ¡Estaba caminando en el aire!	0:48			
+				El globo tiraba de él y lo levantaba. ¡Estaba volando! Pasó cerca de un gato y Pedro y quiso agarrarse de él. Pero el globo tenía mucha fuerza y los levantó a los dos.	1:03			
+				Cada vez estaban más alto. Tan alto, tan alto que casi habían llegado a las copas de los árboles.	1:12			
+				El gato asustado, intentó tomarse de la rama más alta con la cola. Pero el globo tenía tanta fuerza que la rama se rompió y el globo, Pedro, el gato y la rama siguieron subiendo.	1:28			
+				Cuando estaban a la altura de las nubes, Pedro vio un barrilete de colores brillantes que bailaba en el cielo.	1:36			
+				La cola del barrilete se enredó en la rama y todos siguieron volando. De pronto, pasó un pájaro blanco de alas muy grandes y pico naranja.	1:48			
+				El pájaro miró asombrado el globo, a Pedro, el gato, la rama y el barrilete y les preguntó: "¿Qué clase de pájaro son ustedes? ¿Qué hacen volando en el cielo?"	2:01			
+				- El globo nos llevó a pasear - le contó Pedro - Pero ya es tarde y quiero volver a casa._Entonces el pájaro tomó la cola del barrilete con su gran pico y empezó a descender.	2:15			
+				¡Tenía más fuerza que el globo! Pronto llegaron a la plaza.				
+dia_pesca	Un día de Pesca	dia_pesca	easy	Pablito esperaba el sábado desde hacía muchas, muchísimas semanas porque ese día iría con su hermano Juan a pescar al río.	0:11	1		Mujer
+				Juan le había hecho una hermosa caña azul. También le había enseñado a tirar lejos y con fuerza.	0:19			
+				Pablito practicó mucho: tomaba la caña con las dos manos, la extendía hacia atrás y luego...sacando el dedo del carretel, dejaba que el hilo corriera lejos, muy lejos, hacia adelante.	0:33			
+				La mañana del sábado, Pablito fue el primero en levantarse y en preparar la caja de pesca y la caña.	0:40			
+				Después de un largo viaje en colectivo, llegaron a un lugar con muchos árboles, pájaros y varios pescadores a orillas del río.	0:48			
+				Juan armó las cañas. Tomó la caña azul de Pablito y al final del hilo ató el anzuelo, colocó una boyita y la carnada.	0:58			
+				Pablito miraba con atención, la próxima vez tendría que encarnar él solo. 	1:12			
+				¡Ahora sí! ¡Anzuelo al agua! Juan y Pablito se pararon en la orilla y tiraron los hilos de las cañas. Como Pablito había practicado mucho, su anzuelo cayó lejos. Todo había salido de maravillas. Pero, enseguida, sintió que la caña se iba para abajo. ¿Los peces estaban picando?	1:27			
+				"¡Sí! iSí! ¡Los peces no pudieron resistirse!" pensaba Pablito mientras enrollaba el hilo.	1:35			
+				"¡Pesqué, pesqué!", repetía mientras imaginaba la cara de asombro de los demás pescadores al ver el enorme pescado que traía.	1:45			
+				Le costó mucho tirar del hilo y sacar el anzuelo fuera del agua. ¡Qué desilusión! En lugar de un enorme pez había pescado un viejo zapato. Los pescadores se reían a carcajadas.	2:00			
+				Pero a Pablito no lo vencían fácilmente. Colocó el zapato en su caja de pesca, buscó otro pedacito de carne y lo puso en el anzuelo. 	2:10			
+				¡Todos verían qué bien pescaba! Y así fue como una y otra vez Pablito encarnó, tiró lejos y sintió que los peces picaban.	2:22			
+				Pero cuando sacaba el anzuelo sólo pescaba carcajadas. Es que todos se reían cuando en la punta de la caña veían aparecer esos extraños pescados.	2:33			
+				Una vez trajo un zapato, compañero del primero; otra vez trajo una media y otra vez un par de pantalones. Sin quererlo, Pablito se convirtió en el centro del lugar. 	2:49			
+				Todos lo miraban y esperaban para ver qué aparecería en el extremo de la caña. Al final pescó una remera verde.	2:57			
+				Mientras un pescador se probaba la remera, otro miraba cuál era el número de los zapatos y otro comprobaba que el pantalon era resistente.	3:07			
+				Así fue como Pablito cambió a los pescadores las diferentes prendas por dos docenas de medialunas, una pelota de fútbol y un balde lleno de peces.	3:19			
+				Además, ellos lo invitaron junto con Juan a volver a la semana siguiente a ir de pesca a otros lugares.	3:28			
+				Pablito y Juan volvieron a su casa muy contentos. ¡No sólo tenían varios pescados sino también un montón de amigos nuevos!				
+dia_pesca:2	Un día de Pesca	dia_pesca	easy	Pablito esperaba el sábado desde hacía muchas, muchísimas semanas porque ese día iría con su hermano Juan a pescar al río.	0:11	0		Mujer
+				Juan le había hecho una hermosa caña azul. También le había enseñado a tirar lejos y con fuerza.	0:19			
+				Pablito practicó mucho: tomaba la caña con las dos manos, la extendía hacia atrás y luego...sacando el dedo del carretel, dejaba que el hilo corriera lejos, muy lejos, hacia adelante.	0:33			
+				La mañana del sábado, Pablito fue el primero en levantarse y en preparar la caja de pesca y la caña.	0:40			
+				Después de un largo viaje en colectivo, llegaron a un lugar con muchos árboles, pájaros y varios pescadores a orillas del río.	0:48			
+				Juan armó las cañas. Tomó la caña azul de Pablito y al final del hilo ató el anzuelo, colocó una boyita y la carnada.	0:58			
+				Pablito miraba con atención, la próxima vez tendría que encarnar él solo. ¡Ahora sí! ¡Anzuelo al agua! Juan y Pablito se pararon en la orilla y tiraron los hilos de las cañas.	1:12			
+				Como Pablito había practicado mucho, su anzuelo cayó lejos. Todo había salido de maravillas. Pero, enseguida, sintió que la caña se iba para abajo. ¿Los peces estaban picando?	1:27			
+				"¡Sí! iSí! ¡Los peces no pudieron resistirse!" pensaba Pablito mientras enrollaba el hilo.	1:35			
+				"¡Pesqué, pesqué!", repetía mientras imaginaba la cara de asombro de los demás pescadores al ver el enorme pescado que traía.	1:45			
+				Le costó mucho tirar del hilo y sacar el anzuelo fuera del agua. ¡Qué desilusión! En lugar de un enorme pez había pescado un viejo zapato. Los pescadores se reían a carcajadas.	2:00			
+				Pero a Pablito no lo vencían fácilmente. Colocó el zapato en su caja de pesca, buscó otro pedacito de carne y lo puso en el anzuelo. 	2:10			
+				¡Todos verían qué bien pescaba! Y así fue como una y otra vez Pablito encarnó, tiró lejos y sintió que los peces picaban.	2:22			
+				Pero cuando sacaba el anzuelo sólo pescaba carcajadas. Es que todos se reían cuando en la punta de la caña veían aparecer esos extraños pescados.	2:33			
+				Una vez trajo un zapato, compañero del primero; otra vez trajo una media y otra vez un par de pantalones. Sin quererlo, Pablito se convirtió en el centro del lugar. 	2:49			
+				Todos lo miraban y esperaban para ver qué aparecería en el extremo de la caña. Al final pescó una remera verde.	2:57			
+				Mientras un pescador se probaba la remera, otro miraba cuál era el número de los zapatos y otro comprobaba que el pantalon era resistente.	3:07			
+				Así fue como Pablito cambió a los pescadores las diferentes prendas por dos docenas de medialunas, una pelota de fútbol y un balde lleno de peces.	3:19			
+				Además, ellos lo invitaron junto con Juan a volver a la semana siguiente a ir de pesca a otros lugares.	3:28			
+				Pablito y Juan volvieron a su casa muy contentos. ¡No sólo tenían varios pescados sino también un montón de amigos nuevos!				
+dia_pesca:3	Un día de Pesca	dia_pesca	easy	Pablito esperaba el sábado desde hacía muchas, muchísimas semanas porque ese día iría con su hermano Juan a pescar al río.	0:11	0		Mujer
+				Juan le había hecho una hermosa caña azul. También le había enseñado a tirar lejos y con fuerza.	0:19			
+				Pablito practicó mucho: tomaba la caña con las dos manos, la extendía hacia atrás y luego...sacando el dedo del carretel, dejaba que el hilo corriera lejos, muy lejos, hacia adelante.	0:33			
+				La mañana del sábado, Pablito fue el primero en levantarse y en preparar la caja de pesca y la caña.	0:40			
+				Después de un largo viaje en colectivo, llegaron a un lugar con muchos árboles, pájaros y varios pescadores a orillas del río.	0:48			
+				Juan armó las cañas. Tomó la caña azul de Pablito y al final del hilo ató el anzuelo, colocó una boyita y la carnada.	0:58			
+				Pablito miraba con atención, la próxima vez tendría que encarnar él solo. ¡Ahora sí! ¡Anzuelo al agua! Juan y Pablito se pararon en la orilla y tiraron los hilos de las cañas.	1:12			
+				Como Pablito había practicado mucho, su anzuelo cayó lejos. Todo había salido de maravillas. Pero, enseguida, sintió que la caña se iba para abajo. ¿Los peces estaban picando?	1:27			
+				"¡Sí! iSí! ¡Los peces no pudieron resistirse!" pensaba Pablito mientras enrollaba el hilo.	1:35			
+				"¡Pesqué, pesqué!", repetía mientras imaginaba la cara de asombro de los demás pescadores al ver el enorme pescado que traía.	1:45			
+				Le costó mucho tirar del hilo y sacar el anzuelo fuera del agua. ¡Qué desilusión! En lugar de un enorme pez había pescado un viejo zapato. Los pescadores se reían a carcajadas.	2:00			
+				Pero a Pablito no lo vencían fácilmente. Colocó el zapato en su caja de pesca, buscó otro pedacito de carne y lo puso en el anzuelo. 	2:10			
+				¡Todos verían qué bien pescaba! Y así fue como una y otra vez Pablito encarnó, tiró lejos y sintió que los peces picaban.	2:22			
+				Pero cuando sacaba el anzuelo sólo pescaba carcajadas. Es que todos se reían cuando en la punta de la caña veían aparecer esos extraños pescados.	2:33			
+				Una vez trajo un zapato, compañero del primero; otra vez trajo una media y otra vez un par de pantalones. Sin quererlo, Pablito se convirtió en el centro del lugar. 	2:49			
+				Todos lo miraban y esperaban para ver qué aparecería en el extremo de la caña. Al final pescó una remera verde.	2:57			
+				Mientras un pescador se probaba la remera, otro miraba cuál era el número de los zapatos y otro comprobaba que el pantalon era resistente.	3:07			
+				Así fue como Pablito cambió a los pescadores las diferentes prendas por dos docenas de medialunas, una pelota de fútbol y un balde lleno de peces.	3:19			
+				Además, ellos lo invitaron junto con Juan a volver a la semana siguiente a ir de pesca a otros lugares.	3:28			
+				Pablito y Juan volvieron a su casa muy contentos. ¡No sólo tenían varios pescados sino también un montón de amigos nuevos!				
+dia_pesca:4	Un día de Pesca	dia_pesca	easy	Pablito esperaba el sábado desde hacía muchas, muchísimas semanas porque ese día iría con su hermano Juan a pescar al río.	0:11	0		Mujer
+				Juan le había hecho una hermosa caña azul. También le había enseñado a tirar lejos y con fuerza.	0:19			
+				Pablito practicó mucho: tomaba la caña con las dos manos, la extendía hacia atrás y luego...sacando el dedo del carretel, dejaba que el hilo corriera lejos, muy lejos, hacia adelante.	0:33			
+				La mañana del sábado, Pablito fue el primero en levantarse y en preparar la caja de pesca y la caña.	0:40			
+				Después de un largo viaje en colectivo, llegaron a un lugar con muchos árboles, pájaros y varios pescadores a orillas del río.	0:48			
+				Juan armó las cañas. Tomó la caña azul de Pablito y al final del hilo ató el anzuelo, colocó una boyita y la carnada.	0:58			
+				Pablito miraba con atención, la próxima vez tendría que encarnar él solo. ¡Ahora sí! ¡Anzuelo al agua! Juan y Pablito se pararon en la orilla y tiraron los hilos de las cañas.	1:12			
+				Como Pablito había practicado mucho, su anzuelo cayó lejos. Todo había salido de maravillas. Pero, enseguida, sintió que la caña se iba para abajo. ¿Los peces estaban picando?	1:27			
+				"¡Sí! iSí! ¡Los peces no pudieron resistirse!" pensaba Pablito mientras enrollaba el hilo.	1:35			
+				"¡Pesqué, pesqué!", repetía mientras imaginaba la cara de asombro de los demás pescadores al ver el enorme pescado que traía.	1:45			
+				Le costó mucho tirar del hilo y sacar el anzuelo fuera del agua. ¡Qué desilusión! En lugar de un enorme pez había pescado un viejo zapato. Los pescadores se reían a carcajadas.	2:00			
+				Pero a Pablito no lo vencían fácilmente. Colocó el zapato en su caja de pesca, buscó otro pedacito de carne y lo puso en el anzuelo. 	2:10			
+				¡Todos verían qué bien pescaba! Y así fue como una y otra vez Pablito encarnó, tiró lejos y sintió que los peces picaban.	2:22			
+				Pero cuando sacaba el anzuelo sólo pescaba carcajadas. Es que todos se reían cuando en la punta de la caña veían aparecer esos extraños pescados.	2:33			
+				Una vez trajo un zapato, compañero del primero; otra vez trajo una media y otra vez un par de pantalones. Sin quererlo, Pablito se convirtió en el centro del lugar. 	2:49			
+				Todos lo miraban y esperaban para ver qué aparecería en el extremo de la caña. Al final pescó una remera verde.	2:57			
+				Mientras un pescador se probaba la remera, otro miraba cuál era el número de los zapatos y otro comprobaba que el pantalon era resistente.	3:07			
+				Así fue como Pablito cambió a los pescadores las diferentes prendas por dos docenas de medialunas, una pelota de fútbol y un balde lleno de peces.	3:19			
+				Además, ellos lo invitaron junto con Juan a volver a la semana siguiente a ir de pesca a otros lugares.	3:28			
+				Pablito y Juan volvieron a su casa muy contentos. ¡No sólo tenían varios pescados sino también un montón de amigos nuevos!				
+dia_pesca:5	Un día de Pesca	dia_pesca	easy	vacio	0:13	0		Mujer
+piratas_cantores	Los Piratas Cantores	piratas_cantores	easy	El capitán pirata nunca pudo tener un loro hablador para que se parara sobre su hombro. Por mucho que trató, jamás pudo conseguir uno. En su lugar tenía un canario cantor.	0:15	1		Mujer
+				El pajarito sabía muchas canciones. Canciones alegres y también canciones tristes que hacían lagrimear a los piratas.	0:23			
+				Cuando tenían que hacer las pesadas tareas de a bordo, el canario cantaba canciones alegres y todo era más fácil. Pero había un problema. Eran piratas, y como todos los piratas, se dedicaban a robar la carga de otros barcos.	0:38			
+				Cada vez que se acercaban a un barco para robarle su cargamento, el canario cantaba canciones tristes. Entonces los feroces piratas se emocionaban hasta las lágrimas y no podían robar ni una moneda.	0:52			
+				El asunto es que como se habían encariñado tanto con el pájaro, no lo podían echar ni deshacerse de él. La cosa se puso fea.	1:01			
+				Hacía rato que los cofres de los piratas donde guardaban las monedas robadas estaban vacíos. Entonces al capitán se le ocurrió una idea salvadora.	1:11			
+				Formarían un coro; todos aprenderían a cantar, del primero al último tripulante, y saldrían por el mundo a cantar.	1:20			
+				No fue fácil pero después de mucho practicar, dirigidos por el canario, los piratas lograron cantar muy bien y se olvidaron de robar otros barcos.Siguieron navegando, recorriendo el mundo.	1:33			
+				Se presentaron en los puertos más importantes para cantar sus canciones. La gente iba a montones a escuchar al coro de piratas. Hacían largas colas para comprar su entrada. ¡Hasta grabaron un disco!	1:47			
+				Les fue tan bien en sus actuaciones que con lo que ganaron llenaron sus cofres de monedas.				
+piratas_cantores:2	Los Piratas Cantores	piratas_cantores	easy	El capitán pirata nunca pudo tener un loro hablador para que se parara sobre su hombro. Por mucho que trató, jamás pudo conseguir uno. En su lugar tenía un canario cantor.	0:15	0		Mujer
+				El pajarito sabía muchas canciones. Canciones alegres y también canciones tristes que hacían lagrimear a los piratas.	0:23			
+				Cuando tenían que hacer las pesadas tareas de a bordo, el canario cantaba canciones alegres y todo era más fácil. Pero había un problema. Eran piratas, y como todos los piratas, se dedicaban a robar la carga de otros barcos.	0:38			
+				Cada vez que se acercaban a un barco para robarle su cargamento, el canario cantaba canciones tristes. Entonces los feroces piratas se emocionaban hasta las lágrimas y no podían robar ni una moneda.	0:52			
+				El asunto es que como se habían encariñado tanto con el pájaro, no lo podían echar ni deshacerse de él. La cosa se puso fea.	1:01			
+				Hacía rato que los cofres de los piratas donde guardaban las monedas robadas estaban vacíos. Entonces al capitán se le ocurrió una idea salvadora.	1:11			
+				Formarían un coro; todos aprenderían a cantar, del primero al último tripulante, y saldrían por el mundo a cantar.	1:20			
+				No fue fácil pero después de mucho practicar, dirigidos por el canario, los piratas lograron cantar muy bien y se olvidaron de robar otros barcos.Siguieron navegando, recorriendo el mundo.	1:33			
+				Se presentaron en los puertos más importantes para cantar sus canciones. La gente iba a montones a escuchar al coro de piratas. Hacían largas colas para comprar su entrada. ¡Hasta grabaron un disco!	1:47			
+				Les fue tan bien en sus actuaciones que con lo que ganaron llenaron sus cofres de monedas.				
+piratas_cantores:3	Los Piratas Cantores	piratas_cantores	easy	El capitán pirata nunca pudo tener un loro hablador para que se parara sobre su hombro. Por mucho que trató, jamás pudo conseguir uno. En su lugar tenía un canario cantor.	0:15	0		Mujer
+				El pajarito sabía muchas canciones. Canciones alegres y también canciones tristes que hacían lagrimear a los piratas.	0:23			
+				Cuando tenían que hacer las pesadas tareas de a bordo, el canario cantaba canciones alegres y todo era más fácil. Pero había un problema. Eran piratas, y como todos los piratas, se dedicaban a robar la carga de otros barcos.	0:38			
+				Cada vez que se acercaban a un barco para robarle su cargamento, el canario cantaba canciones tristes. Entonces los feroces piratas se emocionaban hasta las lágrimas y no podían robar ni una moneda.	0:52			
+				El asunto es que como se habían encariñado tanto con el pájaro, no lo podían echar ni deshacerse de él. La cosa se puso fea.	1:01			
+				Hacía rato que los cofres de los piratas donde guardaban las monedas robadas estaban vacíos. Entonces al capitán se le ocurrió una idea salvadora.	1:11			
+				Formarían un coro; todos aprenderían a cantar, del primero al último tripulante, y saldrían por el mundo a cantar.	1:20			
+				No fue fácil pero después de mucho practicar, dirigidos por el canario, los piratas lograron cantar muy bien y se olvidaron de robar otros barcos.Siguieron navegando, recorriendo el mundo.	1:33			
+				Se presentaron en los puertos más importantes para cantar sus canciones. La gente iba a montones a escuchar al coro de piratas. Hacían largas colas para comprar su entrada. ¡Hasta grabaron un disco!	1:47			
+				Les fue tan bien en sus actuaciones que con lo que ganaron llenaron sus cofres de monedas.				
+piratas_cantores:4	Los Piratas Cantores	piratas_cantores	easy	El capitán pirata nunca pudo tener un loro hablador para que se parara sobre su hombro. Por mucho que trató, jamás pudo conseguir uno. En su lugar tenía un canario cantor.	0:15	0		Mujer
+				El pajarito sabía muchas canciones. Canciones alegres y también canciones tristes que hacían lagrimear a los piratas.	0:23			
+				Cuando tenían que hacer las pesadas tareas de a bordo, el canario cantaba canciones alegres y todo era más fácil. Pero había un problema. Eran piratas, y como todos los piratas, se dedicaban a robar la carga de otros barcos.	0:38			
+				Cada vez que se acercaban a un barco para robarle su cargamento, el canario cantaba canciones tristes. Entonces los feroces piratas se emocionaban hasta las lágrimas y no podían robar ni una moneda.	0:52			
+				El asunto es que como se habían encariñado tanto con el pájaro, no lo podían echar ni deshacerse de él. La cosa se puso fea.	1:01			
+				Hacía rato que los cofres de los piratas donde guardaban las monedas robadas estaban vacíos. Entonces al capitán se le ocurrió una idea salvadora.	1:11			
+				Formarían un coro; todos aprenderían a cantar, del primero al último tripulante, y saldrían por el mundo a cantar.	1:20			
+				No fue fácil pero después de mucho practicar, dirigidos por el canario, los piratas lograron cantar muy bien y se olvidaron de robar otros barcos.Siguieron navegando, recorriendo el mundo.	1:33			
+				Se presentaron en los puertos más importantes para cantar sus canciones. La gente iba a montones a escuchar al coro de piratas. Hacían largas colas para comprar su entrada. ¡Hasta grabaron un disco!	1:47			
+				Les fue tan bien en sus actuaciones que con lo que ganaron llenaron sus cofres de monedas.				
+piratas_cantores:5	Los Piratas Cantores	piratas_cantores	easy	vacio	0:09	0		Mujer
+baile	El Baile	baile	easy	Un día, hace mucho tiempo, un muchacho salió al monte chaqueño a cazar. En eso estaba cuando de pronto se encontró frente a un enorme oso hormiguero.	0:12	1		Mujer
+				El muchacho se asustó porque sabía que el oso tenía grandes y fuertes garras con las que podía hacerle terribles heridas e incluso matarlo.	0:22			
+				Pero el oso también se asustó, porque sabía que a los humanos les gusta cazar animales silvestres.	0:28			
+				El muchacho recogió una rama gruesa del suelo y la levantó amenazante.	0:33			
+				El oso se paró en sus patas traseras, con los brazos abiertos, poniéndose a la defensiva.	0:39			
+				El muchacho comenzó a repartir golpes hacia ambos lados con el palo. Y el oso, ágilmente, los esquivaba saltando de derecha a izquierda y de izquierda a derecha.	0:50			
+				Después de un rato, el oso se cansó de tanto saltar y huyó al monte.	0:56			
+				El muchacho regresó al pueblo y le contó a sus amigos el episodio, haciendo la demostración de los saltos del oso.	1:03			
+				Todo el pueblo se rio muchísimo con la anécdota y con la explicación. Entonces todos comenzaron a imitarlos.	1:10			
+				Unos al muchacho dando palazos, y otros, al oso pegando saltos. Y así no más fue, dicen en el Chaco, cómo nació el baile.				
+baile:2	El Baile	baile	easy	Un día, hace mucho tiempo, un muchacho salió al monte chaqueño a cazar. En eso estaba cuando de pronto se encontró frente a un enorme oso hormiguero.	0:12	0		Mujer
+				El muchacho se asustó porque sabía que el oso tenía grandes y fuertes garras con las que podía hacerle terribles heridas e incluso matarlo.	0:22			
+				Pero el oso también se asustó, porque sabía que a los humanos les gusta cazar animales silvestres.	0:28			
+				El muchacho recogió una rama gruesa del suelo y la levantó amenazante.	0:33			
+				El oso se paró en sus patas traseras, con los brazos abiertos, poniéndose a la defensiva.	0:39			
+				El muchacho comenzó a repartir golpes hacia ambos lados con el palo. Y el oso, ágilmente, los esquivaba saltando de derecha a izquierda y de izquierda a derecha.	0:50			
+				Después de un rato, el oso se cansó de tanto saltar y huyó al monte.	0:56			
+				El muchacho regresó al pueblo y le contó a sus amigos el episodio, haciendo la demostración de los saltos del oso.	1:03			
+				Todo el pueblo se rio muchísimo con la anécdota y con la explicación. Entonces todos comenzaron a imitarlos.	1:10			
+				Unos al muchacho dando palazos, y otros, al oso pegando saltos. Y así no más fue, dicen en el Chaco, cómo nació el baile.				
+baile:3	El Baile	baile	easy	Un día, hace mucho tiempo, un muchacho salió al monte chaqueño a cazar. En eso estaba cuando de pronto se encontró frente a un enorme oso hormiguero.	0:12	0		Mujer
+				El muchacho se asustó porque sabía que el oso tenía grandes y fuertes garras con las que podía hacerle terribles heridas e incluso matarlo.	0:22			
+				Pero el oso también se asustó, porque sabía que a los humanos les gusta cazar animales silvestres.	0:28			
+				El muchacho recogió una rama gruesa del suelo y la levantó amenazante.	0:33			
+				El oso se paró en sus patas traseras, con los brazos abiertos, poniéndose a la defensiva.	0:39			
+				El muchacho comenzó a repartir golpes hacia ambos lados con el palo. Y el oso, ágilmente, los esquivaba saltando de derecha a izquierda y de izquierda a derecha.	0:50			
+				Después de un rato, el oso se cansó de tanto saltar y huyó al monte.	0:56			
+				El muchacho regresó al pueblo y le contó a sus amigos el episodio, haciendo la demostración de los saltos del oso.	1:03			
+				Todo el pueblo se rio muchísimo con la anécdota y con la explicación. Entonces todos comenzaron a imitarlos.	1:10			
+				Unos al muchacho dando palazos, y otros, al oso pegando saltos. Y así no más fue, dicen en el Chaco, cómo nació el baile.				
+baile:4	El Baile	baile	easy	Un día, hace mucho tiempo, un muchacho salió al monte chaqueño a cazar. En eso estaba cuando de pronto se encontró frente a un enorme oso hormiguero.	0:12	0		Mujer
+				El muchacho se asustó porque sabía que el oso tenía grandes y fuertes garras con las que podía hacerle terribles heridas e incluso matarlo.	0:22			
+				Pero el oso también se asustó, porque sabía que a los humanos les gusta cazar animales silvestres.	0:28			
+				El muchacho recogió una rama gruesa del suelo y la levantó amenazante.	0:33			
+				El oso se paró en sus patas traseras, con los brazos abiertos, poniéndose a la defensiva.	0:39			
+				El muchacho comenzó a repartir golpes hacia ambos lados con el palo. Y el oso, ágilmente, los esquivaba saltando de derecha a izquierda y de izquierda a derecha.	0:50			
+				Después de un rato, el oso se cansó de tanto saltar y huyó al monte.	0:56			
+				El muchacho regresó al pueblo y le contó a sus amigos el episodio, haciendo la demostración de los saltos del oso.	1:03			
+				Todo el pueblo se rio muchísimo con la anécdota y con la explicación. Entonces todos comenzaron a imitarlos.	1:10			
+				Unos al muchacho dando palazos, y otros, al oso pegando saltos. Y así no más fue, dicen en el Chaco, cómo nació el baile.				
+baile:5	El Baile	baile	easy	vacio	0:07	0		Mujer
+conejo	El conejo	conejo	easy	Hace mucho, mucho tiempo, los conejos no eran como ahora los conocemos. Eran pequeños, igual que ahora, pero tenían el pelo negro, las orejas cortas y las patas largas.	0:15	1		Mujer
+				Los conejos no estaban contentos, querían crecer, querían ser más grandes. Entonces, uno de los conejos fue a ver a un mago que vivía en la montaña y le pidió que lo aumentara de tamaño.	0:30			
+				El mago le dijo que para poder hacerlo crecer tenía que traer seis bigotes de un tigre y la cola de un mono. Para conseguir lo que el mago le pedía, el conejo decidió engañar al tigre y al mono.	0:45			
+				Fue a buscar al tigre y le dijo: "Un viento muy fuerte está por llegar al bosque. Yo me voy a salvar porque soy chiquito y puedo escondemer en un agujero ¡pero vos sos demasiado grande para esconderte en un agujero!"	1:01			
+				El tigre se puso a llorar y le pidió que lo ayudara a salvarse. Entonces el conejo le dijo: "Se me ocurre una idea para que el viento no te lleve volando, te voy a atar al tronco de un árbol grande".	1:15			
+				Agradecido, el tigre se dejó atar y, cuando ya no podía moverse, el conejo le arrancó seis bigotes y se fue corriendo.	1:25			
+				Luego el conejo fue a la casa del mono. Para engañarlo, cavó un pequeño pozo y comenzó a mirar hacia adentro. Cuando el mono vio al conejo, quiso saber qué había adentro del pozo. Se acercó y le pidió al conejo que lo dejara mirar.	1:43			
+				- Mmmm, no sé si debo... lo que hay adentro del pozo es un gran secreto - mintió el conejo._- ¡Por favor, te prometo que no le voy a contar a nadie!_- De acuerdo - dijo el conejo.	1:58			
+				Y cuando el mono se agachó para ver adentro del pozo, el conejo le cortó la cola y se fue corriendo. Luego el conejo subió la montaña y llegó a la casa del mago con los seis bigotes del tigre y la cola de mono.	2:13			
+				- Ahora, haceme crecer - le ordenó el conejo._Y el mago pensó: "Si siendo tan chiquito, el conejo hizo lo que hizo, si lo aumento de tamaño, ¿qué no hará? Un conejo grande sería muy peligroso para todos los animales."	2:31			
+				El conejo esperaba. El mago se acercó, lo atrapó de las orejas y lo arrojó hacia abajo de la montaña. Así fue como, a partir de ese momento, le quedaron las orejas largas porque el mago se las estiró al arrojarlo.	2:48			
+				Las patas delanteras le quedaron cortas porque el conejo las extendió para frenar la caída. Y el susto hizo que se le pusieran para siempre el pelo blanco y los ojos colorados.				
+conejo:2	El conejo	conejo	easy	Hace mucho, mucho tiempo, los conejos no eran como ahora los conocemos. Eran pequeños, igual que ahora, pero tenían el pelo negro, las orejas cortas y las patas largas.	0:15	0		Mujer
+				Los conejos no estaban contentos, querían crecer, querían ser más grandes. Entonces, uno de los conejos fue a ver a un mago que vivía en la montaña y le pidió que lo aumentara de tamaño.	0:30			
+				El mago le dijo que para poder hacerlo crecer tenía que traer seis bigotes de un tigre y la cola de un mono. Para conseguir lo que el mago le pedía, el conejo decidió engañar al tigre y al mono.	0:45			
+				Fue a buscar al tigre y le dijo: "Un viento muy fuerte está por llegar al bosque. Yo me voy a salvar porque soy chiquito y puedo escondemer en un agujero ¡pero vos sos demasiado grande para esconderte en un agujero!"	1:01			
+				El tigre se puso a llorar y le pidió que lo ayudara a salvarse. Entonces el conejo le dijo: "Se me ocurre una idea para que el viento no te lleve volando, te voy a atar al tronco de un árbol grande".	1:15			
+				Agradecido, el tigre se dejó atar y, cuando ya no podía moverse, el conejo le arrancó seis bigotes y se fue corriendo.	1:25			
+				Luego el conejo fue a la casa del mono. Para engañarlo, cavó un pequeño pozo y comenzó a mirar hacia adentro. Cuando el mono vio al conejo, quiso saber qué había adentro del pozo. Se acercó y le pidió al conejo que lo dejara mirar.	1:43			
+				- Mmmm, no sé si debo... lo que hay adentro del pozo es un gran secreto - mintió el conejo._- ¡Por favor, te prometo que no le voy a contar a nadie!_- De acuerdo - dijo el conejo.	1:58			
+				Y cuando el mono se agachó para ver adentro del pozo, el conejo le cortó la cola y se fue corriendo. Luego el conejo subió la montaña y llegó a la casa del mago con los seis bigotes del tigre y la cola de mono.	2:13			
+				- Ahora, haceme crecer - le ordenó el conejo._Y el mago pensó: "Si siendo tan chiquito, el conejo hizo lo que hizo, si lo aumento de tamaño, ¿qué no hará? Un conejo grande sería muy peligroso para todos los animales."	2:31			
+				El conejo esperaba. El mago se acercó, lo atrapó de las orejas y lo arrojó hacia abajo de la montaña. Así fue como, a partir de ese momento, le quedaron las orejas largas porque el mago se las estiró al arrojarlo.	2:48			
+				Las patas delanteras le quedaron cortas porque el conejo las extendió para frenar la caída. Y el susto hizo que se le pusieran para siempre el pelo blanco y los ojos colorados.				
+conejo:3	El conejo	conejo	easy	Hace mucho, mucho tiempo, los conejos no eran como ahora los conocemos. Eran pequeños, igual que ahora, pero tenían el pelo negro, las orejas cortas y las patas largas.	0:15	0		Mujer
+				Los conejos no estaban contentos, querían crecer, querían ser más grandes. Entonces, uno de los conejos fue a ver a un mago que vivía en la montaña y le pidió que lo aumentara de tamaño.	0:30			
+				El mago le dijo que para poder hacerlo crecer tenía que traer seis bigotes de un tigre y la cola de un mono. Para conseguir lo que el mago le pedía, el conejo decidió engañar al tigre y al mono.	0:45			
+				Fue a buscar al tigre y le dijo: "Un viento muy fuerte está por llegar al bosque. Yo me voy a salvar porque soy chiquito y puedo escondemer en un agujero ¡pero vos sos demasiado grande para esconderte en un agujero!"	1:01			
+				El tigre se puso a llorar y le pidió que lo ayudara a salvarse. Entonces el conejo le dijo: "Se me ocurre una idea para que el viento no te lleve volando, te voy a atar al tronco de un árbol grande".	1:15			
+				Agradecido, el tigre se dejó atar y, cuando ya no podía moverse, el conejo le arrancó seis bigotes y se fue corriendo.	1:25			
+				Luego el conejo fue a la casa del mono. Para engañarlo, cavó un pequeño pozo y comenzó a mirar hacia adentro. Cuando el mono vio al conejo, quiso saber qué había adentro del pozo. Se acercó y le pidió al conejo que lo dejara mirar.	1:43			
+				- Mmmm, no sé si debo... lo que hay adentro del pozo es un gran secreto - mintió el conejo._- ¡Por favor, te prometo que no le voy a contar a nadie!_- De acuerdo - dijo el conejo.	1:58			
+				Y cuando el mono se agachó para ver adentro del pozo, el conejo le cortó la cola y se fue corriendo. Luego el conejo subió la montaña y llegó a la casa del mago con los seis bigotes del tigre y la cola de mono.	2:13			
+				- Ahora, haceme crecer - le ordenó el conejo._Y el mago pensó: "Si siendo tan chiquito, el conejo hizo lo que hizo, si lo aumento de tamaño, ¿qué no hará? Un conejo grande sería muy peligroso para todos los animales."	2:31			
+				El conejo esperaba. El mago se acercó, lo atrapó de las orejas y lo arrojó hacia abajo de la montaña. Así fue como, a partir de ese momento, le quedaron las orejas largas porque el mago se las estiró al arrojarlo.	2:48			
+				Las patas delanteras le quedaron cortas porque el conejo las extendió para frenar la caída. Y el susto hizo que se le pusieran para siempre el pelo blanco y los ojos colorados.				
+conejo:4	El conejo	conejo	easy	Hace mucho, mucho tiempo, los conejos no eran como ahora los conocemos. Eran pequeños, igual que ahora, pero tenían el pelo negro, las orejas cortas y las patas largas.	0:15	0		Mujer
+				Los conejos no estaban contentos, querían crecer, querían ser más grandes. Entonces, uno de los conejos fue a ver a un mago que vivía en la montaña y le pidió que lo aumentara de tamaño.	0:30			
+				El mago le dijo que para poder hacerlo crecer tenía que traer seis bigotes de un tigre y la cola de un mono. Para conseguir lo que el mago le pedía, el conejo decidió engañar al tigre y al mono.	0:45			
+				Fue a buscar al tigre y le dijo: "Un viento muy fuerte está por llegar al bosque. Yo me voy a salvar porque soy chiquito y puedo escondemer en un agujero ¡pero vos sos demasiado grande para esconderte en un agujero!"	1:01			
+				El tigre se puso a llorar y le pidió que lo ayudara a salvarse. Entonces el conejo le dijo: "Se me ocurre una idea para que el viento no te lleve volando, te voy a atar al tronco de un árbol grande".	1:15			
+				Agradecido, el tigre se dejó atar y, cuando ya no podía moverse, el conejo le arrancó seis bigotes y se fue corriendo.	1:25			
+				Luego el conejo fue a la casa del mono. Para engañarlo, cavó un pequeño pozo y comenzó a mirar hacia adentro. Cuando el mono vio al conejo, quiso saber qué había adentro del pozo. Se acercó y le pidió al conejo que lo dejara mirar.	1:43			
+				- Mmmm, no sé si debo... lo que hay adentro del pozo es un gran secreto - mintió el conejo._- ¡Por favor, te prometo que no le voy a contar a nadie!_- De acuerdo - dijo el conejo.	1:58			
+				Y cuando el mono se agachó para ver adentro del pozo, el conejo le cortó la cola y se fue corriendo. Luego el conejo subió la montaña y llegó a la casa del mago con los seis bigotes del tigre y la cola de mono.	2:13			
+				- Ahora, haceme crecer - le ordenó el conejo._Y el mago pensó: "Si siendo tan chiquito, el conejo hizo lo que hizo, si lo aumento de tamaño, ¿qué no hará? Un conejo grande sería muy peligroso para todos los animales."	2:31			
+				El conejo esperaba. El mago se acercó, lo atrapó de las orejas y lo arrojó hacia abajo de la montaña. Así fue como, a partir de ese momento, le quedaron las orejas largas porque el mago se las estiró al arrojarlo.	2:48			
+				Las patas delanteras le quedaron cortas porque el conejo las extendió para frenar la caída. Y el susto hizo que se le pusieran para siempre el pelo blanco y los ojos colorados.				
+conejo:5	El conejo	conejo	easy	vacio	0:08	0		Mujer
+viaje_espacio	Un Viaje por el Espacio	viaje_espacio	easy	Melisa vivía muy lejos del planeta Tierra, en un lugar donde los planetas estaban uno debajo del otro, como si fuera una escalera.	0:10	1		Mujer
+				El planeta Verde quedaba en lo más alto; debajo estaba el planeta Azul; un poco más abajo, el Amarillo y abajo de todo, el Violeta.	0:20			
+				Un día, Melisa y su hermano estaban jugando a las bolitas en los cráteres, unos agujeros que había por todo el suelo del planeta Verde. A Melisa le faltaba embocar la bolita rayada para ganar el partido.La tiró con todas sus fuerzas y lo logró.	0:36			
+				Mientras Melisa festejaba, su hermano metió la mano en el agujero para sacar las bolitas y empezar nuevamente pero... ¡Sorpresa! ¡No encontró las bolitas! Allí no había nada. Los hermanos estaban muy asombrados.	0:52			
+				Se pusieron a buscar las bolitas. Pensaron que tal vez el agujero no tenía fondo. Entonces el hermano dio media vuelta al planeta y Melisa tiró una piedrita al cráter para ver si salía para el otro lado... ¡Y la piedrita salió!	1:08			
+				Entendieron lo que había pasado con las bolitas. Como el cráter no tenía fondo, las bolitas habían caído al planeta de abajo, el planeta Azul. Para buscar las bolitas Melisa se subió a su cohete y se dirigió al planeta Azul.	1:22			
+				En el planeta Azul Doña Pepa salió a barrer unas piedras raras que habían caído en la puerta de su casa. "¿Piedras redondas? - pensó - ¡Qué raro!" Melisa , que llegó en ese momento, gritó "¡Mis bolitas!"	1:36			
+				Pero ya era tarde. Doña Pepa había dado el último escobazo mientras decía: "¡Piedras, Melisa, son piedras!" ¡Qué mala suerte! Las bolitas se le escapaban otra vez, caían al planeta de más abajo.	1:52			
+				Melisa siguió viaje en su cohete y se lanzó al espacio para llegar hasta el próximo planeta, el Amarillo. En el planeta Amarillo, Don Pancho descansaba sentado en su silla.	2:03			
+				De repente... ¡TIC, TAC, TOC, TUC, TUC! Un montón de bolitas le golpearon la cabeza. Se levantó enojadísimo. Don Pancho tomó las bolitas y las tiró con mucha fuerza.	2:19			
+				Melisa, que acababa de llegar, vio cómo las bolitas caían en el último planeta, el Violeta. Entonces tuvo que seguir bajando hasta el último planeta.	2:28			
+				Cuando Melisa llegó al planeta Violeta, le preguntó a Doña Temis si había visto caer sus bolitas de colores.	2:35			
+				Pero Doña Temis le contestó que sólo había visto unas piedritas. Con esas piedritas había hecho un collar muy hermoso y se lo había mandado por correo de regalo a una amiga que vivía en otro planeta.	2:48			
+				Muy triste, Melisa regresó a su casa en el planeta Verde. Cuando por fin llegó, su hermano y su mamá la estaban esperando.	2:55			
+				"¡Meli, mirá el collar que le regalaron a mamá! Se lo hizo Doña Temis, del planeta Violeta" dijo el hermano. Melisa se rio feliz, las piedritas de Doña Temis eran sus bolitas y ahora formaban parte de un bellísimo collar.				
+viaje_espacio:2	Un Viaje por el Espacio	viaje_espacio	easy	Melisa vivía muy lejos del planeta Tierra, en un lugar donde los planetas estaban uno debajo del otro, como si fuera una escalera.	0:10	0		Mujer
+				El planeta Verde quedaba en lo más alto; debajo estaba el planeta Azul; un poco más abajo, el Amarillo y abajo de todo, el Violeta.	0:20			
+				Un día, Melisa y su hermano estaban jugando a las bolitas en los cráteres, unos agujeros que había por todo el suelo del planeta Verde. A Melisa le faltaba embocar la bolita rayada para ganar el partido.La tiró con todas sus fuerzas y lo logró.	0:36			
+				Mientras Melisa festejaba, su hermano metió la mano en el agujero para sacar las bolitas y empezar nuevamente pero... ¡Sorpresa! ¡No encontró las bolitas! Allí no había nada. Los hermanos estaban muy asombrados.	0:52			
+				Se pusieron a buscar las bolitas. Pensaron que tal vez el agujero no tenía fondo. Entonces el hermano dio media vuelta al planeta y Melisa tiró una piedrita al cráter para ver si salía para el otro lado... ¡Y la piedrita salió!	1:08			
+				Entendieron lo que había pasado con las bolitas. Como el cráter no tenía fondo, las bolitas habían caído al planeta de abajo, el planeta Azul. Para buscar las bolitas Melisa se subió a su cohete y se dirigió al planeta Azul.	1:22			
+				En el planeta Azul Doña Pepa salió a barrer unas piedras raras que habían caído en la puerta de su casa. "¿Piedras redondas? - pensó - ¡Qué raro!" Melisa , que llegó en ese momento, gritó "¡Mis bolitas!"	1:36			
+				Pero ya era tarde. Doña Pepa había dado el último escobazo mientras decía: "¡Piedras, Melisa, son piedras!" ¡Qué mala suerte! Las bolitas se le escapaban otra vez, caían al planeta de más abajo.	1:52			
+				Melisa siguió viaje en su cohete y se lanzó al espacio para llegar hasta el próximo planeta, el Amarillo. En el planeta Amarillo, Don Pancho descansaba sentado en su silla.	2:03			
+				De repente... ¡TIC, TAC, TOC, TUC, TUC! Un montón de bolitas le golpearon la cabeza. Se levantó enojadísimo. Don Pancho tomó las bolitas y las tiró con mucha fuerza.	2:19			
+				Melisa, que acababa de llegar, vio cómo las bolitas caían en el último planeta, el Violeta. Entonces tuvo que seguir bajando hasta el último planeta.	2:28			
+				Cuando Melisa llegó al planeta Violeta, le preguntó a Doña Temis si había visto caer sus bolitas de colores.	2:35			
+				Pero Doña Temis le contestó que sólo había visto unas piedritas. Con esas piedritas había hecho un collar muy hermoso y se lo había mandado por correo de regalo a una amiga que vivía en otro planeta.	2:48			
+				Muy triste, Melisa regresó a su casa en el planeta Verde. Cuando por fin llegó, su hermano y su mamá la estaban esperando.	2:55			
+				"¡Meli, mirá el collar que le regalaron a mamá! Se lo hizo Doña Temis, del planeta Violeta" dijo el hermano. Melisa se rio feliz, las piedritas de Doña Temis eran sus bolitas y ahora formaban parte de un bellísimo collar.				
+viaje_espacio:3	Un Viaje por el Espacio	viaje_espacio	easy	Melisa vivía muy lejos del planeta Tierra, en un lugar donde los planetas estaban uno debajo del otro, como si fuera una escalera.	0:10	0		Mujer
+				El planeta Verde quedaba en lo más alto; debajo estaba el planeta Azul; un poco más abajo, el Amarillo y abajo de todo, el Violeta.	0:20			
+				Un día, Melisa y su hermano estaban jugando a las bolitas en los cráteres, unos agujeros que había por todo el suelo del planeta Verde. A Melisa le faltaba embocar la bolita rayada para ganar el partido.La tiró con todas sus fuerzas y lo logró.	0:36			
+				Mientras Melisa festejaba, su hermano metió la mano en el agujero para sacar las bolitas y empezar nuevamente pero... ¡Sorpresa! ¡No encontró las bolitas! Allí no había nada. Los hermanos estaban muy asombrados.	0:52			
+				Se pusieron a buscar las bolitas. Pensaron que tal vez el agujero no tenía fondo. Entonces el hermano dio media vuelta al planeta y Melisa tiró una piedrita al cráter para ver si salía para el otro lado... ¡Y la piedrita salió!	1:08			
+				Entendieron lo que había pasado con las bolitas. Como el cráter no tenía fondo, las bolitas habían caído al planeta de abajo, el planeta Azul. Para buscar las bolitas Melisa se subió a su cohete y se dirigió al planeta Azul.	1:22			
+				En el planeta Azul Doña Pepa salió a barrer unas piedras raras que habían caído en la puerta de su casa. "¿Piedras redondas? - pensó - ¡Qué raro!" Melisa , que llegó en ese momento, gritó "¡Mis bolitas!"	1:36			
+				Pero ya era tarde. Doña Pepa había dado el último escobazo mientras decía: "¡Piedras, Melisa, son piedras!" ¡Qué mala suerte! Las bolitas se le escapaban otra vez, caían al planeta de más abajo.	1:52			
+				Melisa siguió viaje en su cohete y se lanzó al espacio para llegar hasta el próximo planeta, el Amarillo. En el planeta Amarillo, Don Pancho descansaba sentado en su silla.	2:03			
+				De repente... ¡TIC, TAC, TOC, TUC, TUC! Un montón de bolitas le golpearon la cabeza. Se levantó enojadísimo. Don Pancho tomó las bolitas y las tiró con mucha fuerza.	2:19			
+				Melisa, que acababa de llegar, vio cómo las bolitas caían en el último planeta, el Violeta. Entonces tuvo que seguir bajando hasta el último planeta.	2:28			
+				Cuando Melisa llegó al planeta Violeta, le preguntó a Doña Temis si había visto caer sus bolitas de colores.	2:35			
+				Pero Doña Temis le contestó que sólo había visto unas piedritas. Con esas piedritas había hecho un collar muy hermoso y se lo había mandado por correo de regalo a una amiga que vivía en otro planeta.	2:48			
+				Muy triste, Melisa regresó a su casa en el planeta Verde. Cuando por fin llegó, su hermano y su mamá la estaban esperando.	2:55			
+				"¡Meli, mirá el collar que le regalaron a mamá! Se lo hizo Doña Temis, del planeta Violeta" dijo el hermano. Melisa se rio feliz, las piedritas de Doña Temis eran sus bolitas y ahora formaban parte de un bellísimo collar.				
+viaje_espacio:4	Un Viaje por el Espacio	viaje_espacio	easy	Melisa vivía muy lejos del planeta Tierra, en un lugar donde los planetas estaban uno debajo del otro, como si fuera una escalera.	0:10	0		Mujer
+				El planeta Verde quedaba en lo más alto; debajo estaba el planeta Azul; un poco más abajo, el Amarillo y abajo de todo, el Violeta.	0:20			
+				Un día, Melisa y su hermano estaban jugando a las bolitas en los cráteres, unos agujeros que había por todo el suelo del planeta Verde. A Melisa le faltaba embocar la bolita rayada para ganar el partido.La tiró con todas sus fuerzas y lo logró.	0:36			
+				Mientras Melisa festejaba, su hermano metió la mano en el agujero para sacar las bolitas y empezar nuevamente pero... ¡Sorpresa! ¡No encontró las bolitas! Allí no había nada. Los hermanos estaban muy asombrados.	0:52			
+				Se pusieron a buscar las bolitas. Pensaron que tal vez el agujero no tenía fondo. Entonces el hermano dio media vuelta al planeta y Melisa tiró una piedrita al cráter para ver si salía para el otro lado... ¡Y la piedrita salió!	1:08			
+				Entendieron lo que había pasado con las bolitas. Como el cráter no tenía fondo, las bolitas habían caído al planeta de abajo, el planeta Azul. Para buscar las bolitas Melisa se subió a su cohete y se dirigió al planeta Azul.	1:22			
+				En el planeta Azul Doña Pepa salió a barrer unas piedras raras que habían caído en la puerta de su casa. "¿Piedras redondas? - pensó - ¡Qué raro!" Melisa , que llegó en ese momento, gritó "¡Mis bolitas!"	1:36			
+				Pero ya era tarde. Doña Pepa había dado el último escobazo mientras decía: "¡Piedras, Melisa, son piedras!" ¡Qué mala suerte! Las bolitas se le escapaban otra vez, caían al planeta de más abajo.	1:52			
+				Melisa siguió viaje en su cohete y se lanzó al espacio para llegar hasta el próximo planeta, el Amarillo. En el planeta Amarillo, Don Pancho descansaba sentado en su silla.	2:03			
+				De repente... ¡TIC, TAC, TOC, TUC, TUC! Un montón de bolitas le golpearon la cabeza. Se levantó enojadísimo. Don Pancho tomó las bolitas y las tiró con mucha fuerza.	2:19			
+				Melisa, que acababa de llegar, vio cómo las bolitas caían en el último planeta, el Violeta. Entonces tuvo que seguir bajando hasta el último planeta.	2:28			
+				Cuando Melisa llegó al planeta Violeta, le preguntó a Doña Temis si había visto caer sus bolitas de colores.	2:35			
+				Pero Doña Temis le contestó que sólo había visto unas piedritas. Con esas piedritas había hecho un collar muy hermoso y se lo había mandado por correo de regalo a una amiga que vivía en otro planeta.	2:48			
+				Muy triste, Melisa regresó a su casa en el planeta Verde. Cuando por fin llegó, su hermano y su mamá la estaban esperando.	2:55			
+				"¡Meli, mirá el collar que le regalaron a mamá! Se lo hizo Doña Temis, del planeta Violeta" dijo el hermano. Melisa se rio feliz, las piedritas de Doña Temis eran sus bolitas y ahora formaban parte de un bellísimo collar.				
+viaje_espacio:5	Un Viaje por el Espacio	viaje_espacio	easy	vacio		0		Mujer
+genio_botella	El Genio de la Botella	genio_botella	easy	Abul era el hijo menor de una familia que vivía en un pueblo muy chiquito en el medio del desierto. Le encantaba hacer castillos de arena o tirarse por las dunas como si fueran un tobogán	0:15	1		Mujer
+				y ya no protestaba cuando su mamá le decía que se pusiera el turbante para protegerse del sol.	0:20			
+				Su papá era vendedor y recorría en camello los pueblitos vecinos ofreciendo telas, ropa y alfombras. Abul siempre esperaba que su padre volviera de sus viajes porque él contaba maravillosas historias que a Abul le encantaba escuchar.	0:38			
+				La que más le gustaba era una sobre el mar. Le parecía increíble que pudiera haber tanta agua junta. En el desierto no llueve casi nunca y hay muy poquita agua. Abul se moría de ganas de conocer el mar... ¡Pero quedaba tan lejos!	0:58			
+				Un día, el papá de Abul lo invitó a que fuera con él a entregar un cargamento de alfombras en un pueblo que quedaba a un día de viaje. Abul aceptó encantado. Se despertaron antes que saliera el sol y comenzaron el viaje.	1:13			
+				Cerca del mediodía, el calor era terrible y el papá decidió hacer un descanso en unas palmeras que había en el camino. Enseguida se quedó dormido.	1:24			
+				Abul aprovechó para jugar un rato y se puso a hacer un castillo en la arena. Pero, ¡oh, sorpresa! mientras estaba haciendo un pozo, encontró algo enterrado en la arena: una botella.	1:36			
+				Cuando la pudo desenterrar, se dio cuenta de que era muy pesada. Decidió abrirla para ver qué tenía adentro. Apenas logró sacar el corcho salió una nube de color verde que se convirtió en un hombre.	1:50			
+				- ¡Hola! Yo soy el genio de la botella. Muchas gracias por rescatarme - dijo el hombre verde mientras se desesperezaba._Abul no sabía qué contestarle._- Por el gran favor que me hiciste te voy a conceder un deseo, podés pedirme lo que quieras - dijo el genio.	2:11			
+				A Abul le brillaron los ojos. Se le cruzaron muchísimas ideas por la cabeza y no se decidía._- ¡Bueno, vamos, jovencito, que no tengo todo el día! - lo apuró el genio._Abul miró a su padre, que todavía dormía bajo la palmera y dijo:_- Quiero conocer el mar._- Muy bien - respondió el genio.	2:32			
+				Inmediatamente pronunció unas palabras que Abul no entendió y una de las alfombras del cargamento de su padre empezó a volar y se dirigió hasta donde estaban ellos.	2:42			
+				- Subite y agarrate fuerte, que nos vamos al mar - dijo el genio._Abul y el genio se subieron a la alfombra voladora, que despegó rapidísimo. Abul empezó a sentir cómo el viento le rozaba en la cara y casi se le vuela el turbante, pero lo pudo agarrar a tiempo._- Ya estamos por llegar - dijo el genio.	3:04			
+				Y enseguida se empezó a ver, después de tanta arena, un pedacito de algo azul, que cada vez se hacía más y más grande. Los ojos de Abul se llenaron del color azul verdoso del mar y el ruido de las olas fue como música para sus oídos.	3:19			
+				Aterrizaron en la playa y Abul se sacó las zapatillas para dejar que sus pies se mojaran con el agua. Estaba feliz.	3:28			
+				Luego, de repente, tomó carrera y se zambulló bajo la espuma blanca de una ola. En la botellita del genio guardó un poco del agua salada del mar para llevarse de recuerdo.	3:39			
+				- Ya es hora de regresar - advirtió el genio._Se subieron nuevamente a la alfombra, que voló más rápido que el viento. Llegaron al desierto antes de que el papá de Abul se despertara._- Muchas gracias, señor genio. - dijo Abul con una sonrisa de oreja a oreja.	3:59			
+				- Gracias a vos, jovencito - y mientras dijo esto, el genio se transformó en una nube verde que desapareció en el cielo.				
+genio_botella:2	El Genio de la Botella	genio_botella	easy	Abul era el hijo menor de una familia que vivía en un pueblo muy chiquito en el medio del desierto. Le encantaba hacer castillos de arena o tirarse por las dunas como si fueran un tobogán	0:15	0		Mujer
+				y ya no protestaba cuando su mamá le decía que se pusiera el turbante para protegerse del sol.	0:20			
+				Su papá era vendedor y recorría en camello los pueblitos vecinos ofreciendo telas, ropa y alfombras. Abul siempre esperaba que su padre volviera de sus viajes porque él contaba maravillosas historias que a Abul le encantaba escuchar.	0:38			
+				La que más le gustaba era una sobre el mar. Le parecía increíble que pudiera haber tanta agua junta. En el desierto no llueve casi nunca y hay muy poquita agua. Abul se moría de ganas de conocer el mar... ¡Pero quedaba tan lejos!	0:58			
+				Un día, el papá de Abul lo invitó a que fuera con él a entregar un cargamento de alfombras en un pueblo que quedaba a un día de viaje. Abul aceptó encantado. Se despertaron antes que saliera el sol y comenzaron el viaje.	1:13			
+				Cerca del mediodía, el calor era terrible y el papá decidió hacer un descanso en unas palmeras que había en el camino. Enseguida se quedó dormido.	1:24			
+				Abul aprovechó para jugar un rato y se puso a hacer un castillo en la arena. Pero, ¡oh, sorpresa! mientras estaba haciendo un pozo, encontró algo enterrado en la arena: una botella.	1:36			
+				Cuando la pudo desenterrar, se dio cuenta de que era muy pesada. Decidió abrirla para ver qué tenía adentro. Apenas logró sacar el corcho salió una nube de color verde que se convirtió en un hombre.	1:50			
+				- ¡Hola! Yo soy el genio de la botella. Muchas gracias por rescatarme - dijo el hombre verde mientras se desesperezaba._Abul no sabía qué contestarle._- Por el gran favor que me hiciste te voy a conceder un deseo, podés pedirme lo que quieras - dijo el genio.	2:11			
+				A Abul le brillaron los ojos. Se le cruzaron muchísimas ideas por la cabeza y no se decidía._- ¡Bueno, vamos, jovencito, que no tengo todo el día! - lo apuró el genio._Abul miró a su padre, que todavía dormía bajo la palmera y dijo:_- Quiero conocer el mar._- Muy bien - respondió el genio.	2:32			
+				Inmediatamente pronunció unas palabras que Abul no entendió y una de las alfombras del cargamento de su padre empezó a volar y se dirigió hasta donde estaban ellos.	2:42			
+				- Subite y agarrate fuerte, que nos vamos al mar - dijo el genio._Abul y el genio se subieron a la alfombra voladora, que despegó rapidísimo. Abul empezó a sentir cómo el viento le rozaba en la cara y casi se le vuela el turbante, pero lo pudo agarrar a tiempo._- Ya estamos por llegar - dijo el genio.	3:04			
+				Y enseguida se empezó a ver, después de tanta arena, un pedacito de algo azul, que cada vez se hacía más y más grande. Los ojos de Abul se llenaron del color azul verdoso del mar y el ruido de las olas fue como música para sus oídos.	3:19			
+				Aterrizaron en la playa y Abul se sacó las zapatillas para dejar que sus pies se mojaran con el agua. Estaba feliz.	3:28			
+				Luego, de repente, tomó carrera y se zambulló bajo la espuma blanca de una ola. En la botellita del genio guardó un poco del agua salada del mar para llevarse de recuerdo.	3:39			
+				- Ya es hora de regresar - advirtió el genio._Se subieron nuevamente a la alfombra, que voló más rápido que el viento. Llegaron al desierto antes de que el papá de Abul se despertara._- Muchas gracias, señor genio. - dijo Abul con una sonrisa de oreja a oreja.	3:59			
+				- Gracias a vos, jovencito - y mientras dijo esto, el genio se transformó en una nube verde que desapareció en el cielo.				
+genio_botella:3	El Genio de la Botella	genio_botella	easy	Abul era el hijo menor de una familia que vivía en un pueblo muy chiquito en el medio del desierto. Le encantaba hacer castillos de arena o tirarse por las dunas como si fueran un tobogán	0:15	0		Mujer
+				y ya no protestaba cuando su mamá le decía que se pusiera el turbante para protegerse del sol.	0:20			
+				Su papá era vendedor y recorría en camello los pueblitos vecinos ofreciendo telas, ropa y alfombras. Abul siempre esperaba que su padre volviera de sus viajes porque él contaba maravillosas historias que a Abul le encantaba escuchar.	0:38			
+				La que más le gustaba era una sobre el mar. Le parecía increíble que pudiera haber tanta agua junta. En el desierto no llueve casi nunca y hay muy poquita agua. Abul se moría de ganas de conocer el mar... ¡Pero quedaba tan lejos!	0:58			
+				Un día, el papá de Abul lo invitó a que fuera con él a entregar un cargamento de alfombras en un pueblo que quedaba a un día de viaje. Abul aceptó encantado. Se despertaron antes que saliera el sol y comenzaron el viaje.	1:13			
+				Cerca del mediodía, el calor era terrible y el papá decidió hacer un descanso en unas palmeras que había en el camino. Enseguida se quedó dormido.	1:24			
+				Abul aprovechó para jugar un rato y se puso a hacer un castillo en la arena. Pero, ¡oh, sorpresa! mientras estaba haciendo un pozo, encontró algo enterrado en la arena: una botella.	1:36			
+				Cuando la pudo desenterrar, se dio cuenta de que era muy pesada. Decidió abrirla para ver qué tenía adentro. Apenas logró sacar el corcho salió una nube de color verde que se convirtió en un hombre.	1:50			
+				- ¡Hola! Yo soy el genio de la botella. Muchas gracias por rescatarme - dijo el hombre verde mientras se desesperezaba._Abul no sabía qué contestarle._- Por el gran favor que me hiciste te voy a conceder un deseo, podés pedirme lo que quieras - dijo el genio.	2:11			
+				A Abul le brillaron los ojos. Se le cruzaron muchísimas ideas por la cabeza y no se decidía._- ¡Bueno, vamos, jovencito, que no tengo todo el día! - lo apuró el genio._Abul miró a su padre, que todavía dormía bajo la palmera y dijo:_- Quiero conocer el mar._- Muy bien - respondió el genio.	2:32			
+				Inmediatamente pronunció unas palabras que Abul no entendió y una de las alfombras del cargamento de su padre empezó a volar y se dirigió hasta donde estaban ellos.	2:42			
+				- Subite y agarrate fuerte, que nos vamos al mar - dijo el genio._Abul y el genio se subieron a la alfombra voladora, que despegó rapidísimo. Abul empezó a sentir cómo el viento le rozaba en la cara y casi se le vuela el turbante, pero lo pudo agarrar a tiempo._- Ya estamos por llegar - dijo el genio.	3:04			
+				Y enseguida se empezó a ver, después de tanta arena, un pedacito de algo azul, que cada vez se hacía más y más grande. Los ojos de Abul se llenaron del color azul verdoso del mar y el ruido de las olas fue como música para sus oídos.	3:19			
+				Aterrizaron en la playa y Abul se sacó las zapatillas para dejar que sus pies se mojaran con el agua. Estaba feliz.	3:28			
+				Luego, de repente, tomó carrera y se zambulló bajo la espuma blanca de una ola. En la botellita del genio guardó un poco del agua salada del mar para llevarse de recuerdo.	3:39			
+				- Ya es hora de regresar - advirtió el genio._Se subieron nuevamente a la alfombra, que voló más rápido que el viento. Llegaron al desierto antes de que el papá de Abul se despertara._- Muchas gracias, señor genio. - dijo Abul con una sonrisa de oreja a oreja.	3:59			
+				- Gracias a vos, jovencito - y mientras dijo esto, el genio se transformó en una nube verde que desapareció en el cielo.				
+genio_botella:4	El Genio de la Botella	genio_botella	easy	Abul era el hijo menor de una familia que vivía en un pueblo muy chiquito en el medio del desierto. Le encantaba hacer castillos de arena o tirarse por las dunas como si fueran un tobogán	0:15	0		Mujer
+				y ya no protestaba cuando su mamá le decía que se pusiera el turbante para protegerse del sol.	0:20			
+				Su papá era vendedor y recorría en camello los pueblitos vecinos ofreciendo telas, ropa y alfombras. Abul siempre esperaba que su padre volviera de sus viajes porque él contaba maravillosas historias que a Abul le encantaba escuchar.	0:38			
+				La que más le gustaba era una sobre el mar. Le parecía increíble que pudiera haber tanta agua junta. En el desierto no llueve casi nunca y hay muy poquita agua. Abul se moría de ganas de conocer el mar... ¡Pero quedaba tan lejos!	0:58			
+				Un día, el papá de Abul lo invitó a que fuera con él a entregar un cargamento de alfombras en un pueblo que quedaba a un día de viaje. Abul aceptó encantado. Se despertaron antes que saliera el sol y comenzaron el viaje.	1:13			
+				Cerca del mediodía, el calor era terrible y el papá decidió hacer un descanso en unas palmeras que había en el camino. Enseguida se quedó dormido.	1:24			
+				Abul aprovechó para jugar un rato y se puso a hacer un castillo en la arena. Pero, ¡oh, sorpresa! mientras estaba haciendo un pozo, encontró algo enterrado en la arena: una botella.	1:36			
+				Cuando la pudo desenterrar, se dio cuenta de que era muy pesada. Decidió abrirla para ver qué tenía adentro. Apenas logró sacar el corcho salió una nube de color verde que se convirtió en un hombre.	1:50			
+				- ¡Hola! Yo soy el genio de la botella. Muchas gracias por rescatarme - dijo el hombre verde mientras se desesperezaba._Abul no sabía qué contestarle._- Por el gran favor que me hiciste te voy a conceder un deseo, podés pedirme lo que quieras - dijo el genio.	2:11			
+				A Abul le brillaron los ojos. Se le cruzaron muchísimas ideas por la cabeza y no se decidía._- ¡Bueno, vamos, jovencito, que no tengo todo el día! - lo apuró el genio._Abul miró a su padre, que todavía dormía bajo la palmera y dijo:_- Quiero conocer el mar._- Muy bien - respondió el genio.	2:32			
+				Inmediatamente pronunció unas palabras que Abul no entendió y una de las alfombras del cargamento de su padre empezó a volar y se dirigió hasta donde estaban ellos.	2:42			
+				- Subite y agarrate fuerte, que nos vamos al mar - dijo el genio._Abul y el genio se subieron a la alfombra voladora, que despegó rapidísimo. Abul empezó a sentir cómo el viento le rozaba en la cara y casi se le vuela el turbante, pero lo pudo agarrar a tiempo._- Ya estamos por llegar - dijo el genio.	3:04			
+				Y enseguida se empezó a ver, después de tanta arena, un pedacito de algo azul, que cada vez se hacía más y más grande. Los ojos de Abul se llenaron del color azul verdoso del mar y el ruido de las olas fue como música para sus oídos.	3:19			
+				Aterrizaron en la playa y Abul se sacó las zapatillas para dejar que sus pies se mojaran con el agua. Estaba feliz.	3:28			
+				Luego, de repente, tomó carrera y se zambulló bajo la espuma blanca de una ola. En la botellita del genio guardó un poco del agua salada del mar para llevarse de recuerdo.	3:39			
+				- Ya es hora de regresar - advirtió el genio._Se subieron nuevamente a la alfombra, que voló más rápido que el viento. Llegaron al desierto antes de que el papá de Abul se despertara._- Muchas gracias, señor genio. - dijo Abul con una sonrisa de oreja a oreja.	3:59			
+				- Gracias a vos, jovencito - y mientras dijo esto, el genio se transformó en una nube verde que desapareció en el cielo.				
+genio_botella:5	El Genio de la Botella	genio_botella	easy	Abul era el hijo menor de una familia que vivía en un pueblo muy chiquito en el medio del desierto. Le encantaba hacer castillos de arena o tirarse por las dunas como si fueran un tobogán	0:15	0		Mujer
+				y ya no protestaba cuando su mamá le decía que se pusiera el turbante para protegerse del sol.	0:20			
+				Su papá era vendedor y recorría en camello los pueblitos vecinos ofreciendo telas, ropa y alfombras. Abul siempre esperaba que su padre volviera de sus viajes porque él contaba maravillosas historias que a Abul le encantaba escuchar.	0:38			
+				La que más le gustaba era una sobre el mar. Le parecía increíble que pudiera haber tanta agua junta. En el desierto no llueve casi nunca y hay muy poquita agua. Abul se moría de ganas de conocer el mar... ¡Pero quedaba tan lejos!	0:58			
+				Un día, el papá de Abul lo invitó a que fuera con él a entregar un cargamento de alfombras en un pueblo que quedaba a un día de viaje. Abul aceptó encantado. Se despertaron antes que saliera el sol y comenzaron el viaje.	1:13			
+				Cerca del mediodía, el calor era terrible y el papá decidió hacer un descanso en unas palmeras que había en el camino. Enseguida se quedó dormido.	1:24			
+				Abul aprovechó para jugar un rato y se puso a hacer un castillo en la arena. Pero, ¡oh, sorpresa! mientras estaba haciendo un pozo, encontró algo enterrado en la arena: una botella.	1:36			
+				Cuando la pudo desenterrar, se dio cuenta de que era muy pesada. Decidió abrirla para ver qué tenía adentro. Apenas logró sacar el corcho salió una nube de color verde que se convirtió en un hombre.	1:50			
+				- ¡Hola! Yo soy el genio de la botella. Muchas gracias por rescatarme - dijo el hombre verde mientras se desesperezaba._Abul no sabía qué contestarle._- Por el gran favor que me hiciste te voy a conceder un deseo, podés pedirme lo que quieras - dijo el genio.	2:11			
+				A Abul le brillaron los ojos. Se le cruzaron muchísimas ideas por la cabeza y no se decidía._- ¡Bueno, vamos, jovencito, que no tengo todo el día! - lo apuró el genio._Abul miró a su padre, que todavía dormía bajo la palmera y dijo:_- Quiero conocer el mar._- Muy bien - respondió el genio.	2:32			
+				Inmediatamente pronunció unas palabras que Abul no entendió y una de las alfombras del cargamento de su padre empezó a volar y se dirigió hasta donde estaban ellos.	2:42			
+				- Subite y agarrate fuerte, que nos vamos al mar - dijo el genio._Abul y el genio se subieron a la alfombra voladora, que despegó rapidísimo. Abul empezó a sentir cómo el viento le rozaba en la cara y casi se le vuela el turbante, pero lo pudo agarrar a tiempo._- Ya estamos por llegar - dijo el genio.	3:04			
+				Y enseguida se empezó a ver, después de tanta arena, un pedacito de algo azul, que cada vez se hacía más y más grande. Los ojos de Abul se llenaron del color azul verdoso del mar y el ruido de las olas fue como música para sus oídos.	3:19			
+				Aterrizaron en la playa y Abul se sacó las zapatillas para dejar que sus pies se mojaran con el agua. Estaba feliz.	3:28			
+				Luego, de repente, tomó carrera y se zambulló bajo la espuma blanca de una ola. En la botellita del genio guardó un poco del agua salada del mar para llevarse de recuerdo.	3:39			
+				- Ya es hora de regresar - advirtió el genio._Se subieron nuevamente a la alfombra, que voló más rápido que el viento. Llegaron al desierto antes de que el papá de Abul se despertara._- Muchas gracias, señor genio. - dijo Abul con una sonrisa de oreja a oreja.	3:59			
+				- Gracias a vos, jovencito - y mientras dijo esto, el genio se transformó en una nube verde que desapareció en el cielo.				

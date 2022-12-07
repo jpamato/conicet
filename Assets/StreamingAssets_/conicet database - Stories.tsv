@@ -1,0 +1,417 @@
+story_id	name	folder	audioClip	texts	duration	display 0=Full 1=solo audio 2= solo texto		character	
+animales_de_dany	Los animales de Dany	animales_de_dany	hard	vacio	0:07	1		Mujer	Animales de Dany
+animales_de_dany:2	Los animales de Dany	animales_de_dany	hard	La gallina amarilla de Dany está en el nido. En el nido hay huevos.	0:11	1		Mujer	
+				Ahora, la gallina se levanta y dice: “¡Oooh, mi pollito!”. La gallina está muy contenta. Dany también está contento.	0:25				
+				El pollito ya está afuera del nido. Es pequeño y muy lindo. Dany quiere tocar al pollito pero…	0:35				
+				la gallina no quiere, está muy enojada y corre a Dany. Dany grita “¡Uuuh, la gallina!” y, asustado, se va corriendo.					
+animales_de_dany:3	Los animales de Dany	animales_de_dany	hard	vacio	0:07	1		Mujer	
+animales_de_dany:4	Los animales de Dany	animales_de_dany	hard	vacio	0:07	1		Mujer	
+animales_de_dany:5	Los animales de Dany	animales_de_dany	hard	La gallina amarilla de Dany está en el nido. En el nido hay huevos.	0:11	1		Mujer	
+				Ahora, la gallina se levanta y dice: “¡Oooh, mi pollito!”. La gallina está muy contenta. Dany también está contento.	0:25				
+				El pollito ya está afuera del nido. Es pequeño y muy lindo. Dany quiere tocar al pollito pero…	0:35				
+				la gallina no quiere, está muy enojada y corre a Dany. Dany grita “¡Uuuh, la gallina!” y, asustado, se va corriendo.					
+animales_de_dany:6	Los animales de Dany	animales_de_dany	hard	La gallina amarilla de Dany está en el nido. En el nido hay huevos.	0:11	0		Mujer	
+				Ahora, la gallina se levanta y dice: “¡Oooh, mi pollito!”. La gallina está muy contenta. Dany también está contento.	0:25				
+				El pollito ya está afuera del nido. Es pequeño y muy lindo. Dany quiere tocar al pollito pero…	0:35				
+				la gallina no quiere, está muy enojada y corre a Dany. Dany grita “¡Uuuh, la gallina!” y, asustado, se va corriendo.					
+animales_de_dany:7	Los animales de Dany	animales_de_dany	hard	vacio	0:07	1		Mujer	
+animales_de_dany:8	Los animales de Dany	animales_de_dany	hard	La gallina amarilla de Dany está en el nido. En el nido hay huevos.	0:11	0		Mujer	
+				Ahora, la gallina se levanta y dice: “¡Oooh, mi pollito!”. La gallina está muy contenta. Dany también está contento.	0:25				
+				El pollito ya está afuera del nido. Es pequeño y muy lindo. Dany quiere tocar al pollito pero…	0:35				
+				la gallina no quiere, está muy enojada y corre a Dany. Dany grita “¡Uuuh, la gallina!” y, asustado, se va corriendo.					
+animales_de_dany:9	Los animales de Dany	animales_de_dany	hard	vacio				Mujer	
+animales_de_dany:10	Los animales de Dany	animales_de_dany	hard	vacio				Mujer	
+rulitos	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	1		Mujer	Rulitos
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42				
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+rulitos:2	Rulitos	rulitos	hard	vacio	0:08	1		Mujer	
+rulitos:3	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	1		Mujer	
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42				
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+rulitos:4	Rulitos	rulitos	hard	vacio	0:08	1		Mujer	
+rulitos:5	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	1		Mujer	
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42				
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+rulitos:6	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	0		Mujer	
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42				
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+rulitos:7	Rulitos	rulitos	hard	vacio	0:08	0		Mujer	
+rulitos:8	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	0		Mujer	
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42	0		Mujer	
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+rulitos:9	Rulitos	rulitos	hard	empty					
+rulitos:10	Rulitos	rulitos	hard	empty		0		Mujer	
+integracion	Los animales de Dany	animales_de_dany	hard	La gallina amarilla de Dany está en el nido. En el nido hay huevos.	0:11	0		Mujer	Integración 1
+				Ahora, la gallina se levanta y dice: “¡Oooh, mi pollito!”. La gallina está muy contenta. Dany también está contento.	0:25				
+				El pollito ya está afuera del nido. Es pequeño y muy lindo. Dany quiere tocar al pollito pero…	0:35				
+				la gallina no quiere, está muy enojada y corre a Dany. Dany grita “¡Uuuh, la gallina!” y, asustado, se va corriendo.					
+integracion:2	Leamos otra vez	animales_de_dany	hard	vacio	0:07	0		Mujer	
+integracion:3	Leamos otra vez	animales_de_dany	hard	vacio	0:07	0		Mujer	
+integracion:4	Rulitos	rulitos	hard	Rulitos está en el monte. Camina y camina.	0:10	0		Mujer	
+				En el monte hay una casa. La casa es de los tres osos: el oso chico, el oso mediano y el oso grande.	0:20				
+				En la casa, los tres osos tienen camas. El oso chico tiene una cama chica, el oso mediano tiene una cama mediana y el oso grande tiene una cama grande.	0:34				
+				En la casa, los tres osos tienen sillas. El oso chico tiene una silla chica, el oso mediano tiene una silla mediana y el oso grande tiene una silla grande.	0:49				
+				En la casa, los tres osos tienen vasos de agua. El oso chico tiene un vaso de agua chico, el oso mediano tiene un vaso de agua mediano y el oso grande tiene un vaso de agua grande.	1:08				
+				Es un día de sol. Los osos van al monte. Los osos se van y Rulitos llega a la casa.	1:20				
+				En la casa de los tres osos, Rulitos ve tres vasos de agua: el chico, el mediano y el grande.	1:32				
+				Rulitos tiene sed y toma el vaso de agua chico del oso chico.	1:40				
+				En la casa de los tres osos, Rulitos ve las tres sillas: la chica, la mediana y la grande.	1:51				
+				Rulitos está muy cansada. Se sienta en la silla chica del oso chico y….	2:00				
+				se cae. La silla chica está rota.	2:07				
+				Después, Rulitos ve las tres camas: la chica, la mediana y la grande. Rulitos tiene sueño.	2:19				
+				Es de noche. Hay luna. Los tres osos vuelven a su casa y…	2:27				
+				“¡Aaaah!”…. Los osos ven el vaso chico vacío.	2:34				
+				Y la silla chica rota. Los osos están enojados.	2:42				
+				Al final, los osos encuentran a Rulitos. Rulitos está dormida en la cama chica del oso chico. Ahora, los osos no están enojados, están sorprendidos. Miran a Rulitos, hacen “shhh” y la dejan dormir.					
+integracion:5	Leamos otra vez	rulitos	hard	vacio	0:07	1		Mujer	
+amigos_de_dany	Dany y sus amigos	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	1		Mujer	Amigos de Dany
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+amigos_de_dany:2	Dany y sus amigos	amigos_de_dany	hard	vacio	0:05	1		Mujer	
+amigos_de_dany:3	Dany y sus amigos	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	1		Mujer	
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+amigos_de_dany:4	Dany y sus amigos	amigos_de_dany	hard	vacio	0:16	1		Mujer	
+amigos_de_dany:5	Dany y sus amigos	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	0		Mujer	
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+amigos_de_dany:6	Dany y sus amigos	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	0		Mujer	
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+amigos_de_dany:7	Dany y sus amigos	amigos_de_dany	hard	vacio	0:12	1		Mujer	
+amigos_de_dany:8	Dany y sus amigos	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	0		Mujer	
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+amigos_de_dany:9	Dany y sus amigos	amigos_de_dany	hard	vacio	0:16	1		Mujer	
+amigos_de_dany:10	Dany y sus amigos	amigos_de_dany	hard	vacio	0:16	1		Mujer	
+liebre_tortuga	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	1		Mujer	Liebre y la Tortuga
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+liebre_tortuga:2	La Liebre y la Tortuga	liebre_tortuga	hard	vacio	0:16	1		Mujer	
+liebre_tortuga:3	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	1		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+liebre_tortuga:4	La Liebre y la Tortuga	liebre_tortuga	hard	vacio	0:16	1		Mujer	
+liebre_tortuga:5	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	0		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+liebre_tortuga:6	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	0		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+liebre_tortuga:7	La Liebre y la Tortuga	liebre_tortuga	hard	vacio	0:16	1		Mujer	
+liebre_tortuga:8	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	0		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+liebre_tortuga:9	La Liebre y la Tortuga	liebre_tortuga	hard	vacio	0:16	1		Mujer	
+liebre_tortuga:10	La Liebre y la Tortuga	liebre_tortuga	hard	vacio	0:16	1		Mujer	
+integracion_2	Leamos otra vez	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	0		Mujer	Integracion 2
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+integracion_2:1	Leamos otra vez	amigos_de_dany	hard	Todos los chicos juegan y están muy contentos.	0:08	0		Mujer	
+				Sandra juega en la hamaca.	0:11				
+				Juan y Nahuel juegan a las cartas.	0:14				
+				Dany, Lucas y Alan juegan a la pelota.	0:19				
+				Ahora, Lucas tiene la pelota. Dany y Alan corren cerca de Lucas. Lucas patea muy fuerte y …	0:30				
+				la pelota se va arriba del árbol. “¡Uh! ¡¿Y ahora?!”, dice Dany, mientras mira la pelota desde abajo.	0:38				
+				Entonces, Dany sube al árbol, se para en una rama, estira el brazo, toca la pelota con la mano y…	0:50				
+				se cae. "¡¡Ahh!!... ¡¡Dany!!", Lucas y Alan gritan asustados	0:57				
+				Al final, Lucas y Alan, asustados, corren hacia Dany. Lucas agarra a Dany de los pies, Alan lo agarra de los brazos y Dany, contento, abraza la pelota y dice: “¡A jugar!”.					
+integracion_2:2	Leamos otra vez	amigos_de_dany	hard	vacio	0:07	0		Mujer	
+integracion_2:3	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	0		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+integracion_2:4	La Liebre y la Tortuga	liebre_tortuga	hard	Es de día, hay sol. La tortuga quiere jugar una carrera con la liebre.	0:15	0		Mujer	
+				- ¿Jugamos una carrera?_- ¿Vos y yo?_- Sí_- Pero yo corro muy rápido y vos no._- No importa. Corramos.	0:32				
+				La carrera empieza. La liebre corre muy rápido, pero la tortuga camina muy despacio. La liebre está contenta.	0:47				
+				La liebre corre, corre y corre muy muy rápido y, al final, se cansa. Ahora, la liebre está muy cansada.	1:03				
+				Entonces, la liebre se sienta abajo de un árbol y se duerme. Mientras tanto, la tortuga, despacito, camina y camina sin parar.	1:19				
+				Ya es de noche, la luna está en el cielo. La tortuga camina, camina y, despacito, despacito, gana la carrera. 	1:29				
+				La liebre, sorprendida, grita: “¡Noooooo!” Corre muy rápido pero no llega. La tortuga está contenta, muy muy contenta, está feliz.					
+integracion_2:5	Leamos otra vez	amigos_de_dany	hard		0:13	0		Mujer	
+familia_dany	Dany y su Familia	familia_dany	hard	vacio	0:03	1		Mujer	
+familia_dany:2	Dany y su Familia	familia_dany	hard	vacio	0:03	1		Mujer	
+familia_dany:3	Dany y su Familia	familia_dany	hard	Ya es tarde, Dany y su abuelo llevan a los chivos al corral. Dany grita: “¡¡Adentro, adentro!!” … Los chivos grandes caminan despacio hacia el corral, pero uno no entra. 	0:23	1		Mujer	
+				Un chivito chiquito y blanco se aleja del corral. La abuela se agarra de la cabeza y dice: “¡¡Uy el chivito blanco… el chivito blanco se va lejos!!	0:41				
+				Entonces, Dany corre al chivito blanco. La mamá y el papá de Dany también corren al chivito mientras gritan: “¡¡Adentro, adentro!!”. El chivito, asustado, también corre. Ahora está más cerca del corral.	1:06				
+				Dany corre y grita: ¡¡Adentro, adentro!!”. El perro también corre al chivo. El chivo, asustado, también corre rápido. Cada vez está más cerca del corral. Finalmente, el chivo entra al corral.	1:32				
+				Cuando el chivito blanco está adentro del corral, Dany, muy rápido, cierra la puerta y dice: “Listo, ya están todos los chivos adentro del corral”. 	1:44				
+				Los abuelos y los papás de Dany dicen: ¡Muy bien Dany! ¡Muy bien! Dany está contento y su familia también.					
+familia_dany:4	Dany y su Familia	familia_dany	hard	vacio	0:03	1		Mujer	
+familia_dany:5	Dany y su Familia	familia_dany	hard	Ya es tarde, Dany y su abuelo llevan a los chivos al corral. Dany grita: “¡¡Adentro, adentro!!” … Los chivos grandes caminan despacio hacia el corral, pero uno no entra. 	0:23	0		Mujer	
+				Un chivito chiquito y blanco se aleja del corral. La abuela se agarra de la cabeza y dice: “¡¡Uy el chivito blanco… el chivito blanco se va lejos!!	0:41				
+				Entonces, Dany corre al chivito blanco. La mamá y el papá de Dany también corren al chivito mientras gritan: “¡¡Adentro, adentro!!”. El chivito, asustado, también corre. Ahora está más cerca del corral.	1:06				
+				Dany corre y grita: ¡¡Adentro, adentro!!”. El perro también corre al chivo. El chivo, asustado, también corre rápido. Cada vez está más cerca del corral. Finalmente, el chivo entra al corral.	1:32				
+				Cuando el chivito blanco está adentro del corral, Dany, muy rápido, cierra la puerta y dice: “Listo, ya están todos los chivos adentro del corral”. 	1:44				
+				Los abuelos y los papás de Dany dicen: ¡Muy bien Dany! ¡Muy bien! Dany está contento y su familia también.					
+familia_dany:6	Dany y su Familia	familia_dany	hard	Ya es tarde, Dany y su abuelo llevan a los chivos al corral. Dany grita: “¡¡Adentro, adentro!!” … Los chivos grandes caminan despacio hacia el corral, pero uno no entra. 	0:23	0		Mujer	
+				Un chivito chiquito y blanco se aleja del corral. La abuela se agarra de la cabeza y dice: “¡¡Uy el chivito blanco… el chivito blanco se va lejos!!	0:41				
+				Entonces, Dany corre al chivito blanco. La mamá y el papá de Dany también corren al chivito mientras gritan: “¡¡Adentro, adentro!!”. El chivito, asustado, también corre. Ahora está más cerca del corral.	1:06				
+				Dany corre y grita: ¡¡Adentro, adentro!!”. El perro también corre al chivo. El chivo, asustado, también corre rápido. Cada vez está más cerca del corral. Finalmente, el chivo entra al corral.	1:32				
+				Cuando el chivito blanco está adentro del corral, Dany, muy rápido, cierra la puerta y dice: “Listo, ya están todos los chivos adentro del corral”. 	1:44				
+				Los abuelos y los papás de Dany dicen: ¡Muy bien Dany! ¡Muy bien! Dany está contento y su familia también.					
+familia_dany:7	Dany y su Familia	familia_dany	hard	vacio	0:23	0		Mujer	
+familia_dany:8	Dany y su Familia	familia_dany	hard	Ya es tarde, Dany y su abuelo llevan a los chivos al corral. Dany grita: “¡¡Adentro, adentro!!” … Los chivos grandes caminan despacio hacia el corral, pero uno no entra. 	0:23	0		Mujer	
+				Un chivito chiquito y blanco se aleja del corral. La abuela se agarra de la cabeza y dice: “¡¡Uy el chivito blanco… el chivito blanco se va lejos!!	0:41				
+				Entonces, Dany corre al chivito blanco. La mamá y el papá de Dany también corren al chivito mientras gritan: “¡¡Adentro, adentro!!”. El chivito, asustado, también corre. Ahora está más cerca del corral.	1:06				
+				Dany corre y grita: ¡¡Adentro, adentro!!”. El perro también corre al chivo. El chivo, asustado, también corre rápido. Cada vez está más cerca del corral. Finalmente, el chivo entra al corral.	1:32				
+				Cuando el chivito blanco está adentro del corral, Dany, muy rápido, cierra la puerta y dice: “Listo, ya están todos los chivos adentro del corral”. 	1:44				
+				Los abuelos y los papás de Dany dicen: ¡Muy bien Dany! ¡Muy bien! Dany está contento y su familia también.					
+familia_dany:9	Dany y su Familia	familia_dany	hard	vacio	0:23	1		Mujer	
+familia_dany:10	Dany y su Familia	familia_dany	hard	vacio	0:23	1		Mujer	
+caperucita_roja_l2	Caperucita Roja	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	1		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+caperucita_roja_l2:2	Caperucita Roja	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	1		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+caperucita_roja_l2:3	Caperucita Roja	caperucita_roja_l2	hard	Estas son Caperucita Roja y su mamá. La mamá le da a Caperucita una canasta con comida. La comida es para la abuela de Caperucita.	0:21	1		Mujer	
+caperucita_roja_l2:4	Caperucita Roja	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	1		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+caperucita_roja_l2:5	Caperucita Roja	caperucita_roja_l2	hard	Estas son Caperucita Roja y su mamá. La mamá le da a Caperucita una canasta con comida. La comida es para la abuela de Caperucita.	0:21	1		Mujer	
+caperucita_roja_l2:6	Caperucita Roja	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	0		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+caperucita_roja_l2:7	Caperucita Roja	caperucita_roja_l2	hard	Estas son Caperucita Roja y su mamá. La mamá le da a Caperucita una canasta con comida. La comida es para la abuela de Caperucita.	0:21	1		Mujer	
+caperucita_roja_l2:8	Caperucita Roja	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	0		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+caperucita_roja_l2:9	Caperucita Roja	caperucita_roja_l2	hard	Estas son Caperucita Roja y su mamá. La mamá le da a Caperucita una canasta con comida. La comida es para la abuela de Caperucita.	0:19	1		Mujer	
+caperucita_roja_l2:10	Caperucita Roja	caperucita_roja_l2	hard	Estas son Caperucita Roja y su mamá. La mamá le da a Caperucita una canasta con comida. La comida es para la abuela de Caperucita.	0:19	1		Mujer	
+integracion_3	Leamos otra vez	familia_dany	hard	Ya es tarde, Dany y su abuelo llevan a los chivos al corral. Dany grita: “¡¡Adentro, adentro!!” … Los chivos grandes caminan despacio hacia el corral, pero uno no entra. 	0:23	0		Mujer	
+				Un chivito chiquito y blanco se aleja del corral. La abuela se agarra de la cabeza y dice: “¡¡Uy el chivito blanco… el chivito blanco se va lejos!!	0:41				
+				Entonces, Dany corre al chivito blanco. La mamá y el papá de Dany también corren al chivito mientras gritan: “¡¡Adentro, adentro!!”. El chivito, asustado, también corre. Ahora está más cerca del corral.	1:06				
+				Dany corre y grita: ¡¡Adentro, adentro!!”. El perro también corre al chivo. El chivo, asustado, también corre rápido. Cada vez está más cerca del corral. Finalmente, el chivo entra al corral.	1:32				
+				Cuando el chivito blanco está adentro del corral, Dany, muy rápido, cierra la puerta y dice: “Listo, ya están todos los chivos adentro del corral”. 	1:44				
+				Los abuelos y los papás de Dany dicen: ¡Muy bien Dany! ¡Muy bien! Dany está contento y su familia también.					
+integracion_3:2	Leamos otra vez	familia_dany	hard	vacio	0:23	1		Mujer	
+integracion_3:3	Leamos otra vez	familia_dany	hard	vacio	0:23	1		Mujer	
+integracion_3:4	Leamos otra vez	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	0		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					
+integracion_3:5	Leamos otra vez	caperucita_roja_l2	hard	Caperucita Roja y su mamá están en la puerta de la casa. La mamá le da a Caperucita una canasta llena de comida para llevar a su abuela.	0:21	1		Mujer	
+				Caperucita camina y camina despacio por el monte. Va a la casa de su abuela para llevarle comida. Está muy contenta. Pero, atrás de un árbol, hay un Lobo. El Lobo ve a Caperucita y a su canasta y abre los ojos muy grandes. Tiene hambre.	0:47				
+				El Lobo se acerca a Caperucita. Tiene hambre, quiere la comida que está adentro de la canasta. Caperucita se asusta y dice: “Noooo, es para mi abuela”.	1:03				
+				Entonces, el Lobo camina junto a Caperucita y le pregunta._Lobo. ¿Cómo te llamás?_Caperucita: Caperucita._Lobo: Caperucita, ¿adónde vas?_Caperucita: Voy a la casa de mi abuela._Lobo: ¿Jugamos una carrera?	1:31				
+				Para ir a la casa de la abuela de Caperucita hay dos caminos: uno muy corto y otro muy largo. El Lobo le dice a Caperucita: “Vos andá por este camino y yo voy por el otro”. Así, Caperucita va por el camino muy largo. Camina mucho pero igual está muy lejos de la casa. 	2:00				
+				En cambio, el Lobo va por el camino muy corto y llega muy rápido a la casa de la abuela de Caperucita. Cuando la abuela lo ve, se asusta y grita: “¡¡Aaaah!!”.	2:21				
+				La abuela se va corriendo. El Lobo se viste como la abuela, se pone un vestido amarillo y un pañuelo amarillo en la cabeza.	2:34				
+				Un poco más tarde, Caperucita llega a la casa de la abuela. Está cansada de caminar tanto.	2:44				
+				¡¡Toc, toc, toc!! “Hola, abuela”, dice Caperucita y el Lobo contesta: “Hola, Caperucita”.	2:56				
+				Caperucita dice: “Abuela, ¡qué orejas tan grandes!	3:04				
+				El Lobo contesta: “Para escucharte mejor”.	3:11				
+				Caperucita dice: “Abuela, ¡qué nariz tan grande!	3:18				
+				El Lobo contesta: “Para olerte mejor”.	3:23				
+				Caperucita dice: “Abuela, ¡qué boca tan grande!	3:30				
+				El Lobo contesta: “¡¡¡¡¡Para comerte mejor!!!!!”.	3:37				
+				Caperucita está muy asustada pero el papá y la abuela ya están cerca de la casa.	3:45				
+				El papá de Caperucita está muy enojado, dispara; el Lobo se asusta y se va corriendo. La abuela abraza a Caperucita y le da un beso. Las dos están muy contentas.					

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 256078596
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8373f482462611f970f29e9dfc38e02a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/baile/1b.wav
+- Assets/Resuources_in_bundles/completar/baile/1a.wav
+- Assets/Resuources_in_bundles/completar/baile/2b.wav
+- Assets/Resuources_in_bundles/completar/baile/2a.wav
+Dependencies: []

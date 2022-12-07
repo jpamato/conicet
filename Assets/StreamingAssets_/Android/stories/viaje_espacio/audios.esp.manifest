@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1617066872
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0bd50fa2a89fec0121fb2e188f11627
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/viaje_espacio/audios/easy.wav
+Dependencies: []

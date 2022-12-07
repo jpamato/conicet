@@ -1,0 +1,642 @@
+letra	story_id	games	tips (id de texts)	dificultad	Aclaraciones	Cosas que Faltan		
+1	animales_de_dany	escuchar	intro_animales					
+		questions	mira_imagenes					
+		questions	tip_escuchaL2					
+		questions	tip_conversarL2					
+		memotest	tip_memotestL2					
+2	animales_de_dany:2	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		repeat_with_card	escuchar_repetir_animales					
+		elegir_frase	tip_escucha_toca					
+		labyrinth	laberinto_dany_animales					
+3	animales_de_dany:3	escuchar	intro_animales_salvajes					
+		questions	animalesSalvajes_3					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_cancionL2					
+4	animales_de_dany:4	questions	danyAnimales_1					
+		repeat_with_card	escuchar_repetir_animales					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+5	animales_de_dany:5	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		memotest	tip_memotestL2					
+		questions	animalesSalvajes_3					
+		falling_objects	toca_animales_dany					
+6	animales_de_dany:6	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		ordenar	tip_ordenar_cuentoL2					
+		questions	tip_conversarL2					
+		memotest	tip_memotestL2					
+7	animales_de_dany:7	questions	mira_imagenes					
+		repeat_with_card	escuchar_repetir_colores					
+		elegir_frase	elegi_colores					
+		escuchar	tip_escucha_cancionL2					
+8	animales_de_dany:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_parte_cuentoL2					
+		memotest	tip_memotestL2					
+		painting	painting_animales_dany					
+9	animales_de_dany:9	repeat_with_card	escuchar_repetir_colores					
+		elegir_frase	elegi_colores					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+10	animales_de_dany:10	ordenar	tip_ordenar_cuentoL2					
+		memotest	tip_memotestL2					
+		questions	tip_conversarL2					
+		unir	uni_gallinas_color					
+1	rulitos	escuchar	escuchaCasaMonte					
+		questions	mira_imagenes					
+		read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+2	rulitos:2	questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		chico_multiple	toca_abeja		CHICO SIN BLANCO			
+		chico_multiple	toca_caballo		CHICO SIN BLANCO			
+		chico_multiple	toca_pato		CHICO SIN BLANCO			
+		escuchar	tip_escucha_cancionL2					
+		questions	tip_conversarL2					
+3	rulitos:3	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_diferenciasL2					
+		labyrinth	laberinto_rulitos					
+		escuchar	tip_escucha_rimaL2					
+		unir	que_palabras_riman					
+4	rulitos:4	repeat_with_card	tip_repeat_with_cardL2					
+		chico_multiple	toca_gallo		CHICO SIN BLANCO			
+		chico_multiple	toca_gato		CHICO SIN BLANCO			
+		chico_multiple	toca_oveja		CHICO SIN BLANCO			
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+5	rulitos:5	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		falling_objects	toca_osos					
+6	rulitos:6	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		questions	tip_repeat_with_cardL2					
+		chico_multiple	toca_cama		CHICO SIN BLANCO			
+		chico_multiple	toca_silla		CHICO SIN BLANCO			
+		chico_multiple	toca_vaso		CHICO SIN BLANCO			
+		escuchar	tip_escucha_rimaL2					
+7	rulitos:7	repeat_with_card	escucha_repeti_cosas_casa					
+		memotest	tip_memotestL2					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+8	rulitos:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_rimaL2					
+		unir	que_palabras_riman					
+9	rulitos:9	ordenar	tip_ordenar_cuentoL2					
+		simon	tip_simonL2					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+10	rulitos:10	questions	tip_conta_cuentoL2					
+		memotest	tip_memotestL2					
+		questions	mira_imagenes					
+		unir	tip_unirL2					
+		unir	tip_unirL2					
+		unir	tip_unirL2					
+1	integracion	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_parte_cuentoL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+2	integracion:2	questions	tip_conta_cuentoL2					
+		questions	tip_conversarL2					
+		questions	tip_conversarL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+3	integracion:3	questions	tip_conversarL2					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+4	integracion:4	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+		unir	que_palabras_riman					
+5	integracion:5	questions	tip_conta_cuentoL2					
+		falling_objects	toca_animales					
+		falling_objects	toca_objetos_casa					
+		chico_multiple	toca_perro_naranja					
+		chico_multiple	toca_loro_rojo					
+		chico_multiple	toca_gallina_azul					
+		chico_multiple	toca_mono_amarillo					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+1	amigos_de_dany	questions	mira_imagenes					
+		questions	tip_conversarL2					
+		questions	danyPresentaAmigos					
+		questions	tip_conversarL2					
+		escuchar	tip_escucha_cancionL2					
+2	amigos_de_dany:2	repeat_with_card	escucha_repeti_juguetes					
+		memotest	tip_memotestL2					
+		contar	tip_contar					
+		escuchar	tip_escucha_rimaL2					
+		questions	tip_escuchaL2	x				
+3	amigos_de_dany:3	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+4	amigos_de_dany:4	questions	tip_conversarL2					
+		simon	tip_simonL2					
+		contar	cuantas_pelotas_hay					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		loro_repeat	tip_repetir_loro	x				
+5	amigos_de_dany:5	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		falling_objects	toca_juguetes					
+		falling_objects	toca_animales					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_time	tip_toca_la_imagenL2	x				
+		escuchar	rima_palabras_loro	x				
+6	amigos_de_dany:6	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		questions	tip_conversarL2					
+		escuchar	tip_escucha_cancionL2					
+		questions	tip_conversarL2					
+		loro_repeat	tip_repetir_loro	x				
+7	amigos_de_dany:7	repeat_with_card	escucha_repeti_partes_cuerpo					
+		memotest	tip_memotestL2					
+		elegir_frase	tip_escucha_toca					
+		rompecabezas	tip_rompecabezasL2					
+8	amigos_de_dany:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		questions	tip_conversarL2					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+9	amigos_de_dany:9	ordenar	tip_ordenar_cuentoL2					
+		labyrinth	laberinto_dany_amigos					
+		simon	tip_simonL2					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		loro_repeat	tip_repetir_loro	x				
+10	amigos_de_dany:10	questions	tip_conta_cuentoL2					
+		questions	tip_conversarL2					
+		elegir_frase	tip_escucha_toca		CHICO SIN BLANCO			
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_time	tip_toca_la_imagenL2	x				
+		escuchar	rima_palabras_loro	x				
+1	liebre_tortuga	questions	mira_imagenes					
+		questions	tip_conversarL2					
+		read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		escuchar	tip_escucha_cancionL2					
+		loro_repeat	tip_repetir_loro	x				
+2	liebre_tortuga:2	questions	mira_imagenes					
+		repeat_with_card	tip_repeat_with_cardL2					
+		elegir_frase	tip_escucha_toca					
+		unir	unir_partes_ropa					
+3	liebre_tortuga:3	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_multiple	toca_palabra_a	x				
+4	liebre_tortuga:4	questions	tip_conversarL2					
+		simon	tip_simonL2					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+5	liebre_tortuga:5	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		contar	toca_pantalones					
+		elegir_frase	tip_escucha_toca		CHICO SIN BLANCO			
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+6	liebre_tortuga:6	read_automatic	tip_read_automaticL2					
+		questions	tip_conversarL2					
+		questions	tip_conversarL2					
+		questions	tip_conversarL2					
+		questions	tip_diferenciasL2					
+		repeat_with_card	escucha_repeti_cosas_cielo					
+		labyrinth	laberinto_liebre_tortuga					
+7	liebre_tortuga:7	questions	mira_imagenes					
+		memotest	tip_memotestL2					
+		contar	toca_nubes					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+8	liebre_tortuga:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_escucha_toca					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_multiple	toca_o	x				
+9	liebre_tortuga:9	ordenar	tip_ordenar_cuentoL2					
+		simon	tip_simonL2					
+		contar	toca_estrellas					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+10	liebre_tortuga:10	questions	tip_conta_cuentoL2					
+		elegir_frase	tip_escucha_toca		CHICO SIN BLANCO			solGrandeAmarillo
+		falling_objects	toca_juguetes					
+		falling_objects	toca_ropa					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+1	integracion_2	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_parte_cuentoL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_multiple	toca_m	x	FALTAN DOS MAS ACA			
+2	integracion_2:2	questions	tip_conta_cuentoL2		deberia mostrar el empty del dany y sus amigos y muestra dany y sus animales			
+		questions	mira_imagenes					
+		falling_objects	toca_juguetes					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		loro_repeat	tip_repetir_loro	x				
+		unir	toca_empiezan_igual	x				
+3	integracion_2:3	escuchar	animalesDiaNoche_1					
+		questions	tip_conversarL2					
+		painting	tip_paintL2					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+4	integracion_2:4	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_escucha_toca					
+		questions	tip_escuchaL2					
+		painting	tip_paintL2					
+		questions	tip_escuchaL2					
+		painting	tip_paintL2					
+5	integracion_2:5	questions	tip_conta_cuentoL2		me aparece la foto del ultimo questions (la muñeca)			
+		falling_objects	toca_objetos_casa					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+1	familia_dany	questions	tip_conversarL2					
+		repeat_with_card	escucha_repeti_familia					
+		questions	tip_escuchaL2					
+		questions	tip_conversarL2					
+		escuchar	tip_escucha_cancionL2					
+		questions	tip_conversarL2					
+		loro_repeat	tip_repetir_loro	x				
+		unir	toca_empiezan_igual	x				
+2	familia_dany:2	questions	tip_conversarL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+		loro_repeat	tip_repetir_loro	x				
+		unir	toca_empiezan_igual	x				
+3	familia_dany:3	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		repeat_with_card	tip_diferenciasL2					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+4	familia_dany:4	questions	tip_conversarL2					
+		repeat_with_card	tip_repeat_with_cardL2					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		loro_repeat	tip_repetir_loro	x				
+5	familia_dany:5	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		labyrinth	laberinto_dany_familia_1					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_time	tip_toca_la_imagenL2	x				
+		escuchar	rima_palabras_loro	x				
+6	familia_dany:6	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		questions	tip_conversarL2					
+		escuchar	tip_escucha_rimaL2					
+		loro_repeat	tip_repetir_loro	x				
+7	familia_dany:7	repeat_with_card	escucha_repeti_instrumentos_cocina					
+		memotest	tip_memotestL2					
+		contar	toca_cucharas					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro					
+		unir	toca_empiezan_igual					
+8	familia_dany:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_escucha_toca					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+9	familia_dany:9	ordenar	tip_ordenar_cuentoL2					
+		simon	tip_simonL2					
+		elegir_frase	tip_escucha_toca					
+		contar	toca_jarras					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+10	familia_dany:10	questions	tip_conta_cuentoL2					
+		questions	tip_conversarL2					
+		falling_objects	toca_objetos_casa					
+		falling_objects	toca_ropa					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+1	caperucita_roja_l2	questions	miraEstaImagen					
+		read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman		como que si pero no			
+		loro_repeat	tip_repetir_loro	x				
+2	caperucita_roja_l2:2	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		repeat_with_card	tip_repeat_with_cardL2					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_multiple	toca_palabra_s	x				
+3	caperucita_roja_l2:3	questions	tip_conversarL2					
+		elegir_frase	tip_escucha_toca					
+		questions	mira_imagenes		falta audio			
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+		questions	tip_presentar_letraL2					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+4	caperucita_roja_l2:4	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		labyrinth	laberinto_caperucita_l2					
+		simon	tip_simonL2					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+5	caperucita_roja_l2:5	questions	tip_conversarL2					
+		questions	mira_imagenes					
+		contar	toca_manzanas					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+6	caperucita_roja_l2:6	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_conversarL2					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_cancionL2					
+		loro_repeat	tip_repetir_loro	x				
+7	caperucita_roja_l2:7	elegir_frase	tip_parte_cuentoL2					
+		repeat_with_card	escucha_repeti_partes_cara					
+		memotest	tip_memotestL2					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_multiple	toca_palabra_l	x				
+8	caperucita_roja_l2:8	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	mira_imagenes					
+		elegir_frase	tip_escucha_toca					
+		escuchar	tip_escucha_cancionL2					
+		questions	tip_conversarL2					
+		questions	tip_presentar_letraL2					
+		questions	tip_presentar_letraL2					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+9	caperucita_roja_l2:9	ordenar	tip_ordenar_cuentoL2					
+		elegir_frase	tip_parte_cuentoL2					
+		simon	tip_simonL2					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+10	caperucita_roja_l2:10	questions	tip_conta_cuentoL2					
+		falling_objects	toca_objetos_casa					
+		falling_objects	toca_alimentos					
+		unir	unir_sentidos					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+1	integracion_3	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		elegir_frase	tip_parte_cuentoL2					
+		simon	tip_simonL2					
+		escuchar	tip_escucha_rimaL2					
+		painting	tip_paintL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_time	tip_toca_la_imagenL2	x				
+		escuchar	rima_palabras_loro	x				
+2	integracion_3:2	questions	tip_conta_cuentoL2					
+		elegir_frase	tip_escucha_toca					
+		unir	unir_familia_elementos					
+		escuchar	tip_escucha_rimaL2					
+		elegir_frase	que_palabras_riman					
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+3	integracion_3:3	questions	miraEstaImagen					
+		questions	tip_escuchaL2					
+		painting	tip_paintL2					
+		falling_objects	toca_alimentos					
+		escuchar	tip_escucha_rimaL2					
+		completar	tip_completarL2					
+		completar	tip_completar_soloL2					
+		loro_repeat	tip_repetir_loro	x				
+		loro_time	tip_toca_la_imagenL2	x				
+		escuchar	rima_palabras_loro					
+4	integracion_3:4	read_automatic	tip_read_automaticL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		questions	tip_questionsL2					
+		falling_objects	toca_alimentos					
+		escuchar	tip_escucha_cancionL2					
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+		imagen_palabras	tip_leer	x				
+5	integracion_3:5	questions	tip_conta_cuentoL2					
+		falling_objects	toca_ropa					
+		escuchar	tip_escucha_cancionL2					
+		painting	tip_paintL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				
+		letra	tip_letraL2	x				

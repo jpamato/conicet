@@ -24,6 +24,14 @@ public class SpreadsheetLoader : MonoBehaviour
             CreateListFromFile(www.text, onDone);
         }
     }
+    public void CreateListFromArr(string[] lines, System.Action<List<Line>> onDone)
+    {
+        List<Line> arr = new List<Line>();
+        foreach (string line in lines)
+            arr.Add(ParseLine(line));
+
+        onDone(arr);
+    }
     public void CreateListFromFile(string text, System.Action<List<Line>> onDone)
     {
         string[] lines = text.Split("\n"[0]);

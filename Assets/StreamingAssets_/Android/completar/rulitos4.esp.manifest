@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1724329888
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b95a402c174e2b9abf66bd2867a9d4f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/rulitos4/1b.wav
+- Assets/Resuources_in_bundles/completar/rulitos4/1a.wav
+Dependencies: []

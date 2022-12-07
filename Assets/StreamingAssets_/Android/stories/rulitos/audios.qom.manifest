@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 690776791
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9a1ce2ab180e943f09544dba5f763084
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/rulitos/audios/qom_hard.wav
+Dependencies: []

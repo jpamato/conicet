@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1472330111
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9a7db67d573d80371ff9bbd9d2835a20
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/conejo/1b.wav
+- Assets/Resuources_in_bundles/completar/conejo/2b.wav
+- Assets/Resuources_in_bundles/completar/conejo/1a.wav
+- Assets/Resuources_in_bundles/completar/conejo/2a.wav
+Dependencies: []

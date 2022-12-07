@@ -1,0 +1,997 @@
+cuentos	assets	activity	diccionario	qom_diccionario
+animales_de_dany	perro	intro_story		pioq
+animales_de_dany:2	gato	read_automatic		miicho
+amigos_de_dany	caballo	memotest		caayo
+amigos_de_dany:2	burro	questions		ashena
+que_susto	loro	simon		ele
+que_susto:2	gallina	falling_objects		olgaxa
+que_susto:3	gallo	loro_time		
+que_susto:4	chancho	loro_repeat		cos
+que_susto:5	chivo	escuchar		quetaq
+malevo	cabra	memotest_audio		
+malevo:2	avion	unir	avión	
+malevo:3	soga	repeat_with_card		
+malevo:4	auto	painting		altemoi
+malevo:5	pelota	elegir_frase		
+zorro_gallina	muñeca	labyrinth		muneca
+zorro_gallina:2	camion	rompecabezas	camión	
+zorro_gallina:3	simon	completar	Simón	
+zorro_gallina:4	carlota	letra	Carlota	
+zorro_gallina:5	pollito	ordenar		olgaxa llalec
+caperucita_roja	raton	contar	ratón	
+caperucita_roja:2	oso	loro_multiple		
+caperucita_roja:3	elefante	objeto_diferente		
+caperucita_roja:4	serpiente	arrastrar_grupos		
+caperucita_roja:5	yacare	chico_multiple	yacaré	
+zapallo_gigante	mosquito			ayat
+zapallo_gigante:2	chico			
+zapallo_gigante:3	pato			
+zapallo_gigante:4	contento			yamaqchiguiñi
+zapallo_gigante:5	distraido		distraído	
+bicho_bolita	arbol		árbol	
+bicho_bolita:2	hueso			
+bicho_bolita:3	pajaro		pájaro	
+bicho_bolita:4	enojado			ralemata
+bicho_bolita:5	cansado			
+zorro_hornero	malevo_contento		Malevo contento	
+zorro_hornero:2	malevo_asustado		Malevo asustado	
+zorro_hornero:3	malevo_cansado		Malevo hambriento	
+zorro_hornero:4	asustada			
+zorro_hornero:5	hambrienta			
+risa_pajaros	carne			lapat
+risa_pajaros:2	rojo			
+risa_pajaros:3	hueso			
+risa_pajaros:4	color_hueso		color hueso	
+risa_pajaros:5	charquito_leche		charquito de leche	
+pedro_globo	blanco			lapagaxaic
+pedro_globo:2	zorro			huaxaỹaxa
+pedro_globo:3	sapo			
+pedro_globo:4	agua			‘etaxat
+pedro_globo:5	sombrero_paja			aroo
+dia_pesca	hormiguero			
+dia_pesca:2	limonero			
+dia_pesca:3	granja			
+dia_pesca:4	naranja			
+dia_pesca:5	rana			miyo
+animales_de_dany:3	banana			
+animales_de_dany:4	zorro			
+animales_de_dany:5	chorro_agua		chorro	
+animales_de_dany:6	lobo			
+animales_de_dany:7	horrorizada			
+animales_de_dany:8	hormiga			
+animales_de_dany:9	gallinero			
+animales_de_dany:10	lago			
+rulitos	abeja			
+rulitos:2	panal			
+rulitos:3	charco_agua		charco	
+rulitos:4	caperucita_salta		Caperucita salta	
+rulitos:5	caperucita_recoge		Caperucita recoge	
+rulitos:6	lobo_abalanza		Lobo se abalanza	
+rulitos:7	caperucita		Caperucita	
+rulitos:8	bosque			
+rulitos:9	zapallo			
+rulitos:10	papa			
+piratas_cantores	albahaca			
+piratas_cantores:2	acelga			
+piratas_cantores:3	ajo			
+piratas_cantores:4	maiz		maíz	
+piratas_cantores:5	don_bustos		Don Bustos	
+baile	feria			
+baile:2	cazador			
+baile:3	abuela			lcote
+baile:4	contento_2		contento	
+baile:5	fraseBichoBolita_1			
+conejo	fraseBichoBolita_2			
+conejo:2	fraseBichoBolita_3			
+conejo:3	fraseBichoBolita_4			
+conejo:4	fraseBichoBolita_5			
+conejo:5	bichobolita		bicho bolita	
+viaje_espacio	ciempies		ciempiés	
+viaje_espacio:2	vaquita_sanantonio		vaquita	
+viaje_espacio:3	langosta			
+viaje_espacio:4	gatapeluda		gata peluda	
+viaje_espacio:5	mariposa			
+genio_botella	antenas_mariposa		antenas de mariposa	
+genio_botella:2	patas_hormiga		patas de hormiga	
+genio_botella:3	alas_abeja		alas de abeja	
+genio_botella:4	pinches_gata		pinches de gata	
+genio_botella:5	hornero			
+integracion	flor			
+integracion:2	hoja			
+integracion:3	pajaros		pájaros	
+integracion:4	rama			
+integracion:5	dormido			
+amigos_de_dany:3	despierto			
+amigos_de_dany:4	amontonados			
+amigos_de_dany:5	distanciados			
+amigos_de_dany:6	atrapado			
+amigos_de_dany:7	liberado			
+amigos_de_dany:8	sol			nala
+amigos_de_dany:9	plato			nquiaaxaqui
+amigos_de_dany:10	nido_chico		nido chico	
+liebre_tortuga	nido_grande		nido grande	
+liebre_tortuga:2	ñandu		ñandú	mañec
+liebre_tortuga:3	flamenco			
+liebre_tortuga:4	pajarito			
+liebre_tortuga:5	nidito			
+liebre_tortuga:6	volar			
+liebre_tortuga:7	cantar			
+liebre_tortuga:8	verano			
+liebre_tortuga:9	arbol_verano		árbol de verano	
+liebre_tortuga:10	otoño			
+integracion_2	arbol_otoño		árbol de otoño	
+integracion_2:2	invierno			
+integracion_2:3	arbol_invierno		árbol de invierno	
+integracion_2:4	primavera			
+integracion_2:5	arbol_primavera		árbol de primavera	
+familia_dany	malla			
+familia_dany:2	buzo			
+familia_dany:3	gorrolana		gorro de lana	
+familia_dany:4	remera			
+familia_dany:5	tobogan		tobogán	
+familia_dany:6	hamaca			
+familia_dany:7	subibaja			
+familia_dany:8	pedro		Pedro	
+familia_dany:9	cielo			
+familia_dany:10	pajaroBlanco		pájaro blanco	
+caperucita_roja_l2	asombrado			
+caperucita_roja_l2:2	donbustos_zapallo		zapallo de Don Bustos	
+caperucita_roja_l2:3	zorro_hornero_pajaros		pájaros	
+caperucita_roja_l2:4	araña			
+caperucita_roja_l2:5	gallinaContenta		gallina contenta	
+caperucita_roja_l2:6	gallinaEnojada		gallina enojada	
+caperucita_roja_l2:7	elefanteCamina		elefante camina	
+caperucita_roja_l2:8	serpienteDesliza		serpiente se desliza	
+caperucita_roja_l2:9	gatoSalta		gato salta	
+caperucita_roja_l2:10	mono		mono	huoỹem
+integracion_3	mono2		mono	huoỹem
+integracion_3:2	mono3		mono	huoỹem
+integracion_3:3	oveja			
+integracion_3:4	iguana			
+integracion_3:5	abeja_chica		abeja chica	
+	abeja_mediana		abeja mediana	
+	abeja_grande		abeja grande	
+	caballo_chico2		caballo chico	
+	caballo_chico		caballo chico	
+	caballo_mediano		caballo mediano	
+	caballo_grande		caballo grande	
+	oso_chico		oso chico	
+	oso_chico2		oso chico	
+	pato_chico		pato chico	
+	pato_mediano		pato mediano	
+	pato_grande		pato grande	
+	gallo_chico		gallo chico	
+	gallo_mediano		gallo mediano	
+	gallo_grande		gallo grande	
+	gato_chico		gato chico	
+	gato_mediano		gato mediano	
+	gato_grande		gato grande	
+	oveja_chica		oveja chica	
+	oveja_mediana		oveja mediana	
+	oveja_grande		oveja grande	
+	vaso_chico		vaso chico	yomaxaqui qapiole
+	vaso_mediano		vaso mediano	yomaxaqui lateerai
+	vaso_grande		vaso grande	yomaxaqui lateeraichigui
+	silla_chica		silla chica	soonaxaqui qapiole
+	silla_mediana		silla mediana	soonaxaqui lateerai
+	silla_grande		silla grande	soonaxaqui lateeraichigui
+	mesa_chica		mesa chica	
+	mesa_mediana		mesa mediana	
+	mesa_grande		mesa grande	
+	cama			mala
+	silla			soonaxaqui
+	mesa			nquiaaxala
+	lampara		lámpara	
+	contento_2		contento	
+	contento_3		contento	
+	jirafa			
+	azul			imalaq
+	amarillo			qovi
+	verde			rarala
+	color_naranja		naranja	
+	rosa			
+	marron		marrón	alhualec
+	negro			lairaxaic
+	violeta			
+	gallina_picoteando		gallina picoteando	
+	rulitos			
+	casa			
+	cama_grande		cama grande	mala ltaaraic
+	oso_mediano		oso mediano	
+	oso_grande		oso grande	
+	cama_chica		cama chica	mala qapiolec
+	cama_mediana		cama mediana	mala ltaaraicchigui
+	malevo		Malevo	
+	raiz		raíz	
+	tallo			
+	lombriz		lombríz	
+	barrilete			
+	pajaro_blanco		pájaro blanco	
+	globorojo		globo rojo	
+	zapato			pela
+	pollito_marron		pollito marrón	
+	ordenarRisaPajaros1			
+	ordenarRisaPajaros2			
+	ordenarRisaPajaros3			
+	ordenarRisaPajaros4			
+	ordenarRisaPajaros5			
+	elefante_aterrorizado		elefante aterrorizado	
+	elefante_distraido		elefante distraído	
+	yacare_1		yacaré	
+	yacare_2		yacaré	
+	yacare_3		yacaré	
+	ordenarGallina1			
+	ordenarGallina2			
+	ordenarGallina3			
+	diferenciasRulitos1			
+	diferenciasRulitos2			
+	ordenarRulitos1			
+	ordenarRulitos2			
+	ordenarRulitos3			
+	ordenarRulitos4			
+	danyContento			
+	danyAsustado			
+	perro2		perro	
+	perro_mediano_naranja		perro mediano naranja	
+	loro_chico_rojo		loro chico rojo	
+	gallina_grande_azul		gallina grande azul	
+	mono_chico_amarillo		mono chico amarillo	
+	loroUriel_5			
+	loroUriel_6			
+	loroUriel_7			
+	cabeza			lqaic
+	mano			lhuaxaye
+	pie			lapia
+	pecho			lasot
+	espalda			llaq
+	ordenarDanyAmigos1			
+	ordenarDanyAmigos2			
+	ordenarDanyAmigos3			
+	ordenarDanyAmigos4			
+	dany		Dany	
+	muñecaGrandeRosa		muñeca grande rosa	
+	pelotaChicaAzul		pelota chica azul	
+	autoGrandeAmarillo		auto grande amarillo	
+	avionGrandeRojo		avión grande rojo	
+	ojotas			
+	medias			
+	pantalon		pantalón	maxaso
+	gorra			
+	pantalon_amarillo		pantalón amarillo	
+	remera_rojo		remera roja	
+	ojotasMedianasVerdes		ojotas medianas verdes	
+	mediasGrandesAmarillas		medias grandes amarillas	
+	ordenarLiebreTortuga1			
+	ordenarLiebreTortuga2			
+	ordenarLiebreTortuga3			
+	solGrandeAmarillo		sol grande amarillo	
+	lunaChicaRoja		luna chica roja	
+	lunaGrandeVerde		luna grande verde	
+	solChicoAzul		sol chico azul	
+	lucasAlanAsustados		Lucas y Alan asustados	
+	lucasAlanContentos		Lucas y Alan contentos	
+	diferenciasDanyFamilia1			
+	diferenciasDanyFamilia2			
+	gatoAdentroCaja		adentro	
+	perroArribaSilla		arriba	
+	gatoAbajoSilla		abajo	
+	perroAfueraCaja		afuera	
+	caperucitaContentaL2_2		Caperucita contenta	
+	caperucitaSorprendidaL2		Caperucita sorprendida	
+	caperucitaAsustadaL2		Caperucita asustada	
+	abuelaOrejas		orejas de la abuela	
+	abuelaNariz		nariz de la abuela	
+	abuelaBoca		boca de la abuela	
+	ordenarCaperucitaRojaL21			
+	ordenarCaperucitaRojaL22			
+	ordenarCaperucitaRojaL23			
+	ordenarCaperucitaRojaL24			
+	ordenarCaperucitaRojaL25			
+	escucharteMejor		para escucharte mejor	
+	olerteMejor		para olerte mejor	
+	comerteMejor		para comerte mejor	
+	descripcion_malevo_2			
+	descripcion_malevo_3			
+	descripcion_malevo_4			
+	descripcion_malevo_5			
+	descripcion_malevo_6			
+	ordenarMalevo1			
+	ordenarMalevo2			
+	ordenarMalevo3			
+	ordenarMalevo4			
+	ordenarMalevo5			
+	queso			
+	luna			caagoxoic
+	estrella			huaqajne
+	nube			napo
+	mama		mamá	late'e
+	padre		papá	lta'a
+	abuelo			lapi
+	olla			taxaqui
+	mortero			araxanaxaqui
+	jarra			
+	pava			npaua
+	sopa			
+	leche			
+	miel			rapic
+	boca			alap
+	ojos			laite
+	nariz			lmic
+	oreja			ltela
+	grillo			
+	biblioteca			nerec laỹi'
+	bolitas			
+	robot			
+	titere		títere	
+	osoPeluche		oso de peluche	
+	cuchara			nemec
+	cuchillo			yelonec
+	tenedor			
+	vaso_agua			yomaxaqui
+	parrilla			nauoxolanaxa'
+	pollera			saatagui
+	manzana			
+	uvas			
+	perra			
+	cara_nena_unir			
+	cara_nene_unir			
+	pantalon_azul		pantalón azul	
+	nena_unir			
+	gorro_rojo		gorro rojo	
+	nene_unir			
+	gorro_verde		gorro verde	
+	remera_negro		remera negra	
+	ojotas_marrones		ojotas marrones	
+	ojotas_blancas		ojotas blancas	
+	boton		botón	
+	muñeca_chica_verde		muñeca chica verde	
+	palabra_araña		araña	
+	palabra_mono		mono	
+	palabra_ojotas		ojota	
+	palabra_amarillo		amarillo	
+	palabra_avion		avión	
+	palabra_elefante		elefante	
+	palabra_auto		auto	
+	palabra_estrella		estrella	
+	palabra_mano		mano	
+	palabra_empanadas		empanadas	
+	palabra_mesa		mesa	
+	palabra_soga		soga	
+	palabra_mono		mono	
+	palabra_luna		luna	
+	palabra_silla		silla	
+	palabra_loro		loro	
+	diferenciasDanyFamilia_1			
+	diferenciasDanyFamilia_2			
+	empanadas			
+	frente			latap
+	alimentosColores_1			
+	alimentosColores_2			
+	alimentosColores_3			
+	chivitoAfuera		chivito afuera	
+	chivosAdentro		chivito adentro	
+	chivitoEntra		chivito entra	
+	pan			
+	escuela			
+	caramelo			
+	corral			
+	liebreSorprendida		liebre sorprendida	
+	liebreCansada		liebre cansada	
+	liebreContenta		liebre contenta	
+	cola			
+	tortuga			
+	meta			
+	cuerpo_adelante			
+	ordenarDanyAnimales1			
+	ordenarDanyAnimales2			
+	ordenarDanyAnimales3			
+	ñandu_corriendo		ñandú corriendo	
+	pajaro_silbando		pájaro silbando	
+	pajaro_empollando		pájaro empollanndo	
+	gallina_picoteando		gallina picoteando	
+	loro_volando		loro volando	
+	cubo			
+	radio			
+	martillo			
+	romero			
+	llorar			
+	loboSalto		lobo saltó	
+	gallinaCamina		gallina camina	
+	perroCavo		perro cavó	
+	lobo_disfrazado		lobo disfrazado	
+	ordenarZorroGallina_1			
+	ordenarZorroGallina_2			
+	ordenarZorroGallina_3			
+	ordenarZorroGallina_4			
+	ordenarZorroGallina_5			
+	gorra_rojo		gorra roja	
+	gorra_verde		gorra verde	
+	zapatillas_blanco		zapatillas blancas	
+	zapatillas_marron		zapatillas marrones	
+	boton		botón	
+	numero1		número 1	
+	caracol			
+	brazo			lapique
+	ordenarDanyFamilia1			
+	ordenarDanyFamilia2			
+	ordenarDanyFamilia3			
+	miel2			
+	libro			
+	escoba			
+	plaza			
+	vuela			
+	corre			
+	mercurio		Mercurio	
+	venus		Venus	
+	tierra		Tierra	
+	marte		Marte	
+	jupiter		Júpiter	
+	saturno		Saturno	
+	urano		Urano	
+	neptuno		Neptuno	
+	abuela_gorro		gorro de abuela	
+	abuela_anteojos		anteojos de abuela	
+	abuela_camison		camisón de la abuela	
+	numero8		número 8	
+	oscarcito		Oscarcito	
+	medialuna			
+	pirata			
+	oro			
+	barco			
+	shampoo			
+	mapa			
+	guitarra			
+	caldero_magico1			
+	varita_magica		varita mágica	
+	tambor			
+	mago			
+	planeta			
+	pileta			
+	ombu		ombú	
+	turbante			
+	duna			
+	camello			
+	palmeras			
+	nave			
+	collar			
+	llave			
+	cohete			
+	espacio			
+	espacio_sideral		espacio sideral	
+	melisa		Melisa	
+	piedra			
+	mono_sin_orejas		mono sin orejas	
+	mono_orejas		mono con orejas	
+	conejo_sin_orejas		conejo sin orejas	
+	conejo_orejas		conejo con orejas	
+	elefante_sin_orejas		elefante sin orejas	
+	elefante_orejas		elefante con orejas	
+	muchacho			
+	garra			
+	flecha			
+	tesoro			
+	ancla			
+	isla			
+	letra_p1		letra P	
+	letra_p2		letra P	
+	letra_c2		letra C	
+	letra_c1		letra C	
+	pez_1		pez	
+	pez_2		pez	
+	pez_3		pez	
+	pez_4		pez	
+	pez_5		pez	
+	sonido_ladrar		ladrar	
+	sonido_silbar		silbar	
+	sonido_maullar		maullar	
+	sonido_cacarear		cacarear	
+	sonido_croar		croar	
+	caña			
+	crater		cráter	
+	catalejo			
+	cuentosHambreCaperucita			
+	cuentosHambre_2			
+	cuentosHambre_3			
+	bosque_1			
+	bosque_2			
+	bosque_3			
+	planLobo_1			
+	loboDisfrazado			
+	lobo_1			
+	lobo_2			
+	lobo_3			
+	lobo_4			
+	lobo_5			
+	lobo_6			
+	oscarcito_ca_1			
+	oscarcito_ca_2			
+	oscarcito_ca_3			
+	posiciones_bichos_2		posición bicho	
+	posiciones_bichos_3		posición bicho	
+	posiciones_bichos_4		posición bicho	
+	posiciones_bichos_5		posición bicho	
+	ñandu_1			
+	ñandu_2			
+	ñandu_3			
+	pedro_globo_18			
+	pedro_globo_19			
+	pedro_globo_20			
+	tronco			
+	copa			
+	rios_1			
+	rios_2			
+	rios_3			
+	rios_4			
+	rios_5			
+	coros_1			
+	coros_2			
+	coros_3			
+	coros_4			
+	coros_5			
+	coros_6			
+	baile_oso_1			
+	baile_oso_2			
+	baile_oso_3			
+	baile_oso_4			
+	baile_oso_5			
+	baile_oso_7			
+	pocion_1			
+	pocion_2			
+	pocion_3			
+	pocion_4			
+	pocion_5			
+	pocion_6			
+	genio_botella_1			
+	genio_botella_3			
+	desierto_1			
+	desierto_2			
+	desierto_3			
+	camello_1			
+	camello_2			
+	camello_3			
+	camello_4			
+	camello_5			
+	abulDesenterro		Abul desenterró	
+	abulDeseo		Abul deseó	
+	abulVolo		Abul voló	
+	abulZambullo		Abul se zambulló	
+	mochila			
+	paraguas			
+	loro-conjuro			
+	lombriz-conjuro			
+	conejoAntes		conejo antes	
+	conejoDespues		conejo después	
+	conejoAntes_2		conejo antes	
+	conejoDespues_2		conejo después	
+	conejo1		conejo	
+	conejo2		conejo	
+	conejo3		conejo	
+	conejo4		conejo	
+	conejo5		conejo	
+	osoDefiende		oso defiende	
+	osoEsquiva		oso esquiva	
+	osoHuye		oso huye	
+	piratasAlegres		piratas alegres	
+	piratasTristes		piratas tristes	
+	piratasPreocupados		piratas preocupados	
+	tripulacion		tripulación	
+	capitan		capitán	
+	garfio			
+	pata_palo		pata de palo	
+	sombrero_pirata		sombrero pirata	
+	parche			
+	barba			
+	mapa_tesoro		mapa del tesoro	
+	pez-mojado		pez mojado	
+	perro_camina		perro camina	
+	montaña			
+	pablitoContento		Pablito contento	
+	pablitoAtento		Pablito atento	
+	pablitoTriste		Pablito triste	
+	pablitoEsperanzado		Pablito esperanzado	
+	ordenarPesca_1			
+	ordenarPesca_2			
+	ordenarPesca_3			
+	peces_3			
+	peces_4			
+	peces_5			
+	ramoncitoContento		Ramoncito contento	
+	ramoncitoAsustado		Ramoncito asustado	
+	ramoncitoPreocupado		Ramoncito preocupado	
+	fraseBichoBolita_1			
+	fraseBichoBolita_2			
+	fraseBichoBolita_3			
+	fraseBichoBolita_4			
+	fraseBichoBolita_5			
+	donBustosRego		Don Bustos regó	
+	vecinosCargaron		vecinos cargaron	
+	mamaBustosCocino		mamá Bustos cocinó	
+	caperucita_contenta		Caperucita contenta	
+	caperucita_asustada		Caperucita asustada	
+	caperucita_salta		Caperucita salta	
+	caperucita_recoge		Caperucita recoge	
+	lobo_abalanza		Lobo se abalanza	
+	lobo_corre		Lobo corre	
+	loboSalto		Lobo saltó	
+	gallinaCamina		gallina camina	
+	perroCavo		perro cavó	
+	ordenar_malevo_1			
+	ordenar_malevo_2			
+	ordenar_malevo_3			
+	ordenar_malevo_4			
+	ordenar_malevo_5			
+	elefante_aterrorizado		elefante aterrorizado	
+	elefante_distraido		elefante distraído	
+	cueva			
+	bolita_verde		bolita verde	
+	bolita_violeta		bolita violeta	
+	abul		Abul	
+	rana_1			
+	rana_2			
+	rana_3			
+	ordenarCaperucitaRojaL11			
+	ordenarCaperucitaRojaL12			
+	ordenarCaperucitaRojaL13			
+	ordenarCaperucitaRojaL14			
+	ordenarCaperucitaRojaL15			
+	abuela_caperucita		abuela	
+	calabaza			
+	batata			
+	apio			
+	ordenarZapallo1			
+	ordenarZapallo2			
+	ordenarZapallo3			
+	ordenarZapallo4			
+	ordenarZapallo5			
+	ordenarZapallo6			
+	ordenarBichoBolita1			
+	ordenarBichoBolita2			
+	ordenarBichoBolita3			
+	ordenarBichoBolita4			
+	ordenarZorroHornero1			
+	ordenarZorroHornero2			
+	ordenarZorroHornero3			
+	ordenarZorroHornero4			
+	cocinero			
+	gorro			
+	nube2		nube	
+	elefante2		elefante	
+	ave			
+	nene			
+	mate			
+	uno			
+	instruccionesGlobo_2			
+	instruccionesGlobo_3			
+	instruccionesGlobo_4			
+	instruccionesGlobo_5			
+	ordenarDiaPesca_1			
+	ordenarDiaPesca_2			
+	ordenarDiaPesca_3			
+	ordenarDiaPesca_4			
+	rio		río	
+	pez			
+	lluvia			auot
+	pierna		lchel	
+	ala			
+	ordenarPiratasCantores_1			
+	ordenarPiratasCantores_2			
+	ordenarPiratasCantores_3			
+	ordenarPiratasCantores_4			
+	canario			
+	oso_hormiguero			
+	ordenarBaile_1			
+	ordenarBaile_2			
+	ordenarBaile_3			
+	ordenarBaile_4			
+	conejo			
+	ordenarConejo_1			
+	ordenarConejo_2			
+	ordenarConejo_3			
+	ordenarConejo_4			
+	loro_conjuro			
+	lombriz_conjuro			
+	bolita_amarilla		bolita amarilla	
+	planetas			
+	mar			
+	ordenarViajeEspacio_1			
+	ordenarViajeEspacio_2			
+	ordenarViajeEspacio_3			
+	ordenarViajeEspacio_4			
+	sombrilla			
+	alfombra			
+	ordenarGenioBotella_1			
+	ordenarGenioBotella_2			
+	ordenarGenioBotella_3			
+	ordenarGenioBotella_4			
+	ordenarCaperucitaL11			
+	ordenarCaperucitaL12			
+	ordenarCaperucitaL13			
+	ordenarCaperucitaL14			
+	ordenarCaperucitaL15			
+	ordenarRisaPajaros6			
+	marinero			
+	senora		señora	
+	caballero			
+	dar			
+	trajecola		traje de cola	
+	que_susto_2			
+	que_susto_3			
+	que_susto_4			
+	que_susto_5			
+	rimaoso		oso	
+	rimaelefante		elefante	
+	rimayacare		yacaré	
+	rimaserpiente		serpiente	
+	galletitas			qayaxarai
+	distraido2		distraído	
+	aterrorizado2		aterrorizado	
+	malevo_1			
+	malevo_2			
+	malevo_3			
+	carne_roja		carne roja	
+	leche_blanca		leche blanca	
+	hueso_hueso		hueso	
+	malevo_5			
+	malevo_6			
+	malevo_7			
+	malevo_8			
+	malevo_9			
+	malevo_10			
+	malevo_11			
+	malevo_12			
+	malevo_13			
+	malevo_14			
+	conversar_malevo_1			
+	conversar_malevo_2			
+	zorro_gallina_1			
+	zorro_gallina_2			
+	rayo			
+	loro_sol_escrito			
+	loro_rama_escrito			
+	ordenar_viaje_espacio_16			
+	ordenar_viaje_espacio_17			
+	ordenar_viaje_espacio_18			
+	ordenar_viaje_espacio_19			
+	ordenar_viaje_espacio_20			
+	calle			
+	ordenar_viaje_espacio_12			
+	ordenar_viaje_espacio_13			
+	ordenar_viaje_espacio_14			
+	ordenar_viaje_espacio_15			
+	ordenar_viaje_espacio_7			
+	ordenar_viaje_espacio_8			
+	ordenar_viaje_espacio_9			
+	ordenar_viaje_espacio_10			
+	ordenar_viaje_espacio_11			
+	viaje_espacio_1			
+	viaje_espacio_2			
+	viaje_espacio_3			
+	viaje_espacio_4			
+	bicicleta			
+	boca@final			
+	trompeta			
+	sol_escrito			
+	graves			
+	agudos			
+	piratas_cantores_1			
+	piratas_cantores_2			
+	piratas_cantores_3			
+	piratas_cantores_4			
+	piratas_cantores_5			
+	piratas_cantores_6			
+	piratas_cantores_9			
+	piratas_cantores_10			
+	piratas_cantores_11			
+	piratas_cantores_12			
+	piratas_cantores_13			
+	piratas_cantores_14			
+	piratas_cantores_15			
+	piratas_cantores_16			
+	piratas_cantores_17			
+	piratas_cantores_18			
+	palabra_isla			
+	palabra_oro			
+	palabra_mapa			
+	palabra_luna			
+	tigre			
+	palabra_mono			
+	palabra_pez2			
+	corno			
+	conejo_1			
+	conejo_2			
+	conejo_3			
+	conejo_4			
+	conejo_5			
+	conejo_6			
+	conejo_7			
+	conejo_8			
+	conejo_9			
+	conejo_10			
+	conejo_11			
+	conejo_12			
+	conejo_13			
+	zapatilla			pela
+	barco2			
+	corno			
+	abeja2			
+	palabra-rio			
+	palabra-rama			
+	sombrero_calavera			
+	ala2			
+	dia_pesca_4			
+	dia_pesca_5			
+	barquito_1			
+	barquito_2			
+	barquito_3			
+	barquito_4			
+	barquito_5			
+	barquito_6			
+	barquito_7			
+	barquito_8			
+	barquito_9			
+	barquito_10			
+	pelota2			
+	mar_2			
+	adivinanza_camello			
+	adivinanza_osoHormiguero			
+	oso3			
+	rana2			
+	oscarcito2			
+	pez2			
+	malevo_cansado			
+	zorro2			
+	hambriento			
+	asustada			
+	aterrorizado			
+	enojada			
+	contenta			
+	elefante3			
+	serpiente3			
+	gato2			
+	oso4			
+	perro3			
+	yacare2			
+	mariposa2			
+	mariposa3			
+	bichobolita_2			
+	pajarovuela			
+	ñanducorre			
+	ñandu2		ñandú	
+	pajarito2		pájaro	
+	ñandu3			
+	pajarito3			
+	huevo			
+	uña			
+	globo			
+	palabra_rama			
+	palabra_rio			
+	gallina2			
+	palabra_sol			
+	ave2			
+	gallina_roja			
+	pollito_rojo			
+	pelota3			
+	cuchilloGrandeAmarillo			
+	tenedorChicoNaranja			
+	ollaMedianaAzul			
+	osito			
+	sorprendido			i’elaq
+	pelota3			
+	camisa			lomaxaqui
+	mediasGrandesAmarillas			
+	ojotasMedianasVerdes			
+	camion2			
+	puma			sauaxaic
+	quirquincho			mogosaxan
+	tatu			tapinec
+	burro_chico			ashena qapiolec
+	burro_grande			ashena ltaaraic
+	burro_mediano			ashena ltaaraicchigui
+	puma_chico			sauaxaic qapiolec
+	puma_grande			sauaxaic ltaaraic
+	puma_mediano			sauaxaic ltaaraicchigui
+	quirquincho_chico			mogosaxan qapiolec
+	quirquincho_grande			mogosaxan ltaaraic
+	quirquincho_mediano			mogosaxan ltaaraicchigui
+	gallina_chica			olgaxa qapiole
+	gallina_grande			olgaxa lateerai
+	gallina_mediana			olgaxa lateraichigui
+	rana_chica			miyo qapiole
+	rana_grande			miyo lateerai
+	rana_mediana			miyo lateraichigui
+	chancho_chico			cos qapiole
+	chancho_grande			cos lateerai
+	chancho_mediano			cos lateraichigui
+	asustado			ñi’i
+	perroChicoVerde			
+	burroChicoRojo			
+	gallinaGrandeAzul			
+	ñanduChicoAmarillo			
+	auto_grandeRojo			
+	pelota_chicaAzul			
+	muneca_chicaVerde			
+	tren_grandeAmarilla			
+	camisaMarronMediana	zapatilla		
+	sombreroRojoGrande			
+	pantalonGrandeAmarillo			
+	polleraVerdeChica			
+	olgaxa			
+	aỹat			
+	miyo			
+	gallinaAfuera			
+	chanchoAfuera			
+	perroAdentro			
+	chivitoAdentro			
+	cancion_danyFamilia2			
+	cama_escrito			
+	pollera_escrito			
+	burro_escrito			
+	oso2			
+	serpiente2			
+	rimaoso2		goloso	
+	rimaelefante2		adelante	
+	rimayacare2		bebé	
+	rimaserpiente2		dientes	
+	sombrero			
+	raton2			
+	malevo_hambriento			
+	caballoAzul			
+	caballoRojo			
+	burroVerde			
+	burroAmarillo			
+	chivoNegro			
+	chivoNaranja			
+	gallina_amarilla			
+	pollito_amarillo			
+	gallina_marron			
+	pollito_marron			
+	gallina_roja			
+	pollito_rojo			
+	elefante_chico			
+	elefante_grande			
+	chancho_chico			
+	chancho_grande			
+	loro_chico			
+	loro_grande			
+	cola2			
+	eduardo			
+	grande			
+	pequeño			
+	osogoloso		oso	
+	serpientesindiente		serpiente	
+	yacarebebe		yacaré	
+	elefanteadelante		elefante	
+	pajaro2		pájaro	
+	ñandu2			
+	hormiga2			
+	zorro3			
+	hornero2			
+	sizeZapallo1			
+	sizeZapallo2			
+	sizeZapallo3			
+	celeste			
+	vaso			
+	ordenarPiratasCantores_5			
+	ordenarZorroHornero5			
+	ojo			
+	ordenarDiaPesca_5			
+	ordenarRisaPajaros7			
+	ordenarRisaPajaros8			
+	elefante_amarillo			
+	caballo_grande_azul			
+	gato_chico_verde			
+	loro_grande_amarillo			
+	burro_grande_marron			
+	gallina_grande_verde			
+	chivo_chico_azul			
+	mono_grande_amarillo			
+	chancho_chico_celeste			
+	tacho_basura			
+	ordenarRisaPajaros5			
+	ordenarRisaPajaros6			
+	ordenarRisaPajaros7			
+	ordenarRisaPajaros8			
+	liebre		liebre	lerma
+	tren		tren	tren
+	tarde			avit
+	pescado		nyaq	nyaq

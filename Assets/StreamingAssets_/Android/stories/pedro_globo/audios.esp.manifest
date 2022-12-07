@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4285303441
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4040940eefff1994da81a091aa9fcb67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/pedro_globo/audios/easy.wav
+Dependencies: []

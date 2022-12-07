@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3235439028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 55f901bd983d3cf9baef6d795ba536d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/1b.wav
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/3b.wav
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/3a.wav
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/2a.wav
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/1a.wav
+- Assets/Resuources_in_bundles/completar/pedroGlobo2/2b.wav
+Dependencies: []

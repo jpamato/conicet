@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 114958227
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d373d32d2b54c4a1220a6e046c6dda34
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/viajeEspacio/1a.wav
+- Assets/Resuources_in_bundles/completar/viajeEspacio/2b.wav
+- Assets/Resuources_in_bundles/completar/viajeEspacio/1b.wav
+- Assets/Resuources_in_bundles/completar/viajeEspacio/2a.wav
+Dependencies: []

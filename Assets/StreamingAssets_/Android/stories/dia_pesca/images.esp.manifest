@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4051465773
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62e93cfa926d15a01254098ee2909876
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/8.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/13.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/11.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/4.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/16.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/14.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/1.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/9.png
+- Assets/Resuources_in_bundles/stories/dia_pesca/images/18.png
+Dependencies: []

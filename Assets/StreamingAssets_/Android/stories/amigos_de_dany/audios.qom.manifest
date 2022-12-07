@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1249421832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7194b8f88e33c0c8f2a8106b243c7bac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/amigos_de_dany/audios/qom_hard.wav
+Dependencies: []

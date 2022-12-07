@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3533223518
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6fbdb84450e42a7f6744e566b0017b06
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/danyAmigos3/1b.wav
+- Assets/Resuources_in_bundles/completar/danyAmigos3/1a.wav
+Dependencies: []

@@ -1,0 +1,702 @@
+story_id	memotest	Questions: generic_texts_id	Simon	Falling-Objects	Unir (par 1,2 .. 2,3 ...etc)	loro_time	loro_repeat	memotestAudio	escuchar	repetir con tarjeta	painting	elegir_frase	labyrinth	rompecabezas	completar (type_carpeta_character)	letra	contar	ordenar	loro_multiple: audio (es el estimulo)-bien(lista)-mal(lista)	arrastrar_grupos	objeto_diferente	imagen_palabras	chico_multiple
+animales_de_dany	perro	danyAnimales_1							cancion_sonidoAnimales_1														
+	gallina	danyAnimales_2																					
+	gato	laminaDanyAnimales_1:2																					
+	pollito																						
+	caballo																						
+	chivo																						
+animales_de_dany:2	caballo	laminaDanyAnimales_1			caballo			perro		gato		perro	pollito										
+	gallina	danyAnimales3_2:2			gallina			gallina		gallina		gato	gallina										
+	chancho	danyAnimales4_3:3			chancho			pollito		burro		loro	chancho										
+					burro			gato		chancho		gallina											
+										loro													
+animales_de_dany:3	zorro	animalesSalvajes2_3							cancion_categoriaAnimales2	zorro		araña											
+	mono								cancion_animalesDany@Qomi Qompi:2	mono		elefante											
+	puma									puma		oveja											
+	ñandu									ñandu		mono											
+	quirquincho									quirquincho													
+	mosquito									mosquito													
+animales_de_dany:4		animalesSalvajes2_3						elefante	cancion_animalesDany@Qomi Qompi	puma	sapo_paint	puma											
+								mono		ñandu		ñandu											
+								oveja		quirquincho		mosquito											
+								araña		mosquito		tatu											
+										tatu													
+										rana													
+animales_de_dany:5	burro	danyAnimales4_3		perro																			
+	gallina	danyAnimales4_8:2		gato																			
+	ñandu	danyAnimales4_6:2		gallina																			
+	puma	categoriaAnimales4_1:3		pollito																			
+	rana			-																			
+	mosquito			puma																			
+				quirquincho																			
+				ñandu																			
+animales_de_dany:6	marron	danyAnimales2_7																ordenarMensaje					
+	negro	danyAnimales4_8:2																ordenarGallina1,ordenarGallina2,ordenarGallina3					
+	verde	danyAnimales4_9:3																					
+	amarillo	danyAnimales4_10:4																					
+	azul	laminaDanyAnimales_6:5																					
+	blanco																						
+animales_de_dany:7		categoriaColores_1							cancion_animalesDany2@Do'onaxatagui Na Ñacpiolec	marron		marron											
+										negro		negro											
+										verde		verde											
+										amarillo		amarillo											
+animales_de_dany:8	azul	danyAnimales4_3									dany_animales_paint	gallinaContenta									rana		
+	blanco	danyAnimales4_8:2										gallinaEnojada									mono		
+	rojo	danyAnimales4_11:3																					
+	amarillo	laminaDanyAnimales_6:4																					
+	verde																						
+	negro																						
+animales_de_dany:9									cancion_animalesDany2@Do'onaxatagui Na Ñacpiolec	amarillo	pollito_paint	amarillo							mono		rana		
+										azul		azul							mono2		mono		
+										rojo		rojo							-				
+										blanco		blanco							mono3				
+																			mono				
+animales_de_dany:10	amarillo	colores_1			gallina_picoteando													ordenarMensaje					
+	rojo				pollito													ordenarDanyAnimales1,ordenarDanyAnimales2,ordenarDanyAnimales3					
+	verde				gallo																		
+	azul				pollito_marron																		
+	blanco				gallina_roja																		
+	negro				pollito_rojo																		
+rulitos		oso_1							cancion_categoriaAnimales2		monte_paint				sonido_animales_monte								
+		oso_2							rima_monte:2														
+		oso_3																					
+		rulitos1_1:2																					
+		rulitos2_2:3																					
+		rulitos3_3:4																					
+rulitos:2		osito_8							rima_monte	burro_chico		burro_chico							burro		burro_chico		
+		osito_9								burro_grande		burro_grande							burro_chico		puma_grande		
+										burro_mediano		burro_mediano							-		quirquincho_grande:2		
+										puma_chico		puma_chico:2							puma_grande		puma_mediano:2		
+										puma_grande		puma_grande:2							quirquincho_grande		quirquincho_chico:3		
+										puma_mediano		puma_mediano:2							puma:2		burro_chico:3		
+										quirquincho_chico		quirquincho_chico:3							puma_mediano:2				
+										quirquincho_grande		quirquincho_grande:3							-:2				
+										quirquincho_mediano		quirquincho_mediano:3							quirquincho_chico:2				
+																			burro_chico:2				
+																			quirquincho:3				
+																			quirquincho_grande:3				
+																			-:3				
+																			burro_grande:3				
+																			puma_grande:3				
+																			chivo:4				
+																			chivo:4				
+																			-:4				
+																			gallina:4				
+rulitos:3		rulitos2_4			osito				rima_monte				rulitos		1_rulitos3_Nasheli@rima_monte								
+		rulitos2_5			pollito								casa		2_rulitos3_Mujer@rima_monte:2								
+		rulitos2_6			gato								bosque										
+		rulitos4_7:2			pato																		
+		rulitos4_8:2																					
+		rulitos4_9:2																					
+		diferenciasRulitos_1:3																					
+rulitos:4				caballo_grande					rima_monte	gallina_chica		gallina_chica							gallina		gallina		
+				caballo_grande						gallina_grande		gallina_grande							gallina_chica		gallina_chica		
+				caballo_grande						gallina_mediana		gallina_mediana							-		rana_chica:2		
+				-						rana_chica		rana_chica:2							rana_grande		rana_grande:2		
+				caballo_chico						rana_grande		rana_grande:2							chancho_grande		chancho_grande:3		
+				caballo_chico2						rana_mediana		rana_mediana:2							rana:2		chancho_chico:3		
+										chancho_chico		chancho_chico:3							rana_mediana:2				
+										chancho_grande		chancho_grande:3							-:2				
+										chancho_mediano		chancho_mediano:3							chancho_chico:2				
+rulitos:5		rulitos8_10		oso_chico						oveja													
+		rulitos9_11:2		oso_chico2						araña													
+		rulitos10_12:3		oso						gato													
+		rulitos5_13:4		-						gallo													
+		animalesChicosGrandes2_1:5		caballo_chico						sapo													
+		animalesChicosGrandes2_2:6								elefante													
+		categoriaAnimalesTamanos_1:7								abeja													
+rulitos:6		rulitos6_14							rima_pequeno	cama_chica	pequeno_paint	cama_grande							cama				
+		rulitos6_15								cama_grande		silla_chica							cama_chica				
+		objetosCasa_1:2								cama_mediana		vaso_mediano							-				
+										silla_chica									cama_mediana				
+										silla_grande									cama_grande				
+										silla_mediana									silla:2				
+										vaso_chico									silla_mediana:2				
+										vaso-grande									-:2				
+										vaso_mediano									silla_chica:2				
+rulitos:7	cama								rima_pequeno	cama	pequeno_paint	cama							nene				
+	silla									silla		silla							nene				
+	mesa									mesa		mesa							-				
+	vaso									vaso		vaso							casa				
+rulitos:8		rulitos2_16			gato				rima_pequeno			contento			1_rulitos4_Nasheli@rima_pequeno				enojado				
+		rulitos4_17:2			pato							sorprendido			2_rulitos4_Mujer@rima_pequeno:2				enojado				
+		rulitos5_19:3			gallo							enojado							-				
+		rulitos5_20:4			caballo														contento				
+		rulitos6_21:5																	contento:2				
+		rulitos7_15:6																	contento:2				
+		osoEstados_1:7																	-:2				
+																			triste:2				
+																			sorprendido:3				
+																			sorprendido:3				
+																			-:3				
+																			asustado:3				
+																			asustado:4				
+																			asustado:4				
+																			-:4				
+																			contento:4				
+rulitos:9		objetosCasa_1	cama						rima_pequeno	cama		silla			1_rulitos2_Nasheli@rima_rulitos_2			ordenarMensaje					
+			silla							silla		cama			2_rulitos2_Mujer@rima_rulitos_2:2			ordenarRulitos1,ordenarRulitos2,ordenarRulitos3,ordenarRulitos4					
+			mesa							mesa		mesa											
+										lampara													
+rulitos:10	silla	empty			oso_chico							silla				_bej_							
+	parrilla	objetosCasa_1:2			vaso_chico							parrilla				a,e,i							
+	mesa				oso_mediano							mesa				abeja							
+	biblioteca				vaso_mediano							biblioteca				_lefante:2							
+					oso_grande											e,a,o:2							
+					vaso_grande											elefante:2							
+					oso_chico:2																		
+					silla_chica:2																		
+					oso_mediano:2																		
+					silla_mediana:2																		
+					oso_grande:2																		
+					silla_grande:2																		
+					oso_chico:3																		
+					cama_chica:3																		
+					oso_mediano:3																		
+					cama_mediana:3																		
+					oso_grande:3																		
+					cama_grande:3																		
+integracion	gallina	danyAnimales2_7							cancion_integracion1@Nashiỹo		cancion_integracion1	danyAsustado											
+	rojo											danyContento											
+	pollito																						
+	azul																						
+integracion:2	mosquito	empty							rima_piedra		rima_piedra												
+	puma	laminaDanyAnimales_13:2																					
+	gato	laminaDanyAnimales_14:3																					
+	ñandu	danyAnimales4_15:4																					
+	quirquincho	danyAnimales4_16:5																					
+integracion:3		categoriaAnimalesTamanos_1		pollito					rima_piedra		integracion1_paint								pollito		pollito		
+				pollito															pollito		puma_grande		
+				pollito															-		burro_grande:2		
+				pollito															puma_grande		quirquincho_chico:2		
+				pollito															burro_grande		tatu:3		
+				-															puma:2		chivo:3		
+				gallina															puma_mediano:2		gallina:4		
+				puma															-:2		pollito:4		
+				burro															quirquincho_chico:2		casa:5		
+				quirquincho															burro_chico:2		piedra:5		
+				tatu															burro:3				
+																			burro:3				
+																			-:3				
+																			quirquincho:3				
+																			tatu:3				
+																			chivo:4				
+																			chivo:4				
+																			-:4				
+																			gallina:4				
+																			pollito:4				
+																			piedra:5				
+																			casa:5				
+																			-:5				
+																			perro:5				
+integracion:4	silla	rulitos5_25			gallo				rima_piedra						1_integracion4_Nasheli@rima_piedra								
+	amarillo	rulitos6_26:2			zapallo										2_integracion4_Mujer@rima_piedra:2								
+	mesa	rulitos6_27:3			pato																		
+	azul	objetosCasa_1:4			plato																		
+integracion:5		empty		gallina					rima_piedra			perroChicoVerde			1_integracion1_Nasheli@rima_integracion_1				perro	gallina			
+				pollito								burroChicoRojo			2_integracion1_Mujer@rima_integracion_1:2				perro_mediano_naranja	pollito			
+				caballo								gallinaGrandeAzul							-	caballo			
+				cabra								ñanduChicoAmarillo							loro_chico_rojo	-			
+				perro															gallina_grande_azul	silla			
+				gato															loro:2	mesa			
+				-															loro_chico_rojo:2	cama			
+				silla															-:2				
+				mesa															loro:2				
+				cama															gallina:3				
+				lampara:2															gallina_grande_azul:3				
+				biblioteca:2															-:3				
+				mesa:2															gallina2:3				
+				silla:2															gallina:3				
+				radio:2															mono:4				
+				escoba:2															mono_chico_amarillo:4				
+				-:2															-:4				
+				puma:2															mono2:4				
+				oveja:2															mono:4				
+				burro:2																			
+amigos_de_dany		categoriaJuguetes_1							cancion_danyAmigos10@So ñegaxaic														
+		danyAmigos_2:2																					
+		danyAmigos_3:3																					
+		danyAmigos_4:4																					
+		danyAmigos_5:5																					
+		danyAmigos_6:6																					
+amigos_de_dany:2	titere	loroEmi_3		pelota					cancion_danyAmigos10@So ñegaxaic	titere							pelota						
+	avion	loroEmi_2:2		pelota						avion							3,5,7						
+	tren	loroEmi_1:3		pelota						tren													
+	muñeca			pelota						muñeca													
+	auto			-						auto													
+				muñeca						loroUriel_5:2													
+				auto						loroUriel_6:2													
+				titere						loroUriel_7:2													
+amigos_de_dany:3		danyAmigos_7					mosquito		cancion_danyAmigos10@So ñegaxaic		rima_danyamigos_paint	pelota							tren				
+		danyAmigos_8:2					ñandu					auto							tren				
+		danyAmigos2_2:4					gallina					tren							-				
+		danyAmigos2_3:5										muñeca							avion				
+		danyAmigos2_4:6																	auto				
+		juguetes_1:7																					
+																							
+amigos_de_dany:4		danyLucasAlan_1	auto	auto			loro		cancion_danyAmigos10@So ñegaxaic	loro_silla		frase_camion					avion						
+		danyLucasAlan_2:2	muñeca	auto			burro			loro_azul		frase_pelota3					4,5,6						
+			tren	-			rana			loro_abeja													
+				muñeca																			
+				tren																			
+amigos_de_dany:5		danyAmigos2_2		avion		loro	araña		cancion_danyAmigos10@So ñegaxaic						1_danyAmigos_Dany@rima_dany_amigos_1				tren				
+		danyAmigos2_4:2		muñeca		mosquito	oso		rima_palabras_loro:2						2_danyAmigos_Mujer@rima_dany_amigos_1:2				tren				
+		danyAmigos3_5:3		auto		gallina	sapo												-				
+		danyAmigos4_6:4		titere			mono												auto				
+		juguetes_1:5		robot																			
+				-																			
+				perro																			
+				pollito																			
+				burro																			
+amigos_de_dany:6		danyAmigos2_4					gato		cancion_danyamigos														
+		danyAmigos3_5:2					burro																
+		danyAmigos5_7:3					puma																
+		nenesActividades_1:4																					
+		nenesActividades_2:5																					
+		categoriaPartesCuerpo_1:6																					
+		vacaLola_1:7																					
+		vacaLola_2:8																					
+amigos_de_dany:7	pecho									brazo		pecho		cuerpo_adelante									
+	mano									mano		mano											
+	cabeza									pie		cabeza											
+	pierna									espalda		pierna											
+	pie																						
+amigos_de_dany:8		danyAmigos2_4					quirquincho		rima_ciempies		rima_ciempies												
+		danyAmigos2_8:2					puma																
+		danyAmigos5_7:3					oso																
+		danyAmigos5_10:4																					
+		categoriaPartesCuerpo_1:5																					
+																							
+																							
+																							
+amigos_de_dany:9			mano				silla	mano	rima_ciempies			frase_hamaca	dany					ordenarMensaje	ciempies				
+			pie				auto	pie				frase_cola	pelota					ordenarDanyAmigos1,ordenarDanyAmigos2,ordenarDanyAmigos3,ordenarDanyAmigos4	ciempies				
+			cabeza				cama	pecho					camion						-				
+																			mosquito				
+amigos_de_dany:10		empty				avion	silla		rima_ciempies			auto_grandeRojo			1_danyAmigos3_Nasheli@rima_ciempies				muñeca				
+		amigos_1:2				soga	auto		rima_palabras_loro:2			pelota_chicaAzul			2_danyAmigos3_Mujer@rima_ciempies:2				muñecaGrandeRosa				
+		amigos_2:2				muñeca	cama					muneca_chicaVerde							-				
+		amigos_3:2										tren_grandeAmarilla							pelotaChicaAzul				
+		amigos_4:2																	auto:2				
+		amigos_5:2																	autoGrandeAmarillo:2				
+		amigos_6:2																	-:2				
+liebre_tortuga		nenesJuegan_2					oso		rima_caracol		rima_caracol												
+		liebreTortuga_1:2					quirquincho																
+		liebreTortuga_2:3					mosquito																
+		liebreTortuga1_1:4																					
+		liebreTortuga1_2:5																					
+		liebreTortuga2_3:6																					
+liebre_tortuga:2		categoriaRopa_1			cara_nena_unir					pollera		pollera							caracol				
+					sombrero_paja					camisa		camisa							caracol				
+					pie					pantalon		pantalon							-				
+					zapatilla					zapatilla		zapatilla							pollito				
+					pierna					sombrero_paja													
+					pantalon																		
+					pecho																		
+					camisa																		
+liebre_tortuga:3	pantalon	liebreTortuga1_4		araña	nena_unir	gallina			rima_caracol		raton_paint												
+	pollera	liebreTortuga2_5:2		avion	gorra_rojo	caracol																	
+	zapatilla	liebreTortuga3_6:3		-	nene_unir	burro																	
+	camisa	unirRopa_2:4		mesa	gorra_verde																		
+		unirRopa_3:5			nena_unir:2																		
+		unirRopa_4:6			pantalon_amarillo:2																		
+					nene_unir:2																		
+					pantalon_azul:2																		
+					nena_unir:3																		
+					remera_negro:3																		
+					nene_unir:3																		
+					remera_rojo:3																		
+					nena_unir:4																		
+					zapatillas_marron:4																		
+					nene_unir:4																		
+					zapatillas_blanco:4																		
+liebre_tortuga:4		liebreEstados_1	sombrero_paja				avion		rima_caracol			frase_raton			1_liebreTortuga3_Nasheli@rima_caracol	_vion				gallina			
+		ropa_1:2	pantalon				azul					frase_boton			2_liebreTortuga3_Mujer@rima_caracol:2	a				oso			
+			zapatilla				araña									avion				-			
+																_zul:2				mosquito			
+																a:2				burro			
+																azul:2							
+																_r_ñ_:3							
+																a:3							
+																araña:3							
+liebre_tortuga:5		liebreTortuga2_7		pantalon_amarillo			abeja		rima_caracol			camisaMarronMediana			1_liebreTortuga_Dany@rima_liebre_tortuga_1	_lgaxa	avion		pantalon				
+		liebreTortuga3_8:2		pantalon_amarillo			auto					sombreroRojoGrande			2_liebreTortuga_Mujer@rima_liebre_tortuga_1:2	o	6,8,9		pantalon_amarillo				
+		liebreTortuga3_9:3		pantalon_amarillo			cama					pantalonGrandeAmarillo				olgaxa			-				
+		letraO3_1:4		pantalon_amarillo								polleraVerdeChica				c_s:2			remera_rojo				
+		letraO3_2:5		-												o:2			remera:2				
+				remera												cos:2			remera_rojo:2				
+				gorra												m_g_saxan:3			-:2				
+				medias												o:3			mediasGrandesAmarillas:2				
+																mogosaxan:3			ojotas:3				
+																			ojotasMedianasVerdes:3				
+																			-:3				
+																			pantalon_amarillo:3				
+																			medias:4				
+																			mediasGrandesAmarillas:4				
+																			-:4				
+																			ojotasMedianasVerdes:4				
+liebre_tortuga:6		liebreTortuga2_7								luna			tortuga										
+		liebreTortuga3_10:2								sol			meta										
+		liebreTortuga4_11:3								estrella			lago										
+		diferenciasLiebreTortuga_2:4								nube													
+		diferenciasLiebreTortuga_3:4								lluvia													
+liebre_tortuga:7	luna	cielos_1		nube		sombrero_paja	avion		cancion_liebre_tortuga_2@auo'oche ýalqolec		cancion_liebre_tortuga_2								sombrero_paja				
+	sol			-		pantalon	oveja												sombrero_paja				
+	estrella			estrella		camisa	marron												-				
+	nube			sol															pantalon				
+	lluvia			luna															camisa				
+liebre_tortuga:8		liebreTortuga2_7		oveja			sombrero_paja		rima_zapato		rima_zapato	sol											
+		liebreTortuga4_11:2		ojotas			burro					luna											
+		liebreTortuga4_12:3		-			auto					estrella											
+		categoriaObjetosEstelares_1:4		espalda								nube											
+liebre_tortuga:9		letraOL2_1	lluvia	estrella	luna		oveja		rima_zapato			frase_luna			1_liebreTortuga4_Nasheli@rima_zapato	_veja	estrella	ordenarMensaje	zapato	mosquito			
+		letraOL2_2	sol	estrella	numero1		ojotas					frase_sol2			2_liebreTortuga4_Mujer@rima_zapato:2	o	4,2,8	ordenarLiebreTortuga1,ordenarLiebreTortuga2,ordenarLiebreTortuga3	zapato	burro			
+			nube	estrella	sol		oso									oveja			-	-			
+				estrella	caracol											_jotas:2			pantalon	gallina			
+				-												o:2			mosquito:2	oso			
+				nube												ojotas:2			burro:2				
+				sol												_s_:3			-:2				
+				luna												o:3			gallina:2				
+																oso:3							
+liebre_tortuga:10		empty		avion					rima_zapato			solGrandeAmarillo			1_liebreTortuga4_Nasheli@rima_zapato	_y_t			sol				
+		letraAQ2_1:2		titere								lunaChicaRoja			2_liebreTortuga4_Mujer@rima_zapato:2	a			solGrandeAmarillo				
+		letraAQ2_2:3		pelota								lunaGrandeVerde				ayat			-				
+				muñeca								solChicoAzul				_shen_:2			lunaChicaRoja				
+				bolitas												a:2			luna:2				
+				auto												ashena:2			lunaGrandeVerde:2				
+				-												_ltemoi:3			-:2				
+				gorro												a:3			solChicoAzul:2				
+				medias												altemoi:3			sol:3				
+				remera															solChicoAzul:3				
+integracion_2		danyAmigos2_4			autoGrandeAmarillo		pollera		rima_agua		rima_agua	lucasAlanAsustados							mano				
+		danyAmigos2_12:2			amarillo		tarde					lucasAlanContentos							mesa				
+					muñecaGrandeRosa		liebre												mono				
+					rosa														muñeca				
+					avionGrandeRojo														-				
+					rojo														araña				
+																			azul				
+																							
+																							
+																							
+integracion_2:2		empty		bolitas	mano	pollera	mano		rima_agua			frase_camion							tortuga				
+		juguetes_1:2		camion	mesa	tarde	mesa					frase_muñeca							tortuga				
+				robot	azul	liebre	azul												-				
+				titere	araña		mono												chancho				
+				pelota																			
+				osoPeluche																			
+				-																			
+				remera																			
+				pantalon																			
+				pollera																			
+				mesa																			
+				silla																			
+				biblioteca																			
+				perro																			
+				gato																			
+				raton																			
+integracion_2:3		cielos_1				sombrero			cancion_animales_integracion		integracion3_paint				1_integracion5_Dany@rima_agua	m_no							
+		cielos_2				sol			rima_agua:2						2_integracion5_Mujer@rima_agua:2	a							
+		letraML2_1:2				silla										mano							
+		letraML2_2:2														_ono:2							
+																m:2							
+																mono:2							
+																_esa:3							
+																m:3							
+																mesa:3							
+integracion_2:4		liebreTortuga3_13							rima_agua		integracion4_paint	liebreSorprendida											
+		ropas_1:2									integracion5_paint:2	liebreCansada											
+		ropas_2:3										liebreContenta											
+		muñecaColores_1:4																					
+		muñecaColores_2:5																					
+		muñecaColores_3:6																					
+																							
+																							
+																							
+integracion_2:5		empty		cama			muñeca		rima_agua		integracion6_paint					_vit			pelota		pelota		
+				mesa			medias									a			pelota		perro		
+				silla			cama									avit			-		gato:2		
+				biblioteca												miich_:2			perro		burro:2		
+				escoba												o:2			gato		brazo:3		
+				-												miicho@final:2			burro		cabeza:3		
+				caballo												n_l_:3			perro:2		mano:4		
+				chancho												a:3			perro:2		auto:4		
+																nala@medio:3			-:2		muñeca:5		
+																			brazo:2		mesa:5		
+																			cabeza:2		remera:6		
+																			pie:2		pantalon:6		
+																			mano:3				
+																			mano:3				
+																			-:3				
+																			auto:3				
+																			camion:3				
+																			muñeca:3				
+																			mesa:4				
+																			mesa:4				
+																			-:4				
+																			amarillo:4				
+																			marron:4				
+																			verde:4				
+																			remera:5				
+																			remera:5				
+																			-:5				
+																			cama:5				
+																			mesa:5				
+																			silla:5				
+																			gato:6				
+																			gato:6				
+																			-:6				
+																			remera:6				
+																			ojotas:6				
+																			pantalon:6				
+familia_dany		danyFamilia_1			ojotas		rana		cancion_danyFamilia@Ubicación	mama	cancion_danyFamilia2												
+		danyFamilia_2:2			oveja		auto			padre													
+		danyFamilia_12:3			muñeca		silla			abuelo													
+		danyFamilia_13:4			mesa					abuela													
+		danyFamilia_1:5																					
+		danyFamilia_2:6																					
+		osoOsito_1:7																					
+		osoOsito_2:8																					
+familia_dany:2	mama	danyFamilia2_3			amarillo	pantalon	amarillo		rima_nandu		rima_nandu												
+	padre	danyFamilia2_4:2			auto	liebre	mono																
+	abuelo	danyFamilia1:3			mono	pollera	auto																
+	abuela				mano		mano																
+familia_dany:3		danyFamilia_9			pantalon		oso		rima_nandu	diferenciasDanyFamilia_1	danyFamilia_paint				1_danyFamilia_Nasheli@rima_dany_familia_1	_so			ñandu	pantalon			
+		danyFamilia_25:2			rana		gorro			diferenciasDanyFamilia_2					2_danyFamilia_Mujer@rima_dany_familia_1:2	o			ñandu	rana			
+		corralAnimales_1:3			silla		araña									oso			-	-			
+					puma		lampara									_r_ñ_:2			zorro	silla			
+							marron									a:2				puma			
+							cama									araña:2							
+																ca_a:3							
+																m:3							
+																cama:3							
+																m_rron:4							
+																a:4							
+																marron:4							
+																l_mp_r_:5							
+																a:5							
+																lampara:5							
+																g_rr_:6							
+																o:6							
+																gorro:6							
+familia_dany:4		letraMQ2_1					sol		rima_nandu	gallinaAfuera		gallinaAfuera			2_danyFamilia3_Mujer@rima_ñandu:2	_iicho	chancho						
+		letraMQ2_2:2					luna			chanchoAfuera		chanchoAfuera				m	2,8,9						
+							estrella			perroAdentro		perroAdentro				miyo	gallina:2						
+										chivitoAdentro		chivitoAdentro				_axaso:2	4,6,7:2						
+												frase_gallina:2				m:2							
+												frase_corral:2				maxaso:2							
+																_añec:3							
+																m:3							
+																mañec:3							
+familia_dany:5		danyFamilia1_3				luna	sol		rima_nandu			gallinaAfuera	chivitoAfuera		1_danyFamilia_Nasheli@rima_dany_familia_1	_ltemoi							
+		danyFamilia1_9:2				sol	estrella					chanchoAfuera	corral		2_danyFamilia_Mujer@rima_dany_familia_1:2	a							
+						estrella	nube					perroAdentro	bosque			altemoi							
+							luna					chivitoAdentro				_lgaxa:2							
+																o							
+																olgaxa:2							
+familia_dany:6		danyFamilia3_5				rana	elefante		cancion_danyFamilia2@Aso alo qataq so yale														
+		danyFamilia3_6:2				puma	sapo																
+		danyFamilia_8:3				loro	loro																
+		categoriaObjetosCasa2_1:4																					
+familia_dany:7	mortero			cuchara	cama		elefante		cancion_danyFamilia2@Aso alo qataq so yale	mortero	cancion_danyFamilia2						cuchara			cama			
+	cuchillo			-	quirquincho		silla			cuchillo							2,6,9			quirquincho			
+	cuchara			cuchillo	silla		estrella			cuchara										-			
+	olla			tenedor	pollera		sapo			olla										silla			
+				vaso_agua																pollera			
+				plato																			
+familia_dany:8		danyFamilia2_7							cancion_danyFamilia2@Aso alo qataq so yale			mortero				_oonaxaqui 							
+		danyFamilia2_8:2										cuchillo				s							
+		objetosCasa2_1:3										cuchara				soonaxaqui							
+		letraSQ2_1:4										olla				_aatagui:2							
+		letraSQ2_2:5										frase_mano:2				s:2							
+												frase_cabeza:2				saatagui:2							
+																_auaxaic:3							
+																s:3							
+																sauaxaic:3							
+familia_dany:9			cuchara	jarra			estrella		cancion_danyFamilia2@Aso alo qataq so yale			vaso_agua				_iicho		ordenarMensaje					
+			olla	jarra			elefante					olla				m		ordenarDanyFamilia1,ordenarDanyFamilia2,ordenarDanyFamilia3					
+			mortero	jarra			verde					cuchara				miicho							
+				jarra								jarra				_shena:2							
+				jarra												a:2							
+				-												ashena:2							
+				cuchara												_oonaxaqui:3							
+				pava												s:3							
+				parrilla												soonaxaqui:3							
+familia_dany:10		empty		parrilla	araña		cama_escrito		rima_dany_familia_2					cancion_danyFamilia2	1_danyFamilia2_Nasheli@rima_dany_familia_2				cuchillo			burro	
+		familia_1:2		cuchillo	palabra_araña		pollera_escrito								2_danyFamilia2_Mujer@rima_dany_familia_1:2				cuchilloGrandeAmarillo			gato	
+				tenedor	mono		burro_escrito												-			pollera:2	
+				olla	palabra_mono														ollaMedianaAzul			gallina:2	
+				jarra	ojotas														tenedor:2			cama:3	
+				-	palabra_ojotas														tenedorChicoNaranja:2			sombrero_paja:3	
+				gato	amarillo														-:2				
+				perro	palabra_amarillo														cuchilloGrandeAmarillo:2				
+																			olla:3				
+																			ollaMedianaAzul:3				
+																			-:3				
+																			tenedorChicoNaranja:3				
+																							
+																							
+																							
+																							
+caperucita_roja_l2		caperucitaRoja_1				agua	silla		cancion_Caperucita1@Aso ‘alo qataq so ỹale			frase_escuela											
+		caperucitaRoja_2:2				pescado	olla					frase_caramelo											
+		caperucitaRoja_3:3				carne	luna																
+		caperucitaRoja1_1:4																					
+		caperucitaRoja2_2:5																					
+		categoriaAlimentos_1:6																					
+caperucita_roja_l2:2	carne	caperucitaRoja2_3		silla			silla		cancion_Caperucita1@Aso ‘alo qataq so ỹale	carne					1_caperucitaL2pt2_Dany@rima_caperucita_roja_l2_1					loro			
+	agua	caperucitaRoja3_4:2		sapo			mortero			agua					2_caperucitaL2pt2_Mujer@rima_caperucita_roja_l2_1:2					agua			
+	pescado	caperucitaRoja33_5:3		-			sapo			pescado										-			
+	galletitas	caperucitaRoja33_6:4		mortero			sol			galletitas										pescado			
+	miel									miel										sol			
+caperucita_roja_l2:3		caperucitaRojapt2_1							cancion_Caperucita1@Aso ‘alo qataq so ỹale		alimentos_paint	carne				_l_							
+		caperucitaRojapt2_2:2									cancion_caperucita_paint:2	agua				e							
+		caperucitaRojapt2_3:3										pescado				ele@final							
+		caperucitaRojapt2_4:4										galletitas				_taxat:2							
+		alimentos_2:5														e:2							
+		letraEQ2_1:6														etaxat:2							
+		letraEQ2_2:7																					
+																							
+																							
+caperucita_roja_l2:4		caperucitaRojapt2_7	pescado				sopa		cancion_Caperucita1@Aso ‘alo qataq so ỹale			frase_banana	caperucita			_taxat							
+		caperucitaRojapt2_8:2	carne				soga					frase_pan	casa			e							
+		caperucitaRojapt2_9:3	agua				vaso_agua						bosque			etaxat							
+		caperucitaRoja3_10:4					mesa																
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+caperucita_roja_l2:5		caperucitaRojapt3_1		pescado					cancion_Caperucita1@Aso ‘alo qataq so ỹale		cinco_ratoncitos_paint				1_caperucitaL2_Nasheli@rima_caperucita_roja_l2_2		pescado		avion			loro	
+		caperucitaRojapt3_2:2		pescado											2_caperucitaL2_Mujer@rima_caperucita_roja_l2_2:2		5,8,2		palabra_avion			mosquito	
+		caperucitaRojapt3_3:3		pescado															-			puma:2	
+		alimentos_2:4		-															palabra_elefante			quirquincho:2	
+				miel															elefante:2			pollito:3	
+				carne															palabra_elefante:2			gato:3	
+				agua															-:2				
+																			palabra_auto:2				
+																			auto:3				
+																			palabra_auto:3				
+																			-:3				
+																			palabra_elefante:3				
+																							
+																							
+caperucita_roja_l2:6		caperucitaRoja5_11				pescado	leche		cancion_Caperucita2@Aso ‘alo qataq so ỹale			caperucitaContentaL2_2											
+		caperucitaRoja56_12:2				carne	luna					caperucitaSorprendidaL2											
+		caperucitaRoja56_13:3				agua	olla					caperucitaAsustadaL2											
+		caperucitaRojapt3_3:4																					
+		diferenciasCaperucita_1:5																					
+caperucita_roja_l2:7	boca			leche		pescado	camisa		cancion_Caperucita2@Aso ‘alo qataq so ỹale	boca	cinco_ratoncitos_paint	abuelaOrejas											
+	ojos			luna		carne	liebre			ojos		abuelaNariz											
+	frente			lampara		agua	carne			frente		abuelaBoca											
+	oreja			-						oreja													
+	nariz			olla						nariz													
+																							
+																							
+caperucita_roja_l2:8		caperucitaRoja7_16			mano				rima_miel			boca				_erma							
+		caperucitaRoja8_17:2			pie							oreja				l							
+		caperucitaRoja8_18:3			pierna							nariz				lerma							
+		categoriaPartesCara_1:3			brazo							frente				_omaxaqui:2							
+		letraLQ2_1:4			pecho											l:2							
+		letraLQ2_2:5			cabeza											lomaxaqui:2							
+					espalda											_apat:3							
+																l:3							
+																lapat:3							
+																							
+caperucita_roja_l2:9			boca				lampara		rima_miel			abuelaOrejas				_airaxaic		ordenarMensaje					
+			ojos				azul2					abuelaNariz				l		ordenarCaperucitaRojaL21,ordenarCaperucitaRojaL22,ordenarCaperucitaRojaL23,ordenarCaperucitaRojaL24,ordenarCaperucitaRojaL25					
+			nariz				miel2					abuelaBoca				lairaxaic							
+												frase_nariz:2				_ogosaxan:2							
+												frase_raton:2				m:2							
+																mogosaxan:2							
+																n_m_c:3							
+																e:3							
+																nemec:3							
+caperucita_roja_l2:10		empty		mesa	nariz				rima_miel						1_caperucitaQ2_Dany@rima_caperucita_roja_l2_3				estrella			blanco	
+				parrilla	flor										2_caperucitaQ2_Mujer@rima_caperucita_roja_l2_3:2				palabra_estrella			puma	
+				cuchara	oreja														-			agua:2	
+				-	radio														palabra_mano			carne:2	
+				banana	boca														mano:2			gato:3	
+				naranja	vaso_agua														palabra_mano:2			quirquincho:3	
+				manzana	ojos														-:2				
+				queso:2	libro														palabra_empanadas:2				
+				leche:2															empanadas:3				
+				carne:2															palabra_empanadas:3				
+				-:2															-:3				
+				biblioteca:2															palabra_estrella:3				
+				cama:2																			
+				silla:2																			
+integracion_3		danyFamilia3_9	mama			empanadas	pescado		cancion_Integracion3		raton_paint	gallinaAfuera											
+			padre			agua	caracol		rima_palabras_loro:2			chanchoAfuera											
+			abuela			ojos	sol					perroAdentro											
+												chivitoAdentro											
+																							
+integracion_3:2		empty			mama		sopa		rima_camino			mama			1_integracion3_Dany@rima_integracion3				mesa	pescado			
+					mortero		oreja					abuelo			2_integracion3_Mujer@rima_integracion3:2				palabra_mesa	caracol			
+					padre		empanada					abuela							-	-			
+					cuchillo		mortero					padre							palabra_soga	loro			
+					abuela							frase_pelota:2							soga:2	agua			
+					pava							frase_camion2:2							palabra_soga:2				
+																			-:2				
+																			palabra_mono:2				
+																			mono:3				
+																			palabra_mono:3				
+																			-:3				
+																			palabra_mesa:3				
+integracion_3:3		letraNQ2_1		carne			sopa		rima_camino		integracion8_paint		abuela		1_integracion3_Dany@rima_camino	_ala					chivo		
+		letraNQ2_2:2		manzana			oreja		rima_palabras_loro:2				pava		2_integracion3_Mujer@rima_camino:2	n					puma		
+				leche			mortero						bosque			nala					cama:2		
+				pan			empanadas									_ogotolec:2					silla:2		
+				-												n:2					agua:3		
+				perro												nogotolec:2					carne:3		
+				avion																	cuchara:4		
+				pava																	cuchillo:4		
+integracion_3:4		caperucitaRoja6_19	camisa	queso					rima_camino						1_integracion6_Dany@rima_camino	_erma			luna				
+		caperucitaRoja5_20:2	pantalon	leche											2_integracion6_Mujer@rima_camino:2	l			palabra_luna				
+		caperucitaRoja7_21:3		carne												lerma			-				
+				-												_ogotolec:2			palabra_silla				
+				medias												n:2			silla:2				
+				zapato												nogotolec:2			palabra_silla:2				
+																_axaso:3			-:2				
+																m:3			palabra_loro:2				
+																maxaso:3			loro:3				
+																_auaxaic:4			palabra_loro:3				
+																s:4			-:3				
+																sauaxaic:4			palabra_luna:3				
+integracion_3:5		empty		remera			agua		rima_camino		integracion7_paint			ordenarCaperucitaRojaL22		_gua			pantalon		pescado	cuchara	
+				buzo			oreja									a,o			pantalon		miel	puma	
+				pantalon			sopa									agua			-		pantalon:2	negro:2	
+				-			miel									_reja:2			manzana		camisa:2	mosquito:2	
+				camion			espalda									o,a:2			banana		pava:3	tarde:3	
+				gato			leche									oreja:2			naranja		cuchillo:3	sol:3	
+				silla												_opa:3			gato:2		ojo:4		
+																s,m:3			gato:2		gato:4		
+																sopa:3			-:2				
+																_iel:4			pan:2				
+																m,s:4			leche:2				
+																miel:4			miel:2				
+																_spalda:5			manzana:3				
+																e,l:5			manzana:3				
+																espalda:5			-:3				
+																_eche:6			pollera:3				
+																l,e:6			pantalon:3				
+																leche:6			camisa:3				
+																			mortero:4				
+																			mortero:4				
+																			-:4				
+																			ojotas:4				
+																			remera:4				
+																			muñeca:5				
+																			muñeca:5				
+																			-:5				
+																			pava:5				
+																			mortero:5				
+																			parrilla:5				
+																			pan:6				
+																			pan:6				
+																			-:6				
+																			boca:6				
+																			nariz:6				
+																			ojos:6				

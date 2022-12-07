@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3753660712
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6436e998a4a74955f1de3467f4d22d2b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/danyFamilia/2a.wav
+- Assets/Resuources_in_bundles/completar/danyFamilia/S11-D5_completarGallinaAnimal.wav
+- Assets/Resuources_in_bundles/completar/danyFamilia/1b.wav
+- Assets/Resuources_in_bundles/completar/danyFamilia/1a.wav
+- Assets/Resuources_in_bundles/completar/danyFamilia/2b.wav
+Dependencies: []

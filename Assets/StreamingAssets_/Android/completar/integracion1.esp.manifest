@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1036107514
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f27b083d7eec8fb195e49ad430065d64
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/integracion1/1b.wav
+- Assets/Resuources_in_bundles/completar/integracion1/1a.wav
+- Assets/Resuources_in_bundles/completar/integracion1/2b.wav
+- Assets/Resuources_in_bundles/completar/integracion1/2a.wav
+Dependencies: []

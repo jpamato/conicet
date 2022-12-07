@@ -52,8 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  url: http://pontura.com/conicet/AssetBundles/
   lang: 2
-  DEBUG: 0
+  dificult: 0
+  DEBUG: 1
   initialActivity: 0
   lastScene: 
   newScene: 
@@ -66,6 +68,7 @@ MonoBehaviour:
   userData: {fileID: 0}
   audioSpectrum: {fileID: 1987091315}
   allLoaded: 0
+  mode: 0
 --- !u!114 &925020076577925948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +131,7 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=0&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1107134212&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=963416946&single=true&output=tsv
+  fileName: conicet database - Stories
   activeBookContent:
     name: 
     id: 
@@ -159,6 +163,7 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1092624288&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1507941204&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1737474327&single=true&output=tsv
+  fileName: conicet database - Days
   content: []
   activeContent:
     day: 0
@@ -180,9 +185,11 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=2054995855&single=true&output=tsv
+  fileName: conicet database - data
   content: []
   activeContent:
     name: 
+    text: 
     sprite: {fileID: 0}
     audioClip: {fileID: 0}
 --- !u!114 &2180274282003563122
@@ -200,6 +207,7 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1404297154&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=808105653&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1759414284&single=true&output=tsv
+  fileName: conicet database - Games
   content: []
   activeContent:
     id: 
@@ -221,6 +229,11 @@ MonoBehaviour:
     letra: []
     contar: []
     ordenar: []
+    loro_multiple: []
+    arrastrar_grupos: []
+    objeto_diferente: []
+    imagen_palabras: []
+    chico_multiple: []
 --- !u!114 &7078598613645000413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +249,7 @@ MonoBehaviour:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=793140258&single=true&output=tsv
   url_qom: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=853500090&single=true&output=tsv
   url_l1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTTgCbeSdQrchfjXqLW0-wWZHOS36UtJ7EAuEakSL91Y4PnRZs1hHhSnLcesFU18UcoA97eyAMAVoqM/pub?gid=1466274066&single=true&output=tsv
+  fileName: conicet database - texts
   content: []
   activeContent:
     id: 

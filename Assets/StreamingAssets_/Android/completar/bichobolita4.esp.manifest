@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2613474223
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 18d0324c52b8a9155abdc7e3fd4d4ad1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/bichoBolita4/2a.wav
+- Assets/Resuources_in_bundles/completar/bichoBolita4/2b.wav
+- Assets/Resuources_in_bundles/completar/bichoBolita4/1b.wav
+- Assets/Resuources_in_bundles/completar/bichoBolita4/1a.wav
+Dependencies: []

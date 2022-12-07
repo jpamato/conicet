@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1953326395
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bea1d8aab8b1bcc2949d7a2eff831c90
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/caperucitaL2/2a.wav
+- Assets/Resuources_in_bundles/completar/caperucitaL2/2b.wav
+- Assets/Resuources_in_bundles/completar/caperucitaL2/1a.wav
+- Assets/Resuources_in_bundles/completar/caperucitaL2/1b.wav
+Dependencies: []

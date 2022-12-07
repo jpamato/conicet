@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3217113841
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3f2acd84755b0e696ef1cc22228bfec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/15.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/1.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/16.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/3.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/7.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/11.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/5.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/18.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/17.png
+- Assets/Resuources_in_bundles/stories/caperucita_roja/images/9.png
+Dependencies: []

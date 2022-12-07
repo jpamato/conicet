@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2573918986
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 029bc5e2ebcf14d0d5d70333a43d646a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/genioBotella/2b.wav
+- Assets/Resuources_in_bundles/completar/genioBotella/2a.wav
+- Assets/Resuources_in_bundles/completar/genioBotella/1b.wav
+- Assets/Resuources_in_bundles/completar/genioBotella/1a.wav
+Dependencies: []

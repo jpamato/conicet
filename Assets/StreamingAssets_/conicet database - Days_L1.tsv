@@ -1,0 +1,773 @@
+day	story_id	games	tips (id de texts)	dificultad	Aclaraciones	Cosas que Faltan
+1	que_susto	read_automatic				
+		questions				
+		memotest	tip_memotestL2			
+		questions	elefante_intro			
+		escuchar				
+2	que_susto:2	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		unir	uni_animal_que_asusta			
+		unir	uni_animal_que_asusta			
+		questions	oso_intro			
+		escuchar				
+		painting				
+3	que_susto:3	read_automatic				
+		questions	animales_intro			
+		elegir_frase	tip_escucha_toca			
+		questions	yacare_intro			
+		questions	yacare_intro			
+		questions	yacare_intro			
+		memotest_audio	tip_memotestL2			
+		elegir_frase	tip_escucha_toca			
+4	que_susto:4	read_automatic				
+		questions	animales_intro			
+		questions	tip_conta_cuento			
+		questions	serpiente_intro			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+5	que_susto:5	questions				
+		repeat_with_card	tip_escucha			
+		elegir_frase	unir_estados_elefante			
+		falling_objects	tocar_animales_oviparos			
+		falling_objects	tocar_animales_mamiferos			
+		elegir_frase	tip_escucha_toca			
+1	malevo	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		repeat_with_card	descripcion_malevo			
+		rompecabezas	rompecabezas_malevo			
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+2	malevo:2	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		unir	unir_malevo_estados			
+		memotest	tip_memotestL2			
+		unir	unir_comida_color			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+3	malevo:3	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		elegir_frase	elegi_parte_cuento			
+		elegir_frase	elegi_parte_cuento			
+		rompecabezas	rompecabezas_pata			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+4	malevo:4	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		ordenar	tip_conta_cuento			
+		falling_objects	toca_alimentos			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+5	malevo:5	questions	tip_conversar			
+		questions	tip_conversar			
+		falling_objects	tocar_animales_oviparos			
+		rompecabezas	rompecabezas_chico			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+		completar	tip_completar_solo	x		
+1	zorro_gallina	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		rompecabezas	tip_rompecabezasL2			
+		questions	tip_conversar			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar	x		
+2	zorro_gallina:2	read_automatic				
+		questions				
+		questions				
+		falling_objects	toca_animales			
+		questions	intro_ranas			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		repeat_with_card		x		
+		unir	que_palabras_riman	x		
+		unir	que_palabras_riman	x		
+3	zorro_gallina:3	read_automatic				
+		questions				
+		questions				
+		unir	unir_personajes_estados			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		unir	unir_animal_hogar	x		
+		repeat_with_card		x		
+		unir	que_palabras_riman	x		
+4	zorro_gallina:4	read_automatic				
+		questions	tip_conversar			
+		ordenar				
+		elegir_frase	tip_escucha_toca			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		repeat_with_card		x		
+		loro_multiple	chico_multiple	x	chico	
+5	zorro_gallina:5	questions	tip_conversar			
+		labyrinth	laberinto_granja			
+		falling_objects	toca_animales_voladores			
+		falling_objects	toca_animales_caminantes			
+		escuchar	tip_escucha_cancion			
+		repeat_with_card		x		
+		unir	cancion_riman	x		
+		repeat_with_card		x		
+		loro_multiple	chico_multiple	x	chico	
+1	caperucita_roja	read_automatic				
+		questions	tip_conversar			
+		questions	tip_conversar			
+		questions	tip_conversar			
+		questions	tip_conversar			
+		ordenar				
+		questions	intro_bosques			
+		questions	intro_bosques			
+		questions	intro_bosques			
+		escuchar	tip_escucha_rima			
+		loro_multiple	chico_multiple	x	chico	
+		loro_multiple	chico_multiple	x	chico	
+2	caperucita_roja:2	read_automatic				
+		questions	tip_conversar			
+		questions	tip_conversar			
+		labyrinth	laberinto_lobo_2			
+		questions	caperucita_6			
+		questions	caperucita_6			
+		questions	caperucita_6			
+		questions	caperucita_6			
+		questions	caperucita_6			
+		questions	caperucita_6			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	chico_multiple	x		
+		loro_multiple	chico_multiple	x	chico	
+3	caperucita_roja:3	read_automatic				
+		falling_objects	elegi_disfraz_lobo			
+		labyrinth	laberinto_lobo			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		repeat_with_card		x		
+		unir	unir_palabras_iguales	x		
+4	caperucita_roja:4	read_automatic				
+		questions				
+		rompecabezas	tip_rompecabezasL2			
+		rompecabezas	tip_rompecabezasL2			
+		ordenar	tip_conta_cuento			
+		memotest_audio	tip_memotestL2			
+		escuchar	tip_escucha_cancion			
+		repeat_with_card		x		
+		unir	unir_palabras_iguales	x		
+5	caperucita_roja:5	read_automatic				
+		elegir_frase	tip_escucha_toca			
+		falling_objects	toca_objetos_bosque			
+		questions	recetaCaperucita_1			
+		questions	recetaCaperucita_1			
+		questions	recetaCaperucita_1			
+		questions	recetaCaperucita_1			
+		escuchar	tip_escucha_cancion			
+		escuchar	tip_escucha_cancion			
+		repeat_with_card	escuchar_completar_caperucita	x		
+1	zapallo_gigante	read_automatic				
+		questions				
+		questions				
+		elegir_frase	elegi_partes_plantas			
+		falling_objects	toca_verduras			
+		escuchar	tip_escucha_cancion			
+		falling_objects	toca_verduras_cancion			
+		questions	presentacionLoroUrielL1	x		
+		loro_time	tip_toca_la_imagenL2	x		
+2	zapallo_gigante:2	read_automatic				
+		questions				
+		rompecabezas	tip_rompecabezasL2			
+		ordenar	ordenar_zapallo_gigante			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	toca_empieza_acelga	x		
+3	zapallo_gigante:3	read_automatic				
+		questions				
+		questions				
+		labyrinth	laberinto_feria			
+		ordenar	tip_ordenar_cuento			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_ajo	x		
+4	zapallo_gigante:4	read_automatic				
+		questions				
+		contar	tip_contar			
+		questions	mira_imagenes			
+		falling_objects	toca_elementos_sopa			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		questions	tip_presentar_letraL2	x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+5	zapallo_gigante:5	ordenar	tip_conta_cuento			
+		elegir_frase	tip_escucha_toca			
+		memotest	tip_memotestL2			
+		simon	simon_zapallo_gigante			
+		escuchar	tip_escucha_rima			
+		unir	que_palabras_riman	x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+1	bicho_bolita	read_automatic				
+		questions				
+		questions				
+		questions				
+		questions				
+		elegir_frase	elegi_parte_cuento			
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_palabras_o	x		
+2	bicho_bolita:2	read_automatic				
+		questions				
+		questions				
+		questions				
+		questions				
+		questions				
+		elegir_frase	elegi_bicho_bolita			
+		unir	uni_parte_animal			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_empieza_diferente	x		
+		loro_multiple	toca_empieza_diferente	x		
+3	bicho_bolita:3	read_automatic				
+		questions				
+		elegir_frase	elegi_estados_bicho_bolita			
+		repeat_with_card	posiciones_bichos_1			
+		elegir_frase	posiciones_bichos_6			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_termina_o	x		
+4	bicho_bolita:4	read_automatic				
+		questions				
+		questions				
+		ordenar	tip_conta_cuento			
+		labyrinth	laberinto_bicho_bolita			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_repeat	tip_repetir_loro			
+		questions	tip_presentar_letraL2			
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+5	bicho_bolita:5	questions	tip_conversar			
+		questions	aprenderBichos			
+		questions	aprenderBichos			
+		questions	aprenderBichos			
+		unir	uni_insecto_alimento			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		arrastrar_grupos	arrastrar_oso_abeja	x		
+1	zorro_hornero	read_automatic				
+		questions				
+		questions				
+		questions				
+		questions				
+		questions				
+		rompecabezas	tip_rompecabezasL2			
+		rompecabezas	tip_rompecabezasL2			
+		elegir_frase	elegi_quien_hace			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	toca_e	x		
+2	zorro_hornero:2	read_automatic				
+		questions				
+		questions				
+		ordenar				
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_repeat	tip_repetir_loro	x		
+		arrastrar_grupos	arrastrar_elefante_azul	x		
+3	zorro_hornero:3	read_automatic				
+		questions				
+		questions				
+		unir	uni_opuestos			
+		unir	uni_opuestos			
+		labyrinth	laberinto_zorro_hornero			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	deci_toca_diferente	x		
+		loro_multiple	deci_toca_diferente	x		
+		loro_multiple	deci_toca_diferente	x		
+4	zorro_hornero:4	read_automatic				
+		questions	tip_conversar			
+		questions	tip_conversar			
+		ordenar	tip_conta_cuento			
+		falling_objects	toca_diferente			
+		falling_objects	toca_diferente			
+		falling_objects	toca_diferente			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_repeat	tip_repetir_loro			
+		questions	tip_presentar_letraL2			
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+5	zorro_hornero:5	questions				
+		questions	animales_intro			
+		questions	animales_intro			
+		questions	animales_intro			
+		questions	animales_intro			
+		questions	animales_intro			
+		falling_objects	toca_circulos			
+		repeat_with_card				
+		unir	que_palabras_riman			
+		loro_repeat	tip_repetir_loro	x		
+		loro_multiple	toca_termina_e	x		
+1	risa_pajaros	read_automatic				
+		questions				
+		questions				
+		questions				
+		labyrinth	laberinto_ñandu			
+		questions	animales_intro			
+		labyrinth	laberinto_pajarito			
+		escuchar	tip_escucha_cancion			
+		loro_multiple	toca_termina_ave	x		
+2	risa_pajaros:2	read_automatic				
+		questions				
+		elegir_frase	tip_escucha_toca			
+		elegir_frase	tip_escucha_toca			
+		elegir_frase	tip_escucha_toca			
+		elegir_frase	tip_escucha_toca			
+		unir	uni_pajaro_nido			
+		escuchar	tip_escucha_rima			
+		loro_multiple	toca_palabra_termina_a	x		
+3	risa_pajaros:3	read_automatic				
+		questions				
+		ordenar				
+		unir	unir_animales_sonido			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_repeat	tip_repetir_loro	x		
+		letra	escribir_risa	x		
+		letra	escribir_risa	x		
+		letra	escribir_risa	x		
+		letra	escribir_risa	x		
+4	risa_pajaros:4	read_automatic				
+		questions				
+		rompecabezas	rompecabezas_risa_pajaros			
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_time	tip_toca_la_imagenL2	x		
+5	risa_pajaros:5	ordenar	tip_conta_cuento			
+		falling_objects	toca_aves			
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_rima			
+		unir	toca_uni_rima			
+		loro_multiple	toca_r	x		
+		questions	tip_presentar_letraL2	x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+1	pedro_globo	read_automatic				
+		questions				
+		questions				
+		questions				
+		questions				
+		repeat_with_card	presentacion_estaciones			
+		unir	uni_arboles_estaciones			
+		unir	uni_ropa_clima			
+		escuchar	tip_escucha_cancion			
+		painting				
+		questions	tip_escucha			
+		loro_time	tip_toca_la_imagenL2	x	Loro Time: Que libere el continuar despues de 3 o 4 veces.	
+2	pedro_globo:2	read_automatic				
+		questions				
+		rompecabezas	rompecabezas_pedro_globo			
+		falling_objects	toca_cosas_plaza			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	toca_u	x		
+3	pedro_globo:3	read_automatic				
+		questions				
+		questions				
+		ordenar	instruccionesGlobo_1			
+		contar	tip_contar			
+		escuchar	tip_escucha_cancion			
+		painting				
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+4	pedro_globo:4	read_automatic				
+		questions				
+		falling_objects	toca_cosas_vuelan			
+		labyrinth	laberinto_pedro_globo			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_repeat	tip_repetir_loro	x		
+		unir	unir_palabras_iguales	x		
+5	pedro_globo:5	falling_objects	toca_objetos_cuento			
+		elegir_frase	tip_escucha_toca			
+		unir	uni_estados_pedro_globo			
+		unir	que_palabras_riman			
+		loro_repeat	tip_repetir_loro	x		
+		loro_multiple	toca_empieza_diferente	x	Que en Loro_Multiple HAGA LA PASADA. 	
+		loro_multiple	toca_empieza_diferente	x		
+		loro_multiple	toca_empieza_diferente	x		
+1	dia_pesca	read_automatic				
+		questions				
+		repeat_with_card	tip_questions			
+		ordenar				
+		elegir_frase	toca_partes_pez			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple		x		
+2	dia_pesca:2	read_automatic				
+		questions				
+		questions				
+		questions				
+		elegir_frase	toca_partes_caña			
+		unir				
+		painting				
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_repeat	tip_repetir_loro	x		
+		arrastrar_grupos	arrastrar_rio_pez	x		
+3	dia_pesca:3	read_automatic				
+		questions				
+		questions				
+		questions				
+		questions				
+		questions				
+		falling_objects	saco_pablito_rio			
+		falling_objects	saco_pablito_rio_completo			
+		elegir_frase	elegi_dia_pesca			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_empieza_diferente	x		
+		loro_multiple	toca_empieza_diferente	x		
+4	dia_pesca:4	questions	intro_rios			
+		questions	intro_rios			
+		questions	intro_rios			
+		questions	intro_rios			
+		elegir_frase	tip_escucha_toca			
+		elegir_frase	elegi_animales_dia_pesca			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		questions	tip_presentar_letraL2			
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+5	dia_pesca:5	questions	tip_conversar			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		questions	aprender_barquito			
+		unir	unir_estaciones_ropa			
+		contar	contar_dia_pesca			
+		contar	contar_dia_pesca			
+		contar	contar_dia_pesca			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		imagen_palabras	toca_dice	x		
+1	piratas_cantores	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	mira_imagenes			
+		questions	mira_imagenes			
+		questions	mira_imagenes			
+		questions	mira_imagenes			
+		questions	mira_imagenes			
+		questions	mira_imagenes			
+		elegir_frase	elegi_piratas			
+		elegir_frase	elegi_piratas			
+		falling_objects	toca_nohayen_barco			
+		escuchar	tip_escucha_cancion			
+		questions	tip_presentar_letraL2			
+		loro_multiple	toca_empiezan_igual	x		
+2	piratas_cantores:2	read_automatic				
+		questions				
+		elegir_frase	tip_escucha_toca			
+		labyrinth	laberinto_piratas			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		arrastrar_grupos	unir_canario_pirata	x		
+3	piratas_cantores:3	read_automatic				
+		questions	tip_questions			
+		elegir_frase	elegi_emociones_piratas			
+		falling_objects	toca_vehiculos			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_repeat	tip_repetir_loro			
+		unir	unir_palabras_iguales	x		
+		unir	unir_palabras_iguales	x		
+4	piratas_cantores:4	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	intro_coros			
+		questions	intro_coros			
+		questions	intro_coros			
+		questions	intro_coros			
+		questions	intro_coros			
+		questions	intro_coros			
+		contar	contar_piratas_cantores			
+		contar	contar_piratas_cantores			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		questions	tip_escucha			
+		letra		x		
+		letra		x		
+5	piratas_cantores:5	questions	tip_questions			
+		questions	tip_questions			
+		ordenar	tip_ordenar_cuento			
+		memotest_audio	memoria_escondida			
+		repeat_with_card				
+		unir	que_palabras_riman			
+		imagen_palabras	toca_isla	x		
+1	baile	read_automatic				
+		questions				
+		questions				
+		questions				
+		unir	elegi_razon_susto			
+		questions	intro_oso_hormiguero			
+		escuchar	tip_escucha_rima			
+		loro_time	tip_toca_la_imagenL2	x		
+2	baile:2	read_automatic				
+		questions				
+		falling_objects	toca_amenazantes			
+		labyrinth	laberinto_baile_oso			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	toca_palabras_o	x		
+3	baile:3	read_automatic				
+		questions				
+		questions				
+		rompecabezas	rompecabezas_baile			
+		labyrinth	laberinto_baile_oso_2			
+		escuchar	tip_escucha_rima			
+		loro_repeat	tip_repetir_loro	x	Repeat + UNir 	
+		unir	unir_palabras_iguales	x		
+4	baile:4	read_automatic				
+		questions	tip_conversar			
+		elegir_frase	elegi_acciones_oso			
+		rompecabezas	tip_rompecabezasL2			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		questions	tip_letra			
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+5	baile:5	ordenar				
+		questions	tip_conversar			
+		painting	pintar_baile_oso			
+		repeat_with_card	adivinanzas			
+		escuchar	tip_escucha_cancion			
+		questions	tip_escucha			
+		imagen_palabras	toca_dice	x		
+		imagen_palabras	toca_dice	x		
+1	conejo	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		elegir_frase	elegi_parte_cuento			
+		unir	unir_animales_orejas			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	que_palabras_riman	x		
+2	conejo:2	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	intro_pocion			
+		falling_objects	toca_objetos_mago			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		loro_multiple	que_palabras_riman	x		
+		loro_multiple	que_palabras_riman	x		
+		imagen_palabras	toca_dice	x		
+3	conejo:3	read_automatic				
+		questions	tip_questions			
+		ordenar	tip_ordenar_cuento			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		falling_objects	toca_instrumentos_musicales			
+		loro_multiple	que_palabras_riman	x		
+		loro_multiple	que_palabras_riman	x		
+4	conejo:4	read_automatic				
+		questions	tip_questions			
+		elegir_frase	elegi_conejo			
+		memotest	tip_memotestL2			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	toca_empiezan_igual	x		
+		loro_multiple	toca_empiezan_igual	x		
+5	conejo:5	questions	tip_questions			
+		elegir_frase	elegi_hechizos_mago			
+		elegir_frase	unir_conjuros			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+		letra		x		
+1	viaje_espacio	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		contar	tip_contar			
+		contar	tip_contar			
+		contar	tip_contar			
+		escuchar	tip_escucha_rima			
+		completar	tip_completar			
+		completar	tip_completar_solo			
+		questions	tip_presentar_letraL2			
+		loro_multiple	toca_empiezan_igual	x		
+2	viaje_espacio:2	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	planetas_1			
+		rompecabezas	rompecabezas_viaje_espacio			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		loro_multiple	toca_empiezan_igual	x		
+		loro_multiple	toca_empiezan_igual	x		
+		loro_multiple	toca_empiezan_igual	x		
+		loro_multiple	toca_empiezan_igual	x		
+3	viaje_espacio:3	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		unir	uni_transporte_medio			
+		memotest	tip_memotestL2			
+		loro_multiple	tocar_planeta	x		
+		loro_multiple	que_palabras_riman	x		
+4	viaje_espacio:4	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		labyrinth	laberinto_viaje_espacio			
+		elegir_frase	tip_escucha_toca			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		letra	escribir_sol1	x		
+		letra	escribir_sol1	x		
+5	viaje_espacio:5	ordenar	tip_conta_cuento			
+		elegir_frase	adivinanzas			
+		falling_objects	toca_cosas_cielo			
+		loro_repeat	tip_repetir_loro	x		
+		unir	que_palabras_riman	x		
+		imagen_palabras	escribir_sol	x		
+1	genio_botella	read_automatic				
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	tip_questions			
+		questions	intro_desierto			
+		questions	intro_desierto			
+		questions	intro_desierto			
+		escuchar	tip_escucha_cancion			
+		loro_repeat	tip_repetir_loro	x		
+		loro_multiple	toca_empieza_mar	x		
+2	genio_botella:2	read_automatic				
+		questions				
+		falling_objects	toca_cosas_protegerse_sol			
+		questions	intro_camello			
+		questions	intro_camello			
+		questions	intro_camello			
+		questions	intro_camello			
+		questions	intro_camello			
+		rompecabezas	rompecabezas_genio_botella			
+		escuchar	tip_escucha_cancion			
+		loro_repeat	tip_repetir_loro	x		
+		unir	unir_palabras_iguales	x		
+3	genio_botella:3	read_automatic				
+		questions				
+		labyrinth	laberinto_genio_botella			
+		contar	contar_genio_botella			
+		escuchar	tip_escucha_cancion			
+		loro_multiple		x		
+4	genio_botella:4	read_automatic				
+		questions				
+		elegir_frase	elegi_genio_botella			
+		falling_objects	toca_cosas_desierto			
+		escuchar	tip_escucha_cancion			
+		questions	tip_presentar_letraL2			
+		letra	escribir_genio_botella	x		
+		letra	escribir_genio_botella	x		
+5	genio_botella:5	ordenar				
+		repeat_with_card	adivinanzas			
+		falling_objects	tocar_cosas_vuelan			
+		escuchar	tip_escucha_cancion			
+		completar	completa_cancion			
+		completar	completa_cancion_solo			
+		imagen_palabras	leer_mar	x		

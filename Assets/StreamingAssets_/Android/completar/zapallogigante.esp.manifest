@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1034251425
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46bdd9e9cfd8e55eb49685be37ee9526
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/zapalloGigante/1a.wav
+- Assets/Resuources_in_bundles/completar/zapalloGigante/2a.wav
+- Assets/Resuources_in_bundles/completar/zapalloGigante/1b.wav
+- Assets/Resuources_in_bundles/completar/zapalloGigante/2b.wav
+Dependencies: []

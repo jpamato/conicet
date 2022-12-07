@@ -1,0 +1,789 @@
+story_id	memotest	Questions: generic_texts_id	Simon	Falling-Objects	Unir (par 1,2 .. 2,3 ...etc)	loro_time	loro_repeat	memotestAudio	escuchar	repetir con tarjeta	painting	elegir_frase	labyrinth	rompecabezas	completar (type_carpeta_character)	letra	contar	ordenar	loro_multiple: audio (es el estimulo)-bien(lista)-mal(lista)	arrastrar_grupos	objeto_diferente	imagen_palabras	chico_multiple
+animales_de_dany	perro	categoriaAnimales_1							cancion_sonidoAnimales_1			perro											
+	gato	laminaDanyAnimales_4:2										gato											
+	gallina	laminaDanyAnimales_5:2										pollito											
+	pollito	laminaDanyAnimales_1:3										gallina											
+																							
+																							
+animales_de_dany:2	caballo	laminaDanyAnimales_1			caballo					perro		perro	pollito										
+	gallina	danyAnimales3_2:2			gallina					gato		gallina	gallina										
+	chancho	danyAnimales4_3:3			chancho					pollito		pollito	chancho										
+					burro					gallina		gato											
+																							
+																							
+																							
+animales_de_dany:3	mono	categoriaAnimales2_1							cancion_categoriaAnimales2	araña		araña											
+	elefante	categoriaAnimales2_2							cancion_animalesDany@El Sapito:2	jirafa		elefante											
+	araña									oveja		oveja											
+	oveja									pato		mono											
+animales_de_dany:4		categoriaAnimales2_2						elefante	cancion_animalesDany@El Sapito	elefante	sapo_paint	elefante											
+								mono		mono		mono											
+								oveja		oveja		oveja											
+								araña		araña		araña											
+																							
+animales_de_dany:5	elefante	danyAnimales2_4		perro																			
+	gallina	danyAnimales4_5:2		gato																			
+	pollito	animalesGranja_2:3		gallina																			
+	araña			pollito																			
+				-																			
+				jirafa																			
+				sapo																			
+				elefante																			
+animales_de_dany:6	blanco	danyAnimales2_7																ordenaSecuencia					
+	amarillo	danyAnimales3_8:2																ordenarGallina1,ordenarGallina2,ordenarGallina3					
+	verde	danyAnimales4_9:3																					
+	color_naranja	danyAnimales4_10:3																					
+		laminaDanyAnimales_6:4																					
+																							
+																							
+																							
+																							
+animales_de_dany:7		categoriaColores_1							cancion_animalesDany2@Los pollitos	color_naranja		blanco											
+										amarillo		verde											
+										blanco		color_naranja											
+										verde		amarillo											
+animales_de_dany:8	marron	danyAnimales2_7									dany_animales_paint	gallinaContenta											
+	negro	danyAnimales3_8:2										gallinaEnojada											
+	rojo	danyAnimales4_11:3																					
+	azul																						
+animales_de_dany:9									cancion_animalesDany2@Los pollitos	marron	pollito_paint	marron									caballoAzul		perro
+										negro		negro									caballoRojo		gato
+										rojo		rojo									burroVerde:2		verde:2
+										azul		azul									burroAmarillo:2		azul:2
+																					chivoNegro:3		plato:3
+																					chivoNaranja:3		cuchillo:3
+animales_de_dany:10	amarillo	colores_1			gallina_amarilla													ordenaSecuencia					
+	rojo				pollito_amarillo													ordenarDanyAnimales1,ordenarDanyAnimales2,ordenarDanyAnimales3					
+	verde				gallina_marron																		
+	azul				pollito_marron																		
+					gallina_roja																		
+					pollito_rojo																		
+rulitos		oso_4							cancion_categoriaAnimales2		oso_paint				sonido_animales_monte								
+		oso_5							cancion_rulitos@Tengo un osito:2														
+		oso_6																					
+		oso_7																					
+		rulitos1_1:2																					
+		rulitos2_2:3																					
+		rulitos3_3:4																					
+																							
+																							
+																							
+rulitos:2		abejaSizes1_1							cancion_rulitos@Tengo un osito												elefante_chico		abeja_chica
+		abejaSizes2_2:2																			elefante_grande		-
+		abejaSizes3_3:3																			chancho_grande:2		abeja_mediana
+		caballoSizes1_1:4																			chancho_chico:2		abeja_grande
+		caballoSizes2_2:5																			loro_chico:3		caballo_mediano:2
+		caballoSizes3_3:6																			loro_grande:3		-:2
+		patoSizes1_1:7																					caballo_chico:2
+		patoSizes2_2:8																					caballo_grande:2
+		patoSizes3_3:9																					pato_grande:3
+		osito_8:10																					-:3
+		osito_9:10																					pato_mediano:3
+																							pato_chico:3
+																							caballo_grande:4
+																							-:4
+																							pato_chico:4
+																							caballo_chico:4
+																							abeja_chica:4
+rulitos:3		rulitos2_4			osito				rima_rulitos				rulitos										
+		rulitos2_5			pollito								casa										
+		rulitos2_6			gato								bosque										
+		rulitos4_8:2			pato																		
+		rulitos4_9:2																					
+		diferenciasRulitos_1:3																					
+																							
+																							
+rulitos:4				caballo_grande					rima_rulitos	gallo_chico		gallo_mediano			1_rulitos_Nasheli@rima_rulitos								gallo_chico
+				caballo_grande						gallo_mediano		gato_grande			2_rulitos_Mujer@rima_rulitos:2								-
+				caballo_grande						gallo_grande		oveja_chica											gallo_mediano
+				-						gato_chico													gallo_grande
+				caballo_chico						gato_mediano													gato_mediano:2
+				caballo_chico2						gato_grande													-:2
+										oveja_chica													gato_chico:2
+										oveja_mediana													gato_grande:2
+										oveja_grande													oveja_grande:3
+																							-:3
+																							oveja_chica:3
+																							oveja_mediana:3
+rulitos:5		rulitos8_10		oso_chico						oveja													
+		rulitos9_11:2		oso_grande						araña													
+		rulitos10_12:3		oso_mediano						gato													
+		rulitos5_13:4		-						gallo													
+		animalesSalvajes_3:5		caballo						sapo													
+				gato						elefante													
+				oveja						abeja													
+rulitos:6		rulitos6_14							rima_rulitos_2			cama_grande											cama_chica
+		rulitos7_15:2										silla_chica											-
+		categoriaObjetosCasa_1:3										vaso_mediano											cama_mediana
+		camaSizes1_1:4																					cama_grande
+		camaSizes2_2:5																					silla_mediana:2
+		camaSizes3_3:6																					-:2
+		sillaSizes1_1:7																					silla_chica:2
+		sillaSizes2_2:8																					silla_grande:2
+		sillaSizes3_3:9																					vaso_grande:3
+		vasoSizes1_1:10																					-:3
+		vasoSizes2_2:11																					vaso_chico:3
+		vasoSizes3_3:12																					vaso_mediano:3
+rulitos:7	cama								rima_rulitos_2	cama	rima_rulitos_paint	cama											
+	silla									silla		silla											
+	mesa									mesa		mesa											
+	lampara									lampara		lampara											
+rulitos:8		rulitos2_16			gato				rima_rulitos_2			contento											
+		rulitos4_17:2			pato							sorprendido											
+		rulitos4_18:2			gallo							enojado											
+		rulitos5_19:3			caballo																		
+		rulitos5_20:3																					
+		rulitos6_21:4																					
+		rulitos7_22:5																					
+		osoEstados_1:6																					
+rulitos:9		objetosCasa_1	cama						rima_rulitos_2	cama					1_rulitos2_Nasheli@rima_rulitos_2			ordenaSecuencia					
+			silla							silla					2_rulitos2_Mujer@rima_rulitos_2:2			ordenarRulitos1,ordenarRulitos2,ordenarRulitos3,ordenarRulitos4					
+			mesa							mesa													
+										lampara													
+rulitos:10	cama	empty			oso_chico							cama				_bej_							
+	silla	objetosCasa2_1:2			vaso_chico							silla				a,e,i							
+	mesa				oso_mediano							mesa				abeja@inicio							
+	lampara				vaso_mediano							lampara				_BEJ_:2							
+					oso_grande											A,E,I:2							
+					vaso_grande											abeja@inicio:2							
+					oso_chico:2											_lefante:3							
+					silla_chica:2											e,a,o:3							
+					oso_mediano:2											elefante@inicio:3							
+					silla_mediana:2											_LEFANTE:4							
+					oso_grande:2											E,A,O:4							
+					silla_grande:2											elefante@inicio:4							
+					oso_chico:3																		
+					cama_chica:3																		
+					oso_mediano:3																		
+					cama_mediana:3																		
+					oso_grande:3																		
+					cama_grande:3																		
+integracion	gallina	danyAnimales5_12							cancion_integracion1@Tengo algo amarillo		pato_paint	danyAsustado											
+	rojo											danyContento											
+	pollito																						
+	azul																						
+integracion:2	araña	empty							rima_integracion_1														
+	elefante	laminaDanyAnimales_13:2																					
+	verde	laminaDanyAnimales_14:2																					
+	amarillo	danyAnimales4_15:3																					
+		danyAnimales4_16:3																					
+																							
+integracion:3		animalesSalvajes2_3							rima_integracion_1		integracion1_paint										elefante		
+																					elefante_amarillo		
+																					burro_grande:2		
+																					burro_chico:2		
+																					perro:3		
+																					perro_mediano_naranja:3		
+integracion:4	silla	rulitos5_25			gallo				rima_integracion_1														
+	amarillo	rulitos6_26:2			zapallo																		
+	mesa	rulitos6_27:2			pato																		
+	azul	objetosCasa2_1:3			plato																		
+integracion:5		empty		gallina					rima_integracion_1						1_integracion1_Nasheli@rima_integracion_1								perro_mediano_naranja
+				pollito											2_integracion1_Mujer@rima_integracion_1:2								-
+				caballo																			caballo_grande_azul
+				burro																			gato_chico_verde
+				perro																			loro_chico_rojo:2
+				gato																			-:2
+				-																			loro_grande_amarillo:2
+				silla																			burro_grande_marron:2
+				mesa																			gallina_grande_azul:3
+				cama																			-:3
+				lampara:2																			gallina_grande_verde:3
+				plato:2																			chivo_chico_azul:3
+				biblioteca:2																			mono_chico_amarillo:4
+				tacho_basura:2																			-:4
+				-:2																			mono_grande_amarillo:4
+				burro:2																			chancho_chico_celeste:4
+				perro:2																			
+				gato:2																			
+amigos_de_dany		categoriaJuguetes_1							cancion_danyAmigos10@Hola Manola														
+		danyAmigos_2:2																					
+		danyAmigos_3:2																					
+		danyAmigos_4:2																					
+		danyAmigos_7:3																					
+		danyAmigos_8:3																					
+		danyAmigos_5:4																					
+		danyAmigos_6:4																					
+amigos_de_dany:2	muñeca	loroUriel_1							rima_dany_amigos_1	muñeca							pelota						
+	avion	loroUriel_2								avion							3,5,7						
+	soga	loroUriel_3								soga													
+	auto	loroUriel_4								pelota													
+		loroUriel_5								auto													
+		loroUriel_6																					
+		loroUriel_7																					
+																							
+amigos_de_dany:3		danyAmigos2_2					oso@inicio		rima_dany_amigos_1		rima_danyamigos_paint	soga											
+		danyAmigos2_3					mesa@inicio					avion											
+		danyAmigos6_4:2					araña@inicio					muñeca											
+												auto											
+																							
+																							
+amigos_de_dany:4		danyLucasAlan_1	avion				silla@inicio		rima_dany_amigos_1	loro_silla		frase_camion					pelota						
+		danyLucasAlan_2	soga				azul@inicio			loro_azul		frase_pelota_3					4,5,6						
+		danyLucasAlan_3	auto				abeja@inicio			loro_abeja													
+																							
+																							
+amigos_de_dany:5		danyAmigos2_2		avion		oso@inicio	araña@inicio		rima_dany_amigos_1						1_danyAmigos_Dany@rima_dany_amigos_1								
+		danyAmigos6_4:2		muñeca		sapo@inicio	oso@inicio		rima_palabras_loro1:2						2_danyAmigos_Mujer@rima_dany_amigos_1:2								
+		danyAmigos3_5:3		auto		araña@inicio	sapo@inicio																
+		danyAmigos4_6:4		soga																			
+		juguetes_1:5		-																			
+				perro																			
+				pollito																			
+				burro																			
+				caballo:2																			
+				gallina:2																			
+				abeja:2																			
+				-:2																			
+				bolitas:2																			
+				auto:2																			
+				camion:2																			
+amigos_de_dany:6		danyAmigos6_4					silla@inicio		cancion_danyamigos@La Vaca Lola														
+		danyAmigos3_5:2					muñeca@inicio																
+		danyAmigos5_7:3					abeja@inicio																
+		nenesActividades_1:4																					
+		nenesActividades_2:4																					
+		categoriaPartesCuerpo_1:5																					
+		vacaLola_1:6																					
+		vacaLola_2:6																					
+																							
+amigos_de_dany:7	cabeza									cabeza		cabeza		cuerpo_adelante									
+	mano									mano		mano											
+	pie									pie		espalda											
+	pecho									pecho		pecho											
+										espalda													
+amigos_de_dany:8		danyAmigos6_4					mono@inicio		rima_dany_amigos_2		rima_danyamigos2_paint												
+		danyAmigos4_8:2					avion@inicio																
+		danyAmigos5_9:3					elefante@inicio																
+		danyAmigos5_10:3																					
+		danyLucasAlanpt2_1:4																					
+		danyLucasAlanpt2_2:4																					
+		danyLucasAlanpt2_3:4																					
+		categoriaPartesCuerpo_2:5																					
+amigos_de_dany:9			mano				muñeca@inicio	mano	rima_dany_amigos_2			frase_hamaca	dany					ordenarMensaje					
+			pie				auto@inicio	pie				frase_cola2	pelota					ordenarDanyAmigos1,ordenarDanyAmigos2,ordenarDanyAmigos3,ordenarDanyAmigos4					
+			pecho				soga@inicio	pecho					camion										
+amigos_de_dany:10		empty				avion@inicio	soga@inicio		rima_dany_amigos_2			muñecaGrandeRosa			1_danyAmigos2_Nasheli@rima_dany_amigos_2								
+		amigos_1:2				soga@inicio	muñeca@inicio		rima_palabras_loro2:2			avionGrandeRojo			2_danyAmigos2_Mujer@rima_dany_amigos_2:2								
+		amigos_2:2				muñeca@inicio	avion@inicio					pelotaChicaAzul											
+		amigos_3:2										autoGrandeAmarillo											
+		amigos_4:2																					
+		amigos_5:2																					
+		amigos_6:2																					
+																							
+																							
+																							
+																							
+																							
+liebre_tortuga		nenesJuegan_1					abeja@inicio		cancion_liebre_tortuga@Debajo de un botón														
+		liebreTortuga_1:2					auto@inicio																
+		liebreTortuga_2:2					amarillo@inicio																
+		liebreTortuga1_1:3																					
+		liebreTortuga1_2:3																					
+		liebreTortuga2_3:4																					
+liebre_tortuga:2		categoriaRopa_1			cabeza					ojotas		remera											
+					gorro					remera		pantalon											
+					pie					medias		ojotas											
+					zapatilla					pantalon		gorro											
+					pierna					gorro													
+					pantalon																		
+					pecho																		
+					camisa																		
+liebre_tortuga:3	pantalon	liebreTortuga1_4		araña	nena_unir		azul@inicio		rima_liebre_tortuga_1		raton_paint								azul@inicio				
+	remera	liebreTortuga2_5:2		avion	gorra_rojo		mesa@inicio												araña@inicio				
+	ojotas	liebreTortuga3_6:3		-	nene_unir		araña@inicio												-				
+	gorro	unirRopa_1:4		mesa	gorra_verde		avion@inicio												mesa@inicio				
+					nena_unir:2																		
+					pantalon_amarillo:2																		
+					nene_unir:2																		
+					pantalon_azul:2																		
+					nena_unir:3																		
+					remera_negro:3																		
+					nene_unir:3																		
+					remera_rojo:3																		
+					nena_unir:4																		
+					zapatillas_marron:4																		
+					nene_unir:4																		
+					zapatillas_blanco:4																		
+liebre_tortuga:4		liebreEstados_1	gorro				avion@inicio		rima_liebre_tortuga_1			frase_raton				_vión							
+		ropa_1:2	remera				azul@inicio					frase_boton				a							
+		letraAL2_1:3	medias				araña@inicio									avion@inicio							
+		letraAL2_2:3														_VIÓN:2							
+																A:2							
+																avion@inicio:2							
+																_zul:3							
+																a:3							
+																azul@inicio:3							
+																_ZUL:4							
+																A:4							
+																azul@inicio:4							
+																_r_ñ_:5							
+																a:5							
+																araña@inicio:5							
+																_R_Ñ_:6							
+																A:6							
+																araña@inicio:6							
+liebre_tortuga:5		liebreTortuga1_7		pantalon_amarillo			abeja@inicio		rima_liebre_tortuga_1			ojotasMedianasVerdes			1_liebreTortuga_Dany@rima_liebre_tortuga_1	_beja	pantalon						pantalon_amarillo
+		liebreTortuga7_8:2		pantalon_amarillo			auto@inicio					mediasGrandesAmarillas			2_liebreTortuga_Mujer@rima_liebre_tortuga_1:2	a	4,6,8						-
+		liebreTortuga5_9:3		pantalon_amarillo			cama@inicio					pantalonGrandeAmarillo				abeja@inicio							pantalon_azul
+				pantalon_amarillo												_BEJA:2							remera_rojo:2
+				-												A:2							-:2
+				remera												abeja@inicio:2							remera_negro:2
+				gorra												_uto:3							ojotasMedianasVerdes:3
+				medias												a:3							-:3
+																auto@inicio:3							ojotas_blancas:3
+																_UTO:4							ojotas_marrones:3
+																A:4							mediasGrandesAmarillas:4
+																auto@inicio:4							-:4
+																c_m_:5							mediasGrandesRojas:4
+																a:5							
+																cama@inicio:5							
+																C_M_:6							
+																A:6							
+																cama@inicio:6							
+liebre_tortuga:6		liebreTortuga2_7								luna			tortuga										
+		liebreTortuga6_10:2								sol			meta										
+		liebreTortuga5_11:3								estrella			lago										
+		diferenciasLiebreTortuga_2:4								nube													
+		diferenciasLiebreTortuga_3:4																					
+liebre_tortuga:7	luna	cielos_1		nube			avion@inicio		cancion_liebre_tortuga_2@Juguemos en el bosque		ropa_paint						nube						
+	sol			-			oveja@inicio										3,5,8						
+	estrella			estrella			marron@inicio																
+	nube			sol																			
+				luna																			
+liebre_tortuga:8		liebreTortuga2_7					oveja@inicio		rima_liebre_tortuga_2		integracion3_paint	sol							oso@inicio				
+		liebreTortuga5_11:2					ojotas@inicio					luna							oveja@inicio				
+		liebreTortuga4_12:3					oso@inicio					estrella							ojotas@inicio				
+		categoriaObjetosEstelares_1:4					espalda@inicio					nube							-				
+																			espalda@inicio				
+liebre_tortuga:9		letraOL2_1	luna	estrella	luna		oveja@inicio		rima_liebre_tortuga_2			frase_luna				_veja	estrella	ordenarMensaje					
+		letraOL2_2	sol	estrella	numero1		ojotas@inicio					frase_sol_2				o	4,6,8	ordenarLiebreTortuga1,ordenarLiebreTortuga2,ordenarLiebreTortuga3					
+			nube	estrella	sol		oso@inicio									oveja@inicio							
+				estrella	caracol											_VEJA:2							
+				-												O:2							
+				nube												oveja@inicio:2							
+				sol												_jotas:3							
+				luna												o:3							
+																ojotas@inicio:3							
+																_JOTAS:4							
+																O:4							
+																ojotas@inicio:4							
+																_s_:5							
+																o:5							
+																oso@medio:5							
+																_S_:6							
+																O:6							
+																oso@medio:6							
+liebre_tortuga:10		empty		avion					rima_liebre_tortuga_2			solGrandeAmarillo			1_liebreTortuga2_Nasheli@rima_liebre_tortuga_2	m_n_							solGrandeAmarillo
+				titere								lunaChicaRoja			2_liebreTortuga2_Mujer@rima_liebre_tortuga_2:2	o							-
+				pelota								lunaGrandeVerde				mono@medio							lunaChicaRoja
+				muñeca								solChicoAzul				M_N_:2							lunaGrandeVerde:2
+				bolitas												O:2							-:2
+				auto												mono@medio:2							solChicoAzul:2
+				-												r_j_:3							solChicoAzul:3
+				gorro												o:3							-:3
+				medias												rojo@medio:3							lunaChicaRoja:3
+				remera												R_J_:4							lunaChicaRoja:4
+				pantalon:2												O:4							-:4
+				zapato:2												rojo@medio:4							solGrandeAmarillo:4
+				gorro:2												l_r_:5							
+				medias:2												o:5							
+				remera:2												loro@medio:5							
+				pollera:2												L_R_:6							
+				-:2												O:6							
+				muñeca:2												loro@medio:6							
+				bolitas:2																			
+				robot:2																			
+integracion_2	autoGrandeAmarillo	danyAmigos6_11			autoGrandeAmarillo		mano@inicio		rima_integracion_2		integracion2_paint	lucasAlanAsustados							mano@inicio				
+	muñeca_chica_verde	danyAmigos7_12:2			amarillo		mesa@inicio					lucasAlanContentos							mesa@inicio				
+	avionGrandeRojo				muñeca_chica_verde		azul@inicio												mono@inicio				
+	pelota_chicaAzul				verde		mono@inicio												muñeca@inicio				
+					avionGrandeRojo														-				
+					rojo														araña@inicio				
+																			azul@inicio				
+																							
+																							
+																							
+integracion_2:2		empty		bolitas	mano		mesa@inicio		rima_integracion_2			frase_camion											
+		juguetes_1:2		camion	mesa		mano@inicio					frase_muñeca											
+				robot	azul		azul@inicio																
+				titere	araña		araña@inicio																
+				pelota																			
+				osoPeluche																			
+				-																			
+				remera																			
+				pantalon																			
+				pollera																			
+				mesa																			
+				silla																			
+				biblioteca																			
+				perro																			
+				gato																			
+				raton																			
+integracion_2:3		cielos_1							cancion_animales_integracion		integracion3_paint				1_integracion2_Dany@rima_integracion_2	_ano							
+		letraML2_1:2							rima_integracion_2:2						2_integracion2_Mujer@rima_integracion_2:2	m							
+		letraML2_2:2														mano@inicio							
+																_ANO:2							
+																M:2							
+																mano@inicio:2							
+																_ono:3							
+																m:3							
+																mono@inicio:3							
+																_ONO:4							
+																M:4							
+																mono@inicio:4							
+																_esa:5							
+																m:5							
+																mesa@inicio:5							
+																_ESA:6							
+																M:6							
+																mesa@inicio:6							
+integracion_2:4		liebreTortuga3_13									integracion4_paint	liebreSorprendida											
+		ropas_1:2									integracion5_paint:2	liebreCansada											
+		ropas_2:2										liebreContenta											
+		muñecaColores_1:3																					
+		muñecaColores_2:3																					
+		muñecaColores_3:3																					
+																							
+																							
+																							
+integracion_2:5		empty		cama			muñeca@inicio		cancion_integracion2@El gallo pinto		integracion6_paint					_uñeca					pelota		
+				mesa			medias@inicio									m					perro		
+				silla			cama@inicio									muñeca@inicio					perro:2		
+				biblioteca												_UÑECA:2					cabeza:2		
+				escoba												M:2					mano:3		
+				-												muñeca@inicio:2					auto:3		
+				caballo												_edias:3					mesa:4		
+				chancho												m:3					amarillo:4		
+																medias@inicio:3					remera:5		
+																_EDIAS:4					silla:5		
+																M:4					gato:6		
+																medias@inicio:4					ojotas:6		
+																ca_a:5							
+																m:5							
+																cama@medio:5							
+																CA_A:6							
+																M:6							
+																cama@medio:6							
+familia_dany		danyFamilia_1			ojotas		ojotas@inicio		cancion_danyfamilia@El oso y el osito	mama													
+		danyFamilia_2			oveja		muñeca@inicio			padre													
+		danyFamilia_12:2			muñeca		oveja@inicio			abuelo													
+		danyFamilia_13:3			mesa		mesa@inicio			abuela													
+		danyFamilia_110:3																					
+		danyFamilia_2:3																					
+		osoOsito_1:4																					
+		osoOsito_2:4																					
+familia_dany:2	mama	danyFamilia2_3			amarillo		amarillo@inicio		rima_dany_familia_1														
+	padre	danyFamilia2_4			auto		mono@inicio																
+	abuelo	danyFamilia2_5			mono		auto@inicio																
+	abuela	danyFamilia2_6			mano		mano@inicio																
+familia_dany:3		danyAbuelo_9					oso@final		rima_dany_familia_1	diferenciasDanyFamilia_1	danyFamilia_paint					_s_							
+		danyFamilia1_7:2					gorro@final			diferenciasDanyFamilia_2						o							
+		corralAnimales_1:3					araña@final									oso@medio							
+							lampara@final									_S_:2							
+							marron@final									O:2							
+							cama@final									oso@medio:2							
+																_r_ñ_:3							
+																a:3							
+																araña@medio:3							
+																_R_Ñ_:4							
+																A:4							
+																araña@medio:4							
+																ca_a:5							
+																m:5							
+																cama@medio:5							
+																CA_A:6							
+																M:6							
+																cama@medio:6							
+																_arrón:7							
+																m:7							
+																marron@inicio:7							
+																_ARRÓN:8							
+																M:8							
+																marron@inicio:8							
+																g_rr_:11							
+																o:11							
+																gorro@medio:9							
+																G_RR_:12							
+																O:12							
+																gorro@medio:10							
+familia_dany:4		perritoLugares_1					sol@inicio		rima_dany_familia_1	gatoAdentroCaja		gatoAdentroCaja											
+							luna@inicio			perroArribaSilla		gatoAbajoSilla											
+							estrella@inicio			gatoAbajoSilla		perroArribaSilla											
+										perroAfueraCaja		perroAfueraCaja											
+												frase_gallina:2											
+												frase_corral:2											
+familia_dany:5		danyFamilia2_6				luna@inicio	sol@inicio		rima_dany_familia_1				chivo		1_danyFamilia_Nasheli@rima_dany_familia_1								
+		danyFamilia3_4:2				sol@inicio	estrella@inicio		rima_palabras_loro3:2				corral		2_danyFamilia_Mujer@rima_dany_familia_1:2								
+						estrella@inicio	nube@inicio						bosque										
+							luna@inicio																
+familia_dany:6		danyFamilia4_5					elefante@inicio		rima_dany_familia_2														
+		danyFamilia4_6					sapo@inicio																
+		danyFamilia_8:2					loro@inicio																
+		danyFamilia_9:2																					
+		categoriaObjetosCasa2_1:3																					
+familia_dany:7	olla			cuchara	elefante		elefante@inicio		rima_dany_familia_2	olla	rima_dany_familia_2						cuchara						
+	mortero			-	estrella		silla@inicio			mortero							4,7,9						
+	jarra			cuchillo	silla		estrella@inicio			jarra													
+	pava			tenedor	sapo		sapo@inicio			pava													
+				vaso_agua						cuchara													
+				plato																			
+familia_dany:8		danyFamilia2_7							rima_dany_familia_2			olla				_lefante							
+		danyFamilia2_8										plato				e							
+		objetosCasa4_1:2										mortero				elefante@inicio							
+		letraE_1:3										parrilla				_LEFANTE:2							
+		letraE_2:3										frase_mano:2				E:2							
+												frase_cabeza:2				elefante@inicio:2							
+																_strella:3							
+																e:3							
+																estrella@inicio:3							
+																_STRELLA:4							
+																E:4							
+																estrella@inicio:4							
+																m_sa:5							
+																e:5							
+																mesa@medio:5							
+																M_SA:6							
+																E:6							
+																mesa@medio:6							
+familia_dany:9			pava	jarra			estrella@inicio					cuchilloGrandeAmarillo				_l_fant_	jarra	ordenarMensaje					
+			olla	jarra			elefante@inicio					tenedorChicoNaranja				e	5,8,10	ordenarDanyFamilia1,ordenarDanyFamilia2,ordenarDanyFamilia3					
+			plato	jarra			verde@inicio					ollaMedianaAzul				elefante@medio							
+				jarra												_L_FANT_:2							
+				jarra												E:2							
+				-												elefante@medio:2							
+				cuchara												_strella:3							
+				pava												e:3							
+				parrilla												estrella@inicio:3							
+																_STRELLA:4							
+																E:4							
+																estrella@inicio:4							
+																v_rd_:5							
+																e:5							
+																verde@medio:5							
+																V_RD_:6							
+																E:6							
+																verde@medio:6							
+familia_dany:10		empty		parrilla	araña		araña@inicio		rima_dany_familia_2						1_danyFamilia2_Nasheli@rima_dany_familia_2							olla	cuchilloGrandeAmarillo
+		familia_1:2		cuchillo	palabra_araña		mono@inicio								2_danyFamilia2_Mujer@rima_dany_familia_2:2							azul	-
+		familia_2:2		cuchara	mono		amarillo@inicio															araña:2	ollaMedianaAzul
+				olla	palabra_mono		ojotas@inicio															mono:2	tenedorChicoNaranja:2
+				jarra	ojotas																	ojotas:3	-:2
+				-	palabra_ojotas																	amarillo:3	cuchilloGrandeAmarillo:2
+				remera	amarillo																		ollaMedianaAzul:3
+				pollera	palabra_amarillo																		-:3
+				pantalon																			tenedorChicoNaranja:3
+				medias:2																			
+				zapato:2																			
+				buzo:2																			
+				-:2																			
+				jarra:2																			
+				mortero:2																			
+				cuchara:2																			
+caperucita_roja_l2		caperucitaRoja_1					silla@inicio		rima_caperucita_roja_l2_1			frase_escuela											
+		caperucitaRoja_2					olla@inicio					frase_caramelo											
+		caperucitaRoja_3					luna@inicio																
+		caperucitaRoja1_1:2																					
+		caperucitaRoja2_2:3																					
+		categoriaAlimentos_1:4																					
+caperucita_roja_l2:2	sopa	caperucitaRoja2_3					silla@inicio		rima_caperucita_roja_l2_1	sopa					1_caperucitaL2pt2_Dany@rima_caperucita_roja_l2_1				sol@inicio				
+	leche	caperucitaRoja3_4:2					mortero@inicio			agua					2_caperucitaL2pt2_Mujer@rima_caperucita_roja_l2_1:2				silla@inicio				
+	agua	caperucitaRoja33_5:3					sapo@inicio			miel									sapo@inicio				
+	miel	caperucitaRoja33_6:3					sol@inicio			empanadas									-				
+										leche									mortero@inicio				
+caperucita_roja_l2:3		caperucitaRojapt2_1							cancion_caperucita_10@Por aquí pan, por aquí miel.		cancion_caperucita_paint	leche				_apo							
+		caperucitaRojapt2_2										empanadas				s							
+		caperucitaRojapt2_3										sopa				sapo@inicio							
+		caperucitaRojapt2_4										agua				_APO:2							
+		alimentos_2:2														S:2							
+		letraS2_1:3														sapo@inicio:2							
+		letraS2_2:4														_ol:3							
+																s:3							
+																sol@inicio:3							
+																_OL:4							
+																S:4							
+																sol@inicio:4							
+																_illa:5							
+																s:5							
+																silla@inicio:5							
+																_ILLA:6							
+																S:6							
+																silla@inicio:6							
+caperucita_roja_l2:4		caperucitaRojapt2_7	sopa				sopa@inicio		rima_caperucita_roja_l2_2			frase_banana	caperucita			_oga							
+		caperucitaRojapt2_8	leche				soga@inicio					frase_pan	casa			s							
+		caperucitaRojapt2_9	agua				vaso_agua@inicio						bosque			soga@inicio							
+		caperucitaRoja3_10:2					mesa@inicio									_OGA:2							
+																S:2							
+																soga@inicio:2							
+																_opa:3							
+																s:3							
+																sopa@inicio:3							
+																_OPA:4							
+																S:4							
+																sopa@inicio:4							
+																va_o:5							
+																s:5							
+																vaso@medio:5							
+																VA_O:6							
+																S:6							
+																vaso@medio:6							
+																me_a:7							
+																s:7							
+																mesa@final:7							
+																ME_A:8							
+																S:8							
+																mesa@final:8							
+caperucita_roja_l2:5		caperucitaRojapt3_1		manzana					rima_caperucita_roja_l2_2		cinco_ratoncitos_paint				1_caperucitaL2_Nasheli@rima_caperucita_roja_l2_2		manzana					avion	
+		caperucitaRojapt3_2		manzana											2_caperucitaL2_Mujer@rima_caperucita_roja_l2_2:2		2,6,7					loro	
+		caperucitaRojapt3_3		manzana																		elefante:2	
+		alimentos_2:2		-																		abeja:2	
+				banana																		auto:3	
+				naranja																		mono:3	
+				uvas																			
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+caperucita_roja_l2:6		caperucitaRoja5_11					leche@inicio		cancion_caperucitaL2@Cinco Ratoncitos			caperucitaContentaL2_2											
+		caperucitaRoja56_12:2					luna@inicio					caperucitaSorprendidaL2											
+		caperucitaRoja56_13:2					olla@inicio					caperucitaAsustadaL2											
+		caperucitaRoja6_14:3																					
+		diferenciasCaperucita_1:4																					
+caperucita_roja_l2:7	boca						loro@inicio		cancion_caperucitaL2@Cinco Ratoncitos	frente	cinco_ratoncitos_paint	abuelaOrejas							loro@inicio				
+	ojos						leche@inicio			ojos		abuelaNariz							leche@inicio				
+	nariz						lampara@inicio			nariz		abuelaBoca							luna@inicio				
+	oreja						olla@inicio			oreja									lampara@inicio				
+																			-				
+																			olla@inicio				
+caperucita_roja_l2:8		caperucitaRoja6_15							cancion_caperucitaL2@Cinco Ratoncitos			boca				_una							
+		caperucitaRoja7_16:2										oreja				l							
+		caperucitaRoja8_17:3										nariz				luna@inicio							
+		caperucitaRoja8_18:4										frente				_UNA:2							
+		categoriaPartesCara_1:5														L:2							
+		cincoRatoncitos_1:6														luna@inicio:2							
+		cincoRatoncitos_2:6														_eche:3							
+		cincoRatoncitos_3:6														l:3							
+		letraL_1:7														leche@inicio:3							
+		letraL_2:7														_ECHE:4							
+																L:4							
+																leche@inicio:4							
+																_oro:5							
+																l:5							
+																loro@inicio:5							
+																_ORO:6							
+																L:6							
+																loro@inicio:6							
+caperucita_roja_l2:9			boca				lampara@inicio		rima_caperucita_roja_l2_3			escucharteMejor				_ámpara		ordenarMensaje					
+			ojos				azul@final					olerteMejor				l		ordenarCaperucitaRojaL21,ordenarCaperucitaRojaL22,ordenarCaperucitaRojaL23,ordenarCaperucitaRojaL24,ordenarCaperucitaRojaL25					
+			nariz				miel@final					comerteMejor				lampara@inicio							
+												frase_nariz:2				_ÁMPARA:2							
+												frase_raton:2				L:2							
+																lampara@inicio:2							
+																_iebre:3							
+																l:3							
+																liebre@inicio:3							
+																_IEBRE:4							
+																L:4							
+																liebre@inicio:4							
+																azu_:5							
+																l:5							
+																azul@final:5							
+																AZU_:6							
+																L:6							
+																azul@final:6							
+																mie_:7							
+																l:7							
+																miel@final:7							
+																MIE_:8							
+																L:8							
+																miel@final:8							
+caperucita_roja_l2:10		empty		mesa	nariz				rima_caperucita_roja_l2_3						1_caperucitaL2pt3_Dany@rima_caperucita_roja_l2_3							estrella	
+				parrilla	flor										2_caperucitaL2pt3_Mujer@rima_caperucita_roja_l2_3:2							miel	
+				cuchara	oreja																	mano:2	
+				-	radio																	oveja:2	
+				banana	boca																	empanadas:3	
+				naranja	vaso_agua																	amarillo:3	
+				manzana	ojos																		
+				queso:2	libro																		
+				leche:2																			
+				carne:2																			
+				-:2																			
+				biblioteca:2																			
+				cama:2																			
+				silla:2																			
+integracion_3		danyFamilia3_9	gatoAdentroCaja			empanadas@inicio	ojos@inicio		rima_integracion3		raton_paint2	chivitoAfuera											
+			perroArribaSilla			agua@inicio	agua@inicio		rima_palabras_loro4:2			chivosAdentro											
+			gatoAbajoSilla			ojos@inicio	empanadas@inicio					chivitoEntra											
+							luna@inicio																
+																							
+integracion_3:2		empty			mama		sopa@inicio		rima_integracion3			mama			1_integracion3_Dany@rima_integracion3							mesa	
+					mortero		oreja@inicio					abuelo			2_integracion3_Mujer@rima_integracion3:2							azul	
+					padre		empanada@inicio					abuela										soga:2	
+					cuchillo		mortero@inicio					padre										araña:2	
+					abuela							frase_pelota:2										mono:3	
+					pava							frase_camion_2:2										silla:3	
+																							
+																							
+																							
+																							
+																							
+																							
+integracion_3:3		alimentosCanasta_1		carne		sopa@inicio	sopa@inicio		rima_integracion3		integracion8_paint				1_integracion3_Dany@rima_integracion3								
+		alimentosColores_1:2		manzana		oreja@inicio	oreja@inicio		rima_palabras_loro6:2						2_integracion3_Mujer@rima_integracion3:2								
+		alimentosColores_2:2		leche		mortero@inicio	mortero@inicio																
+		alimentosColores_3:2		pan			empanadas@inicio																
+				-																			
+				perro																			
+				avion																			
+				pava																			
+integracion_3:4		caperucitaRoja3_19		queso			luna@inicio		cancion_integracion3@Pinto la cara del sol													luna	
+		caperucitaRoja5_20:2		leche			loro@inicio															estrella	
+		caperucitaRoja7_21:3		carne			silla@inicio															silla:2	
+				-																		amarillo:2	
+				medias																		loro:3	
+				zapato																		mesa:3	
+																							
+																							
+																							
+																							
+																							
+																							
+integracion_3:5		empty		remera			agua@inicio		cancion_integracion3@Pinto la cara del sol		integracion7_paint					_gua					pantalon		
+				buzo			oreja@inicio									a,o					manzana		
+				zapato			sopa@inicio									agua@inicio					gato:2		
+				-			miel@inicio									_GUA:2					pan:2		
+				camion			espalda@inicio									A,O:2					manzana:3		
+				gato			leche@inicio									agua@inicio:2					pollera:3		
+				silla												_reja:3					mortero:4		
+																o,a:3					ojotas:4		
+																oreja@inicio:3					muñeca:5		
+																_REJA:4					pava:5		
+																O,A:4					pan:6		
+																oreja@inicio:4					ojos:6		
+																_opa:5							
+																s,m:5							
+																sopa@inicio:5							
+																_OPA:6							
+																S,M:6							
+																sopa@inicio:6							
+																_iel:7							
+																m,s:7							
+																miel@inicio:7							
+																_IEL:8							
+																M,S:8							
+																miel@inicio:8							
+																_spalda:9							
+																e,l:9							
+																espalda@inicio:9							
+																_SPALDA:10							
+																E,L:10							
+																espalda@inicio:10							
+																_eche:11							
+																l,e:11							
+																leche@inicio:11							
+																_ECHE:12							
+																L,E:12							
+																leche@inicio:12							

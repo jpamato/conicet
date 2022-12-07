@@ -1,0 +1,814 @@
+0	memotest	Questions: generic_texts_id	Simon	Falling-Objects	Unir (par 1,2 .. 2,3 ...etc)	loro_time	loro_repeat	memotestAudio	escuchar	repetir con tarjeta	painting	elegir_frase	labyrinth	rompecabezas	completar (type_carpeta_character)@nombre_de_la_imagen	letra (palabra con letra faltante + letras separadas por coma + palabra real)	contar	ordenar	loro_multiple: audio (es el estimulo)-bien(lista)-mal(lista)	arrastrar_grupos	objeto_diferente	imagen_palabras	chico_multiple
+que_susto	perro	que_susto_1							rima_que_susto														
+	raton	elefante_1:2																					
+	oso	elefante_2:2																					
+	serpiente	elefante_3:2																					
+	gato																						
+	elefante																						
+que_susto:2		queSusto2_2			raton2				rima_que_susto		rima_que_susto												
+		queSusto4_3:2			elefante2																		
+		queSusto6_4:3			perro2																		
+		queSusto7_5:4			gato2																		
+		oso_1:5			yacare2																		
+		oso_2:5			serpiente2																		
+		oso_3:5			elefante2:2																		
+					oso2:2																		
+					serpiente2:2																		
+					perro2:2																		
+que_susto:3		animalesPreferidos_1						osogoloso				frase_elefante2_3											
+		animalesPreferidos_2						elefanteadelante				frase_serpiente2_3											
+		animalesPreferidos_3						yacarebebe				frase_gato2_2											
+		yacare1_1:2						serpientesindiente				frase_oso2_4:2											
+		yacare2_2:3										frase_perro2_3:2											
+		yacare3_3:4																					
+que_susto:4		animalesMiedo_1			oso2										1_queSusto_Oscarcito@rima_que_susto								
+		animalesMiedo_2			rimaoso										2_queSusto_Mujer@rima_que_susto:2								
+		empty:2			elefante2																		
+		serpiente_1:3			rimaelefante																		
+		serpiente_2:3			yacare2																		
+		serpiente_3:3			rimayacare																		
+		serpiente_4:3			serpiente2																		
+					rimaserpiente																		
+																							
+																							
+que_susto:5		preguntasusto_1		serpiente						distraido2		frase_aterrorizado2											
+		preguntasusto_2		yacare						aterrorizado2		frase_distraido2											
+		preguntasusto_3		-								frase_oso_3:2											
+				elefante								frase_serpiente:2											
+				oso								frase_yacare:2											
+				elefante:2								frase_elefante:2											
+				oso:2																			
+				-:2																			
+				serpiente:2																			
+				yacare:2																			
+malevo	perro	malevo2_1							rima_malevo	descripcion_malevo_2@Hombre	malevo_paint			malevo	1_malevo_Oscarcito@rima_malevo								
+	plaza	malevo2_2								descripcion_malevo_3@Hombre					2_malevo_Mujer@rima_malevo:2								
+	pato	malevo6_3:2								descripcion_malevo_4@Hombre													
+	hueso	malevo8_3:3								descripcion_malevo_5@Hombre													
+	arbol									descripcion_malevo_6@Hombre													
+																							
+																							
+																							
+malevo:2	carne_roja	malevo2_5		yacare	contento				rima_malevo					malevo	1_malevo_Oscarcito@rima_malevo								
+	leche_blanca	malevo8_6:2		serpiente	malevo_contento										2_malevo_Mujer@rima_malevo:2								
+	hueso_hueso			-	asustado																		
+				elefante	malevo_asustado																		
+				oso	hambriento																		
+				perro	malevo_hambriento																		
+				pato	carne:2																		
+					rojo:2																		
+					hueso:2																		
+					color_hueso:2																		
+					charquito_leche:2																		
+					blanco:2																		
+malevo:3		malevo5_7							rima_malevo_3			ordenarMalevo1	malevo	pato_grande	1_malevo3_Nasheli@rima_malevo_3								
+		malevo5_8										ordenarMalevo2	hueso		2_malevo3_Mujer@rima_malevo_3:2								
+		malevo5_9										ordenarMalevo3	pato										
+		malevo6_10:2										ordenarMalevo4:2											
+		malevo6_11:2										ordenarMalevo5:2											
+																							
+																							
+malevo:4		malevo7_12		carne					rima_malevo_2						1_malevo2_Oscarcito@rima_malevo_2			ordenarMensaje					
+		malevo8_13:2		charquito_leche											2_malevo2_Mujer@rima_malevo_2:2			ordenarMalevo1,ordenarMalevo2,ordenarMalevo4,ordenarMalevo5					
+		malevo8_14:2		galletitas																			
+		empty:3		empanadas																			
+				-																			
+				raton																			
+				muñeca																			
+				plaza																			
+malevo:5		malevo1_15		serpiente					rima_malevo_2					carne	1_malevo2_Oscarcito@rima_malevo_2								
+		malevo1_16		yacare											2_malevo2_Mujer@rima_malevo_2:2								
+		perros_1:2		pato																			
+				-																			
+				raton																			
+				perro																			
+				oso																			
+zorro_gallina		zorroGallina2_1							rima_zorro_gallina					gallina	1_zorroGallina_Oscarcito@rima_zorro_gallina								
+		zorroGallina8_2:2													2_zorroGallina_Mujer@rima_zorro_gallina:2								
+		gallina_1:3																					
+		gallina_2:3																					
+zorro_gallina:2		zorroGallina4_3		perro	hormiguero				cancion_zorro_gallina@Cucú, cucú cantaba la rana@Abriendo Rondas	hormiguero					1_zorroGallina3_Oscarcito_cancion								
+		zorroGallina6_4:2		raton	limonero					limonero					2_zorroGallina3_Mujer_cancion:2								
+		rana_1:3		pato	granja					granja													
+		rana_2:3		rana	naranja					naranja													
+		rana_3:3		serpiente	rana:2					rana													
+				zorro	banana:2					banana													
+				-	zorro:2					zorro													
+				queso	chorro_agua:2					chorro_agua													
+				chico																			
+				arbol																			
+zorro_gallina:3		zorroGallina5_5			hambriento				cancion_zorro_gallina@Cucú, cucú cantaba la rana@Abriendo Rondas	zorro		frase_agua			1_zorroGallina3_Oscarcito_cancion								
+		zorroGallina6_6:2			zorro2					gorro		frase_sombrero			2_zorroGallina3_Mujer_cancion:2								
+					contenta					caballo		frase_rana											
+					gallina2					zapallo		frase_caballero											
+					asustada					remera													
+					rana2					pollera													
+					enojada					grillo													
+					hormiga2					cuchillo													
+					gallina2:2																		
+					gallinero:2																		
+					rana2:2																		
+					charco_agua:2																		
+					hormiga2:2																		
+					hormiguero:2																		
+					abeja:2																		
+					panal:2																		
+					zorro2:3																		
+					gorro:3																		
+					caballo:3																		
+					zapallo:3																		
+					remera:3																		
+					pollera:3																		
+					grillo:3																		
+					cuchillo:3																		
+zorro_gallina:4		zorroGallina6_7							cancion_zorro_gallina@Cucú, cucú cantaba la rana@Abriendo Rondas	cuchara		frase_zorro2_2			1_zorroGallina4_Oscarcito_cancion			ordenarMensaje	cuchara@inicio(oscarcito)				
+		zorroGallina6_8								cubo		frase_gallina2_2			2_zorroGallina4_Mujer_cancion:2			ordenarZorroGallina_1,ordenarZorroGallina_2,ordenarZorroGallina_3,ordenarZorroGallina_4,ordenarZorroGallina_5	cubo@inicio(oscarcito)				
+		zorroGallina6_9								cuchillo		frase_malevo							cuchillo@inicio(oscarcito)				
+										mono									-				
+																			mono@inicio(oscarcito)				
+																							
+																							
+																							
+zorro_gallina:5		zorroGallina1_10		pajaro	agua				cancion_zorro_gallina@Cucú, cucú cantaba la rana@Abriendo Rondas	agua		frase_dar	gallina		1_zorroGallina4_Oscarcito_cancion				rana@inicio(oscarcito)				
+		zorroGallina1_11		abeja	rana					rana		frase_llorar	granja		2_zorroGallina4_Mujer_cancion:2				radio@inicio(oscarcito)				
+		zorroGallina1_12		mariposa	sombrero					sombrero		frase_romero	zorro						raton@inicio(oscarcito)				
+				-	caballero					caballero		frase_senora:2							-				
+				gallina						rana:2		frase_marinero:2							pie@inicio(oscarcito)				
+				lobo						radio:2		frase_trajecola:2							lombriz@inicio(oscarcito)				
+				elefante:2						raton:2													
+				lobo:2						pie:2													
+				perro:2						lombriz:2													
+				-:2																			
+				abeja:2																			
+				loro:2																			
+																							
+																							
+																							
+																							
+																							
+																							
+caperucita_roja		cuentosHambre1_1							rima_caperucita									ordenarMensaje	caperucita@inicio(oscarcito)				
+		cuentosHambre2_2:2																ordenarCaperucitaL11,ordenarCaperucitaL12,ordenarCaperucitaL13,ordenarCaperucitaL14,ordenarCaperucitaL15	casa@inicio(oscarcito)				
+		cuentosHambre3_3:3																	-				
+		cuentosHambre4_4:4																	pelota@inicio(oscarcito)				
+		bosque1_1:5																	cama@inicio(oscarcito):2				
+		bosque2_2:6																	caballo@inicio(oscarcito):2				
+		bosque3_3:7																	-:2				
+																			mono@inicio(oscarcito):2				
+caperucita_roja:2		caperucita1_1							rima_caperucita				lobo		1_caperucitaL1_Oscarcito@rima_caperucita				lobo@inicio(oscarcito)				
+		caperucita2_2:2											casa		2_caperucitaL1_Mujer@rima_caperucita:2				loro@inicio(oscarcito)				
+		lobo1_1:3											bosque						-				
+		lobo2_2:4																	silla@inicio(oscarcito)				
+		lobo3_3:5																	mesa@inicio(oscarcito)				
+		lobo4_4:6																	lobo@inicio(oscarcito):2				
+		lobo5_5:7																	lombriz@inicio(oscarcito):2				
+		lobo6_6:8																	-:2				
+																			zapato@inicio(oscarcito):2				
+caperucita_roja:3				abuela_gorro	caperucita	caperucita@inicio	caperucita@inicio		rima_caperucita	caperucita@silaba		caperucita_salta	cazador		1_caperucitaL1_Oscarcito@rima_caperucita								
+				abuela_camison	cama	cama@inicio	cama@inicio			cama@silaba		caperucita_recoge	lobo_disfrazado		2_caperucitaL1_Mujer@rima_caperucita:2								
+				-	lobo	lobo@inicio	lobo@inicio			lobo@silaba		lobo_abalanza	lago										
+				remera	loro	loro@final	loro@final			loro@silaba		lobo_corre											
+				pantalon																			
+																							
+caperucita_roja:4		caperucitaDiferencias_1			cama		cama@inicio	caperucita	cancion_caperucita@¿Lobo está? Versión Nora Galit	cama@silaba				lobo_disfrazado				ordenarMensaje					
+		caperucitaDiferencias_2			casa		casa@inicio	lobo	cancion_caperucita_2@¿Lobo está? Versión Nora Galit:2	casa@silaba				abuela_caperucita:2				ordenarCaperucitaL11,ordenarCaperucitaL12,ordenarCaperucitaL13,ordenarCaperucitaL14,ordenarCaperucitaL15					
+		caperucitaDiferencias_3			mesa		mesa@inicio	bosque		mesa@silaba													
+		empty:2			medias		medias@inicio	abuela_caperucita		medias@silaba													
+					pelota		pelota@inicio	cazador		pelota@silaba													
+					perro		perro@inicio			perro@silaba													
+					zapato		zapato@inicio			zapato@silaba													
+					zapallo		zapallo@inicio			zapallo@silaba													
+caperucita_roja:5		recetaCaperucita1_2		lobo					cancion_caperucita@¿Lobo está? Versión Nora Galit	oscarcito_ca_1		caperucita_contenta											
+		recetaCaperucita2_3:2		oso					juego_lobo:2	oscarcito_ca_2		caperucita_asustada											
+		recetaCaperucita3_4:3		arbol						oscarcito_ca_3													
+		recetaCaperucita4_5:4		cazador																			
+				-																			
+				silla																			
+				robot																			
+				gallina																			
+zapallo_gigante		zapalloGigante1_1		zapallo		acelga@inicio	acelga@inicio		cancion_zapallo_gigante@Mañana habrá calabaza asada@Mariana Baggio	rima_palabras_loro		raiz											
+		zapalloGigante1_2		papa		ajo@inicio	ajo@inicio					tallo											
+		zapalloGigante1_3		albahaca		albahaca@inicio	albahaca@inicio					hoja											
+		zapalloGigante2_4:2		-								flor											
+		zapalloGigante2_5:2		pelota																			
+		loroUriel_5:3		perro																			
+		loroUriel_6:3		gallina																			
+		loroUriel_7:3		calabaza:2																			
+				papa:2																			
+				batata:2																			
+				-:2																			
+				muñeca:2																			
+				gallina:2																			
+				auto:2																			
+																							
+zapallo_gigante:2		zapalloGigante3_6					acelga@inicio		cancion_zapallo_gigante@Mañana habrá calabaza asada@Mariana Baggio					donbustos_zapallo	1_zapalloGigante_Oscarcito_cancion			ordenarMensaje	acelga@inicio				
+		zapalloGigante3_7					ajo@inicio								2_zapalloGigante_Mujer_cancion:2			sizeZapallo1,sizeZapallo2,sizeZapallo3	albahaca@inicio				
+		zapalloGigante3_8					maiz@inicio												ajo@inicio				
+		zapalloGigante3_9																	-				
+		zapalloGigante3_10																	maiz@inicio				
+zapallo_gigante:3		zapalloGigante6_11					ajo@inicio		rima_zapallo_gigante	auto			don_bustos		1_zapalloGigante2_Oscarcito@rima_zapallo_gigante			ordenarMensaje	ajo@inicio				
+		zapalloGigante6_12					mesa@inicio			avion			feria		2_zapalloGigante2_Mujer@rima_zapallo_gigante:2			ordenarZapallo1,ordenarZapallo4,ordenarZapallo5,ordenarZapallo6	araña@inicio				
+		zapalloGigante4_13:2					araña@inicio			arbol			bosque						avion@inicio				
+							avion@inicio			chancho									-				
+										hueso									mesa@inicio				
+										sapo													
+																							
+zapallo_gigante:4		zapalloGigante5_14		zapallo					rima_zapallo_gigante	zapallo					1_zapalloGigante2_Oscarcito@rima_zapallo_gigante	_zul	zapallo						
+		zapalloGigante5_15		acelga						acelga					2_zapalloGigante2_Mujer@rima_zapallo_gigante:2	a	5,6,4						
+		zapalloGigante5_16		batata						batata						azul@inicio							
+		zapalloGigante5_17		calabaza						calabaza						_ZUL:2							
+		zapalloGigante5_18		-												A:2							
+		canastaOscarcito_1:2		albahaca												azul@inicio:2							
+		loroPresentacionL1A_1:3		ajo												_vión:3							
+		loroPresentacionL1A_2:3														a:3							
+																avion@inicio:3							
+																_VIÓN:4							
+																A:4							
+																avion@inicio:4							
+																_r_ñ_:5							
+																a:5							
+																araña@final:5							
+																_R_Ñ_:6							
+																A:6							
+																araña@final:6							
+zapallo_gigante:5	zapallo	empty	zapallo		zapallo				rima_zapallo_gigante			donBustosRego			1_zapalloGigante2_Oscarcito@rima_zapallo_gigante	_jo		ordenarMensaje					
+	maiz		maiz		caballo							mamaBustosCocino			2_zapalloGigante2_Mujer@rima_zapallo_gigante:2	a		ordenarZapallo1,ordenarZapallo4,ordenarZapallo5,ordenarZapallo6					
+	papa		papa		maiz							vecinosCargaron				ajo@inicio							
+	acelga				lombriz											_JO:2							
+	ajo															A:2							
+	albahaca															ajo@inicio:2							
+																_uto:3							
+																a:3							
+																auto@inicio:3							
+																_UTO:4							
+																A:4							
+																auto@inicio:4							
+																p_p_:5							
+																a:5							
+																papa@medio:5							
+																P_P_:6							
+																A:6							
+																papa@medio:6							
+bicho_bolita	bichobolita	bichoBolita1_1							rima_bichos_bolita			fraseBichoBolita_1			1_bichoBolita_Oscarcito@rima_bichos_bolita				oscarcito@inicio				
+	ciempies	bichoBolita1_2										fraseBichoBolita_3			2_bichoBolita_Mujer@rima_bichos_bolita:2				oso@inicio				
+	vaquita_sanantonio	bichoBolita2_3:2										fraseBichoBolita_4							ojos@inicio				
+	langosta	bichoBolita3_4:3										fraseBichoBolita_5							oreja@inicio				
+	gatapeluda	bichoBolita3_5:3																	-				
+		bichoBolita4_6:4																	flor@inicio				
+																			perro@inicio				
+																			abeja@inicio				
+bicho_bolita:2		bichoBolita2_7			mariposa				rima_bichos_bolita_2			frase_abeja			1_bichoBolita2_Oscarcito@rima_bichos_bolita_2				no				
+		bichoBolita5_8:2			antenas_mariposa							frase_lombriz			2_bichoBolita2_Mujer@rima_bichos_bolita_2:2				ojos@inicio				
+		bichoBolita6_9:3			hormiga							frase_ciempies							-				
+		bichoBolita6_10:4			patas_hormiga							frase_bichobolita							elefante@inicio				
+		bichoBolita7_11:5			abeja														empanadas@inicio				
+					alas_abeja														no:2				
+					gatapeluda														abeja@inicio:2				
+					pinches_gata														-:2				
+																			pato@inicio:2				
+																			perro@inicio:2				
+bicho_bolita:3		bichoBolita8_12					zorro@inicio		rima_bichos_bolita_3	posiciones_bichos_2		ramoncitoContento			1_bichoBolita3_Oscarcito@rima_bichos_bolita_3				zapallo@final				
+							pajaro@inicio			posiciones_bichos_3		ramoncitoAsustado			2_bichoBolita3_Mujer@rima_bichos_bolita_3:2				pajaro@final				
+							araña@inicio			posiciones_bichos_4		ramoncitoPreocupado							bichobolita@final				
+							elefante@inicio			posiciones_bichos_5		frase_bichobolita_2:2							-				
+												frase_gatapeluda:2							araña@final				
+												frase_mariposa:2							elefante@final				
+bicho_bolita:4		bichoBolita8_13					oso@inicio		rima_bichos_bolita_3				bichobolita		1_bichoBolita3_Oscarcito@rima_bichos_bolita_3	_so		ordenarMensaje					
+		bichoBolita4_14:2					ojos@inicio						bosque		2_bichoBolita3_Mujer@rima_bichos_bolita_3:2	o		ordenarBichoBolita1,ordenarBichoBolita2,ordenarBichoBolita3,ordenarBichoBolita4					
+		loroPresentacionL1O_1:3					oreja@inicio						hornero			oso@inicio							
+		loroPresentacionL1O_2:3														_SO:2							
+																O:2							
+																oso@inicio:2							
+																_jos:3							
+																o:3							
+																ojos@inicio:3							
+																_JOS:4							
+																O:4							
+																ojos@inicio:4							
+																_reja:5							
+																o:5							
+																oreja@inicio:5							
+																_REJA:6							
+																O:6							
+																oreja@inicio:6							
+bicho_bolita:5		bichoBolita1_15			bichobolita				cancion_bichobolita@Bicho Bolita@Patinetas en banda						1_bichoBolita4_Oscarcito_cancion					oso			
+		bichoBolita1_16			hoja										2_bichoBolita4_Mujer_cancion:2					ojos			
+		bichoBolita1_17			abeja															oreja			
+		bichoBolita1_18																		-			
+		bichoBolita1_19	bichoBolita1_19		flor															abeja			
+		insectoAlimento_1:2			ciempies															avion			
+		insectoAlimento_2:2			hormiga															araña			
+		insectoAlimento2_3:3																					
+		insectoAlimento3_4:4																					
+																							
+																							
+																							
+																							
+zorro_hornero		zorroHornero1_1					elefante@inicio		cancion_zorro_hornero@Malambo del hornerito@La Sintónica			frase_zorro3		zorro	1_zorroHornero_Oscarcito_cancion				eduardo@inicio				
+		zorroHornero1_2:2					escoba@inicio					frase_hornero2		hornero:2	2_zorroHornero_Mujer_cancion:2				estrella@inicio				
+		zorroHornero2_3:3					estrella@inicio					frase_pajaros		pajaros:3					elefante@inicio				
+		zorroHornero3_4:4																	-				
+		zorroHornero4_5:5																	acelga@inicio				
+		zorroHornero5_6:6																	ajo@inicio				
+																							
+zorro_hornero:2	hornero	zorroHornero3_7		empanadas			empanadas@inicio		rima_zorro_hornero						1_zorroHornero2_Oscarcito@rima_zorro_hornero			ordenarMensaje		elefante			
+	zorro	zorroHornero3_8		elefante			elefante@inicio								2_zorroHornero2_Mujer@rima_zorro_hornero:2			ordenarZorroHornero1,ordenarZorroHornero2,ordenarZorroHornero3,ordenarZorroHornero4,ordenarZorroHornero5		empanadas			
+	charco_agua	zorroHornero6_9:2		-			ajo@inicio													escoba			
+	pajaros			ajo			araña@inicio													-			
+	rama			araña																azul			
+				ajo:2																araña			
+				araña:2																arbol			
+				-:2																			
+				empanadas:2																			
+				elefante:2																			
+zorro_hornero:3		zorroHornero4_10			grande				cancion_zorro_hornero_4@Que espere el tren@Mariana Baggio				hornero		1_zorroHornero3_Oscarcito_cancion				no				
+		zorroHornero4_11			pequeño								pajaros		2_zorroHornero3_Mujer_cancion:2				estrella@inicio				
+		zorroHornero4_12			dormido								zorro						-				
+		zorroHornero7_13:2			despierto														acelga@inicio				
+		zorroHornero7_14:2			amontonados														ajo@inicio				
+		zorroHornero7_15:2			distanciados														no:2				
+					atrapado:2														escoba@inicio:2				
+					liberado:2														-:2				
+					enojado:2														ojos@inicio:2				
+					contento:2														ojotas@inicio:2				
+																			no:3				
+																			abeja@inicio:3				
+																			-:3				
+																			estrella@inicio:3				
+																			espalda@inicio:3				
+zorro_hornero:4		fiesta1_1		gallina			elefante@inicio		cancion_zorro_hornero_3@Que espere el tren@Mariana Baggio						1_zorroHornero4_Oscarcito_cancion	_lefante		ordenarMensaje					
+		fiesta2_2:2		-			estrella@inicio								2_zorroHornero4_Mujer_cancion:2	e,a		ordenarZorroHornero1,ordenarZorroHornero2,ordenarZorroHornero3,ordenarZorroHornero4,ordenarZorroHornero5					
+		fiesta2_3:2		chico			escoba@inicio									elefante@inicio							
+		letraE_1:3		don_bustos												_LEFANTE:2							
+		letraE_2:3		lombriz:2												E,A:2							
+				-:2												elefante@inicio:2							
+				malevo:2												_strella:3							
+				zorro:2												e,a:3							
+				gato:2												estrella@inicio:3							
+				elefante:3												_STRELLA:4							
+				-:3												E,A:4							
+				pato:3												estrella@inicio:4							
+				hornero:3												_scoba:5							
+				mariposa:3												e,a:5							
+																escoba@inicio:5							
+																_SCOBA:6							
+																E,A:6							
+																escoba@inicio:6							
+zorro_hornero:5		zorroHornero1_16		sol	iguana		nube@final			iguana									ave@final				
+		zorroHornero1_17		pelota	banana		elefante@final			banana									nube@final				
+		zorroHornero1_18		naranja	hornero		ave@final			hornero									elefante@final				
+		hornero1_1:2		boton	hormiguero					hormiguero									-				
+		hornero2_2:3		-	zorro					zorro									libro@final				
+		hornero3_3:4		perro	gorro					gorro									pileta@final				
+		hornero2_4:5		avion																			
+		hornero1_5:6		hoja																			
+																							
+																							
+																							
+																							
+risa_pajaros		risaPajaros1_1					ave@inicio		cancion_risa_pajaros@Picaflor Dormilón@Abriendo Rondas				ñandu2						ave@final				
+		risaPajaros4_2:2					nene@inicio						meta						nene@final				
+		risaPajaros6_3:3					sol@inicio						bosque						mate@final				
+		risaPajaros6_4:3					mono@inicio						pajaro2:2						-				
+		ñandu_1:4											meta:2						sol@final				
+		ñandu_2:4											lago:2						mono@final				
+		ñandu_3:4																					
+risa_pajaros:2		risaPajaros3_5			nido_chico				rima_risa_pajaros			frase_ñandu2							ala@final				
+		risaPajaros3_6			pajaro2							frase_pajaro2							silla@final				
+		risaPajaros3_7			nido_grande							frase_ñandu2_4:2							rana@final				
+		risaPajaros3_8			ñandu2							frase_pajaro2_4:2							gallina@final				
+												frase_ñandu2_2:3							-				
+												frase_pajaro2_2:3							pez@final				
+												frase_ñandu2_3:4											
+												frase_pajaro2_3:4											
+risa_pajaros:3		risaPajaros1_9			pajaro2		pajarovuela@final		rima_risa_pajaros						1_risaPajaros_Oscarcito@rima_risa_pajaros	corr_		ordenar_la_risa_de_los_pajaros					
+		risaPajaros1_10			sonido_silbar		ñanducorre@final								2_risaPajaros_Mujer@rima_risa_pajaros:2	e,a,o		ordenarRisaPajaros1,ordenarRisaPajaros2,ordenarRisaPajaros3,ordenarRisaPajaros4					
+		risaPajaros1_11			gato											corre@final							
+		risaPajaros1_12			sonido_maullar											CORR_:2							
+					perro											E,A,O:2							
+					sonido_ladrar											corre@final:2							
+					gallina:2											vuel_:3							
+					sonido_cacarear:2											a,e,o:3							
+					rana:2											vuela@final:3							
+					sonido_croar:2											VUEL_:4							
+																A,E,O:4							
+																vuela@final:4							
+risa_pajaros:4	pato	risaPajaros6_13				rana@inicio			rima_risa_pajaros					ñandu2	1_risaPajaros_Oscarcito@rima_risa_pajaros								
+	gallina	risaPajaros6_14				raton@inicio									2_risaPajaros_Mujer@rima_risa_pajaros:2								
+	loro	risaPajaros6_15				rama@inicio																	
+	ñandu2					remera@inicio																	
+	flamenco																						
+	pajaro2																						
+risa_pajaros:5	corre	letraR_1		ñandu2	pajarito		rana@inicio		rima_risa_pajaros							_atón		ordenarMensaje	raton@inicio				
+	pajaro_silbando	letraR_2		gallina	nidito		raton@inicio									r,e		ordenarRisaPajaros1,ordenarRisaPajaros5,ordenarRisaPajaros6,ordenarRisaPajaros7,ordenarRisaPajaros8	rana@inicio				
+	vuela			flamenco	volar		rama@inicio									raton@inicio			remera@inicio				
+	gallina_picoteando			-	cantar		remera@inicio									_ATÓN:2			-				
+	loro_volando			elefante												R,E:2			pato@inicio				
+				lobo												raton@inicio:2			elefante@inicio				
+				rana												_ana:3							
+																r,o:3							
+																rana@inicio:3							
+																_ANA:4							
+																R,O:4							
+																rana@inicio:4							
+pedro_globo		pedroGlobo1_1			verano	uno@inicio			cancion_pedroglobo_1@En primavera@Agua de Sol	verano	arbol_primavera_paint												
+		pedroGlobo2_2:2			arbol_verano	uvas@inicio				otoño													
+		pedroGlobo3_3:3			otoño					invierno													
+		pedroGlobo4_4:4			arbol_otoño					primavera													
+		loroPresentacionL1U_1:5			invierno																		
+		loroPresentacionL1U_2:5			arbol_invierno																		
+					primavera																		
+					arbol_primavera																		
+					verano:2																		
+					malla:2																		
+					otoño:2																		
+					buzo:2																		
+					invierno:2																		
+					gorrolana:2																		
+					primavera:2																		
+					remera:2																		
+pedro_globo:2		pedroGlobo1_5		tobogan					cancion_pedroglobo_1@En primavera@Agua de Sol	raiz				arbol	1_pedroGlobo_Oscarcito_cancion				uvas@inicio				
+		pedroGlobo1_6		hamaca						hoja					2_pedroGlobo_Mujer_cancion:2				uno@inicio				
+		pedroGlobo1_7		subibaja						tronco									uña@inicio				
+		pedroGlobo1_8		arbol						rama									-				
+				-						copa									globorojo@inicio				
+				elefante															arbol@inicio				
+				barco																			
+																							
+																							
+																							
+																							
+																							
+pedro_globo:3		pedroGlobo2_9							cancion_pedroglobo_2@Duerme un barrilete@Agua de Sol	pedro_globo_18	barrilete_paint					_no	barrilete	instruccionesGlobo					
+		pedroGlobo2_10								pedro_globo_19						u	8,5,2	instruccionesGlobo_2,instruccionesGlobo_3,instruccionesGlobo_4,instruccionesGlobo_5					
+		pedroGlobo2_11														uno@inicio							
+		pedroGlobo7_12:2														_NO:2							
+		pedroGlobo7_13:2														U:2							
+		pedroGlobo7_14:2														uno@inicio:2							
+		pedroGlobo7_15:2														_vas:3							
+																u:3							
+																uvas@inicio:3							
+																_VAS:4							
+																U:4							
+																uvas@inicio:4							
+pedro_globo:4		pedroGlobo7_16		pajaro	uno		uvas@inicio		cancion_pedroglobo_2@Duerme un barrilete@Agua de Sol				pedro		1_pedroGlobo2_Oscarcito_cancion								
+		pedroGlobo7_17		globorojo	uvas		rama@inicio						plaza		2_pedroGlobo2_Mujer_cancion:2								
+				barrilete	rama								cielo										
+				-	rojo																		
+				camion																			
+				arbol																			
+				ñandu																			
+pedro_globo:5				pajaro	pedro		uno@inicio					frase_barrilete							no				
+				gato	contento		uvas@inicio					frase_pajaroBlanco							globorojo@inicio				
+				barrilete	gato		uña@inicio												-				
+				rama	asustado		oso@inicio												uvas@inicio				
+				-	pajaroBlanco		oscarcito@inicio												uña@inicio				
+				avion	asombrado		rama@inicio												no:2				
+				camion	globorojo:2		rio@inicio												barrilete@inicio:2				
+				pelota	lobo:2		rojo@inicio												-:2				
+					rama:2														oscarcito@inicio:2				
+					cama:2														oveja@inicio:2				
+					gato:2														no:3				
+					zapato:2														pato@inicio:3				
+																			-:3				
+																			rio@inicio:3				
+																			rojo@inicio:3				
+																							
+																							
+																							
+dia_pesca		diaPesca1_1				rio@inicio			rima_dia_pesca	dia_pesca_4		peces_3			1_diaPesca_Oscarcito@rima_dia_pesca			ordenarMensaje	pelota@inicio				
+		diaPesca1_2				rama@inicio				dia_pesca_5		peces_4			2_diaPesca_Mujer@rima_dia_pesca:2			ordenarDiaPesca_1,ordenarDiaPesca_2,ordenarDiaPesca_3,ordenarDiaPesca_4,ordenarDiaPesca_5	pez@inicio				
+		diaPesca1_3				caña@inicio						peces_5							-				
+		empty:2																	rana@inicio				
+																			rio@inicio:2				
+																			rama:2				
+																			-:2				
+																			caña@inicio:2				
+dia_pesca:2		diaPesca1_6		rama	pez_1	pelota@inicio	pez@inicio		rima_dia_pesca_1		peces_paint	ordenarPesca_1			1_diaPesca1_Oscarcito@rima_dia_pesca_1			instruccionesPesca		rio			
+		diaPesca1_7		rio	celeste	pez@inicio	perro@inicio					ordenarPesca_2			2_diaPesca1_Mujer@rima_dia_pesca_1:2			ordenarPesca_1,ordenarPesca_2,ordenarPesca_3		rana			
+		diaPesca2_8:2		-	pez_2	rana@inicio	pie@inicio					ordenarPesca_3								rama			
+		diaPesca2_9:2		caña	rosa		rama@inicio													-			
+		diaPesca3_10:3		pez	pez_3		rana@inicio													pez			
+				pie	color_naranja															perro			
+					pez_4															pie			
+					violeta																		
+					pez_5																		
+					verde																		
+dia_pesca:3		diaPesca1_11		pantalon			pantalon@inicio		rima_dia_pesca_2			pablitoContento			1_diaPesca2_Oscarcito@rima_dia_pesca_2				no				
+		diaPesca4_12:2		zapato			pelota@inicio					pablitoAtento			2_diaPesca2_Mujer@rima_dia_pesca_2:2				remera@inicio				
+		diaPesca4_13:2		medias			remera@inicio					pablitoTriste							-				
+		diaPesca5_14:3		remera			raton@inicio					pablitoEsperanzado							pelota@inicio				
+		diaPesca5_15:3		-			rana@inicio												pantalon@inicio				
+		diaPesca5_16:4		pez															no:2				
+		diaPesca6_17:5		ojotas															medialuna@inicio:2				
+		diaPesca6_18:5		pez:2															-:2				
+				medialuna:2															rana@inicio:2				
+				pelota:2															raton@inicio:2				
+				-:2																			
+				pantalon:2																			
+				zapatilla:2																			
+																							
+																							
+																							
+																							
+																							
+																							
+dia_pesca:4		rios1_1					remera@inicio		rima_dia_pesca_3			frase_montaña			1_diaPesca3_Oscarcito@rima_dia_pesca_3	_emera							
+		rios3_2:2					rio@inicio					frase_rio			2_diaPesca3_Mujer@rima_dia_pesca_3:2	r,a							
+		rios4_3:3					rana@inicio					frase_pez				remera@inicio							
+		rios2_4:4										frase_pez-mojado:2				_EMERA:2							
+		rios2_5:4										frase_pajaro:2				R,A:2							
+		letraR_1:5										frase_perro2_2:2				remera@inicio:2							
+		letraR_2:5										frase_abeja_2:2				_ío:3							
+																r,a:3							
+																rio@inicio:3							
+																_ÍO:4							
+																R,A:4							
+																rio@inicio:4							
+																_ana:5							
+																r,a:5							
+																rana@inicio:5							
+																_ANA:6							
+																R,A:6							
+																rana@inicio:6							
+dia_pesca:5		barquitoPapel_1			lluvia				cancion_diapesca@La vieja está en la cueva@Versión Maia Migdalek			frase_palabra-rio			1_diaPesca4_Oscarcito_cancion	_ío	charco_agua					rio	
+		barquitoPapel_2			paraguas							frase_palabra-rama			2_diaPesca4_Mujer_cancion:2	r	3,4,5					rama	
+		barquitoPapel_3			sol											rio@inicio	charco_agua:2						
+		barquitoPapel1_1:2			gorra											_ana:2	2,3,4:2						
+		barquitoPapel2_2:3			invierno											r:2	charco_agua:3						
+		barquitoPapel3_3:4			gorrolana											rana@inicio:2	4,5,6:3						
+		barquitoPapel4_4:5																					
+		barquitoPapel5_5:6																					
+		barquitoPapel6_6:7																					
+		barquitoPapel7_7:8																					
+		barquitoPapel8_8:9																					
+		barquitoPapel9_9:10																					
+piratas_cantores		piratasCantores2_1		arbol			isla@inicio		cancion_piratas@Whisky y Pis@Mariana Baggio			sombrero_pirata							isla@inicio				
+		piratasCantores3_2:2		elefante			invierno@inicio					parche							invierno@inicio				
+		piratasCantores9_3:3		auto			iguana@inicio					barba							iguana@inicio				
+		piratasCantores4_4:4		avion			uvas@inicio					mapa_tesoro:2							-				
+		piratasCantores5_5:5		-			oveja@inicio					pata_palo:2							uvas@inicio				
+		piratasCantores7_6:6		pirata			ala@inicio					garfio:2							oveja@inicio				
+		descripcionPirata1_1:7		oro															ala@inicio				
+		descripcionPirata2_2:8																					
+		descripcionPirata3_3:9																					
+		descripcionPirata4_4:10																					
+		descripcionPirata5_5:11																					
+		descripcionPirata6_6:12																					
+		letraIL2_1:13																					
+		letraIL2_2:13																					
+piratas_cantores:2		piratasCantores2_7			letra_p1				rima_piratas_cantores			frase_tripulacion	capitan		1_piratasCantores_Oscarcito@rima_piratas_cantores					pirata			
+					perro							frase_barco	tesoro		2_piratasCantores_Mujer@rima_piratas_cantores:2					pierna			
+					letra_c1							frase_canario	mar							perro			
+					cama															-			
+					letra_p2:2															canario			
+					pierna:2															cama			
+					letra_c2:2															cuchillo			
+					cuchillo:2																		
+piratas_cantores:3		piratasCantores4_9		barco	uno		uno@inicio		cancion_piratascantores_2@"Canción de Piratas" versión Maia Migdalek			piratasAlegres			1_piratasCantores2_Oscarcito_cancion								
+		piratasCantores4_10		auto	uvas		uvas@inicio					piratasTristes			2_piratasCantores2_Mujer_cancion:2								
+		piratasCantores4_11		avion	olla		olla@inicio					piratasPreocupados											
+				bicicleta	oveja		oveja@inicio																
+				-	empanadas		empanadas@inicio																
+				flor	elefante		elefante@inicio																
+				guitarra	ave:2		ave@inicio																
+				shampoo	ala:2		ala@inicio																
+					isla:2		isla@inicio																
+					iguana:2		iguana@inicio																
+piratas_cantores:4		piratasCantores5_12		oro					cancion_piratascantores_3@"Canción de Piratas" versión Maia Migdalek	coros_1					1_piratasCantores3_Oscarcito_cancion	_sla	oro						
+		piratasCantores6_13:2		-						coros_2					2_piratasCantores3_Mujer_cancion:2	i,u,m	5,4,7						
+		piratasCantores1_14:3		mapa						graves						isla@inicio	oro:2						
+		piratasCantores1_15:3		barco						coros_3						_SLA:2	7,9,11:2						
+		coros1_1:4								agudos						I,U,M:2							
+		coros2_2:5								coros_4						isla@inicio:2							
+		coros3_3:6								coros_5													
+		coros1_4:7								coros_6													
+		coros4_5:8																					
+		coros5_6:9																					
+		oscarcitoDibujo_1:10																					
+piratas_cantores:5		piratasCantores3_16			tesoro			tesoro		tesoro						_sla		ordenarMensaje				isla	
+		piratasCantores7_17:2			loro			loro		loro						i		ordenarPiratasCantores_1,ordenarPiratasCantores_2,ordenarPiratasCantores_3,ordenarPiratasCantores_4,ordenarPiratasCantores_5				oro	
+		piratasCantores7_18:2			barco			canario		barco						isla@inicio							
+					charco_agua			catalejo		charco_agua						_ro:2							
+																o:2							
+																oro@inicio:2							
+																m_pa:3							
+																a:3							
+																mapa@inicio:3							
+																l_na:4							
+																u:4							
+																luna@inicio:4							
+baile		baileOso1_1			oso_hormiguero	oso@inicio			rima_baile_oso_1														
+		baileOso2_4:2			flecha	olla@inicio																	
+		baileOso2_5:2			muchacho	ojos@inicio																	
+		baileOso8_7:3			garra																		
+		osoHormiguero_1:4																					
+		osoHormiguero_2:4																					
+		osoHormiguero_3:4																					
+		osoHormiguero_4:4																					
+		osoHormiguero_5:4																					
+		osoHormiguero_6:4																					
+baile:2		baileOso_1		serpiente			oso@inicio		rima_baile_oso_1				oso_hormiguero		1_baile_Oscarcito@rima_baile_oso_1				oscarcito@inicio				
+		baileOso_2		cazador			olla@inicio						hormiga		2_baile_Mujer@rima_baile_oso_1:2				oso@inicio				
+		baileOso_3		-			ojos@inicio						bosque						olla@inicio				
+				gato			mesa@inicio												ojos@inicio				
+				perro			gallina@inicio												-				
+																			mesa@inicio				
+																			gallina@inicio				
+																							
+																							
+																							
+baile:3		baileOso7_7			ave		ave@inicio		rima_baile_oso_2				oso_hormiguero	baile_oso_7					no				
+		baileOso7_8			arbol		arbol@inicio						cueva						arbol@inicio				
+		baileOso8_9:2			oso		oso@inicio						mar						-				
+					oveja		oveja@inicio												oso@inicio				
+																			oveja@inicio				
+baile:4		baileOso1_8							rima_baile_oso_2			osoDefiende		oso_hormiguero	1_baile2_Oscarcito@rima_baile_oso_1	_s_							
+		baileOso1_9										osoEsquiva			2_baile2_Mujer@rima_baile_oso_1:2	o,i							
+		baileOso1_10										osoHuye				oso@inicio							
+		baileOso1_11														_S_:2							
+		oscarcitoDibujo3_1:2														O,I:2							
+																oso@inicio:2							
+																_scarcit_:3							
+																o,r:3							
+																oscarcito@inicio:3							
+																_SCARCIT_:4							
+																O,R:4							
+																oscarcito@inicio:4							
+baile:5		osoHormiguero_10							cancion_baile_oso_2@El oso y el osito. Versión Nora Galit	adivinanza_osoHormiguero	animales_silvestres_paint					_so		ordenarMensaje				oso	
+		osoHormiguero_11								oso_hormiguero						o		ordenarBaile_1,ordenarBaile_2,ordenarBaile_3,ordenarBaile_4				rana	
+		osoHormiguero_12														oso@inicio						oscarcito:2	
+		oscarcitoDibujo4_1:2														r_na:2						pez:2	
+																a:2							
+																rana@inicio:2							
+																_scarcito:3							
+																o,a:3							
+																oscarcito@inicio:3							
+																p_z:4							
+																e,o:4							
+																pez@final:4							
+conejo		conejo1_1			mono_sin_orejas		pez@inicio		cancion_conejo_1@Yo no toco los Orozco yo toco otro@Mariana Baggio			conejo1			1_conejo4_Oscarcito_cancion				no				
+		conejo2_2:2			mono_orejas		conejo@inicio					conejo2			2_conejo4_Mujer_cancion:2				conejo@final				
+		conejo3_3:3			conejo_sin_orejas		araña@inicio					conejo3:2							ojo@final				
+		conejo5_4:4			conejo_orejas		ojos@inicio					conejo4:2							-				
+		conejo6_5:5			elefante_sin_orejas							conejo5:2							pez@final				
+					elefante_orejas														no:2				
+																			ojos@final:2				
+																			mono@final:2				
+																			-:2				
+																			araña@final:2				
+conejo:2		conejo2_6		caldero_magico1			mono@inicio		rima_conejo_1						1_conejo_Oscarcito@rima_conejo_1	mon_			no			mono	
+		conejo3_7:2		varita_magica			pez@inicio								2_conejo_Mujer@rima_conejo_1:2	o,e			conejo@final			pez	
+		conejo4_8:3		-			conejo@inicio									mono@final			mono@final				
+		pocion_1:4		lombriz			abeja@inicio									MON_:2			-				
+		pocion_2:4		gorrolana			elefante@inicio									O,E:2			pez@final				
+		pocion_3:4		zapatilla												mono@final:2			no:2				
+		pocion_4:4														p_z:3			tigre@final:2				
+		pocion_5:4														e,o:3			elefante@final:2				
+		pocion_6:4														pez@final:3			-:2				
+																P_Z:4			araña@final:2				
+																E,O:4							
+																pez@final:4							
+																							
+																							
+conejo:3		conejo5_9		guitarra			pelota@inicio		cancion_conejo_1@Yo no toco los Orozco yo toco otro@Mariana Baggio						1_conejo5_Oscarcito_cancion			ordenarMensaje	no				
+		conejo5_10		tambor			boca@inicio								2_conejo5_Mujer_cancion:2			ordenarConejo_1,ordenarConejo_2,ordenarConejo_3,ordenarConejo_4	corno@final				
+		conejo5_11		trompeta			conejo@inicio												mono@final				
+				-			abeja@inicio												-				
+				pelota															boca@final				
+				muñeca															no:2				
+																			conejo@final:2				
+																			libro@final:2				
+																			-:2				
+																			guitarra@final:2				
+																							
+																							
+																							
+conejo:4	ojos	conejo6_12					naranja@inicio		cancion_conejo_2@Brujos Hechiceros@Mariana Baggio			conejoAntes			1_conejo2_Oscarcito_cancion				oso@inicio				
+	boca						oso@inicio					conejoDespues			2_conejo2_Mujer_cancion:2				ojos@inicio				
+	pie						ojos@inicio					conejoAntes_2							-				
+	cabeza						mago@inicio					conejoDespues_2							naranja@inicio				
+	brazo						mono@inicio												mago@inicio:2				
+	oreja																		mono@inicio:2				
+																			-:2				
+																			araña@inicio:2				
+conejo:5		conejo6_13					mago@inicio		cancion_conejo_3@Brujos Hechiceros@Mariana Baggio			frase_barco_2			1_conejo3_Oscarcito_cancion	mag_							
+							ojos@inicio					frase_gorrolana			2_conejo3_Mujer_cancion:2	o,i							
+							oreja@inicio					frase_paraguas				mago@final							
+							conejo@inicio					frase_loro:2				MAG_:2							
+												frase_lombriz_2:2				O,I:2							
+																mago@final:2							
+																orej_:3							
+																a,i:3							
+																oreja@final:3							
+																OREJ_:4							
+																A,I:4							
+																oreja@final:4							
+																conej_:5							
+																o,u:5							
+																conejo@final:5							
+																CONEJ_:6							
+																O,U:6							
+																conejo@final:6							
+																_j_s:7							
+																o,u:7							
+																ojos@inicio:7							
+																_J_S:8							
+																O,U:8							
+																ojos@inicio:8							
+viaje_espacio		viajeEspacio1_1					sombrero@inicio		rima_viaje_espacio_1						1_viajeEspacio2_Oscarcito@rima_viaje_espacio_1		bolita_verde		sombrero@inicio				
+		viajeEspacio2_2:2					silla@inicio								2_viajeEspacio2_Mujer@rima_viaje_espacio_1:2		7,8,9		silla@inicio				
+		viajeEspacio3_3:3					saturno@inicio										bolita_violeta:2		saturno@inicio				
+		viajeEspacio3_4:3					sol@inicio										4,6,8:2		sol@inicio				
+		presentacionLetraS_1:4															bolita_amarilla:3		-				
+		presentacionLetraS_2:4															8,12,15:3		crater@inicio				
+viaje_espacio:2		viajeEspacio3_7					mano@inicio		cancion_viajeespacio_1@La Nave@Mariana Baggio	mercurio				planetas	1_viajeEspacio_Oscarcito_cancion				mano@inicio				
+		viajeEspacio4_8:2					melisa@inicio			venus					2_viajeEspacio_Mujer_cancion:2				mago@inicio				
+		viajeEspacio4_9:2					rana@inicio			tierra									melisa@inicio				
+		viajeEspacio4_10:2					remera@inicio			marte									-				
+		viajeEspacio5_11:3					pirata@inicio			jupiter									rana@inicio				
+		planetas_2:4					piedra@inicio			saturno									rana@inicio:2				
+		planetas_3:4					sol@inicio			urano									radio@inicio:2				
+		planetas_4:4					saturno@inicio			neptuno									remera@inicio:2				
+		planetas_5:4																	-:2				
+																			pirata@inicio:2				
+																			pirata@inicio:3				
+																			piedra@inicio:3				
+																			-:3				
+																			ojos@inicio:3				
+																			sol@inicio:3				
+																			sol@inicio:4				
+																			sombrilla@inicio:4				
+																			saturno@inicio:4				
+																			-:4				
+																			mano@inicio:4				
+viaje_espacio:3	mercurio	viajeEspacio5_12			barco		planeta@inicio												planeta@medio				
+	venus	viajeEspacio6_13:2			mar		pileta@inicio												pileta@medio				
+	tierra	viajeEspacio6_14:2			camello		vaso@inicio												bicicleta@medio				
+	marte	viajeEspacio6_15:2			duna		ñandu@inicio:2												-				
+	jupiter				nave		ombu@inicio:2												tambor@medio				
+	saturno				espacio_sideral		shampoo@inicio:2												ñandu@final:2				
+					auto		guitarra@inicio:2												ombu@final:2				
+					calle		ojos@inicio:2												shampoo@final:2				
+							boca@final:2												-:2				
+																			guitarra@final:2				
+																			ojos@final:2				
+																			boca@final:2				
+viaje_espacio:4		viajeEspacio7_16							cancion_viajeespacio_1@La Nave@Mariana Baggio			crater	melisa		1_viajeEspacio2_Oscarcito@rima_viaje_espacio_1	_ol							
+		viajeEspacio7_17										planeta	bolita_verde		2_viajeEspacio2_Mujer@rima_viaje_espacio_1:2	s,a,e							
+		viajeEspacio7_18										nave	bolita_violeta			sol@inicio							
+		viajeEspacio7_19										estrella				_OL:2							
+		viajeEspacio8_20:2														S,A,E:2							
+																sol@inicio:2							
+viaje_espacio:5				luna	mar		planeta@medio					frase_estrella				s_l		ordenarMensaje				sol	
+				estrella	collar		trompeta@medio					frase_sol				o,e		ordenarViajeEspacio_1,ordenarViajeEspacio_2,ordenarViajeEspacio_3,ordenarViajeEspacio_4				rama	
+				nube	planeta		llave@inicio									sol@inicio							
+				saturno	trompeta		collar@final									S_L:2							
+				sol	nave		mar@inicio									O,E:2							
+				-	llave		nave@inicio									sol@inicio:2							
+				bichobolita												ram_:3							
+				pez												a,u:3							
+				zapallo												rama@inicio:3							
+																RAM_:4							
+																A,U:4							
+																rama@inicio:4							
+genio_botella		genioBotella3_1					mar@inicio		cancion_genioBotella@La mar estaba serena										mar@inicio			mar	
+		genioBotella1_3:2					mesa@inicio												mesa@inicio			gato	
+		genioBotella_3:3					mano@inicio												mano@inicio				
+		desierto_1:4					mono@inicio												mono@inicio				
+		desierto2_2:5					pantalon@inicio												-				
+		desierto3_3:6					gato@inicio												pantalon@inicio				
+																			gato@inicio				
+genio_botella:2		genio_botella_5		gorra	mono		mano@inicio		cancion_genio_botella_oscarcito_1@La mar estaba serena					camello									
+		genio_botella_6		sombrilla	mano		mono@inicio																
+		genio_botella_7		turbante	ave		arbol@inicio																
+		camello1_1:2		sombrero	arbol		ave@inicio																
+		camello2_2:3		-	oso		olla@inicio																
+		camello3_3:4		pelota	olla		oso@inicio																
+		camello4_4:5		mesa																			
+		camello5_5:6																					
+genio_botella:3		genioBotella2_8		gorra			mesa@inicio		cancion_genio_botella_oscarcito_2@Vamos a la mar				abul				alfombra		mar@inicio				
+		genioBotella2_9		sombrilla			medias@inicio						mar				3,4,5		mesa@inicio				
+				turbante			mar@inicio						desierto						medias@inicio				
+				-			rana@inicio												-				
+				pelota			perro@inicio												rana@inicio				
+				mesa			auto@inicio												perro@inicio				
+				manzana															auto@inicio				
+genio_botella:4		genioBotella3_10		duna					cancion_genio@Vamos a la mar. Versión Maia Migdalek			abulDesenterro				_ar							
+		genioBotella3_11		camello								abulDeseo				m,s							
+		genioBotella3_12		palmeras								abulVolo				mar@inicio							
+		letraML2_1:2		-								abulZambullo				_AR:2							
+		letraML2_2:2		lobo												M,S:2							
+				arbol												mar@inicio:2							
+genio_botella:5				avion					cancion_genio@Vamos a la mar. Versión Maia Migdalek	adivinanza_camello		frase_mar_2			1_genioBotella_Oscarcito_cancion	m_r		ordenarMensaje	rana@inicio			mar	
+				pajaro						camello		frase_pelota2			2_genioBotella_Mujer_cancion:2	a,o		ordenarGenioBotella_1,ordenarGenioBotella_2,ordenarGenioBotella_3,ordenarGenioBotella_4	rayo@inicio			pelota	
+				globorojo												mar@inicio			rama@inicio				
+				nave												M_R:2			radio@inicio				
+				-												A,O:2			-				
+				auto												mar@inicio:2			pie@inicio				
+				camion												pel_ta:3			silla@inicio				
+																o,a:3			lombriz@inicio				
+																pelota@inicio:3							
+																PEL_TA:4							
+																O,A:4							
+																pelota@inicio:4							

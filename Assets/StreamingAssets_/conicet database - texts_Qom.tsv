@@ -1,0 +1,492 @@
+/generic_texts/(.... wav)	character	text	
+ayuda_familia_maestra	Mujer	Aprendemos español. Tu familia o tu maestra te ayuda.	Ayuda
+rima_animales_dany	Mujer	El pollito Lito le dice al perrito: pío pío pío, tengo mucho frío	Rimas
+rima_rulitos	Mujer	Un osito muy chiquitito es amigo del pollito.	
+rima_rulitos_Nasheli_1	Nasheli	pollito	
+rima_rulitos_2	Mujer	El gato es amigo del pato y el gallo es amigo del caballo	
+rima_rulitos_Nasheli_2	Nasheli	pato	
+rima_rulitos_Nasheli_3	Nasheli	caballo	
+rima_integracion_1	Mujer	El gallo y el caballo corren atrás de un zapallo, mientras el gato y el pato comen del mismo plato	
+rima_integracion_Nasheli_1	Nasheli	zapallo	
+rima_integracion_Nasheli_2	Nasheli	plato	
+rima_dany_amigos_1	Mujer	Mi perro Simón juega con el camión y mi perra Carlota juega con la pelota	
+rima_dany_amigos_Nasheli_1	Nasheli	camión	
+rima_dany_amigos_Nasheli_2	Nasheli	pelota	
+rima_dany_amigos_2	Mujer	La vaca que juega en la hamaca tiene cola y se llama Lola	
+rima_dany_amigos_Nasheli_4	Nasheli	cola	
+rima_dany_amigos_Nasheli_5	Nasheli	Lola	
+rima_liebre_tortuga_1	Mujer	Debajo de un botón que tiene Martín se encuentra un ratón que es muy chiquitín	
+rima_liebre_tortuga_Nasheli_1	Nasheli	ratón	
+rima_liebre_tortuga_Nasheli_2	Nasheli	chiquitín	
+rima_liebre_tortuga_2	Mujer	Caracol col col / a la una sale el sol. / Luna, luna, luna, / el sol sale a la una	
+rima_liebre_tortuga_Nasheli_3	Nasheli	sol	
+rima_liebre_tortuga_Nasheli_4	Nasheli	luna	
+rima_integracion_2	Mujer	El ratón Ramón juega con el avión y la oveja Rebeca juega con la muñeca	
+rima_integracion_Nasheli_3	Nasheli	avion	
+rima_integracion_Nasheli_4	Nasheli	muñeca	
+rima_dany_familia_1	Mujer	Dice mamá Carolina que encierres a la gallina y que lleves al corral a cualquier otro animal	
+rima_dany_familia_Nasheli_1	Mujer	gallina	
+rima_dany_familia_Nasheli_2	Mujer	animal	
+rima_dany_familia_2	Mujer	Dice el abuelo Mariano que se agarren de la mano. Dice la abuela Teresa que se toquen la cabeza	
+rima_caperucita_roja__1	Mujer	Mi abuela Manuela me lleva a la escuela y mi abuelo Carmelo me da un caramelo	
+rima_caperucita_roja__Nasheli_1	Nasheli	escuela	
+rima_caperucita_roja__Nasheli_2	Nasheli	caramelo	
+rima_caperucita_roja__2	Mujer	A mi hermana Ana le regalé una banana y a mi hermano Juan le regalé un pan	
+rima_caperucita_roja__Nasheli_3	Nasheli	banana	
+rima_caperucita_roja__Nasheli_4	Nasheli	pan	
+rima_caperucita_roja__3	Mujer	Cinco ratoncitos de colita gris, mueven las orejas, mueven la nariz. Uno, dos, tres, cuatro corren al rincón, porque viene el gato a comer ratón	
+rima_caperucita_roja__Nasheli_5	Nasheli	nariz	
+rima_integracion3	Mujer	Cinco ratoncitos salen de la bota, mueven las manitos, tiran la pelota. Cinco ratoncitos bajan del camión, mueven los ojitos, corren al león	
+gallinaContenta	Mujer	La gallina está contenta	Frases
+gallinaEnojada	Mujer	La gallina está enojada	
+enojado-oso	Mujer	¿Cómo está el oso chico?	
+contento-nene	Mujer	¿Cómo está el nene?	
+danyAsustado	Mujer	Dany está asustado	
+danyContento	Mujer	Dany está contento	
+hamaca-vaca	Mujer	¿Qué nombre termina como “vaca”?	
+cola-lola	Mujer	¿Qué nombre termina como “Lola”?	
+liebreContenta	Mujer	La liebre está contenta	
+liebreSorprendida	Mujer	La liebre está sorprendida	
+liebreCansada	Mujer	La liebre está cansada.	
+avion-ramon	Mujer	¿Qué nombre termina como Ramon?	
+muñeca-rebeca	Mujer	¿Qué nombre termina como Rebeca?	
+gatoAdentroCaja	Mujer	El gato está adentro de la caja.	
+perroArribaSilla	Mujer	El perro está arriba de la silla.	
+gatoAbajoSilla	Mujer	El gato está abajo de la silla.	
+perroAfueraCaja	Mujer	El perro está afuera dela caja. 	
+corral-animal	Mujer	¿Qué nombre termina como animal?	
+mano-mariano	Mujer	¿Qué nombre termina como “Mariano”?	
+cabeza-teresa	Mujer	¿Qué nombre termina como “Teresa”?	
+escuela-manuela	Mujer	¿Qué nombre termina como Manuela?	
+caramelo-carmelo	Mujer	¿Qué nombre termina como Carmelo?	
+banana-ana	Mujer	¿Qué nombre termina como “Ana”?	
+raton-boton	Mujer	¿Qué palabra termina como botón?	
+pan-juan	Mujer	¿Qué nombre termina como “Juan”?	
+caperucitaContenta	Mujer	¿Cómo está Caperucita al principio del cuento?	
+abuelaAsustada	Mujer	¿Cómo está la abuela cuando encuentra al lobo?	
+caperucitaContenta_2	Mujer	Caperucita está contenta	
+caperucitaSorprendida	Mujer	Caperucita está sorprendida	
+caperucitaAsustada	Mujer	Caperucita está asustada	
+abuelaOrejas	Mujer	Abuela, que orejas tan grandes!	
+abuelaNariz	Mujer	Abuela, que nariz tan grande!	
+abuelaBoca	Mujer	Abuela, que boca tan grande!	
+escucharteMejor	Mujer	Para escucharte mejor!	
+olerteMejor	Mujer	Para olerte mejor!	
+comerteMejor	Mujer	Para comerte mejor!	
+nariz-gris	Mujer	¿Qué nombre termina como gris?	
+raton-rincon	Mujer	¿Qué nombre termina como rincón?	
+chivitoAfuera	Mujer	El chivito blanco va afuera del corral	
+chivosAdentro	Mujer	Todos los chivos están adentro del corral	
+chivitoEntra	Mujer	El chivito blanco entra al corral	
+pelota-bota	Mujer	¿Qué nombre termina como “bota”?	
+camion-avion	Mujer	¿Qué nombre termina como “avion”?	
+sol-caracol	Mujer	¿Qué nombre termina como "caracol"?	
+luna-numeroUno	Mujer	¿Qué nombre termina como "una"?	
+lucasAlanAsustados	Mujer	Lucas qataq Alan ñi'i'.	
+lucasAlanContentos	Mujer	Lucas qataq Alan ỹa'amaqchiyiñi.	
+categoriaAnimales_1	Mujer	Mirá estos animales. ¿Cómo se llaman?	
+categoriaAnimales2_2	Mujer	Mirá estos animales. ¿Cómo se llaman?	
+categoriaColores_1	Mujer	’Ameten ñe ne’enaqtac lo’oguiaxac taq ’anasaxauec so le’enaxat.	Categorias
+categoriaObjetosCasa_1	Mujer	Mirá los objetos que hay en las casas. ¿Cómo se llaman?	
+categoriaObjetosCasa2_1	Mujer	¿Negue’t na sochaqna huetaña na nma’? ¿’Eetec le’enaxat?	
+objetosCasa2_1	Mujer	¿Negue’t na sochaqna huetaña na nma’? ¿’Eetec le’enaxat?	
+categoriaPartesCuerpo_1	Mujer	¿Ca 'eetec ca le'enaxat lo'oquiaxac na shiỹaxaua?	
+categoriaRopa_1	Mujer	’Ameten ñe ne’enaqtac nogoxot taq ’anasaxauec so le’enaxat.	
+ropa_1	Mujer	’Ameten ñe ne’enaqtac nogoxot taq ’anasaxauec so le’enaxat.	
+categoriaObjetosEstelares_1	Mujer	'Ameten ñe ne’enaqtac na neto’ot na piguem taq ‘anasaxauec so le’enaxat	
+categoriaAlimentos_1	Hombre	¿’Auauatton ne’ena nallec? ¿’Eetec ca le’enaxat? ¿’Auauatton ca lỹa nallec?  	
+alimentos_1	Hombre	Mirá estos alimentos. ¿Cómo se llaman?	
+alimentosCanasta_1	Hombre	Mirá estos alimentos. ¿Te gustan? ¿Cómo se llaman?	
+categoria_familia	Mujer	Mirá la familia de Dany. ¿Quién es quién?  	
+categoriaPartesCara_1	Hombre	’Ameten ñe ne’enaqtac lashec na shiýaxaua taq ’anasaxauec naua le’enqa’ate.	
+categoriaJuguetes_1	Mujer	¿‘Eetec le’enaxat na na’ashaxantacpi? ‘Auauatton ca lỹa na’ashaxantac?	
+tip_escucha	Nasheli	¡Ỹoqta 'aua'aqa!	Tips Consignas
+tip_repeat_with_card	Nasheli	¡'Avi'iguelaxattalec so na'aqtac!	
+tip_escucha_toca	Nasheli	 'Aua'aqa 'apoteu'a ñeua ne'enaqtaqa ca paigue.	
+tip_conta_cuento	Dany	¿'Anqopita so na'aqtaguec? Nagui 'aua'axat.	
+tip_conversar	Hombre	’Ana’aqtaxane’ na ’arhuo’ huo'otaq ara paxaguenataxanaxai.	
+tip_questions	Hombre	¿'Antoueta'ac so na'aqtaguec?	
+tip_informativo	Nasheli	¿Querés saber más? ¡Mirá!	
+tip_falling_objects	Nasheli	¡A buscar! Escuchá bien y tocá los dibujos que correspondan.	
+tip_unir	Nasheli	¿Cuál va con cuál?	
+tip_memotest	Nasheli	¿Huo'o ca 'onaxaic 'antounaxac? 'Auanata caua ne'enaqtaqa qataq caua na'aqtaqa 'eeta'a't 	
+tip_simon	Nasheli	¿Sa'ashaq? '’An’axaỹaxana soua na'aqtaqa. 'Apoteu'a ñeua ne'enaqtaqa ñaqratac ra lataxac  	
+tip_rompecabezas	Nasheli	 'Aua'ara't ye ilaxachigui nqaic. 	
+tip_read_automatic	Dany	’An’axaỹaxana na na’aqtaguec. Ime nache ’ana’aqtaxane’ na ’arhuo’ huo'otaq ara paxaguenataxanaxai.	
+tip_paint	Dany	Qolaq sa'amenaq.	
+tip_presentar_letra	Nasheli	Saỹatenaq ye nerec ñe Elías.	
+tip_toca_la_imagen	Nasheli	¿Negue't ca ne'enaqtac i'axat ra le'enaxat ra Elías? 'Apoteu'a ra saxanaxa ra i'axat ca le'enaxat ñi Elías.	
+tip_labyrinth	Nasheli	¡Uy! ¡Un laberinto! ¿Qué camino hay que seguir?	
+tip_completar	Dany	Nalochiguiñi 'anqa'en so rima. Nasheli qataq aỹem 'am setaunaq.	
+tip_completar_solo	Dany	Nagui nalochiguiñi 'anqa'en so rima.	
+conversemos_sobre	Nasheli	Conversemos sobre...	
+que_palabras_riman	Oscarcito	Ana'axaỹaxana'. Negue't ca na'aqtac 'eeta'am ra lataxac.	
+unir_personajes_estados	Nasheli	¿Quién se siente así? Escuchá las palabras y uní cada una con el personaje que corresponda.	
+tip_ordenar_cuento	Hombre	Na'aqtaxanaxac laxa't. ¿Ta'anco ra hua'auñi? ¿qaq ra ime? ¿Aỹem 'atauan ra saỹamaxajñi na na'aqtaguec?	
+ordenarMensaje	Dany	Tu maestra o tu familia te ayudan.	
+toca_empiezan_igual	Mujer	Nagui 'am, ‘anasaxauec na ne'enaqtaqa ‘ena’am ñe ‘ele’ Elías qataq 'apoteu'a naua chegoqchiguiña 'eeta'am.	
+tip_escucha_rima	Dany	 'Ana'axaỹaxana' so rima.	
+tip_escucha_cancion	Dany	¿So'onaxanaq?	
+tip_repetir_loro	Nasheli	Setaxasoqtac yenaqta'am ñe Eeeeeeelías. Nagui 'avi'iguelaxalec soua na'aqtaqa 'ena'am ñi 'ele'	
+tip_leer	Nasheli	Setaxaỹaxanaq. 'Apoteu'a ye na'aqtac maye itaxaỹaxatac añe Emi.	
+tip_letra	Nasheli	 'Enaua na'aqtaqa saxanaxa ca nerecpi. Aỹem 'atauan yaqto' nalochiguiñi.	
+tip_diferencias	Dany	Ameten ñeua ne'enaqtaqa. ¿Negue't ca sa nateneguet? 	
+diferenciasCaperucita_1	Dany	Mirá estas imágenes del cuento. ¿Cuáles son las diferencias?	
+rima_palabras_loro	Mujer	Ahora vos, nombrá uno de los dibujos como el Loro Uriel y tu familia o tu maestra tiene que descubrirlo.	
+intro_animales_granja	Mujer	’Ana’axaỹaxana na shiguiỹacpi. ¿Ca ’eetec na le’enaxatpi?	
+danyAnimales_1	Hombre	’Ameten na lqui’i ra na’aqtaguec “Dany qataq lalopi”. ¿Negue’t so shiguiỹacpi maye ỹalectauo?	Material de Actividades Cuento 1
+danyAnimales_2	Hombre	¿Nroteec na shiguiỹacpi ra ỹalectauo?	
+danyAnimales1_1	Hombre	¿Negue’t so lalopi so Dany?	
+laminaDanyAnimales_1	Hombre	¿Negue’t so lalopi so Dany?	
+laminaDanyAnimales_4	Mujer	‘Onaxaic na na’aq nache ñe Dany ravisheguemec ara ‘epaq qataq ñe lalo  miicho qaq na lalo laŷepi pa’atañe.	
+laminaDanyAnimales_5	Mujer	 Ñe ashena, ‘ele qataq ñe ‘olgaxa  lhuaraic petrañe. Añe pioq ncoŷaxaategueua ye llalec qaq ye lŷa pioq  ro’ocheta. Ñe caaŷo nŷomtac, ñeua quetaq rque’etac qaq añe cos pa’atauo.	
+laminaDanyAnimales_5	Mujer	 'Ana’axaỹaxana ra le’enaxat ñe shiguiỹac, ye lcata, ime taq ‘avi’iguelaxalec	
+escuchar_repetir_colores	Mujer	’Ana’axaỹaxana ra le’enaxat na lo’oguiaxac, ime taq ’avi’iguelaxalec	
+danyAnimales3_2	Hombre	So Dany, ¿negue’t ca huotaique ra ỹo’otec so ’olgaxa llalec?	
+danyAnimales4_3	Hombre	¿Ca ’eetec aso ’olgaxa?	
+laberinto_dany_animales	Mujer	 'Atauan ñe 'olgaxa llalec yaqto' ivira'a añe 'olgaxa.	
+animalesSalvajes_1	Mujer	Escuchá estos animales.	
+animalesSalvajes_2	Mujer	¿Cómo se llaman?	
+animalesSalvajes2_3	Mujer	’Ameten ñe ne’enaqtac shiguiỹac taq ’anasaxauec so le’enaxat	
+animalesGranja_1	Mujer	Mirá estas imágenes. ¿Qué animales son?	
+categoriaAnimalesTamanos_1	Mujer	‘Ameten ñe shiguiỹac taq ‘anasaxauec ye lcata: ¿qapiolec, lta’araicchigui, lta’araic?	
+categoriaAnimales3_1	Mujer	’Ameten ñe ne’enaqtac shiguiýac taq ’anasaxauec so le’enaxat.	
+categoriaAnimales4_1	Mujer	’Ameten ñe ne’enaqtac shiguiýac taq ’anasaxauec so le’enaxat.	
+animalesGranja_2	Mujer	¿Cómo se llaman?	
+danyAnimales3_4	Hombre	¿Ca ’eetec aso ’olgaxa?	
+danyAnimales4_5	Hombre	¿Ta’anco’ aso ’olgaxa ra ralemataỹa so Dany?	
+danyAnimales4_6	Hombre	¿Negue’t so ỹo’ot aso ’olgaxa qo’ollaxa ra ralemata?	
+toca_animales_dany	Mujer	‘Apoteua’a na lalopi shiguiỹacpi ra Dany  	
+elegi_colores	Mujer	Escuchá y tocá los colores	
+colores_1	Nasheli	’Ameten ñe ne’enaqtac lo’oguiaxac taq ’anasaxauec so le’enaxat.	
+uni_gallinas_color	Nasheli	Huaxaiguet nqa'en añe 'olgaxa ñe 'olgaxa llalec 'eeta'am ra lo’oguiaxac.	
+danyAnimales2_7	Hombre	¿Ca ’eetec so Dany qataq aso lalo ’olgaxa?  	
+danyAnimales4_8	Hombre	¿Ta’anco’ aso ’olgaxa ye ralemataỹa so Dany?	
+danyAnimales4_9	Hombre	Nache, ¿negue’t so ỹo’ot aso ’olgaxa?	
+danyAnimales4_10	Hombre	Qataq, ¿negue’t so ỹo’ot so Dani?	
+laminaDanyAnimales_6	Hombre	¿Ca ‘eetec ra lo’oguiaxac na shiguiỹacpi lalopi ra Dany?	
+danyAnimales4_11	Hombre	Nache, ¿ca ’eetec ra ime so na’aqtaxanaxac?	
+tip_parte_cuento	Dany	¿Hua'ague ca pa'aigue ca ne'enaqtac? 'Anaxaỹaxana 'apoteu'a ñe ne'enaqtac ca pa'aigue. 	
+painting_animales_dany	Mujer	¿Ca ‘eetec ra lo’oguiaxac na shiguiỹacpi lalopi ra Dany? 'Aua'amen na shiguiỹacpi.	
+toca_animal_diferente	Mujer	Apoteua'a ñe 'oonolec npe'eneguet ñeua shiguiỹac. ¿Ta'anco ra npe'eneguet?	
+danyAnimales_7	Nasheli	Es de día. Hay sol. Dany está afuera de su casa.	
+danyAnimales_8	Nasheli	Está sentado arriba del árbol junto a su gato negro.	
+danyAnimales_9	Nasheli	Dany tiene muchos animales, tiene tres perros, un gallo, un caballo, un chancho, dos chivos, un loro, un burro y dos gallinas.	
+danyAnimales_10	Nasheli	Una gallina es blanca y tiene cuatro pollitos. La otra gallina es amarilla.	
+intro_animales_monte	Hombre	¿Negue’t so shiguiỹacpi? ¿Ca ‘eetec na le’enaxatpi? ¿Hua’ague ca neta’ague? ¿aviaq? ¿nma’? ¿Negue’t ca lỹa ‘aua’aqtega?	
+animalesMonte_1	Dany	¿Qué animales son?	Material de Actividades Cuento 2
+animalesMonte_2	Dany	¿Dónde están? ¿En una casa? ¿En el monte?	
+animalesMonte_3	Dany	¿Qué más escuchaste?	
+escucha_repeti_cosas_casa	Mujer	’Ana’axaỹaxana ra le’enaxat na sochaqna huetaña na ’arma’, ime taq ’avi’iguelaxalec.	
+oso_4	Mujer	 ¿‘Auauatton ñe shiguiỹac?	
+oso_5	Mujer	Le’enaxat oso	
+oso_6	Mujer	¿’Eetec: lta’araic, qapiolec qalqo lta’araichigui?	
+oso_7	Mujer	¿Son chicos? ¿son grandes?	
+rulitos1_1	Hombre	¿Hua’ague ca huetague aca Rulitos?	
+rulitos2_2	Hombre	Huetaigui ye aviaq acamaye, ¿negue’t ca ỹanata?	
+rulitos3_3	Hombre	¿Negue’t ca ỹo’ottac?	
+oso_8	Dany	¿Cómo es el osito?	
+oso_9	Nasheli	¿Cómo son sus dientes?	
+rulitos2_4	Hombre	Huetaigui ye aviaq aso Rulitos, ¿negue’t ca ỹanata?	
+rulitos2_5	Hombre	¿Negue’t caua yalectaiguilo ñe lma’?	
+rulitos2_6	Hombre	¿Ca ’eetec ra lataxac ñeua oso?	
+rulitos4_7	Hombre	¿Negue’t na huo’o ye lma’?	
+rulitos4_8	Hombre	¿Ca ’eetec ra lataxac ñeua ỹomaxaqui’, ñeua so’onaxaqui’ qataq yeua mala’te? 	
+rulitos4_9	Hombre	¿Ta’anco’ ñeua ỹomaxaqui’, ñeua so’onaxaqui’ qataq yeua mala’te yotta’at ra lataxac?	
+rulitos8_10	Hombre	¿Negue’t aca ỹomaxaqui iueetac ara Rulitos?	
+rulitos9_11	Hombre	¿Negue’t aca so’onaxaqui nso’otangui añi Rulitos?	
+rulitos10_12	Hombre	¿Negue’t ca mala’ ro’ochetalec aye Rulitos?	
+rulitos5_13	Hombre	¿Ta’anco’ añi Rulitos da lca’ayi ana ỹomaxaqui qapiole, so’onaxaqui qapiole qataq mala’ qapio’olec?	
+animalesChicosGrandes2_1	Mujer	¿Negue’t na shiguiỹacpi?	
+animalesChicosGrandes2_2	Mujer	¿Ca ‘eetec: qapiolec, lta’araic... lairaxaic, lapagaxaic...?	
+rulitos6_14	Hombre	¿Ca ’eetec da ỹi’iguelaxau’a ye lma’ ñeua oso?	
+rulitos7_15	Hombre	¿Negue’t ca ilalec?  ¿Negue’t ca ỹo’ot?	
+rulitos2_16	Hombre	Huetaigui ye aviaq acamaye, ¿negue’t ca ỹanata?	
+rulitos4_17	Hombre	¿Negue’t caua yalectaiguilo ñe lma’? ¿Negue’t na huo’o ye lma’?	
+rulitos4_18	Hombre	¿Negue’t caua yalectaiguilo ñe lma’? ¿Negue’t na huo’o ye lma’?	
+rulitos5_19	Hombre	¿Ta’anco’ añi Rulitos da lca’ayi ana ỹomaxaqui qapiole, so’onaxaqui qapiole qataq mala’ qapiolec?	
+rulitos5_20	Hombre	¿Negue’t ca ỹo’ot aso Rulitos?	
+rulitos6_21	Hombre	¿Ca ’eetec da ỹi’iguelaxau’a ye lma’ ñeua oso? ¿Negue’t ca ilalec?	
+rulitos7_22	Hombre	¿Qué pasa al final?	
+rulitos_23	Hombre	¿Te gustó el cuento?	
+rulitos_24	Hombre	¿Qué parte te gustó más? ¿Por qué?	
+rulitos5_25	Hombre	¿Negue't so ỹo'ot aso Rulitos ye lma' soua Osos?	
+rulitos6_26	Hombre	¿Ta'anco ralematae soua Osos ra ivireu'a ye lma'?	
+rulitos6_27	Hombre	Qaq ime, ¿ca 'eetec? 	
+diferenciasRulitos_1	Hombre	¿Negue't na ỹo'ottape ñiua oso? ¿qaq Rulitos? ¿Negue't ca na'aq laloxoqui?	
+uni_oso_objetos	Mujer	Huaxaiguet nqa'en na sochaqna na lma' ñeua oso 'eeta'am lcata.	
+escucha_repeti_objetosOsos	Mujer	¿’Eetec ra lataxac soua ỹomaxaqui’, soua mala’te qataq soua nso’onaxaqui’ soua Osos? ’Ana’axaỹaxana taq ’avi’iguelaxalec	
+aviaq_quetaq	Mujer	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “aviaq”? 	
+escucha_repeti_cosas_casa	Mujer	’Ana’axaỹaxana ra le’enaxat na sochaqna huetaña na ’arma’, ime taq ’avi’iguelaxalec.	
+qapiolec_nogotolec	Mujer	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “qapiolec”? 	
+laberinto_rulitos	Mujer	 'Atauan añe Rulitos yaqto' ivira'a ye lma' ñeua oso.	
+danyAnimales4_12	Mujer	¿Qué pasó con Dany y su gallina?	Integracion 1
+laminaDanyAnimales_13	Hombre	Dany qalota so lalopi. ¿Huo’o ca ’al-lo?	
+laminaDanyAnimales_14	Hombre	¿Negue’t ca ’al-lo? ¿Ca ’eetec ca lataxac ca ’al-lo? ¿Negue’t ca lo’oxoỹaxac ca ’al-lo?	
+danyAnimales4_15	Hombre	¿Huo’o ye huaña ra ralemata? 	
+danyAnimales4_16	Hombre	¿’Am ’añi’iỹa na shiguiỹacpi? ¿Negue’t ca shiguiỹacpi ra ’añi’iỹa? ¿Chaq ta’anco’ ra ’ani’iỹa?	
+toca_iguales	Mujer	¿Cuántos hay? ¡Tocá todos los iguales! ¿Por qué son iguales?	
+objetosCasa_1	Mujer	’Ameten ñe ne’enaqtac sochaqna netaña na nma’ taq ’anasaxauec so le’enaxat	
+toca_animales	Mujer	‘Apoteua’a ‘enauac na shiguiỹacpi taq ‘anasaxauec so le’enaxat.	
+toca_objetos_casa	Mujer	‘Apoteua’a ‘enauac na sochaqna huetaña na nma’ taq ‘anasaxauec so le’enaxat.	
+toca_pollitos	Mujer	‘Apoteua’a ‘enauac na 'olgaxa llalaqpi.	
+elegi_animal	Mujer	¿Qué animal es?	
+mira_imagenes	Mujer	Mirá estas imágenes.	
+danyAmigos_1	Mujer	Mirá estas imágenes. ¿Cómo se llaman estos juguetes? 	Dany y sus amigos
+danyAmigos_2	Hombre	¿Huo’o ca Dany? ¿’Oonolec?	
+danyAmigos_3	Hombre	¿Negue’t ca ỹo’ottac na ñaqpiolec?	
+nenesJuegan_2	Hombre	¿Negue’t ca ỹo’ottac na ñaqpiolec?	
+danyAmigos_4	Hombre	¿Negue’t na la’ashaxantac na huo’o?	
+danyAmigos_5	Hombre	¿Negue’t da na’aictegue so Dany?	
+danyAmigos_6	Hombre	¿Negue’t na ỹo’ottacpi? ¿Negue’t na huo’o?	
+escucha_repeti_juguetes	Mujer	’Ana’axaỹaxana ra le’enaxat ye na’ashaxantac, ime taq ’avi’iguelaxalec	
+escucha_repeti_partes_cuerpo	Mujer	’Ana’axaỹaxana naua le’enqa’ate na lo’oquiaxac na shiỹaxaua, ime taq ’avi’iguelaxalec	
+toca_aviones	Mujer	Tocá los aviones ¿Cuántos aviones hay? 	
+toca_pelotas	Mujer	‘Apoteua’a ‘enauac ye pelootapi. ¿Lcate’ ye pelootapi?	
+presentacionLoroUriel	Mujer	Ñe ele' lalo so Dany. Le'enaxat Elias. Ñe 'ele' Elias qapi ra huayoqtec ra ltaxayaxac. ‘Ana’axaỹaxana ime nache ’anasaxauec so le'enaxat ra nasaxauec.	
+danyAmigos_7	Mujer	Dany huo’o na l’ashaxauapi: Sandra, Lucas, Alan, Juan, Nahuel.	
+danyAmigos_8	Mujer	 ‘Enauac huo’o na  l’ashaxantac: pelota, muñeca, camión qataq caartapi. 	
+danyAmigos2_2	Hombre	¿Negue’t na ỹashaxaata’pe raua Dany, Lucas qataq Alan?	
+danyAmigos2_3	Hombre	¿Negue’t na ỹo’ottac ra Lucas?	
+danyAmigos2_4	Hombre	¿Ca ’eetec aca peloota?	
+toca_autos	Mujer	‘Apoteua’a ‘enauac aye altemoipi. ¿Lcate’ ñeua altemoipi?	
+danyLucasAlan_1	Hombre	’Ameten na ne’enaqtac. ¿Ca ’eetec ra Dany?	
+danyLucasAlan_2	Hombre	¿Ca ’eetec naua Lucas qaq Alan: ñi’i, ỹa’amaqchiguiñe qalqo’ ralemata? ¿Ta’anco'?	
+danyLucasAlan_3	Hombre	¿Están contentos, asustados...? ¿Por qué?	
+toca_autos	Mujer	¿Cuántos hay? Toca todos los autos.	
+danyAmigos3_5	Hombre	Qaq ¿negue’t so ỹo’ot so Dany?	
+danyAmigos4_6	Hombre	¿’Eetec so Dany?	
+pregunta_ciempies	Hombre	¿Negue't ca n'ashaxantac 'ena'am so ñegaqaic?	
+cien_tren	Mujer	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “cien”? 	
+juguetes_1	Mujer	’Ameten ñe ne’enaqtac na’ashaxantac taq ’anasaxauec so le’enaxat.	
+juguetes_2	Mujer	¿Negue’t na na’ashaxantacpi? ¿’Eetec le’enaxat? ¿Ca ‘eetec: qovi, lairaxaic, rarala, ....?	
+toca_juguetes	Mujer	‘Apoteua’a ‘enauac na na’ashaxantacpi taq ‘anasaxauec na le’enaxat.	
+danyAmigos5_7	Hombre	¿Negue't ca ỹo'ot ra Lucas qataq Alan ra huañi ye Dany? ¿Ta'anco'?	
+nenesActividades_1	Hombre	¿Negue’t ca ỹo’ottac na ñaqpiolec?	
+nenesJuegan_1	Hombre	¿Negue’t ca ỹo’ottac na ñaqpiolec?	
+nenesActividades_2	Hombre	Negue’t na iueetac na lo’ocỹaxac?	
+cuerpo	Mujer	¿Cómo se llaman las partes del cuerpo?	
+vacaLola_1	Dany	¿Qué partes del cuerpo nombra la canción?	
+vacaLola_2	Nasheli	¿Qué dice la vaca Lola?	
+elegi_parte_cuerpo	Mujer	¿Qué parte del cuerpo es?	
+laberinto_dany	Mujer	 'Atauan ra Dany yaqto' ivira'a añe peloota.	
+sauaxaic_negaxaic	Mujer	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “sauaxaic”? 	
+danyAmigos2_8	Hombre	¿’Eetec ra Dany qo’ollaq huotaique ra nqajñi aso peloota?	
+danyAmigos2_12	Hombre	¿Negue’t na ỹo’ottacpi ra Dany qataq na la’ashaxauapi?	
+danyAmigos3_9	Hombre	¿Qué hacen Lucas y Alan cuando Dany se cae? ¿Por qué?	
+danyAmigos5_10	Hombre	¿’Eetec qo’ollaxa ime? ¿Ta'anco ra ỹa'amaqchiguiñe ra Dany? 	
+danyLucasAlanpt2_1	Mujer	¿Qué pasa con Dany? ’Ameten na ne’enaqtac. ¿Ca ’eetec ra Dany? 	
+danyLucasAlanpt2_2	Mujer	¿Cómo están Lucas y Alan? ¿Ca ’eetec naua Lucas qaq Alan: ñi’i, ỹa’amaqchiguiñe qalqo’ ralemata? ¿Ta’anco? 	
+danyLucasAlanpt2_3	Mujer	¿Están enojados, contentos...?	
+intro_partes_cuerpo	Dany	Mirá las partes del cuerpo y decí sus nombres.	
+amigos_1	Dany	Dany qalota na la’ashaxauapi. ¿Qaq ’am huo’o ca ’arashaxaua?	
+amigos_2	Dany	¿’Eetec ca le’enaxat?	
+amigos_3	Dany	¿Negue’t na ỹashaxaatac?	
+amigos_4	Dany	¿Negue’t na la’ashaxantac na huo’o?	
+amigos_5	Dany	¿Negue’t ca ’ara’ashaxantac ra ỹoqta ’arqopita? ¿’Eetec que’eca na’ashaxantac?	
+amigos_6	Dany	¿Ta’anco’ ra ’arqopita?	
+elegi_juguetes	Mujer	¿Qué juguete es?	
+toca_palabras_empiezan_igual	Mujer	Nagui 'am, ‘anasaxauec na ne'enaqtaqa ‘ena’am ñe ‘ele’ Elías qataq 'apoteu'a naua chegoqchiguiña 'eeta'am.	
+liebreTortuga_1	Hombre	¿’Auauatton ne’ena shiguiỹacpi?	La Liebre y la Tortuga
+liebreTortuga_2	Hombre	¿Negue’t ca nchettom ra lqueuoxoc? ¿Negue’t ca ỹagueec ana naloxo?	
+liebreTortuga1_1	Hombre	¿Negue’t ca huotaique ỹo’ot ñe potaxanaxat?	
+liebreTortuga1_2	Hombre	¿’Eetec ca la’aqtac añi lerma?	
+liebreTortuga2_3	Hombre	¿Qaq ca 'eetec qone'? 	
+unir_partes_ropa	Hombre	Huaxaiguet nqa'en lo'oquiaxac na shiỹaxaua huo'o na logoxot. 	
+liebreTortuga1_4	Hombre	¿Negue’t ca la’ashaxac añe lerma qataq potaxanaxat?	
+liebreTortuga2_5	Hombre	¿Ỹagueec ana naloxo ñi potaxanaxat? ¿Qaq añi lerma?	
+liebreTortuga3_6	Hombre	¿Ca 'eetec ana naloxo?	
+unirRopa_1	Mujer	¿Negue't na nogoxot ỹaatañi ra nogotolec? ¿Qaq ara nogotole? 	
+unirRopa_2	Mujer	Ara nogotole ỹaatañi ara aro'o togaxarai qaq ra nogotolec ỹaatañi ara aro'o rarala	
+unirRopa_3	Mujer	Ara nogotole ỹaatañi ara maxaso qovi qaq ra nogotolec ỹaatañi ara maxaso imalaq	
+unirRopa_4	Mujer	Ara nogotole ỹaatañi ra lomaxaqui togaxaraic qaq ra nogotolec ỹaatañi ra lomaxaqui lairaxaic	
+toca_palabra_a	Mujer	Ahora vos, nombrá estos dibujos como Uriel y tocá todo lo que empieza como azul.	
+escucha_toca_ropa_1	Mujer	¿Negue’t na nogoxot?	
+miyo_nashiyo	Mujer	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “miỹo"? 	
+liebreTortuga2_7	Hombre	¿Negue’t ca ỹo’ot ñeua potaxanaxat qataq lerma?	
+liebreTortuga3_8	Hombre	¿’Eetec añi lerma ra ime ra ỹagueec ana naloxo? ¿Negue’t ca ỹo’ot?	
+liebreTortuga3_9	Hombre	¿Negue't ca ỹo’ot ñe potaxanaxat?  	
+toca_pantalones	Mujer	¿Lcate’ aye maxasopi?	
+liebreTortuga3_10	Hombre	¿Ta’anco’ ye ro’oche añe lerma?	
+liebreTortuga4_11	Hombre	¿Negue’t ca ralegaxan aso naloxo? ¿Ta’anco'?	
+diferenciasLiebreTortuga_2	Hombre	¿Negue'e ca huotaique ỹo'ot añe lerma qataq ñe potaxanaxat? ¿Negue't ca na'aq laloxoqui?	
+diferenciasLiebreTortuga_3	Hombre	¿Ca 'eetec ra ime añi lerma qataq potaxanaxat? ¿Negue't ca na'aq laloxoqui?	
+laberinto_tortuga	Mujer	 'Atauan ñe potaxanaxat yaqto' rauegaxan.	
+pela_pela	Hombre	¿Negue’t ca na’aqtac ’eetea’am lshiinec so na’aqtac “pela”? 	
+toca_estrellas	Mujer	¿Lcate’ aye huaqajñepi?	
+escucha_repeti_ropa	Mujer	’Ana’axaỹaxana ra le’enaxat na nogoxot ime taq ’avi’iguelaxalec	
+liebreTortuga4_12	Hombre	¿’Eetec qo’ollaxa ime?	
+toca_o	Mujer	Tocá todo lo que empieza como oso.	
+escucha_repeti_cosas_cielo	Mujer	’Ana’axaỹaxana ra le’enaxat na neto’ot na piguem ime taq ’avi’iguelaxalec	
+toca_nubes	Mujer	‘Apoteua’a ‘enauac na napo. ¿Lcate’ yeua napo?	
+toca_ropa	Hombre	‘Apoteua’a ‘enauac ye nogoxot taq ‘anasaxauec na le’enaxat.	
+danyAmigos4_11	Mujer	¿Qué pasó con la pelota? 	Integracion 2
+danyAmigos5_12	Mujer	¿Qué hicieron Dany y sus amigos?	
+toca_m	Mujer	Ahora vos, nombrá estos dibujos como Uriel y tocá todo lo que empieza como mano.	
+animalesDiaNoche_1	Hombre	¿Negue't ye shiguiỹacpi? ¿Lagui qana'axaỹaxana? ¿na'aq qalqo' pe?	
+cielos_1	Hombre	Apoteu'a ñi ne'enaqtac na nte'eta. ¿'Eetec na piguem?	
+cielos_2	Hombre	Apoteu'a ñi ne'enaqtac na avit. ¿'Eetec na piguem?	
+cielos_3	Hombre	Apoteu'a ñi ne'enaqtac na pe. ¿'Eetec na piguem?	
+ropas_1	Mujer	Maxaso late'erai imalaq qapiole togaxarai	
+ropas_2	Mujer	Pela' lta'araic lairaxaic qapiolec lapagaxaic	
+muñecaColores_1	Mujer	Muñeca lapique rarala na lỹa lapique qovi	
+muñecaColores_2	Mujer	Muñeca lapia' togaxaraic na lỹa lapia' imalaq	
+muñecaColores_3	Mujer	Muñeca lhuaq lairaxaic na lỹa lhuaq 'alhualec	
+liebreTortuga3_13	Hombre	¿Negue’t ca rauegaxan aso aloxo? ¿Ta’anco'? ¿Ca 'eetec?	
+estados_liebre	Mujer	¿Ca 'eetec añe lerma?	
+danyFamilia_12	Mujer	Dany lauo’: lapiyel Juan, Eluisa, lta’al Beatriz, Argelio. 	
+danyFamilia_13	Mujer	Ara lcote ŷapaxaŷaqtac añe  napava cha’aye huotaique ŷo’ot ca cocido. Ara late’e rsogaxaatac qaq ra lta’a  ichectapigui ye nŷaq cha’aye so pe nache rque’epi	
+danyFamilia_1	Hombre	’Ena’ na lauo’ ñi Dany: late’e, lta’a, lcote, lapi’	Dany y su familia
+danyFamilia_2	Hombre	¿Negue’t na ỹo’ottac? ¿Negue’t na iueetac? 	
+danyFamilia_110	Hombre	¿Negue’t soua Juan, Eluisa, Beatriz qataq Argelio?	
+escucha_repeti_familia	Mujer	’Ana’axaỹaxana negue’t so lauo’ so Dany, ime taq ’avi’iguelaxalec. 	
+escucha_repeti_instrumentos_cocina	Mujer	’Ana’axaỹaxana ra le’enaxat na sochaqna huetaña na ’arma’, ime taq ’avi’iguelaxalec.	
+osoOsito_1	Dany	¿Con quién está el osito?	
+osoOsito_2	Nasheli	¿Qué le dice el papá al osito?	
+danyFamilia2_3	Hombre	¿Negue’t ca na’aictegue so Dany? ’Antoueeta’ac ca le’enaxat. 	
+danyFamilia2_4	Hombre	¿Ca ’eetec so quetaq llalec lapagaxaic? ¿Ca huetague? 	
+danyFamilia2_5	Mujer	¿Hay más chivos? ¿Dónde?	
+danyFamilia1_3	Hombre	¿Negue’t na ỹo’ottac so Dany, lauo’ qataq so lalo pioq?	
+danyFamilia1_9	Mujer	¿Ca ’eetec so quetaq llalec lapagaxaic?	
+danyFamilia_10	Mujer	¿Cómo es tu familia? ¿Qué haces con tu familia?	
+diferenciasDanyFamilia_1	Mujer	¿Dónde está el chivito blanco: adentro o afuera del corral? ¿Y Dany?	
+diferenciasDanyFamilia_2	Mujer	¿Y en la segunda imagen? ¿Dónde está el chivito blanco: adentro o afuera del corral? ¿Y Dany?	
+corralAnimales_1	Mujer	¿Ca neta'ague ye shiguiyacpi: pa'atauo qalqo pa'atauec?	
+perritoLugares_1	Mujer	¿Dónde está el perrito?	
+gatitoLugares_1	Mujer	¿Dónde está el gatito?	
+danyFamilia1_3	Mujer	¿Qué hacen Dany, su familia y su perro?	
+danyFamilia1_4	Mujer	¿Qué pasa con el chivito?	
+laberinto_dany_familia_1	Mujer	 'Atauan ñe quetaq llalec yaqto' taigui añe laỹi'.	
+danyFamilia3_5	Hombre	So quetaq llalec mashe pa’auo taigue aso laỹe’, ¿negue’t so ỹo’ot so Dany? ¿Ta’anco’?	
+danyFamilia3_6	Hombre	Mashe ime, ¿ca huetague aca quetaqpi?	
+danyFamilia_8	Hombre	¿Negue’t re’eraua? ¿Negue’t naua huo’oi?	
+danyFamilia_9	Hombre	¿Negue’t na ỹo’ottac so Dany qataq lapi’? 	
+toca_cucharas	Mujer	‘Apoteua’a ‘enauac ye nemecpi. ¿Lcate’ ye nemecpi? 	
+danyFamilia2_7	Hombre	¿Ta’anco’ ra imauec qaicanapec so quetaq llalec lapagaxaic?	
+danyFamilia2_8	Hombre	¿Ta’anco’ so Dany qataq lauo’ ra pa’auo naqa’en aso quetaqpi?	
+familia_1	Hombre	¿Ca ’eetec na arhuo’? ¿Negue’t na ’auo’ot na arhuo’?	
+familia_2	Mujer	¿Negue't ca ỹoqta 'arqopita ra 'auo'ot? ¿negue't ca 'arỹa? ¿ta'anco'?	
+caperucitaRoja_1	Hombre	¿’Auauatton ara nogotole? Le’enaxat ara Caperucita Roja. 	Caperucita Roja
+caperucitaRoja_2	Hombre	¿’Eetec ra no’otaxac? ¿’Eetec ra lo’oxoỹaxac na logoxot? 	
+caperucitaRoja_3	Hombre	¿Negue’t ra lasoqta’a? ¿’Oonole quetaigui na aviaq?  	
+escucha_repeti_partes_cara	Mujer	’Ana’axaýaxana naua le’enqa’ate na lashec na shiýaxaua, ime taq ’avi’iguelaxalec.	
+caperucitaRoja1_1	Hombre	¿Negue’t so ỹanem aso late’e ara Caperucita? ¿Negue’t ca lalamaxat na nallec? 	
+caperucitaRoja2_2	Hombre	¿Negue’t ca ncañoxottaigui na aviaq? ¿Negue’t na ita’aguet ra Lobo? 	
+caperucitaRoja2_3	Hombre	¿Hua’ague ca ’aigue Caperucita? ¿Negue’t na ỹachetac?	
+caperucitaRoja3_4	Hombre	¿Negue’t ca natenaguet na aviaq? 	
+caperucitaRoja33_5	Hombre	¿Ta’anco’ so Lobo huotaique na’aqtaxane’ ara Caperucita? 	
+caperucitaRoja33_6	Hombre	¿Negue’t ca huotaique ỹaỹaten? 	
+toca_palabra_s	Mujer	Ahora vos, nombrá estos dibujos como Uma y tocá todo lo que empieza como sol.	
+caperucitaRojapt2_1	Hombre	Ra taegue ye lma’ aca lcote ra Caprucita nache huo’oi naua dos nqa’aico. 	
+caperucitaRojapt2_2	Hombre	¿’Eetec naua nqa’aico? ¿Negue’t ca lcateua’a nqa’aic so Lobo? ¿qaq aso Caperucita? 	
+caperucitaRojapt2_3	Hombre	¿Ta’anco’ aso Caperucita ye lca’ateua’a so qoỹoqoolec [qaỹoqojlec] nqa’aic?	
+caperucitaRojapt2_4	Hombre	¿Negue’t ca hua’auñi ra ivita ñi lma’ añi lcote? ¿Ta'anco'?	
+caperucitaRojapt2_7	Hombre	¿Lcate’ soua nqa’aico taỹa’a ye lma’ aso lcote ara Caperucita? ¿’Eetec naua nqa’aico?	
+caperucitaRojapt2_8	Hombre	So Lobo qataq Caperucita, ¿’oonolec so jetegue’ nqa’aic? 	
+caperucitaRojapt2_9	Hombre	¿Ta’anco’ ra saq ’ena’at ra queguelo naua nqa’aico?	
+caperucitaRoja3_10	Hombre	¿Ca ’eeta’ so Lobo ara Caperucita?	
+laberinto_Caperucita	Mujer	 'Atauan añe Caperucita yaqto' ivira'a ye lma' añe lcote.	
+caperucitaRojapt3_1	Hombre	¿Nachara ara lcote qalqo’ Lobo?	
+caperucitaRojapt3_2	Hombre	¿Negue’t na logoxot ra Lobo?	
+caperucitaRojapt3_3	Hombre	 ¿Ta’anco’ ra Lobo ye ’eeta’am ra logoxot ara ncote?	
+alimentos_2	Hombre	¿’Auauatton ne’ena nallec? ¿’Eetec ca le’enaxat? ¿’Auauatton ca lỹa nallec?  	
+toca_manzanas	Hombre	¿Cuántas manzanas hay? 	
+caperucitaRoja5_11	Hombre	¿’Eetec aso ncote qolla nvi’ so Lobo? 	
+caperucitaRoja56_12	Hombre	¿Negue’t na ỹo’ot aso ncote? ¿qaq so Lobo? 	
+caperucitaRoja56_13	Hombre	¿Negue’t ca lalamaxat so nogoxot qataq copaxa ỹa’atañi ra Lobo?	
+caperucitaRoja6_14	Hombre	¿Ta’anco’ ra Lobo ye ’eeta’am ra logoxot ara ncote?	
+toca_palabra_l	Mujer	Ahora vos, nombrá estos dibujos como Uma y tocá todo lo que empieza como loro.	
+caperucitaRoja6_15	Hombre	 Aso Caperucita ivideua ye lma’ aso lcote, ¿negue’t so ilalec? 	
+caperucitaRoja7_16	Hombre	Nache, ¿ca ’eetec? ¿Negue’t so nvideu’a ye lma’ ara ncote? 	
+caperucitaRoja8_17	Hombre	¿Negue’t ca ỹo’ot so lta’a? ¿qaq so Loobo?	
+caperucitaRoja8_18	Hombre	 Ime nache, ¿ca ’eetec aso Caperucita qataq aso lcote? 	
+cincoRatoncitos_1	Dany	¿Cuántos ratoncitos hay?	
+cincoRatoncitos_2	Nasheli	¿Qué partes de la cara mueven?	
+cincoRatoncitos_3	Nasheli	¿Por qué los ratoncitos corren al rincón?	
+toca_alimentos	Hombre	Tocá todos los alimentos. Nombrá todo lo que tocás.	
+unir_sentidos	Hombre	¿Qué parte de la cara usamos? Uní la parte la parte de la cara con el dibujo que corresponde.	
+danyFamilia3_9	Hombre	¿Ca 'eetec so lalo quetaq so Dany?	Integración 3
+unir_familia_elementos	Mujer	Lcote, late'e, lta'a so Dany yo'ot ca nallec. ¿Negue't na ro'onataxaatega? Hua'aiguet anqa'en ra shiỹaxaua ra ro'onataxaatega.	
+alimentosColores_1	Nasheli	La banana es amarilla.	
+alimentosColores_2	Nasheli	La manzana es roja.	
+alimentosColores_3	Nasheli	La leche es blanca.	
+caperucitaRoja6_19	Hombre	¿Ca 'eetec aso Caperucita qo'ollaxa namaqtexa aso lcote?	
+caperucitaRoja5_20	Hombre	¿Ca 'eetec aso lcote aso Caperucita?	
+caperucitaRoja7_21	Hombre	Qaq ime, ¿ca 'eetec? 	
+elegi_lobo_ropa	Nasheli	El Lobo se viste como la abuela de Caperucita. Escuchá qué ropa usa y tocá la imagen que corresponde.	
+animales_intro	Dany	Hablemos sobre animales	
+liebreEstados_1	Hombre	¿’Eetec añi lerma: ỹa’amaqchiguiñe, i’elaq, nqui’iteec?	
+letraA_1	Mujer	Aaaaa	
+letraA_2	Mujer	¡Araña!	
+letraO_1	Mujer	Oooo	
+letraO_2	Mujer	¡Oso!	
+cancion_animales_integracion	Mujer	A	
+letraM_1	Mujer	Mmmmm	
+letraM_2	Mujer	¡Mano!	
+toca_objeto_diferente	Mujer	Apoteua'a na npe'eneguet. ¿Ta'anco ra npe'eneguet?	
+letraE_1	Mujer	Eeeeeeeeee	
+letraE_2	Mujer	¡Elefante!	
+letraS2_1	Mujer	Ssssssss	
+letraS2_2	Mujer	¡Sapo!	
+completa_cancion	Mujer	Completá la canción!	
+toca_osos	Mujer	‘Apoteua’a ‘enauac naua oso qapiolqa	
+toca_abeja	Mujer	Tocá la abeja chica.	
+toca_caballo	Mujer	Tocá el caballo mediano.	
+toca_pato	Mujer	Tocá el pato grande.	
+toca_gallo	Mujer	Tocá el gallo chico.	
+toca_gato	Mujer	Tocá el gato mediano.	
+toca_oveja	Mujer	Tocá la oveja grande.	
+toca_cama	Mujer	Tocá la cama chica.	
+toca_silla	Mujer	Tocá la silla mediana.	
+toca_vaso	Mujer	Tocá el vaso grande.	
+osoEstados_1	Hombre	¿Ca ’eetec so oso qapiolec da ñi’iguelaq? ¿Ralemata qalqo’ ỹa’amaqchiguiñe qalqo’ i’elaq? ¿Ta’anco?	
+toca_perro_naranja	Mujer	Tocá el perro mediano naranja.	
+toca_loro_rojo	Mujer	Tocá el loro chico rojo.	
+toca_gallina_azul	Mujer	Tocá la gallina grande azul.	
+toca_mono_amarillo	Mujer	Tocá el mono chico amarillo.	
+frase_pelota3	Mujer	Que rima con carlota?	
+frase_camion	Mujer	que rima con simon?	
+toca_muñeca	Mujer	Tocá la muñeca grande rosa.	
+toca_auto_amarillo	Mujer	Tocá el auto grande amarillo.	
+toca_pelota_azul	Mujer	Tocá la pelota chica azul.	
+toca_avion_rojo	Mujer	Tocá el avión grande rojo.	
+frase_so	Mujer	que palabra termina como caracol	
+toca_sol_amarillo	Mujer	Tocá el sol grande y amarillo.	
+toca_luna_verde	Mujer	Tocá la luna grande y verde.	
+toca_sol_azul	Mujer	Tocá el sol chico y azul.	
+toca_luna_roja	Mujer	Tocá la luna chica y roja.	
+toca_pantalon_amarillo	Mujer	Tocá el pantalon amarillo.	
+toca_remera_rojo	Mujer	Tocá la remera roja.	
+toca_ojotas_verdes	Mujer	Tocá las ojotas medianas verdes.	
+toca_media_amarilla	Mujer	Tocá las medias grandes amarillas.	
+frase_avion	Mujer	¿Qué palabra termina como Ramón?	
+toca_jarras	Mujer	Tocá todas las jarras. ¿Cuántas jarras hay?	
+toca_cuchillo_amarillo	Mujer	Tocá el cuchillo grande y amarillo.	
+toca_tenedor_naranja	Mujer	Tocá el tenedor chico y naranja.	
+toca_olla_azul	Mujer	Tocá la olla mediana y azul.	
+alimentos_ubicacion	Mujer	¿Qué alimentos son? ¿Dónde están?	
+danyPresentaAmigos	Mujer	Dany te presenta a sus amigos.	
+tip_contar	Mujer	Contá cuantos objetos iguales hay y tocá el numero que corresponda.	
+letraO3_1	Mujer	Ooooo	
+letraO3_2	Mujer	¡Olgaxa!	
+letraAQ2_1	Mujer	Aaaaaa	
+letraAQ2_2	Mujer	Aỹat	
+letraMQ2_1	Mujer	Mmmmm	
+letraMQ2_2	Mujer	Miyo	
+letraSQ2_1	Mujer	Ssssssss	
+letraSQ2_2	Mujer	So’onaxaqui 	
+danyAnimales3_2	Mujer	¿Qué quería hacer Dany con el pollito? So Dani, ¿negue’t ca huotaique ra ỹo’otec so ’olgaxa llalec?	
+danyAnimales4_3	Mujer	Y entonces ¿qué pasó con la gallina? ¿Ca ’eetec aso ’olgaxa? 	
+escuchar_repetir_animales	Mujer	‘Ana’axaýaxana ra le’enaxat ñe shiguiýac, ye lcata, ime taq ‘avi’iguelaxalec	
+loroEmi_1	Mujer	Eeeeeemi	
+loroEmi_2	Mujer	‘Eeeeeeeele’ Eeeeeemi	
+loroEmi_3	Mujer	Aaaaaaỹem ‘eeeeeeeele’ Eeeeeemi	
+danyFamilia_25	Hombre	¿Ca ’eetec aso quetaqpi late’eraipi? ¿Ca ’eetec so quetaq llalec lapagaxaic?	
+letraEQ2_1	Mujer	Eeeeeeeeeeee	
+letraEQ2_2	Mujer	Ele	
+toca_pescados	Mujer	¿Lcate’ ye nỹaqpi?	
+letraLQ2_1	Mujer	LLLLL	
+letraLQ2_2	Mujer	Lerma	
+laberinto_Abuela	Mujer	 'Atauan ara lcote ra Dany yaqto' ivira'a ana npaua. 	
+letraNQ2_1	Mujer	Nnnnn	
+letraNQ2_2	Mujer	Nala	

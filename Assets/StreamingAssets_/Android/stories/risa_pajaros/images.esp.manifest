@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3033711834
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81b1e264ab5cc0ea40d8aeccd2a32837
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/11.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/4.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/7.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/3.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/9.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/1.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/13.jpg
+- Assets/Resuources_in_bundles/stories/risa_pajaros/images/10.jpg
+Dependencies: []

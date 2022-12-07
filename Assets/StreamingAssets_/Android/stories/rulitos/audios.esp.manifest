@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1684750459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94bcdd57e1e0dd7c7c1ba2d2e27ba5bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/rulitos/audios/hard.wav
+Dependencies: []

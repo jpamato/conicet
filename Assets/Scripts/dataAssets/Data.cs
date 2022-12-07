@@ -41,6 +41,12 @@ public class Data : MonoBehaviour
     DataLoader[] allDataFiles;
     int dataLoaded;
     public bool allLoaded;
+    public modes mode;
+    public enum modes
+    {
+        ONLINE,
+        OFFLINE
+    }
 
     public static Data Instance
     {
@@ -81,6 +87,8 @@ public class Data : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+        if (mode == modes.OFFLINE)
+            url = Application.streamingAssetsPath + "/";
 
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         DontDestroyOnLoad(this);

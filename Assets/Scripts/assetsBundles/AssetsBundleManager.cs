@@ -46,6 +46,11 @@ namespace Conicet.AssetsBundle
                 esp_loaded = true;
             }
             this.OnDone = OnDone;
+            if(Data.Instance.mode == Data.modes.OFFLINE)
+            {
+                LoadFromServer(Data.Instance.url);
+                return;
+            }
 #if UNITY_EDITOR
             if (forceServerDownload)
             {

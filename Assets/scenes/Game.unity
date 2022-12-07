@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5962,7 +5962,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 249525945}
-  - component: {fileID: 249525946}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -5986,24 +5985,10 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 734, y: 729}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &249525946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249525944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!1 &253296478
 GameObject:
   m_ObjectHideFlags: 0
@@ -13350,8 +13335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.7459, y: -58.212765}
-  m_SizeDelta: {x: 750.6025, y: 483.5724}
+  m_AnchoredPosition: {x: 7.7459, y: -44.015}
+  m_SizeDelta: {x: 750.6025, y: 511.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615425584
 MonoBehaviour:
@@ -23051,7 +23036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 13, y: 0}
   m_SizeDelta: {x: 20, y: -5.5788}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1043869127
@@ -23097,8 +23082,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1695740370}
   m_HandleRect: {fileID: 1695740369}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.15187766
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -24897,7 +24882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1130359724
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29576,8 +29561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: 154.86}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 23.8, y: -4.55}
+  m_SizeDelta: {x: 348.25, y: 323.3512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330456420
 MonoBehaviour:
@@ -34046,7 +34031,7 @@ RectTransform:
   m_Father: {fileID: 1095381160}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.33666337}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -37706,10 +37691,10 @@ RectTransform:
   m_Father: {fileID: 249525945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.911804, y: -53.908234}
-  m_SizeDelta: {x: 681.0466, y: 65.9465}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 367.00003, y: -325.91006}
+  m_SizeDelta: {x: 681.0466, y: 651.8201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641714343
 MonoBehaviour:
@@ -37744,7 +37729,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "INTRUCCIONES AQU\xCD"
+  m_Text: "Huo\u2019o na cuentos es una aplicaci\xF3n que busca promover el desarrollo
+    ling\xFC\xEDstico y la alfabetizaci\xF3n temprana de ni\xF1os y ni\xF1as peque\xF1os.
+    Incluye tres recorridos: Oscarcito es para que los ni\xF1os y ni\xF1as que hablan
+    espa\xF1ol contin\xFAen aprendi\xE9ndolo, Nasheli es para aquellos y aquellas
+    que hablan otras lenguas con sus familias y quieren empezar a aprender espa\xF1ol
+    y Dany es para los ni\xF1os y ni\xF1as que quieren empezar a aprender qom. \r\n\r\nCada
+    recorrido tiene dos niveles de dificultad: uno m\xE1s f\xE1cil (un sol) y el
+    otro, con actividades un poco m\xE1s complejas (dos soles). Elegir una u otra
+    de estas posibilidades depende de la edad y/o del conocimiento que se tiene del
+    espa\xF1ol y del qom.\r\n\r\nUna vez que seleccionaste el recorrido y el nivel
+    de dificultad, tocando las im\xE1genes que corresponden, pod\xE9s empezar a realizar
+    las actividades que est\xE1n en tu recorrido: escuchar y leer cuentos, pensar
+    y responder preguntas, jugar con palabras, recitar rimas, escuchar canciones
+    y cantarlas, y escribir y leer palabras.\r"
 --- !u!222 &1641714344
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37998,7 +37996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1659783961
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39474,7 +39472,7 @@ RectTransform:
   m_Father: {fileID: 2085052577}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.84812236}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -40891,7 +40889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.037699, y: 224}
+  m_AnchoredPosition: {x: 26.037699, y: 251.22}
   m_SizeDelta: {x: 310.8, y: 123.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750589296
@@ -42869,7 +42867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1831399304
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42888,9 +42886,9 @@ RectTransform:
   m_Father: {fileID: 1330456419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 169.7, y: -48.8}
   m_SizeDelta: {x: 339.4, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831399305
@@ -44024,7 +44022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 13, y: 0}
   m_SizeDelta: {x: 20, y: -5.5788}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1881839213
@@ -44070,8 +44068,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1479744712}
   m_HandleRect: {fileID: 1479744711}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.6633366
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -48960,10 +48958,10 @@ RectTransform:
   m_Father: {fileID: 2146216116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.911804, y: -53.908234}
-  m_SizeDelta: {x: 681.0466, y: 65.9465}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 367, y: -1638.8752}
+  m_SizeDelta: {x: 681.0466, y: 3277.7002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057749738
 MonoBehaviour:
@@ -48987,18 +48985,73 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8acc096140a6f044990f173fd1f72e77, type: 3}
-    m_FontSize: 14
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 35
-    m_Alignment: 3
+    m_MinSize: 22
+    m_MaxSize: 224
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CREDITOS AC\xC1:"
+  m_Text: "Huo\u2019o na cuentos fue posible gracias al apoyo y al financiamiento
+    de Elke Rottgardt y Horst Schroth, quienes vienen apoyando el trabajo de las
+    autoras desde hace 20 a\xF1os. Fue tambi\xE9n posible gracias al Consejo Nacional
+    de Investigaciones Cient\xEDficas y T\xE9cnicas (CONICET) que desde siempre financia
+    y apoya el trabajo de todas las autoras, investigadoras, profesionales y becarias
+    del Consejo. \r\n\r\nHuo\u2019o na cuentos constituye una iniciativa del CIIPME
+    (Centro Interdisciplinario de Investigaciones en Psicolog\xEDa Matem\xE1tica
+    y Experimental) - CONICET que dedicamos a ni\xF1as, ni\xF1os y ni\xF1ez de nuestro
+    pa\xEDs y la regi\xF3n. Tiene por objeto colaborar con las familias y las y los
+    docentes, ampliando las oportunidades que los ni\xF1os y ni\xF1as tienen de escuchar
+    cuentos, jugar con palabras y sonidos y aprender a leer y escribir, en los jardines
+    de infantes, las escuelas y los hogares.\r\n\r\nAutoras: Celia Rosemberg, Gladys
+    Ojea, Maia Migdalek, Alejandra Stein, Florencia Alam, Paola C\xFAneo, Andrea
+    Junyent, Nilda Romero, Mauricio Maidana, Elvi Alegre, Silvana N\xFA\xF1ez.\r\nProgramadores:
+    Agust\xEDn Pontura, Brenda Burgoa.\r\nIlustrador: Mat\xEDas Somonte.\r\n\r\nApoyo
+    a la edici\xF3n y compilaci\xF3n del material: Juana Aranda, Emilse Barrial Delmonte,
+    Luciana C\xFAneo, Carla Giordano, Feliciano Guti\xE9rrez, N\xE9stor Ojea, Jos\xE9
+    Oyanguren.\r\n\r\nLes agradecemos mucho a los artistas Abriendo Rondas, Agua
+    de Sol, Mariana Baggio, Nora Galit, La Sint\xF3nica, Mar\xEDa Clara Olmedo y
+    Ana Medrano, Patinetas en Banda, que han autorizado la inclusi\xF3n de pedacitos
+    de canciones de su autor\xEDa en la aplicaci\xF3n. Debajo les acercamos los accesos
+    a algunas de las canciones, para que las puedan escuchar completas. \r\n\r\nTambi\xE9n
+    muchas gracias a quienes desde distintos lugares de Argentina y Latinoam\xE9rica
+    prestaron sus voces para que los cuentos, los juegos y actividades ofrecieran
+    una mayor diversidad ling\xFC\xEDstica: Javier Alcal\xE1, Elvi Alegre, Estefan\xEDa
+    Baranger, Helen Lorena Castrill\xF3n Carvajal, H\xE9ctor Castro, Nahuel Claramunt,
+    Vanesa De Mier, Olga Erro, Julia de Souza Faria, Ail\xEDn Franco Acinelli, Franco
+    Gabriel Herrera Cappa, Bruno Patricio Gugliuzzo, Gabriel Hojman Sirvent, Luis
+    Leguizam\xF3n, Viviana Lewinsky, Cecilia Melendez, Paula Migdalek, Julieta Migdalek,
+    Karen Moreira, Silvana N\xFA\xF1ez, Macarena Quiroga, Ileana Peralta, Valeria
+    P\xE9rez, Laura Ram\xEDrez, Nilda Romero, Bettina Sas\xF3n, Valeria Stein y Mar\xEDa
+    Lidia Zacar\xEDas. \r\n\r\nMuchas, muchas gracias a los ni\xF1os y ni\xF1as que
+    colaboraron: Lautaro Alcal\xE1, Juliana De la Torre, Juan Gambero, Bautista Nahir
+    Garc\xEDa, Gimena Jazmin Mancilla y Lisandro Hojman Migdalek, que ofrecieron
+    sus voces infantiles y sus manos para la grabaci\xF3n de las actividades. Muchas
+    gracias tambi\xE9n a sus familias.\r\n\r\nAlgunas de las canciones incluidas
+    en la aplicaci\xF3n Huo\u2019o na cuentos\r\n\r\nAbriendo Rondas. \u201CPicaflor
+    dormil\xF3n\u201D \r\nhttps://www.youtube.com/watch?v=7qO23wOrU4o \r\n\r\nAgua
+    de Sol. \u201CEn primavera\u201D\r\nhttps://www.youtube.com/watch?v=6E33tsdWOOc\r\n\r\nAgua
+    de Sol. \u201CDuerme un Barrilete\u201D\r\nhttps://www.youtube.com/watch?v=qxR3dczw-pE\r\n\r\nMariana
+    Baggio. \u201CMa\xF1ana habr\xE1 calabaza asada\u201D\r\nhttps://www.youtube.com/watch?v=uDCkNtDXksY\r\n\r\nMariana
+    Baggio. \u201CQue espere el tren\u201D\r\nhttps://www.youtube.com/watch?v=OQgszlVGlBo\r\n\r\nMariana
+    Baggio. \u201CYo no toco los orozco\u201D\r\nhttps://www.youtube.com/watch?v=swkZLegKWnU\r\n\r\nMariana
+    Baggio. \u201CWhisky y pis\u201D\r\nhttps://www.youtube.com/watch?v=eN-ucBcD3Xw\r\n\r\nMariana
+    Baggio. \u201CBrujos Hechiceros\u201D\r\nhttps://www.youtube.com/watch?v=8Rak5-h2450\r\n\r\nMariana
+    Baggio. \u201CLa nave\u201D\r\nhttps://www.youtube.com/watch?v=BtpNAMROzIY\r\n\r\nNora
+    Galit. \u201CEl Oso y el Osito\u201D\r\nhttps://www.youtube.com/watch?v=dnU3Z-sgMEA\r\n\r\nNora
+    Galit. \u201CTengo un osito\u201D\r\nhttps://www.youtube.com/watch?v=M4dikchFMg0\r\n\r\nNora
+    Galit. \u201CLos pollitos\u201D\r\nhttps://www.youtube.com/watch?v=Y6AmVtwdJkU\r\n\r\nNora
+    Galit. \u201CTengo algo amarillo\u201D\r\nhttps://www.youtube.com/watch?v=KoWHd0F4HCw 
+    \r\n\r\nNora Galit. \u201CDebajo de un bot\xF3n\u201D\r\nhttps://www.youtube.com/watch?v=i38DLqM1iYM&list=OLAK5uy_mtjmc5Tb2KhlZpwmV2Sg51nPaxgIPdLpE&index=15
+    \r\n\r\nNora Galit. \u201CLa vaca Lola\u201D\r\nhttps://www.youtube.com/watch?v=NO8Rzv4gwQI\r\n\r\nLa
+    sint\xF3nica. \u201CMalambo del hornerito\u201D\r\nhttps://www.youtube.com/watch?v=EHaBS7zeMb8\r\n\r\nMar\xEDa
+    Clara Olmedo y Ana Medrano. Album Qompi Qompi \r\n\u201CQomi qompi\u201D\r\n\u201CRo\u2019onaxatagui
+    na \xF1aqpiolec\u201D\r\n\u201C 'Auo'oche \u1EF9alqolec\u201D\r\nhttps://www.youtube.com/watch?v=s7mEU6HV3hs\r\n\r\nPatinetas
+    en Banda. \u201CBicho bolita\u201D\r\nhttps://www.youtube.com/watch?v=8Cv7Bfj9Y9o "
 --- !u!222 &2057749739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50808,9 +50861,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 734, y: 3370.937}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2146216117
 MonoBehaviour:
@@ -50819,7 +50872,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146216115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1352253105
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e7b073076f35680ebde57d71d402dac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/completar/risaPajaros/2b.wav
+- Assets/Resuources_in_bundles/completar/risaPajaros/1a.wav
+- Assets/Resuources_in_bundles/completar/risaPajaros/2a.wav
+- Assets/Resuources_in_bundles/completar/risaPajaros/1b.wav
+Dependencies: []

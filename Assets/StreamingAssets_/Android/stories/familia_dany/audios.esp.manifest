@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3110101483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 64251f785cbf6d994c50b9636ecd723a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/familia_dany/audios/hard.wav
+Dependencies: []

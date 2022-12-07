@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3212334270
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad9641a6d23e9fdc8da5f5041bf64092
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/animales_de_dany/audios/hard.wav
+Dependencies: []

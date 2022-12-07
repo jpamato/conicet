@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1547312309
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c61d355bb080f91d4d798e608ff7dd59
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/dia_pesca/audios/easy.wav
+Dependencies: []

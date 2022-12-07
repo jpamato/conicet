@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4093183144
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 483138d11579b0be5d3af8f48a1aa5c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/risa_pajaros/audios/easy.wav
+Dependencies: []

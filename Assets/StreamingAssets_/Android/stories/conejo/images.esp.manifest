@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3050364738
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6013fafe13a1c9deeac6e17cf8f32b30
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/conejo/images/9.png
+- Assets/Resuources_in_bundles/stories/conejo/images/6.png
+- Assets/Resuources_in_bundles/stories/conejo/images/10.png
+- Assets/Resuources_in_bundles/stories/conejo/images/7.png
+- Assets/Resuources_in_bundles/stories/conejo/images/3.png
+- Assets/Resuources_in_bundles/stories/conejo/images/12.png
+- Assets/Resuources_in_bundles/stories/conejo/images/4.png
+- Assets/Resuources_in_bundles/stories/conejo/images/1.png
+Dependencies: []

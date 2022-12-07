@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3669346854
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb0b860d0dcc8a21cd35f44458d1c1f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/9.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/4.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/8.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/5.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/2.jpeg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/1.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/3.jpeg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/6.jpg
+- Assets/Resuources_in_bundles/stories/zorro_hornero/images/7.jpg
+Dependencies: []
