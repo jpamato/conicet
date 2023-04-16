@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.Linq;
 
 namespace Conicet.AssetsBundle
 {
@@ -123,7 +124,13 @@ namespace Conicet.AssetsBundle
                 if (request.isNetworkError || request.isHttpError)
                 {
                     Debug.Log(request.error);
-                    onSuccess("error");
+                    int cached = PlayerPrefs.GetInt("ContentCached", 0);
+                    if (cached < 1) {
+                        Events.OnLoading("No hay conexión a internet para la descarga inicial de los contenidos");
+                        Invoke("Quit", 2);
+                    } else
+                        LoadFromCache();
+                    //onSuccess("error");
                 }
                 else
                 {
@@ -154,6 +161,7 @@ namespace Conicet.AssetsBundle
 
                     totalFirstBundles = dataPaths.Count;
 
+                    PlayerPrefs.SetString("bundleNames", string.Join(",", dataPaths.ToArray()));
                     StartCoroutine(LoadBundlesFromManifest());
                     mainBundle.Unload(false);
                 }
@@ -161,6 +169,29 @@ namespace Conicet.AssetsBundle
 
         }
 
+        void LoadFromCache() {
+            Debug.Log("# LoadFromCache");
+            string bns = PlayerPrefs.GetString("bundleNames");
+            Debug.Log(bns);
+            dataPaths = bns.Split(',').ToList<string>();
+            LoadNextFromCache();
+        }
+
+        void LoadNextFromCache() {
+            Debug.Log("# LoadNextFromCache: "+ loadedParts);
+            if (loadedParts < dataPaths.Count) {
+                string h_string = PlayerPrefs.GetString(dataPaths[loadedParts] + "_hash");
+                Hash128 hash = Hash128.Parse(h_string);
+                Debug.Log("# " + dataPaths[loadedParts] + ": " + h_string);
+                Debug.Log("# " + dataPaths[loadedParts] + ": " + hash.ToString());
+
+                StartCoroutine(DownloadAndCacheAssetBundle(dataPaths[loadedParts], hash, (success) => { OnLoaded(success); LoadNextFromCache(); }));
+            }
+        }
+
+        void Quit() {
+            Application.Quit();
+        }
 
         public IEnumerator LoadBundlesFromManifest()
         {
@@ -204,44 +235,43 @@ namespace Conicet.AssetsBundle
         void OnLoaded(bool isLoaded)
         {
             loadedParts++;
-            if (loadedParts >= dataPaths.Count)
+            if (loadedParts >= dataPaths.Count) {
+                PlayerPrefs.SetInt("ContentCached", 1);
                 onSuccess("ok");
+            }
         }
+
         IEnumerator DownloadAndCacheAssetBundle(string uri, Hash128 hash, System.Action<bool> OnLoaded)
         {
             Events.OnLoading(uri);
             string realURL = url + uri;
             Debug.Log("Load: " + realURL);
             UnityWebRequest uwr = UnityWebRequestAssetBundle.GetAssetBundle(realURL, hash);
-
+           
             var cert = new ForceAcceptAll();
             uwr.certificateHandler = cert;
 
-            using (uwr)
-            {
+            using (uwr) {
                 var operation = uwr.SendWebRequest();
-          
-                while (!operation.isDone)
-                {
+
+                while (!operation.isDone) {
                     Events.OnLoadingProgress(uwr.downloadProgress);
                     yield return null;
                 }
-                if (uwr.result != UnityWebRequest.Result.Success)
-                {
-                    Debug.Log("Error downloading assetBundle: " + realURL);
-                    onSuccess("error");
+                if (uwr.result != UnityWebRequest.Result.Success) {
+                    Debug.Log("Error downloading assetBundle: " + uwr.url);
+                    OnLoaded(true);
                     yield break;
-                }
-                else
-                {
-                    AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(uwr);                    
+                } else {
+                    AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(uwr);
 
                     if (bundles == null)
                         bundles = new Dictionary<string, AssetBundle>();
                     bundles.Add(uri, bundle);
-
+                    Debug.Log("# " + uri + ": " + hash.ToString());
+                    PlayerPrefs.SetString(uri + "_hash", hash.ToString());
                     OnLoaded(true);
-                   // bundle.Unload(false);
+                    // bundle.Unload(false);
                 }
             }
         }

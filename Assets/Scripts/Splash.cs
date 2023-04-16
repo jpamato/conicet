@@ -116,6 +116,7 @@ public class Splash : MonoBehaviour
     }
     void OnAssetsLoaded(string results)
     {
+        Debug.Log("AssetBundles Load: " + results);
         Data.Instance.LoadAll();
     }
 }
