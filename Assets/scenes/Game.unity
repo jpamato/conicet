@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -24463,7 +24463,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CREDITOS
+  m_Text: "CR\xC9DITOS"
 --- !u!222 &1088534762
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40925,7 +40925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CREDITOS
+  m_Text: "CR\xC9DITOS"
 --- !u!222 &1750589297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49003,11 +49003,11 @@ MonoBehaviour:
     y apoya el trabajo de todas las autoras, investigadoras, profesionales y becarias
     del Consejo. \r\n\r\nHuo\u2019o na cuentos constituye una iniciativa del CIIPME
     (Centro Interdisciplinario de Investigaciones en Psicolog\xEDa Matem\xE1tica
-    y Experimental) - CONICET que dedicamos a ni\xF1as, ni\xF1os y ni\xF1ez de nuestro
-    pa\xEDs y la regi\xF3n. Tiene por objeto colaborar con las familias y las y los
-    docentes, ampliando las oportunidades que los ni\xF1os y ni\xF1as tienen de escuchar
-    cuentos, jugar con palabras y sonidos y aprender a leer y escribir, en los jardines
-    de infantes, las escuelas y los hogares.\r\n\r\nAutoras: Celia Rosemberg, Gladys
+    y Experimental) - CONICET que dedicamos a ni\xF1as y ni\xF1os de nuestro pa\xEDs
+    y la regi\xF3n. Tiene por objeto colaborar con las familias y las y los docentes,
+    ampliando las oportunidades que los ni\xF1os y ni\xF1as tienen de escuchar cuentos,
+    jugar con palabras y sonidos y aprender a leer y escribir, en los jardines de
+    infantes, las escuelas y los hogares.\r\n\r\nAutoras: Celia Rosemberg, Gladys
     Ojea, Maia Migdalek, Alejandra Stein, Florencia Alam, Paola C\xFAneo, Andrea
     Junyent, Nilda Romero, Mauricio Maidana, Elvi Alegre, Silvana N\xFA\xF1ez.\r\nProgramadores:
     Agust\xEDn Pontura, Brenda Burgoa.\r\nIlustrador: Mat\xEDas Somonte.\r\n\r\nApoyo
@@ -49022,7 +49022,7 @@ MonoBehaviour:
     prestaron sus voces para que los cuentos, los juegos y actividades ofrecieran
     una mayor diversidad ling\xFC\xEDstica: Javier Alcal\xE1, Elvi Alegre, Estefan\xEDa
     Baranger, Helen Lorena Castrill\xF3n Carvajal, H\xE9ctor Castro, Nahuel Claramunt,
-    Vanesa De Mier, Olga Erro, Julia de Souza Faria, Ail\xEDn Franco Acinelli, Franco
+    Vanesa De Mier, Olga Erro, Julia de Souza Faria, Ail\xEDn Franco Accinelli, Franco
     Gabriel Herrera Cappa, Bruno Patricio Gugliuzzo, Gabriel Hojman Sirvent, Luis
     Leguizam\xF3n, Viviana Lewinsky, Cecilia Melendez, Paula Migdalek, Julieta Migdalek,
     Karen Moreira, Silvana N\xFA\xF1ez, Macarena Quiroga, Ileana Peralta, Valeria
