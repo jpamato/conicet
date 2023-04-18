@@ -10663,7 +10663,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &508619325
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10676,10 +10676,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &508619326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39169,6 +39171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: repeatButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776052812416269330, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2776052812416269331, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
         type: 3}
