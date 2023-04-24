@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: http://pontura.com/conicet/AssetBundles/
+  url: http://yaguar.xyz/huoona/AssetBundles/
   lang: 2
   dificult: 0
   DEBUG: 1
