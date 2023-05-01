@@ -32,6 +32,10 @@ namespace Conicet.AssetsBundle
         {
             Events.LoadAssetBundles -= LoadAssetBundles;
         }
+
+        public void ResetAllBundles() {
+            assetsBundleLoader.ResetAll();
+        }
         void LoadAssetBundles(System.Action<string> OnDone)
         {
             if (Data.Instance.lang == Data.langs.QOM)

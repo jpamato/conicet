@@ -124,8 +124,7 @@ namespace Conicet.AssetsBundle
                 if (request.isNetworkError || request.isHttpError)
                 {
                     Debug.Log(request.error);
-                    int cached = PlayerPrefs.GetInt("ContentCached", 0);
-                    if (cached < 1) {
+                    if (!Data.Instance.cacheManager.IsBundleCached()) {
                         Events.OnLoading("No hay conexión a internet para la descarga inicial de los contenidos");
                         Invoke("Quit", 2);
                     } else
@@ -236,7 +235,7 @@ namespace Conicet.AssetsBundle
         {
             loadedParts++;
             if (loadedParts >= dataPaths.Count) {
-                PlayerPrefs.SetInt("ContentCached", 1);
+                Data.Instance.cacheManager.SetBundleCached();
                 onSuccess("ok");
             }
         }

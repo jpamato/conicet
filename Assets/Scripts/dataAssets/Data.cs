@@ -25,6 +25,7 @@ public class Data : MonoBehaviour
         NORMAL
     }
 
+    public bool predownloading;
     public bool DEBUG;
     public GameData.types initialActivity;
 
@@ -37,6 +38,7 @@ public class Data : MonoBehaviour
     [HideInInspector] public GamesData gamesData;
     [HideInInspector] public TextsData textsData;
     [HideInInspector] public UserData userData;
+    [HideInInspector] public CacheManager cacheManager;    
     public AudioSpectrum audioSpectrum;
     DataLoader[] allDataFiles;
     int dataLoaded;
@@ -100,8 +102,9 @@ public class Data : MonoBehaviour
         textsData = GetComponent<TextsData>();
         userData = GetComponent<UserData>();
         audioSpectrum = GetComponent<AudioSpectrum>();
+        cacheManager = GetComponent<CacheManager>();
 
-        if(SceneManager.GetActiveScene().name != "Splash")
+        if(SceneManager.GetActiveScene().name != "Splash" && SceneManager.GetActiveScene().name != "Loading")
             LoadAll();
 
         Events.ResetApp += ResetApp;
@@ -122,9 +125,13 @@ public class Data : MonoBehaviour
     void OnDone()
     {
         dataLoaded++;
-        if (dataLoaded >= allDataFiles.Length)
+        if (dataLoaded >= allDataFiles.Length) {
+            cacheManager.SetSheetCached();
             Events.AllDataLoaded();
-        allLoaded = true;
+            allLoaded = true;
+            if (Data.Instance.predownloading)            
+                Data.Instance.predownloading = false;
+        }        
     }
     public Sprite GetSprite(string url)
     {

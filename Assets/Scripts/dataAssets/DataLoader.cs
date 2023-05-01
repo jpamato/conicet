@@ -64,7 +64,7 @@ public class DataLoader : MonoBehaviour
         else
             url_by_lang = url_qom;
 
-        Data.Instance.spreadsheetLoader.LoadFromTo(url_by_lang, OnLoaded);
+        Data.Instance.spreadsheetLoader.LoadFromTo(url_by_lang, OnLoaded, fileName);
     }
     public virtual void OnLoaded(List<SpreadsheetLoader.Line> d) {
         OnReady();

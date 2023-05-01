@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Text.RegularExpressions;
+using UnityEngine.Networking;
 
 public class SpreadsheetLoader : MonoBehaviour
 {
@@ -11,19 +12,41 @@ public class SpreadsheetLoader : MonoBehaviour
     {
         public string[] data;
     }
-    public void LoadFromTo(string googleURL, System.Action<List<Line>> onDone)
+    public void LoadFromTo(string googleURL, System.Action<List<Line>> onDone, string filename = "")
     {
-        StartCoroutine(GetData(googleURL, onDone));
+        StartCoroutine(GetData(googleURL, onDone, filename));
     }
-    IEnumerator GetData(string url, System.Action<List<Line>> onDone)
+    IEnumerator GetData(string url, System.Action<List<Line>> onDone, string filename = "")
     {
-        using (WWW www = new WWW(url))
+        using (UnityWebRequest request = new UnityWebRequest(url))
         {
-            yield return www;
-           
-            CreateListFromFile(www.text, onDone);
+            request.downloadHandler = new DownloadHandlerBuffer();
+            yield return request.SendWebRequest();
+
+            if (request.isNetworkError || request.isHttpError) {
+                Debug.Log(request.error);                
+                if (!Data.Instance.cacheManager.IsSheetCached()) {
+                    Events.OnLoading("No hay conexión a internet para la descarga inicial de los contenidos");
+                    Invoke("Quit", 2);
+                } else
+                    LoadFromCache(onDone, filename);
+                //onSuccess("error");
+            }
+            
+            if (Data.Instance.predownloading) 
+                StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, () => CreateListFromFile(request.downloadHandler.text, onDone)));
+            else {
+                CreateListFromFile(request.downloadHandler.text, onDone);
+                StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, null));
+            }
         }
     }
+
+    void LoadFromCache(System.Action<List<Line>> onDone, string filename) {
+        Debug.Log("#LoadFromCache Sheets");
+        CreateListFromFile(Data.Instance.cacheManager.GetSheet(filename), onDone);
+    }
+
     public void CreateListFromArr(string[] lines, System.Action<List<Line>> onDone)
     {
         List<Line> arr = new List<Line>();
@@ -34,6 +57,8 @@ public class SpreadsheetLoader : MonoBehaviour
     }
     public void CreateListFromFile(string text, System.Action<List<Line>> onDone)
     {
+        Debug.Log("#CreateListFromFile");
+        Debug.Log(text);
         string[] lines = text.Split("\n"[0]);
         List<Line> arr = new List<Line>();
         foreach (string line in lines)
