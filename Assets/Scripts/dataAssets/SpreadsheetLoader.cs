@@ -24,20 +24,20 @@ public class SpreadsheetLoader : MonoBehaviour
             yield return request.SendWebRequest();
 
             if (request.isNetworkError || request.isHttpError) {
-                Debug.Log(request.error);                
+                Debug.Log(request.error);
                 if (!Data.Instance.cacheManager.IsSheetCached()) {
                     Events.OnLoading("No hay conexión a internet para la descarga inicial de los contenidos");
                     Invoke("Quit", 2);
                 } else
                     LoadFromCache(onDone, filename);
                 //onSuccess("error");
-            }
-            
-            if (Data.Instance.predownloading) 
-                StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, () => CreateListFromFile(request.downloadHandler.text, onDone)));
-            else {
-                CreateListFromFile(request.downloadHandler.text, onDone);
-                StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, null));
+            } else {
+                if (Data.Instance.predownloading)
+                    StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, () => CreateListFromFile(request.downloadHandler.text, onDone)));
+                else {
+                    CreateListFromFile(request.downloadHandler.text, onDone);
+                    StartCoroutine(Data.Instance.cacheManager.SaveSheetCached(filename, request.downloadHandler.text, null));
+                }
             }
         }
     }
