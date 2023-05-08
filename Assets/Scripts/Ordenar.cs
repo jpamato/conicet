@@ -19,6 +19,7 @@ public class Ordenar : ScreenMain
     public List<DragueableItem> items;
     public SimpleFeedback simpleFeedback;
     bool gameReady;
+    bool startInOrder = false; // Empezar ordenado automaticamente en la actividad de tip conta cuento.  
 
     public override void OnEnable()
     {
@@ -60,8 +61,13 @@ public class Ordenar : ScreenMain
         TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_ordenar");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
-        
+        // checkear si tiene que empezar ordenado
+        if (tipContent.id == "tip_conta_cuento")
+        {
+            startInOrder = true;
+        }
     }
+
     public override void Hide(bool toLeft)
     {
         base.Hide(toLeft);
@@ -120,6 +126,7 @@ public class Ordenar : ScreenMain
         }
 
         //shuffle
+        if (startInOrder == false) { 
         for (int a = 0; a < 10; a++)
         {
             int rand = Random.Range(1, items.Count);
@@ -129,7 +136,7 @@ public class Ordenar : ScreenMain
             items[rand].transform.localPosition = pos1;
 
         }
-
+        }
         float _x = -separation/2 + ((separation * items.Count) / 2);
         allContainers.transform.localPosition = new Vector3(-_x, allContainers.transform.localPosition.y, 0);
 
@@ -148,6 +155,17 @@ public class Ordenar : ScreenMain
                 i.SetDestiny(rp);
         }
 
+        // Settear cada item en su slot correspondiente automaticamente 
+        if (startInOrder)
+        {
+            for (int i = 0; i < items.Count; i++)
+            {
+                items[i].transform.position = slots[i].transform.position;
+                items[i].SetInactive();
+
+                StartCoroutine(EsperarContarCuento());
+            }
+        }
     }
     void AddSlot(int id)
     {
@@ -213,5 +231,12 @@ public class Ordenar : ScreenMain
     void OnReadyClicked()
     {
         Events.OnGoto(true);
+    }
+
+    // Terminar ejercicio despues de determinado tiempo, ya que se resuelve sola la actividad.
+    private IEnumerator EsperarContarCuento()
+    {
+        yield return new WaitForSeconds(20);
+        OnComplete();
     }
 }
