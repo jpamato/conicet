@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1993615576
+CRC: 2823210059
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f6e9a1605fe84f74a58354072d26bf4d
+    Hash: a95c782478edcf3c84a10b4aa0ee6177
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -308,7 +308,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarCaperucitaRojaL25.jpg
 - Assets/Resuources_in_bundles/assets/puma.png
 - Assets/Resuources_in_bundles/assets/ala.png
-- Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_4.jpg
+- Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_5.jpg
 - "Assets/Resuources_in_bundles/assets/mu\xF1eca.png"
 - Assets/Resuources_in_bundles/assets/zapallo.png
 - Assets/Resuources_in_bundles/assets/conejoAntes.jpg
@@ -658,7 +658,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/sombrero.png
 - Assets/Resuources_in_bundles/assets/gallina_marron.png
 - Assets/Resuources_in_bundles/assets/abeja.png
-- Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_3.jpg
+- Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_4.jpg
 - Assets/Resuources_in_bundles/assets/hueso.png
 - Assets/Resuources_in_bundles/assets/mono.png
 - Assets/Resuources_in_bundles/assets/ordenarMalevo2.jpg
@@ -708,6 +708,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/osoHuye.jpg
 - Assets/Resuources_in_bundles/assets/camion.png
 - Assets/Resuources_in_bundles/assets/perroChicoVerde.png
+- Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_3.jpg
 - Assets/Resuources_in_bundles/assets/loro_chico_rojo.png
 - Assets/Resuources_in_bundles/assets/pablitoAtento.jpg
 - Assets/Resuources_in_bundles/assets/parche.png

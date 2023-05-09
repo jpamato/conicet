@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3191592085
+CRC: 1233691945
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fdd205cf900a7a97d6c002821bc3a92d
+    Hash: e4559e4f92a48b88988c5c44f740e702
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -965,15 +965,16 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/animalesPreferidos_1.wav
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio5_12.wav
 - Assets/Resuources_in_bundles/genericTexts/letraL_1.wav
-- Assets/Resuources_in_bundles/genericTexts/tip_escucha_rimaL2.wav
+- Assets/Resuources_in_bundles/genericTexts/toca_empiezan_igual.wav
 - Assets/Resuources_in_bundles/genericTexts/loroUriel_1.wav
 - Assets/Resuources_in_bundles/genericTexts/animales_introL2.wav
-- Assets/Resuources_in_bundles/genericTexts/cuentosHambre3_3.wav
+- Assets/Resuources_in_bundles/genericTexts/tip_escucha_rimaL2.wav
 - Assets/Resuources_in_bundles/genericTexts/zapalloGigante1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_read_automatic.wav
 - Assets/Resuources_in_bundles/genericTexts/abejaSizes1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/escribir_sol1.wav
 - Assets/Resuources_in_bundles/genericTexts/corralAnimales_1.wav
+- Assets/Resuources_in_bundles/genericTexts/cuentosHambre3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/bichoBolita1_19.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos2_4.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_cancionL2.wav
@@ -1111,7 +1112,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/malevo6_3.wav
 - Assets/Resuources_in_bundles/genericTexts/queSusto7_5.wav
 - Assets/Resuources_in_bundles/genericTexts/laberinto_piratas.wav
-- Assets/Resuources_in_bundles/genericTexts/toca_empiezan_igual.wav
+- Assets/Resuources_in_bundles/genericTexts/uni_empiezan_igual.wav
 - Assets/Resuources_in_bundles/genericTexts/caballoSizes3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_completarL2.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_questionsL2.wav
