@@ -43,29 +43,39 @@ public class ImagenPalabras : ScreenMain
         if (content == null) return;
         clicked = false;
         tipContent = Data.Instance.daysData.GetTip("toca_dice");
-        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type); // No deberia activar el audio del tip esto? Por que no funciona?
     }
     void OnTipDone()
     {
         ShowContent(true);
         ok_word = content[0];
-        Say(ok_word.ToLower());
         Sprite sprite = Data.Instance.assetsData.GetContent(ok_word).sprite;
         imageCard.sprite = sprite;
-        if (sprite == null)    Events.Log("No hay asset para " + content[0]);
+        if (sprite == null) Events.Log("No hay asset para " + content[0]);
         AddButtons();
+
+        StartCoroutine(RepeatAndSay());
+        
     }
+    IEnumerator RepeatAndSay()
+    {
+        Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "toca_dice", false);
+        yield return new WaitForSeconds(1.5f);
+        Say(ok_word.ToLower());
+    }
+
     public void Say(string audioName)
     {
         Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + audioName, false);
     }
+
     void AddButtons()
     {
         Utils.Shuffle(content);
         int id = 0;
         foreach (SimpleButton sb in allButtons)
         {
-            sb.Init(0, null, content[id], OnClicked, false);
+            sb.Init(0, null, content[id].ToUpper(), OnClicked, false);
             id++;
         }
     }
@@ -79,7 +89,7 @@ public class ImagenPalabras : ScreenMain
 
         if (clicked) return;
         clicked = true;
-        if (button.text == ok_word)
+        if (button.text.ToLower() == ok_word)
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             Invoke("OnCorrect", 1);
@@ -105,5 +115,4 @@ public class ImagenPalabras : ScreenMain
         OnComplete();
         Events.OnGoto(true);
     }
-
 }
