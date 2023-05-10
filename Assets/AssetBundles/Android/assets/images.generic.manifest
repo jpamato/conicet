@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2823210059
+CRC: 2184095193
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a95c782478edcf3c84a10b4aa0ee6177
+    Hash: ec8b2821a53d550c2b903e749e169f5a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -202,6 +202,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/llorar.png
 - Assets/Resuources_in_bundles/assets/pata_palo.png
 - Assets/Resuources_in_bundles/assets/robot.png
+- Assets/Resuources_in_bundles/assets/ordenarCaperucitaL14.jpg
 - Assets/Resuources_in_bundles/assets/radio.png
 - Assets/Resuources_in_bundles/assets/ordenarMalevo5.jpg
 - Assets/Resuources_in_bundles/assets/cabra.png
