@@ -8374,6 +8374,7 @@ MonoBehaviour:
   slots: []
   items: []
   simpleFeedback: {fileID: 954602963}
+  repeatButton: {fileID: 1687690769}
   allSlotsIDS: 
 --- !u!1 &382893715 stripped
 GameObject:
@@ -39160,7 +39161,12 @@ PrefabInstance:
     - target: {fileID: 2776052812416269328, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Say
+      value: Repeat
+      objectReference: {fileID: 0}
+    - target: {fileID: 2776052812416269328, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ordenar, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2776052812416269328, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
         type: 3}
@@ -39175,7 +39181,7 @@ PrefabInstance:
     - target: {fileID: 2776052812416269330, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2776052812416269331, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
         type: 3}
@@ -39285,6 +39291,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1485719166, guid: 81ced53120ffd1947b97c0ce8e2e1f33, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 81ced53120ffd1947b97c0ce8e2e1f33, type: 3}
+--- !u!1 &1687690769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2776052812416269330, guid: 81ced53120ffd1947b97c0ce8e2e1f33,
+    type: 3}
+  m_PrefabInstance: {fileID: 1687690768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693319645
 GameObject:
   m_ObjectHideFlags: 0

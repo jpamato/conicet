@@ -19,7 +19,8 @@ public class Ordenar : ScreenMain
     public List<DragueableItem> items;
     public SimpleFeedback simpleFeedback;
     bool gameReady;
-    bool startInOrder = false; // Empezar ordenado automaticamente en la actividad de tip conta cuento.  
+    bool startInOrder = false; // Empezar ordenado automaticamente en la actividad de tip conta cuento.
+    public GameObject repeatButton;
 
     public override void OnEnable()
     {
@@ -64,7 +65,14 @@ public class Ordenar : ScreenMain
         // checkear si tiene que empezar ordenado
         if (tipContent.id == "tip_conta_cuento")
         {
+            Debug.Log("Tip: " + tipContent.id);
             startInOrder = true;
+            repeatButton.SetActive(false);
+        }
+        else
+        {
+            startInOrder = false;
+            repeatButton.SetActive(true);
         }
     }
 
@@ -224,9 +232,20 @@ public class Ordenar : ScreenMain
     void OnReleaseAdd1(int id)
     {
     }
+    // Gets called when the activity first starts. Desambiguated from repeat to allow activity to start with silence but allow repeat button to always play a sound event
     public void Say()
     {
         Events.PlaySound("voices", "ordenar"  + Utils.GetLangFolder() + "/" + audioName, false);
+    }
+    // Repeat Button
+    public void Repeat()
+    {
+        // En caso de que sea silencio, reproducir el audio del tip
+        if (audioName == "ordenarMensaje")
+            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "tip_ordenar", false);
+        // En caso contrario, reproducir el audio especificado en la database
+        else
+            Events.PlaySound("voices", "ordenar" + Utils.GetLangFolder() + "/" + audioName, false);
     }
     void OnReadyClicked()
     {
