@@ -21,6 +21,7 @@ public class Ordenar : ScreenMain
     bool gameReady;
     bool startInOrder = false; // Empezar ordenado automaticamente en la actividad de tip conta cuento.
     public GameObject repeatButton;
+    TextsData.Content tipContent;
 
     public override void OnEnable()
     {
@@ -59,7 +60,7 @@ public class Ordenar : ScreenMain
 
         content = Data.Instance.gamesData.activeContent;
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_ordenar");
+        tipContent = Data.Instance.daysData.GetTip("tip_ordenar");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         // checkear si tiene que empezar ordenado
@@ -242,7 +243,7 @@ public class Ordenar : ScreenMain
     {
         // En caso de que sea silencio, reproducir el audio del tip
         if (audioName == "ordenarMensaje")
-            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "tip_ordenar", false);
+            Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + tipContent.id, false);
         // En caso contrario, reproducir el audio especificado en la database
         else
             Events.PlaySound("voices", "ordenar" + Utils.GetLangFolder() + "/" + audioName, false);

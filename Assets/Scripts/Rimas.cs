@@ -20,12 +20,16 @@ public class Rimas : ScreenMain
     public SimpleFeedback simpleFeedback;
     bool gameReady;
     public GameObject endMask;
+    public GameObject repeatButton;
     Animation anim;
+
+    TextsData.Content tipContent;
 
     public override void OnEnable()
     {
         base.OnEnable();
         intro.SetActive(true);
+        repeatButton.SetActive(false);
         introBar.Init();
     }
     public override void OnDisable()
@@ -54,7 +58,8 @@ public class Rimas : ScreenMain
         base.OnReady();
         content = Data.Instance.gamesData.activeContent;
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_unir");
+        tipContent = Data.Instance.daysData.GetTip("tip_unir");
+        Debug.Log("tip content ID= " + tipContent.id + ". Text=" + tipContent.text);
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         UpdateLoop();
@@ -157,7 +162,8 @@ public class Rimas : ScreenMain
     List<string> arr;
     void OnTextDone()
     {
-       // intro.SetActive(false);
+        // intro.SetActive(false);
+        repeatButton.SetActive(true);
         int id = 0;
         GamesData.Content c = Data.Instance.gamesData.GetContent(storyID);
         arr = c.GetContentFor(type, gameID);
@@ -196,9 +202,6 @@ public class Rimas : ScreenMain
             items[rand].transform.localPosition = pos1;
         }
 
-
-
-
         //if (arr.Count < 5)
         //{
         //    _y = -65;
@@ -207,16 +210,9 @@ public class Rimas : ScreenMain
         //else
         //    allContainers.transform.localScale = new Vector2(1f, 1f);
 
-
-
         foreach (DragueableItem i in items)
             foreach (RimaPair rp in pairs)
                 i.SetDestiny(rp.dragueableItemDestination);
-
-
-
-       
-
     }
     void OnRelease(int id)
     {
@@ -234,5 +230,10 @@ public class Rimas : ScreenMain
     void OnReadyClicked()
     {
         Events.OnGoto(true);
+    }
+
+    public void Repeat()
+    {
+        Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + tipContent.id, false);
     }
 }
