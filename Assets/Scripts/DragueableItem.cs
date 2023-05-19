@@ -42,8 +42,9 @@ public class DragueableItem : MonoBehaviour
         //randomRotation = GetComponent<RandomRotation>();
         this.id = id;
         this.image.sprite = sprite;
-        originalPos = transform.position;
+        Invoke("ResetOriginalPosition", 0.5f); // Added delay before getting position since position on start was not correct.
     }
+
     public void ResetOriginalPosition()
     {
         originalPos = transform.position;

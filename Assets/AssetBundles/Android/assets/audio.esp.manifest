@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2690488515
+CRC: 1270706887
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0c84797ff99059788dab2d61df0b3514
+    Hash: baafb804b52ce24a1080d914e5e23d85
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -163,6 +163,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/cama.wav
 - Assets/Resuources_in_bundles/assets/audio/aterrorizado.wav
 - Assets/Resuources_in_bundles/assets/audio/fraseBichoBolita_1.wav
+- Assets/Resuources_in_bundles/assets/pelota2.wav
 - Assets/Resuources_in_bundles/assets/audio/desierto_2.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_nube_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/luna.wav
@@ -281,6 +282,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/cuerpo_atras.wav
 - Assets/Resuources_in_bundles/assets/audio/volar.wav
 - Assets/Resuources_in_bundles/assets/audio/abuelo.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_cama_final.wav
 - Assets/Resuources_in_bundles/assets/audio/mediasGrandesAmarillas.wav
 - Assets/Resuources_in_bundles/assets/audio/descripcion_malevo_6.wav
 - Assets/Resuources_in_bundles/assets/audio/ombu.wav
@@ -359,6 +361,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/jirafa.wav
 - Assets/Resuources_in_bundles/assets/audio/bicicleta.wav
 - Assets/Resuources_in_bundles/assets/audio/elefante2.wav
+- Assets/Resuources_in_bundles/assets/audio/auto2.wav
 - Assets/Resuources_in_bundles/assets/audio/planeta.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_luna_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/uno.wav
@@ -375,6 +378,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/buzo.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_iguana_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_ojotas_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/muneca2.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_azul_final.wav
 - Assets/Resuources_in_bundles/assets/audio/osoHuye.wav
 - Assets/Resuources_in_bundles/assets/audio/primavera.wav
@@ -457,6 +461,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/sopa.wav
 - Assets/Resuources_in_bundles/assets/audio/pajaroBlanco.wav
 - Assets/Resuources_in_bundles/assets/audio/cara_nene_unir.wav
+- Assets/Resuources_in_bundles/assets/audio/avion2.wav
 - "Assets/Resuources_in_bundles/assets/audio/loro_ara\xF1a_medio.wav"
 - Assets/Resuources_in_bundles/assets/audio/tortuga.wav
 - Assets/Resuources_in_bundles/assets/audio/gato_grande.wav
@@ -593,8 +598,10 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/hornero.wav
 - Assets/Resuources_in_bundles/assets/audio/comerteMejor.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_ojo_final.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_ojota_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso.wav
 - Assets/Resuources_in_bundles/assets/audio/camion.wav
+- Assets/Resuources_in_bundles/assets/audio/mono_chico_amarillo.wav
 - Assets/Resuources_in_bundles/assets/audio/pelota_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/rincon.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_gallo_medio.wav

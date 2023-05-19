@@ -64,7 +64,7 @@ public class Ordenar : ScreenMain
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
         // checkear si tiene que empezar ordenado
-        if (tipContent.id == "tip_conta_cuento")
+        if ((tipContent.id == "tip_conta_cuento") || (tipContent.id == "tip_conta_cuentoL2"))
         {
             Debug.Log("Tip: " + tipContent.id);
             startInOrder = true;

@@ -124,7 +124,7 @@ public class Chico_Multiple : ScreenMain
             ok++;
             if (ok >= ok_words.Count)
             {
-                Invoke("AllDone", 0.5f);
+                Invoke("AllDone", 2.5f);
                 ok = 0;
             }
         }
@@ -136,11 +136,16 @@ public class Chico_Multiple : ScreenMain
     void AllDone()
     {
         Events.SetReadyButton(OnReadyClicked);
-        Utils.RemoveAllChildsIn(container);
+        //Utils.RemoveAllChildsIn(container);
+        canSelect = false;
+        foreach (SimpleButton sb in cards)
+            sb.GetComponent<Animation>().Stop("rotateRightLeft");
+        signal.SetActive(false);
         cards.Clear();
     }
     void OnReadyClicked()
     {
+        Utils.RemoveAllChildsIn(container); // TODO: Test. Not sure if next activity needs it to be empty.
         OnComplete();
         Events.OnGoto(true);
     }
@@ -160,6 +165,12 @@ public class Chico_Multiple : ScreenMain
         signal.SetActive(true);
         id++;
 
+    }
+    public void Repeat()
+    {
+        TextsData.Content tipContent = Data.Instance.daysData.GetTip("toca_empiezan_igual");
+        Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + tipContent.id, false);
+        Invoke("SayWord", 2.5f);
     }
     public void SayWord()
     {      
