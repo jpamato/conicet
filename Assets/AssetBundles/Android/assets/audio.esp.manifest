@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1270706887
+CRC: 46311680
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: baafb804b52ce24a1080d914e5e23d85
+    Hash: 5c0e71848fd4af440e45bdf9478fc140
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -34,6 +34,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/nandu_3.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_tambor_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_pato_inicio.wav
+- Assets/Resuources_in_bundles/genericTexts/toca_palabra_a.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_gallina_final.wav
 - Assets/Resuources_in_bundles/assets/audio/oscarcito_radio_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/chorro_agua.wav
