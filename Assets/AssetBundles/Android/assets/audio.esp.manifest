@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 46311680
+CRC: 629054515
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5c0e71848fd4af440e45bdf9478fc140
+    Hash: d05f405050e09373cf785201ebff2a15
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -125,7 +125,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_leche_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/rosa.wav
 - Assets/Resuources_in_bundles/assets/audio/hamaca.wav
-- Assets/Resuources_in_bundles/assets/audio/perro_mediano_naranja.wav
 - Assets/Resuources_in_bundles/assets/audio/pedro_globo_19.wav
 - Assets/Resuources_in_bundles/assets/audio/descripcion_malevo_2.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso_mediano.wav
@@ -153,6 +152,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/yacare.wav
 - "Assets/Resuources_in_bundles/assets/audio/loro_\xF1anducorre_final.wav"
 - Assets/Resuources_in_bundles/assets/audio/pablitoEsperanzado.wav
+- Assets/Resuources_in_bundles/assets/audio/perro_mediano_naranja.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_vaso_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/pata_palo.wav
 - "Assets/Resuources_in_bundles/assets/audio/mu\xF1eca.wav"
@@ -753,9 +753,10 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/tren.wav
 - Assets/Resuources_in_bundles/assets/audio/caperucita.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_miel_inicio.wav
-- Assets/Resuources_in_bundles/assets/audio/numero8.wav
+- Assets/Resuources_in_bundles/assets/audio/gallina_grande_azul.wav
 - Assets/Resuources_in_bundles/assets/audio/sosprendido.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_cama_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/numero8.wav
 - Assets/Resuources_in_bundles/assets/audio/gallina_amarilla.wav
 - Assets/Resuources_in_bundles/assets/audio/robot.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_mar_inicio.wav
@@ -798,7 +799,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_shampoo_final.wav
 - Assets/Resuources_in_bundles/assets/audio/jarra.wav
 - Assets/Resuources_in_bundles/assets/audio/agua.wav
-- Assets/Resuources_in_bundles/assets/audio/gallina_grande_azul.wav
 - Assets/Resuources_in_bundles/assets/audio/remera_roja.wav
 - Assets/Resuources_in_bundles/assets/audio/mapa_tesoro.wav
 - "Assets/Resuources_in_bundles/assets/audio/peque\xF1o.wav"
