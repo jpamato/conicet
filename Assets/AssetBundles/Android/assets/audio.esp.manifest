@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 629054515
+CRC: 194845133
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d05f405050e09373cf785201ebff2a15
+    Hash: c8a95eaf9675a9b80fe17a268bf82b14
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -805,7 +805,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_vaso_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/abuelaNariz.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sol_final.wav
-- Assets/Resuources_in_bundles/assets/audio/loro_avion_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_avion3_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/perroMedianoNaranja.wav
 - Assets/Resuources_in_bundles/assets/audio/feria.wav
 - Assets/Resuources_in_bundles/assets/audio/varita_magica.wav

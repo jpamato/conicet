@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3364816616
+CRC: 437123001
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b4310d1853f73043df375093e6284a80
+    Hash: 041008ddd9d8644ecea405d563e53c93
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -227,6 +227,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/numero3.png
 - Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_1.jpg
 - Assets/Resuources_in_bundles/assets/ordenarBichoBolita4.jpg
+- Assets/Resuources_in_bundles/assets/avion3.jpg
 - Assets/Resuources_in_bundles/assets/ordenarDiaPesca_5.jpg
 - Assets/Resuources_in_bundles/assets/capitan.png
 - Assets/Resuources_in_bundles/assets/hormiga.png
