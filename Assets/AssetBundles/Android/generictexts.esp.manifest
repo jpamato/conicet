@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1128793106
+CRC: 4232041389
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8f6b1ffc31cb08811739482b9bbcb508
+    Hash: ec1d4c38cc6284d5191d83965b9c8f17
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -44,6 +44,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/viajeEspacio8_20.wav
 - Assets/Resuources_in_bundles/genericTexts/laminaDanyAnimales_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rulitos_28.wav
+- Assets/Resuources_in_bundles/genericTexts/pedroGlobo7_4.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores4_9.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_e.wav
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos5_7.wav
@@ -311,8 +312,9 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/hornero1_1.wav
 - Assets/Resuources_in_bundles/genericTexts/letraOL2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/danyFamilia3_4.wav
-- Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_14.wav
+- Assets/Resuources_in_bundles/genericTexts/diaPesca8_1.wav
 - Assets/Resuources_in_bundles/genericTexts/pintar_genio_botella.wav
+- Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_14.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_dia_pesca.wav
 - Assets/Resuources_in_bundles/genericTexts/malevo5_8.wav
 - Assets/Resuources_in_bundles/genericTexts/cancion_animalesDany.wav
@@ -653,6 +655,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyLucasAlanpt2_2.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRojapt2_3.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_escucha_toca.wav
+- Assets/Resuources_in_bundles/genericTexts/diaPesca7_1.wav
 - Assets/Resuources_in_bundles/genericTexts/insectoAlimento3_4.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina5_5.wav
 - Assets/Resuources_in_bundles/genericTexts/instruccionesGlobo.wav

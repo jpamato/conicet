@@ -13,6 +13,7 @@ public class ImagenPalabras : ScreenMain
     int totalObjects;
     [SerializeField] string ok_word;
     bool clicked;
+    bool mayus;
 
     public override void Hide(bool toLeft)
     {
@@ -43,12 +44,23 @@ public class ImagenPalabras : ScreenMain
         if (content == null) return;
         clicked = false;
         tipContent = Data.Instance.daysData.GetTip("toca_dice");
-        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type); // No deberia activar el audio del tip esto? Por que no funciona?
+        Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
     }
     void OnTipDone()
     {
         ShowContent(true);
         ok_word = content[0];
+
+        // la actividad se debe repetir dos veces, primero en minuscula y segundo en mayuscula
+        if (gameID%2 == 0) 
+        {
+            mayus = true;
+        }
+        else
+        {
+            mayus = false;
+        }
+
         Sprite sprite = Data.Instance.assetsData.GetContent(ok_word).sprite;
         imageCard.sprite = sprite;
         if (sprite == null) Events.Log("No hay asset para " + content[0]);
@@ -61,7 +73,7 @@ public class ImagenPalabras : ScreenMain
     {
         Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + "toca_dice", false);
         yield return new WaitForSeconds(1.5f);
-        Say(ok_word.ToLower());
+        Say(ok_word);
     }
 
     public void Say(string audioName)
@@ -75,7 +87,10 @@ public class ImagenPalabras : ScreenMain
         int id = 0;
         foreach (SimpleButton sb in allButtons)
         {
-            sb.Init(0, null, content[id].ToUpper(), OnClicked, false);
+            if (mayus)
+                sb.Init(0, null, content[id], OnClicked, true);
+            else
+                sb.Init(0, null, content[id], OnClicked, false);
             id++;
         }
     }
@@ -89,7 +104,8 @@ public class ImagenPalabras : ScreenMain
 
         if (clicked) return;
         clicked = true;
-        if (button.text.ToLower() == ok_word)
+
+        if (button.text == ok_word)
         {
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.OK, 2);
             Invoke("OnCorrect", 1);
@@ -99,6 +115,7 @@ public class ImagenPalabras : ScreenMain
             button.GetComponent<SimpleFeedback>().SetState(SimpleFeedback.states.WRONG, 2);
             Invoke("ResetLetters", 2);
         }
+        Debug.Log("ok word" + ok_word + "button word" + button.text);
     }
     void OnCorrect()
     {
