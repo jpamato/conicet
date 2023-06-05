@@ -11,6 +11,9 @@ public class RepeatWithCard : ScreenMain
     public Character character;
     [SerializeField] FillAmountAnim fillAmountAnim;
 
+    public GameObject repeatButton;
+    TextsData.Content tipContent;
+
     public int done;
     int id;
     int lastcardID;
@@ -31,7 +34,7 @@ public class RepeatWithCard : ScreenMain
 
         if (content == null) return;
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_repeat_with_card");
+        tipContent = Data.Instance.daysData.GetTip("tip_repeat_with_card");
         print("________________" + tipContent.character_type);
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
         done = 0;
@@ -73,6 +76,7 @@ public class RepeatWithCard : ScreenMain
             Events.PlaySoundTillReady("voices", s, WordSaid);
         }
     }
+
     public string characterName = "";
     public string audio_text = ""; // TODO: No se estaria viendo el texto. Donde se muestra este texto?
     void AddCard()
@@ -121,6 +125,12 @@ public class RepeatWithCard : ScreenMain
             OnComplete();
             Events.SetReadyButton(OnReadyClicked);
         }
+
+        // Repeat button should be active in a specific activity that uses this script. 
+        if (tipContent.id == "adivinanzas")
+            repeatButton.SetActive(true);
+        else
+            repeatButton.SetActive(false);
     }
     void OnReadyClicked()
     {
