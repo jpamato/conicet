@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3021014026
+CRC: 3971209370
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 464251ab5ff0eabd267a4f0e3251950f
+    Hash: e7ee7315676dd960f87a2701a841cca6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -248,6 +248,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/alas_abeja.wav
 - Assets/Resuources_in_bundles/assets/audio/categoriaAlimentos_1.wav
 - "Assets/Resuources_in_bundles/assets/audio/loro_ara\xF1a_final.wav"
+- Assets/Resuources_in_bundles/assets/audio/loro_cama2_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/mapa.wav
 - Assets/Resuources_in_bundles/assets/audio/ajo.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_arbol_inicio.wav
@@ -273,7 +274,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_nene_final.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_eduardo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/conejo3.wav
-- Assets/Resuources_in_bundles/assets/audio/loro_cuchillo_inicio.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_cuchillo_medio.wav
 - Assets/Resuources_in_bundles/assets/audio/gallina_picoteando.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_azul_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/parche.wav
@@ -624,6 +625,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_pie_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/lucasAlanAsustados.wav
 - Assets/Resuources_in_bundles/assets/audio/miel.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_pierna_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/pajaro2.wav
 - Assets/Resuources_in_bundles/assets/audio/casa.wav
 - Assets/Resuources_in_bundles/assets/audio/hueso.wav
@@ -743,6 +745,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/tenedorChicoNaranja.wav
 - Assets/Resuources_in_bundles/assets/audio/osoPeluche.wav
 - Assets/Resuources_in_bundles/assets/audio/barba.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_cuchillo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sol_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/malevo.wav
 - Assets/Resuources_in_bundles/assets/audio/casa_silaba.wav
