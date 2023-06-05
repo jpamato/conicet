@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3050192693
+CRC: 1227100856
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 41ceb8209541bdd45fe107487eba65f0
+    Hash: 0b92b434640ce0ef94ae031fe6a3b643
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -617,9 +617,10 @@ Assets:
 - Assets/Resuources_in_bundles/assets/trajecola.png
 - Assets/Resuources_in_bundles/assets/gatapeluda.png
 - Assets/Resuources_in_bundles/assets/ordenarGenioBotella_1.jpg
-- Assets/Resuources_in_bundles/assets/liebre.jpg
+- Assets/Resuources_in_bundles/assets/cama2.png
 - Assets/Resuources_in_bundles/assets/ojos.png
 - Assets/Resuources_in_bundles/assets/ordenarDanyAmigos3.jpg
+- Assets/Resuources_in_bundles/assets/liebre.jpg
 - Assets/Resuources_in_bundles/assets/palmeras.png
 - Assets/Resuources_in_bundles/assets/abulDesenterro.jpg
 - Assets/Resuources_in_bundles/assets/perro2.jpg
