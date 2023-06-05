@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 205452111
+CRC: 4236471581
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -373,7 +373,4 @@ AssetBundleManifest:
       Dependencies: {}
     Info_123:
       Name: stories/animales_de_dany/audios.esp
-      Dependencies: {}
-    Info_124:
-      Name: assets/audio.generic
       Dependencies: {}
