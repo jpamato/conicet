@@ -27,6 +27,8 @@ public class ArrastrarGrupos : ScreenMain
     [SerializeField] Text rightField;
     [SerializeField] Image[] images;
 
+    TextsData.Content tipContent;
+
     public override void OnEnable()
     {
         Events.OnDragDone += OnDragDone;
@@ -67,7 +69,7 @@ public class ArrastrarGrupos : ScreenMain
 
         content = Data.Instance.gamesData.activeContent;
 
-        TextsData.Content tipContent = Data.Instance.daysData.GetTip("tip_ordenar");
+        tipContent = Data.Instance.daysData.GetTip("tip_ordenar");
         Events.OnCharacterSay(tipContent, OnTipDone, tipContent.character_type);
 
 
@@ -253,5 +255,10 @@ public class ArrastrarGrupos : ScreenMain
     void OnReadyClicked()
     {
         Events.OnGoto(true);
+    }
+
+    public void RepeatTip()
+    {
+        Events.PlaySound("voices", "genericTexts" + Utils.GetLangFolder() + "/" + tipContent.id, false);
     }
 }
