@@ -181,8 +181,8 @@ public class ArrastrarGrupos : ScreenMain
         _x = -separation / 2 + ((separation * items.Count / 2) / 2);
         rightContainer.transform.localPosition += new Vector3(-_x, 0, 0);
 
-        leftField.text = ok_left.ToUpper();
-        rightField.text = ok_right.ToUpper();
+        leftField.text = Data.Instance.assetsData.GetRealText(ok_left).ToUpper();
+        rightField.text = Data.Instance.assetsData.GetRealText(ok_right).ToUpper();
 
     }
     void AddSlot(int id, bool isLeft)
