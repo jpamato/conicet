@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3971209370
+CRC: 946813814
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e7ee7315676dd960f87a2701a841cca6
+    Hash: d31fb8a7965b819347f49eee080847a8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -220,7 +220,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/ordenarMalevo5.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_sapo_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/amontonados.wav
-- Assets/Resuources_in_bundles/genericTexts/toca_palabras_o.wav
 - Assets/Resuources_in_bundles/assets/audio/hormiga2.wav
 - Assets/Resuources_in_bundles/assets/audio/tesoro.wav
 - Assets/Resuources_in_bundles/assets/audio/distraido.wav
