@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1337627047
+CRC: 1337643050
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 06c7ea9d546247dd582fe3993add4900
+    Hash: 206f520849ad9475447336f5f80d2431
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -1044,7 +1044,6 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/genioBotella_2.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_3.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina6_9.wav
-- Assets/Resuources_in_bundles/genericTexts/toca_oL1.wav
 - Assets/Resuources_in_bundles/genericTexts/familia_1.wav
 - Assets/Resuources_in_bundles/genericTexts/08.wav
 - Assets/Resuources_in_bundles/genericTexts/saco_pablito_rio_completo.wav
