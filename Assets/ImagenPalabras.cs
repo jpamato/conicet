@@ -52,7 +52,7 @@ public class ImagenPalabras : ScreenMain
         ok_word = content[0];
 
         // la actividad se debe repetir dos veces, primero en minuscula y segundo en mayuscula
-        if (gameID%2 == 0) 
+        if (gameID > 0 && gameID%2 == 0) 
         {
             mayus = true;
         }
