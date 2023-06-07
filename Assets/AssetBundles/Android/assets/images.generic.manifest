@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1227100856
+CRC: 777958085
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0b92b434640ce0ef94ae031fe6a3b643
+    Hash: 443bedcbc4f074f09d632117afe62f87
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -299,6 +299,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/avion2.png
 - Assets/Resuources_in_bundles/assets/ordenarPiratasCantores_1.jpg
 - Assets/Resuources_in_bundles/assets/rama.png
+- Assets/Resuources_in_bundles/assets/contarRulitos4.png
 - Assets/Resuources_in_bundles/assets/medialuna.png
 - Assets/Resuources_in_bundles/assets/ordenarGallina2.jpg
 - Assets/Resuources_in_bundles/assets/caballo_chico.png
@@ -366,6 +367,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/abuelaBoca.jpg
 - Assets/Resuources_in_bundles/assets/ordenarDanyAnimales2.jpg
 - Assets/Resuources_in_bundles/assets/puma_mediano.png
+- Assets/Resuources_in_bundles/assets/contarRulitos3.png
 - Assets/Resuources_in_bundles/assets/oso.png
 - Assets/Resuources_in_bundles/assets/sorprendido.png
 - Assets/Resuources_in_bundles/assets/abulZambullo.jpg
@@ -391,6 +393,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/pablitoTriste.jpg
 - Assets/Resuources_in_bundles/assets/oveja_grande.png
 - Assets/Resuources_in_bundles/assets/urano.png
+- Assets/Resuources_in_bundles/assets/contarRulitos5.png
 - Assets/Resuources_in_bundles/assets/mejilla.png
 - Assets/Resuources_in_bundles/assets/cara_nena_unir.png
 - Assets/Resuources_in_bundles/assets/silla.png
@@ -485,6 +488,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/arbol_primavera.png
 - Assets/Resuources_in_bundles/assets/batata.png
 - Assets/Resuources_in_bundles/assets/melisa.png
+- Assets/Resuources_in_bundles/assets/contarRulitos1.png
 - Assets/Resuources_in_bundles/assets/cola.png
 - Assets/Resuources_in_bundles/assets/chancho_chico.png
 - "Assets/Resuources_in_bundles/assets/\xF1anducorre.png"
@@ -605,6 +609,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/rincon.png
 - Assets/Resuources_in_bundles/assets/comerteMejor.jpg
 - Assets/Resuources_in_bundles/assets/lobo_abalanza.png
+- Assets/Resuources_in_bundles/assets/contarRulitos6.png
 - Assets/Resuources_in_bundles/assets/frente.png
 - Assets/Resuources_in_bundles/assets/tortuga.png
 - Assets/Resuources_in_bundles/assets/gallina_amarilla.png
@@ -672,6 +677,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarViajeEspacio_4.jpg
 - Assets/Resuources_in_bundles/assets/hueso.png
 - Assets/Resuources_in_bundles/assets/mono.png
+- Assets/Resuources_in_bundles/assets/contarRulitos2.png
 - Assets/Resuources_in_bundles/assets/ordenarMalevo2.jpg
 - Assets/Resuources_in_bundles/assets/llorando.png
 - Assets/Resuources_in_bundles/assets/arbol_verano.png
