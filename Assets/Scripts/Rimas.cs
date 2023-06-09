@@ -225,7 +225,12 @@ public class Rimas : ScreenMain
     void Say(string word)
     {
         print(word);
-        Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + word, false);
+
+        // Usar archivo de audio normal en todas las actividades menos en la actividad uni_empiezan_igual que se deben usar los archivos con sonidos iniciales prolongados.
+        if (tipContent.id.Equals("uni_empiezan_igual"))
+            Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + "loro_" + word + "_inicio", false);
+        else
+            Events.PlaySound("voices", "assets/audio" + Utils.GetLangFolder() + "/" + word, false);
     }
     void OnReadyClicked()
     {

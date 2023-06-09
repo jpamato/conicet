@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 936098801
+CRC: 743222391
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e084e16aca9550503111e6a11ea929f6
+    Hash: a9868c07a4bc3f34cfca1d87b55fada0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -13,5 +13,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resuources_in_bundles/genericTexts/toca_palabras_o.wav
+- Assets/Resuources_in_bundles/assets/audio/perroAfueraCaja.wav
 Dependencies: []

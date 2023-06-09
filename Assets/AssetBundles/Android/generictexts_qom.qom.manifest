@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 310292157
+CRC: 1713227503
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7180c8389e24d809ba1c19609b6cde78
+    Hash: 49112e5f5b4849b20ae85bbe06f792f8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -268,7 +268,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/danyAmigos4_6.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/amigos_3.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/liebreTortuga1_7.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja5_20.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja56_20.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/danyFamilia_25.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/categoria_partes_cara.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos5_20.wav
@@ -343,7 +343,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts_qom/rulitos2_2.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/pela_pela.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/cancion_integracion1.wav
-- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja7_21.wav
+- Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja8_21.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/06.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/elegi_lobo_ropa_1.wav
 - Assets/Resuources_in_bundles/genericTexts_qom/caperucitaRoja6_14.wav

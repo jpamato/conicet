@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3937686612
+CRC: 1735180135
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b024d914d89b6fe512fe6b4468ced1e9
+    Hash: ca251e6d781d0be9c26db2850d4433b4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -15,6 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Resuources_in_bundles/stories/familia_dany/images/6.jpg
 - Assets/Resuources_in_bundles/stories/familia_dany/images/5.jpg
 - Assets/Resuources_in_bundles/stories/familia_dany/images/3.jpg
 - Assets/Resuources_in_bundles/stories/familia_dany/images/1.jpg

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 777958085
+CRC: 1854571400
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 443bedcbc4f074f09d632117afe62f87
+    Hash: cc086389bf756d452e342100f9960c19
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -18,11 +18,11 @@ Assets:
 - Assets/Resuources_in_bundles/assets/caramelo.png
 - Assets/Resuources_in_bundles/assets/nandu_1.jpg
 - Assets/Resuources_in_bundles/assets/nube.png
-- Assets/Resuources_in_bundles/assets/eduardo.png
-- Assets/Resuources_in_bundles/assets/cielo_muy_nublado.png
 - Assets/Resuources_in_bundles/assets/caballo.png
+- Assets/Resuources_in_bundles/assets/eduardo.png
 - Assets/Resuources_in_bundles/assets/sonido_croar.png
 - Assets/Resuources_in_bundles/assets/gallina_picoteando.png
+- Assets/Resuources_in_bundles/assets/cielo_muy_nublado.png
 - Assets/Resuources_in_bundles/assets/carlota.png
 - Assets/Resuources_in_bundles/assets/queso.png
 - Assets/Resuources_in_bundles/assets/cuerpo_atras.png
@@ -34,6 +34,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/dar.png
 - Assets/Resuources_in_bundles/assets/estrella.png
 - Assets/Resuources_in_bundles/assets/adivinanza_camello.jpg
+- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia0.jpg
 - Assets/Resuources_in_bundles/assets/abuelaOrejas.jpg
 - Assets/Resuources_in_bundles/assets/nene_unir.png
 - Assets/Resuources_in_bundles/assets/tesoro.png
@@ -70,7 +71,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/botella_agua.png
 - Assets/Resuources_in_bundles/assets/caballo_mediano.png
 - Assets/Resuources_in_bundles/assets/vaquita_sanantonio.png
-- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia2.jpg
+- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia3.jpg
 - Assets/Resuources_in_bundles/assets/maiz.png
 - Assets/Resuources_in_bundles/assets/nido_grande.png
 - "Assets/Resuources_in_bundles/assets/oto\xF1o.png"
@@ -100,6 +101,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/isla.png
 - Assets/Resuources_in_bundles/assets/pez_5.png
 - Assets/Resuources_in_bundles/assets/sizeZapallo1.png
+- Assets/Resuources_in_bundles/assets/loboZapatosBlancos.jpeg
 - Assets/Resuources_in_bundles/assets/ordenarLiebreTortuga1.jpg
 - Assets/Resuources_in_bundles/assets/pollito_marron.png
 - Assets/Resuources_in_bundles/assets/planetas.png
@@ -107,6 +109,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarGallina3.jpg
 - Assets/Resuources_in_bundles/assets/varita_magica.png
 - Assets/Resuources_in_bundles/assets/liberado.png
+- Assets/Resuources_in_bundles/assets/arribaPerroSilla.png
 - Assets/Resuources_in_bundles/assets/limonero.png
 - Assets/Resuources_in_bundles/assets/camion2.png
 - Assets/Resuources_in_bundles/assets/baile_oso_4.jpg
@@ -127,6 +130,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/bicicleta.png
 - Assets/Resuources_in_bundles/assets/mortero.png
 - Assets/Resuources_in_bundles/assets/avionGrandeRojo.png
+- Assets/Resuources_in_bundles/assets/loboRemeraRoja.jpeg
 - Assets/Resuources_in_bundles/assets/pajaro_empollando.png
 - Assets/Resuources_in_bundles/assets/descripcion_malevo_2.jpg
 - Assets/Resuources_in_bundles/assets/ordenarZorroGallina_2.jpg
@@ -151,10 +155,11 @@ Assets:
 - Assets/Resuources_in_bundles/assets/cuchara.png
 - Assets/Resuources_in_bundles/assets/perroCamina.jpg
 - Assets/Resuources_in_bundles/assets/tierra.png
-- Assets/Resuources_in_bundles/assets/copa.jpg
+- Assets/Resuources_in_bundles/assets/loroArribaArbol.jpeg
 - Assets/Resuources_in_bundles/assets/rayo.png
 - Assets/Resuources_in_bundles/assets/hambriento.png
 - Assets/Resuources_in_bundles/assets/diferenciasDanyFamilia_1.jpg
+- Assets/Resuources_in_bundles/assets/copa.jpg
 - Assets/Resuources_in_bundles/assets/oreja.png
 - Assets/Resuources_in_bundles/assets/ordenarZorroHornero3.jpg
 - Assets/Resuources_in_bundles/assets/pera.png
@@ -195,6 +200,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/posiciones_bichos_4.jpg
 - Assets/Resuources_in_bundles/assets/bichobolita_2.png
 - Assets/Resuources_in_bundles/assets/barco.png
+- Assets/Resuources_in_bundles/assets/gallinaAbajoMesa.jpeg
 - Assets/Resuources_in_bundles/assets/pedro_globo_20.png
 - Assets/Resuources_in_bundles/assets/corno.png
 - Assets/Resuources_in_bundles/assets/ordenarRulitos1.jpg
@@ -248,7 +254,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/catalejo.png
 - Assets/Resuources_in_bundles/assets/zapatillas_marron.png
 - Assets/Resuources_in_bundles/assets/tatu.png
-- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia3.jpg
+- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia4.jpg
 - Assets/Resuources_in_bundles/assets/ombu.png
 - Assets/Resuources_in_bundles/assets/ordenarPesca_2.jpg
 - Assets/Resuources_in_bundles/assets/peces_4.jpg
@@ -406,6 +412,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/perroAdentro.png
 - Assets/Resuources_in_bundles/assets/flecha.png
 - Assets/Resuources_in_bundles/assets/marte.png
+- Assets/Resuources_in_bundles/assets/chivoAdentroCorral.jpeg
 - Assets/Resuources_in_bundles/assets/burro_chico.png
 - Assets/Resuources_in_bundles/assets/gato.png
 - Assets/Resuources_in_bundles/assets/enojado.png
@@ -419,6 +426,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/soonaxaqui.png
 - Assets/Resuources_in_bundles/assets/mapa_tesoro.png
 - Assets/Resuources_in_bundles/assets/caldero_magico1.png
+- Assets/Resuources_in_bundles/assets/ordenarDanyFamilia2.jpg
 - Assets/Resuources_in_bundles/assets/piedra.png
 - Assets/Resuources_in_bundles/assets/serpientesindiente.png
 - Assets/Resuources_in_bundles/assets/pollito_rojo.png
@@ -462,6 +470,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/oso_chico.png
 - Assets/Resuources_in_bundles/assets/vaso_grande.png
 - Assets/Resuources_in_bundles/assets/rosa.png
+- Assets/Resuources_in_bundles/assets/abajoGatoSilla.png
 - Assets/Resuources_in_bundles/assets/escuela.png
 - Assets/Resuources_in_bundles/assets/loro_grande_amarillo.png
 - Assets/Resuources_in_bundles/assets/mercurio.png
@@ -475,6 +484,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/tobogan.png
 - Assets/Resuources_in_bundles/assets/gorrolana.png
 - Assets/Resuources_in_bundles/assets/nandu_2.jpg
+- Assets/Resuources_in_bundles/assets/loboPantalonRojo.jpeg
 - Assets/Resuources_in_bundles/assets/dany.jpg
 - Assets/Resuources_in_bundles/assets/mesa.png
 - Assets/Resuources_in_bundles/assets/lobo_corre.jpg
@@ -484,7 +494,9 @@ Assets:
 - Assets/Resuources_in_bundles/assets/oso2.jpg
 - Assets/Resuources_in_bundles/assets/duna.png
 - Assets/Resuources_in_bundles/assets/tren.png
+- Assets/Resuources_in_bundles/assets/afueraPerroCaja.png
 - Assets/Resuources_in_bundles/assets/uno.png
+- Assets/Resuources_in_bundles/assets/adentroGatoCaja.png
 - Assets/Resuources_in_bundles/assets/arbol_primavera.png
 - Assets/Resuources_in_bundles/assets/batata.png
 - Assets/Resuources_in_bundles/assets/melisa.png
@@ -523,7 +535,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarDanyAnimales1.jpg
 - Assets/Resuources_in_bundles/assets/guitarra.png
 - Assets/Resuources_in_bundles/assets/puma_grande.png
-- Assets/Resuources_in_bundles/assets/empanadas.png
+- Assets/Resuources_in_bundles/assets/empanada.png
 - Assets/Resuources_in_bundles/assets/rana.png
 - Assets/Resuources_in_bundles/assets/ordenarRisaPajaros6.jpg
 - Assets/Resuources_in_bundles/assets/ordenarPiratasCantores_3.jpg
@@ -601,6 +613,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/ordenarZorroHornero2.jpg
 - Assets/Resuources_in_bundles/assets/serpiente.png
 - Assets/Resuources_in_bundles/assets/gallinaEnojada.png
+- Assets/Resuources_in_bundles/assets/liebre.png
 - Assets/Resuources_in_bundles/assets/perroArribaSilla.png
 - Assets/Resuources_in_bundles/assets/silla_grande.png
 - Assets/Resuources_in_bundles/assets/albahaca.png
@@ -625,7 +638,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/cama2.png
 - Assets/Resuources_in_bundles/assets/ojos.png
 - Assets/Resuources_in_bundles/assets/ordenarDanyAmigos3.jpg
-- Assets/Resuources_in_bundles/assets/liebre.jpg
 - Assets/Resuources_in_bundles/assets/palmeras.png
 - Assets/Resuources_in_bundles/assets/abulDesenterro.jpg
 - Assets/Resuources_in_bundles/assets/perro2.jpg
@@ -645,6 +657,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/titere.png
 - Assets/Resuources_in_bundles/assets/loro.png
 - Assets/Resuources_in_bundles/assets/galletitas.png
+- Assets/Resuources_in_bundles/assets/chanchoAfueraCorral.jpeg
 - Assets/Resuources_in_bundles/assets/oscarcito_ca_2.png
 - "Assets/Resuources_in_bundles/assets/\xF1andu2.png"
 - Assets/Resuources_in_bundles/assets/zapato.png
@@ -696,6 +709,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/distraido.png
 - Assets/Resuources_in_bundles/assets/ordenarMalevo4.jpg
 - Assets/Resuources_in_bundles/assets/nena1.png
+- Assets/Resuources_in_bundles/assets/loboMediasBlancas.jpeg
 - Assets/Resuources_in_bundles/assets/loro_volando.png
 - Assets/Resuources_in_bundles/assets/osogoloso.png
 - Assets/Resuources_in_bundles/assets/buzo.png
@@ -758,7 +772,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/aterrorizado2.png
 - Assets/Resuources_in_bundles/assets/raton2.png
 - Assets/Resuources_in_bundles/assets/vaso_mediano.png
-- Assets/Resuources_in_bundles/assets/burro.png
 - Assets/Resuources_in_bundles/assets/horrorizada.png
 - Assets/Resuources_in_bundles/assets/ordenarLiebreTortuga2.jpg
 - Assets/Resuources_in_bundles/assets/ordenarZorroGallina_5.jpg
@@ -766,6 +779,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/chivoNegro.png
 - Assets/Resuources_in_bundles/assets/alfombra.png
 - Assets/Resuources_in_bundles/assets/ordenarDanyAmigos1.jpg
+- Assets/Resuources_in_bundles/assets/burro.png
 - Assets/Resuources_in_bundles/assets/ordenarCaperucitaRojaL21.jpg
 - Assets/Resuources_in_bundles/assets/color_hueso.png
 - Assets/Resuources_in_bundles/assets/ordenarBaile_4.jpg
@@ -773,6 +787,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/gorro.png
 - Assets/Resuources_in_bundles/assets/conejo_sin_orejas.png
 - Assets/Resuources_in_bundles/assets/abul.jpg
+- Assets/Resuources_in_bundles/assets/empanadas.png
 - Assets/Resuources_in_bundles/assets/raton2.jpg
 - Assets/Resuources_in_bundles/assets/sonido_ladrar.png
 - Assets/Resuources_in_bundles/assets/senora.png
@@ -789,10 +804,10 @@ Assets:
 - Assets/Resuources_in_bundles/assets/caperucita_salta.png
 - Assets/Resuources_in_bundles/assets/lago.png
 - Assets/Resuources_in_bundles/assets/blanco.png
-- Assets/Resuources_in_bundles/assets/oso_hormiguero3.jpg
+- Assets/Resuources_in_bundles/assets/loro_feliz.png
 - Assets/Resuources_in_bundles/assets/arbol.png
 - Assets/Resuources_in_bundles/assets/invierno.png
-- Assets/Resuources_in_bundles/assets/loro_feliz.png
+- Assets/Resuources_in_bundles/assets/oso_hormiguero3.jpg
 - Assets/Resuources_in_bundles/assets/mago.png
 - Assets/Resuources_in_bundles/assets/silla_mediana.png
 Dependencies: []

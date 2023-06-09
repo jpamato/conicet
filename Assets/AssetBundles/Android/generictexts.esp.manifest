@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1337643050
+CRC: 2638545453
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 206f520849ad9475447336f5f80d2431
+    Hash: 6dccc6a5e1b0d8babd0c35d70b5f310a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -14,7 +14,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resuources_in_bundles/genericTexts/fiesta2_3.wav
-- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja5_20.wav
+- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja56_20.wav
 - Assets/Resuources_in_bundles/genericTexts/Unir_animales_orejas.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_repetir_loro.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_ordenar_cuentoL2.wav
@@ -125,7 +125,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores5_12.wav
 - Assets/Resuources_in_bundles/genericTexts/osoHormiguero_1.wav
 - Assets/Resuources_in_bundles/genericTexts/diaPesca5_16.wav
-- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja7_21.wav
+- Assets/Resuources_in_bundles/genericTexts/caperucitaRoja8_21.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucitaRoja7_16.wav
 - Assets/Resuources_in_bundles/genericTexts/letraAL2_1.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_zorro_gallina.wav
@@ -216,8 +216,9 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/risaPajaros6_4.wav
 - Assets/Resuources_in_bundles/genericTexts/zorroGallina1_12.wav
 - Assets/Resuources_in_bundles/genericTexts/escucha_muy_bien.wav
-- Assets/Resuources_in_bundles/genericTexts/baileOso1_9.wav
+- Assets/Resuources_in_bundles/genericTexts/danyFamilia_9.wav
 - Assets/Resuources_in_bundles/genericTexts/toca_partes_pez.wav
+- Assets/Resuources_in_bundles/genericTexts/baileOso1_9.wav
 - Assets/Resuources_in_bundles/genericTexts/oscarcitoDibujo4_1.wav
 - Assets/Resuources_in_bundles/genericTexts/conejo3_3.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores4_10.wav
@@ -251,6 +252,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/pregunta_susto1.wav
 - Assets/Resuources_in_bundles/genericTexts/piratasCantores4_11.wav
 - Assets/Resuources_in_bundles/genericTexts/conejo3_7.wav
+- Assets/Resuources_in_bundles/genericTexts/01a.mp3
 - Assets/Resuources_in_bundles/genericTexts/uni_parte_animal.wav
 - Assets/Resuources_in_bundles/genericTexts/tip_letra.wav
 - Assets/Resuources_in_bundles/genericTexts/barquitoPapel6_6.wav
@@ -1061,7 +1063,7 @@ Assets:
 - Assets/Resuources_in_bundles/genericTexts/danyAmigos_6.wav
 - Assets/Resuources_in_bundles/genericTexts/bichoBolita8_13.wav
 - Assets/Resuources_in_bundles/genericTexts/rima_rulitos_2.wav
-- Assets/Resuources_in_bundles/genericTexts/danyFamilia3_9.wav
+- Assets/Resuources_in_bundles/genericTexts/danyFamilia2_9.wav
 - Assets/Resuources_in_bundles/genericTexts/ordenar_viaje_espacio_6.wav
 - Assets/Resuources_in_bundles/genericTexts/loroPresentacionL1U_1.wav
 - Assets/Resuources_in_bundles/genericTexts/caperucita_4.wav

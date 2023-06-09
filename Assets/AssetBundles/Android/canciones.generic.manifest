@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1595517021
+CRC: 1951581592
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2f19dcf06f63125b42e2e2a345a23bb4
+    Hash: 57e6938f1075b979ce0348405c453ab0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
@@ -28,6 +28,7 @@ Assets:
 - Assets/Resuources_in_bundles/canciones/cancion_integracion1.png
 - Assets/Resuources_in_bundles/canciones/cancion_danyamigos2.png
 - Assets/Resuources_in_bundles/canciones/cancion_sonidoAnimales_1.png
+- Assets/Resuources_in_bundles/canciones/cancion_categoriaAnimales1.png
 - Assets/Resuources_in_bundles/canciones/cancion_rulitos.png
 - Assets/Resuources_in_bundles/canciones/cancion_animales_integracion.png
 - Assets/Resuources_in_bundles/canciones/cancion_danyamigos.png

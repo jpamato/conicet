@@ -107,9 +107,51 @@ public class Contar : ScreenMain
     void SayNumber(int num)
     {
         string add = "";
-        if (Data.Instance.lang == Data.langs.QOM) add = "_qom";
-        Events.PlaySound("voices", "genericTexts" + add + "/0" + num, false);
+        string suffix = "";
+        if (Data.Instance.lang == Data.langs.QOM)
+        {
+            add = "_qom";
+        }
+        else
+        {
+            // Add string suffix to define audio file that should be played
+            if (num == 1 && isFemenineNoun(content[0]))
+                suffix = "a";
+        }
+
+        Events.PlaySound("voices", "genericTexts" + add + "/0" + num + suffix, false);
     }
+
+    // Check if the word is a femenine or masculine noun
+    // NOTE:
+    // No es 100% preciso ya que los sustantivos que terminan con "-a" no son siempre femeninos, pero funciona para los casos en el juego.
+    // También se complica en sustantivos que terminan con "-e". El unico caso presente en el juego se hard codea por cuestión de simplicidad.
+    bool isFemenineNoun(string _word)
+    {
+        // Cuando el tip es contar, la consigna define "objeto" en la consigna.
+        if (tipContent.id == "tip_contar")
+            _word = "objeto";
+
+        string word = Data.Instance.assetsData.GetRealText(_word);
+
+        // Take only the first word in cases where words are followed by adjectives (i.e. bolita verde)
+        if (word.Contains(" "))
+            word = word.Split(' ')[0];
+
+        // Add femenine suffix if noun is femenine (defined by ending in "-a"
+        if (word.EndsWith("a"))
+            return true;
+
+        // Add femenine suffix if noun is femenine (defined by ending in "-e"). These words require to be hard coded.
+        if (word.EndsWith("e"))
+        {
+            if (word.Equals("nube"))
+                return true;
+        }
+
+        return false;
+    }
+
     void AddButtons()
     {
         Utils.Shuffle(allButtons);
@@ -158,5 +200,4 @@ public class Contar : ScreenMain
         OnComplete();
         Events.OnGoto(true);
     }
-
 }
