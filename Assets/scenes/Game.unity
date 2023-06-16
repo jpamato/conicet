@@ -38000,10 +38000,10 @@ MonoBehaviour:
     recorrido tiene dos niveles de dificultad: uno m\xE1s f\xE1cil (un sol) y el
     otro, con actividades un poco m\xE1s complejas (dos soles). Elegir una u otra
     de estas posibilidades depende de la edad y/o del conocimiento que se tiene del
-    espa\xF1ol y del qom.\r\n\r\nUna vez que seleccionaste el recorrido y el nivel
-    de dificultad, tocando las im\xE1genes que corresponden, pod\xE9s empezar a realizar
-    las actividades que est\xE1n en tu recorrido: escuchar y leer cuentos, pensar
-    y responder preguntas, jugar con palabras, recitar rimas, escuchar canciones
+    espa\xF1ol y del qom.\t\t\r\n\r\nUna vez que seleccionaste el recorrido y el
+    nivel de dificultad, tocando las im\xE1genes que corresponden, pod\xE9s empezar
+    a realizar las actividades que est\xE1n en tu recorrido: escuchar y leer cuentos,
+    pensar y responder preguntas, jugar con palabras, recitar rimas, escuchar canciones
     y cantarlas, y escribir y leer palabras.\r"
 --- !u!222 &1641714344
 CanvasRenderer:
@@ -49237,21 +49237,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Huo\u2019o na cuentos fue posible gracias al apoyo y al financiamiento
-    de Elke Rottgardt y Horst Schroth, quienes vienen apoyando el trabajo de las
-    autoras desde hace 20 a\xF1os. Fue tambi\xE9n posible gracias al Consejo Nacional
-    de Investigaciones Cient\xEDficas y T\xE9cnicas (CONICET) que desde siempre financia
-    y apoya el trabajo de todas las autoras, investigadoras, profesionales y becarias
-    del Consejo. \r\n\r\nHuo\u2019o na cuentos constituye una iniciativa del CIIPME
-    (Centro Interdisciplinario de Investigaciones en Psicolog\xEDa Matem\xE1tica
-    y Experimental) - CONICET que dedicamos a ni\xF1as y ni\xF1os de nuestro pa\xEDs
-    y la regi\xF3n. Tiene por objeto colaborar con las familias y las y los docentes,
-    ampliando las oportunidades que los ni\xF1os y ni\xF1as tienen de escuchar cuentos,
-    jugar con palabras y sonidos y aprender a leer y escribir, en los jardines de
-    infantes, las escuelas y los hogares.\r\n\r\nAutoras: Celia Rosemberg, Gladys
-    Ojea, Maia Migdalek, Alejandra Stein, Florencia Alam, Paola C\xFAneo, Andrea
-    Junyent, Nilda Romero, Mauricio Maidana, Elvi Alegre, Silvana N\xFA\xF1ez.\r\nProgramadores:
-    Agust\xEDn Pontura, Brenda Burgoa.\r\nIlustrador: Mat\xEDas Somonte.\r\n\r\nApoyo
+  m_Text: "Huo\u2019o na cuentos constituye una iniciativa del CIIPME (Centro Interdisciplinario
+    de Investigaciones en Psicolog\xEDa Matem\xE1tica y Experimental) - CONICET que
+    dedicamos a ni\xF1as y ni\xF1os de nuestro pa\xEDs y la regi\xF3n. Tiene por
+    objeto colaborar con las familias y las y los docentes, ampliando las oportunidades
+    que los ni\xF1os y ni\xF1as tienen de escuchar cuentos, jugar con palabras y
+    sonidos y aprender a leer y escribir, en los jardines de infantes, las escuelas
+    y los hogares.\r\n\r\nAutoras: Celia Rosemberg, Gladys Ojea, Maia Migdalek, Alejandra
+    Stein, Florencia Alam, Paola C\xFAneo, Andrea Junyent, Nilda Romero, Mauricio
+    Maidana, Elvi Alegre, Silvana N\xFA\xF1ez.\r\nProgramadores: en una primera etapa,
+    Agust\xEDn Pontura, Brenda Burgoa, en una segunda etapa Edutrama y Yaguar.\r\nIlustrador:
+    Mat\xEDas Somonte.\r\n \r\nHuo\u2019o na cuentos fue posible gracias al Consejo
+    Nacional de Investigaciones Cient\xEDficas y T\xE9cnicas (CONICET) que desde
+    siempre financia y apoya el trabajo de todas las autoras, investigadoras, profesionales
+    y becarias del Consejo. Fue tambi\xE9n posible gracias al apoyo y al financiamiento
+    de Elke Rottgardt y Horst Schroth, quienes vienen sosteniendo el trabajo de las
+    autoras desde hace 20 a\xF1os y del programa INFANCIA que se lleva a cabo con
+    el acompa\xF1amiento y financiamiento de la Fundaci\xF3n P\xE9rez Companc.\r\n\r\nApoyo
     a la edici\xF3n y compilaci\xF3n del material: Juana Aranda, Emilse Barrial Delmonte,
     Luciana C\xFAneo, Carla Giordano, Feliciano Guti\xE9rrez, N\xE9stor Ojea, Jos\xE9
     Oyanguren.\r\n\r\nLes agradecemos mucho a los artistas Abriendo Rondas, Agua
@@ -49292,7 +49294,7 @@ MonoBehaviour:
     sint\xF3nica. \u201CMalambo del hornerito\u201D\r\nhttps://www.youtube.com/watch?v=EHaBS7zeMb8\r\n\r\nMar\xEDa
     Clara Olmedo y Ana Medrano. Album Qompi Qompi \r\n\u201CQomi qompi\u201D\r\n\u201CRo\u2019onaxatagui
     na \xF1aqpiolec\u201D\r\n\u201C 'Auo'oche \u1EF9alqolec\u201D\r\nhttps://www.youtube.com/watch?v=s7mEU6HV3hs\r\n\r\nPatinetas
-    en Banda. \u201CBicho bolita\u201D\r\nhttps://www.youtube.com/watch?v=8Cv7Bfj9Y9o "
+    en Banda. \u201CBicho bolita\u201D\r\nhttps://www.youtube.com/watch?v=8Cv7Bfj9Y9o\r"
 --- !u!222 &2057749739
 CanvasRenderer:
   m_ObjectHideFlags: 0
