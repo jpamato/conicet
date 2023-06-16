@@ -1,306 +1,306 @@
 ManifestFileVersion: 0
-CRC: 2102751613
+CRC: 2270683683
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets/images.generic
-      Dependencies: {}
-    Info_1:
-      Name: completar/danyfamilia2.esp
-      Dependencies: {}
-    Info_2:
-      Name: frases.esp
-      Dependencies: {}
-    Info_3:
-      Name: generictexts.esp
-      Dependencies: {}
-    Info_4:
-      Name: generictexts_qom.qom
-      Dependencies: {}
-    Info_5:
-      Name: stories/bicho_bolita/images.esp
-      Dependencies: {}
-    Info_6:
-      Name: assets/audio.esp
-      Dependencies: {}
-    Info_7:
-      Name: assets/audio_qom.qom
-      Dependencies: {}
-    Info_8:
-      Name: stories/familia_dany/audios.qom
-      Dependencies: {}
-    Info_9:
-      Name: canciones.generic
-      Dependencies: {}
-    Info_10:
-      Name: completar/zapallogigante.esp
-      Dependencies: {}
-    Info_11:
-      Name: paintings.generic
-      Dependencies: {}
-    Info_12:
-      Name: completar_qom/liebretortuga3.qom
-      Dependencies: {}
-    Info_13:
-      Name: stories/amigos_de_dany/audios.esp
-      Dependencies: {}
-    Info_14:
-      Name: completar/diapesca4.esp
-      Dependencies: {}
-    Info_15:
-      Name: stories/caperucita_roja_l2/images.generic
-      Dependencies: {}
-    Info_16:
-      Name: completar/piratascantores3.esp
-      Dependencies: {}
-    Info_17:
-      Name: ordenar.esp
-      Dependencies: {}
-    Info_18:
-      Name: stories/malevo/audios.esp
-      Dependencies: {}
-    Info_19:
-      Name: completar/bichobolita4.esp
-      Dependencies: {}
-    Info_20:
-      Name: completar/zorrogallina4.esp
-      Dependencies: {}
-    Info_21:
-      Name: rimas.generic
-      Dependencies: {}
-    Info_22:
-      Name: stories/rulitos/images.generic
-      Dependencies: {}
-    Info_23:
-      Name: completar/danyfamilia.esp
-      Dependencies: {}
-    Info_24:
-      Name: stories/baile/images.esp
-      Dependencies: {}
-    Info_25:
-      Name: completar/liebretortuga2.esp
-      Dependencies: {}
-    Info_26:
-      Name: stories/dia_pesca/images.esp
-      Dependencies: {}
-    Info_27:
-      Name: stories/piratas_cantores/images.esp
-      Dependencies: {}
-    Info_28:
-      Name: completar/conejo.esp
-      Dependencies: {}
-    Info_29:
-      Name: stories/zapallo_gigante/images.esp
-      Dependencies: {}
-    Info_30:
-      Name: stories/caperucita_roja_l2/audios.generic
-      Dependencies: {}
-    Info_31:
-      Name: completar/piratascantores.esp
-      Dependencies: {}
-    Info_32:
-      Name: stories/liebre_tortuga/images.generic
-      Dependencies: {}
-    Info_33:
-      Name: completar/bichobolita3.esp
-      Dependencies: {}
-    Info_34:
-      Name: completar/zorrogallina3.esp
-      Dependencies: {}
-    Info_35:
-      Name: stories/rulitos/audios.qom
-      Dependencies: {}
-    Info_36:
-      Name: completar/liebretortuga.esp
-      Dependencies: {}
-    Info_37:
-      Name: stories/dia_pesca/audios.esp
-      Dependencies: {}
-    Info_38:
-      Name: completar/rulitos2.esp
-      Dependencies: {}
-    Info_39:
-      Name: stories/piratas_cantores/audios.esp
-      Dependencies: {}
-    Info_40:
-      Name: completar/caperucital2pt3.esp
-      Dependencies: {}
-    Info_41:
-      Name: completar/diapesca2.esp
-      Dependencies: {}
-    Info_42:
-      Name: stories/caperucita_roja/images.esp
-      Dependencies: {}
-    Info_43:
-      Name: completar/pedroglobo2.esp
-      Dependencies: {}
-    Info_44:
-      Name: stories/genio_botella/images.esp
-      Dependencies: {}
-    Info_45:
-      Name: completar/zorrogallina2.esp
-      Dependencies: {}
-    Info_46:
-      Name: stories/risa_pajaros/images.esp
-      Dependencies: {}
-    Info_47:
-      Name: completar/conejo5.esp
-      Dependencies: {}
-    Info_48:
-      Name: stories/animales_de_dany/images.generic
-      Dependencies: {}
-    Info_49:
-      Name: stories/zorro_hornero/images.esp
-      Dependencies: {}
-    Info_50:
-      Name: completar/integracion3.esp
-      Dependencies: {}
-    Info_51:
-      Name: stories/conejo/images.esp
-      Dependencies: {}
-    Info_52:
-      Name: completar/risapajaros.esp
-      Dependencies: {}
-    Info_53:
-      Name: stories/pedro_globo/images.esp
-      Dependencies: {}
-    Info_54:
-      Name: completar/caperucital2.esp
-      Dependencies: {}
-    Info_55:
-      Name: completar/zorrohornero3.esp
-      Dependencies: {}
-    Info_56:
-      Name: stories/viaje_espacio/images.esp
-      Dependencies: {}
-    Info_57:
-      Name: completar/diapesca1.esp
-      Dependencies: {}
-    Info_58:
-      Name: completar/pedroglobo.esp
-      Dependencies: {}
-    Info_59:
-      Name: completar/baile2.esp
-      Dependencies: {}
-    Info_60:
-      Name: completar/zorrogallina.esp
-      Dependencies: {}
-    Info_61:
-      Name: completar/conejo4.esp
-      Dependencies: {}
-    Info_62:
-      Name: completar_qom/rulitos4.qom
-      Dependencies: {}
-    Info_63:
-      Name: stories/amigos_de_dany/images.generic
-      Dependencies: {}
-    Info_64:
-      Name: completar/integracion1.esp
-      Dependencies: {}
-    Info_65:
-      Name: completar/quesusto.esp
-      Dependencies: {}
-    Info_66:
-      Name: completar/caperucital1.esp
-      Dependencies: {}
-    Info_67:
-      Name: completar/zorrohornero2.esp
-      Dependencies: {}
-    Info_68:
-      Name: completar/danyfamilia3.esp
-      Dependencies: {}
-    Info_69:
-      Name: stories/familia_dany/images.generic
-      Dependencies: {}
-    Info_70:
-      Name: stories/que_susto/images.esp
-      Dependencies: {}
-    Info_71:
-      Name: completar/conejo3.esp
-      Dependencies: {}
-    Info_72:
-      Name: completar_qom/liebretortuga4.qom
-      Dependencies: {}
-    Info_73:
-      Name: stories/zorro_gallina/images.esp
-      Dependencies: {}
-    Info_74:
-      Name: completar/geniobotella.esp
-      Dependencies: {}
-    Info_75:
-      Name: ordenar_qom.qom
-      Dependencies: {}
-    Info_76:
-      Name: stories/malevo/images.esp
-      Dependencies: {}
-    Info_77:
-      Name: completar/bichobolita5.esp
-      Dependencies: {}
-    Info_78:
-      Name: completar/zorrogallina5.esp
-      Dependencies: {}
-    Info_79:
-      Name: completar/malevo.esp
-      Dependencies: {}
-    Info_80:
-      Name: completar/viajeespacio2.esp
-      Dependencies: {}
-    Info_81:
-      Name: completar/conejo2.esp
-      Dependencies: {}
-    Info_82:
-      Name: completar/piratascantores2.esp
-      Dependencies: {}
-    Info_83:
-      Name: completar/danyamigos2.esp
-      Dependencies: {}
-    Info_84:
-      Name: completar/viajeespacio.esp
-      Dependencies: {}
-    Info_85:
-      Name: completar_qom/caperucitaq2.qom
-      Dependencies: {}
-    Info_86:
-      Name: completar/diapesca3.esp
-      Dependencies: {}
-    Info_87:
-      Name: completar/bichobolita2.esp
-      Dependencies: {}
-    Info_88:
-      Name: completar/danyamigos.esp
-      Dependencies: {}
-    Info_89:
-      Name: completar/rulitos.esp
-      Dependencies: {}
-    Info_90:
-      Name: completar/caperucital2pt2.esp
-      Dependencies: {}
-    Info_91:
-      Name: completar/zorrohornero4.esp
-      Dependencies: {}
-    Info_92:
-      Name: completar/integracion2.esp
-      Dependencies: {}
-    Info_93:
-      Name: stories/viaje_espacio/audios.esp
-      Dependencies: {}
-    Info_94:
-      Name: completar/diapesca.esp
-      Dependencies: {}
-    Info_95:
-      Name: completar/malevo3.esp
-      Dependencies: {}
-    Info_96:
-      Name: completar/baile.esp
-      Dependencies: {}
-    Info_97:
-      Name: completar/zapallogigante2.esp
-      Dependencies: {}
-    Info_98:
       Name: completar_qom/rulitos3.qom
       Dependencies: {}
-    Info_99:
+    Info_1:
+      Name: generictexts.esp
+      Dependencies: {}
+    Info_2:
+      Name: generictexts_qom.qom
+      Dependencies: {}
+    Info_3:
+      Name: stories/amigos_de_dany/images.generic
+      Dependencies: {}
+    Info_4:
+      Name: stories/zorro_gallina/images.esp
+      Dependencies: {}
+    Info_5:
+      Name: assets/audio.esp
+      Dependencies: {}
+    Info_6:
+      Name: assets/audio_qom.qom
+      Dependencies: {}
+    Info_7:
+      Name: assets/images.generic
+      Dependencies: {}
+    Info_8:
+      Name: completar/integracion1.esp
+      Dependencies: {}
+    Info_9:
+      Name: frases.esp
+      Dependencies: {}
+    Info_10:
+      Name: stories/caperucita_roja_l2/images.generic
+      Dependencies: {}
+    Info_11:
+      Name: completar/quesusto.esp
+      Dependencies: {}
+    Info_12:
+      Name: paintings.generic
+      Dependencies: {}
+    Info_13:
+      Name: stories/malevo/images.esp
+      Dependencies: {}
+    Info_14:
+      Name: completar/bichobolita5.esp
+      Dependencies: {}
+    Info_15:
       Name: completar/zorrohornero.esp
+      Dependencies: {}
+    Info_16:
+      Name: rimas.generic
+      Dependencies: {}
+    Info_17:
+      Name: stories/rulitos/images.generic
+      Dependencies: {}
+    Info_18:
+      Name: completar/danyfamilia2.esp
+      Dependencies: {}
+    Info_19:
+      Name: stories/bicho_bolita/images.esp
+      Dependencies: {}
+    Info_20:
+      Name: stories/familia_dany/audios.qom
+      Dependencies: {}
+    Info_21:
+      Name: canciones.generic
+      Dependencies: {}
+    Info_22:
+      Name: completar/zapallogigante.esp
+      Dependencies: {}
+    Info_23:
+      Name: completar_qom/liebretortuga3.qom
+      Dependencies: {}
+    Info_24:
+      Name: stories/amigos_de_dany/audios.esp
+      Dependencies: {}
+    Info_25:
+      Name: completar/diapesca4.esp
+      Dependencies: {}
+    Info_26:
+      Name: completar/piratascantores3.esp
+      Dependencies: {}
+    Info_27:
+      Name: ordenar.esp
+      Dependencies: {}
+    Info_28:
+      Name: stories/malevo/audios.esp
+      Dependencies: {}
+    Info_29:
+      Name: completar/bichobolita4.esp
+      Dependencies: {}
+    Info_30:
+      Name: completar/zorrogallina4.esp
+      Dependencies: {}
+    Info_31:
+      Name: completar/danyfamilia.esp
+      Dependencies: {}
+    Info_32:
+      Name: stories/baile/images.esp
+      Dependencies: {}
+    Info_33:
+      Name: completar/liebretortuga2.esp
+      Dependencies: {}
+    Info_34:
+      Name: stories/dia_pesca/images.esp
+      Dependencies: {}
+    Info_35:
+      Name: stories/piratas_cantores/images.esp
+      Dependencies: {}
+    Info_36:
+      Name: completar/conejo.esp
+      Dependencies: {}
+    Info_37:
+      Name: stories/zapallo_gigante/images.esp
+      Dependencies: {}
+    Info_38:
+      Name: stories/caperucita_roja_l2/audios.generic
+      Dependencies: {}
+    Info_39:
+      Name: completar/piratascantores.esp
+      Dependencies: {}
+    Info_40:
+      Name: stories/liebre_tortuga/images.generic
+      Dependencies: {}
+    Info_41:
+      Name: completar/bichobolita3.esp
+      Dependencies: {}
+    Info_42:
+      Name: completar/zorrogallina3.esp
+      Dependencies: {}
+    Info_43:
+      Name: stories/rulitos/audios.qom
+      Dependencies: {}
+    Info_44:
+      Name: completar/liebretortuga.esp
+      Dependencies: {}
+    Info_45:
+      Name: stories/dia_pesca/audios.esp
+      Dependencies: {}
+    Info_46:
+      Name: completar/rulitos2.esp
+      Dependencies: {}
+    Info_47:
+      Name: stories/piratas_cantores/audios.esp
+      Dependencies: {}
+    Info_48:
+      Name: completar/caperucital2pt3.esp
+      Dependencies: {}
+    Info_49:
+      Name: completar/diapesca2.esp
+      Dependencies: {}
+    Info_50:
+      Name: stories/caperucita_roja/images.esp
+      Dependencies: {}
+    Info_51:
+      Name: completar/pedroglobo2.esp
+      Dependencies: {}
+    Info_52:
+      Name: stories/genio_botella/images.esp
+      Dependencies: {}
+    Info_53:
+      Name: completar/zorrogallina2.esp
+      Dependencies: {}
+    Info_54:
+      Name: stories/risa_pajaros/images.esp
+      Dependencies: {}
+    Info_55:
+      Name: completar/conejo5.esp
+      Dependencies: {}
+    Info_56:
+      Name: stories/animales_de_dany/images.generic
+      Dependencies: {}
+    Info_57:
+      Name: stories/zorro_hornero/images.esp
+      Dependencies: {}
+    Info_58:
+      Name: completar/integracion3.esp
+      Dependencies: {}
+    Info_59:
+      Name: stories/conejo/images.esp
+      Dependencies: {}
+    Info_60:
+      Name: completar/risapajaros.esp
+      Dependencies: {}
+    Info_61:
+      Name: stories/pedro_globo/images.esp
+      Dependencies: {}
+    Info_62:
+      Name: completar/caperucital2.esp
+      Dependencies: {}
+    Info_63:
+      Name: completar/zorrohornero3.esp
+      Dependencies: {}
+    Info_64:
+      Name: stories/viaje_espacio/images.esp
+      Dependencies: {}
+    Info_65:
+      Name: completar/diapesca1.esp
+      Dependencies: {}
+    Info_66:
+      Name: completar/pedroglobo.esp
+      Dependencies: {}
+    Info_67:
+      Name: completar/baile2.esp
+      Dependencies: {}
+    Info_68:
+      Name: completar/zorrogallina.esp
+      Dependencies: {}
+    Info_69:
+      Name: completar/conejo4.esp
+      Dependencies: {}
+    Info_70:
+      Name: completar_qom/rulitos4.qom
+      Dependencies: {}
+    Info_71:
+      Name: completar/caperucital1.esp
+      Dependencies: {}
+    Info_72:
+      Name: completar/zorrohornero2.esp
+      Dependencies: {}
+    Info_73:
+      Name: completar/danyfamilia3.esp
+      Dependencies: {}
+    Info_74:
+      Name: stories/familia_dany/images.generic
+      Dependencies: {}
+    Info_75:
+      Name: stories/que_susto/images.esp
+      Dependencies: {}
+    Info_76:
+      Name: completar/conejo3.esp
+      Dependencies: {}
+    Info_77:
+      Name: completar_qom/liebretortuga4.qom
+      Dependencies: {}
+    Info_78:
+      Name: completar/geniobotella.esp
+      Dependencies: {}
+    Info_79:
+      Name: ordenar_qom.qom
+      Dependencies: {}
+    Info_80:
+      Name: completar/zorrogallina5.esp
+      Dependencies: {}
+    Info_81:
+      Name: completar/malevo.esp
+      Dependencies: {}
+    Info_82:
+      Name: completar/viajeespacio2.esp
+      Dependencies: {}
+    Info_83:
+      Name: completar/conejo2.esp
+      Dependencies: {}
+    Info_84:
+      Name: completar/piratascantores2.esp
+      Dependencies: {}
+    Info_85:
+      Name: completar/danyamigos2.esp
+      Dependencies: {}
+    Info_86:
+      Name: completar/viajeespacio.esp
+      Dependencies: {}
+    Info_87:
+      Name: completar_qom/caperucitaq2.qom
+      Dependencies: {}
+    Info_88:
+      Name: completar/diapesca3.esp
+      Dependencies: {}
+    Info_89:
+      Name: completar/bichobolita2.esp
+      Dependencies: {}
+    Info_90:
+      Name: completar/danyamigos.esp
+      Dependencies: {}
+    Info_91:
+      Name: completar/rulitos.esp
+      Dependencies: {}
+    Info_92:
+      Name: completar/caperucital2pt2.esp
+      Dependencies: {}
+    Info_93:
+      Name: completar/zorrohornero4.esp
+      Dependencies: {}
+    Info_94:
+      Name: completar/integracion2.esp
+      Dependencies: {}
+    Info_95:
+      Name: stories/viaje_espacio/audios.esp
+      Dependencies: {}
+    Info_96:
+      Name: completar/diapesca.esp
+      Dependencies: {}
+    Info_97:
+      Name: completar/malevo3.esp
+      Dependencies: {}
+    Info_98:
+      Name: completar/baile.esp
+      Dependencies: {}
+    Info_99:
+      Name: completar/zapallogigante2.esp
       Dependencies: {}
     Info_100:
       Name: stories/familia_dany/audios.esp

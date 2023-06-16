@@ -51,16 +51,21 @@ public class ImagenPalabras : ScreenMain
         ShowContent(true);
         ok_word = content[0];
 
-        // la actividad se debe repetir dos veces, primero en minuscula y segundo en mayuscula
-        if (gameID > 0 && gameID%2 == 0) 
+        // la actividad se debe repetir dos veces, primero en minuscula y segundo en mayuscula (salvo en L1 - tip leer)
+        if (tipContent.id != "tip_leer")
         {
-            mayus = true;
+            if (gameID > 0 && gameID % 2 == 0)
+            {
+                mayus = true;
+            }
+            else
+            {
+                mayus = false;
+            }
         }
         else
-        {
             mayus = false;
-        }
-
+        
         Sprite sprite = Data.Instance.assetsData.GetContent(ok_word).sprite;
         imageCard.sprite = sprite;
         if (sprite == null) Events.Log("No hay asset para " + content[0]);

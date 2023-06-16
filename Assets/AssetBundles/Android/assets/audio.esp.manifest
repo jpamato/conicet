@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 265345380
+CRC: 736309351
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 73a7157e34674f14dafc86d08050c6a4
+    Hash: 4f2434751c40b0b49794a6ba289095db
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
@@ -193,6 +193,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/vecinosCargaron.wav
 - Assets/Resuources_in_bundles/assets/audio/leche.wav
 - Assets/Resuources_in_bundles/assets/audio/naranja.wav
+- Assets/Resuources_in_bundles/assets/audio/loro_avion_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_silla_final.wav
 - Assets/Resuources_in_bundles/assets/audio/perroAfueraCaja.wav
 - Assets/Resuources_in_bundles/assets/audio/loro_collar_final.wav
@@ -416,6 +417,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_flor_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/posiciones_bichos_4.wav
 - Assets/Resuources_in_bundles/assets/audio/albahaca.wav
+- Assets/Resuources_in_bundles/assets/audio/empanada.wav
 - Assets/Resuources_in_bundles/assets/audio/chivitoAfuera.wav
 - Assets/Resuources_in_bundles/assets/audio/osoHormiguero_2.wav
 - Assets/Resuources_in_bundles/assets/audio/oso_hormiguero1.wav
@@ -603,7 +605,6 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/carlota.wav
 - Assets/Resuources_in_bundles/assets/audio/cazador.wav
 - Assets/Resuources_in_bundles/assets/audio/arbol_invierno.wav
-- Assets/Resuources_in_bundles/assets/audio/abeja_mediana.wav
 - Assets/Resuources_in_bundles/assets/audio/mano.wav
 - Assets/Resuources_in_bundles/assets/audio/cuchilloGrandeAmarillo.wav
 - Assets/Resuources_in_bundles/assets/audio/hornero.wav
@@ -613,6 +614,7 @@ Assets:
 - Assets/Resuources_in_bundles/assets/audio/loro_ojota_inicio.wav
 - Assets/Resuources_in_bundles/assets/audio/vaso.wav
 - Assets/Resuources_in_bundles/assets/audio/camion.wav
+- Assets/Resuources_in_bundles/assets/audio/abeja_mediana.wav
 - Assets/Resuources_in_bundles/assets/audio/mono_chico_amarillo.wav
 - Assets/Resuources_in_bundles/assets/audio/pelota_silaba.wav
 - Assets/Resuources_in_bundles/assets/audio/rincon.wav
