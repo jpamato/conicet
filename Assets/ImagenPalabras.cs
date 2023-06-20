@@ -55,13 +55,9 @@ public class ImagenPalabras : ScreenMain
         if (tipContent.id != "tip_leer")
         {
             if (gameID > 0 && gameID % 2 == 0)
-            {
                 mayus = true;
-            }
             else
-            {
                 mayus = false;
-            }
         }
         else
             mayus = false;

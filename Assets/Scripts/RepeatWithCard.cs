@@ -78,7 +78,7 @@ public class RepeatWithCard : ScreenMain
     }
 
     public string characterName = "";
-    public string audio_text = ""; // TODO: No se estaria viendo el texto. Donde se muestra este texto?
+    public string audio_text = "";
     void AddCard()
     {
         print(content.Count);

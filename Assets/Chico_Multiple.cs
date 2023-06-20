@@ -145,7 +145,7 @@ public class Chico_Multiple : ScreenMain
     }
     void OnReadyClicked()
     {
-        Utils.RemoveAllChildsIn(container); // TODO: Test. Not sure if next activity needs it to be empty.
+        Utils.RemoveAllChildsIn(container);
         OnComplete();
         Events.OnGoto(true);
     }

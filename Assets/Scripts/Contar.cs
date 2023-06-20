@@ -123,12 +123,10 @@ public class Contar : ScreenMain
     }
 
     // Check if the word is a femenine or masculine noun
-    // NOTE:
-    // No es 100% preciso ya que los sustantivos que terminan con "-a" no son siempre femeninos, pero funciona para los casos en el juego.
-    // También se complica en sustantivos que terminan con "-e". El unico caso presente en el juego se hard codea por cuestión de simplicidad.
+    // NOTE: No es 100% preciso a nivel de lenguaje español la relación entre género sustantivo y terminación de la palabra (-"a", -"e").
     bool isFemenineNoun(string _word)
     {
-        // Cuando el tip es contar, la consigna define "objeto" en la consigna.
+        // Cuando el tip es contar, la consigna define como sustantivo la palabra "objeto".
         if (tipContent.id == "tip_contar")
             _word = "objeto";
 
@@ -142,10 +140,10 @@ public class Contar : ScreenMain
         if (word.EndsWith("a"))
             return true;
 
-        // Add femenine suffix if noun is femenine (defined by ending in "-e"). These words require to be hard coded.
+        // Add femenine suffix if noun is femenine (defined by ending in "-e")
         if (word.EndsWith("e"))
         {
-            if (word.Equals("nube"))
+            if (word.Equals("nube")) // only current exception in the game. New cases should be added here.
                 return true;
         }
 
