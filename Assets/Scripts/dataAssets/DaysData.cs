@@ -48,6 +48,9 @@ public class DaysData : DataLoader
         Content contentLine = null;
         TimelineTextData textData = null;
         GameData gameData = new GameData();
+        content.Clear(); // Vaciar la lista de contenido antes de popularla con los nuevos datos. De lo contrario, se agregan nuevos dias cada vez que se actualiza en el modo offline.
+                         // NOTA: Soluciona el problema que menciona el cliente respecto al indice, pero no corroboré bien que no genere problemas.
+                         // Estaría bueno que revises que esté bien ésta solución @jpamato
         foreach (SpreadsheetLoader.Line line in d)
         {
             foreach (string value in line.data)
