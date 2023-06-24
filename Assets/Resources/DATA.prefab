@@ -53,9 +53,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef07923da58ebb04992109be5cc70738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: http://yaguar.xyz/huoona/AssetBundles/
+  url: http://ciipme-voc.wnpower.host/huoona/AssetBundles/
   lang: 2
   dificult: 0
+  predownloading: 0
   DEBUG: 1
   initialActivity: 0
   lastScene: 
@@ -67,6 +68,7 @@ MonoBehaviour:
   gamesData: {fileID: 0}
   textsData: {fileID: 0}
   userData: {fileID: 0}
+  cacheManager: {fileID: 0}
   audioSpectrum: {fileID: 1987091315}
   allLoaded: 0
   mode: 0
