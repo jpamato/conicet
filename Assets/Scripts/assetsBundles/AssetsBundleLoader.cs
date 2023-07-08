@@ -244,7 +244,7 @@ namespace Conicet.AssetsBundle
         {
             Events.OnLoading(uri);
             string realURL = url + uri;
-            Debug.Log("Load: " + realURL);
+            //Debug.Log("Load: " + realURL);
             UnityWebRequest uwr = UnityWebRequestAssetBundle.GetAssetBundle(realURL, hash);
            
             var cert = new ForceAcceptAll();
@@ -266,8 +266,9 @@ namespace Conicet.AssetsBundle
 
                     if (bundles == null)
                         bundles = new Dictionary<string, AssetBundle>();
-                    bundles.Add(uri, bundle);
-                    Debug.Log("# " + uri + ": " + hash.ToString());
+                    if(!bundles.ContainsKey(uri))
+                        bundles.Add(uri, bundle);
+                    //Debug.Log("# " + uri + ": " + hash.ToString());
                     PlayerPrefs.SetString(uri + "_hash", hash.ToString());
                     OnLoaded(true);
                     // bundle.Unload(false);

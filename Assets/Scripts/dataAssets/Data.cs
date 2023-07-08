@@ -113,8 +113,9 @@ public class Data : MonoBehaviour
     {
         dataLoaded = 0;
         allLoaded = false;
-        foreach (DataLoader dl in allDataFiles)
-            dl.Reset();
+        if(allDataFiles!=null)
+            foreach (DataLoader dl in allDataFiles)
+                dl.Reset();
     }
     public void LoadAll()
     {

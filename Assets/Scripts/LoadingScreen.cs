@@ -61,6 +61,7 @@ public class LoadingScreen : MonoBehaviour {
         loading.gameObject.SetActive(false);
     }
     public void GotoSplash() {
+        Events.ResetApp();
         UnityEngine.SceneManagement.SceneManager.LoadScene("Splash");
     }
 
@@ -69,6 +70,7 @@ public class LoadingScreen : MonoBehaviour {
     }
 
     public void DownloadData(int langIndex) {
+        Events.ResetApp();
         downloadBtns[langIndex].interactable = false;
         allDownloadItems.SetActive(false);
         loadingAsset.SetActive(true);

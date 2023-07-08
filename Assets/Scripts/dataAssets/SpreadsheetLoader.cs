@@ -58,7 +58,7 @@ public class SpreadsheetLoader : MonoBehaviour
     public void CreateListFromFile(string text, System.Action<List<Line>> onDone)
     {
         Debug.Log("#CreateListFromFile");
-        Debug.Log(text);
+        //Debug.Log(text);
         string[] lines = text.Split("\n"[0]);
         List<Line> arr = new List<Line>();
         foreach (string line in lines)
